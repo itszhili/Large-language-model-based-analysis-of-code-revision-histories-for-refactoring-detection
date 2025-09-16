@@ -1,0 +1,214 @@
+[
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "bdist_egg",
+        "Updated": "_bdist_wheel",
+        "Location": "setup.py",
+        "Description": " class bdist_egg was renamed to class _bdist_wheel ",
+        "Commit": "1bc0aeae29ef945f825a4be1d6e23922a18cd70a"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "re_match",
+        "Updated": "regex_match",
+        "Location": "dragonfire/__init__.py/VirtualAssistant",
+        "Original Line": 120,
+        "Updated Line": 120,
+        "Description": [
+            "The method re_match from the module dragonfire/__init__.py in class VirtualAssistant is renamed to regex_match"
+        ],
+        "Commit": "1dd3ae08e338f696c425043897edebca2bb72dae"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "HearingPerception",
+        "Updated": "SpeechRecognition",
+        "Location": "dragonfire/sr/__init__.py",
+        "Description": " class HearingPerception was renamed to class SpeechRecognition ",
+        "Commit": "2a073a77cd3d7ddd1eb8b8dc421a7ca4e6f79627"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "TTA",
+        "Updated": "TextToAction",
+        "Location": "dragonfire/utilities.py",
+        "Description": " class TTA was renamed to class TextToAction ",
+        "Commit": "2b7ea5c0a3e9f45fd79dd746317ce50996636e77"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "_sdist",
+        "Updated": "PostInstallegg_info",
+        "Location": "setup.py",
+        "Description": " class _sdist was renamed to class PostInstallegg_info ",
+        "Commit": "3442ff16aedddf20930e07ee757dfac67d7fc76d"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "nostdout",
+        "Updated": "nostdout",
+        "Old Location": "dragonfire/omniscient.py",
+        "New Location": "dragonfire/utilities.py",
+        "Old Method Line": 297,
+        "New Method Line": 147,
+        "Description": " method nostdout from the module dragonfire/omniscient.py was moved to module dragonfire/utilities.py ",
+        "Commit": "3edbd056eb16e0296f766241fec2b57fb9d89545"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "nostderr",
+        "Updated": "nostderr",
+        "Old Location": "dragonfire/omniscient.py",
+        "New Location": "dragonfire/utilities.py",
+        "Old Method Line": 305,
+        "New Method Line": 155,
+        "Description": " method nostderr from the module dragonfire/omniscient.py was moved to module dragonfire/utilities.py ",
+        "Commit": "3edbd056eb16e0296f766241fec2b57fb9d89545"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "dragonfire/learn.py/Learn",
+        "Original Line": 11,
+        "Updated Line": 10,
+        "Description": [
+            "The parameters [ nlp ] are added to the method __init__ from the module dragonfire/learn.py in class Learn"
+        ],
+        "Commit": "4f80ce0d645ef58386f31c0dfcacb2c57d510f02"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "dragonfire/omniscient.py/Engine",
+        "Original Line": 24,
+        "Updated Line": 23,
+        "Description": [
+            "The parameters [ nlp ] are added to the method __init__ from the module dragonfire/omniscient.py in class Engine"
+        ],
+        "Commit": "4f80ce0d645ef58386f31c0dfcacb2c57d510f02"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "dragonfire/api.py/Run",
+        "Original Line": 274,
+        "Updated Line": 274,
+        "Description": [
+            "The parameters [ port_number ] are added to the method __init__ from the module dragonfire/api.py in class Run"
+        ],
+        "Commit": "563961d07c6f1c1e25c54a4aa97498d89fc85c72"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "dragonfire/api.py/Run",
+        "Original Line": 101,
+        "Updated Line": 110,
+        "Description": [
+            "The parameters [ userinRef ] are added to the method __init__ from the module dragonfire/api.py in class Run"
+        ],
+        "Commit": "5eaaad62a216ce9ebb11ee1323414eee79567141"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "dragonfire/api.py/Run",
+        "Original Line": 508,
+        "Updated Line": 508,
+        "Description": [
+            "The parameters [ dont_block ] are added to the method __init__ from the module dragonfire/api.py in class Run"
+        ],
+        "Commit": "79c690c80a5ad4af0af2af4b9b63c65dd17f7281"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "dragonfire/api.py/Run",
+        "Original Line": 274,
+        "Updated Line": 271,
+        "Description": [
+            "The parameters [ learner_ref omniscient_ref dc_ref ] are added to the method __init__ from the module dragonfire/api.py in class Run"
+        ],
+        "Commit": "8498954458daa9d5d451ec205e11ae81a96672dc"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "dragonfire/api.py/Run",
+        "Original Line": 119,
+        "Updated Line": 125,
+        "Description": [
+            "The parameters [ token ] are added to the method __init__ from the module dragonfire/api.py in class Run"
+        ],
+        "Commit": "90707f843b53df3e9f0c1fff417addb2cdd26e9c"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "dragonfire/coref.py/NeuralCoref",
+        "Original Line": 21,
+        "Updated Line": 21,
+        "Description": [
+            "The parameters [ nlp ] are added to the method __init__ from the module dragonfire/coref.py in class NeuralCoref"
+        ],
+        "Commit": "b5144bcabb325c452bfd46c48c4b4b21de5c1a50"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "Learn",
+        "Updated": "Learner",
+        "Location": "dragonfire/learn.py",
+        "Description": " class Learn was renamed to class Learner ",
+        "Commit": "b7c1fd528a5e1e713ecaa01bd745b07f27041283"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "Classifiers",
+        "Updated": "Classifier",
+        "Location": "dragonfire/nlplib.py",
+        "Description": " class Classifiers was renamed to class Classifier ",
+        "Commit": "b7c1fd528a5e1e713ecaa01bd745b07f27041283"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "Engine",
+        "Updated": "Omniscient",
+        "Location": "dragonfire/omniscient.py",
+        "Description": " class Engine was renamed to class Omniscient ",
+        "Commit": "c51bc3d89a77d6ceb04e3ce99100805a5b76c6b0"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "KaldiRecognizer",
+        "Updated": "DeepSpeechRecognizer",
+        "Location": "dragonfire/sr/deepspeech/__init__.py",
+        "Description": " class KaldiRecognizer was renamed to class DeepSpeechRecognizer ",
+        "Commit": "fe01278cc89dc813b236eedbc1b0b109fdae90a9"
+    }
+]

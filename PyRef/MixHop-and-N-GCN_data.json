@@ -1,0 +1,30 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "src/trainer_and_networks.py/Trainer",
+        "Original Line": 108,
+        "Updated Line": 121,
+        "Description": [
+            "The parameters [ base_run ] are added to the method __init__ from the module src/trainer_and_networks.py in class Trainer"
+        ],
+        "Commit": "19ff39f41fecfb12f14dc95eb49148f1f29859cc"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "__init__",
+        "Updated": "calculate_layer_sizes",
+        "Location": "src/trainer_and_networks.py/MixHopNetwork",
+        "Original Method Line": "(48,48)",
+        "Extracted/Inlined Method Line": 56,
+        "Extracted/Inlined Lines": [
+            52.0,
+            54.0
+        ],
+        "Description": " The method calculate_layer_sizes from the module src/trainer_and_networks.py in class MixHopNetwork is extracted from method __init__ from the module src/trainer_and_networks.py in class MixHopNetwork ",
+        "Commit": "2548f94a232e0bb1c1c0885541d3c906f403eff1"
+    }
+]

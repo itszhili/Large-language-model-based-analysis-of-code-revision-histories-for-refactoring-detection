@@ -1,0 +1,38 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "rrcf/rrcf.py/Branch",
+        "Original Line": 201,
+        "Updated Line": 269,
+        "Description": [
+            "The parameters [ n ] are added to the method __init__ from the module rrcf/rrcf.py in class Branch"
+        ],
+        "Commit": "6954a512ced5506c889557f06250effc1573c868"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "rrcf/rrcf.py/Leaf",
+        "Original Line": 210,
+        "Updated Line": 279,
+        "Description": [
+            "The parameters [ n ] are added to the method __init__ from the module rrcf/rrcf.py in class Leaf"
+        ],
+        "Commit": "6954a512ced5506c889557f06250effc1573c868"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "Tree",
+        "Updated": "RCTree",
+        "Location": "rrcf/rrcf.py",
+        "Description": " class Tree was renamed to class RCTree ",
+        "Commit": "c4fae4436b31033a430f85d9a735927a97b696ee"
+    }
+]

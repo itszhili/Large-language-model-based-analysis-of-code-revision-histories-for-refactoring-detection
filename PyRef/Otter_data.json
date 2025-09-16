@@ -1,0 +1,215 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "merge",
+        "Updated": "merge",
+        "Location": "ofa_compress/data_utils/ofa_dataset.py",
+        "Original Line": 85,
+        "Updated Line": 85,
+        "Description": [
+            "The parameters [ pad_idx ] are added to the method merge from the module ofa_compress/data_utils/ofa_dataset.py"
+        ],
+        "Commit": "0a3b668306b4e300aeec5a2f6c2d2e1bf09eb0c1"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "FlamingoPretrainedModel",
+        "Updated": "FlamingoPreTrainedModel",
+        "Location": "flamingo_hf/modeling_flamingo.py",
+        "Description": " class FlamingoPretrainedModel was renamed to class FlamingoPreTrainedModel ",
+        "Commit": "248b66c26416929744747e6c3775a80785802807"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "collie_core/src/collie.py/Flamingo",
+        "Original Line": 9,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ only_attend_previous ] are added to the method __init__ from the module collie_core/src/collie.py in class Flamingo"
+        ],
+        "Commit": "25d315068dc35aaab0a923418df20b7dffb83eb6"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "init_flamingo",
+        "Updated": "init_flamingo",
+        "Location": "collie_core/src/collie_lm.py/FlamingoLMMixin",
+        "Original Line": 74,
+        "Updated Line": 74,
+        "Description": [
+            "The parameters [ only_attend_previous ] are added to the method init_flamingo from the module collie_core/src/collie_lm.py in class FlamingoLMMixin"
+        ],
+        "Commit": "25d315068dc35aaab0a923418df20b7dffb83eb6"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "init_otter",
+        "Updated": "init_otter",
+        "Location": "otter_hf/modeling_otter.py/OtterLMMixin",
+        "Original Line": 429,
+        "Updated Line": 433,
+        "Description": [
+            "The parameters [ only_attend_previous ] are added to the method init_otter from the module otter_hf/modeling_otter.py in class OtterLMMixin"
+        ],
+        "Commit": "4538feca38947d5053fbeb24a49f3c2bce42b815"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "forward",
+        "Updated": "forward",
+        "Location": "open_flamingo/src/flamingo_hf.py/FlamingoPreTrainedModel",
+        "Original Line": 63,
+        "Updated Line": 78,
+        "Description": [
+            "The parameters [ input ] of the method forward from the module open_flamingo/src/flamingo_hf.py in class FlamingoPreTrainedModel is/are removed"
+        ],
+        "Commit": "6904c62b40cc408c4b14a4ee676eb7fa6bfd65a6"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pipeline/multi_instruct_data_utils/multi_instruct_dataset.py/MultiInstructDataset",
+        "Original Line": 41,
+        "Updated Line": 41,
+        "Description": [
+            "The parameters [ dataset ] of the method __init__ from the module pipeline/multi_instruct_data_utils/multi_instruct_dataset.py in class MultiInstructDataset is/are removed"
+        ],
+        "Commit": "9d165ff4e0b1f017949d333ec010cb36a5a303a1"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "get_data",
+        "Updated": "get_data",
+        "Location": "pipeline/train/data.py",
+        "Original Line": 742,
+        "Updated Line": 743,
+        "Description": [
+            "The parameters [ image_processor ] of the method get_data from the module pipeline/train/data.py is/are removed"
+        ],
+        "Commit": "9d165ff4e0b1f017949d333ec010cb36a5a303a1"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "get_multi_instruction_dataset",
+        "Updated": "get_multi_instruction_dataset",
+        "Location": "pipeline/train/data.py",
+        "Original Line": 673,
+        "Updated Line": 673,
+        "Description": [
+            "The parameters [ image_processor ] of the method get_multi_instruction_dataset from the module pipeline/train/data.py is/are removed"
+        ],
+        "Commit": "9d165ff4e0b1f017949d333ec010cb36a5a303a1"
+    },
+    {
+        "Refactoring Type": "Push Down Method",
+        "Original": "__len__",
+        "Updated": "__len__",
+        "Old Location": "pipeline/multi_instruct_data_utils/multi_instruct_dataset.py/MultiInstructDataset",
+        "New Location": "pipeline/multi_instruct_data_utils/unify_dataset.py/UnifyDataset",
+        "Old Method Line": 52,
+        "New Method Line": 294,
+        "Description": " method __len__ from the module pipeline/multi_instruct_data_utils/multi_instruct_dataset.py in class MultiInstructDataset was moved to class UnifyDataset of module pipeline/multi_instruct_data_utils/unify_dataset.py ",
+        "Commit": "9d165ff4e0b1f017949d333ec010cb36a5a303a1"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "PerceiverBlock",
+        "Updated": "FlamingoPerceiverBlock",
+        "Location": "flamingo_hf/modeling_flamingo.py",
+        "Description": " class PerceiverBlock was renamed to class FlamingoPerceiverBlock ",
+        "Commit": "bf02d0aae928983cbd5a18780488d6f56817f3d6"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "PerceiverResampler",
+        "Updated": "FlamingoPerceiverResampler",
+        "Location": "flamingo_hf/modeling_flamingo.py",
+        "Description": " class PerceiverResampler was renamed to class FlamingoPerceiverResampler ",
+        "Commit": "bf02d0aae928983cbd5a18780488d6f56817f3d6"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "MaskedCrossAttention",
+        "Updated": "FlamingoMaskedCrossAttention",
+        "Location": "flamingo_hf/modeling_flamingo.py",
+        "Description": " class MaskedCrossAttention was renamed to class FlamingoMaskedCrossAttention ",
+        "Commit": "bf02d0aae928983cbd5a18780488d6f56817f3d6"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "GatedCrossAttentionBlock",
+        "Updated": "FlamingoGatedCrossAttentionBlock",
+        "Location": "flamingo_hf/modeling_flamingo.py",
+        "Description": " class GatedCrossAttentionBlock was renamed to class FlamingoGatedCrossAttentionBlock ",
+        "Commit": "bf02d0aae928983cbd5a18780488d6f56817f3d6"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pipeline/multi_instruct_data_utils/unify_dataset.py/UnifyDataset",
+        "Original Line": 55,
+        "Updated Line": 55,
+        "Description": [
+            "The parameters [ dataset ] of the method __init__ from the module pipeline/multi_instruct_data_utils/unify_dataset.py in class UnifyDataset is/are removed"
+        ],
+        "Commit": "c9b261d9dc081dc189f85c485c0a924e11ae02ac"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "FlamingoPretrainedModel",
+        "Updated": "FlamingoPreTrainedModel",
+        "Location": "flamingo_hf/modeling_flamingo.py",
+        "Description": " class FlamingoPretrainedModel was renamed to class FlamingoPreTrainedModel ",
+        "Commit": "d9e926ee3a189024d6caaeddea3d9949bbb7887d"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "set_input_embeddings",
+        "Updated": "set_input_embeddings",
+        "Location": "flamingo_hf/modeling_flamingo.py/FlamingoModel",
+        "Original Line": 549,
+        "Updated Line": 552,
+        "Description": [
+            "The parameters [ value ] of the method set_input_embeddings from the module flamingo_hf/modeling_flamingo.py in class FlamingoModel are changed/renamed to [new_embeddings]"
+        ],
+        "Commit": "eef3e9e8084af80342c76bec47fd7e963144f379"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "set_input_embeddings",
+        "Updated": "set_input_embeddings",
+        "Location": "flamingo_hf/modeling_flamingo.py/FlamingoForConditionalGeneration",
+        "Original Line": 717,
+        "Updated Line": 726,
+        "Description": [
+            "The parameters [ value ] of the method set_input_embeddings from the module flamingo_hf/modeling_flamingo.py in class FlamingoForConditionalGeneration are changed/renamed to [new_embeddings]"
+        ],
+        "Commit": "eef3e9e8084af80342c76bec47fd7e963144f379"
+    }
+]

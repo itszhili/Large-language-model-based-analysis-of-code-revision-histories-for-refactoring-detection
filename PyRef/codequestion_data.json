@@ -1,0 +1,16 @@
+[
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "run",
+        "Updated": "run",
+        "Location": "src/python/codequestion/query.py/Query",
+        "Original Line": 185,
+        "Updated Line": 201,
+        "Description": [
+            "The parameters [ query ] of the method run from the module src/python/codequestion/query.py in class Query is/are removed"
+        ],
+        "Commit": "ab14bc967f5e1713101fed8b2aaceb47b9bac89d"
+    }
+]

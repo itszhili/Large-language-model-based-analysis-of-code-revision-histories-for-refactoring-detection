@@ -1,0 +1,808 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "make_ensemble_model",
+        "Updated": "make_ensemble_model",
+        "Location": "tests/core/test_model.py",
+        "Original Line": 557,
+        "Updated Line": 596,
+        "Description": [
+            "The parameters [ n_components random_state ] are added to the method make_ensemble_model from the module tests/core/test_model.py"
+        ],
+        "Commit": "075aeee55ff93531d69615889b00929cbd8b2623",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "_build_outputs",
+        "Updated": "_build_outputs",
+        "Location": "baikal/core/step.py/Step",
+        "Original Line": 38,
+        "Updated Line": 38,
+        "Description": [
+            "The return type of method _build_outputs from the module baikal/core/step.py in class Step is updated"
+        ],
+        "Commit": "15b74931048d899fd05e1610f766dbd1b4eb197d",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "make_repr",
+        "Updated": "make_args_from_attrs",
+        "Location": "baikal/core/utils.py",
+        "Original Method Line": "(15,20)",
+        "Extracted/Inlined Method Line": 15,
+        "Extracted/Inlined Lines": [
+            16.0
+        ],
+        "Description": " The method make_args_from_attrs from the module baikal/core/utils.py is extracted from method make_repr from the module baikal/core/utils.py ",
+        "Commit": "2cc610d52a82c80be023dbe6500c26680eae9b4a",
+        "Category": "General"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "create_input",
+        "Updated": "Input",
+        "Location": "baikal/core.py",
+        "Original Line": 53,
+        "Updated Line": 61,
+        "Description": [
+            "The method create_input from the module baikal/core.py is renamed to Input"
+        ],
+        "Commit": "3304ec8bf2fe3f89d57101159129dbb4547f314a",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "Input",
+        "Updated": "InputNode",
+        "Location": "baikal/core.py",
+        "Description": " class Input was renamed to class InputNode ",
+        "Commit": "3304ec8bf2fe3f89d57101159129dbb4547f314a",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "transform",
+        "Updated": "transform",
+        "Location": "baikal/steps/merge.py/Concatenate",
+        "Original Line": 13,
+        "Updated Line": 13,
+        "Description": [
+            "The parameters [ Xs ] are added to the method transform from the module baikal/steps/merge.py in class Concatenate"
+        ],
+        "Commit": "3e69de5769a181f99c020b221d4725083a262406",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "transform",
+        "Updated": "transform",
+        "Location": "baikal/steps/merge.py/Stack",
+        "Original Line": 24,
+        "Updated Line": 24,
+        "Description": [
+            "The parameters [ Xs ] are added to the method transform from the module baikal/steps/merge.py in class Stack"
+        ],
+        "Commit": "3e69de5769a181f99c020b221d4725083a262406",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "transform",
+        "Updated": "transform",
+        "Location": "baikal/steps/merge.py/ColumnStack",
+        "Original Line": 34,
+        "Updated Line": 34,
+        "Description": [
+            "The parameters [ Xs ] are added to the method transform from the module baikal/steps/merge.py in class ColumnStack"
+        ],
+        "Commit": "3e69de5769a181f99c020b221d4725083a262406",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "transform",
+        "Updated": "transform",
+        "Location": "tests/helpers/dummy_steps.py/DummySISO",
+        "Original Line": 13,
+        "Updated Line": 13,
+        "Description": [
+            "The parameters [ x ] of the method transform from the module tests/helpers/dummy_steps.py in class DummySISO are changed/renamed to [X]"
+        ],
+        "Commit": "3e69de5769a181f99c020b221d4725083a262406",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "transform",
+        "Updated": "transform",
+        "Location": "tests/helpers/dummy_steps.py/DummySIMO",
+        "Original Line": 24,
+        "Updated Line": 24,
+        "Description": [
+            "The parameters [ x ] of the method transform from the module tests/helpers/dummy_steps.py in class DummySIMO are changed/renamed to [X]"
+        ],
+        "Commit": "3e69de5769a181f99c020b221d4725083a262406",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "transform",
+        "Updated": "transform",
+        "Location": "tests/helpers/dummy_steps.py/DummyImproperlyDefined",
+        "Original Line": 60,
+        "Updated Line": 67,
+        "Description": [
+            "The parameters [ x ] of the method transform from the module tests/helpers/dummy_steps.py in class DummyImproperlyDefined are changed/renamed to [X]"
+        ],
+        "Commit": "3e69de5769a181f99c020b221d4725083a262406",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "_EstimatorPrettyPrinter",
+        "Updated": "_StepPrettyPrinter",
+        "Location": "baikal/_core/pprint.py",
+        "Description": " class _EstimatorPrettyPrinter was renamed to class _StepPrettyPrinter ",
+        "Commit": "40840b04bddca93aee99bafe73d8a7667e1bbbd9",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "baikal/core/data.py/Data",
+        "Original Line": 9,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ node ] of the method __init__ from the module baikal/core/data.py in class Data are changed/renamed to [step]"
+        ],
+        "Commit": "42eae126ee4ce21f9c1fcb05c3d7fd2c7050722a",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "InputNode",
+        "Updated": "InputStep",
+        "Location": "baikal/core/step.py",
+        "Description": " class InputNode was renamed to class InputStep ",
+        "Commit": "42eae126ee4ce21f9c1fcb05c3d7fd2c7050722a",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "baikal/core.py/Data",
+        "Original Line": 36,
+        "Updated Line": 93,
+        "Description": [
+            "The parameters [ node ] are added to the method __init__ from the module baikal/core.py in class Data"
+        ],
+        "Commit": "4666552e781e35ab7f0834aa502982e949b42ae0",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "baikal/steps/factory.py",
+        "Original Line": 34,
+        "Updated Line": 34,
+        "Description": [
+            "The parameters [ function trainable ] of the method __init__ from the module baikal/steps/factory.py is/are removed"
+        ],
+        "Commit": "56433c433b0ee30bef17ed351e448b4f972cc38a",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "baikal/_core/data_placeholder.py/DataPlaceholder",
+        "Original Line": 21,
+        "Updated Line": 21,
+        "Description": [
+            "The parameters [ node_index ] are added to the method __init__ from the module baikal/_core/data_placeholder.py in class DataPlaceholder"
+        ],
+        "Commit": "5ad86bac350e13e421c91a5cf85b8e3bd0e0ff92",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "make_ensemble_model",
+        "Updated": "make_naive_stacked_model",
+        "Location": "tests/_core/test_model.py",
+        "Original Line": 1013,
+        "Updated Line": 1009,
+        "Description": [
+            "The method make_ensemble_model from the module tests/_core/test_model.py is renamed to make_naive_stacked_model"
+        ],
+        "Commit": "6f031737285c791f51505db7a501438b40d27023",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_fit_predict_ensemble",
+        "Updated": "test_fit_predict_naive_stack",
+        "Location": "tests/_core/test_model.py",
+        "Original Line": 641,
+        "Updated Line": 641,
+        "Description": [
+            "The method test_fit_predict_ensemble from the module tests/_core/test_model.py is renamed to test_fit_predict_naive_stack"
+        ],
+        "Commit": "6f031737285c791f51505db7a501438b40d27023",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_fit_predict_ensemble_with_proba_features",
+        "Updated": "test_fit_predict_naive_stack_with_proba_features",
+        "Location": "tests/_core/test_model.py",
+        "Original Line": 680,
+        "Updated Line": 680,
+        "Description": [
+            "The method test_fit_predict_ensemble_with_proba_features from the module tests/_core/test_model.py is renamed to test_fit_predict_naive_stack_with_proba_features"
+        ],
+        "Commit": "6f031737285c791f51505db7a501438b40d27023",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_nested_model_ensemble",
+        "Updated": "test_nested_model_stack",
+        "Location": "tests/_core/test_model.py",
+        "Original Line": 754,
+        "Updated Line": 754,
+        "Description": [
+            "The method test_nested_model_ensemble from the module tests/_core/test_model.py is renamed to test_nested_model_stack"
+        ],
+        "Commit": "6f031737285c791f51505db7a501438b40d27023",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_model_joblib_serialization",
+        "Updated": "test_model_joblib_serialization",
+        "Location": "tests/_core/test_model.py",
+        "Original Line": 495,
+        "Updated Line": 498,
+        "Description": [
+            "The parameters [ dump load ] are added to the method test_model_joblib_serialization from the module tests/_core/test_model.py"
+        ],
+        "Commit": "775342c5016f52db7ed233075c235b01c68bd7fa",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_plot_model",
+        "Updated": "test_plot_big_model",
+        "Location": "tests/test_plot.py",
+        "Original Line": 21,
+        "Updated Line": 79,
+        "Description": [
+            "The method test_plot_model from the module tests/test_plot.py is renamed to test_plot_big_model"
+        ],
+        "Commit": "827e4bb0f0bf447162025264a24ab9b57956da05",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_call",
+        "Updated": "test_call",
+        "Location": "tests/test_core.py/TestProcessorMixin",
+        "Original Line": 44,
+        "Updated Line": 52,
+        "Description": [
+            "The parameters [ extended_sklearn_class ] are added to the method test_call from the module tests/test_core.py in class TestProcessorMixin"
+        ],
+        "Commit": "991c1cd5f2c5191bd8eeb14fdaee700426aefd52",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_instantiate_two_with_same_name",
+        "Updated": "test_instantiate_two_with_same_name",
+        "Location": "tests/test_core.py/TestProcessorMixin",
+        "Original Line": 55,
+        "Updated Line": 77,
+        "Description": [
+            "The parameters [ extended_sklearn_class ] are added to the method test_instantiate_two_with_same_name from the module tests/test_core.py in class TestProcessorMixin"
+        ],
+        "Commit": "991c1cd5f2c5191bd8eeb14fdaee700426aefd52",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_instantiate_two_without_name",
+        "Updated": "test_instantiate_two_without_name",
+        "Location": "tests/test_core.py/TestProcessorMixin",
+        "Original Line": 62,
+        "Updated Line": 85,
+        "Description": [
+            "The parameters [ extended_sklearn_class ] are added to the method test_instantiate_two_without_name from the module tests/test_core.py in class TestProcessorMixin"
+        ],
+        "Commit": "991c1cd5f2c5191bd8eeb14fdaee700426aefd52",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "LogisticRegression",
+        "Updated": "MIMOProcessor",
+        "Location": "tests/test_core.py",
+        "Description": " class LogisticRegression was renamed to class MIMOProcessor ",
+        "Commit": "991c1cd5f2c5191bd8eeb14fdaee700426aefd52",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "baikal/steps/expression.py/Lambda",
+        "Original Line": 45,
+        "Updated Line": 47,
+        "Description": [
+            "The parameters [ function ] of the method __init__ from the module baikal/steps/expression.py in class Lambda are changed/renamed to [compute_func]"
+        ],
+        "Commit": "9b35f2263ef71068083e44af1b6c70a6c5757c23",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "function",
+        "Updated": "compute_func",
+        "Location": "tests/steps/test_expression.py",
+        "Original Line": 11,
+        "Updated Line": 13,
+        "Description": [
+            "The method function from the module tests/steps/test_expression.py is renamed to compute_func"
+        ],
+        "Commit": "9b35f2263ef71068083e44af1b6c70a6c5757c23",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "baikal/steps/factory.py",
+        "Original Line": 48,
+        "Updated Line": 48,
+        "Description": [
+            "The parameters [ name n_outputs ] of the method __init__ from the module baikal/steps/factory.py is/are removed"
+        ],
+        "Commit": "ab27aafd3e709f03cc8c5816626f3b6821a217ed",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "baikal/core.py/InputNode",
+        "Original Line": 82,
+        "Updated Line": 101,
+        "Description": [
+            "The parameters [ shape ] are added to the method __init__ from the module baikal/core.py in class InputNode"
+        ],
+        "Commit": "adf7ce226904348b22f5dcc8735887112eb3874f",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "Input",
+        "Updated": "Input",
+        "Location": "baikal/core.py",
+        "Original Line": 88,
+        "Updated Line": 106,
+        "Description": [
+            "The parameters [ shape ] are added to the method Input from the module baikal/core.py"
+        ],
+        "Commit": "adf7ce226904348b22f5dcc8735887112eb3874f",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "get_inputs_at",
+        "Updated": "get_inputs_at",
+        "Location": "baikal/_core/step.py/_StepBase",
+        "Original Line": 109,
+        "Updated Line": 209,
+        "Description": [
+            "The return type of method get_inputs_at from the module baikal/_core/step.py in class _StepBase is updated"
+        ],
+        "Commit": "bbc962750026f16572f88456903f2b1ced3b23c3",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "get_outputs_at",
+        "Updated": "get_outputs_at",
+        "Location": "baikal/_core/step.py/_StepBase",
+        "Original Line": 112,
+        "Updated Line": 223,
+        "Description": [
+            "The return type of method get_outputs_at from the module baikal/_core/step.py in class _StepBase is updated"
+        ],
+        "Commit": "bbc962750026f16572f88456903f2b1ced3b23c3",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "get_targets_at",
+        "Updated": "get_targets_at",
+        "Location": "baikal/_core/step.py/_StepBase",
+        "Original Line": 115,
+        "Updated Line": 237,
+        "Description": [
+            "The return type of method get_targets_at from the module baikal/_core/step.py in class _StepBase is updated"
+        ],
+        "Commit": "bbc962750026f16572f88456903f2b1ced3b23c3",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "inputs",
+        "Updated": "inputs",
+        "Location": "baikal/_core/step.py/_StepBase",
+        "Original Line": 82,
+        "Updated Line": 82,
+        "Description": [
+            "The return type of method inputs from the module baikal/_core/step.py in class _StepBase is updated"
+        ],
+        "Commit": "bbc962750026f16572f88456903f2b1ced3b23c3",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "outputs",
+        "Updated": "outputs",
+        "Location": "baikal/_core/step.py/_StepBase",
+        "Original Line": 86,
+        "Updated Line": 100,
+        "Description": [
+            "The return type of method outputs from the module baikal/_core/step.py in class _StepBase is updated"
+        ],
+        "Commit": "bbc962750026f16572f88456903f2b1ced3b23c3",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "targets",
+        "Updated": "targets",
+        "Location": "baikal/_core/step.py/_StepBase",
+        "Original Line": 90,
+        "Updated Line": 118,
+        "Description": [
+            "The return type of method targets from the module baikal/_core/step.py in class _StepBase is updated"
+        ],
+        "Commit": "bbc962750026f16572f88456903f2b1ced3b23c3",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "_generate_unique_name",
+        "Updated": "_generate_unique_name",
+        "Location": "baikal/core/digraph.py/Node",
+        "Original Line": 121,
+        "Updated Line": 122,
+        "Description": [
+            "The parameters [ name ] of the method _generate_unique_name from the module baikal/core/digraph.py in class Node is/are removed"
+        ],
+        "Commit": "c1665894d8ae9d1bff37c64faba79facffeadbe1",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "tests/core/dummy_steps.py/DummySISO",
+        "Original Line": 7,
+        "Updated Line": 7,
+        "Description": [
+            "The parameters [ name ] are added to the method __init__ from the module tests/core/dummy_steps.py in class DummySISO"
+        ],
+        "Commit": "c1665894d8ae9d1bff37c64faba79facffeadbe1",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "tests/core/dummy_steps.py/DummySIMO",
+        "Original Line": 20,
+        "Updated Line": 20,
+        "Description": [
+            "The parameters [ name ] are added to the method __init__ from the module tests/core/dummy_steps.py in class DummySIMO"
+        ],
+        "Commit": "c1665894d8ae9d1bff37c64faba79facffeadbe1",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "tests/core/dummy_steps.py/DummyMISO",
+        "Original Line": 33,
+        "Updated Line": 33,
+        "Description": [
+            "The parameters [ name ] are added to the method __init__ from the module tests/core/dummy_steps.py in class DummyMISO"
+        ],
+        "Commit": "c1665894d8ae9d1bff37c64faba79facffeadbe1",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "tests/core/dummy_steps.py/DummyMIMO",
+        "Original Line": 46,
+        "Updated Line": 46,
+        "Description": [
+            "The parameters [ name ] are added to the method __init__ from the module tests/core/dummy_steps.py in class DummyMIMO"
+        ],
+        "Commit": "c1665894d8ae9d1bff37c64faba79facffeadbe1",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": "Pull Up Method",
+        "Original": "__repr__",
+        "Updated": "__repr__",
+        "Old Location": "baikal/core/step.py/Step",
+        "New Location": "baikal/core/digraph.py/Node",
+        "Old Method Line": 46,
+        "New Method Line": 137,
+        "Description": " method __repr__ from the module baikal/core/step.py in class Step was moved to class Node of module baikal/core/digraph.py ",
+        "Commit": "c7ad53b0219adde47c8474cb60992fd1783b51df",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "dummy_dot_node",
+        "Updated": "dummy_dot_node",
+        "Old Location": "baikal/plot.py/_DotTransformer",
+        "New Location": "baikal/plot.py",
+        "Old Method Line": 165,
+        "New Method Line": 52,
+        "Description": " method dummy_dot_node from the module baikal/plot.py in class _DotTransformer was moved to module baikal/plot.py ",
+        "Commit": "cc3ca772f60a2fab4844dd13b1deaae7a73b1ad2",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "ProcessorMixin",
+        "Updated": "Step",
+        "Location": "baikal/core.py",
+        "Description": " class ProcessorMixin was renamed to class Step ",
+        "Commit": "d69817c09aad64aed950d311415057631b3e53d9",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "MIMOProcessor",
+        "Updated": "MIMOStep",
+        "Location": "tests/test_core.py",
+        "Description": " class MIMOProcessor was renamed to class MIMOStep ",
+        "Commit": "d69817c09aad64aed950d311415057631b3e53d9",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "TestProcessorMixin",
+        "Updated": "TestStep",
+        "Location": "tests/test_core.py",
+        "Description": " class TestProcessorMixin was renamed to class TestStep ",
+        "Commit": "d69817c09aad64aed950d311415057631b3e53d9",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "baikal/_core/data_placeholder.py/DataPlaceholder",
+        "Original Line": 21,
+        "Updated Line": 21,
+        "Description": [
+            "The parameters [ node_index ] of the method __init__ from the module baikal/_core/data_placeholder.py in class DataPlaceholder are changed/renamed to [port]"
+        ],
+        "Commit": "fc244d1a8e7a9c1d8010d5b7bbcea352be042762",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "node_index",
+        "Updated": "port",
+        "Location": "baikal/_core/data_placeholder.py/DataPlaceholder",
+        "Original Line": 31,
+        "Updated Line": 31,
+        "Description": [
+            "The method node_index from the module baikal/_core/data_placeholder.py in class DataPlaceholder is renamed to port"
+        ],
+        "Commit": "fc244d1a8e7a9c1d8010d5b7bbcea352be042762",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "get_compute_func_at",
+        "Updated": "get_compute_func_at",
+        "Location": "baikal/_core/step.py/_StepBase",
+        "Original Line": 118,
+        "Updated Line": 118,
+        "Description": [
+            "The parameters [ node_index ] of the method get_compute_func_at from the module baikal/_core/step.py in class _StepBase are changed/renamed to [port]"
+        ],
+        "Commit": "fc244d1a8e7a9c1d8010d5b7bbcea352be042762",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "get_inputs_at",
+        "Updated": "get_inputs_at",
+        "Location": "baikal/_core/step.py/_StepBase",
+        "Original Line": 109,
+        "Updated Line": 109,
+        "Description": [
+            "The parameters [ node_index ] of the method get_inputs_at from the module baikal/_core/step.py in class _StepBase are changed/renamed to [port]"
+        ],
+        "Commit": "fc244d1a8e7a9c1d8010d5b7bbcea352be042762",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "get_outputs_at",
+        "Updated": "get_outputs_at",
+        "Location": "baikal/_core/step.py/_StepBase",
+        "Original Line": 112,
+        "Updated Line": 112,
+        "Description": [
+            "The parameters [ node_index ] of the method get_outputs_at from the module baikal/_core/step.py in class _StepBase are changed/renamed to [port]"
+        ],
+        "Commit": "fc244d1a8e7a9c1d8010d5b7bbcea352be042762",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "get_targets_at",
+        "Updated": "get_targets_at",
+        "Location": "baikal/_core/step.py/_StepBase",
+        "Original Line": 115,
+        "Updated Line": 115,
+        "Description": [
+            "The parameters [ node_index ] of the method get_targets_at from the module baikal/_core/step.py in class _StepBase are changed/renamed to [port]"
+        ],
+        "Commit": "fc244d1a8e7a9c1d8010d5b7bbcea352be042762",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "get_trainable_at",
+        "Updated": "get_trainable_at",
+        "Location": "baikal/_core/step.py/_StepBase",
+        "Original Line": 124,
+        "Updated Line": 124,
+        "Description": [
+            "The parameters [ node_index ] of the method get_trainable_at from the module baikal/_core/step.py in class _StepBase are changed/renamed to [port]"
+        ],
+        "Commit": "fc244d1a8e7a9c1d8010d5b7bbcea352be042762",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "set_compute_func_at",
+        "Updated": "set_compute_func_at",
+        "Location": "baikal/_core/step.py/_StepBase",
+        "Original Line": 121,
+        "Updated Line": 121,
+        "Description": [
+            "The parameters [ node_index ] of the method set_compute_func_at from the module baikal/_core/step.py in class _StepBase are changed/renamed to [port]"
+        ],
+        "Commit": "fc244d1a8e7a9c1d8010d5b7bbcea352be042762",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "set_trainable_at",
+        "Updated": "set_trainable_at",
+        "Location": "baikal/_core/step.py/_StepBase",
+        "Original Line": 127,
+        "Updated Line": 127,
+        "Description": [
+            "The parameters [ node_index ] of the method set_trainable_at from the module baikal/_core/step.py in class _StepBase are changed/renamed to [port]"
+        ],
+        "Commit": "fc244d1a8e7a9c1d8010d5b7bbcea352be042762",
+        "Category": "ML-Specific"
+    }
+]

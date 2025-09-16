@@ -1,0 +1,393 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "load_image_file",
+        "Updated": "load_image_file",
+        "Location": "face_recognition/api.py",
+        "Original Line": 47,
+        "Updated Line": 47,
+        "Description": [
+            "The parameters [ mode ] are added to the method load_image_file from the module face_recognition/api.py"
+        ],
+        "Commit": "20d50f36cd6ef61bd39d621d8b735ac92a9ac7e1",
+        "Patch Information": [
+            "@@ -44,14 +44,15 @@ def _face_distance(faces, face_to_compare):\n     return np.array([np.linalg.norm(face - face_to_compare) for face in faces])\n \n \n-def load_image_file(filename):\n+def load_image_file(filename, mode='RGB'):\n     \"\"\"\n     Loads an image file (.jpg, .png, etc) into a numpy array\n \n     :param filename: image file to load\n+    :param mode: format to convert the image to. Only 'RGB' (8-bit RGB, 3 channels) and 'L' (black and white) are supported.\n     :return: image contents as numpy array\n     \"\"\"\n-    return scipy.misc.imread(filename)\n+    return scipy.misc.imread(filename, mode=mode)\n \n \n def _raw_face_locations(img, number_of_times_to_upsample=1):\ndiff --git a/tests/test_face_recognition.py b/tests/test_face_recognition.py\nindex 4dcf78d6c..cf25a8564 100644\n--- a/tests/test_face_recognition.py\n+++ b/tests/test_face_recognition.py\n"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "main",
+        "Updated": "main",
+        "Location": "face_recognition/face_detection_cli.py",
+        "Original Line": 54,
+        "Updated Line": 56,
+        "Description": [
+            "The parameters [ upsample ] are added to the method main from the module face_recognition/face_detection_cli.py"
+        ],
+        "Commit": "3337c1e0505bef73840690807d99101656995152",
+        "Patch Information": [
+            "@@ -51,7 +52,8 @@ def process_images_in_process_pool(images_to_check, number_of_cpus, model):\n @click.argument('image_to_check')\n @click.option('--cpus', default=1, help='number of CPU cores to use in parallel. -1 means \"use all in system\"')\n @click.option('--model', default=\"hog\", help='Which face detection model to use. Options are \"hog\" or \"cnn\".')\n-def main(image_to_check, cpus, model):\n+@click.option('--upsample', default=0, help='How many times to upsample the image looking for faces. Higher numbers find smaller faces.')\n+def main(image_to_check, cpus, model, upsample):\n     # Multi-core processing only supported on Python 3.4 or greater\n     if (sys.version_info < (3, 4)) and cpus != 1:\n         click.echo(\"WARNING: Multi-processing support requires Python 3.4 or greater. Falling back to single-threaded processing!\")\n"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "process_images_in_process_pool",
+        "Updated": "process_images_in_process_pool",
+        "Location": "face_recognition/face_detection_cli.py",
+        "Original Line": 29,
+        "Updated Line": 29,
+        "Description": [
+            "The parameters [ upsample ] are added to the method process_images_in_process_pool from the module face_recognition/face_detection_cli.py"
+        ],
+        "Commit": "3337c1e0505bef73840690807d99101656995152",
+        "Patch Information": [
+            "@@ -26,7 +26,7 @@ def image_files_in_folder(folder):\n     return [os.path.join(folder, f) for f in os.listdir(folder) if re.match(r'.*\\.(jpg|jpeg|png)', f, flags=re.I)]\n \n \n-def process_images_in_process_pool(images_to_check, number_of_cpus, model):\n+def process_images_in_process_pool(images_to_check, number_of_cpus, model, upsample):\n     if number_of_cpus == -1:\n         processes = None\n     else:\n"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_image",
+        "Updated": "test_image",
+        "Location": "face_recognition/face_detection_cli.py",
+        "Original Line": 17,
+        "Updated Line": 17,
+        "Description": [
+            "The parameters [ upsample ] are added to the method test_image from the module face_recognition/face_detection_cli.py"
+        ],
+        "Commit": "3337c1e0505bef73840690807d99101656995152",
+        "Patch Information": [
+            "@@ -14,9 +14,9 @@ def print_result(filename, location):\n     print(\"{},{},{},{},{}\".format(filename, top, right, bottom, left))\n \n \n-def test_image(image_to_check, model):\n+def test_image(image_to_check, model, upsample):\n     unknown_image = face_recognition.load_image_file(image_to_check)\n-    face_locations = face_recognition.face_locations(unknown_image, number_of_times_to_upsample=0, model=model)\n+    face_locations = face_recognition.face_locations(unknown_image, number_of_times_to_upsample=upsample, model=model)\n \n     for face_location in face_locations:\n         print_result(image_to_check, face_location)\n"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "face_encodings",
+        "Updated": "face_encodings",
+        "Location": "face_recognition/api.py",
+        "Original Line": 203,
+        "Updated Line": 203,
+        "Description": [
+            "The parameters [ model ] are added to the method face_encodings from the module face_recognition/api.py"
+        ],
+        "Commit": "4d7bc049468ee78c971c2609af8979f1ab092584",
+        "Patch Information": [
+            "@@ -200,16 +200,17 @@ def face_landmarks(face_image, face_locations=None, model=\"large\"):\n         raise ValueError(\"Invalid landmarks model type. Supported models are ['small', 'large'].\")\n \n \n-def face_encodings(face_image, known_face_locations=None, num_jitters=1):\n+def face_encodings(face_image, known_face_locations=None, num_jitters=1, model=\"small\"):\n     \"\"\"\n     Given an image, return the 128-dimension face encoding for each face in the image.\n \n     :param face_image: The image that contains one or more faces\n     :param known_face_locations: Optional - the bounding boxes of each face if you already know them.\n     :param num_jitters: How many times to re-sample the face when calculating encoding. Higher is more accurate, but slower (i.e. 100 is 100x slower)\n+    :param model: Optional - which model to use. \"large\" (default) or \"small\" which only returns 5 points but is faster.\n     :return: A list of 128-dimensional face encodings (one for each face in the image)\n     \"\"\"\n-    raw_landmarks = _raw_face_landmarks(face_image, known_face_locations, model=\"small\")\n+    raw_landmarks = _raw_face_landmarks(face_image, known_face_locations, model)\n     return [np.array(face_encoder.compute_face_descriptor(face_image, raw_landmark_set, num_jitters)) for raw_landmark_set in raw_landmarks]\n \n \ndiff --git a/tests/test_face_recognition.py b/tests/test_face_recognition.py\nindex c0e550057..8eee9bb02 100644\n--- a/tests/test_face_recognition.py\n+++ b/tests/test_face_recognition.py\n"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "css_to_rect",
+        "Updated": "_css_to_rect",
+        "Location": "face_recognition/api.py",
+        "Original Line": 24,
+        "Updated Line": 25,
+        "Description": [
+            "The method css_to_rect from the module face_recognition/api.py is renamed to _css_to_rect"
+        ],
+        "Commit": "51acc6e0558802b365e33b142cfcd8d5b16564ee",
+        "Patch Information": [
+            "@@ -12,28 +12,31 @@\n face_encoder = dlib.face_recognition_model_v1(face_recognition_model)\n \n \n-def rect_to_css(rect):\n+def _rect_to_css(rect):\n     \"\"\"\n     Convert a dlib 'rect' object to a plain tuple in (top, right, bottom, left) order\n+\n     :param rect: a dlib 'rect' object\n     :return: a plain tuple representation of the rect in (top, right, bottom, left) order\n     \"\"\"\n     return rect.top(), rect.right(), rect.bottom(), rect.left()\n \n \n-def css_to_rect(css):\n+def _css_to_rect(css):\n     \"\"\"\n     Convert a tuple in (top, right, bottom, left) order to a dlib `rect` object\n+\n     :param css:  plain tuple representation of the rect in (top, right, bottom, left) order\n     :return: a dlib `rect` object\n     \"\"\"\n     return dlib.rectangle(css[3], css[0], css[1], css[2])\n \n \n-def face_distance(faces, face_to_compare):\n+def _face_distance(faces, face_to_compare):\n     \"\"\"\n     Given a list of face encodings, compared them to a known face encoding and get a euclidean distance\n     for each comparison face.\n+\n     :param faces: List of face encodings to compare\n     :param face_to_compare: A face encoding to compare against\n     :return: A list with the distance for each face in the same order as the 'faces' array\n"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "face_distance",
+        "Updated": "_face_distance",
+        "Location": "face_recognition/api.py",
+        "Original Line": 33,
+        "Updated Line": 35,
+        "Description": [
+            "The method face_distance from the module face_recognition/api.py is renamed to _face_distance"
+        ],
+        "Commit": "51acc6e0558802b365e33b142cfcd8d5b16564ee",
+        "Patch Information": [
+            "@@ -12,28 +12,31 @@\n face_encoder = dlib.face_recognition_model_v1(face_recognition_model)\n \n \n-def rect_to_css(rect):\n+def _rect_to_css(rect):\n     \"\"\"\n     Convert a dlib 'rect' object to a plain tuple in (top, right, bottom, left) order\n+\n     :param rect: a dlib 'rect' object\n     :return: a plain tuple representation of the rect in (top, right, bottom, left) order\n     \"\"\"\n     return rect.top(), rect.right(), rect.bottom(), rect.left()\n \n \n-def css_to_rect(css):\n+def _css_to_rect(css):\n     \"\"\"\n     Convert a tuple in (top, right, bottom, left) order to a dlib `rect` object\n+\n     :param css:  plain tuple representation of the rect in (top, right, bottom, left) order\n     :return: a dlib `rect` object\n     \"\"\"\n     return dlib.rectangle(css[3], css[0], css[1], css[2])\n \n \n-def face_distance(faces, face_to_compare):\n+def _face_distance(faces, face_to_compare):\n     \"\"\"\n     Given a list of face encodings, compared them to a known face encoding and get a euclidean distance\n     for each comparison face.\n+\n     :param faces: List of face encodings to compare\n     :param face_to_compare: A face encoding to compare against\n     :return: A list with the distance for each face in the same order as the 'faces' array\n"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "raw_face_landmarks",
+        "Updated": "_raw_face_landmarks",
+        "Location": "face_recognition/api.py",
+        "Original Line": 74,
+        "Updated Line": 80,
+        "Description": [
+            "The method raw_face_landmarks from the module face_recognition/api.py is renamed to _raw_face_landmarks"
+        ],
+        "Commit": "51acc6e0558802b365e33b142cfcd8d5b16564ee",
+        "Patch Information": [
+            "@@ -64,18 +69,19 @@ def raw_face_locations(img, number_of_times_to_upsample=1):\n def face_locations(img, number_of_times_to_upsample=1):\n     \"\"\"\n     Returns an array of bounding boxes of human faces in a image\n+\n     :param img: An image (as a numpy array)\n     :param number_of_times_to_upsample: How many times to upsample the image looking for faces. Higher numbers find smaller faces.\n     :return: A list of tuples of found face locations in css (top, right, bottom, left) order\n     \"\"\"\n-    return [rect_to_css(face) for face in raw_face_locations(img, number_of_times_to_upsample)]\n+    return [_rect_to_css(face) for face in _raw_face_locations(img, number_of_times_to_upsample)]\n \n \n-def raw_face_landmarks(face_image, face_locations=None):\n+def _raw_face_landmarks(face_image, face_locations=None):\n     if face_locations is None:\n-        face_locations = raw_face_locations(face_image)\n+        face_locations = _raw_face_locations(face_image)\n     else:\n-        face_locations = [css_to_rect(face_location) for face_location in face_locations]\n+        face_locations = [_css_to_rect(face_location) for face_location in face_locations]\n \n     return [pose_predictor(face_image, face_location) for face_location in face_locations]\n \n"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "raw_face_locations",
+        "Updated": "_raw_face_locations",
+        "Location": "face_recognition/api.py",
+        "Original Line": 53,
+        "Updated Line": 57,
+        "Description": [
+            "The method raw_face_locations from the module face_recognition/api.py is renamed to _raw_face_locations"
+        ],
+        "Commit": "51acc6e0558802b365e33b142cfcd8d5b16564ee",
+        "Patch Information": [
+            "@@ -44,15 +47,17 @@ def face_distance(faces, face_to_compare):\n def load_image_file(filename):\n     \"\"\"\n     Loads an image file (.jpg, .png, etc) into a numpy array\n+\n     :param filename: image file to load\n     :return: image contents as numpy array\n     \"\"\"\n-    return skimage.io.imread(filename)\n+    return scipy.misc.imread(filename)\n \n \n-def raw_face_locations(img, number_of_times_to_upsample=1):\n+def _raw_face_locations(img, number_of_times_to_upsample=1):\n     \"\"\"\n     Returns an array of bounding boxes of human faces in a image\n+\n     :param img: An image (as a numpy array)\n     :param number_of_times_to_upsample: How many times to upsample the image looking for faces. Higher numbers find smaller faces.\n     :return: A list of dlib 'rect' objects of found face locations\n"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "rect_to_css",
+        "Updated": "_rect_to_css",
+        "Location": "face_recognition/api.py",
+        "Original Line": 15,
+        "Updated Line": 15,
+        "Description": [
+            "The method rect_to_css from the module face_recognition/api.py is renamed to _rect_to_css"
+        ],
+        "Commit": "51acc6e0558802b365e33b142cfcd8d5b16564ee",
+        "Patch Information": [
+            "@@ -12,28 +12,31 @@\n face_encoder = dlib.face_recognition_model_v1(face_recognition_model)\n \n \n-def rect_to_css(rect):\n+def _rect_to_css(rect):\n     \"\"\"\n     Convert a dlib 'rect' object to a plain tuple in (top, right, bottom, left) order\n+\n     :param rect: a dlib 'rect' object\n     :return: a plain tuple representation of the rect in (top, right, bottom, left) order\n     \"\"\"\n     return rect.top(), rect.right(), rect.bottom(), rect.left()\n \n \n-def css_to_rect(css):\n+def _css_to_rect(css):\n     \"\"\"\n     Convert a tuple in (top, right, bottom, left) order to a dlib `rect` object\n+\n     :param css:  plain tuple representation of the rect in (top, right, bottom, left) order\n     :return: a dlib `rect` object\n     \"\"\"\n     return dlib.rectangle(css[3], css[0], css[1], css[2])\n \n \n-def face_distance(faces, face_to_compare):\n+def _face_distance(faces, face_to_compare):\n     \"\"\"\n     Given a list of face encodings, compared them to a known face encoding and get a euclidean distance\n     for each comparison face.\n+\n     :param faces: List of face encodings to compare\n     :param face_to_compare: A face encoding to compare against\n     :return: A list with the distance for each face in the same order as the 'faces' array\n"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_raw_face_landmarks",
+        "Updated": "_raw_face_landmarks",
+        "Location": "face_recognition/api.py",
+        "Original Line": 146,
+        "Updated Line": 149,
+        "Description": [
+            "The parameters [ model ] are added to the method _raw_face_landmarks from the module face_recognition/api.py"
+        ],
+        "Commit": "5f804870c14803c2664942c958f11112276a79cc",
+        "Patch Information": [
+            "@@ -143,12 +146,17 @@ def convert_cnn_detections_to_css(detections):\n     return list(map(convert_cnn_detections_to_css, raw_detections_batched))\n \n \n-def _raw_face_landmarks(face_image, face_locations=None):\n+def _raw_face_landmarks(face_image, face_locations=None, model=\"large\"):\n     if face_locations is None:\n         face_locations = _raw_face_locations(face_image)\n     else:\n         face_locations = [_css_to_rect(face_location) for face_location in face_locations]\n \n+    pose_predictor = pose_predictor_68_point\n+\n+    if model == \"small\":\n+        pose_predictor = pose_predictor_5_point\n+\n     return [pose_predictor(face_image, face_location) for face_location in face_locations]\n \n \n"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "load_image_file",
+        "Updated": "load_image_file",
+        "Location": "face_recognition/api.py",
+        "Original Line": 70,
+        "Updated Line": 70,
+        "Description": [
+            "The parameters [ filename ] of the method load_image_file from the module face_recognition/api.py are changed/renamed to [name]"
+        ],
+        "Commit": "60fe4e8c0054c10171a206f5f01013502c8274e2",
+        "Patch Information": [
+            "@@ -67,15 +67,15 @@ def face_distance(face_encodings, face_to_compare):\n     return np.linalg.norm(face_encodings - face_to_compare, axis=1)\n \n \n-def load_image_file(filename, mode='RGB'):\n+def load_image_file(name, mode='RGB'):\n     \"\"\"\n     Loads an image file (.jpg, .png, etc) into a numpy array\n \n-    :param filename: image file to load\n+    :param name: image file name or file object to load\n     :param mode: format to convert the image to. Only 'RGB' (8-bit RGB, 3 channels) and 'L' (black and white) are supported.\n     :return: image contents as numpy array\n     \"\"\"\n-    return scipy.misc.imread(filename, mode=mode)\n+    return scipy.misc.imread(name, mode=mode)\n \n \n def _raw_face_locations(img, number_of_times_to_upsample=1):\n"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "main",
+        "Updated": "main",
+        "Location": "face_recognition/cli.py",
+        "Original Line": 81,
+        "Updated Line": 82,
+        "Description": [
+            "The parameters [ tolerance ] are added to the method main from the module face_recognition/cli.py"
+        ],
+        "Commit": "b8a803731c23dbf73ac3e219a847f6e2ea5a582d",
+        "Patch Information": [
+            "@@ -78,7 +78,8 @@ def process_images_in_process_pool(images_to_check, known_names, known_face_enco\n @click.argument('known_people_folder')\n @click.argument('image_to_check')\n @click.option('--cpus', default=1, help='number of CPU cores to use in parallel (can speed up processing lots of images). -1 means \"use all in system\"')\n-def main(known_people_folder, image_to_check, cpus):\n+@click.option('--tolerance', default=0.6, help='Tolerance to use for face comparisons. Default is 0.6 and lower is more strict matching. Lower this if you get multiple matches for the same person. Try 0.54 for example.')\n+def main(known_people_folder, image_to_check, cpus, tolerance):\n     known_names, known_face_encodings = scan_known_people(known_people_folder)\n \n     # Multi-core processing only supported on Python 3.4 or greater\n"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "process_images_in_process_pool",
+        "Updated": "process_images_in_process_pool",
+        "Location": "face_recognition/cli.py",
+        "Original Line": 60,
+        "Updated Line": 60,
+        "Description": [
+            "The parameters [ tolerance ] are added to the method process_images_in_process_pool from the module face_recognition/cli.py"
+        ],
+        "Commit": "b8a803731c23dbf73ac3e219a847f6e2ea5a582d",
+        "Patch Information": [
+            "@@ -57,7 +57,7 @@ def image_files_in_folder(folder):\n     return [os.path.join(folder, f) for f in os.listdir(folder) if re.match(r'.*\\.(jpg|jpeg|png)', f, flags=re.I)]\n \n \n-def process_images_in_process_pool(images_to_check, known_names, known_face_encodings, number_of_cpus):\n+def process_images_in_process_pool(images_to_check, known_names, known_face_encodings, number_of_cpus, tolerance):\n     if number_of_cpus == -1:\n         processes = None\n     else:\n"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_image",
+        "Updated": "test_image",
+        "Location": "face_recognition/cli.py",
+        "Original Line": 35,
+        "Updated Line": 35,
+        "Description": [
+            "The parameters [ tolerance ] are added to the method test_image from the module face_recognition/cli.py"
+        ],
+        "Commit": "b8a803731c23dbf73ac3e219a847f6e2ea5a582d",
+        "Patch Information": [
+            "@@ -32,7 +32,7 @@ def scan_known_people(known_people_folder):\n     return known_names, known_face_encodings\n \n \n-def test_image(image_to_check, known_names, known_face_encodings):\n+def test_image(image_to_check, known_names, known_face_encodings, tolerance=0.6):\n     unknown_image = face_recognition.load_image_file(image_to_check)\n \n     # Scale down image if it's giant so things run a little faster\n"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "main",
+        "Updated": "main",
+        "Location": "face_recognition/cli.py",
+        "Original Line": 82,
+        "Updated Line": 98,
+        "Description": [
+            "The parameters [ show_distance ] are added to the method main from the module face_recognition/cli.py"
+        ],
+        "Commit": "bf1825257f3fcf22e10f8d1ce78aaf0e5dec8070",
+        "Patch Information": [
+            "@@ -79,7 +94,8 @@ def process_images_in_process_pool(images_to_check, known_names, known_face_enco\n @click.argument('image_to_check')\n @click.option('--cpus', default=1, help='number of CPU cores to use in parallel (can speed up processing lots of images). -1 means \"use all in system\"')\n @click.option('--tolerance', default=0.6, help='Tolerance for face comparisons. Default is 0.6. Lower this if you get multiple matches for the same person.')\n-def main(known_people_folder, image_to_check, cpus, tolerance):\n+@click.option('--show-distance', default=False, type=bool, help='Output face distance. Useful for tweaking tolerance setting.')\n+def main(known_people_folder, image_to_check, cpus, tolerance, show_distance):\n     known_names, known_face_encodings = scan_known_people(known_people_folder)\n \n     # Multi-core processing only supported on Python 3.4 or greater\n"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "process_images_in_process_pool",
+        "Updated": "process_images_in_process_pool",
+        "Location": "face_recognition/cli.py",
+        "Original Line": 60,
+        "Updated Line": 68,
+        "Description": [
+            "The parameters [ show_distance ] are added to the method process_images_in_process_pool from the module face_recognition/cli.py"
+        ],
+        "Commit": "bf1825257f3fcf22e10f8d1ce78aaf0e5dec8070",
+        "Patch Information": [
+            "@@ -45,19 +52,20 @@ def test_image(image_to_check, known_names, known_face_encodings, tolerance=0.6)\n     unknown_encodings = face_recognition.face_encodings(unknown_image)\n \n     for unknown_encoding in unknown_encodings:\n-        result = face_recognition.compare_faces(known_face_encodings, unknown_encoding, tolerance=tolerance)\n+        distances = face_recognition.face_distance(known_face_encodings, unknown_encoding)\n+        result = list(distances <= tolerance)\n \n         if True in result:\n-            [print(\"{},{}\".format(image_to_check, name)) for is_match, name in zip(result, known_names) if is_match]\n+            [print_result(image_to_check, name, distance, show_distance) for is_match, name, distance in zip(result, known_names, distances) if is_match]\n         else:\n-            print(\"{},unknown_person\".format(image_to_check))\n+            print_result(image_to_check, \"unknown_person\", None, show_distance)\n \n \n def image_files_in_folder(folder):\n     return [os.path.join(folder, f) for f in os.listdir(folder) if re.match(r'.*\\.(jpg|jpeg|png)', f, flags=re.I)]\n \n \n-def process_images_in_process_pool(images_to_check, known_names, known_face_encodings, number_of_cpus, tolerance):\n+def process_images_in_process_pool(images_to_check, known_names, known_face_encodings, number_of_cpus, tolerance, show_distance):\n     if number_of_cpus == -1:\n         processes = None\n     else:\n"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_image",
+        "Updated": "test_image",
+        "Location": "face_recognition/cli.py",
+        "Original Line": 35,
+        "Updated Line": 42,
+        "Description": [
+            "The parameters [ show_distance ] are added to the method test_image from the module face_recognition/cli.py"
+        ],
+        "Commit": "bf1825257f3fcf22e10f8d1ce78aaf0e5dec8070",
+        "Patch Information": [
+            "@@ -32,7 +32,14 @@ def scan_known_people(known_people_folder):\n     return known_names, known_face_encodings\n \n \n-def test_image(image_to_check, known_names, known_face_encodings, tolerance=0.6):\n+def print_result(filename, name, distance, show_distance=False):\n+    if show_distance:\n+        print(\"{},{},{}\".format(filename, name, distance))\n+    else:\n+        print(\"{},{}\".format(filename, name))\n+\n+\n+def test_image(image_to_check, known_names, known_face_encodings, tolerance=0.6, show_distance=False):\n     unknown_image = face_recognition.load_image_file(image_to_check)\n \n     # Scale down image if it's giant so things run a little faster\n"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_raw_face_locations_batched",
+        "Updated": "_raw_face_locations_batched",
+        "Location": "face_recognition/api.py",
+        "Original Line": 119,
+        "Updated Line": 119,
+        "Description": [
+            "The parameters [ batch_size ] are added to the method _raw_face_locations_batched from the module face_recognition/api.py"
+        ],
+        "Commit": "df83b441a98d4b9a6c824738d30ccb44775fa51e",
+        "Patch Information": [
+            "@@ -116,7 +116,7 @@ def face_locations(img, number_of_times_to_upsample=1, model=\"hog\"):\n         return [_trim_css_to_bounds(_rect_to_css(face), img.shape) for face in _raw_face_locations(img, number_of_times_to_upsample, model)]\n \n \n-def _raw_face_locations_batched(images, number_of_times_to_upsample=1):\n+def _raw_face_locations_batched(images, number_of_times_to_upsample=1, batch_size=128):\n     \"\"\"\n     Returns an 2d array of dlib rects of human faces in a image using the cnn face detector\n \n"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "capture",
+        "Updated": "capture",
+        "Location": "examples/facerec_from_webcam_multiprocessing.py",
+        "Original Line": 33,
+        "Updated Line": 35,
+        "Description": [
+            "The parameters [ Global worker_num ] are added to the method capture from the module examples/facerec_from_webcam_multiprocessing.py"
+        ],
+        "Commit": "df84e2cd8a225e0f3094bd8cb13172aa9b918f29",
+        "Patch Information": [
+            "@@ -30,7 +32,7 @@ def prev_id(current_id):\n \n \n # A subprocess use to capture frames.\n-def capture(read_frame_list):\n+def capture(read_frame_list, Global, worker_num):\n     # Get a reference to webcam #0 (the default one)\n     video_capture = cv2.VideoCapture(0)\n     # video_capture.set(3, 640)  # Width of the frames in the video stream.\n"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "next_id",
+        "Updated": "next_id",
+        "Location": "examples/facerec_from_webcam_multiprocessing.py",
+        "Original Line": 17,
+        "Updated Line": 19,
+        "Description": [
+            "The parameters [ worker_num ] are added to the method next_id from the module examples/facerec_from_webcam_multiprocessing.py"
+        ],
+        "Commit": "df84e2cd8a225e0f3094bd8cb13172aa9b918f29",
+        "Patch Information": [
+            "@@ -14,7 +16,7 @@\n \n \n # Get next worker's id\n-def next_id(current_id):\n+def next_id(current_id, worker_num):\n     if current_id == worker_num:\n         return 1\n     else:\n"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "prev_id",
+        "Updated": "prev_id",
+        "Location": "examples/facerec_from_webcam_multiprocessing.py",
+        "Original Line": 25,
+        "Updated Line": 27,
+        "Description": [
+            "The parameters [ worker_num ] are added to the method prev_id from the module examples/facerec_from_webcam_multiprocessing.py"
+        ],
+        "Commit": "df84e2cd8a225e0f3094bd8cb13172aa9b918f29",
+        "Patch Information": [
+            "@@ -22,7 +24,7 @@ def next_id(current_id):\n \n \n # Get previous worker's id\n-def prev_id(current_id):\n+def prev_id(current_id, worker_num):\n     if current_id == 1:\n         return worker_num\n     else:\n"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "process",
+        "Updated": "process",
+        "Location": "examples/facerec_from_webcam_multiprocessing.py",
+        "Original Line": 56,
+        "Updated Line": 58,
+        "Description": [
+            "The parameters [ Global worker_num ] are added to the method process from the module examples/facerec_from_webcam_multiprocessing.py"
+        ],
+        "Commit": "df84e2cd8a225e0f3094bd8cb13172aa9b918f29",
+        "Patch Information": [
+            "@@ -53,13 +55,13 @@ def capture(read_frame_list):\n \n \n # Many subprocess use to process frames.\n-def process(worker_id, read_frame_list, write_frame_list):\n+def process(worker_id, read_frame_list, write_frame_list, Global, worker_num):\n     known_face_encodings = Global.known_face_encodings\n     known_face_names = Global.known_face_names\n     while not Global.is_exit:\n \n         # Wait to read\n-        while Global.read_num != worker_id or Global.read_num != prev_id(Global.buff_num):\n+        while Global.read_num != worker_id or Global.read_num != prev_id(Global.buff_num, worker_num):\n             time.sleep(0.01)\n \n         # Delay to make the video look smoother\n"
+        ]
+    }
+]

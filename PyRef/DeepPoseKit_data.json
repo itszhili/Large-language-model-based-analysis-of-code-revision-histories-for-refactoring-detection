@@ -1,0 +1,100 @@
+[
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "deepposekit/callbacks.py/ModelCheckpoint",
+        "Original Line": 245,
+        "Updated Line": 240,
+        "Description": [
+            "The parameters [ optimizer ] of the method __init__ from the module deepposekit/callbacks.py in class ModelCheckpoint is/are removed"
+        ],
+        "Commit": "0ccef723168cdb15400895e7cc1b99e6e197fe25"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "save",
+        "Updated": "save",
+        "Location": "deepposekit/models/engine.py/BaseModel",
+        "Original Line": 221,
+        "Updated Line": 221,
+        "Description": [
+            "The parameters [ optimizer ] of the method save from the module deepposekit/models/engine.py in class BaseModel are changed/renamed to [overwrite]"
+        ],
+        "Commit": "0ccef723168cdb15400895e7cc1b99e6e197fe25"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "deepposekit/models/layers/densenet.py/DenseConvBlock",
+        "Original Line": 99,
+        "Updated Line": 105,
+        "Description": [
+            "The parameters [ bottleneck_factor ] are added to the method __init__ from the module deepposekit/models/layers/densenet.py in class DenseConvBlock"
+        ],
+        "Commit": "2da9bc9494f16a258cec67ff19d95cbe99c53b46"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "get_images",
+        "Updated": "get_images",
+        "Location": "deepposekit/io/BaseGenerator.py/BaseGenerator",
+        "Original Line": 41,
+        "Updated Line": 41,
+        "Description": [
+            "The parameters [ idx ] of the method get_images from the module deepposekit/io/BaseGenerator.py in class BaseGenerator are changed/renamed to [indexes]"
+        ],
+        "Commit": "552088395c932eacb7d443f7f8453399df906433"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "deepposekit/models/layers/densenet.py/OutputChannels",
+        "Original Line": 371,
+        "Updated Line": 371,
+        "Description": [
+            "The parameters [ activation ] are added to the method __init__ from the module deepposekit/models/layers/densenet.py in class OutputChannels"
+        ],
+        "Commit": "75248a7ae4ab32721b0cc0726a98e7de6ed0e04f"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init_input__",
+        "Updated": "__init_input__",
+        "Location": "deepposekit/models/engine.py/BaseModel",
+        "Original Line": 53,
+        "Updated Line": 53,
+        "Description": [
+            "The parameters [ image_shape ] are added to the method __init_input__ from the module deepposekit/models/engine.py in class BaseModel"
+        ],
+        "Commit": "c27b8ea2d0e62ecaaafb47985ca2b7e10e4fdfaf"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "deepposekit/models/DeepLabCut.py/DeepLabCut",
+        "Original Line": 27,
+        "Updated Line": 27,
+        "Description": [
+            "The parameters [ weights ] are added to the method __init__ from the module deepposekit/models/DeepLabCut.py in class DeepLabCut"
+        ],
+        "Commit": "e19b824d1539bbf4c8c183be043f7413bc987158"
+    }
+]

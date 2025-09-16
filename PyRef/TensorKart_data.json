@@ -1,0 +1,86 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "conv2d",
+        "Updated": "conv2d",
+        "Location": "model.py",
+        "Original Line": 20,
+        "Updated Line": 15,
+        "Description": [
+            "The parameters [ stride ] are added to the method conv2d from the module model.py"
+        ],
+        "Commit": "3d4f6fb2dcc53e9d0bc5b991ade23fa0ad2e3b6d"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "creation_model",
+        "Updated": "create_model",
+        "Location": "train.py",
+        "Original Line": 26,
+        "Updated Line": 28,
+        "Description": [
+            "The method creation_model from the module train.py is renamed to create_model"
+        ],
+        "Commit": "48ae7d1910c02bfc04433f31ac9fd14322f7747e"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "prepare_image_with_PIL",
+        "Updated": "modified_prepare_image",
+        "Location": "tests/perfTests.py",
+        "Original Line": 62,
+        "Updated Line": 58,
+        "Description": [
+            "The method prepare_image_with_PIL from the module tests/perfTests.py is renamed to modified_prepare_image"
+        ],
+        "Commit": "bfe3ac9adf0226793325bab17b6d03ca34968017"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "take_screenshot_direct_screen_rect",
+        "Updated": "modified_take_screenshot",
+        "Location": "tests/perfTests.py",
+        "Original Line": 41,
+        "Updated Line": 39,
+        "Description": [
+            "The method take_screenshot_direct_screen_rect from the module tests/perfTests.py is renamed to modified_take_screenshot"
+        ],
+        "Commit": "bfe3ac9adf0226793325bab17b6d03ca34968017"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "prepare_image",
+        "Updated": "original_prepare_image",
+        "Location": "tests/perfTests.py",
+        "Original Line": 50,
+        "Updated Line": 47,
+        "Description": [
+            "The method prepare_image from the module tests/perfTests.py is renamed to original_prepare_image"
+        ],
+        "Commit": "bfe3ac9adf0226793325bab17b6d03ca34968017"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "take_screenshot",
+        "Updated": "original_take_screenshot",
+        "Location": "tests/perfTests.py",
+        "Original Line": 31,
+        "Updated Line": 30,
+        "Description": [
+            "The method take_screenshot from the module tests/perfTests.py is renamed to original_take_screenshot"
+        ],
+        "Commit": "bfe3ac9adf0226793325bab17b6d03ca34968017"
+    }
+]

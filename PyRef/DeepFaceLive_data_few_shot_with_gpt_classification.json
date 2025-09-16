@@ -1,0 +1,1707 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_merge_on_cpu",
+        "Updated": "_merge_on_cpu",
+        "Location": "apps/DeepFaceLive/backend/FaceMerger.py/FaceMergerWorker",
+        "Original Line": 174,
+        "Updated Line": 185,
+        "Description": [
+            "The parameters [ face_align_img ] are added to the method _merge_on_cpu from the module apps/DeepFaceLive/backend/FaceMerger.py in class FaceMergerWorker"
+        ],
+        "Commit": "03547088c6453b9c05931020a33d4640d7cd75f2",
+        "GPT4 Classification": "machine-learning-specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_merge_on_gpu",
+        "Updated": "_merge_on_gpu",
+        "Location": "apps/DeepFaceLive/backend/FaceMerger.py/FaceMergerWorker",
+        "Original Line": 212,
+        "Updated Line": 227,
+        "Description": [
+            "The parameters [ face_align_img ] are added to the method _merge_on_gpu from the module apps/DeepFaceLive/backend/FaceMerger.py in class FaceMergerWorker"
+        ],
+        "Commit": "03547088c6453b9c05931020a33d4640d7cd75f2",
+        "GPT4 Classification": "machine-learning-specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "to_dtype",
+        "Updated": "to_dtype",
+        "Location": "xlib/image/ImageProcessor.py/ImageProcessor",
+        "Original Line": 842,
+        "Updated Line": 842,
+        "Description": [
+            "The parameters [ from_tanh ] are added to the method to_dtype from the module xlib/image/ImageProcessor.py in class ImageProcessor"
+        ],
+        "Commit": "042867d19d0557241ec7ea74baab7cbb96b9eb3d",
+        "GPT4 Classification": "machine-learning-specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "to_ufloat32",
+        "Updated": "to_ufloat32",
+        "Location": "xlib/image/ImageProcessor.py/ImageProcessor",
+        "Original Line": 850,
+        "Updated Line": 850,
+        "Description": [
+            "The parameters [ from_tanh ] are added to the method to_ufloat32 from the module xlib/image/ImageProcessor.py in class ImageProcessor"
+        ],
+        "Commit": "042867d19d0557241ec7ea74baab7cbb96b9eb3d",
+        "GPT4 Classification": "\"ML-Specific\""
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "to_uint8",
+        "Updated": "to_uint8",
+        "Location": "xlib/image/ImageProcessor.py/ImageProcessor",
+        "Original Line": 866,
+        "Updated Line": 868,
+        "Description": [
+            "The parameters [ from_tanh ] are added to the method to_uint8 from the module xlib/image/ImageProcessor.py in class ImageProcessor"
+        ],
+        "Commit": "042867d19d0557241ec7ea74baab7cbb96b9eb3d",
+        "GPT4 Classification": "machine-learning-specific"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "on_cs_mode",
+        "Updated": "on_cs_source_type",
+        "Location": "apps/DeepFaceLive/backend/StreamOutput.py/StreamOutputWorker",
+        "Original Line": 112,
+        "Updated Line": 120,
+        "Description": [
+            "The method on_cs_mode from the module apps/DeepFaceLive/backend/StreamOutput.py in class StreamOutputWorker is renamed to on_cs_source_type"
+        ],
+        "Commit": "05fe7e82ddfbb8385ec548a507397cd6a1825c1f",
+        "GPT4 Classification": "General"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "on_cs_model_info",
+        "Updated": "on_cs_model",
+        "Location": "apps/DeepFaceLive/backend/FaceSwapper.py/FaceSwapperWorker",
+        "Original Line": 67,
+        "Updated Line": 79,
+        "Description": [
+            "The method on_cs_model_info from the module apps/DeepFaceLive/backend/FaceSwapper.py in class FaceSwapperWorker is renamed to on_cs_model"
+        ],
+        "Commit": "15c2ad55933c981fca3ff1343c4e46b654be89ff",
+        "GPT4 Classification": "general"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "calc_cut",
+        "Updated": "calc_cut",
+        "Location": "xlib/facemeta/FaceULandmarks.py/FaceULandmarks",
+        "Original Line": 96,
+        "Updated Line": 96,
+        "Description": [
+            "The parameters [ x_offset y_offset ] are added to the method calc_cut from the module xlib/facemeta/FaceULandmarks.py in class FaceULandmarks"
+        ],
+        "Commit": "19677d95503c17d3cb03ddb0cb2a41edf771b346",
+        "GPT4 Classification": "machine-learning-specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "cut",
+        "Updated": "cut",
+        "Location": "xlib/facemeta/FaceULandmarks.py/FaceULandmarks",
+        "Original Line": 155,
+        "Updated Line": 154,
+        "Description": [
+            "The parameters [ x_offset y_offset ] are added to the method cut from the module xlib/facemeta/FaceULandmarks.py in class FaceULandmarks"
+        ],
+        "Commit": "19677d95503c17d3cb03ddb0cb2a41edf771b346",
+        "GPT4 Classification": "machine-learning-specific"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_on_timer_8ms",
+        "Updated": "_on_timer_16ms",
+        "Location": "apps/DeepFaceLive/ui/widgets/QBCFaceAlignViewer.py/QBCFaceAlignViewer",
+        "Original Line": 36,
+        "Updated Line": 36,
+        "Description": [
+            "The method _on_timer_8ms from the module apps/DeepFaceLive/ui/widgets/QBCFaceAlignViewer.py in class QBCFaceAlignViewer is renamed to _on_timer_16ms"
+        ],
+        "Commit": "24e1312234ca6e6d131a94c5cdd0f9b92a0f1145",
+        "GPT4 Classification": "general"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_on_timer_8ms",
+        "Updated": "_on_timer_16ms",
+        "Location": "apps/DeepFaceLive/ui/widgets/QBCFaceSwapViewer.py/QBCFaceSwapViewer",
+        "Original Line": 34,
+        "Updated Line": 34,
+        "Description": [
+            "The method _on_timer_8ms from the module apps/DeepFaceLive/ui/widgets/QBCFaceSwapViewer.py in class QBCFaceSwapViewer is renamed to _on_timer_16ms"
+        ],
+        "Commit": "24e1312234ca6e6d131a94c5cdd0f9b92a0f1145",
+        "GPT4 Classification": "general"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_on_timer_8ms",
+        "Updated": "_on_timer_16ms",
+        "Location": "apps/DeepFaceLive/ui/widgets/QBCFinalFrameViewer.py/QBCFinalFrameViewer",
+        "Original Line": 30,
+        "Updated Line": 32,
+        "Description": [
+            "The method _on_timer_8ms from the module apps/DeepFaceLive/ui/widgets/QBCFinalFrameViewer.py in class QBCFinalFrameViewer is renamed to _on_timer_16ms"
+        ],
+        "Commit": "24e1312234ca6e6d131a94c5cdd0f9b92a0f1145",
+        "GPT4 Classification": "General"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_on_timer_8ms",
+        "Updated": "_on_timer_16ms",
+        "Location": "apps/DeepFaceLive/ui/widgets/QBCFrameViewer.py/QBCFrameViewer",
+        "Original Line": 29,
+        "Updated Line": 30,
+        "Description": [
+            "The method _on_timer_8ms from the module apps/DeepFaceLive/ui/widgets/QBCFrameViewer.py in class QBCFrameViewer is renamed to _on_timer_16ms"
+        ],
+        "Commit": "24e1312234ca6e6d131a94c5cdd0f9b92a0f1145",
+        "GPT4 Classification": "general"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "get_files_paths",
+        "Updated": "get_files_paths",
+        "Location": "xlib/path/path.py",
+        "Original Line": 25,
+        "Updated Line": 26,
+        "Description": [
+            "The return type of method get_files_paths from the module xlib/path/path.py is updated"
+        ],
+        "Commit": "2605930dfea8db970f884a4f729784f3586173d4",
+        "GPT4 Classification": "\"General\""
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "get_var",
+        "Updated": "get_var",
+        "Location": "xlib/avecl/_internal/SCacheton.py/SCacheton",
+        "Original Line": 40,
+        "Updated Line": 40,
+        "Description": [
+            "The parameters [ var_name ] of the method get_var from the module xlib/avecl/_internal/SCacheton.py in class SCacheton are changed/renamed to [key]"
+        ],
+        "Commit": "2d401f47f87de9fdbea2f04a4f268c9d180f39d6",
+        "GPT4 Classification": "\"General\""
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "set_var",
+        "Updated": "set_var",
+        "Location": "xlib/avecl/_internal/SCacheton.py/SCacheton",
+        "Original Line": 30,
+        "Updated Line": 30,
+        "Description": [
+            "The parameters [ var_name ] of the method set_var from the module xlib/avecl/_internal/SCacheton.py in class SCacheton are changed/renamed to [key]"
+        ],
+        "Commit": "2d401f47f87de9fdbea2f04a4f268c9d180f39d6",
+        "GPT4 Classification": "\"General\""
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_free_random_pooled_buffers",
+        "Updated": "_release_random_pooled_buffers",
+        "Location": "xlib/avecl/_internal/backend/Device.py/Device",
+        "Original Line": 205,
+        "Updated Line": 205,
+        "Description": [
+            "The method _free_random_pooled_buffers from the module xlib/avecl/_internal/backend/Device.py in class Device is renamed to _release_random_pooled_buffers"
+        ],
+        "Commit": "2d401f47f87de9fdbea2f04a4f268c9d180f39d6",
+        "GPT4 Classification": "General"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "cleanup",
+        "Updated": "cleanup_cached_kernels",
+        "Location": "xlib/avecl/_internal/backend/Device.py/Device",
+        "Original Method Line": "(245,257)",
+        "Extracted/Inlined Method Line": 246,
+        "Extracted/Inlined Lines": [
+            256.0,
+            257.0,
+            258.0,
+            259.0,
+            261.0,
+            262.0,
+            263.0,
+            264.0
+        ],
+        "Description": " The method cleanup_cached_kernels from the module xlib/avecl/_internal/backend/Device.py in class Device is extracted from method cleanup from the module xlib/avecl/_internal/backend/Device.py in class Device ",
+        "Commit": "2d401f47f87de9fdbea2f04a4f268c9d180f39d6",
+        "GPT4 Classification": "\"Category2\": \"General\",\"Specificity\":"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "get_row_desc",
+        "Updated": "get_row_def",
+        "Location": "xlib/console/diacon/Diacon.py/DlgChoice",
+        "Original Line": 26,
+        "Updated Line": 29,
+        "Description": [
+            "The method get_row_desc from the module xlib/console/diacon/Diacon.py in class DlgChoice is renamed to get_row_def"
+        ],
+        "Commit": "30ba51edf71e110ab4e21b440c79b395bc133b9d",
+        "GPT4 Classification": "general"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "start",
+        "Updated": "start",
+        "Location": "xlib/console/diacon/Diacon.py/_Diacon",
+        "Original Line": 253,
+        "Updated Line": 315,
+        "Description": [
+            "The parameters [ on_dlg ] of the method start from the module xlib/console/diacon/Diacon.py in class _Diacon is/are removed"
+        ],
+        "Commit": "30ba51edf71e110ab4e21b440c79b395bc133b9d",
+        "GPT4 Classification": "\"General\""
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "add_UImage",
+        "Updated": "add_UImage",
+        "Location": "xlib/face/Faceset.py/Faceset",
+        "Original Line": 222,
+        "Updated Line": 175,
+        "Description": [
+            "The parameters [ update_existing ] are added to the method add_UImage from the module xlib/face/Faceset.py in class Faceset"
+        ],
+        "Commit": "30ba51edf71e110ab4e21b440c79b395bc133b9d",
+        "GPT4 Classification": "\"ML-Specific\""
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "sot",
+        "Updated": "sot",
+        "Location": "xlib/image/color_transfer/sot.py",
+        "Original Line": 5,
+        "Updated Line": 5,
+        "Description": [
+            "The parameters [ mask return_diff ] are added to the method sot from the module xlib/image/color_transfer/sot.py"
+        ],
+        "Commit": "30ba51edf71e110ab4e21b440c79b395bc133b9d",
+        "GPT4 Classification": "machine-learning-specific"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_initialize_ort_devices",
+        "Updated": "_initialize_ort_devices_info",
+        "Location": "xlib/onnxruntime/device.py",
+        "Original Line": 96,
+        "Updated Line": 97,
+        "Description": [
+            "The method _initialize_ort_devices from the module xlib/onnxruntime/device.py is renamed to _initialize_ort_devices_info"
+        ],
+        "Commit": "30ba51edf71e110ab4e21b440c79b395bc133b9d",
+        "GPT4 Classification": "\"General\""
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "get_cpu_device",
+        "Updated": "get_cpu_device_info",
+        "Location": "xlib/onnxruntime/device.py",
+        "Original Line": 70,
+        "Updated Line": 70,
+        "Description": [
+            "The method get_cpu_device from the module xlib/onnxruntime/device.py is renamed to get_cpu_device_info"
+        ],
+        "Commit": "30ba51edf71e110ab4e21b440c79b395bc133b9d",
+        "GPT4 Classification": "general"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "get_available_devices",
+        "Updated": "get_available_devices_info",
+        "Location": "xlib/torch/device.py",
+        "Original Line": 121,
+        "Updated Line": 67,
+        "Description": [
+            "The method get_available_devices from the module xlib/torch/device.py is renamed to get_available_devices_info"
+        ],
+        "Commit": "30ba51edf71e110ab4e21b440c79b395bc133b9d",
+        "GPT4 Classification": "\"General\""
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "get_cpu_device",
+        "Updated": "get_cpu_device_info",
+        "Location": "xlib/torch/device.py",
+        "Original Line": 118,
+        "Updated Line": 52,
+        "Description": [
+            "The method get_cpu_device from the module xlib/torch/device.py is renamed to get_cpu_device_info"
+        ],
+        "Commit": "30ba51edf71e110ab4e21b440c79b395bc133b9d",
+        "GPT4 Classification": "general"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter",
+            "Change Return Type"
+        ],
+        "Original": "run",
+        "Updated": "run",
+        "Location": "xlib/ffmpeg/ffmpeg.py",
+        "Original Line": 5,
+        "Updated Line": 5,
+        "Description": [
+            "The parameters [ quiet_std_err ] of the method run from the module xlib/ffmpeg/ffmpeg.py are changed/renamed to [quiet_stderr]",
+            "The return type of method run from the module xlib/ffmpeg/ffmpeg.py is updated"
+        ],
+        "Commit": "3be99ce9f333d27e327c2f5ca8189c1a6dc5cd31",
+        "GPT4 Classification": "\"General\""
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "on_tick",
+        "Updated": "_merge_on_cpu",
+        "Location": "apps/DeepFaceLive/backend/FaceMerger.py/FaceMergerWorker",
+        "Original Method Line": "(168,226)",
+        "Extracted/Inlined Method Line": 158,
+        "Extracted/Inlined Lines": [
+            212.0,
+            213.0,
+            221.0,
+            223.0,
+            225.0,
+            228.0,
+            233.0,
+            234.0,
+            236.0,
+            240.0,
+            248.0,
+            249.0,
+            251.0
+        ],
+        "Description": " The method _merge_on_cpu from the module apps/DeepFaceLive/backend/FaceMerger.py in class FaceMergerWorker is extracted from method on_tick from the module apps/DeepFaceLive/backend/FaceMerger.py in class FaceMergerWorker ",
+        "Commit": "4fe2da23c0f77bb218aa649890ebef6178655781",
+        "GPT4 Classification": "\"Machine-learning-specific\""
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "calc_cut",
+        "Updated": "calc_cut",
+        "Location": "xlib/facemeta/FLandmarks2D.py/FLandmarks2D",
+        "Original Line": 105,
+        "Updated Line": 105,
+        "Description": [
+            "The parameters [ w_h ] of the method calc_cut from the module xlib/facemeta/FLandmarks2D.py in class FLandmarks2D are changed/renamed to [h_w]"
+        ],
+        "Commit": "57fc35cc3e8a7e781373e37b3b7c4b14048bfb5f",
+        "GPT4 Classification": "\"ML-Specific\""
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "main_loop",
+        "Updated": "main_loop_training",
+        "Location": "apps/trainers/FaceAligner/FaceAlignerTrainerApp.py/FaceAlignerTrainerApp",
+        "Original Method Line": "(228,224)",
+        "Extracted/Inlined Method Line": 274,
+        "Extracted/Inlined Lines": [
+            241.0,
+            244.0,
+            245.0,
+            248.0,
+            249.0,
+            251.0,
+            254.0,
+            255.0,
+            257.0,
+            259.0,
+            261.0,
+            262.0,
+            263.0,
+            265.0,
+            267.0,
+            268.0,
+            269.0,
+            270.0,
+            272.0,
+            274.0,
+            275.0,
+            277.0,
+            278.0,
+            279.0,
+            280.0,
+            282.0,
+            283.0
+        ],
+        "Description": " The method main_loop_training from the module apps/trainers/FaceAligner/FaceAlignerTrainerApp.py in class FaceAlignerTrainerApp is extracted from method main_loop from the module apps/trainers/FaceAligner/FaceAlignerTrainerApp.py in class FaceAlignerTrainerApp ",
+        "Commit": "5d011368a9f98e86a865c1a7ef46320da69f8c9c",
+        "GPT4 Classification": "machine-learning-specific"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "on_cs_face_mask_type",
+        "Updated": "on_cs_face_mask_celeb",
+        "Location": "apps/DeepFaceLive/backend/FaceMerger.py/FaceMergerWorker",
+        "Original Line": 140,
+        "Updated Line": 152,
+        "Description": [
+            "The method on_cs_face_mask_type from the module apps/DeepFaceLive/backend/FaceMerger.py in class FaceMergerWorker is renamed to on_cs_face_mask_celeb",
+            "The parameters [ face_mask_type ] of the method on_cs_face_mask_type from the module apps/DeepFaceLive/backend/FaceMerger.py in class FaceMergerWorker is/are removed"
+        ],
+        "Commit": "5f69f885fab1e9d8d0133cba596265972582b9fc",
+        "GPT4 Classification": "general"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "_merge_on_cpu",
+        "Updated": "_merge_on_cpu",
+        "Location": "apps/DeepFaceLive/backend/FaceMerger.py/FaceMergerWorker",
+        "Original Line": 211,
+        "Updated Line": 211,
+        "Description": [
+            "The parameters [ out_merged_frame ] of the method _merge_on_cpu from the module apps/DeepFaceLive/backend/FaceMerger.py in class FaceMergerWorker are changed/renamed to [do_color_compression]"
+        ],
+        "Commit": "6311a12c630397c187794a9de8ac3c89aa56d67c",
+        "GPT4 Classification": "\"General\""
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "_merge_on_gpu",
+        "Updated": "_merge_on_gpu",
+        "Location": "apps/DeepFaceLive/backend/FaceMerger.py/FaceMergerWorker",
+        "Original Line": 269,
+        "Updated Line": 269,
+        "Description": [
+            "The parameters [ out_merged_frame ] of the method _merge_on_gpu from the module apps/DeepFaceLive/backend/FaceMerger.py in class FaceMergerWorker are changed/renamed to [do_color_compression]"
+        ],
+        "Commit": "6311a12c630397c187794a9de8ac3c89aa56d67c",
+        "GPT4 Classification": "\"ML-Specific\""
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "apps/DeepFaceLive/backend/FaceSwapper.py/FaceSwapper",
+        "Original Line": 17,
+        "Updated Line": 17,
+        "Description": [
+            "The parameters [ id ] are added to the method __init__ from the module apps/DeepFaceLive/backend/FaceSwapper.py in class FaceSwapper"
+        ],
+        "Commit": "6311a12c630397c187794a9de8ac3c89aa56d67c",
+        "GPT4 Classification": "machine-learning-specific"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "__init__",
+        "Updated": "_get_name",
+        "Location": "apps/DeepFaceLive/backend/FaceSwapper.py/FaceSwapper",
+        "Original Method Line": "(17,28)",
+        "Extracted/Inlined Method Line": 28,
+        "Extracted/Inlined Lines": [
+            18.0
+        ],
+        "Description": " The method _get_name from the module apps/DeepFaceLive/backend/FaceSwapper.py in class FaceSwapper is extracted from method __init__ from the module apps/DeepFaceLive/backend/FaceSwapper.py in class FaceSwapper ",
+        "Commit": "6311a12c630397c187794a9de8ac3c89aa56d67c",
+        "GPT4 Classification": "\"General\""
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Change Return Type"
+        ],
+        "Original": "get_face_mark_list",
+        "Updated": "get_face_swap_info_list",
+        "Location": "apps/DeepFaceLive/backend/BackendBase.py/BackendConnectionData",
+        "Original Line": 109,
+        "Updated Line": 130,
+        "Description": [
+            "The method get_face_mark_list from the module apps/DeepFaceLive/backend/BackendBase.py in class BackendConnectionData is renamed to get_face_swap_info_list",
+            "The return type of method get_face_mark_list from the module apps/DeepFaceLive/backend/BackendBase.py in class BackendConnectionData is updated"
+        ],
+        "Commit": "63adc2995e288919b69dbe314882e0f2d186da96",
+        "GPT4 Classification": "machine-learning-specific"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "get_file",
+        "Updated": "get_file",
+        "Location": "apps/DeepFaceLive/backend/BackendBase.py/BackendConnectionData",
+        "Original Line": 49,
+        "Updated Line": 72,
+        "Description": [
+            "The parameters [ name ] of the method get_file from the module apps/DeepFaceLive/backend/BackendBase.py in class BackendConnectionData are changed/renamed to [key]"
+        ],
+        "Commit": "63adc2995e288919b69dbe314882e0f2d186da96",
+        "GPT4 Classification": "machine-learning-specific"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "get_frame_name",
+        "Updated": "get_frame_image_name",
+        "Location": "apps/DeepFaceLive/backend/BackendBase.py/BackendConnectionData",
+        "Original Line": 94,
+        "Updated Line": 125,
+        "Description": [
+            "The method get_frame_name from the module apps/DeepFaceLive/backend/BackendBase.py in class BackendConnectionData is renamed to get_frame_image_name"
+        ],
+        "Commit": "63adc2995e288919b69dbe314882e0f2d186da96",
+        "GPT4 Classification": "General"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "get_image",
+        "Updated": "get_image",
+        "Location": "apps/DeepFaceLive/backend/BackendBase.py/BackendConnectionData",
+        "Original Line": 78,
+        "Updated Line": 101,
+        "Description": [
+            "The parameters [ name ] of the method get_image from the module apps/DeepFaceLive/backend/BackendBase.py in class BackendConnectionData are changed/renamed to [key]"
+        ],
+        "Commit": "63adc2995e288919b69dbe314882e0f2d186da96",
+        "GPT4 Classification": "machine-learning-specific"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "get_merged_frame_name",
+        "Updated": "get_merged_image_name",
+        "Location": "apps/DeepFaceLive/backend/BackendBase.py/BackendConnectionData",
+        "Original Line": 106,
+        "Updated Line": 127,
+        "Description": [
+            "The method get_merged_frame_name from the module apps/DeepFaceLive/backend/BackendBase.py in class BackendConnectionData is renamed to get_merged_image_name"
+        ],
+        "Commit": "63adc2995e288919b69dbe314882e0f2d186da96",
+        "GPT4 Classification": "general"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "set_file",
+        "Updated": "set_file",
+        "Location": "apps/DeepFaceLive/backend/BackendBase.py/BackendConnectionData",
+        "Original Line": 46,
+        "Updated Line": 69,
+        "Description": [
+            "The parameters [ name ] of the method set_file from the module apps/DeepFaceLive/backend/BackendBase.py in class BackendConnectionData are changed/renamed to [key]"
+        ],
+        "Commit": "63adc2995e288919b69dbe314882e0f2d186da96",
+        "GPT4 Classification": "\"General\""
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Change/Rename Parameter"
+        ],
+        "Original": "set_frame_name",
+        "Updated": "set_frame_image_name",
+        "Location": "apps/DeepFaceLive/backend/BackendBase.py/BackendConnectionData",
+        "Original Line": 95,
+        "Updated Line": 126,
+        "Description": [
+            "The method set_frame_name from the module apps/DeepFaceLive/backend/BackendBase.py in class BackendConnectionData is renamed to set_frame_image_name",
+            "The parameters [ frame_name ] of the method set_frame_name from the module apps/DeepFaceLive/backend/BackendBase.py in class BackendConnectionData are changed/renamed to [frame_image_name]"
+        ],
+        "Commit": "63adc2995e288919b69dbe314882e0f2d186da96",
+        "GPT4 Classification": "general"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "set_image",
+        "Updated": "set_image",
+        "Location": "apps/DeepFaceLive/backend/BackendBase.py/BackendConnectionData",
+        "Original Line": 55,
+        "Updated Line": 78,
+        "Description": [
+            "The parameters [ name ] of the method set_image from the module apps/DeepFaceLive/backend/BackendBase.py in class BackendConnectionData are changed/renamed to [key]"
+        ],
+        "Commit": "63adc2995e288919b69dbe314882e0f2d186da96",
+        "GPT4 Classification": "\"General\""
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "set_merged_frame_name",
+        "Updated": "set_merged_image_name",
+        "Location": "apps/DeepFaceLive/backend/BackendBase.py/BackendConnectionData",
+        "Original Line": 107,
+        "Updated Line": 128,
+        "Description": [
+            "The method set_merged_frame_name from the module apps/DeepFaceLive/backend/BackendBase.py in class BackendConnectionData is renamed to set_merged_image_name"
+        ],
+        "Commit": "63adc2995e288919b69dbe314882e0f2d186da96",
+        "GPT4 Classification": "general"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "cut",
+        "Updated": "cut",
+        "Location": "xlib/face/FLandmarks2D.py/FLandmarks2D",
+        "Original Line": 171,
+        "Updated Line": 172,
+        "Description": [
+            "The return type of method cut from the module xlib/face/FLandmarks2D.py in class FLandmarks2D is updated"
+        ],
+        "Commit": "64116844f2b63d3fd7de2d2ff408ddea933440a2",
+        "GPT4 Classification": "machine-learning-specific"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "median_blur",
+        "Updated": "box_sharpen",
+        "Location": "xlib/image/ImageProcessor.py/ImageProcessor",
+        "Original Line": 176,
+        "Updated Line": 189,
+        "Description": [
+            "The method median_blur from the module xlib/image/ImageProcessor.py in class ImageProcessor is renamed to box_sharpen",
+            "The parameters [ mask ] are added to the method median_blur from the module xlib/image/ImageProcessor.py in class ImageProcessor"
+        ],
+        "Commit": "64116844f2b63d3fd7de2d2ff408ddea933440a2",
+        "GPT4 Classification": "machine-learning-specific"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "adjust_gamma",
+        "Updated": "gamma",
+        "Location": "xlib/image/ImageProcessor.py/ImageProcessor",
+        "Original Line": 56,
+        "Updated Line": 56,
+        "Description": [
+            "The method adjust_gamma from the module xlib/image/ImageProcessor.py in class ImageProcessor is renamed to gamma",
+            "The parameters [ mask ] are added to the method adjust_gamma from the module xlib/image/ImageProcessor.py in class ImageProcessor"
+        ],
+        "Commit": "64116844f2b63d3fd7de2d2ff408ddea933440a2",
+        "GPT4 Classification": "machine-learning-specific"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "degrade_resize",
+        "Updated": "reresize",
+        "Location": "xlib/image/ImageProcessor.py/ImageProcessor",
+        "Original Line": 150,
+        "Updated Line": 160,
+        "Description": [
+            "The method degrade_resize from the module xlib/image/ImageProcessor.py in class ImageProcessor is renamed to reresize",
+            "The parameters [ mask ] are added to the method degrade_resize from the module xlib/image/ImageProcessor.py in class ImageProcessor"
+        ],
+        "Commit": "64116844f2b63d3fd7de2d2ff408ddea933440a2",
+        "GPT4 Classification": "machine-learning-specific"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "resize",
+        "Updated": "resize",
+        "Location": "xlib/image/ImageProcessor.py/ImageProcessor",
+        "Original Line": 398,
+        "Updated Line": 670,
+        "Description": [
+            "The parameters [ new_ip ] of the method resize from the module xlib/image/ImageProcessor.py in class ImageProcessor is/are removed"
+        ],
+        "Commit": "64116844f2b63d3fd7de2d2ff408ddea933440a2",
+        "GPT4 Classification": "\"General\""
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "warpAffine",
+        "Updated": "warp_affine",
+        "Location": "xlib/image/ImageProcessor.py/ImageProcessor",
+        "Original Line": 421,
+        "Updated Line": 690,
+        "Description": [
+            "The method warpAffine from the module xlib/image/ImageProcessor.py in class ImageProcessor is renamed to warp_affine"
+        ],
+        "Commit": "64116844f2b63d3fd7de2d2ff408ddea933440a2",
+        "GPT4 Classification": "General"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/avecl/_internal/op/remap_np_affine.py/_RemapAffineOp",
+        "Original Line": 44,
+        "Updated Line": 48,
+        "Description": [
+            "The parameters [ interpolation ] are added to the method __init__ from the module xlib/avecl/_internal/op/remap_np_affine.py in class _RemapAffineOp"
+        ],
+        "Commit": "65fb01ff3999d7af3785749fd3a5e4b0f28cd9be",
+        "GPT4 Classification": "machine-learning-specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "remap_np_affine",
+        "Updated": "remap_np_affine",
+        "Location": "xlib/avecl/_internal/op/remap_np_affine.py",
+        "Original Line": 9,
+        "Updated Line": 11,
+        "Description": [
+            "The parameters [ interpolation ] are added to the method remap_np_affine from the module xlib/avecl/_internal/op/remap_np_affine.py"
+        ],
+        "Commit": "65fb01ff3999d7af3785749fd3a5e4b0f28cd9be",
+        "GPT4 Classification": "\"ML-Specific\""
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "build_deepfacelive_windows",
+        "Updated": "build_deepfacelive_windows",
+        "Location": "build/windows/WindowsBuilder.py",
+        "Original Line": 465,
+        "Updated Line": 465,
+        "Description": [
+            "The parameters [ backend ] are added to the method build_deepfacelive_windows from the module build/windows/WindowsBuilder.py"
+        ],
+        "Commit": "6d504d596904b1f68349fa3535e09b69484eca98",
+        "GPT4 Classification": "General"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/onnxruntime/device.py/ORTDeviceInfo",
+        "Original Line": 11,
+        "Updated Line": 16,
+        "Description": [
+            "The parameters [ compute_capability ] of the method __init__ from the module xlib/onnxruntime/device.py in class ORTDeviceInfo are changed/renamed to [execution_provider]"
+        ],
+        "Commit": "6d504d596904b1f68349fa3535e09b69484eca98",
+        "GPT4 Classification": "machine-learning-specific"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "get_compute_capability",
+        "Updated": "get_execution_provider",
+        "Location": "xlib/onnxruntime/device.py/ORTDeviceInfo",
+        "Original Line": 30,
+        "Updated Line": 35,
+        "Description": [
+            "The method get_compute_capability from the module xlib/onnxruntime/device.py in class ORTDeviceInfo is renamed to get_execution_provider"
+        ],
+        "Commit": "6d504d596904b1f68349fa3535e09b69484eca98",
+        "GPT4 Classification": "General"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "get_LAB_to_RGB_body",
+        "Updated": "get_LAB_to_RGB_body",
+        "Location": "xlib/avecl/_internal/op/cvt_color.py/_CvtColor32Op",
+        "Original Line": 110,
+        "Updated Line": 110,
+        "Description": [
+            "The parameters [ rgb_type ] of the method get_LAB_to_RGB_body from the module xlib/avecl/_internal/op/cvt_color.py in class _CvtColor32Op are changed/renamed to [declare_out_type]"
+        ],
+        "Commit": "6da916cc66a4186fcb02b06fc19727fcf54ae8da",
+        "GPT4 Classification": "\"ML-Specific\""
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "get_LAB_to_XYZ_body",
+        "Updated": "get_LAB_to_XYZ_body",
+        "Location": "xlib/avecl/_internal/op/cvt_color.py/_CvtColor32Op",
+        "Original Line": 165,
+        "Updated Line": 185,
+        "Description": [
+            "The parameters [ xyz_type ] of the method get_LAB_to_XYZ_body from the module xlib/avecl/_internal/op/cvt_color.py in class _CvtColor32Op are changed/renamed to [declare_out_type]"
+        ],
+        "Commit": "6da916cc66a4186fcb02b06fc19727fcf54ae8da",
+        "GPT4 Classification": "\"ML-Specific\""
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "get_RGB_to_LAB_body",
+        "Updated": "get_RGB_to_LAB_body",
+        "Location": "xlib/avecl/_internal/op/cvt_color.py/_CvtColor32Op",
+        "Original Line": 103,
+        "Updated Line": 103,
+        "Description": [
+            "The parameters [ lab_type ] of the method get_RGB_to_LAB_body from the module xlib/avecl/_internal/op/cvt_color.py in class _CvtColor32Op are changed/renamed to [declare_out_type]"
+        ],
+        "Commit": "6da916cc66a4186fcb02b06fc19727fcf54ae8da",
+        "GPT4 Classification": "machine-learning-specific"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "get_XYZ_to_LAB_body",
+        "Updated": "get_XYZ_to_LAB_body",
+        "Location": "xlib/avecl/_internal/op/cvt_color.py/_CvtColor32Op",
+        "Original Line": 148,
+        "Updated Line": 168,
+        "Description": [
+            "The parameters [ lab_type ] of the method get_XYZ_to_LAB_body from the module xlib/avecl/_internal/op/cvt_color.py in class _CvtColor32Op are changed/renamed to [declare_out_type]"
+        ],
+        "Commit": "6da916cc66a4186fcb02b06fc19727fcf54ae8da",
+        "GPT4 Classification": "\"ML-Specific\""
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "moments",
+        "Updated": "moments",
+        "Location": "xlib/avecl/_internal/op/reduce.py",
+        "Original Line": 61,
+        "Updated Line": 61,
+        "Description": [
+            "The parameters [ keepdims ] of the method moments from the module xlib/avecl/_internal/op/reduce.py is/are removed"
+        ],
+        "Commit": "6da916cc66a4186fcb02b06fc19727fcf54ae8da",
+        "GPT4 Classification": "\"General\""
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "calc_cut",
+        "Updated": "calc_cut",
+        "Location": "xlib/facemeta/FaceULandmarks.py/FaceULandmarks",
+        "Original Line": 96,
+        "Updated Line": 99,
+        "Description": [
+            "The parameters [ head_yaw ] are added to the method calc_cut from the module xlib/facemeta/FaceULandmarks.py in class FaceULandmarks"
+        ],
+        "Commit": "72166cc1907ad54f7b5ea50455903d7b1692d113",
+        "GPT4 Classification": "machine-learning-specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "cut",
+        "Updated": "cut",
+        "Location": "xlib/facemeta/FaceULandmarks.py/FaceULandmarks",
+        "Original Line": 154,
+        "Updated Line": 163,
+        "Description": [
+            "The parameters [ head_yaw ] are added to the method cut from the module xlib/facemeta/FaceULandmarks.py in class FaceULandmarks"
+        ],
+        "Commit": "72166cc1907ad54f7b5ea50455903d7b1692d113",
+        "GPT4 Classification": "machine-learning-specific"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "sort_by_dist_from_center",
+        "Updated": "sort_by_dist_from_2D_point",
+        "Location": "xlib/face/FRect.py/FRect",
+        "Original Line": 38,
+        "Updated Line": 42,
+        "Description": [
+            "The method sort_by_dist_from_center from the module xlib/face/FRect.py in class FRect is renamed to sort_by_dist_from_2D_point",
+            "The parameters [ x y ] are added to the method sort_by_dist_from_center from the module xlib/face/FRect.py in class FRect"
+        ],
+        "Commit": "77dd13bfcb1c3b596eac04d3262f364b7c75a195",
+        "GPT4 Classification": "machine-learning-specific"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "add_UImage",
+        "Updated": "add_UImage",
+        "Location": "xlib/facemeta/Faceset.py/Faceset",
+        "Original Line": 172,
+        "Updated Line": 200,
+        "Description": [
+            "The parameters [ uimage ] of the method add_UImage from the module xlib/facemeta/Faceset.py in class Faceset are changed/renamed to [uimage_or_list]"
+        ],
+        "Commit": "78d80f9c5cd15aaa928f8ec2edfbd8372515e298",
+        "GPT4 Classification": "machine-learning-specific"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "_keep_target_memory_usage",
+        "Updated": "_free_random_pooled_buffers",
+        "Location": "xlib/avecl/_internal/backend/Device.py/Device",
+        "Original Method Line": "(360,219)",
+        "Extracted/Inlined Method Line": 205,
+        "Extracted/Inlined Lines": [
+            365.0,
+            366.0,
+            367.0,
+            368.0,
+            369.0
+        ],
+        "Description": " The method _free_random_pooled_buffers from the module xlib/avecl/_internal/backend/Device.py in class Device is extracted from method _keep_target_memory_usage from the module xlib/avecl/_internal/backend/Device.py in class Device ",
+        "Commit": "7bd9398a903cf26803368923ad54fb80dd907571",
+        "GPT4 Classification": "\"Machine-Learning-Specific\""
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "on_cs_gamma_red",
+        "Updated": "on_cs_pre_gamma_red",
+        "Location": "apps/DeepFaceLive/backend/FaceSwapper.py/FaceSwapperWorker",
+        "Original Line": 138,
+        "Updated Line": 140,
+        "Description": [
+            "The method on_cs_gamma_red from the module apps/DeepFaceLive/backend/FaceSwapper.py in class FaceSwapperWorker is renamed to on_cs_pre_gamma_red"
+        ],
+        "Commit": "7bddc0248c0c51d68c621e1d589ee9f5770872fe",
+        "GPT4 Classification": "machine-learning-specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "progress_bar_iterator",
+        "Updated": "progress_bar_iterator",
+        "Location": "xlib/console/console.py",
+        "Original Line": 5,
+        "Updated Line": 5,
+        "Description": [
+            "The parameters [ count suppress_print ] are added to the method progress_bar_iterator from the module xlib/console/console.py"
+        ],
+        "Commit": "8489949f2c82dcca3e96bf67debb689443485f4a",
+        "GPT4 Classification": "General"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "extract_facesynthetics_dataset",
+        "Updated": "extract_FaceSynthetics",
+        "Location": "scripts/dev.py",
+        "Original Line": 29,
+        "Updated Line": 29,
+        "Description": [
+            "The method extract_facesynthetics_dataset from the module scripts/dev.py is renamed to extract_FaceSynthetics"
+        ],
+        "Commit": "8b385f6d80d2f3fd9a2ec3b0c6bcd880a28bf93c",
+        "GPT4 Classification": "General"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/face/UFaceMark.py/UFaceMark",
+        "Original Line": 13,
+        "Updated Line": 13,
+        "Description": [
+            "The parameters [ _from_pickled ] of the method __init__ from the module xlib/face/UFaceMark.py in class UFaceMark is/are removed"
+        ],
+        "Commit": "8b385f6d80d2f3fd9a2ec3b0c6bcd880a28bf93c",
+        "GPT4 Classification": "\"ML-Specific\""
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/face/UPerson.py/UPerson",
+        "Original Line": 6,
+        "Updated Line": 8,
+        "Description": [
+            "The parameters [ _from_pickled ] of the method __init__ from the module xlib/face/UPerson.py in class UPerson is/are removed"
+        ],
+        "Commit": "8b385f6d80d2f3fd9a2ec3b0c6bcd880a28bf93c",
+        "GPT4 Classification": "\"ML-Specific\""
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "cleanup",
+        "Updated": "clear_pooled_memory",
+        "Location": "xlib/avecl/_internal/backend/Device.py/Device",
+        "Original Method Line": "(340,385)",
+        "Extracted/Inlined Method Line": 372,
+        "Extracted/Inlined Lines": [
+            346.0,
+            347.0,
+            348.0,
+            349.0,
+            350.0,
+            351.0,
+            352.0
+        ],
+        "Description": " The method clear_pooled_memory from the module xlib/avecl/_internal/backend/Device.py in class Device is extracted from method cleanup from the module xlib/avecl/_internal/backend/Device.py in class Device ",
+        "Commit": "8f530cc0a7e88b54e743d78cc5a98ca5a4a27bbd",
+        "GPT4 Classification": "\"Category2\": \"General\",\"Specificity\":"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "QSplashWindow",
+        "Updated": "QDeepFaceLiveSplashWindow",
+        "Location": "apps/DeepFaceLive/DeepFaceLiveApp.py",
+        "Description": " class QSplashWindow was renamed to class QDeepFaceLiveSplashWindow ",
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "GPT4 Classification": "\"General\""
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "apps/DeepFaceLive/ui/widgets/QXPushButtonCSWSignal.py/QXPushButtonCSWSignal",
+        "Original Line": 14,
+        "Updated Line": 11,
+        "Description": [
+            "The parameters [ button_height ] of the method __init__ from the module apps/DeepFaceLive/ui/widgets/QXPushButtonCSWSignal.py in class QXPushButtonCSWSignal is/are removed"
+        ],
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "GPT4 Classification": "\"General\""
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/qt/widgets/QXCheckBox.py/QXCheckBox",
+        "Original Line": 9,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ font size_policy hided enabled ] of the method __init__ from the module xlib/qt/widgets/QXCheckBox.py in class QXCheckBox is/are removed"
+        ],
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "GPT4 Classification": "\"General\""
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/qt/widgets/QXComboBox.py/QXComboBox",
+        "Original Line": 9,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ font tooltip_text minimum_width maximum_width fixed_width minimum_height maximum_height fixed_height size_policy hided enabled ] of the method __init__ from the module xlib/qt/widgets/QXComboBox.py in class QXComboBox is/are removed"
+        ],
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "GPT4 Classification": "\"General\""
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/qt/widgets/QXDoubleSpinBox.py/QXDoubleSpinBox",
+        "Original Line": 9,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ font size_policy hided enabled ] of the method __init__ from the module xlib/qt/widgets/QXDoubleSpinBox.py in class QXDoubleSpinBox is/are removed"
+        ],
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "GPT4 Classification": "general"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/qt/widgets/QXFixedLayeredImages.py/QXFixedLayeredImages",
+        "Original Line": 17,
+        "Updated Line": 17,
+        "Description": [
+            "The parameters [ fixed_width fixed_height ] of the method __init__ from the module xlib/qt/widgets/QXFixedLayeredImages.py in class QXFixedLayeredImages are changed/renamed to [fwidth height]"
+        ],
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "GPT4 Classification": "\"General\""
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/qt/widgets/QXFrame.py/QXFrame",
+        "Original Line": 9,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ layout minimum_width maximum_width fixed_width minimum_height maximum_height fixed_height size_policy hided enabled ] of the method __init__ from the module xlib/qt/widgets/QXFrame.py in class QXFrame is/are removed"
+        ],
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "GPT4 Classification": "\"General\""
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/qt/widgets/QXLabel.py/QXLabel",
+        "Original Line": 12,
+        "Updated Line": 12,
+        "Description": [
+            "The parameters [ font tooltip_text size_policy minimum_size minimum_width minimum_height maximum_size maximum_width maximum_height fixed_size fixed_width fixed_height hided enabled ] of the method __init__ from the module xlib/qt/widgets/QXLabel.py in class QXLabel is/are removed"
+        ],
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "GPT4 Classification": "\"General\""
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/qt/widgets/QXLineEdit.py/QXLineEdit",
+        "Original Line": 9,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ font size_policy hided enabled ] of the method __init__ from the module xlib/qt/widgets/QXLineEdit.py in class QXLineEdit is/are removed"
+        ],
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "GPT4 Classification": "\"General\""
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/qt/widgets/QXMenuBar.py/QXMenuBar",
+        "Original Line": 8,
+        "Updated Line": 8,
+        "Description": [
+            "The parameters [ font size_policy minimum_width maximum_width fixed_width minimum_height maximum_height fixed_height hided enabled ] of the method __init__ from the module xlib/qt/widgets/QXMenuBar.py in class QXMenuBar is/are removed"
+        ],
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "GPT4 Classification": "\"General\""
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/qt/widgets/QXProgressBar.py/QXProgressBar",
+        "Original Line": 9,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ font size_policy hided enabled ] of the method __init__ from the module xlib/qt/widgets/QXProgressBar.py in class QXProgressBar is/are removed"
+        ],
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "GPT4 Classification": "\"General\""
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/qt/widgets/QXPushButton.py/QXPushButton",
+        "Original Line": 11,
+        "Updated Line": 11,
+        "Description": [
+            "The parameters [ font tooltip_text size_policy minimum_size minimum_width minimum_height fixed_size fixed_width fixed_height hided enabled ] of the method __init__ from the module xlib/qt/widgets/QXPushButton.py in class QXPushButton is/are removed"
+        ],
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "GPT4 Classification": "\"General\""
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/qt/widgets/QXRadioButton.py/QXRadioButton",
+        "Original Line": 9,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ font size_policy hided enabled ] of the method __init__ from the module xlib/qt/widgets/QXRadioButton.py in class QXRadioButton is/are removed"
+        ],
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "GPT4 Classification": "\"General\""
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/qt/widgets/QXScrollArea.py/QXScrollArea",
+        "Original Line": 10,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ size_policy hided enabled ] of the method __init__ from the module xlib/qt/widgets/QXScrollArea.py in class QXScrollArea is/are removed"
+        ],
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "GPT4 Classification": "general"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/qt/widgets/QXSlider.py/QXSlider",
+        "Original Line": 10,
+        "Updated Line": 10,
+        "Description": [
+            "The parameters [ size_policy hided enabled ] of the method __init__ from the module xlib/qt/widgets/QXSlider.py in class QXSlider is/are removed"
+        ],
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "GPT4 Classification": "general"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/qt/widgets/QXSpinBox.py/QXSpinBox",
+        "Original Line": 9,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ font size_policy hided enabled ] of the method __init__ from the module xlib/qt/widgets/QXSpinBox.py in class QXSpinBox is/are removed"
+        ],
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "GPT4 Classification": "\"General\""
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/qt/widgets/QXTextEdit.py/QXTextEdit",
+        "Original Line": 9,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ font tooltip_text size_policy minimum_size minimum_width minimum_height maximum_size maximum_width maximum_height fixed_size fixed_width fixed_height hided enabled ] of the method __init__ from the module xlib/qt/widgets/QXTextEdit.py in class QXTextEdit is/are removed"
+        ],
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "GPT4 Classification": "\"General\""
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/qt/widgets/QXWidget.py/QXWidget",
+        "Original Line": 12,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ layout font tooltip_text minimum_width maximum_width fixed_width minimum_height maximum_height fixed_height size_policy hided enabled ] of the method __init__ from the module xlib/qt/widgets/QXWidget.py in class QXWidget is/are removed"
+        ],
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "GPT4 Classification": "\"General\""
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/qt/widgets/QXWindow.py/QXWindow",
+        "Original Line": 17,
+        "Updated Line": 12,
+        "Description": [
+            "The parameters [ size_policy ] of the method __init__ from the module xlib/qt/widgets/QXWindow.py in class QXWindow is/are removed"
+        ],
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "GPT4 Classification": "general"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/avecl/_internal/op/remap_np_affine.py/_RemapAffineOp",
+        "Original Line": 48,
+        "Updated Line": 54,
+        "Description": [
+            "The parameters [ post_op_text ] are added to the method __init__ from the module xlib/avecl/_internal/op/remap_np_affine.py in class _RemapAffineOp"
+        ],
+        "Commit": "a22f8b571a2a1c045d27020423c6a062e32d256c",
+        "GPT4 Classification": "\"ML-Specific\""
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "remap_np_affine",
+        "Updated": "remap_np_affine",
+        "Location": "xlib/avecl/_internal/op/remap_np_affine.py",
+        "Original Line": 11,
+        "Updated Line": 11,
+        "Description": [
+            "The parameters [ post_op_text ] are added to the method remap_np_affine from the module xlib/avecl/_internal/op/remap_np_affine.py"
+        ],
+        "Commit": "a22f8b571a2a1c045d27020423c6a062e32d256c",
+        "GPT4 Classification": "machine-learning-specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "np",
+        "Updated": "np",
+        "Location": "xlib/avecl/_internal/backend/Buffer.py/Buffer",
+        "Original Line": 88,
+        "Updated Line": 88,
+        "Description": [
+            "The parameters [ out ] are added to the method np from the module xlib/avecl/_internal/backend/Buffer.py in class Buffer"
+        ],
+        "Commit": "acbe4957e65a7766bd9d4a6b80b90845f8db5c8e",
+        "GPT4 Classification": "machine-learning-specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "calc_cut",
+        "Updated": "calc_cut",
+        "Location": "xlib/face/FLandmarks2D.py/FLandmarks2D",
+        "Original Line": 111,
+        "Updated Line": 112,
+        "Description": [
+            "The parameters [ freeze_z_rotation ] are added to the method calc_cut from the module xlib/face/FLandmarks2D.py in class FLandmarks2D"
+        ],
+        "Commit": "ae8a1e0ff4b13e6e6a0155e346864805b2ca81dd",
+        "GPT4 Classification": "machine-learning-specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "cut",
+        "Updated": "cut",
+        "Location": "xlib/face/FLandmarks2D.py/FLandmarks2D",
+        "Original Line": 181,
+        "Updated Line": 200,
+        "Description": [
+            "The parameters [ freeze_z_rotation ] are added to the method cut from the module xlib/face/FLandmarks2D.py in class FLandmarks2D"
+        ],
+        "Commit": "ae8a1e0ff4b13e6e6a0155e346864805b2ca81dd",
+        "GPT4 Classification": "machine-learning-specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "cut",
+        "Updated": "cut",
+        "Location": "xlib/face/FRect.py/FRect",
+        "Original Line": 177,
+        "Updated Line": 177,
+        "Description": [
+            "The parameters [ x_offset y_offset ] are added to the method cut from the module xlib/face/FRect.py in class FRect"
+        ],
+        "Commit": "ae8a1e0ff4b13e6e6a0155e346864805b2ca81dd",
+        "GPT4 Classification": "machine-learning-specific"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "_on_worker_state",
+        "Location": "xlib/mp/csw/CSWBase.py/Host",
+        "Original Line": 134,
+        "Updated Line": 394,
+        "Description": [
+            "The method __init__ from the module xlib/mp/csw/CSWBase.py in class Host is renamed to _on_worker_state",
+            "The parameters [ state ] are added to the method __init__ from the module xlib/mp/csw/CSWBase.py in class Host"
+        ],
+        "Commit": "ae8a1e0ff4b13e6e6a0155e346864805b2ca81dd",
+        "GPT4 Classification": "\"General\""
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "_on_worker_state",
+        "Updated": "__init__",
+        "Location": "xlib/mp/csw/CSWBase.py/Host",
+        "Original Line": 394,
+        "Updated Line": 134,
+        "Description": [
+            "The method _on_worker_state from the module xlib/mp/csw/CSWBase.py in class Host is renamed to __init__",
+            "The parameters [ state ] of the method _on_worker_state from the module xlib/mp/csw/CSWBase.py in class Host is/are removed"
+        ],
+        "Commit": "ae8a1e0ff4b13e6e6a0155e346864805b2ca81dd",
+        "GPT4 Classification": "General"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "restore_on_off_state",
+        "Updated": "restore_on_off_state",
+        "Location": "xlib/mp/csw/CSWBase.py/Host",
+        "Original Line": 287,
+        "Updated Line": 287,
+        "Description": [
+            "The parameters [ default_state ] are added to the method restore_on_off_state from the module xlib/mp/csw/CSWBase.py in class Host"
+        ],
+        "Commit": "ae8a1e0ff4b13e6e6a0155e346864805b2ca81dd",
+        "GPT4 Classification": "\"General\""
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "call_on_msg",
+        "Updated": "call_on_msg",
+        "Old Location": "xlib/mp/csw/CSWBase.py/Host",
+        "New Location": "xlib/mp/csw/CSWBase.py/Worker",
+        "Old Method Line": 252,
+        "New Method Line": 434,
+        "Description": " method call_on_msg from the module xlib/mp/csw/CSWBase.py in class Host was moved to class Worker of module xlib/mp/csw/CSWBase.py ",
+        "Commit": "ae8a1e0ff4b13e6e6a0155e346864805b2ca81dd",
+        "GPT4 Classification": "General"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "send_msg",
+        "Updated": "send_msg",
+        "Old Location": "xlib/mp/csw/CSWBase.py/Host",
+        "New Location": "xlib/mp/csw/CSWBase.py/Worker",
+        "Old Method Line": 265,
+        "New Method Line": 433,
+        "Description": " method send_msg from the module xlib/mp/csw/CSWBase.py in class Host was moved to class Worker of module xlib/mp/csw/CSWBase.py ",
+        "Commit": "ae8a1e0ff4b13e6e6a0155e346864805b2ca81dd",
+        "GPT4 Classification": "General"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "to_ufloat32",
+        "Updated": "to_ufloat32",
+        "Location": "xlib/image/ImageProcessor.py/ImageProcessor",
+        "Original Line": 850,
+        "Updated Line": 850,
+        "Description": [
+            "The parameters [ as_tanh ] are added to the method to_ufloat32 from the module xlib/image/ImageProcessor.py in class ImageProcessor"
+        ],
+        "Commit": "b3bc4e734528d3b186c3a38a6e73e106c3555cc7",
+        "GPT4 Classification": "\"ML-Specific\""
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "_on_worker_state",
+        "Location": "xlib/mp/csw/CSWBase.py/Host",
+        "Original Line": 134,
+        "Updated Line": 394,
+        "Description": [
+            "The method __init__ from the module xlib/mp/csw/CSWBase.py in class Host is renamed to _on_worker_state",
+            "The parameters [ state ] are added to the method __init__ from the module xlib/mp/csw/CSWBase.py in class Host"
+        ],
+        "Commit": "babe7e3215321b785c2daa4ce4e6821b4aeb95e5",
+        "GPT4 Classification": "general"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "_on_worker_state",
+        "Updated": "__init__",
+        "Location": "xlib/mp/csw/CSWBase.py/Host",
+        "Original Line": 394,
+        "Updated Line": 134,
+        "Description": [
+            "The method _on_worker_state from the module xlib/mp/csw/CSWBase.py in class Host is renamed to __init__",
+            "The parameters [ state ] of the method _on_worker_state from the module xlib/mp/csw/CSWBase.py in class Host is/are removed"
+        ],
+        "Commit": "babe7e3215321b785c2daa4ce4e6821b4aeb95e5",
+        "GPT4 Classification": "\"General\""
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "call_on_msg",
+        "Updated": "call_on_msg",
+        "Old Location": "xlib/mp/csw/CSWBase.py/Host",
+        "New Location": "xlib/mp/csw/CSWBase.py/Worker",
+        "Old Method Line": 252,
+        "New Method Line": 434,
+        "Description": " method call_on_msg from the module xlib/mp/csw/CSWBase.py in class Host was moved to class Worker of module xlib/mp/csw/CSWBase.py ",
+        "Commit": "babe7e3215321b785c2daa4ce4e6821b4aeb95e5",
+        "GPT4 Classification": "general"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "send_msg",
+        "Updated": "send_msg",
+        "Old Location": "xlib/mp/csw/CSWBase.py/Host",
+        "New Location": "xlib/mp/csw/CSWBase.py/Worker",
+        "Old Method Line": 265,
+        "New Method Line": 433,
+        "Description": " method send_msg from the module xlib/mp/csw/CSWBase.py in class Host was moved to class Worker of module xlib/mp/csw/CSWBase.py ",
+        "Commit": "babe7e3215321b785c2daa4ce4e6821b4aeb95e5",
+        "GPT4 Classification": "general"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/torch/model/XsegNet.py/BlurPool",
+        "Original Line": 33,
+        "Updated Line": 33,
+        "Description": [
+            "The parameters [ in_ch ] are added to the method __init__ from the module xlib/torch/model/XsegNet.py in class BlurPool"
+        ],
+        "Commit": "d40fce6a5a756d882bc9f1c86cedebb3fc6cd4c1",
+        "GPT4 Classification": "machine-learning-specific"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "on_cs_device_idx_selected",
+        "Updated": "on_cs_device_idx_selected",
+        "Location": "apps/DeepFaceLive/backend/CameraSource.py/CameraSourceWorker",
+        "Original Line": 149,
+        "Updated Line": 167,
+        "Description": [
+            "The parameters [ idx ] of the method on_cs_device_idx_selected from the module apps/DeepFaceLive/backend/CameraSource.py in class CameraSourceWorker are changed/renamed to [device_name]"
+        ],
+        "Commit": "fa7fddca2869dec8fb1c7c9691fb77f1cc8805b6",
+        "GPT4 Classification": "\"General\""
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/console/diacon/Diacon.py/DlgChoice",
+        "Original Line": 19,
+        "Updated Line": 19,
+        "Description": [
+            "The parameters [ name ] of the method __init__ from the module xlib/console/diacon/Diacon.py in class DlgChoice are changed/renamed to [short_name]"
+        ],
+        "Commit": "fd0ca499bff00cebd9532fd305aafa08a77f5b5c",
+        "GPT4 Classification": "general"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "get_name",
+        "Updated": "get_short_name",
+        "Location": "xlib/console/diacon/Diacon.py/DlgChoice",
+        "Original Line": 28,
+        "Updated Line": 28,
+        "Description": [
+            "The method get_name from the module xlib/console/diacon/Diacon.py in class DlgChoice is renamed to get_short_name"
+        ],
+        "Commit": "fd0ca499bff00cebd9532fd305aafa08a77f5b5c",
+        "GPT4 Classification": "General"
+    }
+]

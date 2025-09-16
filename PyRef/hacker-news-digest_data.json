@@ -1,0 +1,30 @@
+[
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "fromstring",
+        "Updated": "frombytes",
+        "Location": "page_content_extractor/imgsz.py",
+        "Original Line": 375,
+        "Updated Line": 385,
+        "Description": [
+            "The method fromstring from the module page_content_extractor/imgsz.py is renamed to frombytes"
+        ],
+        "Commit": "49f5fcb54771333e36e1f11e11961851a8228803"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "get_summary",
+        "Updated": "get_summary",
+        "Location": "page_content_extractor/embeddable.py/EmbeddableExtractor",
+        "Original Line": 19,
+        "Updated Line": 19,
+        "Description": [
+            "The parameters [ max_length ] are added to the method get_summary from the module page_content_extractor/embeddable.py in class EmbeddableExtractor"
+        ],
+        "Commit": "752c042466c698912c27c69a547f6b0b53ed4a00"
+    }
+]

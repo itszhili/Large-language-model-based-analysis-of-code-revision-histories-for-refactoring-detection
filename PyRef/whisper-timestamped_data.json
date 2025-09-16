@@ -1,0 +1,74 @@
+[
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "TestTranscribeCli",
+        "Updated": "TestTranscribeTiny",
+        "Location": "tests/test_transcribe.py",
+        "Description": " class TestTranscribeCli was renamed to class TestTranscribeTiny ",
+        "Commit": "193b2c364cc73cca8262e7bf00c6472ec5a2a4b1"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "get_main_path",
+        "Updated": "get_main_path",
+        "Location": "tests/test_transcribe.py/TestHelper",
+        "Original Line": 29,
+        "Updated Line": 29,
+        "Description": [
+            "The parameters [ check ] are added to the method get_main_path from the module tests/test_transcribe.py in class TestHelper"
+        ],
+        "Commit": "5021745c9b1e5faa2eda8edbce6f7e0603790674"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_monolingual",
+        "Updated": "test_monolingual_tiny",
+        "Location": "tests/test_transcribe.py/TestTranscribeMonolingual",
+        "Original Line": 395,
+        "Updated Line": 395,
+        "Description": [
+            "The method test_monolingual from the module tests/test_transcribe.py in class TestTranscribeMonolingual is renamed to test_monolingual_tiny"
+        ],
+        "Commit": "546798f76536859adcb3928a3ef4f487154a7fc0"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_vad",
+        "Updated": "test_vad_default",
+        "Location": "tests/test_transcribe.py/TestTranscribeWithVad",
+        "Original Line": 492,
+        "Updated Line": 492,
+        "Description": [
+            "The method test_vad from the module tests/test_transcribe.py in class TestTranscribeWithVad is renamed to test_vad_default"
+        ],
+        "Commit": "a9334c2be5422cdd19cd88d09b4541a505533997"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "TestPythonImport",
+        "Updated": "TestZZZPythonImport",
+        "Location": "tests/test_transcribe.py",
+        "Description": " class TestPythonImport was renamed to class TestZZZPythonImport ",
+        "Commit": "fc00326bbe051fa1a8f636d53b14e1b3243e776e"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "get_do_write",
+        "Updated": "get_do_write",
+        "Location": "whisper_timestamped/transcribe.py",
+        "Original Line": 2144,
+        "Updated Line": 2152,
+        "Description": [
+            "The parameters [ format ] of the method get_do_write from the module whisper_timestamped/transcribe.py are changed/renamed to [output_format]"
+        ],
+        "Commit": "fdf979acf533f16635d3299b64c4bff61d2018c9"
+    }
+]

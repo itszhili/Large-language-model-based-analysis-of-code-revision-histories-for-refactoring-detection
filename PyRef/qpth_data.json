@@ -1,0 +1,16 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "qpth/qp.py/QPFunction",
+        "Original Line": 19,
+        "Updated Line": 19,
+        "Description": [
+            "The parameters [ check_Q_spd ] are added to the method __init__ from the module qpth/qp.py in class QPFunction"
+        ],
+        "Commit": "cc4d49808d6b4a8e87a8b75beffbb7f4ba81b2e5"
+    }
+]

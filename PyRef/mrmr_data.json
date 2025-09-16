@@ -1,0 +1,62 @@
+[
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_mrmr_base_with_return_scores",
+        "Updated": "test_mrmr_base_with_scores",
+        "Location": "tests/test_main.py",
+        "Original Line": 31,
+        "Updated Line": 31,
+        "Description": [
+            "The method test_mrmr_base_with_return_scores from the module tests/test_main.py is renamed to test_mrmr_base_with_scores"
+        ],
+        "Commit": "ad972a9a385f1cd0c1e5e889cb5da4a5e3d93ad1"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_mrmr_base",
+        "Updated": "test_mrmr_base_without_scores",
+        "Location": "tests/test_main.py",
+        "Original Line": 22,
+        "Updated Line": 22,
+        "Description": [
+            "The method test_mrmr_base from the module tests/test_main.py is renamed to test_mrmr_base_without_scores"
+        ],
+        "Commit": "ad972a9a385f1cd0c1e5e889cb5da4a5e3d93ad1"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "get_numeric_columns",
+        "Updated": "get_numeric_features",
+        "Location": "mrmr/bigquery.py",
+        "Original Line": 6,
+        "Updated Line": 6,
+        "Description": [
+            "The method get_numeric_columns from the module mrmr/bigquery.py is renamed to get_numeric_features",
+            "The parameters [ target_column ] are added to the method get_numeric_columns from the module mrmr/bigquery.py"
+        ],
+        "Commit": "f744144f0860678f5efb491fbbd457753da9a4f7"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "get_numeric_columns",
+        "Updated": "get_numeric_features",
+        "Location": "mrmr/spark.py",
+        "Original Line": 6,
+        "Updated Line": 6,
+        "Description": [
+            "The method get_numeric_columns from the module mrmr/spark.py is renamed to get_numeric_features",
+            "The parameters [ target_column ] are added to the method get_numeric_columns from the module mrmr/spark.py"
+        ],
+        "Commit": "f744144f0860678f5efb491fbbd457753da9a4f7"
+    }
+]

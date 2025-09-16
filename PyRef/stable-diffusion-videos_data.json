@@ -1,0 +1,465 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "walk",
+        "Updated": "walk",
+        "Location": "stable_diffusion_videos/stable_diffusion_walk.py",
+        "Original Line": 73,
+        "Updated Line": 73,
+        "Description": [
+            "The parameters [ less_vram ] are added to the method walk from the module stable_diffusion_videos/stable_diffusion_walk.py"
+        ],
+        "Commit": "01c96dbda20064b6a642bca9745fd8cc12ec7221"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "walk",
+        "Updated": "walk",
+        "Location": "stable_diffusion_videos/stable_diffusion_pipeline.py/StableDiffusionWalkPipeline",
+        "Original Line": 642,
+        "Updated Line": 642,
+        "Description": [
+            "The parameters [ make_video ] are added to the method walk from the module stable_diffusion_videos/stable_diffusion_pipeline.py in class StableDiffusionWalkPipeline"
+        ],
+        "Commit": "04023b8005f61c75e177bc03dc364f5c733d966d"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "walk",
+        "Updated": "walk",
+        "Location": "stable_diffusion_videos/stable_diffusion_walk.py",
+        "Original Line": 73,
+        "Updated Line": 73,
+        "Description": [
+            "The parameters [ num_steps ] of the method walk from the module stable_diffusion_videos/stable_diffusion_walk.py are changed/renamed to [num_interpolation_steps]"
+        ],
+        "Commit": "0ca50437192d1bffb7641bb014a99dc958974119"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "fn_images",
+        "Updated": "fn_images",
+        "Location": "stable_diffusion_videos/app.py",
+        "Original Line": 9,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ upsample ] are added to the method fn_images from the module stable_diffusion_videos/app.py"
+        ],
+        "Commit": "159e9ebc94b005abd7a552b04d10ef40aca55a69"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__call__",
+        "Updated": "__call__",
+        "Location": "stable_diffusion_videos/upsampling.py/PipelineRealESRGAN",
+        "Original Line": 29,
+        "Updated Line": 29,
+        "Description": [
+            "The parameters [ image_path ] of the method __call__ from the module stable_diffusion_videos/upsampling.py in class PipelineRealESRGAN are changed/renamed to [image]"
+        ],
+        "Commit": "159e9ebc94b005abd7a552b04d10ef40aca55a69"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "walk",
+        "Updated": "walk",
+        "Location": "stable_diffusion_videos/stable_diffusion_walk.py",
+        "Original Line": 73,
+        "Updated Line": 73,
+        "Description": [
+            "The parameters [ upsample ] are added to the method walk from the module stable_diffusion_videos/stable_diffusion_walk.py"
+        ],
+        "Commit": "2e2ffdb9ab904c9d576120d76397af846ca6be8b"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__call__",
+        "Updated": "__call__",
+        "Location": "stable_diffusion_videos/stable_diffusion_pipeline.py/StableDiffusionWalkPipeline",
+        "Original Line": 247,
+        "Updated Line": 247,
+        "Description": [
+            "The parameters [ negative_prompt num_images_per_prompt ] are added to the method __call__ from the module stable_diffusion_videos/stable_diffusion_pipeline.py in class StableDiffusionWalkPipeline"
+        ],
+        "Commit": "2e3ac713e842f3d6f55eead5d1a21135b76c46f2"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "pad_along_axis",
+        "Updated": "pad_along_axis",
+        "Old Location": "stable_diffusion_videos/flax_stable_diffusion_pipeline.py",
+        "New Location": "stable_diffusion_videos/utils.py",
+        "Old Method Line": 42,
+        "New Method Line": 131,
+        "Description": " method pad_along_axis from the module stable_diffusion_videos/flax_stable_diffusion_pipeline.py was moved to module stable_diffusion_videos/utils.py ",
+        "Commit": "3c4c73bc64a300b03d5cbed7bc29d08cd0ac1a15"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "walk",
+        "Updated": "walk",
+        "Location": "stable_diffusion_videos/stable_diffusion_walk.py",
+        "Original Line": 73,
+        "Updated Line": 73,
+        "Description": [
+            "The parameters [ frame_filename_ext ] are added to the method walk from the module stable_diffusion_videos/stable_diffusion_walk.py"
+        ],
+        "Commit": "40e7a8cbc68fc08dc70be13dee56b7683c1f9572"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "fn_videos",
+        "Updated": "fn_videos",
+        "Location": "stable_diffusion_videos/app.py",
+        "Original Line": 36,
+        "Updated Line": 40,
+        "Description": [
+            "The parameters [ scheduler do_loop disable_tqdm use_lerp_for_text ] of the method fn_videos from the module stable_diffusion_videos/app.py is/are removed"
+        ],
+        "Commit": "5015d19b1dd1d5a7ab9b8a129c544cf230130808"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "StableDiffusionPipeline",
+        "Updated": "StableDiffusionWalkPipeline",
+        "Location": "stable_diffusion_videos/stable_diffusion_pipeline.py",
+        "Description": " class StableDiffusionPipeline was renamed to class StableDiffusionWalkPipeline ",
+        "Commit": "5015d19b1dd1d5a7ab9b8a129c544cf230130808"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "PipelineRealESRGAN",
+        "Updated": "RealESRGANModel",
+        "Location": "stable_diffusion_videos/upsampling.py",
+        "Description": " class PipelineRealESRGAN was renamed to class RealESRGANModel ",
+        "Commit": "5015d19b1dd1d5a7ab9b8a129c544cf230130808"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "resume",
+        "Updated": "resume",
+        "Location": "stable_diffusion_videos/stable_diffusion_walk.py",
+        "Original Line": 73,
+        "Updated Line": 73,
+        "Description": [
+            "The parameters [ height width upsample fps ] are added to the method resume from the module stable_diffusion_videos/stable_diffusion_walk.py"
+        ],
+        "Commit": "5697f8d6cdaec186c0f0bde769c6e687aeaf76d3"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "walk",
+        "Updated": "walk",
+        "Location": "stable_diffusion_videos/stable_diffusion_pipeline.py/StableDiffusionWalkPipeline",
+        "Original Line": 588,
+        "Updated Line": 570,
+        "Description": [
+            "The parameters [ margin smooth ] are added to the method walk from the module stable_diffusion_videos/stable_diffusion_pipeline.py in class StableDiffusionWalkPipeline"
+        ],
+        "Commit": "7885ffc0ef2b4ee8eceed1cdcd8675933424d80e"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "fn_videos",
+        "Updated": "fn_videos",
+        "Location": "app.py",
+        "Original Line": 26,
+        "Updated Line": 26,
+        "Description": [
+            "The parameters [ prompt_3 seed_3 prompt_4 seed_4 prompt_5 seed_5 prompt_6 seed_6 prompt_7 seed_7 ] of the method fn_videos from the module app.py is/are removed"
+        ],
+        "Commit": "793710e51dea83ef39b3454ea1edf8a592a2d306"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "fn_videos",
+        "Updated": "fn_videos",
+        "Location": "stable_diffusion_videos/app.py",
+        "Original Line": 28,
+        "Updated Line": 28,
+        "Description": [
+            "The parameters [ upsample ] are added to the method fn_videos from the module stable_diffusion_videos/app.py"
+        ],
+        "Commit": "85af385793f957c47754bb1c0c38ea7f27150b9d"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "walk",
+        "Updated": "walk",
+        "Location": "stable_diffusion_videos/stable_diffusion_walk.py",
+        "Original Line": 73,
+        "Updated Line": 73,
+        "Description": [
+            "The parameters [ batch_size ] are added to the method walk from the module stable_diffusion_videos/stable_diffusion_walk.py"
+        ],
+        "Commit": "85d4a348cd30d7f3b382cb5744b04e922d82b781"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "fn_videos",
+        "Updated": "fn_videos",
+        "Location": "stable_diffusion_videos/app.py",
+        "Original Line": 36,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ num_walk_steps ] of the method fn_videos from the module stable_diffusion_videos/app.py are changed/renamed to [num_interpolation_steps]"
+        ],
+        "Commit": "9338ef8bf0060487a5e7c3f8d99b110977a61828"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "walk",
+        "Updated": "walk",
+        "Location": "stable_diffusion_videos/stable_diffusion_walk.py",
+        "Original Line": 73,
+        "Updated Line": 74,
+        "Description": [
+            "The parameters [ num_steps ] are added to the method walk from the module stable_diffusion_videos/stable_diffusion_walk.py"
+        ],
+        "Commit": "983d3c2af1b9bee03ef2b9d4326797f988cfeee4"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "fn_videos",
+        "Updated": "fn_videos",
+        "Location": "stable_diffusion_videos/app.py",
+        "Original Line": 26,
+        "Updated Line": 28,
+        "Description": [
+            "The parameters [ name ] of the method fn_videos from the module stable_diffusion_videos/app.py are changed/renamed to [output_dir]"
+        ],
+        "Commit": "a8078d4eca03b81b6c8c46589adf091f5e81b392"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "make_clip_frames",
+        "Updated": "make_clip_frames",
+        "Location": "stable_diffusion_videos/stable_diffusion_pipeline.py/StableDiffusionWalkPipeline",
+        "Original Line": 576,
+        "Updated Line": 577,
+        "Description": [
+            "The parameters [ step ] are added to the method make_clip_frames from the module stable_diffusion_videos/stable_diffusion_pipeline.py in class StableDiffusionWalkPipeline"
+        ],
+        "Commit": "ae67aa4bd04da518b85a651ef05479dc1b7704fe"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "generate_inputs",
+        "Updated": "generate_inputs",
+        "Location": "stable_diffusion_videos/flax_stable_diffusion_pipeline.py/FlaxStableDiffusionWalkPipeline",
+        "Original Line": 579,
+        "Updated Line": 592,
+        "Description": [
+            "The parameters [ params ] are added to the method generate_inputs from the module stable_diffusion_videos/flax_stable_diffusion_pipeline.py in class FlaxStableDiffusionWalkPipeline"
+        ],
+        "Commit": "c0516e1d33958bab200cd33ff7c988f4011c993a"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_p_generate",
+        "Updated": "_p_generate",
+        "Location": "stable_diffusion_videos/flax_stable_diffusion_pipeline.py",
+        "Original Line": 997,
+        "Updated Line": 1011,
+        "Description": [
+            "The parameters [ text_embeddings ] are added to the method _p_generate from the module stable_diffusion_videos/flax_stable_diffusion_pipeline.py"
+        ],
+        "Commit": "c0516e1d33958bab200cd33ff7c988f4011c993a"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "generate_images",
+        "Updated": "generate_images",
+        "Location": "stable_diffusion_videos/image_generation.py",
+        "Original Line": 97,
+        "Updated Line": 97,
+        "Description": [
+            "The parameters [ name ] are added to the method generate_images from the module stable_diffusion_videos/image_generation.py"
+        ],
+        "Commit": "c05ac66e9ede7bc81549580c1a81355207e53477"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "init_noise",
+        "Updated": "init_noise",
+        "Location": "stable_diffusion_videos/stable_diffusion_pipeline.py/StableDiffusionWalkPipeline",
+        "Original Line": 894,
+        "Updated Line": 892,
+        "Description": [
+            "The parameters [ dtype ] are added to the method init_noise from the module stable_diffusion_videos/stable_diffusion_pipeline.py in class StableDiffusionWalkPipeline"
+        ],
+        "Commit": "c8d79f6ad5626e3dadc5a928707211b4fad90861"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "walk",
+        "Updated": "walk",
+        "Location": "stable_diffusion_videos/stable_diffusion_walk.py",
+        "Original Line": 73,
+        "Updated Line": 73,
+        "Description": [
+            "The parameters [ fps ] are added to the method walk from the module stable_diffusion_videos/stable_diffusion_walk.py"
+        ],
+        "Commit": "c8d895f777759546990d99c365d2f963d6335bf5"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "walk",
+        "Updated": "make_video_ffmpeg",
+        "Location": "stable_diffusion_videos/stable_diffusion_walk.py",
+        "Original Method Line": "(60,73)",
+        "Extracted/Inlined Method Line": 63,
+        "Extracted/Inlined Lines": [
+            141.0,
+            142.0,
+            143.0,
+            147.0
+        ],
+        "Description": " The method make_video_ffmpeg from the module stable_diffusion_videos/stable_diffusion_walk.py is extracted from method walk from the module stable_diffusion_videos/stable_diffusion_walk.py ",
+        "Commit": "d04de81ce8129aec2d30c2950b63abb8b70148e9"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "embed_text",
+        "Updated": "embed_text",
+        "Location": "stable_diffusion_videos/stable_diffusion_pipeline.py/StableDiffusionWalkPipeline",
+        "Original Line": 808,
+        "Updated Line": 880,
+        "Description": [
+            "The parameters [ negative_prompt ] are added to the method embed_text from the module stable_diffusion_videos/stable_diffusion_pipeline.py in class StableDiffusionWalkPipeline"
+        ],
+        "Commit": "de80244a1213af1630bffbfe4fc671be43da7185"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "make_clip_frames",
+        "Updated": "make_clip_frames",
+        "Location": "stable_diffusion_videos/stable_diffusion_pipeline.py/StableDiffusionWalkPipeline",
+        "Original Line": 509,
+        "Updated Line": 573,
+        "Description": [
+            "The parameters [ negative_prompt ] are added to the method make_clip_frames from the module stable_diffusion_videos/stable_diffusion_pipeline.py in class StableDiffusionWalkPipeline"
+        ],
+        "Commit": "de80244a1213af1630bffbfe4fc671be43da7185"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "walk",
+        "Updated": "walk",
+        "Location": "stable_diffusion_videos/stable_diffusion_pipeline.py/StableDiffusionWalkPipeline",
+        "Original Line": 570,
+        "Updated Line": 636,
+        "Description": [
+            "The parameters [ negative_prompt ] are added to the method walk from the module stable_diffusion_videos/stable_diffusion_pipeline.py in class StableDiffusionWalkPipeline"
+        ],
+        "Commit": "de80244a1213af1630bffbfe4fc671be43da7185"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "stable_diffusion_videos/app.py/Interface",
+        "Original Line": 9,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ params ] are added to the method __init__ from the module stable_diffusion_videos/app.py in class Interface"
+        ],
+        "Commit": "dfb196770e916d7b1a7f7d3ceb39a0262d9d61cd"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "generate_interpolation_clip",
+        "Updated": "make_clip_frames",
+        "Location": "stable_diffusion_videos/stable_diffusion_pipeline.py/StableDiffusionWalkPipeline",
+        "Original Line": 527,
+        "Updated Line": 527,
+        "Description": [
+            "The method generate_interpolation_clip from the module stable_diffusion_videos/stable_diffusion_pipeline.py in class StableDiffusionWalkPipeline is renamed to make_clip_frames"
+        ],
+        "Commit": "e48004ded0cd38e44a9bb13cfc36ff29a22adb36"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "generate_images",
+        "Updated": "generate_images",
+        "Location": "stable_diffusion_videos/image_generation.py",
+        "Original Line": 97,
+        "Updated Line": 97,
+        "Description": [
+            "The parameters [ seeds ] are added to the method generate_images from the module stable_diffusion_videos/image_generation.py"
+        ],
+        "Commit": "f3436bd73a1d99dae2edaee54bd71bffa9394fa4"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "walk",
+        "Updated": "walk",
+        "Location": "stable_diffusion_videos/stable_diffusion_walk.py",
+        "Original Line": 125,
+        "Updated Line": 73,
+        "Description": [
+            "The parameters [ resume ] are added to the method walk from the module stable_diffusion_videos/stable_diffusion_walk.py"
+        ],
+        "Commit": "f5458ee705eb968cae3c8608eb76245c1b096c1c"
+    }
+]

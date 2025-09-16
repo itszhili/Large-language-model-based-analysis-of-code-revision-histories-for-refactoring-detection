@@ -1,0 +1,156 @@
+[
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_depth_integration",
+        "Updated": "test_depth_density",
+        "Location": "tests/test_utils.py/UtilsTestCase",
+        "Original Line": 34,
+        "Updated Line": 34,
+        "Description": [
+            "The method test_depth_integration from the module tests/test_utils.py in class UtilsTestCase is renamed to test_depth_density"
+        ],
+        "Commit": "0314cdc14ed0326f14532284822073cbeab867d9"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_market_stream",
+        "Updated": "check_market_stream",
+        "Location": "scripts/download_data.py",
+        "Original Line": 237,
+        "Updated Line": 237,
+        "Description": [
+            "The method test_market_stream from the module scripts/download_data.py is renamed to check_market_stream"
+        ],
+        "Commit": "0cd29f876cfff56bcc62af9c628d2822b652edf8"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_market_stream_multiplex",
+        "Updated": "check_market_stream_multiplex",
+        "Location": "scripts/download_data.py",
+        "Original Line": 304,
+        "Updated Line": 304,
+        "Description": [
+            "The method test_market_stream_multiplex from the module scripts/download_data.py is renamed to check_market_stream_multiplex"
+        ],
+        "Commit": "0cd29f876cfff56bcc62af9c628d2822b652edf8"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_user_stream",
+        "Updated": "check_user_stream",
+        "Location": "scripts/download_data.py",
+        "Original Line": 314,
+        "Updated Line": 314,
+        "Description": [
+            "The method test_user_stream from the module scripts/download_data.py is renamed to check_user_stream"
+        ],
+        "Commit": "0cd29f876cfff56bcc62af9c628d2822b652edf8"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "apply_rule_with_score_thresholds",
+        "Updated": "apply_rule_with_score_thresholds",
+        "Location": "common/signal_generation.py",
+        "Original Line": 162,
+        "Updated Line": 162,
+        "Description": [
+            "The parameters [ score_column_names ] are added to the method apply_rule_with_score_thresholds from the module common/signal_generation.py"
+        ],
+        "Commit": "0db81899ab0fe0c6e6d19d00d5829d6aba8c0066"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "apply_rule_with_score_thresholds_2",
+        "Updated": "apply_rule_with_score_thresholds_2",
+        "Location": "common/signal_generation.py",
+        "Original Line": 181,
+        "Updated Line": 181,
+        "Description": [
+            "The parameters [ score_column_names ] are added to the method apply_rule_with_score_thresholds_2 from the module common/signal_generation.py"
+        ],
+        "Commit": "0db81899ab0fe0c6e6d19d00d5829d6aba8c0066"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "apply_rule_with_score_thresholds_one_row",
+        "Updated": "apply_rule_with_score_thresholds_one_row",
+        "Location": "common/signal_generation.py",
+        "Original Line": 216,
+        "Updated Line": 216,
+        "Description": [
+            "The parameters [ score_column_names ] are added to the method apply_rule_with_score_thresholds_one_row from the module common/signal_generation.py"
+        ],
+        "Commit": "0db81899ab0fe0c6e6d19d00d5829d6aba8c0066"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "apply_rule_with_score_thresholds",
+        "Updated": "apply_rule_with_score_thresholds",
+        "Location": "common/signal_generation.py",
+        "Original Line": 175,
+        "Updated Line": 163,
+        "Description": [
+            "The parameters [ sell_score_column ] of the method apply_rule_with_score_thresholds from the module common/signal_generation.py is/are removed"
+        ],
+        "Commit": "11d15dc1684020c2ef7fd6466cd1feb7f91108fe"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "apply_rule_with_score_thresholds_2",
+        "Updated": "apply_rule_with_score_thresholds_2",
+        "Location": "common/signal_generation.py",
+        "Original Line": 187,
+        "Updated Line": 175,
+        "Description": [
+            "The parameters [ buy_score_column buy_score_column_2 ] of the method apply_rule_with_score_thresholds_2 from the module common/signal_generation.py are changed/renamed to [trade_score_column trade_score_column_2]"
+        ],
+        "Commit": "11d15dc1684020c2ef7fd6466cd1feb7f91108fe"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "load_all_transaction",
+        "Updated": "load_all_transactions",
+        "Location": "service/App.py",
+        "Original Line": 260,
+        "Updated Line": 260,
+        "Description": [
+            "The method load_all_transaction from the module service/App.py is renamed to load_all_transactions"
+        ],
+        "Commit": "382cd039261990fa8f5b3f7e1b85954ea9ce9004"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "apply_rule_with_score_thresholds_one_row",
+        "Updated": "apply_rule_with_score_thresholds_one_row",
+        "Location": "common/signal_generation.py",
+        "Original Line": 208,
+        "Updated Line": 216,
+        "Description": [
+            "The parameters [ trade_score_columns ] of the method apply_rule_with_score_thresholds_one_row from the module common/signal_generation.py is/are removed"
+        ],
+        "Commit": "514cfb6b46d474891292a2b5a7058c94b06b94b0"
+    }
+]

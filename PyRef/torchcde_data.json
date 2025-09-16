@@ -1,0 +1,142 @@
+[
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchcontroldiffeq/linear_interpolation.py/LinearInterpolation",
+        "Original Line": 106,
+        "Updated Line": 106,
+        "Description": [
+            "The parameters [ t ] of the method __init__ from the module torchcontroldiffeq/linear_interpolation.py in class LinearInterpolation is/are removed"
+        ],
+        "Commit": "1d2b50ef03144a41ec47f5155422276d3c1bd724"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchcontroldiffeq/natural_cubic_spline.py/NaturalCubicSpline",
+        "Original Line": 224,
+        "Updated Line": 224,
+        "Description": [
+            "The parameters [ t ] of the method __init__ from the module torchcontroldiffeq/natural_cubic_spline.py in class NaturalCubicSpline is/are removed"
+        ],
+        "Commit": "1d2b50ef03144a41ec47f5155422276d3c1bd724"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_example",
+        "Updated": "test_time_series_classification",
+        "Location": "test/test_example.py",
+        "Original Line": 12,
+        "Updated Line": 16,
+        "Description": [
+            "The method test_example from the module test/test_example.py is renamed to test_time_series_classification"
+        ],
+        "Commit": "3ac1f701ed804b60e7148c70589fc638b6bb48ae"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "example/time_series_classification.py/NeuralCDE",
+        "Original Line": 58,
+        "Updated Line": 58,
+        "Description": [
+            "The parameters [ interpolation ] are added to the method __init__ from the module example/time_series_classification.py in class NeuralCDE"
+        ],
+        "Commit": "3da7b51187652ee18f790546dab234bd25eabcf2"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "get_data",
+        "Updated": "get_data",
+        "Location": "example/time_series_classification.py",
+        "Original Line": 95,
+        "Updated Line": 101,
+        "Description": [
+            "The parameters [ num_timepoints ] are added to the method get_data from the module example/time_series_classification.py"
+        ],
+        "Commit": "3da7b51187652ee18f790546dab234bd25eabcf2"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchcontroldiffeq/interpolation_linear.py/LinearInterpolation",
+        "Original Line": 116,
+        "Updated Line": 118,
+        "Description": [
+            "The parameters [ reparameterise ] are added to the method __init__ from the module torchcontroldiffeq/interpolation_linear.py in class LinearInterpolation"
+        ],
+        "Commit": "40205c40075bf8b7e6d424210d12196330f90a8d"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "forward",
+        "Updated": "forward",
+        "Location": "example/example.py/CDEFunc",
+        "Original Line": 32,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ t ] are added to the method forward from the module example/example.py in class CDEFunc"
+        ],
+        "Commit": "66a3f51e093b97bbd720afa8b5598cd6dd18d3db"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "forward",
+        "Updated": "forward",
+        "Location": "test/test_cdeint.py/_Func",
+        "Original Line": 27,
+        "Updated Line": 27,
+        "Description": [
+            "The parameters [ t ] are added to the method forward from the module test/test_cdeint.py in class _Func"
+        ],
+        "Commit": "66a3f51e093b97bbd720afa8b5598cd6dd18d3db"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "forward",
+        "Updated": "forward",
+        "Location": "test/test_path.py/_Func",
+        "Original Line": 129,
+        "Updated Line": 129,
+        "Description": [
+            "The parameters [ t ] are added to the method forward from the module test/test_path.py in class _Func"
+        ],
+        "Commit": "66a3f51e093b97bbd720afa8b5598cd6dd18d3db"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "reset_nfe",
+        "Updated": "reset",
+        "Location": "example/interpolation_comparison.py/Func",
+        "Original Line": 15,
+        "Updated Line": 22,
+        "Description": [
+            "The method reset_nfe from the module example/interpolation_comparison.py in class Func is renamed to reset"
+        ],
+        "Commit": "863af1a9c2f5a210bd9e501a1a4e99954b511e7a"
+    }
+]

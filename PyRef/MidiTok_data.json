@@ -1,0 +1,184 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "miditok/classes.py/TokenizerConfig",
+        "Original Line": 257,
+        "Updated Line": 267,
+        "Description": [
+            "The parameters [ use_pitch_intervals max_pitch_interval pitch_intervals_max_time_dist ] are added to the method __init__ from the module miditok/classes.py in class TokenizerConfig"
+        ],
+        "Commit": "1672ad6d9cf510cebfd1205de0cc3062f8f3c1be"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "CPWordEncoding",
+        "Updated": "CPWord",
+        "Location": "miditok/cp_word.py",
+        "Description": " class CPWordEncoding was renamed to class CPWord ",
+        "Commit": "195d549e291745824fe5cc8dc7561ff23f9b9559"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "MIDILikeEncoding",
+        "Updated": "MIDILike",
+        "Location": "miditok/midi_like.py",
+        "Description": " class MIDILikeEncoding was renamed to class MIDILike ",
+        "Commit": "195d549e291745824fe5cc8dc7561ff23f9b9559"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "MuMIDIEncoding",
+        "Updated": "MuMIDI",
+        "Location": "miditok/mumidi.py",
+        "Description": " class MuMIDIEncoding was renamed to class MuMIDI ",
+        "Commit": "195d549e291745824fe5cc8dc7561ff23f9b9559"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "OctupleEncoding",
+        "Updated": "Octuple",
+        "Location": "miditok/octuple.py",
+        "Description": " class OctupleEncoding was renamed to class Octuple ",
+        "Commit": "195d549e291745824fe5cc8dc7561ff23f9b9559"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "OctupleMonoEncoding",
+        "Updated": "OctupleMono",
+        "Location": "miditok/octuple_mono.py",
+        "Description": " class OctupleMonoEncoding was renamed to class OctupleMono ",
+        "Commit": "195d549e291745824fe5cc8dc7561ff23f9b9559"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "REMIEncoding",
+        "Updated": "REMI",
+        "Location": "miditok/remi.py",
+        "Description": " class REMIEncoding was renamed to class REMI ",
+        "Commit": "195d549e291745824fe5cc8dc7561ff23f9b9559"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "StructuredEncoding",
+        "Updated": "Structured",
+        "Location": "miditok/structured.py",
+        "Description": " class StructuredEncoding was renamed to class Structured ",
+        "Commit": "195d549e291745824fe5cc8dc7561ff23f9b9559"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "bpe_benchmark",
+        "Updated": "create_tokenizer",
+        "Location": "tests/benchmark_fast_bpe.py",
+        "Original Method Line": "(32,32)",
+        "Extracted/Inlined Method Line": 48,
+        "Extracted/Inlined Lines": [
+            49.0,
+            50.0
+        ],
+        "Description": " The method create_tokenizer from the module tests/benchmark_fast_bpe.py is extracted from method bpe_benchmark from the module tests/benchmark_fast_bpe.py ",
+        "Commit": "45566f85a382127f35ad0e586ce5f3f641ec663e"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "miditok/tokenizations/remi_plus.py/REMIPlus",
+        "Original Line": 52,
+        "Updated Line": 53,
+        "Description": [
+            "The parameters [ num_bars ] of the method __init__ from the module miditok/tokenizations/remi_plus.py in class REMIPlus are changed/renamed to [max_bar_embedding]"
+        ],
+        "Commit": "55339b494c34112116c3ae6601d03a56f11e09d1"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "miditok/mumidi.py/MuMIDI",
+        "Original Line": 41,
+        "Updated Line": 41,
+        "Description": [
+            "The parameters [ programs ] are added to the method __init__ from the module miditok/mumidi.py in class MuMIDI"
+        ],
+        "Commit": "611754d107c645f78fd72f0946d0a5d76de816cf"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "miditok/octuple.py/Octuple",
+        "Original Line": 33,
+        "Updated Line": 34,
+        "Description": [
+            "The parameters [ programs ] are added to the method __init__ from the module miditok/octuple.py in class Octuple"
+        ],
+        "Commit": "611754d107c645f78fd72f0946d0a5d76de816cf"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "__ids_are_bpe_encoded",
+        "Updated": "_ids_are_bpe_encoded",
+        "Location": "miditok/midi_tokenizer.py/MIDITokenizer",
+        "Original Line": 1408,
+        "Updated Line": 1408,
+        "Description": [
+            "The method __ids_are_bpe_encoded from the module miditok/midi_tokenizer.py in class MIDITokenizer is renamed to _ids_are_bpe_encoded"
+        ],
+        "Commit": "8af7f6dd2f68e3c1bcac5861eeb48b63cc688e8e"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "miditok/classes.py/TokenizerConfig",
+        "Original Line": 190,
+        "Updated Line": 192,
+        "Description": [
+            "The parameters [ log_tempos ] are added to the method __init__ from the module miditok/classes.py in class TokenizerConfig"
+        ],
+        "Commit": "c9dbf9041ebf8af6b8604feec08a651a1a89edcd"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "miditok/classes.py/TokenizerConfig",
+        "Original Line": 190,
+        "Updated Line": 192,
+        "Description": [
+            "The parameters [ log_tempos ] are added to the method __init__ from the module miditok/classes.py in class TokenizerConfig"
+        ],
+        "Commit": "e2508d958f6d831e34f47c52ad47cb7d4ed50faa"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "special_tokens",
+        "Updated": "special_tokens",
+        "Location": "miditok/midi_tokenizer.py/MIDITokenizer",
+        "Original Line": 341,
+        "Updated Line": 341,
+        "Description": [
+            "The return type of method special_tokens from the module miditok/midi_tokenizer.py in class MIDITokenizer is updated"
+        ],
+        "Commit": "fd40458a60061511acdc52870c51eb577ea2ecaf"
+    }
+]

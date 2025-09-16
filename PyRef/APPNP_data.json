@@ -1,0 +1,20 @@
+[
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "AbstractPPNPLayer",
+        "Updated": "FullyConnected",
+        "Location": "src/appnp_layer.py",
+        "Description": " class AbstractPPNPLayer was renamed to class FullyConnected ",
+        "Commit": "7297d42230fe182992e87f39af9a2003b4cc0aac",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "APPNPLayer",
+        "Updated": "APPNPModel",
+        "Location": "src/appnp_layer.py",
+        "Description": " class APPNPLayer was renamed to class APPNPModel ",
+        "Commit": "7297d42230fe182992e87f39af9a2003b4cc0aac",
+        "Category": "ML-Specific"
+    }
+]

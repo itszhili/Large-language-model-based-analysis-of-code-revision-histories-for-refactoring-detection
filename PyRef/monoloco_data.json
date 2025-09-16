@@ -1,0 +1,119 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "show_method",
+        "Updated": "show_method",
+        "Location": "monoloco/visuals/figures.py",
+        "Original Line": 145,
+        "Updated Line": 153,
+        "Description": [
+            "The parameters [ save ] are added to the method show_method from the module monoloco/visuals/figures.py"
+        ],
+        "Commit": "0ea3ae811f79368cbc60b6bae4c4eadaba1d1797"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "print",
+        "Updated": "printer",
+        "Location": "src/eval/kitti_eval.py/KittiEval",
+        "Original Line": 122,
+        "Updated Line": 122,
+        "Description": [
+            "The method print from the module src/eval/kitti_eval.py in class KittiEval is renamed to printer"
+        ],
+        "Commit": "3771555f36c8c6fa41431598d5032d553f951180"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "monoloco/prep/prep_kitti.py/PreprocessKitti",
+        "Original Line": 48,
+        "Updated Line": 48,
+        "Description": [
+            "The parameters [ monocular ] of the method __init__ from the module monoloco/prep/prep_kitti.py in class PreprocessKitti are changed/renamed to [mode]"
+        ],
+        "Commit": "3c6ebe22c9a923809138f58658a8767769585a99"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "src/eval/kitti_eval.py/KittiEval",
+        "Original Line": 29,
+        "Updated Line": 29,
+        "Description": [
+            "The parameters [ show ] of the method __init__ from the module src/eval/kitti_eval.py in class KittiEval is/are removed"
+        ],
+        "Commit": "3c7d07d081f2d5a16930d1641ddaa42f0468a0ab"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "gmm",
+        "Updated": "height_distributions",
+        "Location": "monoloco/visuals/paper.py",
+        "Original Method Line": "(120,121)",
+        "Extracted/Inlined Method Line": 143,
+        "Extracted/Inlined Lines": [
+            121.0,
+            122.0,
+            123.0,
+            124.0,
+            125.0,
+            126.0,
+            127.0
+        ],
+        "Description": " The method height_distributions from the module monoloco/visuals/paper.py is extracted from method gmm from the module monoloco/visuals/paper.py ",
+        "Commit": "46066cf7bc9bd10da64a9afc0b3ad958e8bd7560"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "get_iqr_mask",
+        "Updated": "interquartile_mask",
+        "Location": "monoloco/utils/stereo.py",
+        "Original Line": 82,
+        "Updated Line": 82,
+        "Description": [
+            "The method get_iqr_mask from the module monoloco/utils/stereo.py is renamed to interquartile_mask"
+        ],
+        "Commit": "8366a436ee40afefdbeeedd4a811f743d54f86db"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "monoloco/network/net.py/MonoLoco",
+        "Original Line": 25,
+        "Updated Line": 24,
+        "Description": [
+            "The parameters [ model_path ] of the method __init__ from the module monoloco/network/net.py in class MonoLoco are changed/renamed to [model]"
+        ],
+        "Commit": "aef978d2315abfb31bc20b23a557ae9d41a9941c"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "monoloco/network/pifpaf.py/ImageList",
+        "Original Line": 16,
+        "Updated Line": 16,
+        "Description": [
+            "The parameters [ image_transform ] of the method __init__ from the module monoloco/network/pifpaf.py in class ImageList is/are removed"
+        ],
+        "Commit": "f23a2e34f5a305204a1a3ebdb5495676e718a016"
+    }
+]

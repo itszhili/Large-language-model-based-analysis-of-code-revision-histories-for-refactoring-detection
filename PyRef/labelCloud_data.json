@@ -1,0 +1,271 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "startup_pyqt",
+        "Updated": "startup_pyqt",
+        "Location": "labelCloud/tests/integration/conftest.py",
+        "Original Line": 17,
+        "Updated Line": 21,
+        "Description": [
+            "The parameters [ monkeypatch ] are added to the method startup_pyqt from the module labelCloud/tests/integration/conftest.py"
+        ],
+        "Commit": "02d90b7a1ba900fb002af4623bb25514cc200938"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "startup_pyqt",
+        "Updated": "startup_pyqt",
+        "Location": "tests/integration/conftest.py",
+        "Original Line": 18,
+        "Updated Line": 18,
+        "Description": [
+            "The parameters [ qapp ] are added to the method startup_pyqt from the module tests/integration/conftest.py"
+        ],
+        "Commit": "197078eb3188fe9640d92cb6c31608b1833c7d8b"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_bbox_control_with_buttons",
+        "Updated": "test_bbox_control_with_buttons",
+        "Location": "tests/integration/test_gui.py",
+        "Original Line": 32,
+        "Updated Line": 30,
+        "Description": [
+            "The parameters [ bbox ] are added to the method test_bbox_control_with_buttons from the module tests/integration/test_gui.py"
+        ],
+        "Commit": "197078eb3188fe9640d92cb6c31608b1833c7d8b"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "labelCloud/control/alignmode.py/AlignMode",
+        "Original Line": 14,
+        "Updated Line": 14,
+        "Description": [
+            "The parameters [ pcd_controler ] of the method __init__ from the module labelCloud/control/alignmode.py in class AlignMode are changed/renamed to [pcd_controller]"
+        ],
+        "Commit": "20a9060ff479f0f9dc9c70f4a5788fff31c4d9db"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "labelCloud/control/drawing_manager.py/DrawingManager",
+        "Original Line": 17,
+        "Updated Line": 17,
+        "Description": [
+            "The parameters [ bbox_controler ] of the method __init__ from the module labelCloud/control/drawing_manager.py in class DrawingManager are changed/renamed to [bbox_controller]"
+        ],
+        "Commit": "20a9060ff479f0f9dc9c70f4a5788fff31c4d9db"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "set_bbox_controler",
+        "Updated": "set_bbox_controller",
+        "Location": "labelCloud/view/viewer.py/GLWidget",
+        "Original Line": 42,
+        "Updated Line": 42,
+        "Description": [
+            "The method set_bbox_controler from the module labelCloud/view/viewer.py in class GLWidget is renamed to set_bbox_controller"
+        ],
+        "Commit": "20a9060ff479f0f9dc9c70f4a5788fff31c4d9db"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "set_floor_visibility",
+        "Updated": "set_floor_visibility",
+        "Old Location": "labelCloud/view/gui.py/GUI",
+        "New Location": "labelCloud/view/gui.py",
+        "Old Method Line": 239,
+        "New Method Line": 26,
+        "Description": " method set_floor_visibility from the module labelCloud/view/gui.py in class GUI was moved to module labelCloud/view/gui.py ",
+        "Commit": "424edb3b284157fd372460d159dcf711ff164688"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "set_orientation_visibility",
+        "Updated": "set_orientation_visibility",
+        "Old Location": "labelCloud/view/gui.py/GUI",
+        "New Location": "labelCloud/view/gui.py",
+        "Old Method Line": 243,
+        "New Method Line": 31,
+        "Description": " method set_orientation_visibility from the module labelCloud/view/gui.py in class GUI was moved to module labelCloud/view/gui.py ",
+        "Commit": "424edb3b284157fd372460d159dcf711ff164688"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "show_dialog",
+        "Updated": "show_no_pcd_dialog",
+        "Location": "modules/control/pcd_controler.py",
+        "Original Line": 38,
+        "Updated Line": 39,
+        "Description": [
+            "The method show_dialog from the module modules/control/pcd_controler.py is renamed to show_no_pcd_dialog"
+        ],
+        "Commit": "4700915f9c809c827544f08e09727f4755545d73"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "depth_min",
+        "Updated": "circular_mask",
+        "Location": "modules/view/viewer.py",
+        "Original Method Line": "(144,150)",
+        "Extracted/Inlined Method Line": 144,
+        "Extracted/Inlined Lines": [
+            145.0,
+            146.0
+        ],
+        "Description": " The method circular_mask from the module modules/view/viewer.py is extracted from method depth_min from the module modules/view/viewer.py ",
+        "Commit": "5995b138ab023820e7ceb6d510c24553d12c6d48"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "modules/control/bbox_controler.py/BoundingBoxControler",
+        "Original Line": 43,
+        "Updated Line": 44,
+        "Description": [
+            "The parameters [ view only_z_rotation ] of the method __init__ from the module modules/control/bbox_controler.py in class BoundingBoxControler is/are removed"
+        ],
+        "Commit": "5f973143e9ba1e439b4d267c6c1bf626237e1220"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "set_pcd_label",
+        "Updated": "set_pcd_label",
+        "Location": "modules/view/gui.py/GUI",
+        "Original Line": 190,
+        "Updated Line": 190,
+        "Description": [
+            "The parameters [ pcd_id no_of_pcd ] of the method set_pcd_label from the module modules/view/gui.py in class GUI is/are removed"
+        ],
+        "Commit": "7128986ba9a07451821cbec640396b2f46499fe2"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "update_progress",
+        "Updated": "update_progress",
+        "Location": "modules/view/gui.py/GUI",
+        "Original Line": 194,
+        "Updated Line": 197,
+        "Description": [
+            "The parameters [ progress ] of the method update_progress from the module modules/view/gui.py in class GUI are changed/renamed to [value]"
+        ],
+        "Commit": "7128986ba9a07451821cbec640396b2f46499fe2"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "run",
+        "Updated": "get_main_app",
+        "Location": "labelCloud/app.py",
+        "Original Method Line": "(9,25)",
+        "Extracted/Inlined Method Line": 9,
+        "Extracted/Inlined Lines": [
+            10.0,
+            13.0,
+            14.0,
+            17.0,
+            20.0
+        ],
+        "Description": " The method get_main_app from the module labelCloud/app.py is extracted from method run from the module labelCloud/app.py ",
+        "Commit": "73a4be7ca8c9c5027a4ce5268144c48d111d6fee"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "set_bbox_controller",
+        "Updated": "set_bbox_controller",
+        "Location": "labelCloud/view/viewer.py/GLWidget",
+        "Original Line": 42,
+        "Updated Line": 42,
+        "Description": [
+            "The parameters [ bbox_controler ] of the method set_bbox_controller from the module labelCloud/view/viewer.py in class GLWidget are changed/renamed to [bbox_controller]"
+        ],
+        "Commit": "80c81c71ab072de16b1eecfe188aec8bd6b2c180"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Change/Rename Parameter"
+        ],
+        "Original": "set_pointcloud_controler",
+        "Updated": "set_pointcloud_controller",
+        "Location": "labelCloud/view/viewer.py/GLWidget",
+        "Original Line": 39,
+        "Updated Line": 39,
+        "Description": [
+            "The method set_pointcloud_controler from the module labelCloud/view/viewer.py in class GLWidget is renamed to set_pointcloud_controller",
+            "The parameters [ pcd_controler ] of the method set_pointcloud_controler from the module labelCloud/view/viewer.py in class GLWidget are changed/renamed to [pcd_controller]"
+        ],
+        "Commit": "80c81c71ab072de16b1eecfe188aec8bd6b2c180"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "main",
+        "Updated": "start_gui",
+        "Location": "labelCloud/__main__.py",
+        "Original Method Line": "(10,6)",
+        "Extracted/Inlined Method Line": 67,
+        "Extracted/Inlined Lines": [
+            11.0,
+            14.0,
+            15.0,
+            18.0,
+            21.0,
+            23.0,
+            24.0,
+            25.0,
+            26.0,
+            27.0,
+            29.0,
+            30.0
+        ],
+        "Description": " The method start_gui from the module labelCloud/__main__.py is extracted from method main from the module labelCloud/__main__.py ",
+        "Commit": "94722fe69e55d8f54028507bb0ade6fda23dccb2"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "CenterFormat",
+        "Updated": "CentroidFormat",
+        "Location": "modules/control/label_manager.py",
+        "Description": " class CenterFormat was renamed to class CentroidFormat ",
+        "Commit": "b5e163362102af644c55dcd2dc591bafc4257f7d"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "get_distinct_colors",
+        "Updated": "get_distinct_colors",
+        "Location": "labelCloud/utils/color.py",
+        "Original Line": 10,
+        "Updated Line": 11,
+        "Description": [
+            "The return type of method get_distinct_colors from the module labelCloud/utils/color.py is updated"
+        ],
+        "Commit": "e78d4bc4e1da2ecad6122d85cc9dce3144920b22"
+    }
+]

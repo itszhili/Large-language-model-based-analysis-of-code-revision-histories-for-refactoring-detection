@@ -1,0 +1,1869 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_extract_embeddings",
+        "Updated": "_extract_embeddings",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 2966,
+        "Updated Line": 3085,
+        "Description": [
+            "The parameters [ images ] are added to the method _extract_embeddings from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "05cfefc6b711da43e90140ba86fddeeac0e02e17",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_extract_topics",
+        "Updated": "_extract_topics",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 3129,
+        "Updated Line": 3269,
+        "Description": [
+            "The parameters [ embeddings mappings ] are added to the method _extract_topics from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "05cfefc6b711da43e90140ba86fddeeac0e02e17",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_extract_words_per_topic",
+        "Updated": "_extract_words_per_topic",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 3324,
+        "Updated Line": 3507,
+        "Description": [
+            "The parameters [ calculate_aspects ] are added to the method _extract_words_per_topic from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "05cfefc6b711da43e90140ba86fddeeac0e02e17",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "find_topics",
+        "Updated": "find_topics",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 1209,
+        "Updated Line": 1238,
+        "Description": [
+            "The parameters [ image ] are added to the method find_topics from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "05cfefc6b711da43e90140ba86fddeeac0e02e17",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "fit",
+        "Updated": "fit",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 259,
+        "Updated Line": 261,
+        "Description": [
+            "The parameters [ images ] are added to the method fit from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "05cfefc6b711da43e90140ba86fddeeac0e02e17",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "fit_transform",
+        "Updated": "fit_transform",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 301,
+        "Updated Line": 305,
+        "Description": [
+            "The parameters [ images ] are added to the method fit_transform from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "05cfefc6b711da43e90140ba86fddeeac0e02e17",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "generate_topic_labels",
+        "Updated": "generate_topic_labels",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 1740,
+        "Updated Line": 1821,
+        "Description": [
+            "The parameters [ aspect ] are added to the method generate_topic_labels from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "05cfefc6b711da43e90140ba86fddeeac0e02e17",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "merge_topics",
+        "Updated": "merge_topics",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 1794,
+        "Updated Line": 1879,
+        "Description": [
+            "The parameters [ images ] are added to the method merge_topics from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "05cfefc6b711da43e90140ba86fddeeac0e02e17",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "reduce_outliers",
+        "Updated": "reduce_outliers",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 1899,
+        "Updated Line": 2000,
+        "Description": [
+            "The parameters [ images ] are added to the method reduce_outliers from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "05cfefc6b711da43e90140ba86fddeeac0e02e17",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "reduce_topics",
+        "Updated": "reduce_topics",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 1847,
+        "Updated Line": 1945,
+        "Description": [
+            "The parameters [ images ] are added to the method reduce_topics from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "05cfefc6b711da43e90140ba86fddeeac0e02e17",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "transform",
+        "Updated": "transform",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 399,
+        "Updated Line": 425,
+        "Description": [
+            "The parameters [ images ] are added to the method transform from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "05cfefc6b711da43e90140ba86fddeeac0e02e17",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "update_topics",
+        "Updated": "update_topics",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 1261,
+        "Updated Line": 1297,
+        "Description": [
+            "The parameters [ images ] are added to the method update_topics from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "05cfefc6b711da43e90140ba86fddeeac0e02e17",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_create_model_from_files",
+        "Updated": "_create_model_from_files",
+        "Location": "bertopic/_bertopic.py",
+        "Original Line": 3716,
+        "Updated Line": 3932,
+        "Description": [
+            "The parameters [ images ] are added to the method _create_model_from_files from the module bertopic/_bertopic.py"
+        ],
+        "Commit": "05cfefc6b711da43e90140ba86fddeeac0e02e17",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_cluster_embeddings",
+        "Updated": "_cluster_embeddings",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 2306,
+        "Updated Line": 2837,
+        "Description": [
+            "The parameters [ y ] are added to the method _cluster_embeddings from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "06dcd47a019854185a39146ed693d16dc3a27651",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 77,
+        "Updated Line": 100,
+        "Description": [
+            "The parameters [ ctfidf_model ] are added to the method __init__ from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "09c1732997f838050c263ad00ad3c9474e816863",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_c_tf_idf",
+        "Updated": "_c_tf_idf",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 2277,
+        "Updated Line": 2497,
+        "Description": [
+            "The parameters [ partial_fit ] are added to the method _c_tf_idf from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "09c1732997f838050c263ad00ad3c9474e816863",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_cluster_embeddings",
+        "Updated": "_cluster_embeddings",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 2080,
+        "Updated Line": 2294,
+        "Description": [
+            "The parameters [ partial_fit ] are added to the method _cluster_embeddings from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "09c1732997f838050c263ad00ad3c9474e816863",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_reduce_dimensionality",
+        "Updated": "_reduce_dimensionality",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 2057,
+        "Updated Line": 2260,
+        "Description": [
+            "The parameters [ partial_fit ] are added to the method _reduce_dimensionality from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "09c1732997f838050c263ad00ad3c9474e816863",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "hierarchical_topics",
+        "Updated": "hierarchical_topics",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 626,
+        "Updated Line": 800,
+        "Description": [
+            "The parameters [ topics ] of the method hierarchical_topics from the module bertopic/_bertopic.py in class BERTopic is/are removed"
+        ],
+        "Commit": "09c1732997f838050c263ad00ad3c9474e816863",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "merge_topics",
+        "Updated": "merge_topics",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 1197,
+        "Updated Line": 1407,
+        "Description": [
+            "The parameters [ topics ] of the method merge_topics from the module bertopic/_bertopic.py in class BERTopic is/are removed"
+        ],
+        "Commit": "09c1732997f838050c263ad00ad3c9474e816863",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter",
+            "Change Return Type"
+        ],
+        "Original": "reduce_topics",
+        "Updated": "reduce_topics",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 1249,
+        "Updated Line": 1460,
+        "Description": [
+            "The parameters [ topics probabilities ] of the method reduce_topics from the module bertopic/_bertopic.py in class BERTopic is/are removed",
+            "The return type of method reduce_topics from the module bertopic/_bertopic.py in class BERTopic is updated"
+        ],
+        "Commit": "09c1732997f838050c263ad00ad3c9474e816863",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "topics_over_time",
+        "Updated": "topics_over_time",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 413,
+        "Updated Line": 591,
+        "Description": [
+            "The parameters [ topics ] of the method topics_over_time from the module bertopic/_bertopic.py in class BERTopic is/are removed"
+        ],
+        "Commit": "09c1732997f838050c263ad00ad3c9474e816863",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "topics_per_class",
+        "Updated": "topics_per_class",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 550,
+        "Updated Line": 726,
+        "Description": [
+            "The parameters [ topics ] of the method topics_per_class from the module bertopic/_bertopic.py in class BERTopic is/are removed"
+        ],
+        "Commit": "09c1732997f838050c263ad00ad3c9474e816863",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "base_bertopic",
+        "Updated": "reduced_topic_model",
+        "Location": "tests/conftest.py",
+        "Original Line": 6,
+        "Updated Line": 55,
+        "Description": [
+            "The method base_bertopic from the module tests/conftest.py is renamed to reduced_topic_model",
+            "The parameters [ custom_topic_model documents ] are added to the method base_bertopic from the module tests/conftest.py"
+        ],
+        "Commit": "09c1732997f838050c263ad00ad3c9474e816863",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "visualize_topics_per_class",
+        "Updated": "visualize_topics_over_time",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 1002,
+        "Updated Line": 960,
+        "Description": [
+            "The method visualize_topics_per_class from the module bertopic/_bertopic.py in class BERTopic is renamed to visualize_topics_over_time",
+            "The parameters [ normalize_frequency ] are added to the method visualize_topics_per_class from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "0b321678ffe4eab0a28484faf76728f584a94ebd",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "visualize_topics_over_time",
+        "Updated": "visualize_topics_per_class",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 959,
+        "Updated Line": 1006,
+        "Description": [
+            "The method visualize_topics_over_time from the module bertopic/_bertopic.py in class BERTopic is renamed to visualize_topics_per_class",
+            "The parameters [ normalize_frequency ] are added to the method visualize_topics_over_time from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "0b321678ffe4eab0a28484faf76728f584a94ebd",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_extract_representative_docs",
+        "Updated": "_extract_representative_docs",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 3010,
+        "Updated Line": 3011,
+        "Description": [
+            "The parameters [ diversity ] are added to the method _extract_representative_docs from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "1215aa27770d68b4575ab413641c66482f5a713c",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "bertopic/representation/_cohere.py/Cohere",
+        "Original Line": 83,
+        "Updated Line": 89,
+        "Description": [
+            "The parameters [ nr_docs diversity ] are added to the method __init__ from the module bertopic/representation/_cohere.py in class Cohere"
+        ],
+        "Commit": "1215aa27770d68b4575ab413641c66482f5a713c",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "bertopic/representation/_openai.py/OpenAI",
+        "Original Line": 108,
+        "Updated Line": 114,
+        "Description": [
+            "The parameters [ nr_docs diversity ] are added to the method __init__ from the module bertopic/representation/_openai.py in class OpenAI"
+        ],
+        "Commit": "1215aa27770d68b4575ab413641c66482f5a713c",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "bertopic/representation/_textgeneration.py/TextGeneration",
+        "Original Line": 62,
+        "Updated Line": 68,
+        "Description": [
+            "The parameters [ nr_docs diversity ] are added to the method __init__ from the module bertopic/representation/_textgeneration.py in class TextGeneration"
+        ],
+        "Commit": "1215aa27770d68b4575ab413641c66482f5a713c",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_hierarchical_documents",
+        "Updated": "visualize_hierarchical_documents",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 2145,
+        "Updated Line": 2145,
+        "Description": [
+            "The parameters [ level_scale ] are added to the method visualize_hierarchical_documents from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "1b25ba7810b44bcb9594b42f70787fc2d8bb7015",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_hierarchical_documents",
+        "Updated": "visualize_hierarchical_documents",
+        "Location": "bertopic/plotting/_hierarchical_documents.py",
+        "Original Line": 9,
+        "Updated Line": 10,
+        "Description": [
+            "The parameters [ level_scale ] are added to the method visualize_hierarchical_documents from the module bertopic/plotting/_hierarchical_documents.py"
+        ],
+        "Commit": "1b25ba7810b44bcb9594b42f70787fc2d8bb7015",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_custom_umap_reduce_dimensionality",
+        "Updated": "test_custom_umap_reduce_dimensionality",
+        "Location": "tests/test_models.py",
+        "Original Line": 103,
+        "Updated Line": 107,
+        "Description": [
+            "The parameters [ dim_model ] are added to the method test_custom_umap_reduce_dimensionality from the module tests/test_models.py"
+        ],
+        "Commit": "2f47b921eea9e8491342e7d0aec38ae508f1b788",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "test_custom_hdbscan_cluster_embeddings",
+        "Updated": "test_hdbscan_cluster_embeddings",
+        "Location": "tests/test_models.py",
+        "Original Line": 146,
+        "Updated Line": 127,
+        "Description": [
+            "The method test_custom_hdbscan_cluster_embeddings from the module tests/test_models.py is renamed to test_hdbscan_cluster_embeddings",
+            "The parameters [ cluster_model ] are added to the method test_custom_hdbscan_cluster_embeddings from the module tests/test_models.py"
+        ],
+        "Commit": "2f47b921eea9e8491342e7d0aec38ae508f1b788",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_umap_reduce_dimensionality",
+        "Updated": "test_umap_reduce_dimensionality",
+        "Location": "tests/test_models.py",
+        "Original Line": 87,
+        "Updated Line": 90,
+        "Description": [
+            "The parameters [ dim_model ] are added to the method test_umap_reduce_dimensionality from the module tests/test_models.py"
+        ],
+        "Commit": "2f47b921eea9e8491342e7d0aec38ae508f1b788",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_extract_topics",
+        "Updated": "test_extract_topics",
+        "Location": "tests/test_topic_representation.py",
+        "Original Line": 24,
+        "Updated Line": 30,
+        "Description": [
+            "The parameters [ cluster_model ] are added to the method test_extract_topics from the module tests/test_topic_representation.py"
+        ],
+        "Commit": "2f47b921eea9e8491342e7d0aec38ae508f1b788",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_extract_topics_custom_cv",
+        "Updated": "test_extract_topics_custom_cv",
+        "Location": "tests/test_topic_representation.py",
+        "Original Line": 49,
+        "Updated Line": 56,
+        "Description": [
+            "The parameters [ cluster_model ] are added to the method test_extract_topics_custom_cv from the module tests/test_topic_representation.py"
+        ],
+        "Commit": "2f47b921eea9e8491342e7d0aec38ae508f1b788",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_topic_reduction",
+        "Updated": "test_topic_reduction",
+        "Location": "tests/test_topic_representation.py",
+        "Original Line": 77,
+        "Updated Line": 85,
+        "Description": [
+            "The parameters [ cluster_model ] are added to the method test_topic_reduction from the module tests/test_topic_representation.py"
+        ],
+        "Commit": "2f47b921eea9e8491342e7d0aec38ae508f1b788",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_topic_reduction_edge_cases",
+        "Updated": "test_topic_reduction_edge_cases",
+        "Location": "tests/test_topic_representation.py",
+        "Original Line": 107,
+        "Updated Line": 116,
+        "Description": [
+            "The parameters [ cluster_model ] are added to the method test_topic_reduction_edge_cases from the module tests/test_topic_representation.py"
+        ],
+        "Commit": "2f47b921eea9e8491342e7d0aec38ae508f1b788",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "update_topics",
+        "Updated": "update_topics",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 989,
+        "Updated Line": 989,
+        "Description": [
+            "The parameters [ top_n_words ] are added to the method update_topics from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "3edfdb427c6c9bd8ebb445b6324f415bbe7bdf3c",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_reduce_dimensionality",
+        "Updated": "_reduce_dimensionality",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 1088,
+        "Updated Line": 1251,
+        "Description": [
+            "The parameters [ y ] are added to the method _reduce_dimensionality from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "4369b4e2955cb2abc45dffd805723e6bec0e1706",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "fit",
+        "Updated": "fit",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 179,
+        "Updated Line": 166,
+        "Description": [
+            "The parameters [ y ] are added to the method fit from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "4369b4e2955cb2abc45dffd805723e6bec0e1706",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "fit_transform",
+        "Updated": "fit_transform",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 218,
+        "Updated Line": 208,
+        "Description": [
+            "The parameters [ y ] are added to the method fit_transform from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "4369b4e2955cb2abc45dffd805723e6bec0e1706",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "bertopic/representation/_openai.py/OpenAI",
+        "Original Line": 114,
+        "Updated Line": 120,
+        "Description": [
+            "The parameters [ exponential_backoff ] are added to the method __init__ from the module bertopic/representation/_openai.py in class OpenAI"
+        ],
+        "Commit": "609d49c4e3f7228f7e1a5fc9f417f947768f43a5",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 125,
+        "Updated Line": 124,
+        "Description": [
+            "The parameters [ zeroshot_topic_list zeroshot_min_similarity ] are added to the method __init__ from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "61a2cd2cfd138fb8b8cdc95fad2c776d51092c22",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_extract_topics",
+        "Updated": "_extract_topics",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 3408,
+        "Updated Line": 3621,
+        "Description": [
+            "The parameters [ verbose ] are added to the method _extract_topics from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "61a2cd2cfd138fb8b8cdc95fad2c776d51092c22",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "topics_over_time",
+        "Updated": "topics_over_time",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 671,
+        "Updated Line": 700,
+        "Description": [
+            "The parameters [ topics ] are added to the method topics_over_time from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "61a2cd2cfd138fb8b8cdc95fad2c776d51092c22",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_create_model_from_files",
+        "Updated": "_create_model_from_files",
+        "Location": "bertopic/_bertopic.py",
+        "Original Line": 4070,
+        "Updated Line": 4300,
+        "Description": [
+            "The parameters [ warn_no_backend ] are added to the method _create_model_from_files from the module bertopic/_bertopic.py"
+        ],
+        "Commit": "61a2cd2cfd138fb8b8cdc95fad2c776d51092c22",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "bertopic/backend/_cohere.py/CohereBackend",
+        "Original Line": 31,
+        "Updated Line": 43,
+        "Description": [
+            "The parameters [ embed_kwargs ] are added to the method __init__ from the module bertopic/backend/_cohere.py in class CohereBackend"
+        ],
+        "Commit": "61a2cd2cfd138fb8b8cdc95fad2c776d51092c22",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "bertopic/representation/_openai.py/OpenAI",
+        "Original Line": 136,
+        "Updated Line": 138,
+        "Description": [
+            "The parameters [ client ] are added to the method __init__ from the module bertopic/representation/_openai.py in class OpenAI"
+        ],
+        "Commit": "61a2cd2cfd138fb8b8cdc95fad2c776d51092c22",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "bertopic/vectorizers/_ctfidf.py/ClassTfidfTransformer",
+        "Original Line": 36,
+        "Updated Line": 42,
+        "Description": [
+            "The parameters [ seed_words seed_multiplier ] are added to the method __init__ from the module bertopic/vectorizers/_ctfidf.py in class ClassTfidfTransformer"
+        ],
+        "Commit": "61a2cd2cfd138fb8b8cdc95fad2c776d51092c22",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_barchart",
+        "Updated": "visualize_barchart",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 1881,
+        "Updated Line": 1881,
+        "Description": [
+            "The parameters [ custom_labels title ] are added to the method visualize_barchart from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "62a3ecb247df10e481bca571e3b952e9319055ee",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_barchart",
+        "Updated": "visualize_barchart",
+        "Location": "bertopic/plotting/_barchart.py",
+        "Original Line": 9,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ custom_labels title ] are added to the method visualize_barchart from the module bertopic/plotting/_barchart.py"
+        ],
+        "Commit": "62a3ecb247df10e481bca571e3b952e9319055ee",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "bertopic/representation/_cohere.py/Cohere",
+        "Original Line": 89,
+        "Updated Line": 106,
+        "Description": [
+            "The parameters [ doc_length tokenizer ] are added to the method __init__ from the module bertopic/representation/_cohere.py in class Cohere"
+        ],
+        "Commit": "62e97ddea6cdcf9e4da25f9eaed478b22a9f9e20",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "bertopic/representation/_openai.py/OpenAI",
+        "Original Line": 120,
+        "Updated Line": 136,
+        "Description": [
+            "The parameters [ doc_length tokenizer ] are added to the method __init__ from the module bertopic/representation/_openai.py in class OpenAI"
+        ],
+        "Commit": "62e97ddea6cdcf9e4da25f9eaed478b22a9f9e20",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "bertopic/representation/_textgeneration.py/TextGeneration",
+        "Original Line": 68,
+        "Updated Line": 84,
+        "Description": [
+            "The parameters [ doc_length tokenizer ] are added to the method __init__ from the module bertopic/representation/_textgeneration.py in class TextGeneration"
+        ],
+        "Commit": "62e97ddea6cdcf9e4da25f9eaed478b22a9f9e20",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "bertopic/backend/_multimodal.py/MultiModalBackend",
+        "Original Line": 41,
+        "Updated Line": 46,
+        "Description": [
+            "The parameters [ image_model ] are added to the method __init__ from the module bertopic/backend/_multimodal.py in class MultiModalBackend"
+        ],
+        "Commit": "6c0d3f26bc3d10cfce6657af27e81d8626ae2531",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "update_topics",
+        "Updated": "update_topics",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 989,
+        "Updated Line": 989,
+        "Description": [
+            "The parameters [ diversity ] are added to the method update_topics from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "70aac96ebb47022b3fcdd71b4645105e40619151",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 104,
+        "Updated Line": 105,
+        "Description": [
+            "The parameters [ diversity ] of the method __init__ from the module bertopic/_bertopic.py in class BERTopic are changed/renamed to [representation_model]"
+        ],
+        "Commit": "7142ce7f9c12e92ec9146ea97d8d4d5ef8332354",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "_extract_words_per_topic",
+        "Updated": "_extract_words_per_topic",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 3132,
+        "Updated Line": 3125,
+        "Description": [
+            "The parameters [ labels ] of the method _extract_words_per_topic from the module bertopic/_bertopic.py in class BERTopic are changed/renamed to [documents]"
+        ],
+        "Commit": "7142ce7f9c12e92ec9146ea97d8d4d5ef8332354",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "update_topics",
+        "Updated": "update_topics",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 1225,
+        "Updated Line": 1229,
+        "Description": [
+            "The parameters [ diversity ] of the method update_topics from the module bertopic/_bertopic.py in class BERTopic are changed/renamed to [representation_model]"
+        ],
+        "Commit": "7142ce7f9c12e92ec9146ea97d8d4d5ef8332354",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "bertopic/_utils.py/NotInstalled",
+        "Original Line": 79,
+        "Updated Line": 79,
+        "Description": [
+            "The parameters [ custom_msg ] are added to the method __init__ from the module bertopic/_utils.py in class NotInstalled"
+        ],
+        "Commit": "7142ce7f9c12e92ec9146ea97d8d4d5ef8332354",
+        "Category": "General"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_distribution",
+        "Updated": "visualize_distribution",
+        "Location": "bertopic/plotting/_distribution.py",
+        "Original Line": 5,
+        "Updated Line": 5,
+        "Description": [
+            "The parameters [ title ] are added to the method visualize_distribution from the module bertopic/plotting/_distribution.py"
+        ],
+        "Commit": "7142ce7f9c12e92ec9146ea97d8d4d5ef8332354",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_documents",
+        "Updated": "visualize_documents",
+        "Location": "bertopic/plotting/_documents.py",
+        "Original Line": 9,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ title ] are added to the method visualize_documents from the module bertopic/plotting/_documents.py"
+        ],
+        "Commit": "7142ce7f9c12e92ec9146ea97d8d4d5ef8332354",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_heatmap",
+        "Updated": "visualize_heatmap",
+        "Location": "bertopic/plotting/_heatmap.py",
+        "Original Line": 10,
+        "Updated Line": 10,
+        "Description": [
+            "The parameters [ title ] are added to the method visualize_heatmap from the module bertopic/plotting/_heatmap.py"
+        ],
+        "Commit": "7142ce7f9c12e92ec9146ea97d8d4d5ef8332354",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_hierarchical_documents",
+        "Updated": "visualize_hierarchical_documents",
+        "Location": "bertopic/plotting/_hierarchical_documents.py",
+        "Original Line": 9,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ title ] are added to the method visualize_hierarchical_documents from the module bertopic/plotting/_hierarchical_documents.py"
+        ],
+        "Commit": "7142ce7f9c12e92ec9146ea97d8d4d5ef8332354",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_hierarchy",
+        "Updated": "visualize_hierarchy",
+        "Location": "bertopic/plotting/_hierarchy.py",
+        "Original Line": 13,
+        "Updated Line": 13,
+        "Description": [
+            "The parameters [ title ] are added to the method visualize_hierarchy from the module bertopic/plotting/_hierarchy.py"
+        ],
+        "Commit": "7142ce7f9c12e92ec9146ea97d8d4d5ef8332354",
+        "Category": "General"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_term_rank",
+        "Updated": "visualize_term_rank",
+        "Location": "bertopic/plotting/_term_rank.py",
+        "Original Line": 6,
+        "Updated Line": 6,
+        "Description": [
+            "The parameters [ title ] are added to the method visualize_term_rank from the module bertopic/plotting/_term_rank.py"
+        ],
+        "Commit": "7142ce7f9c12e92ec9146ea97d8d4d5ef8332354",
+        "Category": "General"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_plotly_topic_visualization",
+        "Updated": "_plotly_topic_visualization",
+        "Location": "bertopic/plotting/_topics.py",
+        "Original Line": 73,
+        "Updated Line": 81,
+        "Description": [
+            "The parameters [ title ] are added to the method _plotly_topic_visualization from the module bertopic/plotting/_topics.py"
+        ],
+        "Commit": "7142ce7f9c12e92ec9146ea97d8d4d5ef8332354",
+        "Category": "General"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_topics",
+        "Updated": "visualize_topics",
+        "Location": "bertopic/plotting/_topics.py",
+        "Original Line": 11,
+        "Updated Line": 11,
+        "Description": [
+            "The parameters [ custom_labels title ] are added to the method visualize_topics from the module bertopic/plotting/_topics.py"
+        ],
+        "Commit": "7142ce7f9c12e92ec9146ea97d8d4d5ef8332354",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_topics_over_time",
+        "Updated": "visualize_topics_over_time",
+        "Location": "bertopic/plotting/_topics_over_time.py",
+        "Original Line": 7,
+        "Updated Line": 7,
+        "Description": [
+            "The parameters [ title ] are added to the method visualize_topics_over_time from the module bertopic/plotting/_topics_over_time.py"
+        ],
+        "Commit": "7142ce7f9c12e92ec9146ea97d8d4d5ef8332354",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_topics_per_class",
+        "Updated": "visualize_topics_per_class",
+        "Location": "bertopic/plotting/_topics_per_class.py",
+        "Original Line": 7,
+        "Updated Line": 7,
+        "Description": [
+            "The parameters [ title ] are added to the method visualize_topics_per_class from the module bertopic/plotting/_topics_per_class.py"
+        ],
+        "Commit": "7142ce7f9c12e92ec9146ea97d8d4d5ef8332354",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 67,
+        "Updated Line": 67,
+        "Description": [
+            "The parameters [ seed_topic_list ] are added to the method __init__ from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "80c9fa174e4671b49f1697b44368e23ee0d9bd18",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "fit",
+        "Updated": "fit",
+        "Location": "bertopic/_ctfidf.py/ClassTFIDF",
+        "Original Line": 24,
+        "Updated Line": 24,
+        "Description": [
+            "The parameters [ multiplier ] are added to the method fit from the module bertopic/_ctfidf.py in class ClassTFIDF"
+        ],
+        "Commit": "80c9fa174e4671b49f1697b44368e23ee0d9bd18",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_topics_over_time",
+        "Updated": "visualize_topics_over_time",
+        "Location": "bertopic/plotting/_topics_over_time.py",
+        "Original Line": 6,
+        "Updated Line": 7,
+        "Description": [
+            "The parameters [ normalize_frequency ] are added to the method visualize_topics_over_time from the module bertopic/plotting/_topics_over_time.py"
+        ],
+        "Commit": "80c9fa174e4671b49f1697b44368e23ee0d9bd18",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_topics_per_class",
+        "Updated": "visualize_topics_per_class",
+        "Location": "bertopic/plotting/_topics_per_class.py",
+        "Original Line": 6,
+        "Updated Line": 7,
+        "Description": [
+            "The parameters [ normalize_frequency ] are added to the method visualize_topics_per_class from the module bertopic/plotting/_topics_per_class.py"
+        ],
+        "Commit": "80c9fa174e4671b49f1697b44368e23ee0d9bd18",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_distribution",
+        "Updated": "visualize_distribution",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 1078,
+        "Updated Line": 1699,
+        "Description": [
+            "The parameters [ custom_labels ] are added to the method visualize_distribution from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "8ccbab7a3c6090a5260337b767493d599e501489",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Change/Rename Parameter"
+        ],
+        "Original": "visualize_hierarchy",
+        "Updated": "visualize_heatmap",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 1115,
+        "Updated Line": 1831,
+        "Description": [
+            "The method visualize_hierarchy from the module bertopic/_bertopic.py in class BERTopic is renamed to visualize_heatmap",
+            "The parameters [ orientation optimal_ordering ] of the method visualize_hierarchy from the module bertopic/_bertopic.py in class BERTopic are changed/renamed to [n_clusters custom_labels]"
+        ],
+        "Commit": "8ccbab7a3c6090a5260337b767493d599e501489",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_term_rank",
+        "Updated": "visualize_term_rank",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 933,
+        "Updated Line": 1542,
+        "Description": [
+            "The parameters [ custom_labels ] are added to the method visualize_term_rank from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "8ccbab7a3c6090a5260337b767493d599e501489"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "visualize_heatmap",
+        "Updated": "visualize_topics_over_time",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 1168,
+        "Updated Line": 1599,
+        "Description": [
+            "The method visualize_heatmap from the module bertopic/_bertopic.py in class BERTopic is renamed to visualize_topics_over_time",
+            "The parameters [ normalize_frequency custom_labels ] are added to the method visualize_heatmap from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "8ccbab7a3c6090a5260337b767493d599e501489"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "visualize_topics_over_time",
+        "Updated": "visualize_topics_per_class",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 986,
+        "Updated Line": 1649,
+        "Description": [
+            "The method visualize_topics_over_time from the module bertopic/_bertopic.py in class BERTopic is renamed to visualize_topics_per_class",
+            "The parameters [ custom_labels ] are added to the method visualize_topics_over_time from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "8ccbab7a3c6090a5260337b767493d599e501489"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_distribution",
+        "Updated": "visualize_distribution",
+        "Location": "bertopic/plotting/_distribution.py",
+        "Original Line": 5,
+        "Updated Line": 5,
+        "Description": [
+            "The parameters [ custom_labels ] are added to the method visualize_distribution from the module bertopic/plotting/_distribution.py"
+        ],
+        "Commit": "8ccbab7a3c6090a5260337b767493d599e501489"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_heatmap",
+        "Updated": "visualize_heatmap",
+        "Location": "bertopic/plotting/_heatmap.py",
+        "Original Line": 10,
+        "Updated Line": 10,
+        "Description": [
+            "The parameters [ custom_labels ] are added to the method visualize_heatmap from the module bertopic/plotting/_heatmap.py"
+        ],
+        "Commit": "8ccbab7a3c6090a5260337b767493d599e501489"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_term_rank",
+        "Updated": "visualize_term_rank",
+        "Location": "bertopic/plotting/_term_rank.py",
+        "Original Line": 6,
+        "Updated Line": 6,
+        "Description": [
+            "The parameters [ custom_labels ] are added to the method visualize_term_rank from the module bertopic/plotting/_term_rank.py"
+        ],
+        "Commit": "8ccbab7a3c6090a5260337b767493d599e501489"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_topics_over_time",
+        "Updated": "visualize_topics_over_time",
+        "Location": "bertopic/plotting/_topics_over_time.py",
+        "Original Line": 7,
+        "Updated Line": 7,
+        "Description": [
+            "The parameters [ custom_labels ] are added to the method visualize_topics_over_time from the module bertopic/plotting/_topics_over_time.py"
+        ],
+        "Commit": "8ccbab7a3c6090a5260337b767493d599e501489"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_topics_per_class",
+        "Updated": "visualize_topics_per_class",
+        "Location": "bertopic/plotting/_topics_per_class.py",
+        "Original Line": 7,
+        "Updated Line": 7,
+        "Description": [
+            "The parameters [ custom_labels ] are added to the method visualize_topics_per_class from the module bertopic/plotting/_topics_per_class.py"
+        ],
+        "Commit": "8ccbab7a3c6090a5260337b767493d599e501489"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "bertopic/model.py/BERTopic",
+        "Original Line": 85,
+        "Updated Line": 88,
+        "Description": [
+            "The parameters [ vectorizer ] are added to the method __init__ from the module bertopic/model.py in class BERTopic"
+        ],
+        "Commit": "93bb1399ffeeec00c4b971b25bad65685c3e9cf9"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter",
+            "Change Return Type"
+        ],
+        "Original": "fit_transform",
+        "Updated": "fit_transform",
+        "Location": "bertopic/model.py/BERTopic",
+        "Original Line": 100,
+        "Updated Line": 94,
+        "Description": [
+            "The parameters [ debug ] of the method fit_transform from the module bertopic/model.py in class BERTopic is/are removed",
+            "The return type of method fit_transform from the module bertopic/model.py in class BERTopic is updated"
+        ],
+        "Commit": "9f7dca1103e1935f7a2779d1fa9e89db072c0c8a"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "_reduce_topics",
+        "Updated": "_reduce_to_n_topics",
+        "Location": "bertopic/model.py/BERTopic",
+        "Original Method Line": "(469,470)",
+        "Extracted/Inlined Method Line": 489,
+        "Extracted/Inlined Lines": [
+            479.0,
+            480.0,
+            483.0,
+            484.0,
+            486.0,
+            488.0,
+            489.0,
+            492.0,
+            493.0,
+            496.0,
+            497.0,
+            499.0,
+            500.0
+        ],
+        "Description": " The method _reduce_to_n_topics from the module bertopic/model.py in class BERTopic is extracted from method _reduce_topics from the module bertopic/model.py in class BERTopic ",
+        "Commit": "a06ac801f5b50aefef6c166ed213134e71c6c492"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "bertopic/model.py/BERTopic",
+        "Original Line": 55,
+        "Updated Line": 57,
+        "Description": [
+            "The parameters [ stop_words ] are added to the method __init__ from the module bertopic/model.py in class BERTopic"
+        ],
+        "Commit": "a61a7680a72b66d8248b8ba8fcd7d7654720aec2"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_map_probabilities",
+        "Updated": "_map_probabilities",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 1825,
+        "Updated Line": 1803,
+        "Description": [
+            "The parameters [ original_topics ] are added to the method _map_probabilities from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "b3aa266b9cd238c8fbb9df54bd95556b2535cc7b"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "bertopic/representation/_langchain.py/LangChain",
+        "Original Line": 81,
+        "Updated Line": 126,
+        "Description": [
+            "The parameters [ chain_config ] are added to the method __init__ from the module bertopic/representation/_langchain.py in class LangChain"
+        ],
+        "Commit": "b57a8db6eb9384d39ae89723c0c04e3e8c932a92"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "_cluster_embeddings",
+        "Updated": "_cluster_embeddings",
+        "Location": "bertopic/model.py/BERTopic",
+        "Original Line": 189,
+        "Updated Line": 207,
+        "Description": [
+            "The return type of method _cluster_embeddings from the module bertopic/model.py in class BERTopic is updated"
+        ],
+        "Commit": "bdfebd5a8058adac5d7cb291a04e527da3f3ada2"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "fit_transform",
+        "Updated": "fit_transform",
+        "Location": "bertopic/model.py/BERTopic",
+        "Original Line": 98,
+        "Updated Line": 100,
+        "Description": [
+            "The return type of method fit_transform from the module bertopic/model.py in class BERTopic is updated"
+        ],
+        "Commit": "bdfebd5a8058adac5d7cb291a04e527da3f3ada2"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "transform",
+        "Updated": "transform",
+        "Location": "bertopic/model.py/BERTopic",
+        "Original Line": 132,
+        "Updated Line": 137,
+        "Description": [
+            "The return type of method transform from the module bertopic/model.py in class BERTopic is updated"
+        ],
+        "Commit": "bdfebd5a8058adac5d7cb291a04e527da3f3ada2"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "fit",
+        "Updated": "fit",
+        "Location": "bertopic/model.py/BERTopic",
+        "Original Line": 90,
+        "Updated Line": 115,
+        "Description": [
+            "The parameters [ embeddings ] are added to the method fit from the module bertopic/model.py in class BERTopic"
+        ],
+        "Commit": "c763ea032e4edac8c763abd449dfcd15cf7f8f62"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "fit_transform",
+        "Updated": "fit_transform",
+        "Location": "bertopic/model.py/BERTopic",
+        "Original Line": 100,
+        "Updated Line": 155,
+        "Description": [
+            "The parameters [ embeddings ] are added to the method fit_transform from the module bertopic/model.py in class BERTopic"
+        ],
+        "Commit": "c763ea032e4edac8c763abd449dfcd15cf7f8f62"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "transform",
+        "Updated": "transform",
+        "Location": "bertopic/model.py/BERTopic",
+        "Original Line": 137,
+        "Updated Line": 226,
+        "Description": [
+            "The parameters [ embeddings ] are added to the method transform from the module bertopic/model.py in class BERTopic"
+        ],
+        "Commit": "c763ea032e4edac8c763abd449dfcd15cf7f8f62"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 73,
+        "Updated Line": 73,
+        "Description": [
+            "The parameters [ diversity ] are added to the method __init__ from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "cd98fc8d22ab1eba593c518278ce479d2879c372"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "_c_tf_idf",
+        "Updated": "_c_tf_idf",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 1556,
+        "Updated Line": 1564,
+        "Description": [
+            "The parameters [ m ] of the method _c_tf_idf from the module bertopic/_bertopic.py in class BERTopic is/are removed"
+        ],
+        "Commit": "cd98fc8d22ab1eba593c518278ce479d2879c372"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "fit",
+        "Updated": "fit",
+        "Location": "bertopic/_ctfidf.py/ClassTFIDF",
+        "Original Line": 24,
+        "Updated Line": 24,
+        "Description": [
+            "The parameters [ n_samples ] of the method fit from the module bertopic/_ctfidf.py in class ClassTFIDF is/are removed"
+        ],
+        "Commit": "cd98fc8d22ab1eba593c518278ce479d2879c372"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "transform",
+        "Updated": "transform",
+        "Location": "bertopic/_ctfidf.py/ClassTFIDF",
+        "Original Line": 50,
+        "Updated Line": 60,
+        "Description": [
+            "The parameters [ copy ] of the method transform from the module bertopic/_ctfidf.py in class ClassTFIDF is/are removed"
+        ],
+        "Commit": "cd98fc8d22ab1eba593c518278ce479d2879c372"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_distribution",
+        "Updated": "visualize_distribution",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 2398,
+        "Updated Line": 2420,
+        "Description": [
+            "The parameters [ title ] are added to the method visualize_distribution from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "d665d3f8d8c7c1736dc82b1df8839ced56a2adb6"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "visualize_hierarchical_documents",
+        "Updated": "visualize_documents",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 2135,
+        "Updated Line": 2050,
+        "Description": [
+            "The method visualize_hierarchical_documents from the module bertopic/_bertopic.py in class BERTopic is renamed to visualize_documents",
+            "The parameters [ nr_levels ] of the method visualize_hierarchical_documents from the module bertopic/_bertopic.py in class BERTopic is/are removed"
+        ],
+        "Commit": "d665d3f8d8c7c1736dc82b1df8839ced56a2adb6"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "visualize_documents",
+        "Updated": "visualize_hierarchical_documents",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 2043,
+        "Updated Line": 2145,
+        "Description": [
+            "The method visualize_documents from the module bertopic/_bertopic.py in class BERTopic is renamed to visualize_hierarchical_documents",
+            "The parameters [ hierarchical_topics nr_levels title ] are added to the method visualize_documents from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "d665d3f8d8c7c1736dc82b1df8839ced56a2adb6"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_hierarchy",
+        "Updated": "visualize_hierarchy",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 2490,
+        "Updated Line": 2515,
+        "Description": [
+            "The parameters [ title ] are added to the method visualize_hierarchy from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "d665d3f8d8c7c1736dc82b1df8839ced56a2adb6"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Change/Rename Parameter"
+        ],
+        "Original": "visualize_heatmap",
+        "Updated": "visualize_topics",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 2581,
+        "Updated Line": 2005,
+        "Description": [
+            "The method visualize_heatmap from the module bertopic/_bertopic.py in class BERTopic is renamed to visualize_topics",
+            "The parameters [ n_clusters ] of the method visualize_heatmap from the module bertopic/_bertopic.py in class BERTopic are changed/renamed to [title]"
+        ],
+        "Commit": "d665d3f8d8c7c1736dc82b1df8839ced56a2adb6"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "visualize_topics",
+        "Updated": "visualize_topics_over_time",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 2005,
+        "Updated Line": 2314,
+        "Description": [
+            "The method visualize_topics from the module bertopic/_bertopic.py in class BERTopic is renamed to visualize_topics_over_time",
+            "The parameters [ topics_over_time normalize_frequency custom_labels title ] are added to the method visualize_topics from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "d665d3f8d8c7c1736dc82b1df8839ced56a2adb6"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "bertopic/representation/_cohere.py/Cohere",
+        "Original Line": 78,
+        "Updated Line": 83,
+        "Description": [
+            "The parameters [ delay_in_seconds ] are added to the method __init__ from the module bertopic/representation/_cohere.py in class Cohere"
+        ],
+        "Commit": "d665d3f8d8c7c1736dc82b1df8839ced56a2adb6"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "_create_prompt",
+        "Updated": "_replace_documents",
+        "Location": "bertopic/representation/_cohere.py/Cohere",
+        "Original Method Line": "(122,134)",
+        "Extracted/Inlined Method Line": 154,
+        "Extracted/Inlined Lines": [
+            131.0,
+            132.0,
+            133.0
+        ],
+        "Description": " The method _replace_documents from the module bertopic/representation/_cohere.py in class Cohere is extracted from method _create_prompt from the module bertopic/representation/_cohere.py in class Cohere ",
+        "Commit": "d665d3f8d8c7c1736dc82b1df8839ced56a2adb6"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "bertopic/representation/_openai.py/OpenAI",
+        "Original Line": 77,
+        "Updated Line": 108,
+        "Description": [
+            "The parameters [ delay_in_seconds chat ] are added to the method __init__ from the module bertopic/representation/_openai.py in class OpenAI"
+        ],
+        "Commit": "d665d3f8d8c7c1736dc82b1df8839ced56a2adb6"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "_create_prompt",
+        "Updated": "_replace_documents",
+        "Location": "bertopic/representation/_openai.py/OpenAI",
+        "Original Method Line": "(124,179)",
+        "Extracted/Inlined Method Line": 199,
+        "Extracted/Inlined Lines": [
+            133.0,
+            134.0,
+            135.0
+        ],
+        "Description": " The method _replace_documents from the module bertopic/representation/_openai.py in class OpenAI is extracted from method _create_prompt from the module bertopic/representation/_openai.py in class OpenAI ",
+        "Commit": "d665d3f8d8c7c1736dc82b1df8839ced56a2adb6"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_hierarchy",
+        "Updated": "visualize_hierarchy",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 1115,
+        "Updated Line": 1115,
+        "Description": [
+            "The parameters [ optimal_ordering ] are added to the method visualize_hierarchy from the module bertopic/_bertopic.py in class BERTopic"
+        ],
+        "Commit": "d8b6343dde11181faa299e521b73d71c63d37d17"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_hierarchy",
+        "Updated": "visualize_hierarchy",
+        "Location": "bertopic/plotting/_hierarchy.py",
+        "Original Line": 10,
+        "Updated Line": 10,
+        "Description": [
+            "The parameters [ optimal_ordering ] are added to the method visualize_hierarchy from the module bertopic/plotting/_hierarchy.py"
+        ],
+        "Commit": "d8b6343dde11181faa299e521b73d71c63d37d17"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "bertopic/backend/_openai.py/OpenAIBackend",
+        "Original Line": 34,
+        "Updated Line": 34,
+        "Description": [
+            "The parameters [ client ] are added to the method __init__ from the module bertopic/backend/_openai.py in class OpenAIBackend"
+        ],
+        "Commit": "e2191f052d1461e95634ba52ccc44e4626a13db3"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "_map_predictions",
+        "Updated": "_map_predictions",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 707,
+        "Updated Line": 785,
+        "Description": [
+            "The return type of method _map_predictions from the module bertopic/_bertopic.py in class BERTopic is updated"
+        ],
+        "Commit": "e84d7d16924b71dc2f0f289594d12088d326f81d"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "get_topic",
+        "Updated": "get_topic",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 458,
+        "Updated Line": 462,
+        "Description": [
+            "The return type of method get_topic from the module bertopic/_bertopic.py in class BERTopic is updated"
+        ],
+        "Commit": "e84d7d16924b71dc2f0f289594d12088d326f81d"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "get_topics",
+        "Updated": "get_topics",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 446,
+        "Updated Line": 450,
+        "Description": [
+            "The return type of method get_topics from the module bertopic/_bertopic.py in class BERTopic is updated"
+        ],
+        "Commit": "e84d7d16924b71dc2f0f289594d12088d326f81d"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "update_topics",
+        "Updated": "update_topics",
+        "Location": "bertopic/_bertopic.py/BERTopic",
+        "Original Line": 398,
+        "Updated Line": 408,
+        "Description": [
+            "The parameters [ vectorizer ] of the method update_topics from the module bertopic/_bertopic.py in class BERTopic is/are removed"
+        ],
+        "Commit": "e84d7d16924b71dc2f0f289594d12088d326f81d"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "_reduce_topics",
+        "Updated": "_reduce_topics",
+        "Location": "bertopic/model.py/BERTopic",
+        "Original Line": 345,
+        "Updated Line": 348,
+        "Description": [
+            "The parameters [ tf_idf ] of the method _reduce_topics from the module bertopic/model.py in class BERTopic are changed/renamed to [c_tf_idf]"
+        ],
+        "Commit": "f47e957658ee58c35646380cab6f2781ae854d24"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "test_cluster_embeddings",
+        "Updated": "test_cluster_embeddings",
+        "Location": "tests/test_model.py",
+        "Original Line": 50,
+        "Updated Line": 128,
+        "Description": [
+            "The parameters [ base_bertopic ] of the method test_cluster_embeddings from the module tests/test_model.py is/are removed"
+        ],
+        "Commit": "fdab42531457d9462d6d51b4c53d4395a158a909"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "test_extract_topics",
+        "Updated": "test_extract_topics",
+        "Location": "tests/test_model.py",
+        "Original Line": 65,
+        "Updated Line": 144,
+        "Description": [
+            "The parameters [ base_bertopic ] of the method test_extract_topics from the module tests/test_model.py is/are removed"
+        ],
+        "Commit": "fdab42531457d9462d6d51b4c53d4395a158a909"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "test_fit_transform",
+        "Updated": "test_fit_transform",
+        "Location": "tests/test_model.py",
+        "Original Line": 175,
+        "Updated Line": 232,
+        "Description": [
+            "The parameters [ base_bertopic ] of the method test_fit_transform from the module tests/test_model.py is/are removed"
+        ],
+        "Commit": "fdab42531457d9462d6d51b4c53d4395a158a909"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "test_reduce_dimensionality",
+        "Updated": "test_reduce_dimensionality",
+        "Location": "tests/test_model.py",
+        "Original Line": 37,
+        "Updated Line": 114,
+        "Description": [
+            "The parameters [ base_bertopic ] of the method test_reduce_dimensionality from the module tests/test_model.py is/are removed"
+        ],
+        "Commit": "fdab42531457d9462d6d51b4c53d4395a158a909"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "test_topic_reduction_edge_cases",
+        "Updated": "test_topic_reduction_edge_cases",
+        "Location": "tests/test_model.py",
+        "Original Line": 127,
+        "Updated Line": 210,
+        "Description": [
+            "The parameters [ base_bertopic ] of the method test_topic_reduction_edge_cases from the module tests/test_model.py is/are removed"
+        ],
+        "Commit": "fdab42531457d9462d6d51b4c53d4395a158a909"
+    }
+]

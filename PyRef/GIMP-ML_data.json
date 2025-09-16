@@ -1,0 +1,30 @@
+[
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "colorpalette",
+        "Updated": "colorpalette",
+        "Location": "gimp-plugins/colorpalette.py",
+        "Original Line": 40,
+        "Updated Line": 40,
+        "Description": [
+            "The parameters [ img layer ] of the method colorpalette from the module gimp-plugins/colorpalette.py is/are removed"
+        ],
+        "Commit": "062f2faa4cbccf3fc5a75c30f168814076fb54e5"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "genNewImg",
+        "Updated": "createResultLayer",
+        "Location": "gimp-plugins/super_resolution.py",
+        "Original Line": 82,
+        "Updated Line": 76,
+        "Description": [
+            "The method genNewImg from the module gimp-plugins/super_resolution.py is renamed to createResultLayer"
+        ],
+        "Commit": "a40b0a5dabeca79de2913001b71951fd101d9afe"
+    }
+]

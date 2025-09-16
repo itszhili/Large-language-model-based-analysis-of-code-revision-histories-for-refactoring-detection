@@ -1,0 +1,85 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "python_lib/nnsplit/train/models.py/Network",
+        "Original Line": 20,
+        "Updated Line": 20,
+        "Description": [
+            "The parameters [ hparams ] are added to the method __init__ from the module python_lib/nnsplit/train/models.py in class Network"
+        ],
+        "Commit": "5d2f68081f1657c73f51ce3061e90739dc73c7ef"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "training_step",
+        "Updated": "loss",
+        "Location": "train/models.py/Network",
+        "Original Method Line": "(86,112)",
+        "Extracted/Inlined Method Line": 107,
+        "Extracted/Inlined Lines": [
+            89.0
+        ],
+        "Description": " The method loss from the module train/models.py in class Network is extracted from method training_step from the module train/models.py in class Network ",
+        "Commit": "d80fd9fb2b74bf63d69fc9f9a218e86bc0ffb453"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "train/dataset.py/SplitDataset",
+        "Original Line": 9,
+        "Updated Line": 8,
+        "Description": [
+            "The parameters [ labeler ] are added to the method __init__ from the module train/dataset.py in class SplitDataset"
+        ],
+        "Commit": "f9f3f86ba112c4e65a8ab0af4eec44f7be6acb8d"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "train/dataset.py/SplitDataset",
+        "Original Line": 8,
+        "Updated Line": 8,
+        "Description": [
+            "The parameters [ return_indices ] are added to the method __init__ from the module train/dataset.py in class SplitDataset"
+        ],
+        "Commit": "fef0a94807d9a3f8195673f0cbe1c247d89d9e42"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "loss",
+        "Updated": "loss",
+        "Location": "train/model.py/Network",
+        "Original Line": 57,
+        "Updated Line": 63,
+        "Description": [
+            "The parameters [ self ] are added to the method loss from the module train/model.py in class Network"
+        ],
+        "Commit": "fef0a94807d9a3f8195673f0cbe1c247d89d9e42"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "store",
+        "Updated": "store",
+        "Location": "train/model.py/Network",
+        "Original Line": 143,
+        "Updated Line": 153,
+        "Description": [
+            "The parameters [ metadata ] are added to the method store from the module train/model.py in class Network"
+        ],
+        "Commit": "fef0a94807d9a3f8195673f0cbe1c247d89d9e42"
+    }
+]

@@ -1,0 +1,66 @@
+[
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "DFLOptimizer",
+        "Updated": "AdamCPU",
+        "Location": "nnlib/nnlib.py",
+        "Description": " class DFLOptimizer was renamed to class AdamCPU ",
+        "Commit": "58763756f58bf916b2c539455dd8ce9c73b25921"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "AdamCPU",
+        "Updated": "Adam",
+        "Location": "nnlib/nnlib.py",
+        "Description": " class AdamCPU was renamed to class Adam ",
+        "Commit": "8da47fec13f077f4ef7866a970b533c3a1fe1cc6"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "Interact",
+        "Updated": "InteractBase",
+        "Location": "interact/interact.py",
+        "Description": " class Interact was renamed to class InteractBase ",
+        "Commit": "96de3282217298f75e06e3720cb3a2f96ed46f8b"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "SAEv2Model",
+        "Updated": "SAEHDModel",
+        "Location": "models/Model_SAEHD/Model.py",
+        "Description": " class SAEv2Model was renamed to class SAEHDModel ",
+        "Commit": "aa523b3f2e028136d1407fc64393a3fac30e0c88"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "QCanvasControlsBar",
+        "Updated": "QCanvasControlsLeftBar",
+        "Location": "XSegEditor/XSegEditor.py",
+        "Description": " class QCanvasControlsBar was renamed to class QCanvasControlsLeftBar ",
+        "Commit": "ca9138d6b74af36ffb757ce8f0a85f384e9212b6"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "Adam",
+        "Updated": "FastAdam",
+        "Location": "nnlib/nnlib.py",
+        "Description": " class Adam was renamed to class FastAdam ",
+        "Commit": "ee8dbcbc35e238725a9dde3e81f8f66771f8146d"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "DSSIMMaskLoss",
+        "Updated": "DSSIMMSEMaskLoss",
+        "Location": "nnlib/nnlib.py",
+        "Description": " class DSSIMMaskLoss was renamed to class DSSIMMSEMaskLoss ",
+        "Commit": "f8e63970d230067771019442b0305175ac9de5ed"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "FastAdam",
+        "Updated": "DFLOptimizer",
+        "Location": "nnlib/nnlib.py",
+        "Description": " class FastAdam was renamed to class DFLOptimizer ",
+        "Commit": "fd3b9add2f71537d3048efa38c20db8b6e9ff82f"
+    }
+]

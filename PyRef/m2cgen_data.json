@@ -1,0 +1,1065 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "method_definition",
+        "Updated": "method_definition",
+        "Location": "m2cgen/ast/interpreters/java/code_generator.py/JavaCodeGenerator",
+        "Original Line": 59,
+        "Updated Line": 59,
+        "Description": [
+            "The parameters [ name args return_type modifier ] are added to the method method_definition from the module m2cgen/ast/interpreters/java/code_generator.py in class JavaCodeGenerator"
+        ],
+        "Commit": "0331726729eda3a9763d42a2bc9ce280709db883"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "classification",
+        "Updated": "classification",
+        "Location": "tests/e2e/test_e2e.py",
+        "Original Line": 46,
+        "Updated Line": 46,
+        "Description": [
+            "The parameters [ test_fraction ] are added to the method classification from the module tests/e2e/test_e2e.py"
+        ],
+        "Commit": "04767ab903c777ae4c2b01cb34342be338f2dd2c"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "classification_binary",
+        "Updated": "classification_binary",
+        "Location": "tests/e2e/test_e2e.py",
+        "Original Line": 54,
+        "Updated Line": 54,
+        "Description": [
+            "The parameters [ test_fraction ] are added to the method classification_binary from the module tests/e2e/test_e2e.py"
+        ],
+        "Commit": "04767ab903c777ae4c2b01cb34342be338f2dd2c"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "classification_binary_random",
+        "Updated": "classification_binary_random",
+        "Location": "tests/e2e/test_e2e.py",
+        "Original Line": 78,
+        "Updated Line": 78,
+        "Description": [
+            "The parameters [ test_fraction ] are added to the method classification_binary_random from the module tests/e2e/test_e2e.py"
+        ],
+        "Commit": "04767ab903c777ae4c2b01cb34342be338f2dd2c"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "classification_random",
+        "Updated": "classification_random",
+        "Location": "tests/e2e/test_e2e.py",
+        "Original Line": 70,
+        "Updated Line": 70,
+        "Description": [
+            "The parameters [ test_fraction ] are added to the method classification_random from the module tests/e2e/test_e2e.py"
+        ],
+        "Commit": "04767ab903c777ae4c2b01cb34342be338f2dd2c"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "regression",
+        "Updated": "regression",
+        "Location": "tests/e2e/test_e2e.py",
+        "Original Line": 38,
+        "Updated Line": 38,
+        "Description": [
+            "The parameters [ test_fraction ] are added to the method regression from the module tests/e2e/test_e2e.py"
+        ],
+        "Commit": "04767ab903c777ae4c2b01cb34342be338f2dd2c"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "regression_random",
+        "Updated": "regression_random",
+        "Location": "tests/e2e/test_e2e.py",
+        "Original Line": 62,
+        "Updated Line": 62,
+        "Description": [
+            "The parameters [ test_fraction ] are added to the method regression_random from the module tests/e2e/test_e2e.py"
+        ],
+        "Commit": "04767ab903c777ae4c2b01cb34342be338f2dd2c"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "export_to_java",
+        "Updated": "export_to_java",
+        "Location": "m2cgen/exporters.py",
+        "Original Line": 5,
+        "Updated Line": 5,
+        "Description": [
+            "The parameters [ model_name ] of the method export_to_java from the module m2cgen/exporters.py are changed/renamed to [class_name]"
+        ],
+        "Commit": "1b2665e36f9692eadcab14792a23f0825eb6eca7"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "class_definition",
+        "Updated": "class_definition",
+        "Location": "m2cgen/interpreters/java/code_generator.py/JavaCodeGenerator",
+        "Original Line": 35,
+        "Updated Line": 35,
+        "Description": [
+            "The parameters [ model_name ] of the method class_definition from the module m2cgen/interpreters/java/code_generator.py in class JavaCodeGenerator are changed/renamed to [class_name]"
+        ],
+        "Commit": "1b2665e36f9692eadcab14792a23f0825eb6eca7"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "m2cgen/interpreters/java/interpreter.py/JavaInterpreter",
+        "Original Line": 18,
+        "Updated Line": 18,
+        "Description": [
+            "The parameters [ model_name ] of the method __init__ from the module m2cgen/interpreters/java/interpreter.py in class JavaInterpreter are changed/renamed to [class_name]"
+        ],
+        "Commit": "1b2665e36f9692eadcab14792a23f0825eb6eca7"
+    },
+    {
+        "Refactoring Type": "Pull Up Method",
+        "Original": "interpret_exp_expr",
+        "Updated": "interpret_exp_expr",
+        "Old Location": "m2cgen/interpreters/c/interpreter.py/CInterpreter",
+        "New Location": "m2cgen/interpreters/interpreter.py/ToCodeInterpreter",
+        "Old Method Line": 93,
+        "New Method Line": 148,
+        "Description": " method interpret_exp_expr from the module m2cgen/interpreters/c/interpreter.py in class CInterpreter was moved to class ToCodeInterpreter of module m2cgen/interpreters/interpreter.py ",
+        "Commit": "2475f3cddb5b328c8673795ca3cbe4fdc89f6797"
+    },
+    {
+        "Refactoring Type": "Pull Up Method",
+        "Original": "interpret_exp_expr",
+        "Updated": "interpret_exp_expr",
+        "Old Location": "m2cgen/interpreters/go/interpreter.py/GoInterpreter",
+        "New Location": "m2cgen/interpreters/interpreter.py/ToCodeInterpreter",
+        "Old Method Line": 49,
+        "New Method Line": 148,
+        "Description": " method interpret_exp_expr from the module m2cgen/interpreters/go/interpreter.py in class GoInterpreter was moved to class ToCodeInterpreter of module m2cgen/interpreters/interpreter.py ",
+        "Commit": "2475f3cddb5b328c8673795ca3cbe4fdc89f6797"
+    },
+    {
+        "Refactoring Type": "Pull Up Method",
+        "Original": "interpret_exp_expr",
+        "Updated": "interpret_exp_expr",
+        "Old Location": "m2cgen/interpreters/python/interpreter.py/PythonInterpreter",
+        "New Location": "m2cgen/interpreters/interpreter.py/ToCodeInterpreter",
+        "Old Method Line": 45,
+        "New Method Line": 148,
+        "Description": " method interpret_exp_expr from the module m2cgen/interpreters/python/interpreter.py in class PythonInterpreter was moved to class ToCodeInterpreter of module m2cgen/interpreters/interpreter.py ",
+        "Commit": "2475f3cddb5b328c8673795ca3cbe4fdc89f6797"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "add_var_declaration",
+        "Updated": "add_var_declaration",
+        "Location": "m2cgen/interpreters/code_generator.py/BaseCodeGenerator",
+        "Original Line": 75,
+        "Updated Line": 72,
+        "Description": [
+            "The parameters [ is_vector_type ] of the method add_var_declaration from the module m2cgen/interpreters/code_generator.py in class BaseCodeGenerator are changed/renamed to [expr]"
+        ],
+        "Commit": "40baf43233b0f4e1955224be730dc65c17ca755f"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_get_var_type",
+        "Updated": "_get_var_declare_type",
+        "Location": "m2cgen/interpreters/c/code_generator.py/CCodeGenerator",
+        "Original Line": 59,
+        "Updated Line": 59,
+        "Description": [
+            "The method _get_var_type from the module m2cgen/interpreters/c/code_generator.py in class CCodeGenerator is renamed to _get_var_declare_type"
+        ],
+        "Commit": "463b82ed04400cdfd3f36178b728ab5dcd1ffd19"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_get_var_type",
+        "Updated": "_get_var_declare_type",
+        "Location": "m2cgen/interpreters/powershell/code_generator.py/PowershellCodeGenerator",
+        "Original Line": 57,
+        "Updated Line": 57,
+        "Description": [
+            "The method _get_var_type from the module m2cgen/interpreters/powershell/code_generator.py in class PowershellCodeGenerator is renamed to _get_var_declare_type"
+        ],
+        "Commit": "463b82ed04400cdfd3f36178b728ab5dcd1ffd19"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "add_function_def",
+        "Updated": "add_function_def",
+        "Location": "m2cgen/interpreters/powershell/code_generator.py/PowershellCodeGenerator",
+        "Original Line": 21,
+        "Updated Line": 21,
+        "Description": [
+            "The parameters [ is_scalar_output ] of the method add_function_def from the module m2cgen/interpreters/powershell/code_generator.py in class PowershellCodeGenerator is/are removed"
+        ],
+        "Commit": "463b82ed04400cdfd3f36178b728ab5dcd1ffd19"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "function_definition",
+        "Updated": "function_definition",
+        "Location": "m2cgen/interpreters/powershell/code_generator.py/PowershellCodeGenerator",
+        "Original Line": 30,
+        "Updated Line": 30,
+        "Description": [
+            "The parameters [ is_scalar_output ] of the method function_definition from the module m2cgen/interpreters/powershell/code_generator.py in class PowershellCodeGenerator is/are removed"
+        ],
+        "Commit": "463b82ed04400cdfd3f36178b728ab5dcd1ffd19"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "BoolValue",
+        "Updated": "BoolVal",
+        "Location": "m2cgen/ast.py",
+        "Description": " class BoolValue was renamed to class BoolVal ",
+        "Commit": "4e5df647b34ab4d3c5b4fa31e2e09aacbe6aca55"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_get_mock_args",
+        "Updated": "_get_mock_args",
+        "Location": "tests/test_cli.py",
+        "Original Line": 13,
+        "Updated Line": 13,
+        "Description": [
+            "The parameters [ namespace ] are added to the method _get_mock_args from the module tests/test_cli.py"
+        ],
+        "Commit": "5ae584d8f80f7415afab6ca2a43e970bacc9f9a5"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_class_name",
+        "Updated": "test_class_name",
+        "Location": "tests/test_cli.py",
+        "Original Line": 117,
+        "Updated Line": 97,
+        "Description": [
+            "The parameters [ pickled_model ] are added to the method test_class_name from the module tests/test_cli.py"
+        ],
+        "Commit": "6243b768e52eb8759e78a774207d3f08f15c95f4"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_function_name",
+        "Updated": "test_function_name",
+        "Location": "tests/test_cli.py",
+        "Original Line": 99,
+        "Updated Line": 83,
+        "Description": [
+            "The parameters [ pickled_model ] are added to the method test_function_name from the module tests/test_cli.py"
+        ],
+        "Commit": "6243b768e52eb8759e78a774207d3f08f15c95f4"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_function_name_csharp_default",
+        "Updated": "test_function_name_csharp_default",
+        "Location": "tests/test_cli.py",
+        "Original Line": 108,
+        "Updated Line": 90,
+        "Description": [
+            "The parameters [ pickled_model ] are added to the method test_function_name_csharp_default from the module tests/test_cli.py"
+        ],
+        "Commit": "6243b768e52eb8759e78a774207d3f08f15c95f4"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "test_unsupported_args_are_ignored",
+        "Updated": "test_generate_code",
+        "Location": "tests/test_cli.py",
+        "Original Line": 177,
+        "Updated Line": 73,
+        "Description": [
+            "The method test_unsupported_args_are_ignored from the module tests/test_cli.py is renamed to test_generate_code",
+            "The parameters [ pickled_model ] are added to the method test_unsupported_args_are_ignored from the module tests/test_cli.py"
+        ],
+        "Commit": "6243b768e52eb8759e78a774207d3f08f15c95f4"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_indent",
+        "Updated": "test_indent",
+        "Location": "tests/test_cli.py",
+        "Original Line": 153,
+        "Updated Line": 125,
+        "Description": [
+            "The parameters [ pickled_model ] are added to the method test_indent from the module tests/test_cli.py"
+        ],
+        "Commit": "6243b768e52eb8759e78a774207d3f08f15c95f4"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_module_name",
+        "Updated": "test_module_name",
+        "Location": "tests/test_cli.py",
+        "Original Line": 135,
+        "Updated Line": 111,
+        "Description": [
+            "The parameters [ pickled_model ] are added to the method test_module_name from the module tests/test_cli.py"
+        ],
+        "Commit": "6243b768e52eb8759e78a774207d3f08f15c95f4"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_namespace",
+        "Updated": "test_namespace",
+        "Location": "tests/test_cli.py",
+        "Original Line": 144,
+        "Updated Line": 118,
+        "Description": [
+            "The parameters [ pickled_model ] are added to the method test_namespace from the module tests/test_cli.py"
+        ],
+        "Commit": "6243b768e52eb8759e78a774207d3f08f15c95f4"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_package_name",
+        "Updated": "test_package_name",
+        "Location": "tests/test_cli.py",
+        "Original Line": 126,
+        "Updated Line": 104,
+        "Description": [
+            "The parameters [ pickled_model ] are added to the method test_package_name from the module tests/test_cli.py"
+        ],
+        "Commit": "6243b768e52eb8759e78a774207d3f08f15c95f4"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "test_generate_code",
+        "Updated": "test_unsupported_args_are_ignored",
+        "Location": "tests/test_cli.py",
+        "Original Line": 87,
+        "Updated Line": 147,
+        "Description": [
+            "The method test_generate_code from the module tests/test_cli.py is renamed to test_unsupported_args_are_ignored",
+            "The parameters [ pickled_model ] are added to the method test_generate_code from the module tests/test_cli.py"
+        ],
+        "Commit": "6243b768e52eb8759e78a774207d3f08f15c95f4"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "_assemble_multi_class_output",
+        "Updated": "_multi_class_convert_output",
+        "Location": "m2cgen/assemblers/boosting.py/BaseBoostingAssembler",
+        "Original Method Line": "(60,61)",
+        "Extracted/Inlined Method Line": 99,
+        "Extracted/Inlined Lines": [
+            74.0
+        ],
+        "Description": " The method _multi_class_convert_output from the module m2cgen/assemblers/boosting.py in class BaseBoostingAssembler is extracted from method _assemble_multi_class_output from the module m2cgen/assemblers/boosting.py in class BaseBoostingAssembler ",
+        "Commit": "65f8dbfa9311fa07da402a95c400f43a9b0fd02c"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "_assemble_bin_class_output",
+        "Updated": "_bin_class_convert_output",
+        "Location": "m2cgen/assemblers/boosting.py/BaseBoostingAssembler",
+        "Original Method Line": "(77,78)",
+        "Extracted/Inlined Method Line": 102,
+        "Extracted/Inlined Lines": [
+            88.0
+        ],
+        "Description": " The method _bin_class_convert_output from the module m2cgen/assemblers/boosting.py in class BaseBoostingAssembler is extracted from method _assemble_bin_class_output from the module m2cgen/assemblers/boosting.py in class BaseBoostingAssembler ",
+        "Commit": "65f8dbfa9311fa07da402a95c400f43a9b0fd02c"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "SubroutinesAsFunctionsMixin",
+        "Updated": "SubroutinesMixin",
+        "Location": "m2cgen/interpreters/mixins.py",
+        "Description": " class SubroutinesAsFunctionsMixin was renamed to class SubroutinesMixin ",
+        "Commit": "8961fe804618d09ef0fd9e901b3982b0cf5c0380"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "_build_ast",
+        "Updated": "_final_transform",
+        "Location": "m2cgen/assemblers/linear.py/BaseLinearModelAssembler",
+        "Original Method Line": "(13,13)",
+        "Extracted/Inlined Method Line": 28,
+        "Extracted/Inlined Lines": [
+            18.0
+        ],
+        "Description": " The method _final_transform from the module m2cgen/assemblers/linear.py in class BaseLinearModelAssembler is extracted from method _build_ast from the module m2cgen/assemblers/linear.py in class BaseLinearModelAssembler ",
+        "Commit": "91dbb6e19738eed112892ee37a225032005a4bd6"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "exp",
+        "Updated": "exp",
+        "Location": "m2cgen/assemblers/fallback_expressions.py",
+        "Original Line": 50,
+        "Updated Line": 49,
+        "Description": [
+            "The parameters [ to_reuse ] of the method exp from the module m2cgen/assemblers/fallback_expressions.py is/are removed"
+        ],
+        "Commit": "91ef2ef6abd140bae7921767a7ebef1d52cd2b8f"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "sqrt",
+        "Updated": "sqrt",
+        "Location": "m2cgen/assemblers/fallback_expressions.py",
+        "Original Line": 43,
+        "Updated Line": 43,
+        "Description": [
+            "The parameters [ to_reuse ] of the method sqrt from the module m2cgen/assemblers/fallback_expressions.py is/are removed"
+        ],
+        "Commit": "91ef2ef6abd140bae7921767a7ebef1d52cd2b8f"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "add",
+        "Updated": "add",
+        "Location": "m2cgen/assemblers/utils.py",
+        "Original Line": 14,
+        "Updated Line": 14,
+        "Description": [
+            "The parameters [ l r ] of the method add from the module m2cgen/assemblers/utils.py are changed/renamed to [left right]"
+        ],
+        "Commit": "a3566c99ead7b2b4047c2fffa37a7f22af5ec298"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "div",
+        "Updated": "div",
+        "Location": "m2cgen/assemblers/utils.py",
+        "Original Line": 10,
+        "Updated Line": 10,
+        "Description": [
+            "The parameters [ l r ] of the method div from the module m2cgen/assemblers/utils.py are changed/renamed to [left right]"
+        ],
+        "Commit": "a3566c99ead7b2b4047c2fffa37a7f22af5ec298"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "eq",
+        "Updated": "eq",
+        "Location": "m2cgen/assemblers/utils.py",
+        "Original Line": 34,
+        "Updated Line": 34,
+        "Description": [
+            "The parameters [ l r ] of the method eq from the module m2cgen/assemblers/utils.py are changed/renamed to [left right]"
+        ],
+        "Commit": "a3566c99ead7b2b4047c2fffa37a7f22af5ec298"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "gt",
+        "Updated": "gt",
+        "Location": "m2cgen/assemblers/utils.py",
+        "Original Line": 30,
+        "Updated Line": 30,
+        "Description": [
+            "The parameters [ l r ] of the method gt from the module m2cgen/assemblers/utils.py are changed/renamed to [left right]"
+        ],
+        "Commit": "a3566c99ead7b2b4047c2fffa37a7f22af5ec298"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "lt",
+        "Updated": "lt",
+        "Location": "m2cgen/assemblers/utils.py",
+        "Original Line": 22,
+        "Updated Line": 22,
+        "Description": [
+            "The parameters [ l r ] of the method lt from the module m2cgen/assemblers/utils.py are changed/renamed to [left right]"
+        ],
+        "Commit": "a3566c99ead7b2b4047c2fffa37a7f22af5ec298"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "lte",
+        "Updated": "lte",
+        "Location": "m2cgen/assemblers/utils.py",
+        "Original Line": 26,
+        "Updated Line": 26,
+        "Description": [
+            "The parameters [ l r ] of the method lte from the module m2cgen/assemblers/utils.py are changed/renamed to [left right]"
+        ],
+        "Commit": "a3566c99ead7b2b4047c2fffa37a7f22af5ec298"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "mul",
+        "Updated": "mul",
+        "Location": "m2cgen/assemblers/utils.py",
+        "Original Line": 6,
+        "Updated Line": 6,
+        "Description": [
+            "The parameters [ l r ] of the method mul from the module m2cgen/assemblers/utils.py are changed/renamed to [left right]"
+        ],
+        "Commit": "a3566c99ead7b2b4047c2fffa37a7f22af5ec298"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "sub",
+        "Updated": "sub",
+        "Location": "m2cgen/assemblers/utils.py",
+        "Original Line": 18,
+        "Updated Line": 18,
+        "Description": [
+            "The parameters [ l r ] of the method sub from the module m2cgen/assemblers/utils.py are changed/renamed to [left right]"
+        ],
+        "Commit": "a3566c99ead7b2b4047c2fffa37a7f22af5ec298"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "export_to_c",
+        "Updated": "export_to_c",
+        "Location": "m2cgen/exporters.py",
+        "Original Line": 50,
+        "Updated Line": 60,
+        "Description": [
+            "The parameters [ function_name ] are added to the method export_to_c from the module m2cgen/exporters.py"
+        ],
+        "Commit": "a4ef90f1dceb549a886861690699964d8dd188e3"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "export_to_c_sharp",
+        "Updated": "export_to_c_sharp",
+        "Location": "m2cgen/exporters.py",
+        "Original Line": 171,
+        "Updated Line": 202,
+        "Description": [
+            "The parameters [ function_name ] are added to the method export_to_c_sharp from the module m2cgen/exporters.py"
+        ],
+        "Commit": "a4ef90f1dceb549a886861690699964d8dd188e3"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "export_to_go",
+        "Updated": "export_to_go",
+        "Location": "m2cgen/exporters.py",
+        "Original Line": 69,
+        "Updated Line": 84,
+        "Description": [
+            "The parameters [ function_name ] are added to the method export_to_go from the module m2cgen/exporters.py"
+        ],
+        "Commit": "a4ef90f1dceb549a886861690699964d8dd188e3"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "export_to_java",
+        "Updated": "export_to_java",
+        "Location": "m2cgen/exporters.py",
+        "Original Line": 5,
+        "Updated Line": 5,
+        "Description": [
+            "The parameters [ function_name ] are added to the method export_to_java from the module m2cgen/exporters.py"
+        ],
+        "Commit": "a4ef90f1dceb549a886861690699964d8dd188e3"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "export_to_javascript",
+        "Updated": "export_to_javascript",
+        "Location": "m2cgen/exporters.py",
+        "Original Line": 88,
+        "Updated Line": 108,
+        "Description": [
+            "The parameters [ function_name ] are added to the method export_to_javascript from the module m2cgen/exporters.py"
+        ],
+        "Commit": "a4ef90f1dceb549a886861690699964d8dd188e3"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "export_to_php",
+        "Updated": "export_to_php",
+        "Location": "m2cgen/exporters.py",
+        "Original Line": 235,
+        "Updated Line": 281,
+        "Description": [
+            "The parameters [ function_name ] are added to the method export_to_php from the module m2cgen/exporters.py"
+        ],
+        "Commit": "a4ef90f1dceb549a886861690699964d8dd188e3"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "export_to_powershell",
+        "Updated": "export_to_powershell",
+        "Location": "m2cgen/exporters.py",
+        "Original Line": 197,
+        "Updated Line": 233,
+        "Description": [
+            "The parameters [ function_name ] are added to the method export_to_powershell from the module m2cgen/exporters.py"
+        ],
+        "Commit": "a4ef90f1dceb549a886861690699964d8dd188e3"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "export_to_python",
+        "Updated": "export_to_python",
+        "Location": "m2cgen/exporters.py",
+        "Original Line": 31,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ function_name ] are added to the method export_to_python from the module m2cgen/exporters.py"
+        ],
+        "Commit": "a4ef90f1dceb549a886861690699964d8dd188e3"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "export_to_r",
+        "Updated": "export_to_r",
+        "Location": "m2cgen/exporters.py",
+        "Original Line": 216,
+        "Updated Line": 257,
+        "Description": [
+            "The parameters [ function_name ] are added to the method export_to_r from the module m2cgen/exporters.py"
+        ],
+        "Commit": "a4ef90f1dceb549a886861690699964d8dd188e3"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "export_to_visual_basic",
+        "Updated": "export_to_visual_basic",
+        "Location": "m2cgen/exporters.py",
+        "Original Line": 107,
+        "Updated Line": 132,
+        "Description": [
+            "The parameters [ function_name ] are added to the method export_to_visual_basic from the module m2cgen/exporters.py"
+        ],
+        "Commit": "a4ef90f1dceb549a886861690699964d8dd188e3"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "m2cgen/interpreters/c/interpreter.py/CInterpreter",
+        "Original Line": 24,
+        "Updated Line": 24,
+        "Description": [
+            "The parameters [ function_name ] are added to the method __init__ from the module m2cgen/interpreters/c/interpreter.py in class CInterpreter"
+        ],
+        "Commit": "a4ef90f1dceb549a886861690699964d8dd188e3"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "m2cgen/interpreters/c_sharp/interpreter.py/CSharpInterpreter",
+        "Original Line": 24,
+        "Updated Line": 24,
+        "Description": [
+            "The parameters [ function_name ] are added to the method __init__ from the module m2cgen/interpreters/c_sharp/interpreter.py in class CSharpInterpreter"
+        ],
+        "Commit": "a4ef90f1dceb549a886861690699964d8dd188e3"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "m2cgen/interpreters/go/interpreter.py/GoInterpreter",
+        "Original Line": 23,
+        "Updated Line": 23,
+        "Description": [
+            "The parameters [ function_name ] are added to the method __init__ from the module m2cgen/interpreters/go/interpreter.py in class GoInterpreter"
+        ],
+        "Commit": "a4ef90f1dceb549a886861690699964d8dd188e3"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "m2cgen/interpreters/java/interpreter.py/JavaInterpreter",
+        "Original Line": 33,
+        "Updated Line": 33,
+        "Description": [
+            "The parameters [ function_name ] are added to the method __init__ from the module m2cgen/interpreters/java/interpreter.py in class JavaInterpreter"
+        ],
+        "Commit": "a4ef90f1dceb549a886861690699964d8dd188e3"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "m2cgen/interpreters/javascript/interpreter.py/JavascriptInterpreter",
+        "Original Line": 26,
+        "Updated Line": 26,
+        "Description": [
+            "The parameters [ function_name ] are added to the method __init__ from the module m2cgen/interpreters/javascript/interpreter.py in class JavascriptInterpreter"
+        ],
+        "Commit": "a4ef90f1dceb549a886861690699964d8dd188e3"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "m2cgen/interpreters/php/interpreter.py/PhpInterpreter",
+        "Original Line": 23,
+        "Updated Line": 23,
+        "Description": [
+            "The parameters [ function_name ] are added to the method __init__ from the module m2cgen/interpreters/php/interpreter.py in class PhpInterpreter"
+        ],
+        "Commit": "a4ef90f1dceb549a886861690699964d8dd188e3"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "m2cgen/interpreters/powershell/interpreter.py/PowershellInterpreter",
+        "Original Line": 25,
+        "Updated Line": 25,
+        "Description": [
+            "The parameters [ function_name ] are added to the method __init__ from the module m2cgen/interpreters/powershell/interpreter.py in class PowershellInterpreter"
+        ],
+        "Commit": "a4ef90f1dceb549a886861690699964d8dd188e3"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "m2cgen/interpreters/python/interpreter.py/PythonInterpreter",
+        "Original Line": 17,
+        "Updated Line": 17,
+        "Description": [
+            "The parameters [ function_name ] are added to the method __init__ from the module m2cgen/interpreters/python/interpreter.py in class PythonInterpreter"
+        ],
+        "Commit": "a4ef90f1dceb549a886861690699964d8dd188e3"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "m2cgen/interpreters/r/interpreter.py/RInterpreter",
+        "Original Line": 25,
+        "Updated Line": 25,
+        "Description": [
+            "The parameters [ function_name ] are added to the method __init__ from the module m2cgen/interpreters/r/interpreter.py in class RInterpreter"
+        ],
+        "Commit": "a4ef90f1dceb549a886861690699964d8dd188e3"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "m2cgen/interpreters/visual_basic/interpreter.py/VisualBasicInterpreter",
+        "Original Line": 24,
+        "Updated Line": 24,
+        "Description": [
+            "The parameters [ function_name ] are added to the method __init__ from the module m2cgen/interpreters/visual_basic/interpreter.py in class VisualBasicInterpreter"
+        ],
+        "Commit": "a4ef90f1dceb549a886861690699964d8dd188e3"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_get_mock_args",
+        "Updated": "_get_mock_args",
+        "Location": "tests/test_cli.py",
+        "Original Line": 13,
+        "Updated Line": 13,
+        "Description": [
+            "The parameters [ function_name ] are added to the method _get_mock_args from the module tests/test_cli.py"
+        ],
+        "Commit": "a4ef90f1dceb549a886861690699964d8dd188e3"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "_add_var_def",
+        "Updated": "_get_var_name",
+        "Location": "m2cgen/interpreters/java.py/JavaGenerator",
+        "Original Method Line": "(53,89)",
+        "Extracted/Inlined Method Line": 78,
+        "Extracted/Inlined Lines": [
+            54.0,
+            55.0
+        ],
+        "Description": " The method _get_var_name from the module m2cgen/interpreters/java.py in class JavaGenerator is extracted from method _add_var_def from the module m2cgen/interpreters/java.py in class JavaGenerator ",
+        "Commit": "aa9f07799ba02744c36a187d0fa6f2d1e6e33b7c"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "m2cgen/ast.py/BinNumExpr",
+        "Original Line": 42,
+        "Updated Line": 58,
+        "Description": [
+            "The parameters [ to_reuse ] are added to the method __init__ from the module m2cgen/ast.py in class BinNumExpr"
+        ],
+        "Commit": "b0a0889c86da6e35b31ba654c8d4a1f9b20fe304"
+    },
+    {
+        "Refactoring Type": "Pull Up Method",
+        "Original": "function_invocation",
+        "Updated": "function_invocation",
+        "Old Location": "m2cgen/interpreters/code_generator.py/CLikeCodeGenerator",
+        "New Location": "m2cgen/interpreters/code_generator.py/BaseCodeGenerator",
+        "Old Method Line": 148,
+        "New Method Line": 126,
+        "Description": " method function_invocation from the module m2cgen/interpreters/code_generator.py in class CLikeCodeGenerator was moved to class BaseCodeGenerator of module m2cgen/interpreters/code_generator.py ",
+        "Commit": "b0a0889c86da6e35b31ba654c8d4a1f9b20fe304"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_get_mock_args",
+        "Updated": "_get_mock_args",
+        "Location": "tests/test_cli.py",
+        "Original Line": 12,
+        "Updated Line": 12,
+        "Description": [
+            "The parameters [ lib ] are added to the method _get_mock_args from the module tests/test_cli.py"
+        ],
+        "Commit": "b0f76ef3ad287ced9fc777ecd2a97300180aa9d2"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "SVMModelAssembler",
+        "Updated": "SklearnSVMModelAssembler",
+        "Location": "m2cgen/assemblers/svm.py",
+        "Description": " class SVMModelAssembler was renamed to class SklearnSVMModelAssembler ",
+        "Commit": "b363f62ae26134e32ce88d31acb658b1672890aa"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_create_expected_single_output_ast",
+        "Updated": "_create_expected_single_output_ast",
+        "Location": "tests/assemblers/test_svm.py",
+        "Original Line": 167,
+        "Updated Line": 213,
+        "Description": [
+            "The parameters [ intercept ] are added to the method _create_expected_single_output_ast from the module tests/assemblers/test_svm.py"
+        ],
+        "Commit": "b363f62ae26134e32ce88d31acb658b1672890aa"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "add_final_else_statement",
+        "Updated": "add_block_termination",
+        "Location": "m2cgen/ast/interpreters/code_generator.py/BaseCodeGenerator",
+        "Original Line": 64,
+        "Updated Line": 80,
+        "Description": [
+            "The method add_final_else_statement from the module m2cgen/ast/interpreters/code_generator.py in class BaseCodeGenerator is renamed to add_block_termination"
+        ],
+        "Commit": "db2be334efc112473a302fc6fc44cb0460aaaf4e"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_linear_kernel_with_gama_and_coef",
+        "Updated": "_linear_kernel_with_gamma_and_coef",
+        "Location": "m2cgen/assemblers/svm.py/SklearnSVMModelAssembler",
+        "Original Line": 167,
+        "Updated Line": 167,
+        "Description": [
+            "The method _linear_kernel_with_gama_and_coef from the module m2cgen/assemblers/svm.py in class SklearnSVMModelAssembler is renamed to _linear_kernel_with_gamma_and_coef"
+        ],
+        "Commit": "dcd62f4476daf883b04cc40a85c125dd11245cd9"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "interpret_bin_bool_expr",
+        "Updated": "interpret_comp_expr",
+        "Location": "m2cgen/interpreters/java.py/JavaGenerator",
+        "Original Line": 60,
+        "Updated Line": 60,
+        "Description": [
+            "The method interpret_bin_bool_expr from the module m2cgen/interpreters/java.py in class JavaGenerator is renamed to interpret_comp_expr"
+        ],
+        "Commit": "e20566f426552faf16a658c2a2471e08b0b837ee"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "example_linear",
+        "Updated": "train_model",
+        "Location": "m2cgen/examples.py",
+        "Original Method Line": "(13,32)",
+        "Extracted/Inlined Method Line": 13,
+        "Extracted/Inlined Lines": [
+            14.0,
+            16.0,
+            17.0,
+            19.0,
+            20.0,
+            21.0,
+            25.0,
+            27.0,
+            28.0,
+            30.0,
+            31.0
+        ],
+        "Description": " The method train_model from the module m2cgen/examples.py is extracted from method example_linear from the module m2cgen/examples.py ",
+        "Commit": "e40ee91e1854ff62579ce8318e98134819881010"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "_normalize_expr_name",
+        "Updated": "_normalize_expr_name",
+        "Old Location": "m2cgen/interpreters/interpreter.py/BaseInterpreter",
+        "New Location": "m2cgen/interpreters/utils.py",
+        "Old Method Line": 70,
+        "New Method Line": 24,
+        "Description": " method _normalize_expr_name from the module m2cgen/interpreters/interpreter.py in class BaseInterpreter was moved to module m2cgen/interpreters/utils.py ",
+        "Commit": "f02feaf98d7be10a5b214db0c0415570b5ec0620"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "LinearModelAssembler",
+        "Updated": "BaseLinearModelAssembler",
+        "Location": "m2cgen/assemblers/linear.py",
+        "Description": " class LinearModelAssembler was renamed to class BaseLinearModelAssembler ",
+        "Commit": "f14114614113d018531b7232750cc6ed977272e8"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "m2cgen/exporters.py/PythonExporter",
+        "Original Line": 46,
+        "Updated Line": 46,
+        "Description": [
+            "The parameters [ model_name ] of the method __init__ from the module m2cgen/exporters.py in class PythonExporter is/are removed"
+        ],
+        "Commit": "fbdee6ddd5c074c82e7d7912a79be1f47f81ac0f"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "m2cgen/interpreters/python/interpreter.py/PythonInterpreter",
+        "Original Line": 7,
+        "Updated Line": 7,
+        "Description": [
+            "The parameters [ model_name ] of the method __init__ from the module m2cgen/interpreters/python/interpreter.py in class PythonInterpreter is/are removed"
+        ],
+        "Commit": "fbdee6ddd5c074c82e7d7912a79be1f47f81ac0f"
+    }
+]

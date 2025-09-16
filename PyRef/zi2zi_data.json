@@ -1,0 +1,16 @@
+[
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "save_concat_images",
+        "Updated": "save_concat_images",
+        "Location": "model/utils.py",
+        "Original Line": 73,
+        "Updated Line": 74,
+        "Description": [
+            "The parameters [ count ] of the method save_concat_images from the module model/utils.py is/are removed"
+        ],
+        "Commit": "8df110793647eb310a0498fbf780605a28ebfde4"
+    }
+]

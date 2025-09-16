@@ -1,0 +1,16 @@
+[
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "add_to_colab",
+        "Updated": "add_to_colab",
+        "Location": "app/main.py",
+        "Original Line": 34,
+        "Updated Line": 34,
+        "Description": [
+            "The parameters [ repo ] of the method add_to_colab from the module app/main.py is/are removed"
+        ],
+        "Commit": "3b4479d8feb9553c5558be2f5d43d0c0b0f452f3"
+    }
+]

@@ -1,0 +1,86 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "dataset.py/SSTDataset",
+        "Original Line": 13,
+        "Updated Line": 13,
+        "Description": [
+            "The parameters [ model_name ] are added to the method __init__ from the module dataset.py in class SSTDataset"
+        ],
+        "Commit": "387153e44b3fee0ce2907676b041e9b6e50fd31c"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "forward",
+        "Updated": "forward",
+        "Location": "modeling.py/BertForSentimentClassification",
+        "Original Line": 13,
+        "Updated Line": 13,
+        "Description": [
+            "The parameters [ seq attn_masks ] of the method forward from the module modeling.py in class BertForSentimentClassification are changed/renamed to [input_ids attention_mask]"
+        ],
+        "Commit": "4c0fedb2b96faff866e63923f29a4f4b7f578084"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "forward",
+        "Updated": "forward",
+        "Location": "modeling.py/AlbertForSentimentClassification",
+        "Original Line": 37,
+        "Updated Line": 35,
+        "Description": [
+            "The parameters [ seq attn_masks ] of the method forward from the module modeling.py in class AlbertForSentimentClassification are changed/renamed to [input_ids attention_mask]"
+        ],
+        "Commit": "4c0fedb2b96faff866e63923f29a4f4b7f578084"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "forward",
+        "Updated": "forward",
+        "Location": "modeling.py/DistilBertForSentimentClassification",
+        "Original Line": 61,
+        "Updated Line": 56,
+        "Description": [
+            "The parameters [ seq attn_masks ] of the method forward from the module modeling.py in class DistilBertForSentimentClassification are changed/renamed to [input_ids attention_mask]"
+        ],
+        "Commit": "4c0fedb2b96faff866e63923f29a4f4b7f578084"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "dataset.py/SSTDataset",
+        "Original Line": 13,
+        "Updated Line": 13,
+        "Description": [
+            "The parameters [ model_name_or_path ] of the method __init__ from the module dataset.py in class SSTDataset are changed/renamed to [tokenizer]"
+        ],
+        "Commit": "aadc509ceaa2877b3d4d404fd4d32ecc363f6bee"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "dataset.py/SSTDataset",
+        "Original Line": 13,
+        "Updated Line": 13,
+        "Description": [
+            "The parameters [ model_name ] of the method __init__ from the module dataset.py in class SSTDataset are changed/renamed to [model_name_or_path]"
+        ],
+        "Commit": "ea89c75bc2fd0f59edcc75d2cf38f33cba8618ff"
+    }
+]

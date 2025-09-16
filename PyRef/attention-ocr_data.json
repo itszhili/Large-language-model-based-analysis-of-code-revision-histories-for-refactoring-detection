@@ -1,0 +1,58 @@
+[
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_prepare_image",
+        "Updated": "_prepare_image2",
+        "Location": "aocr/model/model.py/Model",
+        "Original Line": 475,
+        "Updated Line": 501,
+        "Description": [
+            "The method _prepare_image from the module aocr/model/model.py in class Model is renamed to _prepare_image2"
+        ],
+        "Commit": "0ce0fd2b98db6272e9a97d3076e7ff0b5668b606"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "setFullAsciiCharmap",
+        "Updated": "set_full_ascii_charmap",
+        "Location": "aocr/util/data_gen.py/DataGen",
+        "Original Line": 22,
+        "Updated Line": 24,
+        "Description": [
+            "The method setFullAsciiCharmap from the module aocr/util/data_gen.py in class DataGen is renamed to set_full_ascii_charmap"
+        ],
+        "Commit": "4ed7a5003f1ded5f588c5aa73d1f76b6b41c7531"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "aocr/util/export.py/Exporter",
+        "Original Line": 7,
+        "Updated Line": 8,
+        "Description": [
+            "The parameters [ checkpoint_dir ] of the method __init__ from the module aocr/util/export.py in class Exporter is/are removed"
+        ],
+        "Commit": "589ea31d1c1745576aea4c6246c25f275936fbfe"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "append",
+        "Updated": "append",
+        "Location": "aocr/util/bucketdata.py/BucketData",
+        "Original Line": 14,
+        "Updated Line": 14,
+        "Description": [
+            "The parameters [ filename ] of the method append from the module aocr/util/bucketdata.py in class BucketData are changed/renamed to [label_plain]"
+        ],
+        "Commit": "6bb43dc2cf2413eb270b651803da020b597b3fec"
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "get_opts",
+        "Updated": "get_opts",
+        "Location": "opt.py",
+        "Original Line": 4,
+        "Updated Line": 4,
+        "Description": [
+            "The parameters [ prefix_args ] are added to the method get_opts from the module opt.py"
+        ],
+        "Commit": "aad9c29df39f8cede49efcd3abced7dab326934d"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "validation_epoch_end",
+        "Updated": "on_validation_epoch_end",
+        "Location": "train.py/NeRFSystem",
+        "Original Line": 255,
+        "Updated Line": 257,
+        "Description": [
+            "The method validation_epoch_end from the module train.py in class NeRFSystem is renamed to on_validation_epoch_end",
+            "The parameters [ outputs ] of the method validation_epoch_end from the module train.py in class NeRFSystem is/are removed"
+        ],
+        "Commit": "aba3f965c58ada5056dc610d95529e3a07f4dc32"
+    }
+]

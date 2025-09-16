@@ -1,0 +1,313 @@
+[
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "RunEnv",
+        "Updated": "L2RunEnv",
+        "Location": "osim/env/osim.py",
+        "Description": " class RunEnv was renamed to class L2RunEnv ",
+        "Commit": "1679344e509e29bdcc2ee368ddf83e868d93bf61"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "osim/env/osim.py/ProstheticsEnv",
+        "Original Line": 423,
+        "Updated Line": 423,
+        "Description": [
+            "The parameters [ report ] are added to the method __init__ from the module osim/env/osim.py in class ProstheticsEnv"
+        ],
+        "Commit": "1ea252a284c8fa954c70bbd4bf742baf6a2c9135"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "reset",
+        "Updated": "reset",
+        "Location": "osim/env/osim.py/ProstheticsEnv",
+        "Original Line": 527,
+        "Updated Line": 534,
+        "Description": [
+            "The parameters [ seed ] are added to the method reset from the module osim/env/osim.py in class ProstheticsEnv"
+        ],
+        "Commit": "1ea252a284c8fa954c70bbd4bf742baf6a2c9135"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "osim/redis/service.py/OsimRlRedisService",
+        "Original Line": 13,
+        "Updated Line": 13,
+        "Description": [
+            "The parameters [ osim_rl_redis_service_id ] are added to the method __init__ from the module osim/redis/service.py in class OsimRlRedisService"
+        ],
+        "Commit": "31eaece517abec1732300ec958e09f1758976fd4"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "envs/target/v_tgt_field.py/VTgtField",
+        "Original Line": 60,
+        "Updated Line": 60,
+        "Description": [
+            "The parameters [ seed ] are added to the method __init__ from the module envs/target/v_tgt_field.py in class VTgtField"
+        ],
+        "Commit": "32477423f43a6ac33372e90ad70aa3648e79328b"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "osim/redis/service.py/OsimRlRedisService",
+        "Original Line": 16,
+        "Updated Line": 16,
+        "Description": [
+            "The parameters [ difficulty max_obstacles ] are added to the method __init__ from the module osim/redis/service.py in class OsimRlRedisService"
+        ],
+        "Commit": "35c4f179a22267b19661a32187133e8996352874"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "reset",
+        "Updated": "reset",
+        "Location": "osim/env/osim.py/ProstheticsEnv",
+        "Original Line": 527,
+        "Updated Line": 527,
+        "Description": [
+            "The parameters [ project ] are added to the method reset from the module osim/env/osim.py in class ProstheticsEnv"
+        ],
+        "Commit": "35df8c2abe16fffdac78e9cc421dbe6dde5ebcb4"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "osim/redis/service.py/OsimRlRedisService",
+        "Original Line": 13,
+        "Updated Line": 13,
+        "Description": [
+            "The parameters [ visualize ] are added to the method __init__ from the module osim/redis/service.py in class OsimRlRedisService"
+        ],
+        "Commit": "4ae0f126cd855e085f5d37f1c2cf9dbc363562a4"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "run",
+        "Updated": "get_next_command",
+        "Location": "osim/redis/service.py/OsimRlRedisService",
+        "Original Method Line": "(51,59)",
+        "Extracted/Inlined Method Line": 54,
+        "Extracted/Inlined Lines": [
+            54.0,
+            55.0
+        ],
+        "Description": " The method get_next_command from the module osim/redis/service.py in class OsimRlRedisService is extracted from method run from the module osim/redis/service.py in class OsimRlRedisService ",
+        "Commit": "52c224e2aab4b7f57695842aedccf995242f754c"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "env_create",
+        "Updated": "env_create",
+        "Location": "osim/http/client.py/Client",
+        "Original Line": 48,
+        "Updated Line": 48,
+        "Description": [
+            "The parameters [ env_id ] are added to the method env_create from the module osim/http/client.py in class Client"
+        ],
+        "Commit": "52e5b206f3ad86eb5239630c8824f21e0996ace2"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test1",
+        "Updated": "test_reset",
+        "Location": "tests/test.env.py/SimulationTest",
+        "Original Line": 6,
+        "Updated Line": 6,
+        "Description": [
+            "The method test1 from the module tests/test.env.py in class SimulationTest is renamed to test_reset"
+        ],
+        "Commit": "86226494d4434c9b675b1b79788a5f7fa35f2548"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "reset",
+        "Updated": "reset_manager",
+        "Location": "osim/env/osim.py/OsimModel",
+        "Original Method Line": "(209,214)",
+        "Extracted/Inlined Method Line": 209,
+        "Extracted/Inlined Lines": [
+            214.0,
+            215.0,
+            216.0
+        ],
+        "Description": " The method reset_manager from the module osim/env/osim.py in class OsimModel is extracted from method reset from the module osim/env/osim.py in class OsimModel ",
+        "Commit": "8eb09c72d4df0ca06aa3090afe35ed1d9891fccb"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "reset",
+        "Updated": "new_target",
+        "Location": "python/environments/arm.py/ArmEnv",
+        "Original Method Line": "(18,22)",
+        "Extracted/Inlined Method Line": 18,
+        "Extracted/Inlined Lines": [
+            19.0,
+            20.0
+        ],
+        "Description": " The method new_target from the module python/environments/arm.py in class ArmEnv is extracted from method reset from the module python/environments/arm.py in class ArmEnv ",
+        "Commit": "909826f730051b497606ccfafae83d9ce1c8861a"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "get_state",
+        "Updated": "get_state",
+        "Location": "osim/env/osim.py/OsimModel",
+        "Original Line": 221,
+        "Updated Line": 222,
+        "Description": [
+            "The parameters [ state ] of the method get_state from the module osim/env/osim.py in class OsimModel is/are removed"
+        ],
+        "Commit": "941a26bbb716bddf2d8e356d5cfc771745334146"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "osim/redis/service.py/OsimRlRedisService",
+        "Original Line": 16,
+        "Updated Line": 16,
+        "Description": [
+            "The parameters [ report ] are added to the method __init__ from the module osim/redis/service.py in class OsimRlRedisService"
+        ],
+        "Commit": "a48d297835acd2b3bec7f4a03b37057f413d153b"
+    },
+    {
+        "Refactoring Type": "Pull Up Method",
+        "Original": "__getstate__",
+        "Updated": "__getstate__",
+        "Old Location": "osim-rl/env/human.py/GaitEnv",
+        "New Location": "osim-rl/env/osim.py/OsimEnv",
+        "Old Method Line": 12,
+        "New Method Line": 29,
+        "Description": " method __getstate__ from the module osim-rl/env/human.py in class GaitEnv was moved to class OsimEnv of module osim-rl/env/osim.py ",
+        "Commit": "abfd83c6c72c3c895d758602ab80d0b8f6090f92"
+    },
+    {
+        "Refactoring Type": "Pull Up Method",
+        "Original": "__setstate__",
+        "Updated": "__setstate__",
+        "Old Location": "osim-rl/env/human.py/GaitEnv",
+        "New Location": "osim-rl/env/osim.py/OsimEnv",
+        "Old Method Line": 25,
+        "New Method Line": 43,
+        "Description": " method __setstate__ from the module osim-rl/env/human.py in class GaitEnv was moved to class OsimEnv of module osim-rl/env/osim.py ",
+        "Commit": "abfd83c6c72c3c895d758602ab80d0b8f6090f92"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "get_next_command",
+        "Updated": "get_next_command",
+        "Location": "osim/redis/service.py/OsimRlRedisService",
+        "Original Line": 54,
+        "Updated Line": 54,
+        "Description": [
+            "The parameters [ _redis ] are added to the method get_next_command from the module osim/redis/service.py in class OsimRlRedisService"
+        ],
+        "Commit": "b89617c6763e9a0f0c0eb7a113c6d596b23bf12f"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_reset",
+        "Updated": "reset",
+        "Location": "osim/env/arm.py/ArmEnv",
+        "Original Line": 27,
+        "Updated Line": 27,
+        "Description": [
+            "The method _reset from the module osim/env/arm.py in class ArmEnv is renamed to reset"
+        ],
+        "Commit": "d3cc64983d063ffe00895446b6673e7ee3a4fa72"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "is_head_too_low",
+        "Updated": "is_pelvis_too_low",
+        "Location": "osim/env/human.py/GaitEnv",
+        "Original Line": 15,
+        "Updated Line": 15,
+        "Description": [
+            "The method is_head_too_low from the module osim/env/human.py in class GaitEnv is renamed to is_pelvis_too_low"
+        ],
+        "Commit": "d3cc64983d063ffe00895446b6673e7ee3a4fa72"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "reset",
+        "Updated": "reset",
+        "Location": "osim/env/osim.py/Arm2DEnv",
+        "Original Line": 534,
+        "Updated Line": 534,
+        "Description": [
+            "The parameters [ random_target ] are added to the method reset from the module osim/env/osim.py in class Arm2DEnv"
+        ],
+        "Commit": "e3ba9af8756fdd407d3afb845520c7557501e09f"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "reset",
+        "Updated": "reset",
+        "Location": "osim/env/osim.py/OsimEnv",
+        "Original Line": 316,
+        "Updated Line": 316,
+        "Description": [
+            "The parameters [ project ] are added to the method reset from the module osim/env/osim.py in class OsimEnv"
+        ],
+        "Commit": "f0d0cfb03c286a1d8ce0fee3597142f674088ff5"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "step",
+        "Updated": "step",
+        "Location": "osim/env/osim.py/OsimEnv",
+        "Original Line": 320,
+        "Updated Line": 323,
+        "Description": [
+            "The parameters [ project ] are added to the method step from the module osim/env/osim.py in class OsimEnv"
+        ],
+        "Commit": "f0d0cfb03c286a1d8ce0fee3597142f674088ff5"
+    }
+]

@@ -1,0 +1,441 @@
+[
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "imcv2_recolor",
+        "Updated": "imcv2_recolor",
+        "Location": "utils/im_transform.py",
+        "Original Line": 4,
+        "Updated Line": 4,
+        "Description": [
+            "The parameters [ b c ] of the method imcv2_recolor from the module utils/im_transform.py is/are removed"
+        ],
+        "Commit": "21bc0eb070a5069f8e66689f6efbc64e77362610"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "camera",
+        "Updated": "camera",
+        "Location": "net/help.py",
+        "Original Line": 59,
+        "Updated Line": 59,
+        "Description": [
+            "The parameters [ SaveVideo ] are added to the method camera from the module net/help.py"
+        ],
+        "Commit": "32a4fe32290ce093d4b17ec48acd5d0e905f3efc"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "yolo",
+        "Updated": "YOLO",
+        "Location": "tfnet/framework.py",
+        "Description": " class yolo was renamed to class YOLO ",
+        "Commit": "370f0aede26033de11ef223571923b329158a16b"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "yolo_metaprocess",
+        "Updated": "metaprocess",
+        "Location": "tfnet/yolo/test.py",
+        "Original Line": 19,
+        "Updated Line": 20,
+        "Description": [
+            "The method yolo_metaprocess from the module tfnet/yolo/test.py is renamed to metaprocess"
+        ],
+        "Commit": "370f0aede26033de11ef223571923b329158a16b"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "yolo_postprocess",
+        "Updated": "postprocess",
+        "Location": "tfnet/yolo/test.py",
+        "Original Line": 85,
+        "Updated Line": 86,
+        "Description": [
+            "The method yolo_postprocess from the module tfnet/yolo/test.py is renamed to postprocess"
+        ],
+        "Commit": "370f0aede26033de11ef223571923b329158a16b"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "yolo_preprocess",
+        "Updated": "preprocess",
+        "Location": "tfnet/yolo/test.py",
+        "Original Line": 42,
+        "Updated Line": 43,
+        "Description": [
+            "The method yolo_preprocess from the module tfnet/yolo/test.py is renamed to preprocess"
+        ],
+        "Commit": "370f0aede26033de11ef223571923b329158a16b"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "preprocess",
+        "Updated": "preprocess",
+        "Location": "net/yolo/test.py",
+        "Original Line": 47,
+        "Updated Line": 7,
+        "Description": [
+            "The parameters [ self ] are added to the method preprocess from the module net/yolo/test.py"
+        ],
+        "Commit": "581c88f7284fb832aedb848263de045e2832f85d"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "_to_color",
+        "Updated": "_to_color",
+        "Old Location": "net/yolo/test.py",
+        "New Location": "net/yolo/__init__.py",
+        "Old Method Line": 25,
+        "New Method Line": 11,
+        "Description": " method _to_color from the module net/yolo/test.py was moved to module net/yolo/__init__.py ",
+        "Commit": "581c88f7284fb832aedb848263de045e2832f85d"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "modify_layer",
+        "Updated": "select_layer",
+        "Location": "dark/connected.py",
+        "Description": " class modify_layer was renamed to class select_layer ",
+        "Commit": "74334db3a9a4b576890ec4a3d7dc0b87b768ee5e"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "modify",
+        "Updated": "select",
+        "Location": "net/ops/simple.py",
+        "Description": " class modify was renamed to class select ",
+        "Commit": "74334db3a9a4b576890ec4a3d7dc0b87b768ee5e"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "dark/layer.py/Layer",
+        "Original Line": 6,
+        "Updated Line": 6,
+        "Description": [
+            "The parameters [ num ltype ] of the method __init__ from the module dark/layer.py in class Layer is/are removed"
+        ],
+        "Commit": "7859ad2423b51fd36a9843187313fe05e79d25e9"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "to_color",
+        "Updated": "_to_color",
+        "Location": "tfnet/yolo/test.py",
+        "Original Line": 25,
+        "Updated Line": 25,
+        "Description": [
+            "The method to_color from the module tfnet/yolo/test.py is renamed to _to_color"
+        ],
+        "Commit": "7cfc8374249342b465b56047c5e6a12cc9c99c70"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "create_loader",
+        "Updated": "create_loader",
+        "Location": "utils/loader.py",
+        "Original Line": 106,
+        "Updated Line": 106,
+        "Description": [
+            "The parameters [ path ] are added to the method create_loader from the module utils/loader.py"
+        ],
+        "Commit": "7f8319377d327fd6f2b11e02bda20d0f93522fa6"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "get_dir",
+        "Updated": "_get_dir",
+        "Location": "darkflow/cli.py",
+        "Original Line": 12,
+        "Updated Line": 12,
+        "Description": [
+            "The method get_dir from the module darkflow/cli.py is renamed to _get_dir"
+        ],
+        "Commit": "83822b1b83708f0c552971a0ff2a1415ccf82c88"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "preprocess",
+        "Updated": "preprocess",
+        "Location": "tfnet/yolo/test.py",
+        "Original Line": 43,
+        "Updated Line": 43,
+        "Description": [
+            "The parameters [ meta ] of the method preprocess from the module tfnet/yolo/test.py is/are removed"
+        ],
+        "Commit": "83f536f82d8f6570749fef1660f83b662b9a87c3"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "bnorm",
+        "Updated": "batchnorm",
+        "Location": "ops.py",
+        "Original Line": 22,
+        "Updated Line": 22,
+        "Description": [
+            "The method bnorm from the module ops.py is renamed to batchnorm"
+        ],
+        "Commit": "84e9f4c505e88af8f0c043482483d05ff5e1f8da"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "preprocess",
+        "Updated": "preprocess",
+        "Location": "tfnet/yolo/test.py",
+        "Original Line": 43,
+        "Updated Line": 43,
+        "Description": [
+            "The parameters [ meta ] are added to the method preprocess from the module tfnet/yolo/test.py"
+        ],
+        "Commit": "940e0bebaff5a9a27bfbc871b332d3eded86e176"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "labels",
+        "Updated": "labels",
+        "Location": "net/yolo/misc.py",
+        "Original Line": 23,
+        "Updated Line": 23,
+        "Description": [
+            "The parameters [ FLAGS ] are added to the method labels from the module net/yolo/misc.py"
+        ],
+        "Commit": "9bc8b6dadb8e364893e0a7fd6c64c3798b5a7f65"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "is_inp",
+        "Updated": "is_inp",
+        "Location": "net/framework.py/framework",
+        "Original Line": 17,
+        "Updated Line": 17,
+        "Description": [
+            "The parameters [ file_name ] are added to the method is_inp from the module net/framework.py in class framework"
+        ],
+        "Commit": "a5e0e33c04b2b420b761ad7e923e9c54938a4705"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "get_fps",
+        "Updated": "_get_fps",
+        "Location": "net/help.py",
+        "Original Line": 59,
+        "Updated Line": 59,
+        "Description": [
+            "The method get_fps from the module net/help.py is renamed to _get_fps"
+        ],
+        "Commit": "ceb66faf17fbb2dfa85b97d24a9bdc5a50527ad1"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "fix",
+        "Updated": "_fix",
+        "Location": "net/yolo/test.py",
+        "Original Line": 16,
+        "Updated Line": 19,
+        "Description": [
+            "The method fix from the module net/yolo/test.py is renamed to _fix"
+        ],
+        "Commit": "cf920af54b88550b9914ad841d635479861fe2a5"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "compareObjectData",
+        "Updated": "compareObjectData",
+        "Location": "test/test_darkflow.py",
+        "Original Line": 99,
+        "Updated Line": 101,
+        "Description": [
+            "The parameters [ threshCompare posCompare ] are added to the method compareObjectData from the module test/test_darkflow.py"
+        ],
+        "Commit": "d3b42bdf145830c6fbb083f0cbb176e71d280791"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "compareSingleObjects",
+        "Updated": "compareSingleObjects",
+        "Location": "test/test_darkflow.py",
+        "Original Line": 86,
+        "Updated Line": 86,
+        "Description": [
+            "The parameters [ threshCompare posCompare ] are added to the method compareSingleObjects from the module test/test_darkflow.py"
+        ],
+        "Commit": "d3b42bdf145830c6fbb083f0cbb176e71d280791"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "pp",
+        "Updated": "_pp",
+        "Location": "utils/pascal_voc_clean_xml.py",
+        "Original Line": 11,
+        "Updated Line": 11,
+        "Description": [
+            "The method pp from the module utils/pascal_voc_clean_xml.py is renamed to _pp"
+        ],
+        "Commit": "f117230c873da6099ca71229b2155b86e27a5323"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "preprocess",
+        "Updated": "resize_input",
+        "Location": "net/yolo/test.py",
+        "Original Method Line": "(14,70)",
+        "Extracted/Inlined Method Line": 14,
+        "Extracted/Inlined Lines": [
+            38.0,
+            39.0,
+            40.0,
+            41.0,
+            43.0
+        ],
+        "Description": " The method resize_input from the module net/yolo/test.py is extracted from method preprocess from the module net/yolo/test.py ",
+        "Commit": "f4451c8a705cf7c222be54c9e890ddab86fc6380"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "postprocess",
+        "Updated": "process_box",
+        "Location": "net/yolo/test.py",
+        "Original Method Line": "(45,98)",
+        "Extracted/Inlined Method Line": 21,
+        "Extracted/Inlined Lines": [
+            97.0,
+            98.0,
+            99.0,
+            100.0,
+            101.0,
+            102.0,
+            103.0,
+            104.0,
+            105.0,
+            105.0,
+            106.0,
+            106.0,
+            107.0,
+            107.0,
+            108.0,
+            108.0,
+            110.0
+        ],
+        "Description": " The method process_box from the module net/yolo/test.py is extracted from method postprocess from the module net/yolo/test.py ",
+        "Commit": "f4451c8a705cf7c222be54c9e890ddab86fc6380"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "postprocess",
+        "Updated": "findboxes",
+        "Location": "net/yolo/test.py",
+        "Original Method Line": "(45,98)",
+        "Extracted/Inlined Method Line": 38,
+        "Extracted/Inlined Lines": [
+            50.0,
+            51.0,
+            54.0,
+            55.0,
+            56.0,
+            57.0,
+            59.0,
+            60.0,
+            61.0,
+            62.0,
+            63.0,
+            64.0,
+            66.0,
+            67.0,
+            68.0,
+            69.0,
+            70.0,
+            71.0,
+            72.0,
+            73.0,
+            74.0,
+            75.0,
+            76.0,
+            77.0
+        ],
+        "Description": " The method findboxes from the module net/yolo/test.py is extracted from method postprocess from the module net/yolo/test.py ",
+        "Commit": "f4451c8a705cf7c222be54c9e890ddab86fc6380"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "postprocess",
+        "Updated": "findboxes",
+        "Location": "net/yolov2/test.py",
+        "Original Method Line": "(18,57)",
+        "Extracted/Inlined Method Line": 18,
+        "Extracted/Inlined Lines": [
+            24.0,
+            26.0,
+            27.0,
+            28.0,
+            30.0,
+            31.0,
+            32.0,
+            33.0,
+            34.0,
+            35.0,
+            36.0,
+            37.0,
+            38.0,
+            39.0,
+            40.0,
+            41.0,
+            42.0,
+            43.0,
+            44.0,
+            47.0,
+            48.0,
+            49.0,
+            50.0,
+            51.0,
+            52.0,
+            53.0,
+            54.0,
+            55.0,
+            56.0,
+            57.0
+        ],
+        "Description": " The method findboxes from the module net/yolov2/test.py is extracted from method postprocess from the module net/yolov2/test.py ",
+        "Commit": "f4451c8a705cf7c222be54c9e890ddab86fc6380"
+    }
+]

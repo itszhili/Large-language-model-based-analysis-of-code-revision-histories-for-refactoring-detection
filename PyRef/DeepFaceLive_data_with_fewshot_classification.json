@@ -1,0 +1,2679 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_merge_on_cpu",
+        "Updated": "_merge_on_cpu",
+        "Location": "apps/DeepFaceLive/backend/FaceMerger.py/FaceMergerWorker",
+        "Original Line": 174,
+        "Updated Line": 185,
+        "Description": [
+            "The parameters [ face_align_img ] are added to the method _merge_on_cpu from the module apps/DeepFaceLive/backend/FaceMerger.py in class FaceMergerWorker"
+        ],
+        "Commit": "03547088c6453b9c05931020a33d4640d7cd75f2",
+        "Classification": [
+            " Based on the information provided, I would classify this refactoring as machine-learning specific.",
+            "The refactoring involves adding a new parameter, `face_align_img`, to the method `_merge_on_cpu` in",
+            "the `FaceMergerWorker` class in the `DeepFaceLive` module. This suggests that the refactoring is",
+            "related to the processing of images in a machine learning context, and the addition of this",
+            "parameter is likely intended to improve the performance or functionality of a machine learning",
+            "model. Therefore, I would categorize this refactoring as machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_merge_on_gpu",
+        "Updated": "_merge_on_gpu",
+        "Location": "apps/DeepFaceLive/backend/FaceMerger.py/FaceMergerWorker",
+        "Original Line": 212,
+        "Updated Line": 227,
+        "Description": [
+            "The parameters [ face_align_img ] are added to the method _merge_on_gpu from the module apps/DeepFaceLive/backend/FaceMerger.py in class FaceMergerWorker"
+        ],
+        "Commit": "03547088c6453b9c05931020a33d4640d7cd75f2",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring involves adding a new parameter,",
+            "`face_align_img`, to the method `_merge_on_gpu` in the `FaceMergerWorker` class of the",
+            "`DeepFaceLive` module. This is a machine-learning specific refactoring because it is related to the",
+            "processing of face alignment images, which is a common task in machine learning applications. The",
+            "original line 212 of the `FaceMergerWorker` class in `apps/DeepFaceLive/backend/FaceMerger.py`",
+            "mentions `_merge_on_gpu`, and the updated line 227 adds the new parameter `face_align_img`. This",
+            "change is specific to the machine learning application of face alignment and is not a general",
+            "software refactoring."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "to_dtype",
+        "Updated": "to_dtype",
+        "Location": "xlib/image/ImageProcessor.py/ImageProcessor",
+        "Original Line": 842,
+        "Updated Line": 842,
+        "Description": [
+            "The parameters [ from_tanh ] are added to the method to_dtype from the module xlib/image/ImageProcessor.py in class ImageProcessor"
+        ],
+        "Commit": "042867d19d0557241ec7ea74baab7cbb96b9eb3d",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific The refactoring involves adding a new parameter,",
+            "`face_align_img`, to the method `_merge_on_cpu` in the `FaceMerger` class in the `DeepFaceLive`",
+            "module. This parameter is specific to machine learning and is used in the `FaceMerger` class to",
+            "align faces during the merging process. Therefore, this refactoring can be classified as machine-",
+            "learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "to_ufloat32",
+        "Updated": "to_ufloat32",
+        "Location": "xlib/image/ImageProcessor.py/ImageProcessor",
+        "Original Line": 850,
+        "Updated Line": 850,
+        "Description": [
+            "The parameters [ from_tanh ] are added to the method to_ufloat32 from the module xlib/image/ImageProcessor.py in class ImageProcessor"
+        ],
+        "Commit": "042867d19d0557241ec7ea74baab7cbb96b9eb3d",
+        "Classification": [
+            " Based on the information provided, I would classify this refactoring as machine-learning specific.",
+            "The refactoring involves adding a new parameter to a method in a module called",
+            "`apps/DeepFaceLive/backend/FaceMerger.py`. This module is likely part of a machine learning",
+            "application, and the new parameter is related to face alignment in the context of deep face",
+            "recognition. The fact that the refactoring involves adding a new parameter to a method in a module",
+            "that is part of a machine learning application, and the specific nature of the parameter (related to",
+            "face alignment), suggests that this refactoring is machine-learning specific. In contrast, the",
+            "general refactoring described in the first part of the commit message involves updating the return",
+            "type of a method in a module called `xlib/path/path.py`. This is a more general refactoring that",
+            "could apply to any Python module, regardless of its specific application or domain."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "to_uint8",
+        "Updated": "to_uint8",
+        "Location": "xlib/image/ImageProcessor.py/ImageProcessor",
+        "Original Line": 866,
+        "Updated Line": 868,
+        "Description": [
+            "The parameters [ from_tanh ] are added to the method to_uint8 from the module xlib/image/ImageProcessor.py in class ImageProcessor"
+        ],
+        "Commit": "042867d19d0557241ec7ea74baab7cbb96b9eb3d",
+        "Classification": [
+            " Based on the provided information, I would classify this refactoring as machine-learning specific.",
+            "The refactoring involves adding a new parameter, `face_align_img`, to a method (`_merge_on_cpu`) in",
+            "a module (`DeepFaceLive/backend/FaceMerger.py`) that is specifically related to face alignment in",
+            "the context of deep learning. This suggests that the method is likely used in a machine learning",
+            "application, rather than a general-purpose image processing task. Additionally, the commit message",
+            "mentions that the parameters `from_tanh` are added to the method `to_uint8`, which further supports",
+            "the classification of this refactoring as machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "on_cs_mode",
+        "Updated": "on_cs_source_type",
+        "Location": "apps/DeepFaceLive/backend/StreamOutput.py/StreamOutputWorker",
+        "Original Line": 112,
+        "Updated Line": 120,
+        "Description": [
+            "The method on_cs_mode from the module apps/DeepFaceLive/backend/StreamOutput.py in class StreamOutputWorker is renamed to on_cs_source_type"
+        ],
+        "Commit": "05fe7e82ddfbb8385ec548a507397cd6a1825c1f",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring can be classified as a machine-",
+            "learning specific refactoring because it involves modifying a method in a class that is specifically",
+            "designed for machine learning tasks, such as face alignment in DeepFaceLive. The updated method name",
+            "\"on_cs_source_type\" is more descriptive and specific to the machine learning task at hand, which is",
+            "a common practice in software engineering for machine learning-related code. Here are the reasons",
+            "why this refactoring belongs to the machine-learning specific category: 1. The method is from a",
+            "module specifically designed for machine learning tasks (e.g., apps/DeepFaceLive/backend). 2. The",
+            "method name is updated to be more descriptive and specific to the machine learning task at hand. 3.",
+            "The method is used in a class that is specifically designed for machine learning tasks (e.g.,",
+            "StreamOutputWorker).  In conclusion, this refactoring can be classified as a machine-learning",
+            "specific refactoring because it involves modifying a method in a class that is specifically designed",
+            "for machine learning tasks, and the updated method name is more descriptive and specific to the",
+            "machine learning task at hand."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "on_cs_model_info",
+        "Updated": "on_cs_model",
+        "Location": "apps/DeepFaceLive/backend/FaceSwapper.py/FaceSwapperWorker",
+        "Original Line": 67,
+        "Updated Line": 79,
+        "Description": [
+            "The method on_cs_model_info from the module apps/DeepFaceLive/backend/FaceSwapper.py in class FaceSwapperWorker is renamed to on_cs_model"
+        ],
+        "Commit": "15c2ad55933c981fca3ff1343c4e46b654be89ff",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring involves renaming a method from",
+            "`on_cs_model_info` to `on_cs_model` in the `FaceSwapperWorker` class in",
+            "`apps/DeepFaceLive/backend/FaceSwapper.py`. This change is specific to machine learning and is",
+            "likely related to a change in the method's behavior or purpose in the context of deep face live.",
+            "Therefore, this refactoring can be classified as machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "calc_cut",
+        "Updated": "calc_cut",
+        "Location": "xlib/facemeta/FaceULandmarks.py/FaceULandmarks",
+        "Original Line": 96,
+        "Updated Line": 96,
+        "Description": [
+            "The parameters [ x_offset y_offset ] are added to the method calc_cut from the module xlib/facemeta/FaceULandmarks.py in class FaceULandmarks"
+        ],
+        "Commit": "19677d95503c17d3cb03ddb0cb2a41edf771b346",
+        "Classification": [
+            " Based on the provided information, I would classify this refactoring as machine-learning specific.",
+            "The refactoring involves adding a new parameter `x_offset` and `y_offset` to the `calc_cut` method",
+            "in the `FaceULandmarks` class in the `xlib/facemeta` module. This suggests that the method is",
+            "related to image processing or computer vision, which are common tasks in machine learning.",
+            "Additionally, the commit message mentions that the parameters are added to the method `calc_cut` in",
+            "the `FaceULandmarks` class, which further supports the classification as machine-learning specific.",
+            "Therefore, I would classify this refactoring as: * Refactoring Type: ['Add Parameter'] * Original:",
+            "`calc_cut` * Updated: `calc_cut` * Location: `xlib/facemeta/FaceULandmarks.py` * Original Line: 96 *",
+            "Updated Line: 96 * Description: ['The parameters [x_offset y_offset] are added to the method",
+            "calc_cut from the module xlib/facemeta/FaceULandmarks.py in class FaceULandmarks"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "cut",
+        "Updated": "cut",
+        "Location": "xlib/facemeta/FaceULandmarks.py/FaceULandmarks",
+        "Original Line": 155,
+        "Updated Line": 154,
+        "Description": [
+            "The parameters [ x_offset y_offset ] are added to the method cut from the module xlib/facemeta/FaceULandmarks.py in class FaceULandmarks"
+        ],
+        "Commit": "19677d95503c17d3cb03ddb0cb2a41edf771b346",
+        "Classification": [
+            " Based on the provided information, I would classify this refactoring as machine-learning specific.",
+            "The refactoring involves adding new parameters to an existing method in a module related to machine",
+            "learning, specifically the `FaceMerger` module in the `DeepFaceLive` project. The new parameters,",
+            "`[x_offset, y_offset]`, are added to the `cut` method in the `FaceULandmarks` class in the",
+            "`xlib/facemeta` module. This suggests that the refactoring is related to the development or",
+            "improvement of machine learning models or algorithms, which is the primary focus of machine learning",
+            "engineering. In contrast, general software refactoring may involve making changes to any part of an",
+            "application, including its architecture, design, or functionality, without necessarily being related",
+            "to machine learning. For example, a general refactoring might involve improving the performance,",
+            "readability, or maintainability of a codebase, or fixing bugs or security vulnerabilities.",
+            "Therefore, based on the information provided, I would classify this refactoring as machine-learning",
+            "specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_on_timer_8ms",
+        "Updated": "_on_timer_16ms",
+        "Location": "apps/DeepFaceLive/ui/widgets/QBCFaceAlignViewer.py/QBCFaceAlignViewer",
+        "Original Line": 36,
+        "Updated Line": 36,
+        "Description": [
+            "The method _on_timer_8ms from the module apps/DeepFaceLive/ui/widgets/QBCFaceAlignViewer.py in class QBCFaceAlignViewer is renamed to _on_timer_16ms"
+        ],
+        "Commit": "24e1312234ca6e6d131a94c5cdd0f9b92a0f1145",
+        "Classification": [
+            " Based on the provided information, I would classify this refactoring as machine-learning specific.",
+            "The refactoring involves adding a new parameter to a method in a module called `FaceMerger.py`,",
+            "which is part of the `DeepFaceLive` project. This suggests that the refactoring is related to",
+            "machine learning, specifically the `FaceMerger` class and its methods. Additionally, the refactoring",
+            "involves renaming a method, which is a common technique used in software refactoring, particularly",
+            "in machine learning. The fact that the method is renamed to something different, such as",
+            "`_on_timer_16ms`, further suggests that this refactoring is related to machine learning. Overall,",
+            "based on the information provided, I would classify this refactoring as machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_on_timer_8ms",
+        "Updated": "_on_timer_16ms",
+        "Location": "apps/DeepFaceLive/ui/widgets/QBCFaceSwapViewer.py/QBCFaceSwapViewer",
+        "Original Line": 34,
+        "Updated Line": 34,
+        "Description": [
+            "The method _on_timer_8ms from the module apps/DeepFaceLive/ui/widgets/QBCFaceSwapViewer.py in class QBCFaceSwapViewer is renamed to _on_timer_16ms"
+        ],
+        "Commit": "24e1312234ca6e6d131a94c5cdd0f9b92a0f1145",
+        "Classification": [
+            " Based on the provided information, I would classify this refactoring as machine-learning specific.",
+            "The refactoring involves updating the name of a method from `_on_timer_8ms` to `_on_timer_16ms` in",
+            "the `QBCFaceSwapViewer` class of the `apps/DeepFaceLive/ui/widgets/QBCFaceSwapViewer.py` file. This",
+            "change is specific to the machine learning algorithm being used in the `DeepFaceLive` project, as",
+            "the timer interval being used has been updated from 8 milliseconds to 16 milliseconds. Therefore,",
+            "this refactoring can be classified as a machine-learning specific refactoring, with the following",
+            "refactoring type: * Refactoring Type: ['Rename Method'] Here is the full classification for this",
+            "refactoring: * Refactoring Type: ['Rename Method'] * Machine-learning specific: Yes * Refactoring",
+            "Description: The method _on_timer_8ms from the"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_on_timer_8ms",
+        "Updated": "_on_timer_16ms",
+        "Location": "apps/DeepFaceLive/ui/widgets/QBCFinalFrameViewer.py/QBCFinalFrameViewer",
+        "Original Line": 30,
+        "Updated Line": 32,
+        "Description": [
+            "The method _on_timer_8ms from the module apps/DeepFaceLive/ui/widgets/QBCFinalFrameViewer.py in class QBCFinalFrameViewer is renamed to _on_timer_16ms"
+        ],
+        "Commit": "24e1312234ca6e6d131a94c5cdd0f9b92a0f1145",
+        "Classification": [
+            " Based on the provided information, I would classify this refactoring as machine-learning specific.",
+            "Here's why: 1. The refactoring involves adding a new parameter, `face_align_img`, to a method in a",
+            "module called `apps/DeepFaceLive/backend/FaceMerger.py`. This suggests that the method is related to",
+            "machine learning, specifically face alignment. 2. The original method name, `_on_timer_8ms`,",
+            "suggests that it is related to timing or scheduling, which is not typically a concern in general",
+            "software refactoring. 3. The updated method name, `_on_timer_16ms`, is specific to the machine",
+            "learning algorithm being used in the `DeepFaceLive` module. 4. The commit message also suggests that",
+            "the refactoring is related to machine learning, as it mentions \"face alignment\" and \"DeepFaceLive\".",
+            "Based on these factors, I would classify this refactoring as machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_on_timer_8ms",
+        "Updated": "_on_timer_16ms",
+        "Location": "apps/DeepFaceLive/ui/widgets/QBCFrameViewer.py/QBCFrameViewer",
+        "Original Line": 29,
+        "Updated Line": 30,
+        "Description": [
+            "The method _on_timer_8ms from the module apps/DeepFaceLive/ui/widgets/QBCFrameViewer.py in class QBCFrameViewer is renamed to _on_timer_16ms"
+        ],
+        "Commit": "24e1312234ca6e6d131a94c5cdd0f9b92a0f1145",
+        "Classification": [
+            " Based on the provided information, I would classify the refactoring as machine-learning specific.",
+            "Here's why: 1. The refactoring involves adding a new parameter to a method in a module specifically",
+            "related to machine learning, which suggests that the change is likely related to machine learning",
+            "functionality. 2. The method being renamed is from a module specifically related to machine",
+            "learning, which further supports the classification.  Therefore, I would classify the refactoring as",
+            "machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "get_files_paths",
+        "Updated": "get_files_paths",
+        "Location": "xlib/path/path.py",
+        "Original Line": 25,
+        "Updated Line": 26,
+        "Description": [
+            "The return type of method get_files_paths from the module xlib/path/path.py is updated"
+        ],
+        "Commit": "2605930dfea8db970f884a4f729784f3586173d4",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring can be classified as machine-learning",
+            "specific because it involves adding a new parameter for a face alignment image in the",
+            "`FaceMergerWorker` class in the `DeepFaceLive` module. This change is specific to the machine",
+            "learning domain and is related to the processing of face images in the `FaceMerger` worker. The",
+            "original code did not have any direct relationship with machine learning, as it simply returned a",
+            "list of file paths. The updated code adds a new parameter for the face alignment image, which is a",
+            "common technique used in machine learning for aligning faces in images. Therefore, this refactoring",
+            "can be classified as machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "get_var",
+        "Updated": "get_var",
+        "Location": "xlib/avecl/_internal/SCacheton.py/SCacheton",
+        "Original Line": 40,
+        "Updated Line": 40,
+        "Description": [
+            "The parameters [ var_name ] of the method get_var from the module xlib/avecl/_internal/SCacheton.py in class SCacheton are changed/renamed to [key]"
+        ],
+        "Commit": "2d401f47f87de9fdbea2f04a4f268c9d180f39d6",
+        "Classification": [
+            " Based on the information provided, I would classify this refactoring as machine-learning specific.",
+            "The refactoring involves adding a new parameter `face_align_img` to the method `_merge_on_cpu` in",
+            "the `FaceMerger` class in the `apps/DeepFaceLive/backend/FaceMerger.py` file. This parameter is",
+            "specific to the machine learning module `DeepFaceLive` and indicates that the method is intended for",
+            "use in a machine learning context. Additionally, the commit message mentions that the parameters of",
+            "the `get_var` method in the `xlib/avecl/_internal/SCacheton.py` file are changed/renamed, which",
+            "suggests that the refactoring is not a general software refactoring but rather a specific",
+            "modification for the machine learning module. Therefore, I would classify this refactoring as",
+            "machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "set_var",
+        "Updated": "set_var",
+        "Location": "xlib/avecl/_internal/SCacheton.py/SCacheton",
+        "Original Line": 30,
+        "Updated Line": 30,
+        "Description": [
+            "The parameters [ var_name ] of the method set_var from the module xlib/avecl/_internal/SCacheton.py in class SCacheton are changed/renamed to [key]"
+        ],
+        "Commit": "2d401f47f87de9fdbea2f04a4f268c9d180f39d6",
+        "Classification": [
+            " Based on the information provided, I would classify this refactoring as machine-learning specific.",
+            "Here's why: 1. The refactoring involves changing the parameters of a method in a module specifically",
+            "related to machine learning, i.e., `FaceMerger.py` in the `DeepFaceLive` module. 2. The updated",
+            "parameters, `face_align_img`, are specific to face alignment and image processing tasks, which are",
+            "common in machine learning applications. 3. The refactoring is done in a module that is part of the",
+            "`DeepFaceLive` project, which is a machine learning-based application.  Therefore, based on these",
+            "factors, I would classify this refactoring as machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_free_random_pooled_buffers",
+        "Updated": "_release_random_pooled_buffers",
+        "Location": "xlib/avecl/_internal/backend/Device.py/Device",
+        "Original Line": 205,
+        "Updated Line": 205,
+        "Description": [
+            "The method _free_random_pooled_buffers from the module xlib/avecl/_internal/backend/Device.py in class Device is renamed to _release_random_pooled_buffers"
+        ],
+        "Commit": "2d401f47f87de9fdbea2f04a4f268c9d180f39d6",
+        "Classification": [
+            " Based on the information provided, I would classify this refactoring as machine-learning specific.",
+            "The refactoring involves adding a new parameter called `face_align_img` to a method called",
+            "`_merge_on_cpu` in the `DeepFaceLive` module. This suggests that the method is related to face",
+            "alignment, which is a common technique used in machine learning applications, particularly in the",
+            "field of computer vision. Additionally, the fact that the method is located in a module called",
+            "`DeepFaceLive` further suggests that it is related to machine learning. Therefore, I would classify",
+            "this refactoring as machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "cleanup",
+        "Updated": "cleanup_cached_kernels",
+        "Location": "xlib/avecl/_internal/backend/Device.py/Device",
+        "Original Method Line": "(245,257)",
+        "Extracted/Inlined Method Line": 246,
+        "Extracted/Inlined Lines": [
+            256.0,
+            257.0,
+            258.0,
+            259.0,
+            261.0,
+            262.0,
+            263.0,
+            264.0
+        ],
+        "Description": " The method cleanup_cached_kernels from the module xlib/avecl/_internal/backend/Device.py in class Device is extracted from method cleanup from the module xlib/avecl/_internal/backend/Device.py in class Device ",
+        "Commit": "2d401f47f87de9fdbea2f04a4f268c9d180f39d6",
+        "Classification": [
+            " Refactoring Type: Machine-Learning Specific The refactoring involves extracting a method",
+            "`cleanup_cached_kernels` from the original method `cleanup` in the `Device` class of the",
+            "`xlib/avecl/_internal/backend` module. This extracted method is specific to machine learning and is",
+            "related to the `FaceMerger` class and its `FaceMergerWorker` subclass in the `apps/DeepFaceLive`",
+            "module. The original method `cleanup` is not related to machine learning and is focused on cleaning",
+            "up the device-specific cache. The extracted method `cleanup_cached_kernels`, on the other hand, is",
+            "specifically designed to handle the caching of kernels used in face alignment,"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "get_row_desc",
+        "Updated": "get_row_def",
+        "Location": "xlib/console/diacon/Diacon.py/DlgChoice",
+        "Original Line": 26,
+        "Updated Line": 29,
+        "Description": [
+            "The method get_row_desc from the module xlib/console/diacon/Diacon.py in class DlgChoice is renamed to get_row_def"
+        ],
+        "Commit": "30ba51edf71e110ab4e21b440c79b395bc133b9d",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring involves updating the return type of a",
+            "method in a machine learning-related module, specifically in the",
+            "`apps/DeepFaceLive/backend/FaceMerger.py` file. The method `_merge_on_cpu` now has a new parameter",
+            "`face_align_img`, which suggests that this refactoring is related to machine learning. Therefore,",
+            "this refactoring can be classified as machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "start",
+        "Updated": "start",
+        "Location": "xlib/console/diacon/Diacon.py/_Diacon",
+        "Original Line": 253,
+        "Updated Line": 315,
+        "Description": [
+            "The parameters [ on_dlg ] of the method start from the module xlib/console/diacon/Diacon.py in class _Diacon is/are removed"
+        ],
+        "Commit": "30ba51edf71e110ab4e21b440c79b395bc133b9d",
+        "Classification": [
+            " Based on the information provided, this refactoring can be classified as a machine-learning",
+            "specific refactoring. The refactoring involves adding a new parameter `face_align_img` to the method",
+            "`_merge_on_cpu` in the module `apps/DeepFaceLive/backend/FaceMerger.py` in class `FaceMergerWorker`.",
+            "This suggests that the refactoring is related to the processing of images in a machine-learning",
+            "context, which is a hallmark of machine-learning specific refactoring. Additionally, the refactoring",
+            "involves removing the parameter `on_dlg` from the same method, which suggests that the refactoring",
+            "is related to the optimization of machine-learning algorithms and data processing, rather than",
+            "general software development. Therefore, the refactoring can be classified as a machine-learning",
+            "specific refactoring with the following refactoring type: ['Add Parameter']"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "add_UImage",
+        "Updated": "add_UImage",
+        "Location": "xlib/face/Faceset.py/Faceset",
+        "Original Line": 222,
+        "Updated Line": 175,
+        "Description": [
+            "The parameters [ update_existing ] are added to the method add_UImage from the module xlib/face/Faceset.py in class Faceset"
+        ],
+        "Commit": "30ba51edf71e110ab4e21b440c79b395bc133b9d",
+        "Classification": [
+            " Based on the provided information, I would classify this refactoring as machine-learning specific.",
+            "The refactoring involves adding a new parameter to a method in a module related to machine learning,",
+            "specifically the `FaceMerger` module in the `DeepFaceLive` project. The parameter `face_align_img`",
+            "is added to the method `_merge_on_cpu` in the `FaceMergerWorker` class. This suggests that the",
+            "refactoring is related to machine learning and is specific to the `DeepFaceLive` project. In",
+            "contrast, the general refactoring type \"Add Parameter\" could apply to any situation where a new",
+            "parameter is added to a method, regardless of the context or industry. Therefore, I would classify",
+            "this refactoring as machine-learning specific refactoring."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "sot",
+        "Updated": "sot",
+        "Location": "xlib/image/color_transfer/sot.py",
+        "Original Line": 5,
+        "Updated Line": 5,
+        "Description": [
+            "The parameters [ mask return_diff ] are added to the method sot from the module xlib/image/color_transfer/sot.py"
+        ],
+        "Commit": "30ba51edf71e110ab4e21b440c79b395bc133b9d",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific The refactoring involves adding a new parameter",
+            "`face_align_img` to the method `_merge_on_cpu` in the `FaceMerger` class in",
+            "`apps/DeepFaceLive/backend/FaceMerger.py`. This is a specific change related to machine learning, as",
+            "it adds a new parameter that is used in the merging process of face images. Therefore, this",
+            "refactoring can be classified as a machine-learning specific refactoring."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_initialize_ort_devices",
+        "Updated": "_initialize_ort_devices_info",
+        "Location": "xlib/onnxruntime/device.py",
+        "Original Line": 96,
+        "Updated Line": 97,
+        "Description": [
+            "The method _initialize_ort_devices from the module xlib/onnxruntime/device.py is renamed to _initialize_ort_devices_info"
+        ],
+        "Commit": "30ba51edf71e110ab4e21b440c79b395bc133b9d",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring involves updating the name of a method",
+            "from `_initialize_ort_devices` to `_initialize_ort_devices_info` in the `xlib/onnxruntime/device.py`",
+            "file. This change is specific to machine learning and indicates that the method now provides",
+            "additional information related to the ORT devices."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "get_cpu_device",
+        "Updated": "get_cpu_device_info",
+        "Location": "xlib/onnxruntime/device.py",
+        "Original Line": 70,
+        "Updated Line": 70,
+        "Description": [
+            "The method get_cpu_device from the module xlib/onnxruntime/device.py is renamed to get_cpu_device_info"
+        ],
+        "Commit": "30ba51edf71e110ab4e21b440c79b395bc133b9d",
+        "Classification": [
+            " Based on the information provided, I would classify this refactoring as machine-learning specific.",
+            "The refactoring involves updating the name of a method from \"get_cpu_device\" to",
+            "\"get_cpu_device_info\" in the module xlib/onnxruntime/device.py. This change is specific to the",
+            "machine-learning domain, as it relates to the processing of images and other data in deep learning",
+            "models. The fact that the method is renamed in the context of a machine-learning specific module",
+            "(xlib/onnxruntime) further supports this classification. Therefore, the refactoring can be",
+            "categorized as Machine-learning specific software refactoring."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "get_available_devices",
+        "Updated": "get_available_devices_info",
+        "Location": "xlib/torch/device.py",
+        "Original Line": 121,
+        "Updated Line": 67,
+        "Description": [
+            "The method get_available_devices from the module xlib/torch/device.py is renamed to get_available_devices_info"
+        ],
+        "Commit": "30ba51edf71e110ab4e21b440c79b395bc133b9d",
+        "Classification": [
+            " Based on the provided information, I would classify this refactoring as machine-learning specific.",
+            "The refactoring involves adding a new parameter to an existing method in a machine learning-related",
+            "module (apps/DeepFaceLive/backend/FaceMerger.py). This suggests that the method is likely used in a",
+            "machine learning context and the additional parameter is related to that context. Additionally, the",
+            "commit message specifically mentions \"Machine-learning specific software refactoring\" and",
+            "\"FaceMergerWorker,\" which further supports the classification of this refactoring as machine-",
+            "learning specific. Therefore, the refactoring type for this commit is \"Rename Method\" and the",
+            "classification is machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "get_cpu_device",
+        "Updated": "get_cpu_device_info",
+        "Location": "xlib/torch/device.py",
+        "Original Line": 118,
+        "Updated Line": 52,
+        "Description": [
+            "The method get_cpu_device from the module xlib/torch/device.py is renamed to get_cpu_device_info"
+        ],
+        "Commit": "30ba51edf71e110ab4e21b440c79b395bc133b9d",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring involves renaming a method from",
+            "\"get_cpu_device\" to \"get_cpu_device_info\" in the module \"xlib/torch/device.py\". This change is",
+            "specific to machine learning and indicates that the method now provides more detailed information",
+            "about the CPU device. The original method \"get_cpu_device\" was likely used to retrieve information",
+            "about the CPU device used for training or inference, but the updated method \"get_cpu_device_info\"",
+            "provides more specific information about the device, such as its architecture or capabilities. This",
+            "change is likely related to the use of machine learning algorithms that require more detailed",
+            "information about the device to optimize their performance. Therefore, this refactoring can be",
+            "classified as machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter",
+            "Change Return Type"
+        ],
+        "Original": "run",
+        "Updated": "run",
+        "Location": "xlib/ffmpeg/ffmpeg.py",
+        "Original Line": 5,
+        "Updated Line": 5,
+        "Description": [
+            "The parameters [ quiet_std_err ] of the method run from the module xlib/ffmpeg/ffmpeg.py are changed/renamed to [quiet_stderr]",
+            "The return type of method run from the module xlib/ffmpeg/ffmpeg.py is updated"
+        ],
+        "Commit": "3be99ce9f333d27e327c2f5ca8189c1a6dc5cd31",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring involves adding a new parameter to a",
+            "method in a machine learning-specific module, which is a clear indication that it is a machine-",
+            "learning specific refactoring. The fact that the refactoring involves changing the name of a",
+            "parameter and updating the return type of a method in a module specifically used for machine",
+            "learning further supports this classification. Therefore, this refactoring can be classified as a",
+            "machine-learning specific refactoring."
+        ]
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "on_tick",
+        "Updated": "_merge_on_cpu",
+        "Location": "apps/DeepFaceLive/backend/FaceMerger.py/FaceMergerWorker",
+        "Original Method Line": "(168,226)",
+        "Extracted/Inlined Method Line": 158,
+        "Extracted/Inlined Lines": [
+            212.0,
+            213.0,
+            221.0,
+            223.0,
+            225.0,
+            228.0,
+            233.0,
+            234.0,
+            236.0,
+            240.0,
+            248.0,
+            249.0,
+            251.0
+        ],
+        "Description": " The method _merge_on_cpu from the module apps/DeepFaceLive/backend/FaceMerger.py in class FaceMergerWorker is extracted from method on_tick from the module apps/DeepFaceLive/backend/FaceMerger.py in class FaceMergerWorker ",
+        "Commit": "4fe2da23c0f77bb218aa649890ebef6178655781",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring is machine-learning specific because",
+            "it involves modifying a method in a module related to machine learning, specifically the",
+            "`FaceMerger` module in the `DeepFaceLive` backend. The method `on_tick` is extracted and inlined",
+            "within the `FaceMergerWorker` class, which is a class responsible for performing face merging",
+            "operations. The refactoring involves adding new parameters to the inlined method `_merge_on_cpu`,",
+            "which is specific to the machine learning task of face merging. The"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "calc_cut",
+        "Updated": "calc_cut",
+        "Location": "xlib/facemeta/FLandmarks2D.py/FLandmarks2D",
+        "Original Line": 105,
+        "Updated Line": 105,
+        "Description": [
+            "The parameters [ w_h ] of the method calc_cut from the module xlib/facemeta/FLandmarks2D.py in class FLandmarks2D are changed/renamed to [h_w]"
+        ],
+        "Commit": "57fc35cc3e8a7e781373e37b3b7c4b14048bfb5f",
+        "Classification": [
+            " Based on the provided information, I would classify this refactoring as a machine-learning specific",
+            "refactoring. The refactoring involves changing the name of a parameter in a method from \"w_h\" to",
+            "\"h_w\" in the module \"xlib/facemeta/FLandmarks2D.py\" in the class \"FLandmarks2D\". This change is",
+            "specific to machine learning as it relates to the parameters used in the \"calc_cut\" method, which is",
+            "likely a method used for face alignment in DeepFaceLive. The fact that the refactoring involves",
+            "changing the name of a parameter in a method related to face alignment, and that the commit message",
+            "mentions \"DeepFaceLive\", further supports the classification of this refactoring as machine-learning",
+            "specific. Therefore, the refactoring type is: ['Change/Rename Parameter'], and the classification",
+            "is: Machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "main_loop",
+        "Updated": "main_loop_training",
+        "Location": "apps/trainers/FaceAligner/FaceAlignerTrainerApp.py/FaceAlignerTrainerApp",
+        "Original Method Line": "(228,224)",
+        "Extracted/Inlined Method Line": 274,
+        "Extracted/Inlined Lines": [
+            241.0,
+            244.0,
+            245.0,
+            248.0,
+            249.0,
+            251.0,
+            254.0,
+            255.0,
+            257.0,
+            259.0,
+            261.0,
+            262.0,
+            263.0,
+            265.0,
+            267.0,
+            268.0,
+            269.0,
+            270.0,
+            272.0,
+            274.0,
+            275.0,
+            277.0,
+            278.0,
+            279.0,
+            280.0,
+            282.0,
+            283.0
+        ],
+        "Description": " The method main_loop_training from the module apps/trainers/FaceAligner/FaceAlignerTrainerApp.py in class FaceAlignerTrainerApp is extracted from method main_loop from the module apps/trainers/FaceAligner/FaceAlignerTrainerApp.py in class FaceAlignerTrainerApp ",
+        "Commit": "5d011368a9f98e86a865c1a7ef46320da69f8c9c",
+        "Classification": [
+            " Based on the"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "on_cs_face_mask_type",
+        "Updated": "on_cs_face_mask_celeb",
+        "Location": "apps/DeepFaceLive/backend/FaceMerger.py/FaceMergerWorker",
+        "Original Line": 140,
+        "Updated Line": 152,
+        "Description": [
+            "The method on_cs_face_mask_type from the module apps/DeepFaceLive/backend/FaceMerger.py in class FaceMergerWorker is renamed to on_cs_face_mask_celeb",
+            "The parameters [ face_mask_type ] of the method on_cs_face_mask_type from the module apps/DeepFaceLive/backend/FaceMerger.py in class FaceMergerWorker is/are removed"
+        ],
+        "Commit": "5f69f885fab1e9d8d0133cba596265972582b9fc",
+        "Classification": [
+            " Based on the provided information, I would classify this refactoring as machine-learning specific.",
+            "Here's why: 1. The refactoring involves modifying a method in a module specifically related to",
+            "machine learning, i.e., `FaceMerger.py` in the `DeepFaceLive` module. 2. The updated method name,",
+            "`on_cs_face_mask_celeb`, suggests that the method is related to face alignment and celebrity",
+            "recognition, which are common tasks in machine learning. 3. The refactoring involves removing a",
+            "parameter named `face_mask_type`, which suggests that the method is being modified to handle",
+            "different types of face masks used in machine learning tasks. 4. The commit message also mentions",
+            "that the refactoring is related to machine learning, specifically face alignment and celebrity",
+            "recognition. Based on"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "_merge_on_cpu",
+        "Updated": "_merge_on_cpu",
+        "Location": "apps/DeepFaceLive/backend/FaceMerger.py/FaceMergerWorker",
+        "Original Line": 211,
+        "Updated Line": 211,
+        "Description": [
+            "The parameters [ out_merged_frame ] of the method _merge_on_cpu from the module apps/DeepFaceLive/backend/FaceMerger.py in class FaceMergerWorker are changed/renamed to [do_color_compression]"
+        ],
+        "Commit": "6311a12c630397c187794a9de8ac3c89aa56d67c",
+        "Classification": [
+            " Based on the information provided, I would classify this refactoring as machine-learning specific.",
+            "The refactoring involves changing the parameters of a method in a machine learning-specific module",
+            "(apps/DeepFaceLive/backend/FaceMerger.py in class FaceMergerWorker) to better suit the needs of the",
+            "machine learning model. Specifically, the parameters \"out_merged_frame\" are renamed to",
+            "\"do_color_compression\". This change is likely related to optimizing the performance of the machine",
+            "learning model, which is the primary goal of software refactoring in the machine learning domain. In",
+            "contrast, general software refactoring may involve changes to any part of the codebase, regardless",
+            "of whether it is related to machine learning or not. For example, a general refactoring might",
+            "involve simplifying code structure, improving code readability, or fixing bugs. Therefore, based on",
+            "the information provided, I would classify this refactoring as machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "_merge_on_gpu",
+        "Updated": "_merge_on_gpu",
+        "Location": "apps/DeepFaceLive/backend/FaceMerger.py/FaceMergerWorker",
+        "Original Line": 269,
+        "Updated Line": 269,
+        "Description": [
+            "The parameters [ out_merged_frame ] of the method _merge_on_gpu from the module apps/DeepFaceLive/backend/FaceMerger.py in class FaceMergerWorker are changed/renamed to [do_color_compression]"
+        ],
+        "Commit": "6311a12c630397c187794a9de8ac3c89aa56d67c",
+        "Classification": [
+            " Based on the provided information, I would classify this refactoring as machine-learning specific.",
+            "The refactoring involves changing the name of a parameter in a method called `_merge_on_gpu` in the",
+            "`FaceMergerWorker` class of the `DeepFaceLive` module. The parameter is renamed from",
+            "`out_merged_frame` to `do_color_compression`. This suggests that the method is related to image",
+            "processing or machine learning, as `out_merged_frame` could potentially refer to an image file or a",
+            "data structure containing image data. Additionally, the fact that the refactoring is done in the",
+            "`DeepFaceLive` module, which is a machine learning-related module, further supports the",
+            "classification of this refactoring as machine-learning specific. Therefore, the refactoring type is:",
+            "* Change/Rename Parameter  Refactoring Type: ['Change/Rename Parameter'] Original: _merge_on_gpu",
+            "Updated: _merge_on_gpu Location: apps/"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "apps/DeepFaceLive/backend/FaceSwapper.py/FaceSwapper",
+        "Original Line": 17,
+        "Updated Line": 17,
+        "Description": [
+            "The parameters [ id ] are added to the method __init__ from the module apps/DeepFaceLive/backend/FaceSwapper.py in class FaceSwapper"
+        ],
+        "Commit": "6311a12c630397c187794a9de8ac3c89aa56d67c",
+        "Classification": [
+            " Based on the provided information, I would classify this refactoring as machine-learning specific.",
+            "The refactoring involves adding a new parameter to the `__init__` method of a class in the",
+            "`apps/DeepFaceLive/backend/FaceSwapper.py` file. This parameter, `[id]`, is specific to the machine-",
+            "learning task of face swapping and is not relevant to general software development. Therefore, the",
+            "refactoring can be classified as: * Machine-learning specific refactoring: The refactoring involves",
+            "adding a parameter that is specific to the machine-learning task of face swapping and is not",
+            "relevant to general software development. * Refactoring Type: ['Add Parameter']: The refactoring",
+            "involves adding a new parameter to the `__init__` method of a class. * Original: `__init__`,",
+            "Updated: `__init__`, Location: `apps/DeepFaceLive/backend/FaceSwapper.py`, Original Line: 17,",
+            "Updated Line: 17: The refactoring involves updating the `__init__` method of a class in the",
+            "`apps/DeepFaceLive/backend/FaceSwapper.py` file. * Commit: 6311"
+        ]
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "__init__",
+        "Updated": "_get_name",
+        "Location": "apps/DeepFaceLive/backend/FaceSwapper.py/FaceSwapper",
+        "Original Method Line": "(17,28)",
+        "Extracted/Inlined Method Line": 28,
+        "Extracted/Inlined Lines": [
+            18.0
+        ],
+        "Description": " The method _get_name from the module apps/DeepFaceLive/backend/FaceSwapper.py in class FaceSwapper is extracted from method __init__ from the module apps/DeepFaceLive/backend/FaceSwapper.py in class FaceSwapper ",
+        "Commit": "6311a12c630397c187794a9de8ac3c89aa56d67c",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring involves extracting the method",
+            "`_get_name` from the original method `__init__` in the module",
+            "`apps/DeepFaceLive/backend/FaceSwapper.py` in class `FaceSwapper`. This is a machine-learning",
+            "specific refactoring because it involves extracting a method that is specifically used in the",
+            "machine-learning algorithm used in the `DeepFaceLive` module. The original method `__init__` is not",
+            "related to general software development, but rather to the specific machine-learning algorithm used",
+            "in the `DeepFaceLive` module. The extracted method `_get_name` is a smaller, more focused method",
+            "that can be used in other parts of the codebase, making it more flexible and maintainable.",
+            "Therefore, this refactoring can be classified as a machine-learning specific refactoring."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Change Return Type"
+        ],
+        "Original": "get_face_mark_list",
+        "Updated": "get_face_swap_info_list",
+        "Location": "apps/DeepFaceLive/backend/BackendBase.py/BackendConnectionData",
+        "Original Line": 109,
+        "Updated Line": 130,
+        "Description": [
+            "The method get_face_mark_list from the module apps/DeepFaceLive/backend/BackendBase.py in class BackendConnectionData is renamed to get_face_swap_info_list",
+            "The return type of method get_face_mark_list from the module apps/DeepFaceLive/backend/BackendBase.py in class BackendConnectionData is updated"
+        ],
+        "Commit": "63adc2995e288919b69dbe314882e0f2d186da96",
+        "Classification": [
+            " Based on the information provided, I would classify this refactoring as machine-learning specific.",
+            "The refactoring involves adding a new parameter \"face_align_img\" to a method called \"_merge_on_cpu\"",
+            "in the module \"apps/DeepFaceLive/backend/FaceMerger.py\" in the class \"FaceMergerWorker\". This",
+            "suggests that the method is related to face alignment, which is a common technique used in machine",
+            "learning, particularly in the field of computer vision. Additionally, the renaming of the method",
+            "from \"get_face_mark_list\" to \"get_face_swap_info_list\" also suggests that the method is related to",
+            "face-related data processing, which is a common task in machine learning. Therefore, based on the",
+            "information provided, I would classify this refactoring as machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "get_file",
+        "Updated": "get_file",
+        "Location": "apps/DeepFaceLive/backend/BackendBase.py/BackendConnectionData",
+        "Original Line": 49,
+        "Updated Line": 72,
+        "Description": [
+            "The parameters [ name ] of the method get_file from the module apps/DeepFaceLive/backend/BackendBase.py in class BackendConnectionData are changed/renamed to [key]"
+        ],
+        "Commit": "63adc2995e288919b69dbe314882e0f2d186da96",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific The refactoring involves updating the parameters of a",
+            "method in a machine learning-specific module, specifically in the `BackendConnectionData` class of",
+            "the `BackendBase` module in `apps/DeepFaceLive/backend/`. The original parameter name is changed to",
+            "`face_align_img`, which is a specific term used in the context of face alignment and machine",
+            "learning. This refactoring is specific to machine learning and is not a general software",
+            "refactoring."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "get_frame_name",
+        "Updated": "get_frame_image_name",
+        "Location": "apps/DeepFaceLive/backend/BackendBase.py/BackendConnectionData",
+        "Original Line": 94,
+        "Updated Line": 125,
+        "Description": [
+            "The method get_frame_name from the module apps/DeepFaceLive/backend/BackendBase.py in class BackendConnectionData is renamed to get_frame_image_name"
+        ],
+        "Commit": "63adc2995e288919b69dbe314882e0f2d186da96",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring can be classified as a machine-",
+            "learning specific refactoring because it involves modifying a method in a module related to machine",
+            "learning, specifically the `BackendConnectionData` class in",
+            "`apps/DeepFaceLive/backend/BackendBase.py`. The method `get_frame_name` has been renamed to",
+            "`get_frame_image_name`, which suggests that the method is now returning an image path instead of",
+            "just a frame name. This change is likely related to the processing of images in a machine learning",
+            "context, and therefore qualifies as a machine-learning specific refactoring."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "get_image",
+        "Updated": "get_image",
+        "Location": "apps/DeepFaceLive/backend/BackendBase.py/BackendConnectionData",
+        "Original Line": 78,
+        "Updated Line": 101,
+        "Description": [
+            "The parameters [ name ] of the method get_image from the module apps/DeepFaceLive/backend/BackendBase.py in class BackendConnectionData are changed/renamed to [key]"
+        ],
+        "Commit": "63adc2995e288919b69dbe314882e0f2d186da96",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring involves changing the parameters of a",
+            "method in a machine learning-specific module, specifically in the `BackendConnectionData` class of",
+            "the `BackendBase.py` file. The original parameter name is `name`, and it has been renamed to",
+            "`face_align_img` in the updated version. This change is specific to machine learning and indicates",
+            "that the method is now working with face alignment images. Therefore, this refactoring can be",
+            "classified as machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "get_merged_frame_name",
+        "Updated": "get_merged_image_name",
+        "Location": "apps/DeepFaceLive/backend/BackendBase.py/BackendConnectionData",
+        "Original Line": 106,
+        "Updated Line": 127,
+        "Description": [
+            "The method get_merged_frame_name from the module apps/DeepFaceLive/backend/BackendBase.py in class BackendConnectionData is renamed to get_merged_image_name"
+        ],
+        "Commit": "63adc2995e288919b69dbe314882e0f2d186da96",
+        "Classification": [
+            " Based on the information provided, I would classify this refactoring as machine-learning specific.",
+            "The refactoring involves adding a new parameter `face_align_img` to a method `_merge_on_cpu` in the",
+            "`BackendConnectionData` class in the `DeepFaceLive` module. This suggests that the method is related",
+            "to face alignment, which is a common technique used in machine learning applications, particularly",
+            "in the field of computer vision. Additionally, the method name change from `get_merged_frame_name`",
+            "to `get_merged_image_name` also suggests that the method is related to image processing, which is",
+            "another common task in machine learning. Therefore, based on the information provided, I would",
+            "classify this refactoring as machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "set_file",
+        "Updated": "set_file",
+        "Location": "apps/DeepFaceLive/backend/BackendBase.py/BackendConnectionData",
+        "Original Line": 46,
+        "Updated Line": 69,
+        "Description": [
+            "The parameters [ name ] of the method set_file from the module apps/DeepFaceLive/backend/BackendBase.py in class BackendConnectionData are changed/renamed to [key]"
+        ],
+        "Commit": "63adc2995e288919b69dbe314882e0f2d186da96",
+        "Classification": [
+            " Based on the information provided, I would classify this refactoring as machine-learning specific.",
+            "The refactoring involves changing the name of a parameter in a method called `set_file` from a",
+            "module called `apps/DeepFaceLive/backend/BackendBase.py` in a class called `BackendConnectionData`.",
+            "The original parameter name is `name`, and the updated parameter name is `[key]`. This suggests that",
+            "the refactoring is related to machine learning, as the new parameter name `[key]` is likely a unique",
+            "identifier used to store a specific value related to the machine learning model. Additionally, the",
+            "fact that the refactoring involves changing the name of a parameter in a method related to file",
+            "processing, specifically the `set_file` method, suggests that it is likely a machine learning-",
+            "specific refactoring. Therefore, I would classify this refactoring as machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Change/Rename Parameter"
+        ],
+        "Original": "set_frame_name",
+        "Updated": "set_frame_image_name",
+        "Location": "apps/DeepFaceLive/backend/BackendBase.py/BackendConnectionData",
+        "Original Line": 95,
+        "Updated Line": 126,
+        "Description": [
+            "The method set_frame_name from the module apps/DeepFaceLive/backend/BackendBase.py in class BackendConnectionData is renamed to set_frame_image_name",
+            "The parameters [ frame_name ] of the method set_frame_name from the module apps/DeepFaceLive/backend/BackendBase.py in class BackendConnectionData are changed/renamed to [frame_image_name]"
+        ],
+        "Commit": "63adc2995e288919b69dbe314882e0f2d186da96",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring involves updating the parameters of a",
+            "method in a machine learning-specific module, specifically in the",
+            "`apps/DeepFaceLive/backend/FaceMerger.py` file. The method `_merge_on_cpu` now takes an additional",
+            "parameter `face_align_img`, which is specific to face alignment in deep learning. Therefore, this",
+            "refactoring is classified as machine-learning specific. Here is the breakdown of the refactoring: *",
+            "Original: `set_frame_name` (Location: `apps/DeepFaceLive/backend/BackendBase.py` in `class",
+            "BackendConnectionData`) * Updated: `set_frame_image_name` (Location:",
+            "`apps/DeepFaceLive/backend/BackendBase.py` in `class BackendConnectionData`)"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "set_image",
+        "Updated": "set_image",
+        "Location": "apps/DeepFaceLive/backend/BackendBase.py/BackendConnectionData",
+        "Original Line": 55,
+        "Updated Line": 78,
+        "Description": [
+            "The parameters [ name ] of the method set_image from the module apps/DeepFaceLive/backend/BackendBase.py in class BackendConnectionData are changed/renamed to [key]"
+        ],
+        "Commit": "63adc2995e288919b69dbe314882e0f2d186da96",
+        "Classification": [
+            " Based on the provided information, I would classify this refactoring as a machine-learning specific",
+            "refactoring. The refactoring involves adding a new parameter \"face_align_img\" to the method",
+            "`_merge_on_cpu` in the module `apps/DeepFaceLive/backend/FaceMerger.py`. This parameter is specific",
+            "to the machine-learning task of face alignment, which is a common task in many machine-learning",
+            "applications. Additionally, the refactoring involves changing the name of the parameter from",
+            "\"set_image\" to \"set_image_with_face_align_img\", which is a more descriptive name that better",
+            "reflects the purpose of the parameter in the context of face alignment. This is also a common",
+            "practice in machine-learning specific refactoring, where method names and parameter names are often",
+            "more descriptive and specific to the task at hand. Therefore, based on the information provided, I",
+            "would classify this refactoring as a machine-learning specific refactoring."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "set_merged_frame_name",
+        "Updated": "set_merged_image_name",
+        "Location": "apps/DeepFaceLive/backend/BackendBase.py/BackendConnectionData",
+        "Original Line": 107,
+        "Updated Line": 128,
+        "Description": [
+            "The method set_merged_frame_name from the module apps/DeepFaceLive/backend/BackendBase.py in class BackendConnectionData is renamed to set_merged_image_name"
+        ],
+        "Commit": "63adc2995e288919b69dbe314882e0f2d186da96",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring can be classified as a machine-",
+            "learning specific refactoring because it involves modifying a method name and parameter names that",
+            "are specific to the machine learning module \"DeepFaceLive\". The method \"set_merged_frame_name\" has",
+            "been renamed to \"set_merged_image_name\" in the \"BackendConnectionData\" class of the \"BackendBase\"",
+            "module, which suggests that the method is being used for image processing or manipulation in the",
+            "machine learning context. The commit message also mentions \"Machine-learning specific software",
+            "refactoring\", which further supports the classification of this refactoring as machine-learning",
+            "specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "cut",
+        "Updated": "cut",
+        "Location": "xlib/face/FLandmarks2D.py/FLandmarks2D",
+        "Original Line": 171,
+        "Updated Line": 172,
+        "Description": [
+            "The return type of method cut from the module xlib/face/FLandmarks2D.py in class FLandmarks2D is updated"
+        ],
+        "Commit": "64116844f2b63d3fd7de2d2ff408ddea933440a2",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring involves updating the return type of a",
+            "method in a machine learning-related module, specifically in the `xlib/face/FLandmarks2D.py` file.",
+            "The method `cut` is being updated to return a different type of data, which is related to face",
+            "alignment in the `DeepFaceLive` module. Therefore, this refactoring can be classified as machine-",
+            "learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "median_blur",
+        "Updated": "box_sharpen",
+        "Location": "xlib/image/ImageProcessor.py/ImageProcessor",
+        "Original Line": 176,
+        "Updated Line": 189,
+        "Description": [
+            "The method median_blur from the module xlib/image/ImageProcessor.py in class ImageProcessor is renamed to box_sharpen",
+            "The parameters [ mask ] are added to the method median_blur from the module xlib/image/ImageProcessor.py in class ImageProcessor"
+        ],
+        "Commit": "64116844f2b63d3fd7de2d2ff408ddea933440a2",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring can be classified as Machine-learning",
+            "specific because it involves adding a new parameter to a method in a module related to machine",
+            "learning, specifically the `FaceMerger` module in the `DeepFaceLive` backend. The updated method,",
+            "`box_sharpen`, is also related to machine learning, as it is used to sharpen faces in an image. The",
+            "original method, `median_blur`, is not related to machine learning and is a general image processing",
+            "technique. Therefore, this refactoring can be classified as Machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "adjust_gamma",
+        "Updated": "gamma",
+        "Location": "xlib/image/ImageProcessor.py/ImageProcessor",
+        "Original Line": 56,
+        "Updated Line": 56,
+        "Description": [
+            "The method adjust_gamma from the module xlib/image/ImageProcessor.py in class ImageProcessor is renamed to gamma",
+            "The parameters [ mask ] are added to the method adjust_gamma from the module xlib/image/ImageProcessor.py in class ImageProcessor"
+        ],
+        "Commit": "64116844f2b63d3fd7de2d2ff408ddea933440a2",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring can be classified as a Machine-",
+            "learning specific refactoring as it involves adding a new parameter to a method in a module related",
+            "to machine learning. The parameter \"face_align_img\" is added to the method `_merge_on_cpu` in the",
+            "module `apps/DeepFaceLive/backend/FaceMerger.py` in class `FaceMergerWorker`. This suggests that the",
+            "refactoring is related to machine learning and is specific to the field of computer vision and image",
+            "processing, which are critical components of deep learning. Therefore, the refactoring can be",
+            "classified as Machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "degrade_resize",
+        "Updated": "reresize",
+        "Location": "xlib/image/ImageProcessor.py/ImageProcessor",
+        "Original Line": 150,
+        "Updated Line": 160,
+        "Description": [
+            "The method degrade_resize from the module xlib/image/ImageProcessor.py in class ImageProcessor is renamed to reresize",
+            "The parameters [ mask ] are added to the method degrade_resize from the module xlib/image/ImageProcessor.py in class ImageProcessor"
+        ],
+        "Commit": "64116844f2b63d3fd7de2d2ff408ddea933440a2",
+        "Classification": [
+            " Based on the provided information, I would classify this refactoring as machine-learning specific.",
+            "The refactoring involves adding a new parameter to a method in a module called `FaceMerger.py` in",
+            "the `DeepFaceLive` backend. This suggests that the method is related to machine learning,",
+            "specifically face alignment, which is a common task in computer vision and machine learning.",
+            "Additionally, the method name is changed from `degree_resize` to `reresize`, which suggests that the",
+            "method is related to resizing images, which is a common task in image processing and machine",
+            "learning. Therefore, I would classify this refactoring as machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "resize",
+        "Updated": "resize",
+        "Location": "xlib/image/ImageProcessor.py/ImageProcessor",
+        "Original Line": 398,
+        "Updated Line": 670,
+        "Description": [
+            "The parameters [ new_ip ] of the method resize from the module xlib/image/ImageProcessor.py in class ImageProcessor is/are removed"
+        ],
+        "Commit": "64116844f2b63d3fd7de2d2ff408ddea933440a2",
+        "Classification": [
+            " Based on the information provided, I would classify this refactoring as machine-learning specific.",
+            "Here's why: * The refactoring involves adding a new parameter to a method in a module called",
+            "`FaceMerger.py`, which is part of the `DeepFaceLive` module. This suggests that the module is",
+            "related to machine learning, as `DeepFaceLive` is a deep learning-based face recognition system. *",
+            "The new parameter added to the method `_merge_on_cpu` is called `face_align_img`, which suggests",
+            "that it is related to face alignment, which is a common task in machine learning-based computer",
+            "vision applications. * The original line of code mentions `resize`, which is a common image",
+            "processing operation, but the updated line of code mentions `new_ip`, which is not a standard term",
+            "in image processing. This suggests that the refactoring is related to machine learning-specific",
+            "image processing. * The commit message mentions that the parameters `new_ip` of the method `resize`",
+            "are removed, which further supports the conclusion that this refactoring is related to machine",
+            "learning. Overall, based on the information provided, I would classify this refactoring as machine-",
+            "learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "warpAffine",
+        "Updated": "warp_affine",
+        "Location": "xlib/image/ImageProcessor.py/ImageProcessor",
+        "Original Line": 421,
+        "Updated Line": 690,
+        "Description": [
+            "The method warpAffine from the module xlib/image/ImageProcessor.py in class ImageProcessor is renamed to warp_affine"
+        ],
+        "Commit": "64116844f2b63d3fd7de2d2ff408ddea933440a2",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring can be classified as a machine-",
+            "learning specific refactoring because it involves changing the name of a method in a module related",
+            "to machine learning. Specifically, the method `warpAffine` in the `xlib/image/ImageProcessor.py`",
+            "file is renamed to `warp_affine`. This change is likely related to the development of a deep",
+            "learning model or algorithm that requires the use of this method for image processing. The fact that",
+            "the commit message includes the description \"Rename Method\" and the original and updated line",
+            "numbers further supports this classification. This type of refactoring is common in machine learning",
+            "development, where methods and functions are often renamed to better reflect their purpose or to",
+            "conform to a specific naming convention."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/avecl/_internal/op/remap_np_affine.py/_RemapAffineOp",
+        "Original Line": 44,
+        "Updated Line": 48,
+        "Description": [
+            "The parameters [ interpolation ] are added to the method __init__ from the module xlib/avecl/_internal/op/remap_np_affine.py in class _RemapAffineOp"
+        ],
+        "Commit": "65fb01ff3999d7af3785749fd3a5e4b0f28cd9be",
+        "Classification": [
+            " Based on the information provided, I would classify this refactoring as machine-learning specific.",
+            "The refactoring involves adding a new parameter called `interpolation` to the `__init__` method of a",
+            "class in the `xlib/avecl/_internal/op/remap_np_affine.py` module. This parameter is specific to",
+            "machine learning and is used in the `FaceMerger` class in the `DeepFaceLive` module. The fact that",
+            "the refactoring involves adding a new parameter to a method in a module specifically related to",
+            "machine learning, and that the parameter has a specific meaning and usage in that context, suggests",
+            "that this is a machine-learning specific refactoring. Therefore, the refactoring type is 'Add",
+            "Parameter' and the classification is machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "remap_np_affine",
+        "Updated": "remap_np_affine",
+        "Location": "xlib/avecl/_internal/op/remap_np_affine.py",
+        "Original Line": 9,
+        "Updated Line": 11,
+        "Description": [
+            "The parameters [ interpolation ] are added to the method remap_np_affine from the module xlib/avecl/_internal/op/remap_np_affine.py"
+        ],
+        "Commit": "65fb01ff3999d7af3785749fd3a5e4b0f28cd9be",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring can be classified as a Machine-",
+            "learning specific refactoring because it involves adding new parameters to a method that is specific",
+            "to the machine learning module \"DeepFaceLive\" in the \"FaceMerger.py\" file. The parameters",
+            "\"face_align_img\" are added to the method \"_merge_on_cpu\" in the \"FaceMergerWorker\" class, which is a",
+            "class specific to the machine learning module. The refactoring is not a general refactoring because",
+            "it does not involve any changes to a method or function that is not specific to the machine learning",
+            "module. The method \"remap_np_affine\" is specifically defined in the",
+            "\"xlib/avecl/_internal/op/remap_np_affine.py\" module, and the changes made to the method are related",
+            "to the machine learning module \"DeepFaceLive\". Therefore, this refactoring can be classified as a",
+            "Machine-learning specific refactoring."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "build_deepfacelive_windows",
+        "Updated": "build_deepfacelive_windows",
+        "Location": "build/windows/WindowsBuilder.py",
+        "Original Line": 465,
+        "Updated Line": 465,
+        "Description": [
+            "The parameters [ backend ] are added to the method build_deepfacelive_windows from the module build/windows/WindowsBuilder.py"
+        ],
+        "Commit": "6d504d596904b1f68349fa3535e09b69484eca98",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring adds a new parameter to a method in a",
+            "machine learning-related module, specifically the `FaceMergerWorker` class in the `DeepFaceLive`",
+            "module. The parameter `face_align_img` is added to the `_merge_on_cpu` method, which suggests that",
+            "this refactoring is specific to machine learning. Therefore, this refactoring can be classified as",
+            "machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/onnxruntime/device.py/ORTDeviceInfo",
+        "Original Line": 11,
+        "Updated Line": 16,
+        "Description": [
+            "The parameters [ compute_capability ] of the method __init__ from the module xlib/onnxruntime/device.py in class ORTDeviceInfo are changed/renamed to [execution_provider]"
+        ],
+        "Commit": "6d504d596904b1f68349fa3535e09b69484eca98",
+        "Classification": [
+            " Based on the information provided, I would classify this refactoring as machine-learning specific.",
+            "Here's why: 1. The refactoring involves changing/renaming parameters in a method related to machine",
+            "learning, specifically the `face_align_img` parameter in the `_merge_on_cpu` method of the",
+            "`FaceMergerWorker` class in `apps/DeepFaceLive/backend/FaceMerger.py`. 2. The refactoring is related",
+            "to the `ORTDeviceInfo` class in `xlib/onnxruntime/device.py`, which is a class used in the Onnx",
+            "Runtime library for machine learning. 3. The commit message mentions that the parameters are",
+            "changed/renamed to `[execution_provider]`, which suggests that the refactoring is related to the",
+            "execution of machine learning models on different devices or platforms.  Therefore, based on these",
+            "factors, I would classify this refactoring as machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "get_compute_capability",
+        "Updated": "get_execution_provider",
+        "Location": "xlib/onnxruntime/device.py/ORTDeviceInfo",
+        "Original Line": 30,
+        "Updated Line": 35,
+        "Description": [
+            "The method get_compute_capability from the module xlib/onnxruntime/device.py in class ORTDeviceInfo is renamed to get_execution_provider"
+        ],
+        "Commit": "6d504d596904b1f68349fa3535e09b69484eca98",
+        "Classification": [
+            " Based on the provided information, I would classify this refactoring as machine-learning specific.",
+            "The refactoring involves changing the name of a method from `get_compute_capability` to",
+            "`get_execution_provider` in the `ORTDeviceInfo` class in the `xlib/onnxruntime/device.py` module.",
+            "This change is specific to machine learning because `get_compute_capability` is a term commonly used",
+            "in the context of machine learning to refer to the capabilities of a device for computing tasks",
+            "related to machine learning, such as matrix multiplication and convolution. On the other hand,",
+            "`get_execution_provider` is a more general term that could apply to any type of computation,",
+            "including machine learning. Therefore, renaming the method to `get_execution_provider` makes it more",
+            "versatile and applicable to a wider range of use cases. Overall, based on the specifics of the",
+            "refactoring, I would classify it as machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "get_LAB_to_RGB_body",
+        "Updated": "get_LAB_to_RGB_body",
+        "Location": "xlib/avecl/_internal/op/cvt_color.py/_CvtColor32Op",
+        "Original Line": 110,
+        "Updated Line": 110,
+        "Description": [
+            "The parameters [ rgb_type ] of the method get_LAB_to_RGB_body from the module xlib/avecl/_internal/op/cvt_color.py in class _CvtColor32Op are changed/renamed to [declare_out_type]"
+        ],
+        "Commit": "6da916cc66a4186fcb02b06fc19727fcf54ae8da",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring can be classified as a machine-",
+            "learning specific refactoring because it involves changing the parameters of a method in a module",
+            "related to machine learning. Specifically, the parameters \"face_align_img\" are added to the method",
+            "`_merge_on_cpu` in the module `apps/DeepFaceLive/backend/FaceMerger.py` in class `FaceMergerWorker`.",
+            "This suggests that the refactoring is related to the development or optimization of a machine",
+            "learning model, rather than a general software development task."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "get_LAB_to_XYZ_body",
+        "Updated": "get_LAB_to_XYZ_body",
+        "Location": "xlib/avecl/_internal/op/cvt_color.py/_CvtColor32Op",
+        "Original Line": 165,
+        "Updated Line": 185,
+        "Description": [
+            "The parameters [ xyz_type ] of the method get_LAB_to_XYZ_body from the module xlib/avecl/_internal/op/cvt_color.py in class _CvtColor32Op are changed/renamed to [declare_out_type]"
+        ],
+        "Commit": "6da916cc66a4186fcb02b06fc19727fcf54ae8da",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring involves changing the parameters of a",
+            "method in a machine learning-related module, specifically in the `DeepFaceLive` module. The original",
+            "method is `get_LAB_to_XYZ_body`, and the updated method is `get_LAB_to_XYZ_body` with renamed",
+            "parameters. This suggests that the refactoring is related to machine learning and is specific to",
+            "that domain. Therefore, this refactoring can be classified as machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "get_RGB_to_LAB_body",
+        "Updated": "get_RGB_to_LAB_body",
+        "Location": "xlib/avecl/_internal/op/cvt_color.py/_CvtColor32Op",
+        "Original Line": 103,
+        "Updated Line": 103,
+        "Description": [
+            "The parameters [ lab_type ] of the method get_RGB_to_LAB_body from the module xlib/avecl/_internal/op/cvt_color.py in class _CvtColor32Op are changed/renamed to [declare_out_type]"
+        ],
+        "Commit": "6da916cc66a4186fcb02b06fc19727fcf54ae8da",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring is related to machine learning,",
+            "specifically deep learning, as it involves modifying a method in a module used in the DeepFaceLive",
+            "project. The updated method name, \"get_RGB_to_LAB_body,\" suggests that the method is related to",
+            "image preprocessing or feature extraction, which are common tasks in deep learning. The change in",
+            "the parameter name from \"lab_type\" to \"declare_out_type\" also suggests that the method is being",
+            "modified for use in a deep learning model. Therefore, this refactoring can be classified as a",
+            "machine-learning specific refactoring."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "get_XYZ_to_LAB_body",
+        "Updated": "get_XYZ_to_LAB_body",
+        "Location": "xlib/avecl/_internal/op/cvt_color.py/_CvtColor32Op",
+        "Original Line": 148,
+        "Updated Line": 168,
+        "Description": [
+            "The parameters [ lab_type ] of the method get_XYZ_to_LAB_body from the module xlib/avecl/_internal/op/cvt_color.py in class _CvtColor32Op are changed/renamed to [declare_out_type]"
+        ],
+        "Commit": "6da916cc66a4186fcb02b06fc19727fcf54ae8da",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring can be classified as a machine-",
+            "learning specific refactoring because it involves changing the parameters of a method in a module",
+            "related to machine learning. The method `get_XYZ_to_LAB_body` in",
+            "`xlib/avecl/_internal/op/cvt_color.py` is used in the context of deep learning, specifically in the",
+            "`FaceMerger` module of the `DeepFaceLive` app. The parameters `face_align_img` are added to the",
+            "method `_merge_on_cpu` in `apps/DeepFaceLive/backend/FaceMerger.py` to enable face alignment in the",
+            "merging process. Therefore, this refactoring can be classified as a machine-learning specific",
+            "refactoring."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "moments",
+        "Updated": "moments",
+        "Location": "xlib/avecl/_internal/op/reduce.py",
+        "Original Line": 61,
+        "Updated Line": 61,
+        "Description": [
+            "The parameters [ keepdims ] of the method moments from the module xlib/avecl/_internal/op/reduce.py is/are removed"
+        ],
+        "Commit": "6da916cc66a4186fcb02b06fc19727fcf54ae8da",
+        "Classification": [
+            " Based on the information provided, I would classify this refactoring as machine-learning specific.",
+            "The refactoring involves adding a new parameter `face_align_img` to the method `_merge_on_cpu` in",
+            "the `FaceMerger` class in the `DeepFaceLive` module. This suggests that the refactoring is related",
+            "to the processing of face images, which is a common task in machine learning applications.",
+            "Additionally, the fact that the refactoring involves modifying a method in a module specifically",
+            "designed for machine learning (i.e., `DeepFaceLive`) further supports the classification of this",
+            "refactoring as machine-learning specific. Therefore, the refactoring type is: * Machine-learning",
+            "specific refactoring: Remove Parameter The original and updated parameters are: * Original:",
+            "`moments` * Updated: `face_align_img` The location of the refactoring is: * Original:",
+            "`xlib/avecl/_internal/op/reduce.py` * Updated: `apps/DeepFaceLive/backend/FaceMerger.py` The commit",
+            "hash is: * 6da916cc66a4186fcb02b06fc19727fcf54ae8da"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "calc_cut",
+        "Updated": "calc_cut",
+        "Location": "xlib/facemeta/FaceULandmarks.py/FaceULandmarks",
+        "Original Line": 96,
+        "Updated Line": 99,
+        "Description": [
+            "The parameters [ head_yaw ] are added to the method calc_cut from the module xlib/facemeta/FaceULandmarks.py in class FaceULandmarks"
+        ],
+        "Commit": "72166cc1907ad54f7b5ea50455903d7b1692d113",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring involves adding a new parameter",
+            "`head_yaw` to the `calc_cut` method in the `xlib/facemeta/FaceULandmarks.py` file. This is a",
+            "machine-learning specific refactoring as it is related to the development and improvement of a",
+            "machine learning model. The addition of this parameter allows for more customization and fine-tuning",
+            "of the model, which is a common practice in machine learning. Therefore, this refactoring can be",
+            "classified as a machine-learning specific refactoring."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "cut",
+        "Updated": "cut",
+        "Location": "xlib/facemeta/FaceULandmarks.py/FaceULandmarks",
+        "Original Line": 154,
+        "Updated Line": 163,
+        "Description": [
+            "The parameters [ head_yaw ] are added to the method cut from the module xlib/facemeta/FaceULandmarks.py in class FaceULandmarks"
+        ],
+        "Commit": "72166cc1907ad54f7b5ea50455903d7b1692d113",
+        "Classification": [
+            " Based on the information provided, I would classify this refactoring as machine-learning specific.",
+            "The refactoring involves adding a new parameter \"head_yaw\" to the method \"cut\" in the module",
+            "\"xlib/facemeta/FaceULandmarks.py\" in class \"FaceULandmarks\". This suggests that the method is",
+            "related to face alignment, which is a common task in machine learning-based computer vision",
+            "applications. Additionally, the commit message mentions that the parameters \"face_align_img\" were",
+            "added to the method \"_merge_on_cpu\" in the module \"apps/DeepFaceLive/backend/FaceMerger.py\" in class",
+            "\"FaceMergerWorker\". This suggests that the refactoring is related to face alignment and merging,",
+            "which is a common task in machine learning-based face recognition applications. Therefore, based on",
+            "the information provided, I would classify this refactoring as machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "sort_by_dist_from_center",
+        "Updated": "sort_by_dist_from_2D_point",
+        "Location": "xlib/face/FRect.py/FRect",
+        "Original Line": 38,
+        "Updated Line": 42,
+        "Description": [
+            "The method sort_by_dist_from_center from the module xlib/face/FRect.py in class FRect is renamed to sort_by_dist_from_2D_point",
+            "The parameters [ x y ] are added to the method sort_by_dist_from_center from the module xlib/face/FRect.py in class FRect"
+        ],
+        "Commit": "77dd13bfcb1c3b596eac04d3262f364b7c75a195",
+        "Classification": [
+            " Based on the provided information, I would classify this refactoring as machine-learning specific.",
+            "Here's why: 1. The refactoring involves adding a new parameter to a method in a module specifically",
+            "related to machine learning, namely `FaceMerger.py` in the `DeepFaceLive` backend. This indicates",
+            "that the method is likely used in a machine learning context. 2. The refactoring involves renaming a",
+            "method and adding new parameters to a method that is already related to machine learning. This",
+            "suggests that the method is being modified to better support machine learning tasks, which is a",
+            "common occurrence in software refactoring for machine learning. In contrast, general refactoring",
+            "might involve renaming or adding parameters to a method that is not specifically related to machine",
+            "learning. Therefore, based on the information provided, I would classify this refactoring as",
+            "machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "add_UImage",
+        "Updated": "add_UImage",
+        "Location": "xlib/facemeta/Faceset.py/Faceset",
+        "Original Line": 172,
+        "Updated Line": 200,
+        "Description": [
+            "The parameters [ uimage ] of the method add_UImage from the module xlib/facemeta/Faceset.py in class Faceset are changed/renamed to [uimage_or_list]"
+        ],
+        "Commit": "78d80f9c5cd15aaa928f8ec2edfbd8372515e298",
+        "Classification": [
+            " Based on the provided information, I would classify this refactoring as a machine-learning specific",
+            "refactoring. Here's why: 1. The refactoring involves changing the name of a parameter in a method",
+            "specifically related to machine learning, i.e., `add_UImage` in `xlib/facemeta/Faceset.py` to",
+            "`add_UImage_or_list`. 2. The refactoring is done in a module specifically related to machine",
+            "learning, i.e., `DeepFaceLive` in `apps/DeepFaceLive/backend/FaceMerger.py`. 3. The commit message",
+            "mentions the refactoring as a change to a parameter related to machine learning, i.e., \"The",
+            "parameters face_align_img are added to the method _merge_on_cpu from the module",
+            "apps/DeepFaceLive/backend/FaceMerger.py in class FaceMergerWorker\". Based on these factors, I would",
+            "classify this refactoring as a machine-learning specific refactoring."
+        ]
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "_keep_target_memory_usage",
+        "Updated": "_free_random_pooled_buffers",
+        "Location": "xlib/avecl/_internal/backend/Device.py/Device",
+        "Original Method Line": "(360,219)",
+        "Extracted/Inlined Method Line": 205,
+        "Extracted/Inlined Lines": [
+            365.0,
+            366.0,
+            367.0,
+            368.0,
+            369.0
+        ],
+        "Description": " The method _free_random_pooled_buffers from the module xlib/avecl/_internal/backend/Device.py in class Device is extracted from method _keep_target_memory_usage from the module xlib/avecl/_internal/backend/Device.py in class Device ",
+        "Commit": "7bd9398a903cf26803368923ad54fb80dd907571",
+        "Classification": [
+            " Based on the information provided, this refactoring can be classified as both general and machine-",
+            "learning specific. General refactoring: * Type: Extract Method * Original: _keep_target_memory_usage",
+            "(line 360-369 in xlib/avecl/_internal/backend/Device.py) * Updated: _free_random_pooled_buffers",
+            "(line 205 in xlib/avecl/_internal/backend/Device.py) * Location:",
+            "xlib/avecl/_internal/backend/Device.py * Description: The method _free_random_pooled_buffers is",
+            "extracted from the original method _keep_target_memory_usage in the same class and file.  Machine"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "on_cs_gamma_red",
+        "Updated": "on_cs_pre_gamma_red",
+        "Location": "apps/DeepFaceLive/backend/FaceSwapper.py/FaceSwapperWorker",
+        "Original Line": 138,
+        "Updated Line": 140,
+        "Description": [
+            "The method on_cs_gamma_red from the module apps/DeepFaceLive/backend/FaceSwapper.py in class FaceSwapperWorker is renamed to on_cs_pre_gamma_red"
+        ],
+        "Commit": "7bddc0248c0c51d68c621e1d589ee9f5770872fe",
+        "Classification": [
+            " Based on the information provided, I would classify this refactoring as machine-learning specific.",
+            "The refactoring involves changing the name of a method in a machine learning-specific module",
+            "(apps/DeepFaceLive/backend/FaceSwapper.py) in a class specific to that module (FaceSwapperWorker).",
+            "The method is renamed from \"on_cs_gamma_red\" to \"on_cs_pre_gamma_red\", which suggests that the",
+            "method is related to pre-processing of images for machine learning tasks, specifically face",
+            "swapping. Therefore, this refactoring can be classified as machine-learning specific, as it involves",
+            "changes to a method in a module and class that are specific to machine learning tasks."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "progress_bar_iterator",
+        "Updated": "progress_bar_iterator",
+        "Location": "xlib/console/console.py",
+        "Original Line": 5,
+        "Updated Line": 5,
+        "Description": [
+            "The parameters [ count suppress_print ] are added to the method progress_bar_iterator from the module xlib/console/console.py"
+        ],
+        "Commit": "8489949f2c82dcca3e96bf67debb689443485f4a",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring involves adding a new parameter",
+            "`face_align_img` to the method `_merge_on_cpu` in the module",
+            "`apps/DeepFaceLive/backend/FaceMerger.py` in the class `FaceMergerWorker`. This is a machine-",
+            "learning specific refactoring as it is related to the processing of face alignment images, which is",
+            "a common task in machine learning applications. The original code did not have this parameter, and",
+            "the updated code adds it to the method. This suggests that the parameter is being added to",
+            "accommodate a new requirement or feature in the machine learning application. Therefore, this",
+            "refactoring can be classified as a machine-learning specific refactoring."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "extract_facesynthetics_dataset",
+        "Updated": "extract_FaceSynthetics",
+        "Location": "scripts/dev.py",
+        "Original Line": 29,
+        "Updated Line": 29,
+        "Description": [
+            "The method extract_facesynthetics_dataset from the module scripts/dev.py is renamed to extract_FaceSynthetics"
+        ],
+        "Commit": "8b385f6d80d2f3fd9a2ec3b0c6bcd880a28bf93c",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific The refactoring described in the commit message",
+            "involves updating the return type of a method in the `xlib/path.py` module, and adding a new",
+            "parameter to a method in the `apps/DeepFaceLive/backend/FaceMerger.py` module. These changes are",
+            "specific to machine learning and indicate that the code is being modified to support machine",
+            "learning-related features or improvements. Therefore, this refactoring can be classified as machine-",
+            "learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/face/UFaceMark.py/UFaceMark",
+        "Original Line": 13,
+        "Updated Line": 13,
+        "Description": [
+            "The parameters [ _from_pickled ] of the method __init__ from the module xlib/face/UFaceMark.py in class UFaceMark is/are removed"
+        ],
+        "Commit": "8b385f6d80d2f3fd9a2ec3b0c6bcd880a28bf93c",
+        "Classification": [
+            " Based on the provided information, I would classify this refactoring as machine-learning specific.",
+            "The refactoring involves adding a new parameter `face_align_img` to the method `_merge_on_cpu` in",
+            "the module `apps/DeepFaceLive/backend/FaceMerger.py` in class `FaceMergerWorker`. This suggests that",
+            "the refactoring is related to the processing of face images, which is a common task in machine",
+            "learning applications. Additionally, the fact that the refactoring involves modifying the",
+            "implementation of a method in a module that is specifically designed for machine learning (i.e.,",
+            "`apps/DeepFaceLive/backend/FaceMerger.py`) further supports the classification of this refactoring",
+            "as machine-learning specific. Therefore, I would classify this refactoring as: * Refactoring Type:",
+            "['Add Parameter'] Here is the detailed classification of the refactoring: * Refactoring Type: ['Add",
+            "Parameter'] * Original: `__init__` * Updated: `__init__` * Location:",
+            "`xlib/face/UFaceMark.py/UFaceMark` * Original Line: 13 * Updated Line: 13 * Description:"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/face/UPerson.py/UPerson",
+        "Original Line": 6,
+        "Updated Line": 8,
+        "Description": [
+            "The parameters [ _from_pickled ] of the method __init__ from the module xlib/face/UPerson.py in class UPerson is/are removed"
+        ],
+        "Commit": "8b385f6d80d2f3fd9a2ec3b0c6bcd880a28bf93c",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring involves modifying a method in a",
+            "machine learning-related module, specifically in the `DeepFaceLive` module of the `apps` package.",
+            "The method `_merge_on_cpu` in `FaceMerger.py` is updated by adding a new parameter `face_align_img`.",
+            "This suggests that the refactoring is related to machine learning and is specific to that domain.",
+            "Therefore, the refactoring can be classified as machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "cleanup",
+        "Updated": "clear_pooled_memory",
+        "Location": "xlib/avecl/_internal/backend/Device.py/Device",
+        "Original Method Line": "(340,385)",
+        "Extracted/Inlined Method Line": 372,
+        "Extracted/Inlined Lines": [
+            346.0,
+            347.0,
+            348.0,
+            349.0,
+            350.0,
+            351.0,
+            352.0
+        ],
+        "Description": " The method clear_pooled_memory from the module xlib/avecl/_internal/backend/Device.py in class Device is extracted from method cleanup from the module xlib/avecl/_internal/backend/Device.py in class Device ",
+        "Commit": "8f530cc0a7e88b54e743d78cc5a98ca5a4a27bbd",
+        "Classification": [
+            " Based on the provided information, I would classify this refactoring as machine-learning specific.",
+            "The refactoring involves extracting a method (clear_pooled_memory) from an existing method (cleanup)",
+            "in the same class (Device) in the module xlib/avecl/_internal/backend/Device.py. The extracted",
+            "method is related to the processing of memory pools in the context of machine learning, which",
+            "suggests that it is a machine-learning specific refactoring. Additionally, the refactoring involves",
+            "adding new parameters (face_align_img) to a method ( `_merge_on_cpu`) in the module",
+            "apps/DeepFaceLive/backend/FaceMerger.py, which is a class used in the context of face alignment and",
+            "merging in deep learning. This further supports the"
+        ]
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "QSplashWindow",
+        "Updated": "QDeepFaceLiveSplashWindow",
+        "Location": "apps/DeepFaceLive/DeepFaceLiveApp.py",
+        "Description": " class QSplashWindow was renamed to class QDeepFaceLiveSplashWindow ",
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "Classification": [
+            " Based on the provided information, I would classify the refactoring as machine-learning specific.",
+            "The refactoring involves updating the return type of a method in a module related to machine",
+            "learning (xlib/path/path.py), and adding new parameters to a method in a module related to machine",
+            "learning (apps/DeepFaceLive/backend/FaceMerger.py). These changes suggest that the refactoring is",
+            "specifically aimed at improving the functionality of a machine learning-related module or",
+            "application. In contrast, general software refactoring might involve changes to any part of an",
+            "application or module, without specific focus on machine learning. For example, a general",
+            "refactoring might involve renaming classes, methods, or variables to improve code readability or",
+            "maintainability, or refactoring code structure to improve performance or scalability. Therefore,",
+            "based on the information provided, I would classify the refactoring as machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "apps/DeepFaceLive/ui/widgets/QXPushButtonCSWSignal.py/QXPushButtonCSWSignal",
+        "Original Line": 14,
+        "Updated Line": 11,
+        "Description": [
+            "The parameters [ button_height ] of the method __init__ from the module apps/DeepFaceLive/ui/widgets/QXPushButtonCSWSignal.py in class QXPushButtonCSWSignal is/are removed"
+        ],
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "Classification": [
+            " Based on the information provided, I would classify this refactoring as machine-learning specific.",
+            "The refactoring involves updating the parameters of a method in a class called `FaceMergerWorker` in",
+            "the `DeepFaceLive` module. Specifically, the `face_align_img` parameter is added to the",
+            "`_merge_on_cpu` method. This suggests that the refactoring is related to the processing of images or",
+            "other machine-learning tasks, rather than general software development. Additionally, the fact that",
+            "the refactoring involves modifying a method in a class called `FaceMergerWorker` suggests that the",
+            "changes are likely related to the implementation of a machine-learning algorithm or model, rather",
+            "than general software development. Therefore, I would classify this refactoring as machine-learning",
+            "specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/qt/widgets/QXCheckBox.py/QXCheckBox",
+        "Original Line": 9,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ font size_policy hided enabled ] of the method __init__ from the module xlib/qt/widgets/QXCheckBox.py in class QXCheckBox is/are removed"
+        ],
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "Classification": [
+            " Based on the information provided, I would classify this refactoring as machine-learning specific.",
+            "The refactoring involves adding a new parameter, `face_align_img`, to a method called",
+            "`_merge_on_cpu` in a module called `apps/DeepFaceLive/backend/FaceMerger.py`. This suggests that the",
+            "method is related to image processing or computer vision, which are common tasks in machine",
+            "learning. Additionally, the fact that the refactoring involves modifying a method in a module called",
+            "`FaceMergerWorker` further suggests that this is a machine learning-related refactoring. In",
+            "contrast, the general refactoring involves removing parameters from the `__init__` method in the",
+            "`QXCheckBox` class in the `xlib/qt/widgets` module. This is a more general refactoring that could",
+            "apply to any Python module or class, and is not specific to machine learning."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/qt/widgets/QXComboBox.py/QXComboBox",
+        "Original Line": 9,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ font tooltip_text minimum_width maximum_width fixed_width minimum_height maximum_height fixed_height size_policy hided enabled ] of the method __init__ from the module xlib/qt/widgets/QXComboBox.py in class QXComboBox is/are removed"
+        ],
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific The refactoring described in the commit message",
+            "involves updating the parameters of the `__init__` method in the `QXComboBox` class in the",
+            "`xlib/qt/widgets` module. Specifically, the parameters `font`, `tooltip_text`, `minimum_width`,",
+            "`maximum_width`, `fixed_width`, `minimum_height`, `maximum_height`, `fixed_height`, and",
+            "`size_policy` are removed from the `__init__` method. This refactoring is machine-learning specific",
+            "because it involves modifying the parameters of a class that is used in the `DeepFaceLive` module,",
+            "which is a machine-learning library. The `QXComboBox` class is used in the `FaceMergerWorker` class",
+            "in the `apps/DeepFaceLive/backend` directory, and the refactoring is likely related to improving the",
+            "performance or functionality of the `FaceMergerWorker` class in some way. Therefore, this",
+            "refactoring can be classified as machine-learning specific refactoring."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/qt/widgets/QXDoubleSpinBox.py/QXDoubleSpinBox",
+        "Original Line": 9,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ font size_policy hided enabled ] of the method __init__ from the module xlib/qt/widgets/QXDoubleSpinBox.py in class QXDoubleSpinBox is/are removed"
+        ],
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "Classification": [
+            " Based on the provided information, I would classify this refactoring as machine-learning specific.",
+            "The refactoring involves adding a new parameter \"face_align_img\" to the method `_merge_on_cpu` in",
+            "the `FaceMerger` class in the `DeepFaceLive` module. This suggests that the refactoring is related",
+            "to the processing of images or data specific to machine learning, particularly in the context of",
+            "face alignment. While the initial code change involves updating the return type of a method in the",
+            "`xlib` module, which could be considered a general software refactoring, the addition of the new",
+            "parameter \"face_align_img\" makes this refactoring specific to machine learning. Therefore, I would",
+            "classify it as machine-learning specific refactoring."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/qt/widgets/QXFixedLayeredImages.py/QXFixedLayeredImages",
+        "Original Line": 17,
+        "Updated Line": 17,
+        "Description": [
+            "The parameters [ fixed_width fixed_height ] of the method __init__ from the module xlib/qt/widgets/QXFixedLayeredImages.py in class QXFixedLayeredImages are changed/renamed to [fwidth height]"
+        ],
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring involves updating the parameters of a",
+            "method in a machine learning-related class, specifically the `FaceMergerWorker` class in the",
+            "`DeepFaceLive` module. The original parameters were `face_align_img`, and the updated parameters are",
+            "the same, but with different names, `fixed_width` and `fixed_height`. This suggests that the",
+            "refactoring is related to machine learning and specifically to the processing of images in the",
+            "`FaceMergerWorker` class. Therefore, this refactoring can be classified as a machine-learning",
+            "specific refactoring."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/qt/widgets/QXFrame.py/QXFrame",
+        "Original Line": 9,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ layout minimum_width maximum_width fixed_width minimum_height maximum_height fixed_height size_policy hided enabled ] of the method __init__ from the module xlib/qt/widgets/QXFrame.py in class QXFrame is/are removed"
+        ],
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring involves updating the parameters of a",
+            "method in a machine learning-related module, specifically the `FaceMerger.py` file in the",
+            "`DeepFaceLive` backend. The updated method, `_merge_on_cpu`, now has a new parameter,",
+            "`face_align_img`, which is related to face alignment. This change is specific to machine learning",
+            "and indicates that the module is focused on face alignment tasks, which are common in machine",
+            "learning applications. Therefore, this refactoring can be classified as machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/qt/widgets/QXLabel.py/QXLabel",
+        "Original Line": 12,
+        "Updated Line": 12,
+        "Description": [
+            "The parameters [ font tooltip_text size_policy minimum_size minimum_width minimum_height maximum_size maximum_width maximum_height fixed_size fixed_width fixed_height hided enabled ] of the method __init__ from the module xlib/qt/widgets/QXLabel.py in class QXLabel is/are removed"
+        ],
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "Classification": [
+            " Based on the information provided, I would classify the refactoring as machine-learning specific.",
+            "The refactoring involves adding a new parameter \"face_align_img\" to a method called \"_merge_on_cpu\"",
+            "in a module called \"DeepFaceLive/backend/FaceMerger.py\". This suggests that the method is related to",
+            "face alignment, which is a common technique used in machine learning, particularly in the field of",
+            "computer vision. Additionally, the fact that the refactoring involves modifying a method in a module",
+            "called \"DeepFaceLive\" further suggests that the refactoring is related to machine learning. Based on",
+            "these factors, I would classify the refactoring as machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/qt/widgets/QXLineEdit.py/QXLineEdit",
+        "Original Line": 9,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ font size_policy hided enabled ] of the method __init__ from the module xlib/qt/widgets/QXLineEdit.py in class QXLineEdit is/are removed"
+        ],
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring involves updating the parameters of a",
+            "method in a machine learning-related module, specifically the `FaceMerger` class in",
+            "`apps/DeepFaceLive/backend/FaceMerger.py`. The original method signature included the",
+            "`face_align_img` parameter, which has been added in the updated version. Therefore, this refactoring",
+            "can be classified as a machine-learning specific refactoring."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/qt/widgets/QXMenuBar.py/QXMenuBar",
+        "Original Line": 8,
+        "Updated Line": 8,
+        "Description": [
+            "The parameters [ font size_policy minimum_width maximum_width fixed_width minimum_height maximum_height fixed_height hided enabled ] of the method __init__ from the module xlib/qt/widgets/QXMenuBar.py in class QXMenuBar is/are removed"
+        ],
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "Classification": [
+            " Based on the information provided, I would classify this refactoring as machine-learning specific.",
+            "The refactoring involves adding a new parameter, `face_align_img`, to a method called",
+            "`_merge_on_cpu` in the `DeepFaceLive` module. This suggests that the method is related to machine",
+            "learning, specifically face alignment, and the addition of this parameter is likely intended to",
+            "improve the performance of the method in this context. In contrast, the general refactoring involves",
+            "removing parameters from the `__init__` method in the `QXMenuBar` class in the `xlib/qt/widgets`",
+            "module. This type of refactoring is not specific to machine learning and could apply to any software",
+            "development project. Therefore, I would classify the first refactoring as machine-learning specific",
+            "and the second refactoring as general."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/qt/widgets/QXProgressBar.py/QXProgressBar",
+        "Original Line": 9,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ font size_policy hided enabled ] of the method __init__ from the module xlib/qt/widgets/QXProgressBar.py in class QXProgressBar is/are removed"
+        ],
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring involves updating the parameters of a",
+            "method in a machine learning-related module, specifically in the `FaceMerger` class in",
+            "`apps/DeepFaceLive/backend/FaceMerger.py`. The updated method, `_merge_on_cpu`, now takes an",
+            "additional parameter, `face_align_img`, which is related to face alignment. Therefore, this",
+            "refactoring can be classified as machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/qt/widgets/QXPushButton.py/QXPushButton",
+        "Original Line": 11,
+        "Updated Line": 11,
+        "Description": [
+            "The parameters [ font tooltip_text size_policy minimum_size minimum_width minimum_height fixed_size fixed_width fixed_height hided enabled ] of the method __init__ from the module xlib/qt/widgets/QXPushButton.py in class QXPushButton is/are removed"
+        ],
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "Classification": [
+            " Based on the provided information, I would classify the refactoring as machine-learning specific.",
+            "The refactoring involves adding a new parameter \"face_align_img\" to the method `_merge_on_cpu` in",
+            "the module `apps/DeepFaceLive/backend/FaceMerger.py`. This suggests that the refactoring is related",
+            "to the processing of images or other machine-learning tasks, which is a common aspect of machine",
+            "learning development. In contrast, general software refactoring may involve changes to the structure",
+            "or organization of code without any specific reference to machine learning tasks. For example, a",
+            "general refactoring might involve renaming variables, consolidating code, or improving code",
+            "organization, but it would not typically involve adding or modifying parameters related to machine",
+            "learning tasks. Therefore, based on the information provided, I would classify the refactoring as",
+            "machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/qt/widgets/QXRadioButton.py/QXRadioButton",
+        "Original Line": 9,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ font size_policy hided enabled ] of the method __init__ from the module xlib/qt/widgets/QXRadioButton.py in class QXRadioButton is/are removed"
+        ],
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring involves updating the parameters of a",
+            "method in a machine learning-related module, specifically the `FaceMerger` class in",
+            "`apps/DeepFaceLive/backend/FaceMerger.py`. The updated method, `_merge_on_cpu`, now has a new",
+            "parameter, `face_align_img`, which is specific to face alignment tasks. Therefore, this refactoring",
+            "can be classified as a machine-learning specific refactoring."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/qt/widgets/QXScrollArea.py/QXScrollArea",
+        "Original Line": 10,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ size_policy hided enabled ] of the method __init__ from the module xlib/qt/widgets/QXScrollArea.py in class QXScrollArea is/are removed"
+        ],
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "Classification": [
+            " Based on the provided information, I would classify the refactoring as machine-learning specific.",
+            "Here's why: 1. The refactoring involves adding a new parameter to a method in a module related to",
+            "machine learning, specifically the `FaceMerger` module in the `DeepFaceLive` backend. This suggests",
+            "that the refactoring is related to machine learning. 2. The updated line of code mentions the",
+            "`size_policy` parameter, which is a parameter related to the layout of a widget used in machine",
+            "learning applications. This further supports the classification of the refactoring as machine-",
+            "learning specific. 3. The commit message also mentions the refactoring as being related to machine",
+            "learning, specifically the removal of the `size_policy` parameter. Based on these factors, I would",
+            "classify the refactoring as machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/qt/widgets/QXSlider.py/QXSlider",
+        "Original Line": 10,
+        "Updated Line": 10,
+        "Description": [
+            "The parameters [ size_policy hided enabled ] of the method __init__ from the module xlib/qt/widgets/QXSlider.py in class QXSlider is/are removed"
+        ],
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring involves updating the parameters of a",
+            "method in a machine learning-related module, specifically the `FaceMerger` class in",
+            "`apps/DeepFaceLive/backend/FaceMerger.py`. The updated parameters are `face_align_img`, which",
+            "suggests that the refactoring is related to machine learning. Therefore, this refactoring can be",
+            "classified as machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/qt/widgets/QXSpinBox.py/QXSpinBox",
+        "Original Line": 9,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ font size_policy hided enabled ] of the method __init__ from the module xlib/qt/widgets/QXSpinBox.py in class QXSpinBox is/are removed"
+        ],
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring involves updating the parameters of a",
+            "method in a machine learning-related class, specifically the `FaceMergerWorker` class in the",
+            "`DeepFaceLive` module. The updated parameters are related to face alignment, which is a common",
+            "technique used in machine learning-based computer vision applications. Therefore, this refactoring",
+            "can be classified as a machine-learning specific refactoring."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/qt/widgets/QXTextEdit.py/QXTextEdit",
+        "Original Line": 9,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ font tooltip_text size_policy minimum_size minimum_width minimum_height maximum_size maximum_width maximum_height fixed_size fixed_width fixed_height hided enabled ] of the method __init__ from the module xlib/qt/widgets/QXTextEdit.py in class QXTextEdit is/are removed"
+        ],
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "Classification": [
+            " Based on the information provided, I would classify this refactoring as machine-learning specific.",
+            "The refactoring involves adding a new parameter \"face_align_img\" to the method `_merge_on_cpu` in",
+            "the `DeepFaceLive` module. This suggests that the refactoring is related to the processing of images",
+            "or other data related to machine learning, which is the primary focus of machine learning",
+            "development. In contrast, general software refactoring might involve changes to the structure or",
+            "organization of code that do not necessarily relate to a specific domain or technology stack. For",
+            "example, refactoring might involve simplifying code, reducing duplication, improving readability, or",
+            "improving maintainability, but these changes would not be specific to machine learning. Therefore,",
+            "based on the information provided, I would classify this refactoring as machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/qt/widgets/QXWidget.py/QXWidget",
+        "Original Line": 12,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ layout font tooltip_text minimum_width maximum_width fixed_width minimum_height maximum_height fixed_height size_policy hided enabled ] of the method __init__ from the module xlib/qt/widgets/QXWidget.py in class QXWidget is/are removed"
+        ],
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring involves updating the parameters of a",
+            "method in a machine learning-related class, specifically the `FaceMergerWorker` class in",
+            "`apps/DeepFaceLive/backend/FaceMerger.py`. The updated parameters are related to face alignment,",
+            "which is a common technique used in machine learning-based image processing tasks. Therefore, this",
+            "refactoring can be classified as machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/qt/widgets/QXWindow.py/QXWindow",
+        "Original Line": 17,
+        "Updated Line": 12,
+        "Description": [
+            "The parameters [ size_policy ] of the method __init__ from the module xlib/qt/widgets/QXWindow.py in class QXWindow is/are removed"
+        ],
+        "Commit": "9ef7be4f3ab888dc305e6642e60be8c274108310",
+        "Classification": [
+            " Based on the information provided, I would classify this refactoring as machine-learning specific.",
+            "The refactoring involves updating the return type of a method in a module related to machine",
+            "learning, specifically the `get_files_paths` method in the `xlib/path/path.py` module. This suggests",
+            "that the module is likely used in a machine learning context and the return type of the method is",
+            "being updated to reflect that. Additionally, the second refactoring involves adding new parameters",
+            "to a method in the `apps/DeepFaceLive/backend/FaceMerger.py` module. This module is likely related",
+            "to machine learning as well, and the new parameters are being added to a method that is used in the",
+            "context of machine learning. Therefore, based on the information provided, I would classify this",
+            "refactoring as machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/avecl/_internal/op/remap_np_affine.py/_RemapAffineOp",
+        "Original Line": 48,
+        "Updated Line": 54,
+        "Description": [
+            "The parameters [ post_op_text ] are added to the method __init__ from the module xlib/avecl/_internal/op/remap_np_affine.py in class _RemapAffineOp"
+        ],
+        "Commit": "a22f8b571a2a1c045d27020423c6a062e32d256c",
+        "Classification": [
+            " Based on the information provided, I would classify this refactoring as machine-learning specific.",
+            "The refactoring involves adding a new parameter to an existing method in a machine learning-related",
+            "module, specifically the `FaceMerger` class in the `DeepFaceLive` module. This suggests that the",
+            "refactoring is related to machine learning and is likely intended to improve the performance or",
+            "functionality of a machine learning model. Additionally, the refactoring involves modifying the",
+            "implementation of a method in a module that is specifically designed for machine learning tasks,",
+            "such as remap affine operations in the `xlib/avecl/_internal/op/remap_np_affine.py` module. This",
+            "further supports the classification of the refactoring as machine-learning specific. Based on the",
+            "commit message, the refactoring appears to be related to adding parameters to the `__init__` method",
+            "of the `_RemapAffineOp` class in order to improve the performance or functionality of the",
+            "`FaceMerger` class in the `DeepFaceLive` module. This is a common pattern in machine learning-",
+            "related refactoring, where parameters are added or"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "remap_np_affine",
+        "Updated": "remap_np_affine",
+        "Location": "xlib/avecl/_internal/op/remap_np_affine.py",
+        "Original Line": 11,
+        "Updated Line": 11,
+        "Description": [
+            "The parameters [ post_op_text ] are added to the method remap_np_affine from the module xlib/avecl/_internal/op/remap_np_affine.py"
+        ],
+        "Commit": "a22f8b571a2a1c045d27020423c6a062e32d256c",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring involves adding a new parameter to a",
+            "method in a machine learning-related module, specifically the `FaceMerger` module in the",
+            "`DeepFaceLive` backend. The parameter `face_align_img` is added to the method `_merge_on_cpu` in",
+            "`FaceMergerWorker.py`. This indicates that the refactoring is related to machine learning and is",
+            "therefore classified as machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "np",
+        "Updated": "np",
+        "Location": "xlib/avecl/_internal/backend/Buffer.py/Buffer",
+        "Original Line": 88,
+        "Updated Line": 88,
+        "Description": [
+            "The parameters [ out ] are added to the method np from the module xlib/avecl/_internal/backend/Buffer.py in class Buffer"
+        ],
+        "Commit": "acbe4957e65a7766bd9d4a6b80b90845f8db5c8e",
+        "Classification": [
+            " Based on the information provided, I would classify this refactoring as machine-learning specific.",
+            "Here's why: 1. The refactoring involves adding a new parameter to a method in a module related to",
+            "machine learning (in this case, `FaceMerger.py` in the `DeepFaceLive` module). 2. The new parameter",
+            "is related to face alignment, which is a common technique used in machine learning applications,",
+            "particularly in the field of computer vision. 3. The refactoring is made in a module that is part of",
+            "the `DeepFaceLive` project, which is a machine learning-based application.  Based on these factors,",
+            "it seems that the refactoring is specifically targeted at improving the functionality of a machine",
+            "learning-based application, rather than a general software improvement. Therefore, I would classify",
+            "it as machine-learning specific refactoring."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "calc_cut",
+        "Updated": "calc_cut",
+        "Location": "xlib/face/FLandmarks2D.py/FLandmarks2D",
+        "Original Line": 111,
+        "Updated Line": 112,
+        "Description": [
+            "The parameters [ freeze_z_rotation ] are added to the method calc_cut from the module xlib/face/FLandmarks2D.py in class FLandmarks2D"
+        ],
+        "Commit": "ae8a1e0ff4b13e6e6a0155e346864805b2ca81dd",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring can be classified as a Machine-",
+            "learning specific refactoring because it involves adding a new parameter to a method in a module",
+            "related to machine learning, specifically the `FaceMerger` module in the `DeepFaceLive` backend. The",
+            "new parameter, `face_align_img`, is related to the alignment of images in the face recognition",
+            "process, which is a key aspect of machine learning-based face recognition. The original code did not",
+            "have this parameter, and the updated code adds it to the method `_merge_on_cpu` in the",
+            "`FaceMergerWorker` class. This change is specific to the machine learning module and its",
+            "requirements, and it is not a general software refactoring that could apply to other types of",
+            "software."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "cut",
+        "Updated": "cut",
+        "Location": "xlib/face/FLandmarks2D.py/FLandmarks2D",
+        "Original Line": 181,
+        "Updated Line": 200,
+        "Description": [
+            "The parameters [ freeze_z_rotation ] are added to the method cut from the module xlib/face/FLandmarks2D.py in class FLandmarks2D"
+        ],
+        "Commit": "ae8a1e0ff4b13e6e6a0155e346864805b2ca81dd",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring involves adding a new parameter",
+            "`freeze_z_rotation` to the `cut` method in the `FLandmarks2D` class in the `xlib/face` module. This",
+            "is a machine-learning specific refactoring as it is related to the processing of face landmarks,",
+            "which is a key component of many machine learning algorithms for face recognition and other",
+            "applications. The original code did not have this parameter, and the updated code adds this",
+            "parameter to the method. This suggests that the intention of the refactoring is to provide more",
+            "flexibility and control over the processing of face landmarks, which is a critical aspect of machine",
+            "learning applications. Therefore, this refactoring can be classified as a machine-learning specific",
+            "refactoring."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "cut",
+        "Updated": "cut",
+        "Location": "xlib/face/FRect.py/FRect",
+        "Original Line": 177,
+        "Updated Line": 177,
+        "Description": [
+            "The parameters [ x_offset y_offset ] are added to the method cut from the module xlib/face/FRect.py in class FRect"
+        ],
+        "Commit": "ae8a1e0ff4b13e6e6a0155e346864805b2ca81dd",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring involves adding a new parameter,",
+            "`face_align_img`, to a method (`_merge_on_cpu`) in a module (`DeepFaceLive/backend/FaceMerger.py`)",
+            "that is specifically related to machine learning. Therefore, this refactoring can be classified as a",
+            "machine-learning specific refactoring."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "_on_worker_state",
+        "Location": "xlib/mp/csw/CSWBase.py/Host",
+        "Original Line": 134,
+        "Updated Line": 394,
+        "Description": [
+            "The method __init__ from the module xlib/mp/csw/CSWBase.py in class Host is renamed to _on_worker_state",
+            "The parameters [ state ] are added to the method __init__ from the module xlib/mp/csw/CSWBase.py in class Host"
+        ],
+        "Commit": "ae8a1e0ff4b13e6e6a0155e346864805b2ca81dd",
+        "Classification": [
+            " Based on the provided information, I would classify this refactoring as machine-learning specific.",
+            "Here's why: 1. The refactoring involves adding a new parameter to a method in a machine learning-",
+            "related module (apps/DeepFaceLive/backend/FaceMerger.py). This suggests that the method is likely",
+            "used in a machine learning context and the additional parameter is related to that context. 2. The",
+            "method being modified is _merge_on_cpu, which is a method in a class that is specifically designed",
+            "for merging face images in a deep learning context. The fact that the method is being modified in a",
+            "machine learning-related module further supports this classification. 3. The commit message provides",
+            "additional context, stating that the method was renamed and new parameters were added. This suggests",
+            "that the refactoring was done to improve the method's functionality in a machine learning context,",
+            "rather than in a general-purpose context. Based on these factors, I would classify this refactoring",
+            "as machine-learning specific. The type of refactoring is"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "_on_worker_state",
+        "Updated": "__init__",
+        "Location": "xlib/mp/csw/CSWBase.py/Host",
+        "Original Line": 394,
+        "Updated Line": 134,
+        "Description": [
+            "The method _on_worker_state from the module xlib/mp/csw/CSWBase.py in class Host is renamed to __init__",
+            "The parameters [ state ] of the method _on_worker_state from the module xlib/mp/csw/CSWBase.py in class Host is/are removed"
+        ],
+        "Commit": "ae8a1e0ff4b13e6e6a0155e346864805b2ca81dd",
+        "Classification": [
+            " Based on the provided information, I would classify this refactoring as machine-learning specific.",
+            "The refactoring involves changing the name of a method and removing parameters in a class used in",
+            "the deep learning framework DeepFaceLive. This suggests that the change is related to the",
+            "development or optimization of a machine learning model, rather than a general software development",
+            "task. Here's why I think this refactoring is machine-learning specific: 1. Name change: Renaming a",
+            "method from _on_worker_state to __init__ suggests that the method is now used for initialization",
+            "purposes, which is a common practice in deep learning. In machine learning, the term \"init\" is often",
+            "used to indicate the process of initializing weights, biases, or other model parameters. 2.",
+            "Parameter removal: Removing the parameter [ state ] from the method suggests that the method no",
+            "longer needs to access external state information, which is a common practice in deep learning. In",
+            "machine learning, it's often necessary to minimize the number of external dependencies to avoid"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "restore_on_off_state",
+        "Updated": "restore_on_off_state",
+        "Location": "xlib/mp/csw/CSWBase.py/Host",
+        "Original Line": 287,
+        "Updated Line": 287,
+        "Description": [
+            "The parameters [ default_state ] are added to the method restore_on_off_state from the module xlib/mp/csw/CSWBase.py in class Host"
+        ],
+        "Commit": "ae8a1e0ff4b13e6e6a0155e346864805b2ca81dd",
+        "Classification": [
+            " Based on the information provided, I would classify this refactoring as machine-learning specific.",
+            "Here's why: 1. The refactoring involves adding a new parameter to a method in a module related to",
+            "machine learning, specifically the `FaceMerger` module in the `DeepFaceLive` project. 2. The",
+            "parameter being added is specifically related to face alignment, which is a key component of many",
+            "machine learning applications, including deep learning-based face recognition systems. 3. The",
+            "refactoring involves modifying a method in a module that is part of a larger machine learning",
+            "system, indicating that the change is likely related to a specific machine learning task or use",
+            "case.  In contrast, general software refactoring might involve changes to any part of a software",
+            "system, without necessarily being related to machine learning or any specific application domain.",
+            "For example, a general refactoring might involve simplifying code structure, improving code",
+            "readability, or reducing code duplication, without being specific to any particular module or use",
+            "case. Therefore, based on the information provided, I would classify this refactoring as machine-",
+            "learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "call_on_msg",
+        "Updated": "call_on_msg",
+        "Old Location": "xlib/mp/csw/CSWBase.py/Host",
+        "New Location": "xlib/mp/csw/CSWBase.py/Worker",
+        "Old Method Line": 252,
+        "New Method Line": 434,
+        "Description": " method call_on_msg from the module xlib/mp/csw/CSWBase.py in class Host was moved to class Worker of module xlib/mp/csw/CSWBase.py ",
+        "Commit": "ae8a1e0ff4b13e6e6a0155e346864805b2ca81dd",
+        "Classification": [
+            " Refactoring Type: Move Method This refactoring can be classified as a \"Move Method\" refactoring, as",
+            "the method `call_on_msg` was moved from one class (Host) to another class (Worker) in the same",
+            "module (xlib/mp/csw/CSWBase.py). Machine-learning specific refactoring: No This refactoring does not",
+            "involve any changes related to machine learning, so it can be classified as a general software",
+            "refactoring."
+        ]
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "send_msg",
+        "Updated": "send_msg",
+        "Old Location": "xlib/mp/csw/CSWBase.py/Host",
+        "New Location": "xlib/mp/csw/CSWBase.py/Worker",
+        "Old Method Line": 265,
+        "New Method Line": 433,
+        "Description": " method send_msg from the module xlib/mp/csw/CSWBase.py in class Host was moved to class Worker of module xlib/mp/csw/CSWBase.py ",
+        "Commit": "ae8a1e0ff4b13e6e6a0155e346864805b2ca81dd",
+        "Classification": [
+            " Refactoring Type: Move Method This refactoring can be classified as a \"Move Method\" refactoring.",
+            "The method `send_msg` was moved from the `Host` class in `xlib/mp/csw/CSWBase.py` to the `Worker`",
+            "class in the same module. This is a common refactoring technique used to move code around to improve",
+            "organization, reduce duplication, or make it easier to maintain. In this case, the method was moved",
+            "from the main class to a sub-class, which is a common pattern in object-oriented programming."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "to_ufloat32",
+        "Updated": "to_ufloat32",
+        "Location": "xlib/image/ImageProcessor.py/ImageProcessor",
+        "Original Line": 850,
+        "Updated Line": 850,
+        "Description": [
+            "The parameters [ as_tanh ] are added to the method to_ufloat32 from the module xlib/image/ImageProcessor.py in class ImageProcessor"
+        ],
+        "Commit": "b3bc4e734528d3b186c3a38a6e73e106c3555cc7",
+        "Classification": [
+            " Based on the information provided, I would classify this refactoring as machine-learning specific.",
+            "Here's why: 1. The refactoring involves adding a new parameter to a method in a module specifically",
+            "related to machine learning, i.e., `FaceMerger.py` in the `DeepFaceLive` backend. 2. The parameter",
+            "being added, `face_align_img`, is a specific type of data used in machine learning, specifically in",
+            "the field of face alignment. 3. The refactoring is done in a module that is part of a larger machine",
+            "learning project, indicating that it is intended to improve the performance of a machine learning",
+            "model.  In contrast, general software refactoring might involve changes to any part of an",
+            "application, including non-specific data types or methods that are not directly related to machine",
+            "learning. Therefore, based on the information provided, I would classify this refactoring as",
+            "machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "_on_worker_state",
+        "Location": "xlib/mp/csw/CSWBase.py/Host",
+        "Original Line": 134,
+        "Updated Line": 394,
+        "Description": [
+            "The method __init__ from the module xlib/mp/csw/CSWBase.py in class Host is renamed to _on_worker_state",
+            "The parameters [ state ] are added to the method __init__ from the module xlib/mp/csw/CSWBase.py in class Host"
+        ],
+        "Commit": "babe7e3215321b785c2daa4ce4e6821b4aeb95e5",
+        "Classification": [
+            " Based on the information provided, I would classify this refactoring as machine-learning specific.",
+            "Here's why: 1. The refactoring involves adding new parameters to a method in a machine learning-",
+            "related module (apps/DeepFaceLive/backend/FaceMerger.py). This suggests that the method is related",
+            "to machine learning and the new parameters are likely to be used in that context. 2. The original",
+            "method being refactored is named `__init__`, which is a common method in Python for initializing",
+            "objects. However, the updated method is named `_on_worker_state`, which is a more specific and",
+            "descriptive name for a method related to machine learning. This suggests that the method is being",
+            "renamed to better reflect its purpose in the machine learning context. 3. The commit message",
+            "mentions that the parameters `face_align_img` are added to the method `_merge_on_cpu` from the",
+            "module `apps/DeepFaceLive/backend/FaceMerger.py`. This suggests that the method is being used in the",
+            "context of face"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "_on_worker_state",
+        "Updated": "__init__",
+        "Location": "xlib/mp/csw/CSWBase.py/Host",
+        "Original Line": 394,
+        "Updated Line": 134,
+        "Description": [
+            "The method _on_worker_state from the module xlib/mp/csw/CSWBase.py in class Host is renamed to __init__",
+            "The parameters [ state ] of the method _on_worker_state from the module xlib/mp/csw/CSWBase.py in class Host is/are removed"
+        ],
+        "Commit": "babe7e3215321b785c2daa4ce4e6821b4aeb95e5",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring can be classified as a Machine-",
+            "learning specific refactoring as it involves changes to a method in a module related to machine",
+            "learning, specifically the `FaceMerger` module. The refactoring involves adding a new parameter",
+            "`face_align_img` to the method `_merge_on_cpu` in the `FaceMerger` class, which suggests that the",
+            "method is being modified for use in a machine learning context. The original method",
+            "`_on_worker_state` in the `CSWBase` class has been renamed to `__init__` and the parameters `state`",
+            "have been removed. This suggests that the method is being modified to handle a different use case or",
+            "to be used in a different context, which is typical of machine learning specific refactoring.",
+            "Therefore, the refactoring can be classified as Machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "call_on_msg",
+        "Updated": "call_on_msg",
+        "Old Location": "xlib/mp/csw/CSWBase.py/Host",
+        "New Location": "xlib/mp/csw/CSWBase.py/Worker",
+        "Old Method Line": 252,
+        "New Method Line": 434,
+        "Description": " method call_on_msg from the module xlib/mp/csw/CSWBase.py in class Host was moved to class Worker of module xlib/mp/csw/CSWBase.py ",
+        "Commit": "babe7e3215321b785c2daa4ce4e6821b4aeb95e5",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring can be classified as machine-learning",
+            "specific because it involves modifying a method in a module related to machine learning,",
+            "specifically the `FaceMerger` module in the `DeepFaceLive` backend. The method `call_on_msg` was",
+            "moved from the `Host` class in the `CSWBase` module to the `Worker` class in the same module, which",
+            "suggests that the refactoring was done to improve the performance or efficiency of the machine",
+            "learning algorithms used in the `FaceMerger` module. The fact that the refactoring involves",
+            "modifying a method in a module related to machine learning, and the specific change made to the",
+            "method (moving it from one class to another), further supports this classification. Therefore, this",
+            "refactoring can be classified as machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "send_msg",
+        "Updated": "send_msg",
+        "Old Location": "xlib/mp/csw/CSWBase.py/Host",
+        "New Location": "xlib/mp/csw/CSWBase.py/Worker",
+        "Old Method Line": 265,
+        "New Method Line": 433,
+        "Description": " method send_msg from the module xlib/mp/csw/CSWBase.py in class Host was moved to class Worker of module xlib/mp/csw/CSWBase.py ",
+        "Commit": "babe7e3215321b785c2daa4ce4e6821b4aeb95e5",
+        "Classification": [
+            " Based on the provided commit message, I would classify this refactoring as a machine-learning",
+            "specific refactoring. Here's why: 1. The refactoring involves modifying a method in a module",
+            "specifically related to machine learning, i.e., `FaceMerger.py` in the `DeepFaceLive` module. 2. The",
+            "method `send_msg` was moved from a class in the `xlib/mp/csw` module, which is a general-purpose",
+            "module, to a class in the `xlib/mp/csw/CSWBase.py` module, which is specifically related to machine",
+            "learning. 3. The commit message mentions the refactoring as a \"Machine-learning specific software",
+            "refactoring\", which further supports the classification. Therefore, I would classify this",
+            "refactoring as a machine-learning specific refactoring."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/torch/model/XsegNet.py/BlurPool",
+        "Original Line": 33,
+        "Updated Line": 33,
+        "Description": [
+            "The parameters [ in_ch ] are added to the method __init__ from the module xlib/torch/model/XsegNet.py in class BlurPool"
+        ],
+        "Commit": "d40fce6a5a756d882bc9f1c86cedebb3fc6cd4c1",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring involves adding a new parameter to an",
+            "existing method in a machine learning-related module. Specifically, the `face_align_img` parameter",
+            "is added to the `_merge_on_cpu` method in the `FaceMerger` class in the `DeepFaceLive` module. This",
+            "is a clear indication of a machine-learning specific refactoring, as the added parameter is related",
+            "to the processing of face images in a deep learning-based application. Therefore, this refactoring",
+            "can be classified as a machine-learning specific refactoring."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "on_cs_device_idx_selected",
+        "Updated": "on_cs_device_idx_selected",
+        "Location": "apps/DeepFaceLive/backend/CameraSource.py/CameraSourceWorker",
+        "Original Line": 149,
+        "Updated Line": 167,
+        "Description": [
+            "The parameters [ idx ] of the method on_cs_device_idx_selected from the module apps/DeepFaceLive/backend/CameraSource.py in class CameraSourceWorker are changed/renamed to [device_name]"
+        ],
+        "Commit": "fa7fddca2869dec8fb1c7c9691fb77f1cc8805b6",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific The refactoring involves changing the name of a",
+            "parameter in a method specific to the machine learning module",
+            "`apps/DeepFaceLive/backend/FaceMerger.py` in class `FaceMergerWorker`. This change is specific to",
+            "machine learning and indicates that the refactoring is related to the development or improvement of",
+            "machine learning algorithms or models. The original parameter `on_cs_device_idx_selected` has been",
+            "renamed to `on_cs_device_idx_selected` in the updated code. This change is specific to the machine",
+            "learning module and indicates that the refactoring is related to the development or improvement of",
+            "machine learning algorithms or models. Therefore, this refactoring can be classified as a machine-",
+            "learning specific refactoring."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xlib/console/diacon/Diacon.py/DlgChoice",
+        "Original Line": 19,
+        "Updated Line": 19,
+        "Description": [
+            "The parameters [ name ] of the method __init__ from the module xlib/console/diacon/Diacon.py in class DlgChoice are changed/renamed to [short_name]"
+        ],
+        "Commit": "fd0ca499bff00cebd9532fd305aafa08a77f5b5c",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring involves changing the parameters of a",
+            "method in a machine learning-specific module, specifically the `FaceMerger` module in",
+            "`apps/DeepFaceLive/backend/FaceMerger.py`. The original parameter `face_align_img` is renamed to",
+            "`face_align_img` in the `Diacon` class of the `xlib/console/diacon/Diacon.py` module. This change is",
+            "specific to machine learning and is likely related to a specific optimization or improvement in the",
+            "FaceMerger module. Therefore, this refactoring can be classified as machine-learning specific."
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "get_name",
+        "Updated": "get_short_name",
+        "Location": "xlib/console/diacon/Diacon.py/DlgChoice",
+        "Original Line": 28,
+        "Updated Line": 28,
+        "Description": [
+            "The method get_name from the module xlib/console/diacon/Diacon.py in class DlgChoice is renamed to get_short_name"
+        ],
+        "Commit": "fd0ca499bff00cebd9532fd305aafa08a77f5b5c",
+        "Classification": [
+            " Refactoring Type: Machine-learning specific This refactoring can be classified as machine-learning",
+            "specific because it involves adding a new parameter for face alignment in a method from a module",
+            "related to machine learning. The method being modified is part of a module that is specifically",
+            "designed for face merging and alignment, which is a common task in machine learning applications.",
+            "Therefore, this refactoring is relevant to machine learning and is classified as machine-learning",
+            "specific."
+        ]
+    }
+]

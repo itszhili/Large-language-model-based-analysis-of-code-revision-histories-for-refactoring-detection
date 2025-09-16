@@ -1,0 +1,10 @@
+[
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "Env",
+        "Updated": "ExecutionEnv",
+        "Location": "flexgen/utils.py",
+        "Description": " class Env was renamed to class ExecutionEnv ",
+        "Commit": "cf90920349109205378e5253fd5e8da4fa2740c1"
+    }
+]

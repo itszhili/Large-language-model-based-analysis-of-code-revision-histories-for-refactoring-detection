@@ -1,0 +1,282 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "gplearn/genetic.py/BaseSymbolic",
+        "Original Line": 769,
+        "Updated Line": 778,
+        "Description": [
+            "The parameters [ hall_of_fame n_components ] are added to the method __init__ from the module gplearn/genetic.py in class BaseSymbolic"
+        ],
+        "Commit": "001400791413c783fad33b7a42bbdb4d4ea26ed5"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "gplearn/genetic.py/BaseSymbolic",
+        "Original Line": 786,
+        "Updated Line": 780,
+        "Description": [
+            "The parameters [ bootstrap ] of the method __init__ from the module gplearn/genetic.py in class BaseSymbolic is/are removed"
+        ],
+        "Commit": "140009678e56222d8ee437fe3f14c2fb4b11041c"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "gplearn/genetic.py/SymbolicRegressor",
+        "Original Line": 1244,
+        "Updated Line": 1233,
+        "Description": [
+            "The parameters [ bootstrap ] of the method __init__ from the module gplearn/genetic.py in class SymbolicRegressor is/are removed"
+        ],
+        "Commit": "140009678e56222d8ee437fe3f14c2fb4b11041c"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "gplearn/genetic.py/SymbolicTransformer",
+        "Original Line": 1480,
+        "Updated Line": 1464,
+        "Description": [
+            "The parameters [ bootstrap ] of the method __init__ from the module gplearn/genetic.py in class SymbolicTransformer is/are removed"
+        ],
+        "Commit": "140009678e56222d8ee437fe3f14c2fb4b11041c"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_weighted_pearson",
+        "Updated": "test_weighted_correlations",
+        "Location": "gplearn/tests/test_genetic.py",
+        "Original Line": 34,
+        "Updated Line": 35,
+        "Description": [
+            "The method test_weighted_pearson from the module gplearn/tests/test_genetic.py is renamed to test_weighted_correlations"
+        ],
+        "Commit": "24623209318020c063a863351fe9a613b1531bfb"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "gplearn/genetic.py/BaseSymbolic",
+        "Original Line": 160,
+        "Updated Line": 160,
+        "Description": [
+            "The parameters [ low_memory ] are added to the method __init__ from the module gplearn/genetic.py in class BaseSymbolic"
+        ],
+        "Commit": "44d25ba40032f435f80fb003625fce02ca7a7335"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "gplearn/genetic.py/SymbolicRegressor",
+        "Original Line": 707,
+        "Updated Line": 732,
+        "Description": [
+            "The parameters [ low_memory ] are added to the method __init__ from the module gplearn/genetic.py in class SymbolicRegressor"
+        ],
+        "Commit": "44d25ba40032f435f80fb003625fce02ca7a7335"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "gplearn/genetic.py/SymbolicTransformer",
+        "Original Line": 977,
+        "Updated Line": 1008,
+        "Description": [
+            "The parameters [ low_memory ] are added to the method __init__ from the module gplearn/genetic.py in class SymbolicTransformer"
+        ],
+        "Commit": "44d25ba40032f435f80fb003625fce02ca7a7335"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "gplearn/genetic.py/SymbolicRegressor",
+        "Original Line": 846,
+        "Updated Line": 861,
+        "Description": [
+            "The parameters [ trigonometric ] are added to the method __init__ from the module gplearn/genetic.py in class SymbolicRegressor"
+        ],
+        "Commit": "52694fa8cdef4118edc5e1c9af0f28190fbb5b6e"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "gplearn/genetic.py/BaseSymbolic",
+        "Original Line": 798,
+        "Updated Line": 762,
+        "Description": [
+            "The parameters [ comparison trigonometric ] of the method __init__ from the module gplearn/genetic.py in class BaseSymbolic is/are removed"
+        ],
+        "Commit": "5d8c7d22d0e576f0d0d4b744319b571df60b8970"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "gplearn/genetic.py/SymbolicRegressor",
+        "Original Line": 1264,
+        "Updated Line": 1245,
+        "Description": [
+            "The parameters [ comparison trigonometric ] of the method __init__ from the module gplearn/genetic.py in class SymbolicRegressor is/are removed"
+        ],
+        "Commit": "5d8c7d22d0e576f0d0d4b744319b571df60b8970"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "gplearn/genetic.py/SymbolicTransformer",
+        "Original Line": 1499,
+        "Updated Line": 1491,
+        "Description": [
+            "The parameters [ comparison trigonometric ] of the method __init__ from the module gplearn/genetic.py in class SymbolicTransformer is/are removed"
+        ],
+        "Commit": "5d8c7d22d0e576f0d0d4b744319b571df60b8970"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "gplearn/genetic.py/BaseSymbolic",
+        "Original Line": 162,
+        "Updated Line": 163,
+        "Description": [
+            "The parameters [ warm_start ] are added to the method __init__ from the module gplearn/genetic.py in class BaseSymbolic"
+        ],
+        "Commit": "6b9e6ee0f73deee61a9d1fac24cf49ef176f5996"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "gplearn/genetic.py/SymbolicRegressor",
+        "Original Line": 641,
+        "Updated Line": 669,
+        "Description": [
+            "The parameters [ warm_start ] are added to the method __init__ from the module gplearn/genetic.py in class SymbolicRegressor"
+        ],
+        "Commit": "6b9e6ee0f73deee61a9d1fac24cf49ef176f5996"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "gplearn/genetic.py/SymbolicTransformer",
+        "Original Line": 887,
+        "Updated Line": 922,
+        "Description": [
+            "The parameters [ warm_start ] are added to the method __init__ from the module gplearn/genetic.py in class SymbolicTransformer"
+        ],
+        "Commit": "6b9e6ee0f73deee61a9d1fac24cf49ef176f5996"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "fitness",
+        "Updated": "fitness",
+        "Location": "gplearn/genetic.py/_Program",
+        "Original Line": 339,
+        "Updated Line": 447,
+        "Description": [
+            "The parameters [ sample_weight ] are added to the method fitness from the module gplearn/genetic.py in class _Program"
+        ],
+        "Commit": "b3aea1a623e6a91c98eb01b0b6e491e2313583b4"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "fit_transform",
+        "Updated": "fit_transform",
+        "Location": "gplearn/genetic.py/SymbolicTransformer",
+        "Original Line": 1522,
+        "Updated Line": 1559,
+        "Description": [
+            "The parameters [ sample_weight ] are added to the method fit_transform from the module gplearn/genetic.py in class SymbolicTransformer"
+        ],
+        "Commit": "e9a7706e526d604042f662b15e8963eaecfa6c98"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "gplearn/genetic.py/BaseSymbolic",
+        "Original Line": 166,
+        "Updated Line": 167,
+        "Description": [
+            "The parameters [ class_weight ] are added to the method __init__ from the module gplearn/genetic.py in class BaseSymbolic"
+        ],
+        "Commit": "f24af5928a640ed44c9a0dbcd6fda64a9e0001d7"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "gplearn/genetic.py/SymbolicClassifier",
+        "Original Line": 1054,
+        "Updated Line": 1076,
+        "Description": [
+            "The parameters [ class_weight ] are added to the method __init__ from the module gplearn/genetic.py in class SymbolicClassifier"
+        ],
+        "Commit": "f24af5928a640ed44c9a0dbcd6fda64a9e0001d7"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_sample_weight",
+        "Updated": "test_sample_weight_and_class_weight",
+        "Location": "gplearn/tests/test_genetic.py",
+        "Original Line": 639,
+        "Updated Line": 639,
+        "Description": [
+            "The method test_sample_weight from the module gplearn/tests/test_genetic.py is renamed to test_sample_weight_and_class_weight"
+        ],
+        "Commit": "f24af5928a640ed44c9a0dbcd6fda64a9e0001d7"
+    }
+]

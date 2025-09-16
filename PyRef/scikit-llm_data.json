@@ -1,0 +1,66 @@
+[
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "SLLMConfig",
+        "Updated": "SKLLMConfig",
+        "Location": "skllm/config.py",
+        "Description": " class SLLMConfig was renamed to class SKLLMConfig ",
+        "Commit": "157548dcee01a5ec16bf5c0e99db8413bf70031e"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_get_completion",
+        "Updated": "_get_chat_completion",
+        "Location": "skllm/models/gpt_zero_shot_clf.py/_BaseZeroShotGPTClassifier",
+        "Original Line": 59,
+        "Updated Line": 81,
+        "Description": [
+            "The method _get_completion from the module skllm/models/gpt_zero_shot_clf.py in class _BaseZeroShotGPTClassifier is renamed to _get_chat_completion"
+        ],
+        "Commit": "157548dcee01a5ec16bf5c0e99db8413bf70031e"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "get_chat_completion",
+        "Updated": "get_chat_completion",
+        "Location": "skllm/openai/chatgpt.py",
+        "Original Line": 9,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ max_retries ] are added to the method get_chat_completion from the module skllm/openai/chatgpt.py"
+        ],
+        "Commit": "157548dcee01a5ec16bf5c0e99db8413bf70031e"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "set_azure_credentials",
+        "Updated": "set_azure_credentials",
+        "Location": "skllm/openai/credentials.py",
+        "Original Line": 20,
+        "Updated Line": 23,
+        "Description": [
+            "The parameters [ org ] are added to the method set_azure_credentials from the module skllm/openai/credentials.py"
+        ],
+        "Commit": "49149ce9b602c9afa7c797a01b4cdc15f19992ad"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "skllm/preprocessing/gpt_summarizer.py/GPTSummarizer",
+        "Original Line": 11,
+        "Updated Line": 15,
+        "Description": [
+            "The parameters [ focus ] are added to the method __init__ from the module skllm/preprocessing/gpt_summarizer.py in class GPTSummarizer"
+        ],
+        "Commit": "cff196ad4004217a92173fceabaf64cde3b3ed28"
+    }
+]

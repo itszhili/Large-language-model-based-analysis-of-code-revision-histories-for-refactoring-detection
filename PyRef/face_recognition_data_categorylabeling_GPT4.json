@@ -1,0 +1,370 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "load_image_file",
+        "Updated": "load_image_file",
+        "Location": "face_recognition/api.py",
+        "Original Line": 47,
+        "Updated Line": 47,
+        "Description": [
+            "The parameters [ mode ] are added to the method load_image_file from the module face_recognition/api.py"
+        ],
+        "Commit": "20d50f36cd6ef61bd39d621d8b735ac92a9ac7e1",
+        "Component": "Data Pipeline",
+        "Component GPT4": "Data Pipeline"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "main",
+        "Updated": "main",
+        "Location": "face_recognition/face_detection_cli.py",
+        "Original Line": 54,
+        "Updated Line": 56,
+        "Description": [
+            "The parameters [ upsample ] are added to the method main from the module face_recognition/face_detection_cli.py"
+        ],
+        "Commit": "3337c1e0505bef73840690807d99101656995152",
+        "Component": "Data Pipeline",
+        "Component GPT4": "Data Pipeline"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "process_images_in_process_pool",
+        "Updated": "process_images_in_process_pool",
+        "Location": "face_recognition/face_detection_cli.py",
+        "Original Line": 29,
+        "Updated Line": 29,
+        "Description": [
+            "The parameters [ upsample ] are added to the method process_images_in_process_pool from the module face_recognition/face_detection_cli.py"
+        ],
+        "Commit": "3337c1e0505bef73840690807d99101656995152",
+        "Component": "Data Pipeline",
+        "Component GPT4": "Data Pipeline"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_image",
+        "Updated": "test_image",
+        "Location": "face_recognition/face_detection_cli.py",
+        "Original Line": 17,
+        "Updated Line": 17,
+        "Description": [
+            "The parameters [ upsample ] are added to the method test_image from the module face_recognition/face_detection_cli.py"
+        ],
+        "Commit": "3337c1e0505bef73840690807d99101656995152",
+        "Component": "Data Pipeline",
+        "Component GPT4": "Data Pipeline"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "face_encodings",
+        "Updated": "face_encodings",
+        "Location": "face_recognition/api.py",
+        "Original Line": 203,
+        "Updated Line": 203,
+        "Description": [
+            "The parameters [ model ] are added to the method face_encodings from the module face_recognition/api.py"
+        ],
+        "Commit": "4d7bc049468ee78c971c2609af8979f1ab092584",
+        "Component": "Model Development",
+        "Component GPT4": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "css_to_rect",
+        "Updated": "_css_to_rect",
+        "Location": "face_recognition/api.py",
+        "Original Line": 24,
+        "Updated Line": 25,
+        "Description": [
+            "The method css_to_rect from the module face_recognition/api.py is renamed to _css_to_rect"
+        ],
+        "Commit": "51acc6e0558802b365e33b142cfcd8d5b16564ee",
+        "Component": "Data Pipeline",
+        "Component GPT4": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "face_distance",
+        "Updated": "_face_distance",
+        "Location": "face_recognition/api.py",
+        "Original Line": 33,
+        "Updated Line": 35,
+        "Description": [
+            "The method face_distance from the module face_recognition/api.py is renamed to _face_distance"
+        ],
+        "Commit": "51acc6e0558802b365e33b142cfcd8d5b16564ee",
+        "Component": "Model Development",
+        "Component GPT4": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "raw_face_landmarks",
+        "Updated": "_raw_face_landmarks",
+        "Location": "face_recognition/api.py",
+        "Original Line": 74,
+        "Updated Line": 80,
+        "Description": [
+            "The method raw_face_landmarks from the module face_recognition/api.py is renamed to _raw_face_landmarks"
+        ],
+        "Commit": "51acc6e0558802b365e33b142cfcd8d5b16564ee",
+        "Component": "Model Development",
+        "Component GPT4": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "raw_face_locations",
+        "Updated": "_raw_face_locations",
+        "Location": "face_recognition/api.py",
+        "Original Line": 53,
+        "Updated Line": 57,
+        "Description": [
+            "The method raw_face_locations from the module face_recognition/api.py is renamed to _raw_face_locations"
+        ],
+        "Commit": "51acc6e0558802b365e33b142cfcd8d5b16564ee",
+        "Component": "Model Development",
+        "Component GPT4": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "rect_to_css",
+        "Updated": "_rect_to_css",
+        "Location": "face_recognition/api.py",
+        "Original Line": 15,
+        "Updated Line": 15,
+        "Description": [
+            "The method rect_to_css from the module face_recognition/api.py is renamed to _rect_to_css"
+        ],
+        "Commit": "51acc6e0558802b365e33b142cfcd8d5b16564ee",
+        "Component": "Model Development",
+        "Component GPT4": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_raw_face_landmarks",
+        "Updated": "_raw_face_landmarks",
+        "Location": "face_recognition/api.py",
+        "Original Line": 146,
+        "Updated Line": 149,
+        "Description": [
+            "The parameters [ model ] are added to the method _raw_face_landmarks from the module face_recognition/api.py"
+        ],
+        "Commit": "5f804870c14803c2664942c958f11112276a79cc",
+        "Component": "Model Development",
+        "Component GPT4": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "load_image_file",
+        "Updated": "load_image_file",
+        "Location": "face_recognition/api.py",
+        "Original Line": 70,
+        "Updated Line": 70,
+        "Description": [
+            "The parameters [ filename ] of the method load_image_file from the module face_recognition/api.py are changed/renamed to [name]"
+        ],
+        "Commit": "60fe4e8c0054c10171a206f5f01013502c8274e2",
+        "Component": "Data Pipeline",
+        "Component GPT4": "Data Pipeline"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "main",
+        "Updated": "main",
+        "Location": "face_recognition/cli.py",
+        "Original Line": 81,
+        "Updated Line": 82,
+        "Description": [
+            "The parameters [ tolerance ] are added to the method main from the module face_recognition/cli.py"
+        ],
+        "Commit": "b8a803731c23dbf73ac3e219a847f6e2ea5a582d",
+        "Component": "Model Development",
+        "Component GPT4": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "process_images_in_process_pool",
+        "Updated": "process_images_in_process_pool",
+        "Location": "face_recognition/cli.py",
+        "Original Line": 60,
+        "Updated Line": 60,
+        "Description": [
+            "The parameters [ tolerance ] are added to the method process_images_in_process_pool from the module face_recognition/cli.py"
+        ],
+        "Commit": "b8a803731c23dbf73ac3e219a847f6e2ea5a582d",
+        "Component": "Data Pipeline",
+        "Component GPT4": "Data Pipeline"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_image",
+        "Updated": "test_image",
+        "Location": "face_recognition/cli.py",
+        "Original Line": 35,
+        "Updated Line": 35,
+        "Description": [
+            "The parameters [ tolerance ] are added to the method test_image from the module face_recognition/cli.py"
+        ],
+        "Commit": "b8a803731c23dbf73ac3e219a847f6e2ea5a582d",
+        "Component": "Data Pipeline",
+        "Component GPT4": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "main",
+        "Updated": "main",
+        "Location": "face_recognition/cli.py",
+        "Original Line": 82,
+        "Updated Line": 98,
+        "Description": [
+            "The parameters [ show_distance ] are added to the method main from the module face_recognition/cli.py"
+        ],
+        "Commit": "bf1825257f3fcf22e10f8d1ce78aaf0e5dec8070",
+        "Component": "Data Pipeline",
+        "Component GPT4": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "process_images_in_process_pool",
+        "Updated": "process_images_in_process_pool",
+        "Location": "face_recognition/cli.py",
+        "Original Line": 60,
+        "Updated Line": 68,
+        "Description": [
+            "The parameters [ show_distance ] are added to the method process_images_in_process_pool from the module face_recognition/cli.py"
+        ],
+        "Commit": "bf1825257f3fcf22e10f8d1ce78aaf0e5dec8070",
+        "Component": "Data Pipeline",
+        "Component GPT4": "Data Pipeline"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_image",
+        "Updated": "test_image",
+        "Location": "face_recognition/cli.py",
+        "Original Line": 35,
+        "Updated Line": 42,
+        "Description": [
+            "The parameters [ show_distance ] are added to the method test_image from the module face_recognition/cli.py"
+        ],
+        "Commit": "bf1825257f3fcf22e10f8d1ce78aaf0e5dec8070",
+        "Component": "Data Pipeline",
+        "Component GPT4": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_raw_face_locations_batched",
+        "Updated": "_raw_face_locations_batched",
+        "Location": "face_recognition/api.py",
+        "Original Line": 119,
+        "Updated Line": 119,
+        "Description": [
+            "The parameters [ batch_size ] are added to the method _raw_face_locations_batched from the module face_recognition/api.py"
+        ],
+        "Commit": "df83b441a98d4b9a6c824738d30ccb44775fa51e",
+        "Component": "Model Development",
+        "Component GPT4": "Data Pipeline"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "capture",
+        "Updated": "capture",
+        "Location": "examples/facerec_from_webcam_multiprocessing.py",
+        "Original Line": 33,
+        "Updated Line": 35,
+        "Description": [
+            "The parameters [ Global worker_num ] are added to the method capture from the module examples/facerec_from_webcam_multiprocessing.py"
+        ],
+        "Commit": "df84e2cd8a225e0f3094bd8cb13172aa9b918f29",
+        "Component": "Model Development",
+        "Component GPT4": "Data Pipeline"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "next_id",
+        "Updated": "next_id",
+        "Location": "examples/facerec_from_webcam_multiprocessing.py",
+        "Original Line": 17,
+        "Updated Line": 19,
+        "Description": [
+            "The parameters [ worker_num ] are added to the method next_id from the module examples/facerec_from_webcam_multiprocessing.py"
+        ],
+        "Commit": "df84e2cd8a225e0f3094bd8cb13172aa9b918f29",
+        "Component": "Model Development",
+        "Component GPT4": "Data Pipeline"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "prev_id",
+        "Updated": "prev_id",
+        "Location": "examples/facerec_from_webcam_multiprocessing.py",
+        "Original Line": 25,
+        "Updated Line": 27,
+        "Description": [
+            "The parameters [ worker_num ] are added to the method prev_id from the module examples/facerec_from_webcam_multiprocessing.py"
+        ],
+        "Commit": "df84e2cd8a225e0f3094bd8cb13172aa9b918f29",
+        "Component": "Model Development",
+        "Component GPT4": "Data Pipeline"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "process",
+        "Updated": "process",
+        "Location": "examples/facerec_from_webcam_multiprocessing.py",
+        "Original Line": 56,
+        "Updated Line": 58,
+        "Description": [
+            "The parameters [ Global worker_num ] are added to the method process from the module examples/facerec_from_webcam_multiprocessing.py"
+        ],
+        "Commit": "df84e2cd8a225e0f3094bd8cb13172aa9b918f29",
+        "Component": "Model Development",
+        "Component GPT4": "Data Pipeline"
+    }
+]

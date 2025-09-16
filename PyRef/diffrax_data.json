@@ -1,0 +1,1038 @@
+[
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "adapt_step_size",
+        "Updated": "adapt_step_size",
+        "Location": "diffrax/step_size_controller/constant.py/ConstantStepSize",
+        "Original Line": 37,
+        "Updated Line": 37,
+        "Description": [
+            "The parameters [ solver_order ] of the method adapt_step_size from the module diffrax/step_size_controller/constant.py in class ConstantStepSize are changed/renamed to [local_order]"
+        ],
+        "Commit": "0af10948769270ba585825d10889c9937b1f6ef5"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "adapt_step_size",
+        "Updated": "adapt_step_size",
+        "Location": "diffrax/step_size_controller/constant.py/StepTo",
+        "Original Line": 99,
+        "Updated Line": 99,
+        "Description": [
+            "The parameters [ solver_order ] of the method adapt_step_size from the module diffrax/step_size_controller/constant.py in class StepTo are changed/renamed to [local_order]"
+        ],
+        "Commit": "0af10948769270ba585825d10889c9937b1f6ef5"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "ravel_pytree",
+        "Updated": "ravel_pytree",
+        "Location": "diffrax/misc/ravel.py",
+        "Original Line": 58,
+        "Updated Line": 62,
+        "Description": [
+            "The return type of method ravel_pytree from the module diffrax/misc/ravel.py is updated"
+        ],
+        "Commit": "193f84053f6812406862f3546552591b4b5b1554"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_calculate_jacobian",
+        "Updated": "calculate_jacobian",
+        "Location": "diffrax/solver/runge_kutta.py/AbstractRungeKutta",
+        "Original Line": 149,
+        "Updated Line": 205,
+        "Description": [
+            "The method _calculate_jacobian from the module diffrax/solver/runge_kutta.py in class AbstractRungeKutta is renamed to calculate_jacobian"
+        ],
+        "Commit": "4116e804732fe5296df4eb26a2847ccf0f545991"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "step",
+        "Updated": "step",
+        "Location": "diffrax/solver/euler.py/Euler",
+        "Original Line": 56,
+        "Updated Line": 56,
+        "Description": [
+            "The return type of method step from the module diffrax/solver/euler.py in class Euler is updated"
+        ],
+        "Commit": "540f6905cb91852ba00a35bcb23e3d997e73511b"
+    },
+    {
+        "Refactoring Type": "Pull Up Method",
+        "Original": "init",
+        "Updated": "init",
+        "Old Location": "diffrax/solver/euler.py/Euler",
+        "New Location": "diffrax/solver/base.py/AbstractSolver",
+        "Old Method Line": 59,
+        "New Method Line": 18,
+        "Description": " method init from the module diffrax/solver/euler.py in class Euler was moved to class AbstractSolver of module diffrax/solver/base.py ",
+        "Commit": "540f6905cb91852ba00a35bcb23e3d997e73511b"
+    },
+    {
+        "Refactoring Type": "Inline Method",
+        "Original": "_body_fun",
+        "Updated": "_maybe_inplace",
+        "Location": "diffrax/integrate.py",
+        "Original Method Line": "(396,401)",
+        "Extracted/Inlined Method Line": 404,
+        "Extracted/Inlined Lines": [
+            416.0
+        ],
+        "Description": " The method _maybe_inplace from the module diffrax/integrate.py is inlined into method _body_fun from the module diffrax/integrate.py ",
+        "Commit": "5501811d69cd04237ddff9ffd1dcc74fbd3484a4"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "wrap",
+        "Updated": "wrap",
+        "Location": "diffrax/solver/base.py/AbstractSolver",
+        "Original Line": 25,
+        "Updated Line": 25,
+        "Description": [
+            "The parameters [ direction ] are added to the method wrap from the module diffrax/solver/base.py in class AbstractSolver"
+        ],
+        "Commit": "5ab2e66c8d70f96d559cfa0a9b7ba08be18117a1"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "wrap",
+        "Updated": "wrap",
+        "Location": "diffrax/solver/euler.py/Euler",
+        "Original Line": 19,
+        "Updated Line": 19,
+        "Description": [
+            "The parameters [ direction ] are added to the method wrap from the module diffrax/solver/euler.py in class Euler"
+        ],
+        "Commit": "5ab2e66c8d70f96d559cfa0a9b7ba08be18117a1"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "wrap",
+        "Updated": "wrap",
+        "Location": "diffrax/solver/leapfrog_midpoint.py/LeapfrogMidpoint",
+        "Original Line": 21,
+        "Updated Line": 21,
+        "Description": [
+            "The parameters [ direction ] are added to the method wrap from the module diffrax/solver/leapfrog_midpoint.py in class LeapfrogMidpoint"
+        ],
+        "Commit": "5ab2e66c8d70f96d559cfa0a9b7ba08be18117a1"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "wrap",
+        "Updated": "wrap",
+        "Location": "diffrax/solver/reversible_heun.py/ReversibleHeun",
+        "Original Line": 19,
+        "Updated Line": 19,
+        "Description": [
+            "The parameters [ direction ] are added to the method wrap from the module diffrax/solver/reversible_heun.py in class ReversibleHeun"
+        ],
+        "Commit": "5ab2e66c8d70f96d559cfa0a9b7ba08be18117a1"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "wrap",
+        "Updated": "wrap",
+        "Location": "diffrax/solver/runge_kutta.py/RungeKutta",
+        "Original Line": 51,
+        "Updated Line": 51,
+        "Description": [
+            "The parameters [ direction ] are added to the method wrap from the module diffrax/solver/runge_kutta.py in class RungeKutta"
+        ],
+        "Commit": "5ab2e66c8d70f96d559cfa0a9b7ba08be18117a1"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "wrap",
+        "Updated": "wrap",
+        "Location": "diffrax/step_size_controller/adaptive.py/IController",
+        "Original Line": 87,
+        "Updated Line": 92,
+        "Description": [
+            "The parameters [ direction ] are added to the method wrap from the module diffrax/step_size_controller/adaptive.py in class IController"
+        ],
+        "Commit": "5ab2e66c8d70f96d559cfa0a9b7ba08be18117a1"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "wrap",
+        "Updated": "wrap",
+        "Location": "diffrax/step_size_controller/base.py/AbstractStepSizeController",
+        "Original Line": 14,
+        "Updated Line": 14,
+        "Description": [
+            "The parameters [ direction ] are added to the method wrap from the module diffrax/step_size_controller/base.py in class AbstractStepSizeController"
+        ],
+        "Commit": "5ab2e66c8d70f96d559cfa0a9b7ba08be18117a1"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "wrap",
+        "Updated": "wrap",
+        "Location": "diffrax/step_size_controller/constant.py/ConstantStepSize",
+        "Original Line": 9,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ direction ] are added to the method wrap from the module diffrax/step_size_controller/constant.py in class ConstantStepSize"
+        ],
+        "Commit": "5ab2e66c8d70f96d559cfa0a9b7ba08be18117a1"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "init",
+        "Updated": "init",
+        "Location": "diffrax/solver/base.py/AbstractSolver",
+        "Original Line": 15,
+        "Updated Line": 15,
+        "Description": [
+            "The parameters [ t1 ] are added to the method init from the module diffrax/solver/base.py in class AbstractSolver"
+        ],
+        "Commit": "5d100d91fab2dea7570fbfca339fb2db1687e4c0"
+    },
+    {
+        "Refactoring Type": "Inline Method",
+        "Original": "diffeqsolve",
+        "Updated": "_jit_all",
+        "Location": "diffrax/integrate.py",
+        "Original Method Line": "(189,184)",
+        "Extracted/Inlined Method Line": 139,
+        "Extracted/Inlined Lines": [
+            358.0
+        ],
+        "Description": " The method _jit_all from the module diffrax/integrate.py is inlined into method diffeqsolve from the module diffrax/integrate.py ",
+        "Commit": "6b7fbe35339e33e6f023218ca981d05907e94835"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "_calculate",
+        "Updated": "_calculate",
+        "Location": "diffrax/local_interpolation.py/ThirdOrderHermitePolynomialInterpolation",
+        "Original Line": 50,
+        "Updated Line": 50,
+        "Description": [
+            "The parameters [ _f0 _f1 ] of the method _calculate from the module diffrax/local_interpolation.py in class ThirdOrderHermitePolynomialInterpolation are changed/renamed to [_k0 _k1]"
+        ],
+        "Commit": "73777558a82d113846e072a7d0eac90dec9f38ed"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "step",
+        "Updated": "step",
+        "Location": "diffrax/solver/implicit_euler.py/ImplicitEuler",
+        "Original Line": 34,
+        "Updated Line": 55,
+        "Description": [
+            "The return type of method step from the module diffrax/solver/implicit_euler.py in class ImplicitEuler is updated"
+        ],
+        "Commit": "73777558a82d113846e072a7d0eac90dec9f38ed"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "evaluate",
+        "Updated": "evaluate",
+        "Location": "diffrax/brownian/path.py/UnsafeBrownianPath",
+        "Original Line": 45,
+        "Updated Line": 45,
+        "Description": [
+            "The parameters [ left ] are added to the method evaluate from the module diffrax/brownian/path.py in class UnsafeBrownianPath"
+        ],
+        "Commit": "8204a5ec4c47aa958889865ff53f608491c1916d"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "derivative",
+        "Updated": "derivative",
+        "Location": "diffrax/path.py/AbstractPath",
+        "Original Line": 14,
+        "Updated Line": 84,
+        "Description": [
+            "The parameters [ left ] are added to the method derivative from the module diffrax/path.py in class AbstractPath"
+        ],
+        "Commit": "8204a5ec4c47aa958889865ff53f608491c1916d"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "evaluate",
+        "Updated": "evaluate",
+        "Location": "diffrax/path.py/AbstractPath",
+        "Original Line": 20,
+        "Updated Line": 51,
+        "Description": [
+            "The parameters [ left ] are added to the method evaluate from the module diffrax/path.py in class AbstractPath"
+        ],
+        "Commit": "8204a5ec4c47aa958889865ff53f608491c1916d"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "func",
+        "Updated": "func",
+        "Location": "diffrax/_solver/milstein.py/ItoMilstein",
+        "Original Line": 357,
+        "Updated Line": 357,
+        "Description": [
+            "The return type of method func from the module diffrax/_solver/milstein.py in class ItoMilstein is updated"
+        ],
+        "Commit": "95055cc898bacfba5fedaee672f2cadc51469e4f"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "diffrax/misc/omega.py/\u03c9",
+        "Original Line": 27,
+        "Updated Line": 34,
+        "Description": [
+            "The parameters [ is_leaf ] are added to the method __init__ from the module diffrax/misc/omega.py in class \u03c9"
+        ],
+        "Commit": "9ca6f71daa66f2101ac14411adf704bd990f81fb"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "diffrax/misc/omega.py/_\u03c9UpdateHelper",
+        "Original Line": 77,
+        "Updated Line": 122,
+        "Description": [
+            "The parameters [ is_leaf ] are added to the method __init__ from the module diffrax/misc/omega.py in class _\u03c9UpdateHelper"
+        ],
+        "Commit": "9ca6f71daa66f2101ac14411adf704bd990f81fb"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "diffrax/misc/omega.py/_\u03c9UpdateRef",
+        "Original Line": 85,
+        "Updated Line": 131,
+        "Description": [
+            "The parameters [ is_leaf ] are added to the method __init__ from the module diffrax/misc/omega.py in class _\u03c9UpdateRef"
+        ],
+        "Commit": "9ca6f71daa66f2101ac14411adf704bd990f81fb"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "step",
+        "Updated": "step",
+        "Location": "diffrax/solver/base.py/AbstractSolver",
+        "Original Line": 23,
+        "Updated Line": 23,
+        "Description": [
+            "The parameters [ y_treedef ] are added to the method step from the module diffrax/solver/base.py in class AbstractSolver"
+        ],
+        "Commit": "9eacd9808f2c994ae8572615028eaa41734a3f2a"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "diff_step",
+        "Updated": "diff_step",
+        "Location": "diffrax/solver/euler.py/Euler",
+        "Original Line": 59,
+        "Updated Line": 60,
+        "Description": [
+            "The parameters [ treedef ] of the method diff_step from the module diffrax/solver/euler.py in class Euler are changed/renamed to [y_treedef]"
+        ],
+        "Commit": "9eacd9808f2c994ae8572615028eaa41734a3f2a"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "eval_step",
+        "Updated": "eval_step",
+        "Location": "diffrax/solver/euler.py/Euler",
+        "Original Line": 65,
+        "Updated Line": 70,
+        "Description": [
+            "The parameters [ treedef ] of the method eval_step from the module diffrax/solver/euler.py in class Euler are changed/renamed to [y_treedef]"
+        ],
+        "Commit": "9eacd9808f2c994ae8572615028eaa41734a3f2a"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "step",
+        "Updated": "step",
+        "Location": "diffrax/solver/euler.py/Euler",
+        "Original Line": 53,
+        "Updated Line": 54,
+        "Description": [
+            "The parameters [ y_treedef ] are added to the method step from the module diffrax/solver/euler.py in class Euler"
+        ],
+        "Commit": "9eacd9808f2c994ae8572615028eaa41734a3f2a"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "_euler_diff_step",
+        "Updated": "_euler_diff_step",
+        "Location": "diffrax/solver/euler.py",
+        "Original Line": 14,
+        "Updated Line": 13,
+        "Description": [
+            "The parameters [ treedef ] of the method _euler_diff_step from the module diffrax/solver/euler.py are changed/renamed to [y_treedef]"
+        ],
+        "Commit": "9eacd9808f2c994ae8572615028eaa41734a3f2a"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "_euler_eval_step",
+        "Updated": "_euler_eval_step",
+        "Location": "diffrax/solver/euler.py",
+        "Original Line": 28,
+        "Updated Line": 28,
+        "Description": [
+            "The parameters [ treedef ] of the method _euler_eval_step from the module diffrax/solver/euler.py are changed/renamed to [y_treedef]"
+        ],
+        "Commit": "9eacd9808f2c994ae8572615028eaa41734a3f2a"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "diff_control_",
+        "Updated": "diff_control_",
+        "Location": "diffrax/term.py/AbstractTerm",
+        "Original Line": 44,
+        "Updated Line": 43,
+        "Description": [
+            "The return type of method diff_control_ from the module diffrax/term.py in class AbstractTerm is updated"
+        ],
+        "Commit": "9eacd9808f2c994ae8572615028eaa41734a3f2a"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "eval_control_",
+        "Updated": "eval_control_",
+        "Location": "diffrax/term.py/AbstractTerm",
+        "Original Line": 49,
+        "Updated Line": 47,
+        "Description": [
+            "The return type of method eval_control_ from the module diffrax/term.py in class AbstractTerm is updated"
+        ],
+        "Commit": "9eacd9808f2c994ae8572615028eaa41734a3f2a"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "vector_field_",
+        "Updated": "vector_field_",
+        "Location": "diffrax/term.py/AbstractTerm",
+        "Original Line": 37,
+        "Updated Line": 37,
+        "Description": [
+            "The return type of method vector_field_ from the module diffrax/term.py in class AbstractTerm is updated"
+        ],
+        "Commit": "9eacd9808f2c994ae8572615028eaa41734a3f2a"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_step",
+        "Updated": "_step",
+        "Location": "diffrax/integrate.py",
+        "Original Line": 17,
+        "Updated Line": 22,
+        "Description": [
+            "The parameters [ result ] are added to the method _step from the module diffrax/integrate.py"
+        ],
+        "Commit": "9f0038e3915f9a004183afa6d119178c2ec1079b"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "nextbefore",
+        "Updated": "prevbefore",
+        "Location": "diffrax/misc/nextafter.py",
+        "Original Line": 22,
+        "Updated Line": 22,
+        "Description": [
+            "The method nextbefore from the module diffrax/misc/nextafter.py is renamed to prevbefore"
+        ],
+        "Commit": "b30e93fe274b7b300103629e25a8f1b1e682a3c4"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "diffeqsolve",
+        "Updated": "_save_interp",
+        "Location": "diffrax/integrate.py",
+        "Original Method Line": "(141,161)",
+        "Extracted/Inlined Method Line": 130,
+        "Extracted/Inlined Lines": [
+            254.0,
+            258.0,
+            261.0,
+            265.0
+        ],
+        "Description": " The method _save_interp from the module diffrax/integrate.py is extracted from method diffeqsolve from the module diffrax/integrate.py ",
+        "Commit": "ba1dc0bafd52a17a0727bd14d6c48136c3d54efc"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__call__",
+        "Updated": "__call__",
+        "Location": "examples/neural_ode.py/NeuralODE",
+        "Original Line": 46,
+        "Updated Line": 44,
+        "Description": [
+            "The parameters [ t ] are added to the method __call__ from the module examples/neural_ode.py in class NeuralODE"
+        ],
+        "Commit": "bcf89be1267d39ca86a857db3fc68ac862339624"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "examples/neural_ode.py/NeuralODE",
+        "Original Line": 37,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ t ] of the method __init__ from the module examples/neural_ode.py in class NeuralODE is/are removed"
+        ],
+        "Commit": "bcf89be1267d39ca86a857db3fc68ac862339624"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "loss",
+        "Updated": "loss",
+        "Location": "examples/neural_ode.py",
+        "Original Line": 105,
+        "Updated Line": 103,
+        "Description": [
+            "The parameters [ t ] are added to the method loss from the module examples/neural_ode.py"
+        ],
+        "Commit": "bcf89be1267d39ca86a857db3fc68ac862339624"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter",
+            "Change Return Type"
+        ],
+        "Original": "adapt_step_size",
+        "Updated": "init",
+        "Location": "diffrax/step_size_controller/base.py/AbstractStepSizeController",
+        "Original Line": 30,
+        "Updated Line": 16,
+        "Description": [
+            "The method adapt_step_size from the module diffrax/step_size_controller/base.py in class AbstractStepSizeController is renamed to init",
+            "The parameters [ y_error controller_state ] of the method adapt_step_size from the module diffrax/step_size_controller/base.py in class AbstractStepSizeController is/are removed",
+            "The return type of method adapt_step_size from the module diffrax/step_size_controller/base.py in class AbstractStepSizeController is updated"
+        ],
+        "Commit": "bdec016732e2231fdab85eac7df4c6f8892dc3c0"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "diff_control",
+        "Updated": "contr",
+        "Location": "diffrax/term.py/AbstractTerm",
+        "Original Line": 26,
+        "Updated Line": 26,
+        "Description": [
+            "The method diff_control from the module diffrax/term.py in class AbstractTerm is renamed to contr",
+            "The parameters [ t1 ] are added to the method diff_control from the module diffrax/term.py in class AbstractTerm"
+        ],
+        "Commit": "c10a29a24517a156107e64b05c4c785045b0a7b3"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "eval_control_",
+        "Updated": "contr_",
+        "Location": "diffrax/term.py/AbstractTerm",
+        "Original Line": 56,
+        "Updated Line": 46,
+        "Description": [
+            "The method eval_control_ from the module diffrax/term.py in class AbstractTerm is renamed to contr_"
+        ],
+        "Commit": "c10a29a24517a156107e64b05c4c785045b0a7b3"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "eval_control",
+        "Updated": "contr",
+        "Location": "diffrax/term.py/ControlTerm",
+        "Original Line": 106,
+        "Updated Line": 108,
+        "Description": [
+            "The method eval_control from the module diffrax/term.py in class ControlTerm is renamed to contr"
+        ],
+        "Commit": "c10a29a24517a156107e64b05c4c785045b0a7b3"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "eval_control",
+        "Updated": "contr",
+        "Location": "diffrax/term.py/ODETerm",
+        "Original Line": 127,
+        "Updated Line": 90,
+        "Description": [
+            "The method eval_control from the module diffrax/term.py in class ODETerm is renamed to contr"
+        ],
+        "Commit": "c10a29a24517a156107e64b05c4c785045b0a7b3"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "step",
+        "Updated": "step",
+        "Location": "diffrax/solver/base.py/AbstractSolver",
+        "Original Line": 22,
+        "Updated Line": 19,
+        "Description": [
+            "The return type of method step from the module diffrax/solver/base.py in class AbstractSolver is updated"
+        ],
+        "Commit": "c1cd4e5d581c5979be10f8cba258d540ff3b145e"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "diff_step",
+        "Updated": "diff_step",
+        "Location": "diffrax/solver/euler.py/Euler",
+        "Original Line": 67,
+        "Updated Line": 66,
+        "Description": [
+            "The return type of method diff_step from the module diffrax/solver/euler.py in class Euler is updated"
+        ],
+        "Commit": "c1cd4e5d581c5979be10f8cba258d540ff3b145e"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "eval_step",
+        "Updated": "eval_step",
+        "Location": "diffrax/solver/euler.py/Euler",
+        "Original Line": 80,
+        "Updated Line": 79,
+        "Description": [
+            "The return type of method eval_step from the module diffrax/solver/euler.py in class Euler is updated"
+        ],
+        "Commit": "c1cd4e5d581c5979be10f8cba258d540ff3b145e"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "step",
+        "Updated": "step",
+        "Location": "diffrax/solver/euler.py/Euler",
+        "Original Line": 56,
+        "Updated Line": 55,
+        "Description": [
+            "The return type of method step from the module diffrax/solver/euler.py in class Euler is updated"
+        ],
+        "Commit": "c1cd4e5d581c5979be10f8cba258d540ff3b145e"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "_euler_diff_step",
+        "Updated": "_euler_diff_step",
+        "Location": "diffrax/solver/euler.py",
+        "Original Line": 13,
+        "Updated Line": 12,
+        "Description": [
+            "The return type of method _euler_diff_step from the module diffrax/solver/euler.py is updated"
+        ],
+        "Commit": "c1cd4e5d581c5979be10f8cba258d540ff3b145e"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "_euler_eval_step",
+        "Updated": "_euler_eval_step",
+        "Location": "diffrax/solver/euler.py",
+        "Original Line": 29,
+        "Updated Line": 28,
+        "Description": [
+            "The return type of method _euler_eval_step from the module diffrax/solver/euler.py is updated"
+        ],
+        "Commit": "c1cd4e5d581c5979be10f8cba258d540ff3b145e"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_loop_fn",
+        "Updated": "_loop",
+        "Location": "diffrax/adjoint.py/AbstractAdjoint",
+        "Original Line": 125,
+        "Updated Line": 128,
+        "Description": [
+            "The method _loop_fn from the module diffrax/adjoint.py in class AbstractAdjoint is renamed to _loop"
+        ],
+        "Commit": "d6ed3719062b9ff779071d742a97c3889bc43713"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "NoAdjoint",
+        "Updated": "DirectAdjoint",
+        "Location": "diffrax/adjoint.py",
+        "Description": " class NoAdjoint was renamed to class DirectAdjoint ",
+        "Commit": "d6ed3719062b9ff779071d742a97c3889bc43713"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "_euler_diff_step",
+        "Updated": "_euler_diff_step",
+        "Location": "diffrax/solver/euler.py",
+        "Original Line": 12,
+        "Updated Line": 17,
+        "Description": [
+            "The parameters [ vector_field_prod_ ] of the method _euler_diff_step from the module diffrax/solver/euler.py are changed/renamed to [vf_prod_]"
+        ],
+        "Commit": "d9596481899681d6b235b3fe4b0a68358839300e"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "_euler_eval_step",
+        "Updated": "_euler_eval_step",
+        "Location": "diffrax/solver/euler.py",
+        "Original Line": 28,
+        "Updated Line": 33,
+        "Description": [
+            "The parameters [ vector_field_prod_ ] of the method _euler_eval_step from the module diffrax/solver/euler.py are changed/renamed to [vf_prod_]"
+        ],
+        "Commit": "d9596481899681d6b235b3fe4b0a68358839300e"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "vector_field",
+        "Updated": "vf",
+        "Location": "diffrax/term.py/AbstractTerm",
+        "Original Line": 21,
+        "Updated Line": 21,
+        "Description": [
+            "The method vector_field from the module diffrax/term.py in class AbstractTerm is renamed to vf"
+        ],
+        "Commit": "d9596481899681d6b235b3fe4b0a68358839300e"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "vector_field_",
+        "Updated": "vf_",
+        "Location": "diffrax/term.py/AbstractTerm",
+        "Original Line": 41,
+        "Updated Line": 44,
+        "Description": [
+            "The method vector_field_ from the module diffrax/term.py in class AbstractTerm is renamed to vf_"
+        ],
+        "Commit": "d9596481899681d6b235b3fe4b0a68358839300e"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "vector_field_prod",
+        "Updated": "vf_prod",
+        "Location": "diffrax/term.py/AbstractTerm",
+        "Original Line": 37,
+        "Updated Line": 40,
+        "Description": [
+            "The method vector_field_prod from the module diffrax/term.py in class AbstractTerm is renamed to vf_prod"
+        ],
+        "Commit": "d9596481899681d6b235b3fe4b0a68358839300e"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "vector_field_prod_",
+        "Updated": "vf_prod_",
+        "Location": "diffrax/term.py/AbstractTerm",
+        "Original Line": 72,
+        "Updated Line": 75,
+        "Description": [
+            "The method vector_field_prod_ from the module diffrax/term.py in class AbstractTerm is renamed to vf_prod_"
+        ],
+        "Commit": "d9596481899681d6b235b3fe4b0a68358839300e"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "prod",
+        "Updated": "prod",
+        "Location": "diffrax/term.py/ControlTerm",
+        "Original Line": 107,
+        "Updated Line": 110,
+        "Description": [
+            "The parameters [ self ] of the method prod from the module diffrax/term.py in class ControlTerm is/are removed"
+        ],
+        "Commit": "d9596481899681d6b235b3fe4b0a68358839300e"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "diff_control",
+        "Updated": "diff_control",
+        "Location": "diffrax/term.py/ODETerm",
+        "Original Line": 120,
+        "Updated Line": 123,
+        "Description": [
+            "The parameters [ self ] of the method diff_control from the module diffrax/term.py in class ODETerm is/are removed"
+        ],
+        "Commit": "d9596481899681d6b235b3fe4b0a68358839300e"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "eval_control",
+        "Updated": "eval_control",
+        "Location": "diffrax/term.py/ODETerm",
+        "Original Line": 124,
+        "Updated Line": 127,
+        "Description": [
+            "The parameters [ self ] of the method eval_control from the module diffrax/term.py in class ODETerm is/are removed"
+        ],
+        "Commit": "d9596481899681d6b235b3fe4b0a68358839300e"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "prod",
+        "Updated": "prod",
+        "Location": "diffrax/term.py/ODETerm",
+        "Original Line": 128,
+        "Updated Line": 131,
+        "Description": [
+            "The parameters [ self ] of the method prod from the module diffrax/term.py in class ODETerm is/are removed"
+        ],
+        "Commit": "d9596481899681d6b235b3fe4b0a68358839300e"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "__call__",
+        "Updated": "_setup",
+        "Location": "examples/neural_sde.py/NeuralSDE",
+        "Original Method Line": "(148,154)",
+        "Extracted/Inlined Method Line": 147,
+        "Extracted/Inlined Lines": [
+            149.0,
+            150.0,
+            151.0,
+            152.0
+        ],
+        "Description": " The method _setup from the module examples/neural_sde.py in class NeuralSDE is extracted from method __call__ from the module examples/neural_sde.py in class NeuralSDE ",
+        "Commit": "eb5707e12d9f226d50d544ad7dd85b24bb2f3adb"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "__call__",
+        "Updated": "_setup",
+        "Location": "examples/neural_sde.py/NeuralCDE",
+        "Original Method Line": "(171,184)",
+        "Extracted/Inlined Method Line": 175,
+        "Extracted/Inlined Lines": [
+            172.0,
+            175.0,
+            176.0,
+            177.0
+        ],
+        "Description": " The method _setup from the module examples/neural_sde.py in class NeuralCDE is extracted from method __call__ from the module examples/neural_sde.py in class NeuralCDE ",
+        "Commit": "eb5707e12d9f226d50d544ad7dd85b24bb2f3adb"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "loss_and_grads",
+        "Updated": "grad_loss",
+        "Location": "examples/neural_sde.py",
+        "Original Line": 256,
+        "Updated Line": 264,
+        "Description": [
+            "The method loss_and_grads from the module examples/neural_sde.py is renamed to grad_loss"
+        ],
+        "Commit": "eb5707e12d9f226d50d544ad7dd85b24bb2f3adb"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "main",
+        "Updated": "make_step",
+        "Location": "examples/neural_sde.py",
+        "Original Method Line": "(261,306)",
+        "Extracted/Inlined Method Line": 281,
+        "Extracted/Inlined Lines": [
+            317.0
+        ],
+        "Description": " The method make_step from the module examples/neural_sde.py is extracted from method main from the module examples/neural_sde.py ",
+        "Commit": "eb5707e12d9f226d50d544ad7dd85b24bb2f3adb"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "examples/neural_sde.py/ControlledVectorField",
+        "Original Line": 43,
+        "Updated Line": 53,
+        "Description": [
+            "The parameters [ scale ] are added to the method __init__ from the module examples/neural_sde.py in class ControlledVectorField"
+        ],
+        "Commit": "ed4970ce152aaba97568d1d2b970cba03b8bd4f4"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "examples/neural_sde.py/DifferentialEquation",
+        "Original Line": 71,
+        "Updated Line": 87,
+        "Description": [
+            "The parameters [ scale ] are added to the method __init__ from the module examples/neural_sde.py in class DifferentialEquation"
+        ],
+        "Commit": "ed4970ce152aaba97568d1d2b970cba03b8bd4f4"
+    },
+    {
+        "Refactoring Type": "Inline Method",
+        "Original": "main",
+        "Updated": "make_step",
+        "Location": "examples/neural_sde.py",
+        "Original Method Line": "(306,300)",
+        "Extracted/Inlined Method Line": 281,
+        "Extracted/Inlined Lines": [
+            354.0,
+            355.0
+        ],
+        "Description": " The method make_step from the module examples/neural_sde.py is inlined into method main from the module examples/neural_sde.py ",
+        "Commit": "ed4970ce152aaba97568d1d2b970cba03b8bd4f4"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "init",
+        "Updated": "init",
+        "Location": "diffrax/step_size_controller.py/AbstractStepSizeController",
+        "Original Line": 13,
+        "Updated Line": 13,
+        "Description": [
+            "The parameters [ self ] are added to the method init from the module diffrax/step_size_controller.py in class AbstractStepSizeController"
+        ],
+        "Commit": "ee09a246c07a411c94bd7c4bed4af8be030f3c3a"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "init",
+        "Updated": "init",
+        "Location": "diffrax/step_size_controller.py/ConstantStepSize",
+        "Original Line": 31,
+        "Updated Line": 31,
+        "Description": [
+            "The parameters [ self ] are added to the method init from the module diffrax/step_size_controller.py in class ConstantStepSize"
+        ],
+        "Commit": "ee09a246c07a411c94bd7c4bed4af8be030f3c3a"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "diffeqx/solution.py/Solution",
+        "Original Line": 9,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ controller_state solver_state ] of the method __init__ from the module diffeqx/solution.py in class Solution are changed/renamed to [controller_states solver_states]"
+        ],
+        "Commit": "f5abd9376f0953f8203e3c23756d6b7a18d4a849"
+    }
+]

@@ -1,0 +1,794 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pytorch_translate/common_layers.py/OutputProjection",
+        "Original Line": 267,
+        "Updated Line": 267,
+        "Description": [
+            "The parameters [ vocab_reduction_module ] are added to the method __init__ from the module pytorch_translate/common_layers.py in class OutputProjection"
+        ],
+        "Commit": "01a9e3944bd3ec1e40e84f092e7a5a116e4c1985"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "forward",
+        "Updated": "forward",
+        "Location": "pytorch_translate/common_layers.py/OutputProjection",
+        "Original Line": 279,
+        "Updated Line": 282,
+        "Description": [
+            "The parameters [ src_tokens input_tokens possible_translation_tokens ] are added to the method forward from the module pytorch_translate/common_layers.py in class OutputProjection"
+        ],
+        "Commit": "01a9e3944bd3ec1e40e84f092e7a5a116e4c1985"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "compute_scores",
+        "Updated": "compute_scores",
+        "Location": "pytorch_translate/rescoring/model_scorers.py/SimpleModelScorer",
+        "Original Line": 99,
+        "Updated Line": 106,
+        "Description": [
+            "The parameters [ possible_translation_tokens ] are added to the method compute_scores from the module pytorch_translate/rescoring/model_scorers.py in class SimpleModelScorer"
+        ],
+        "Commit": "0de9fc7420e5b2966671e43eba9bbc9ef39918bb"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "expand_encoder_output",
+        "Updated": "expand_encoder_output",
+        "Location": "pytorch_translate/rnn.py/RNNModel",
+        "Original Line": 246,
+        "Updated Line": 247,
+        "Description": [
+            "The parameters [ self ] of the method expand_encoder_output from the module pytorch_translate/rnn.py in class RNNModel is/are removed"
+        ],
+        "Commit": "170f6beac106d22b795b8f89f5446094f9ab002a"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "CharEmbModel",
+        "Updated": "CharCNNModel",
+        "Location": "pytorch_translate/char_encoder.py",
+        "Description": " class CharEmbModel was renamed to class CharCNNModel ",
+        "Commit": "1affdf2a4148e88417f7bcfc37b3e106097170e9"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pytorch_translate/transformer_aan.py/TransformerAANModel",
+        "Original Line": 35,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ task ] are added to the method __init__ from the module pytorch_translate/transformer_aan.py in class TransformerAANModel"
+        ],
+        "Commit": "225ecb27346143971cef251c58259ea7b8a14c2f"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "encode",
+        "Updated": "encode",
+        "Location": "pytorch_translate/rescoring/model_scorers.py/SimpleModelScorer",
+        "Original Line": 91,
+        "Updated Line": 101,
+        "Description": [
+            "The parameters [ args ] of the method encode from the module pytorch_translate/rescoring/model_scorers.py in class SimpleModelScorer is/are removed"
+        ],
+        "Commit": "257581a0a15503d27b56378559a8428331466d97"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "prepare_encoder_inputs",
+        "Updated": "prepare_encoder_inputs",
+        "Location": "pytorch_translate/rescoring/model_scorers.py/SimpleModelScorer",
+        "Original Line": 86,
+        "Updated Line": 86,
+        "Description": [
+            "The parameters [ number_of_hypos ] are added to the method prepare_encoder_inputs from the module pytorch_translate/rescoring/model_scorers.py in class SimpleModelScorer"
+        ],
+        "Commit": "257581a0a15503d27b56378559a8428331466d97"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "SemisupervisedTransformerModel",
+        "Updated": "SemiSupervisedTransformerModel",
+        "Location": "pytorch_translate/transformer.py",
+        "Description": " class SemisupervisedTransformerModel was renamed to class SemiSupervisedTransformerModel ",
+        "Commit": "2867d486442ea7f596c25bcd1b57e80dcb795f68"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "multi_process_main",
+        "Updated": "multi_process_main",
+        "Location": "pytorch_translate/train.py",
+        "Original Line": 1109,
+        "Updated Line": 1109,
+        "Description": [
+            "The parameters [ use_output_queue ] of the method multi_process_main from the module pytorch_translate/train.py is/are removed"
+        ],
+        "Commit": "2f9b90cd97231db9eac09f440136dfb45ea2d933"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pytorch_translate/multi_model.py/UniformStrategy",
+        "Original Line": 85,
+        "Updated Line": 90,
+        "Description": [
+            "The parameters [ prob_space ] are added to the method __init__ from the module pytorch_translate/multi_model.py in class UniformStrategy"
+        ],
+        "Commit": "34b391f0e0b612d629eeb0004e33eaedcf2a46fd"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pytorch_translate/multi_model.py/WeightedStrategy",
+        "Original Line": 234,
+        "Updated Line": 242,
+        "Description": [
+            "The parameters [ prob_space ] are added to the method __init__ from the module pytorch_translate/multi_model.py in class WeightedStrategy"
+        ],
+        "Commit": "34b391f0e0b612d629eeb0004e33eaedcf2a46fd"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pytorch_translate/word_prediction/word_predictor.py/WordPredictor",
+        "Original Line": 9,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ prediction_vocab_reduction_topk ] of the method __init__ from the module pytorch_translate/word_prediction/word_predictor.py in class WordPredictor are changed/renamed to [topk_labels_per_source_token]"
+        ],
+        "Commit": "38f4e918deaefdf574a30ab433c63cdb18d8be51"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "get_topk_predicted_tokens",
+        "Updated": "get_topk_predicted_tokens",
+        "Location": "pytorch_translate/word_prediction/word_predictor.py/WordPredictor",
+        "Original Line": 62,
+        "Updated Line": 62,
+        "Description": [
+            "The parameters [ src_tokens ] are added to the method get_topk_predicted_tokens from the module pytorch_translate/word_prediction/word_predictor.py in class WordPredictor"
+        ],
+        "Commit": "38f4e918deaefdf574a30ab433c63cdb18d8be51"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pytorch_translate/multilingual.py/MultilingualEncoder",
+        "Original Line": 17,
+        "Updated Line": 34,
+        "Description": [
+            "The parameters [ rescale_grads ] are added to the method __init__ from the module pytorch_translate/multilingual.py in class MultilingualEncoder"
+        ],
+        "Commit": "41e310efb97544c7dc0f0f076027b681064ca3dd"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pytorch_translate/multilingual.py/MultilingualDecoder",
+        "Original Line": 78,
+        "Updated Line": 102,
+        "Description": [
+            "The parameters [ rescale_grads ] are added to the method __init__ from the module pytorch_translate/multilingual.py in class MultilingualDecoder"
+        ],
+        "Commit": "41e310efb97544c7dc0f0f076027b681064ca3dd"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pytorch_translate/word_prediction/word_predictor.py/WordPredictor",
+        "Original Line": 9,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ use_self_attention ] are added to the method __init__ from the module pytorch_translate/word_prediction/word_predictor.py in class WordPredictor"
+        ],
+        "Commit": "484ca91f1ecb3d0e12bb01c80802f933c98a1449"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "get_best_candidate",
+        "Updated": "get_best_candidate",
+        "Location": "pytorch_translate/research/unsupervised_morphology/bpe.py/BPE",
+        "Original Line": 94,
+        "Updated Line": 95,
+        "Description": [
+            "The parameters [ pool ] are added to the method get_best_candidate from the module pytorch_translate/research/unsupervised_morphology/bpe.py in class BPE"
+        ],
+        "Commit": "4a0edc9481e19ea3258060f192273feae7834643"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "merge_candidate_into_vocab",
+        "Updated": "merge_candidate_into_vocab",
+        "Location": "pytorch_translate/research/unsupervised_morphology/bpe.py/BPE",
+        "Original Line": 143,
+        "Updated Line": 143,
+        "Description": [
+            "The parameters [ pool ] are added to the method merge_candidate_into_vocab from the module pytorch_translate/research/unsupervised_morphology/bpe.py in class BPE"
+        ],
+        "Commit": "4a0edc9481e19ea3258060f192273feae7834643"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "TestUnsupervisedMorphology",
+        "Updated": "TestUnsupervisedBilingualMorphology",
+        "Location": "pytorch_translate/research/test/test_unsupervised_bilingual_morphology.py",
+        "Description": " class TestUnsupervisedMorphology was renamed to class TestUnsupervisedBilingualMorphology ",
+        "Commit": "4c4ee6c191666c1560275b07755890d585723a55"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_batched_beam_decoder_dual_decoder_vocab_reduction",
+        "Updated": "test_batched_beam_decoder_hybrid_dual_decoder_vocab_reduction",
+        "Location": "pytorch_translate/test/test_onnx.py/TestONNX",
+        "Original Line": 503,
+        "Updated Line": 504,
+        "Description": [
+            "The method test_batched_beam_decoder_dual_decoder_vocab_reduction from the module pytorch_translate/test/test_onnx.py in class TestONNX is renamed to test_batched_beam_decoder_hybrid_dual_decoder_vocab_reduction"
+        ],
+        "Commit": "4d394b447ab67e1f891dd0d17d1f3a8e93ca962b"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pytorch_translate/ensemble_export.py/IterativeRefinementGenerateAndDecode",
+        "Original Line": 2075,
+        "Updated Line": 2075,
+        "Description": [
+            "The parameters [ quantize ] are added to the method __init__ from the module pytorch_translate/ensemble_export.py in class IterativeRefinementGenerateAndDecode"
+        ],
+        "Commit": "54662d068b5981ed64394bbb520e44022b99bcc2"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "make_language_pair_dataset",
+        "Updated": "make_language_pair_dataset",
+        "Location": "pytorch_translate/data.py",
+        "Original Line": 22,
+        "Updated Line": 22,
+        "Description": [
+            "The parameters [ reverse_source ] are added to the method make_language_pair_dataset from the module pytorch_translate/data.py"
+        ],
+        "Commit": "5ad2bb79c12a8fbc9fa0586a6303df28e15deb38"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_ensemble_encoder_export_char_cnn_hyrid",
+        "Updated": "test_ensemble_encoder_export_char_cnn_hybrid",
+        "Location": "pytorch_translate/test/test_onnx.py/TestONNX",
+        "Original Line": 466,
+        "Updated Line": 466,
+        "Description": [
+            "The method test_ensemble_encoder_export_char_cnn_hyrid from the module pytorch_translate/test/test_onnx.py in class TestONNX is renamed to test_ensemble_encoder_export_char_cnn_hybrid"
+        ],
+        "Commit": "600f1acb69aac76816e38c9b4281ff310b456222"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "binarize_text_file_multilingual",
+        "Updated": "binarize_text_file_multilingual",
+        "Location": "pytorch_translate/preprocess.py",
+        "Original Line": 131,
+        "Updated Line": 131,
+        "Description": [
+            "The parameters [ already_numberized ] are added to the method binarize_text_file_multilingual from the module pytorch_translate/preprocess.py"
+        ],
+        "Commit": "60f8adb2f24b51ce069d6a5062e85edba27b5c15"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "build_model",
+        "Updated": "build_encoder",
+        "Location": "pytorch_translate/hybrid_transformer_rnn.py/HybridTransformerRNNModel",
+        "Original Method Line": "(149,149)",
+        "Extracted/Inlined Method Line": 188,
+        "Extracted/Inlined Lines": [
+            170.0
+        ],
+        "Description": " The method build_encoder from the module pytorch_translate/hybrid_transformer_rnn.py in class HybridTransformerRNNModel is extracted from method build_model from the module pytorch_translate/hybrid_transformer_rnn.py in class HybridTransformerRNNModel ",
+        "Commit": "6686bfa707da528dfe162a5f6c7c6630654a801c"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "build_model",
+        "Updated": "build_decoder",
+        "Location": "pytorch_translate/hybrid_transformer_rnn.py/HybridTransformerRNNModel",
+        "Original Method Line": "(149,149)",
+        "Extracted/Inlined Method Line": 194,
+        "Extracted/Inlined Lines": [
+            173.0
+        ],
+        "Description": " The method build_decoder from the module pytorch_translate/hybrid_transformer_rnn.py in class HybridTransformerRNNModel is extracted from method build_model from the module pytorch_translate/hybrid_transformer_rnn.py in class HybridTransformerRNNModel ",
+        "Commit": "6686bfa707da528dfe162a5f6c7c6630654a801c"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "train_translation_model",
+        "Updated": "train_translation_model",
+        "Location": "pytorch_translate/test/utils.py",
+        "Original Line": 515,
+        "Updated Line": 546,
+        "Description": [
+            "The parameters [ save_dir ] are added to the method train_translation_model from the module pytorch_translate/test/utils.py"
+        ],
+        "Commit": "66a05d5a706683f33e2eabffa1cce9adf69fd500"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "generate_main",
+        "Updated": "generate_main",
+        "Old Location": "pytorch_translate/test/test_integration.py",
+        "New Location": "pytorch_translate/test/utils.py",
+        "Old Method Line": 758,
+        "New Method Line": 515,
+        "Description": " method generate_main from the module pytorch_translate/test/test_integration.py was moved to module pytorch_translate/test/utils.py ",
+        "Commit": "66a05d5a706683f33e2eabffa1cce9adf69fd500"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "get_kd_loss",
+        "Updated": "get_kd_loss",
+        "Location": "pytorch_translate/research/knowledge_distillation/knowledge_distillation_loss.py/KnowledgeDistillationCriterion",
+        "Original Line": 38,
+        "Updated Line": 38,
+        "Description": [
+            "The parameters [ student_probs ] of the method get_kd_loss from the module pytorch_translate/research/knowledge_distillation/knowledge_distillation_loss.py in class KnowledgeDistillationCriterion are changed/renamed to [student_lprobs]"
+        ],
+        "Commit": "6de33d4de5c3e0e9fc5d649999c2b693f9540ec5"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "build_from_checkpoints",
+        "Updated": "build_from_checkpoints",
+        "Location": "pytorch_translate/ensemble_export.py/EncoderEnsemble",
+        "Original Line": 216,
+        "Updated Line": 216,
+        "Description": [
+            "The parameters [ cls ] are added to the method build_from_checkpoints from the module pytorch_translate/ensemble_export.py in class EncoderEnsemble"
+        ],
+        "Commit": "77a2683a56e08e294986a7818fcd2b36363f5ecf"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "build_from_checkpoints",
+        "Updated": "build_from_checkpoints",
+        "Location": "pytorch_translate/ensemble_export.py/DecoderBatchedStepEnsemble",
+        "Original Line": 448,
+        "Updated Line": 449,
+        "Description": [
+            "The parameters [ cls ] are added to the method build_from_checkpoints from the module pytorch_translate/ensemble_export.py in class DecoderBatchedStepEnsemble"
+        ],
+        "Commit": "77a2683a56e08e294986a7818fcd2b36363f5ecf"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "build_from_checkpoints",
+        "Updated": "build_from_checkpoints",
+        "Location": "pytorch_translate/ensemble_export.py/BeamSearch",
+        "Original Line": 653,
+        "Updated Line": 655,
+        "Description": [
+            "The parameters [ cls ] are added to the method build_from_checkpoints from the module pytorch_translate/ensemble_export.py in class BeamSearch"
+        ],
+        "Commit": "77a2683a56e08e294986a7818fcd2b36363f5ecf"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "build_from_checkpoints",
+        "Updated": "build_from_checkpoints",
+        "Location": "pytorch_translate/ensemble_export.py/ForcedDecoder",
+        "Original Line": 953,
+        "Updated Line": 956,
+        "Description": [
+            "The parameters [ cls ] are added to the method build_from_checkpoints from the module pytorch_translate/ensemble_export.py in class ForcedDecoder"
+        ],
+        "Commit": "77a2683a56e08e294986a7818fcd2b36363f5ecf"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "build_from_checkpoints",
+        "Updated": "build_from_checkpoints",
+        "Location": "pytorch_translate/ensemble_export.py/CharSourceEncoderEnsemble",
+        "Original Line": 1068,
+        "Updated Line": 1070,
+        "Description": [
+            "The parameters [ cls ] are added to the method build_from_checkpoints from the module pytorch_translate/ensemble_export.py in class CharSourceEncoderEnsemble"
+        ],
+        "Commit": "77a2683a56e08e294986a7818fcd2b36363f5ecf"
+    },
+    {
+        "Refactoring Type": "Inline Method",
+        "Original": "_generate_score",
+        "Updated": "get_eval_itr",
+        "Location": "pytorch_translate/generate.py",
+        "Original Method Line": "(151,135)",
+        "Extracted/Inlined Method Line": 135,
+        "Extracted/Inlined Lines": [
+            172.0
+        ],
+        "Description": " The method get_eval_itr from the module pytorch_translate/generate.py is inlined into method _generate_score from the module pytorch_translate/generate.py ",
+        "Commit": "77c566fe05b1f71451a649a8ecaaa44a1110502b"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "monolingual_dataset",
+        "Updated": "monolingual_dataset",
+        "Location": "pytorch_translate/tasks/semi_supervised_task.py/PytorchTranslateSemiSupervised",
+        "Original Line": 178,
+        "Updated Line": 178,
+        "Description": [
+            "The parameters [ is_source ] are added to the method monolingual_dataset from the module pytorch_translate/tasks/semi_supervised_task.py in class PytorchTranslateSemiSupervised"
+        ],
+        "Commit": "799820c524e847bb1c5f9f1fbd6233bb603bfef9"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "build_model",
+        "Updated": "build_encoder",
+        "Location": "pytorch_translate/transformer.py/TransformerModel",
+        "Original Method Line": "(184,185)",
+        "Extracted/Inlined Method Line": 250,
+        "Extracted/Inlined Lines": [
+            231.0
+        ],
+        "Description": " The method build_encoder from the module pytorch_translate/transformer.py in class TransformerModel is extracted from method build_model from the module pytorch_translate/transformer.py in class TransformerModel ",
+        "Commit": "7eeab61051cf8d25e3ef3d6aad13c7a784d68df9"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "build_model",
+        "Updated": "build_decoder",
+        "Location": "pytorch_translate/transformer.py/TransformerModel",
+        "Original Method Line": "(184,185)",
+        "Extracted/Inlined Method Line": 254,
+        "Extracted/Inlined Lines": [
+            232.0
+        ],
+        "Description": " The method build_decoder from the module pytorch_translate/transformer.py in class TransformerModel is extracted from method build_model from the module pytorch_translate/transformer.py in class TransformerModel ",
+        "Commit": "7eeab61051cf8d25e3ef3d6aad13c7a784d68df9"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pytorch_translate/research/unsupervised_morphology/unsupervised_morphology.py/MorphologyHMMParams",
+        "Original Line": 7,
+        "Updated Line": 8,
+        "Description": [
+            "The parameters [ smoothing_const ] are added to the method __init__ from the module pytorch_translate/research/unsupervised_morphology/unsupervised_morphology.py in class MorphologyHMMParams"
+        ],
+        "Commit": "85d2b4f804bac9a7869f379f402405ecd93055ac"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pytorch_translate/test/utils.py/ModelParamsDict",
+        "Original Line": 13,
+        "Updated Line": 13,
+        "Description": [
+            "The parameters [ cell_type encoder_bidirectional encoder_freeze_embed decoder_freeze_embed clip_norm sequence_lstm ] of the method __init__ from the module pytorch_translate/test/utils.py in class ModelParamsDict is/are removed"
+        ],
+        "Commit": "875b753c8500b54cfc58946ee8e3585a26bd95a0"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "get_arg_parser",
+        "Updated": "add_args",
+        "Location": "pytorch_translate/rescoring/rescorer.py",
+        "Original Line": 123,
+        "Updated Line": 123,
+        "Description": [
+            "The method get_arg_parser from the module pytorch_translate/rescoring/rescorer.py is renamed to add_args",
+            "The parameters [ parser ] are added to the method get_arg_parser from the module pytorch_translate/rescoring/rescorer.py"
+        ],
+        "Commit": "8f57df8ca0911960d70e6cd580f1aebf1d6a14d8"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "forward",
+        "Updated": "get_kd_loss",
+        "Location": "pytorch_translate/research/knowledge_distillation/knowledge_distillation_loss.py/KnowledgeDistillationCriterion",
+        "Original Method Line": "(76,59)",
+        "Extracted/Inlined Method Line": 38,
+        "Extracted/Inlined Lines": [
+            89.0,
+            113.0,
+            114.0,
+            118.0
+        ],
+        "Description": " The method get_kd_loss from the module pytorch_translate/research/knowledge_distillation/knowledge_distillation_loss.py in class KnowledgeDistillationCriterion is extracted from method forward from the module pytorch_translate/research/knowledge_distillation/knowledge_distillation_loss.py in class KnowledgeDistillationCriterion ",
+        "Commit": "9286f60cd1d3d49ecf1340f8b8f8bd708ef6e986"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "get_parser_with_args",
+        "Updated": "get_parser_with_args",
+        "Location": "pytorch_translate/train.py",
+        "Original Line": 57,
+        "Updated Line": 57,
+        "Description": [
+            "The parameters [ default_task ] are added to the method get_parser_with_args from the module pytorch_translate/train.py"
+        ],
+        "Commit": "99a3c095e198b80a503cdc7b068337de51f87eec"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "calculate_bleu_on_subset",
+        "Updated": "calculate_bleu_on_subset",
+        "Location": "pytorch_translate/train.py",
+        "Original Line": 812,
+        "Updated Line": 826,
+        "Description": [
+            "The parameters [ epoch ] of the method calculate_bleu_on_subset from the module pytorch_translate/train.py are changed/renamed to [epoch_str]"
+        ],
+        "Commit": "9c105e980e687d227d6630a18d84d322931ca272"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "train_step",
+        "Updated": "train_step",
+        "Location": "pytorch_translate/tasks/translation_lev_task.py/PytorchTranslationLevenshteinTask",
+        "Original Line": 62,
+        "Updated Line": 62,
+        "Description": [
+            "The parameters [ update_num ] are added to the method train_step from the module pytorch_translate/tasks/translation_lev_task.py in class PytorchTranslationLevenshteinTask"
+        ],
+        "Commit": "a0bc270b5145deea9647e2a6a2a55b029cd8ad07"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "forward",
+        "Updated": "forward",
+        "Location": "pytorch_translate/char_aware_hybrid.py/CharAwareHybridModel",
+        "Original Line": 69,
+        "Updated Line": 69,
+        "Description": [
+            "The parameters [ prev_output_word_lengths ] are added to the method forward from the module pytorch_translate/char_aware_hybrid.py in class CharAwareHybridModel"
+        ],
+        "Commit": "ad8aed256968aeab53edba43363c4697632ca8b3"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pytorch_translate/tasks/pytorch_translate_task.py/PytorchTranslateTask",
+        "Original Line": 103,
+        "Updated Line": 103,
+        "Description": [
+            "The parameters [ char_target_dict ] are added to the method __init__ from the module pytorch_translate/tasks/pytorch_translate_task.py in class PytorchTranslateTask"
+        ],
+        "Commit": "ad8aed256968aeab53edba43363c4697632ca8b3"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pytorch_translate/char_data.py/LanguagePairSourceCharDataset",
+        "Original Line": 117,
+        "Updated Line": 117,
+        "Description": [
+            "The parameters [ weights ] are added to the method __init__ from the module pytorch_translate/char_data.py in class LanguagePairSourceCharDataset"
+        ],
+        "Commit": "b63765ccabf086cb9122dd04075d9c61e5952626"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "train_translation_model",
+        "Updated": "train_translation_model",
+        "Location": "pytorch_translate/test/test_integration.py",
+        "Original Line": 581,
+        "Updated Line": 668,
+        "Description": [
+            "The parameters [ set_empty_data_positional_arg set_lang_args ] are added to the method train_translation_model from the module pytorch_translate/test/test_integration.py"
+        ],
+        "Commit": "b88d0bea2d011150d47085fec9673b9368e84a1f"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Old Location": "pytorch_translate/word_prediction/word_prediction_criterion.py/WordPredictionCriterion",
+        "New Location": "pytorch_translate/word_prediction/word_prediction_criterion.py/WARPLossCriterion",
+        "Old Method Line": 146,
+        "New Method Line": 177,
+        "Description": " method __init__ from the module pytorch_translate/word_prediction/word_prediction_criterion.py in class WordPredictionCriterion was moved to class WARPLossCriterion of module pytorch_translate/word_prediction/word_prediction_criterion.py ",
+        "Commit": "bb4f01b19cddd0bf9bf32fa18cf271b06bc92853"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "train_translation_model",
+        "Updated": "train_translation_model",
+        "Location": "pytorch_translate/test/test_integration.py",
+        "Original Line": 540,
+        "Updated Line": 587,
+        "Description": [
+            "The parameters [ criterion ] are added to the method train_translation_model from the module pytorch_translate/test/test_integration.py"
+        ],
+        "Commit": "c0d0e9c68c22062c73760b4237405e5db4c5bcdb"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pytorch_translate/ensemble_export.py/BeamSearch",
+        "Original Line": 809,
+        "Updated Line": 810,
+        "Description": [
+            "The parameters [ quantize ] are added to the method __init__ from the module pytorch_translate/ensemble_export.py in class BeamSearch"
+        ],
+        "Commit": "c219e3b5fdbddd619f90bcd7396eedd1dacfb0a2"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "score",
+        "Updated": "score_tokens",
+        "Location": "pytorch_translate/rescoring/model_scorers.py/SimpleModelScorer",
+        "Original Method Line": "(155,173)",
+        "Extracted/Inlined Method Line": 155,
+        "Extracted/Inlined Lines": [
+            171.0,
+            172.0,
+            175.0
+        ],
+        "Description": " The method score_tokens from the module pytorch_translate/rescoring/model_scorers.py in class SimpleModelScorer is extracted from method score from the module pytorch_translate/rescoring/model_scorers.py in class SimpleModelScorer ",
+        "Commit": "e02c265c7683a9c344bcb8eadbbc04d22ae5766f"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "torch_find",
+        "Updated": "torch_find",
+        "Old Location": "pytorch_translate/rnn.py",
+        "New Location": "pytorch_translate/utils.py",
+        "Old Method Line": 39,
+        "New Method Line": 297,
+        "Description": " method torch_find from the module pytorch_translate/rnn.py was moved to module pytorch_translate/utils.py ",
+        "Commit": "e203c9edcfe3f47bb58ec802362dce28084d7a2f"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "main",
+        "Updated": "get_parser_with_args",
+        "Location": "pytorch_translate/torchscript_export.py",
+        "Original Method Line": "(10,62)",
+        "Extracted/Inlined Method Line": 10,
+        "Extracted/Inlined Lines": [
+            11.0,
+            14.0,
+            20.0,
+            25.0,
+            30.0,
+            35.0,
+            40.0,
+            46.0,
+            52.0
+        ],
+        "Description": " The method get_parser_with_args from the module pytorch_translate/torchscript_export.py is extracted from method main from the module pytorch_translate/torchscript_export.py ",
+        "Commit": "e36893d3997be62a443221ed7e79e8e56f28485d"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "build_generator",
+        "Updated": "build_generator",
+        "Location": "pytorch_translate/tasks/translation_lev_task.py/PytorchTranslationLevenshteinTask",
+        "Original Line": 41,
+        "Updated Line": 41,
+        "Description": [
+            "The parameters [ models ] are added to the method build_generator from the module pytorch_translate/tasks/translation_lev_task.py in class PytorchTranslationLevenshteinTask"
+        ],
+        "Commit": "e8d975a3f6322aad87b0e7b70d01c43e14e65212"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pytorch_translate/research/unsupervised_morphology/char_ibm_model1.py/CharIBMModel1",
+        "Original Line": 7,
+        "Updated Line": 10,
+        "Description": [
+            "The parameters [ max_subword_len ] are added to the method __init__ from the module pytorch_translate/research/unsupervised_morphology/char_ibm_model1.py in class CharIBMModel1"
+        ],
+        "Commit": "ef778155cbd75f578007be5a0022a44face863ee"
+    }
+]

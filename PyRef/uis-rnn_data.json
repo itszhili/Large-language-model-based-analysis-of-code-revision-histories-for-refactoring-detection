@@ -1,0 +1,94 @@
+[
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "model/uisrnn.py/UISRNN",
+        "Original Line": 49,
+        "Updated Line": 51,
+        "Description": [
+            "The parameters [ transition_bias ] of the method __init__ from the module model/uisrnn.py in class UISRNN is/are removed"
+        ],
+        "Commit": "145928b26625096f10645a52545179b08e96e6c5"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_fit_and_predict",
+        "Updated": "test_fit_and_predict_single_label",
+        "Location": "tests/uisrnn_test.py/TestUISRNN",
+        "Original Line": 25,
+        "Updated Line": 25,
+        "Description": [
+            "The method test_fit_and_predict from the module tests/uisrnn_test.py in class TestUISRNN is renamed to test_fit_and_predict_single_label"
+        ],
+        "Commit": "1e900d39e5837a69914f27dc2da31873f8feba49"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "model/uisrnn.py/UISRNN",
+        "Original Line": 49,
+        "Updated Line": 49,
+        "Description": [
+            "The parameters [ input_dim observation_dim ] of the method __init__ from the module model/uisrnn.py in class UISRNN is/are removed"
+        ],
+        "Commit": "356397308e393ce96c3e6b7a38201f1f7af5bba3"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "load",
+        "Updated": "load",
+        "Location": "model/uisrnn.py/UISRNN",
+        "Original Line": 73,
+        "Updated Line": 78,
+        "Description": [
+            "The parameters [ args ] of the method load from the module model/uisrnn.py in class UISRNN are changed/renamed to [filepath]"
+        ],
+        "Commit": "4db6e5a63e5112af4afda6013001dd3aa446f919"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "save",
+        "Updated": "save",
+        "Location": "model/uisrnn.py/UISRNN",
+        "Original Line": 70,
+        "Updated Line": 70,
+        "Description": [
+            "The parameters [ args ] of the method save from the module model/uisrnn.py in class UISRNN are changed/renamed to [filepath]"
+        ],
+        "Commit": "4db6e5a63e5112af4afda6013001dd3aa446f919"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "NormalRNN",
+        "Updated": "CoreRNN",
+        "Location": "model/uisrnn.py",
+        "Description": " class NormalRNN was renamed to class CoreRNN ",
+        "Commit": "5718f388d62f04327bcb4fd9790afa58b73783c3"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "weighted_mse_loss",
+        "Updated": "weighted_mse_loss",
+        "Location": "model/utils.py",
+        "Original Line": 19,
+        "Updated Line": 19,
+        "Description": [
+            "The parameters [ input target ] of the method weighted_mse_loss from the module model/utils.py are changed/renamed to [input_tensor target_tensor]"
+        ],
+        "Commit": "a8e285c3fe4fa0826946356a4da33ebcb3ce04e3"
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "baseline/Supervised.py/supervised",
+        "Original Line": 13,
+        "Updated Line": 13,
+        "Description": [
+            "The parameters [ n_estimators ] of the method __init__ from the module baseline/Supervised.py in class supervised is/are removed"
+        ],
+        "Commit": "6e66286827d8664df62933ac2fd23b05aa12b34d",
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data_generator.py/DataGenerator",
+        "Original Line": 21,
+        "Updated Line": 20,
+        "Description": [
+            "The parameters [ show_statistic ] of the method __init__ from the module data_generator.py in class DataGenerator is/are removed"
+        ],
+        "Commit": "6e66286827d8664df62933ac2fd23b05aa12b34d",
+        "Category": "ML-Specific"
+    }
+]

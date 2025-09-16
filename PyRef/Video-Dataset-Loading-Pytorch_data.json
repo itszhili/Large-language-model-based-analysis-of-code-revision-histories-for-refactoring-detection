@@ -1,0 +1,28 @@
+[
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "num_frames",
+        "Updated": "start_frame",
+        "Location": "video_dataset.py/VideoRecord",
+        "Original Method Line": "(32,32)",
+        "Extracted/Inlined Method Line": 35,
+        "Extracted/Inlined Lines": [
+            33.0
+        ],
+        "Description": " The method start_frame from the module video_dataset.py in class VideoRecord is extracted from method num_frames from the module video_dataset.py in class VideoRecord ",
+        "Commit": "3e6c74de3734bd494ce59a508f2a2c4395fa3b00"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "num_frames",
+        "Updated": "end_frame",
+        "Location": "video_dataset.py/VideoRecord",
+        "Original Method Line": "(32,32)",
+        "Extracted/Inlined Method Line": 38,
+        "Extracted/Inlined Lines": [
+            33.0
+        ],
+        "Description": " The method end_frame from the module video_dataset.py in class VideoRecord is extracted from method num_frames from the module video_dataset.py in class VideoRecord ",
+        "Commit": "3e6c74de3734bd494ce59a508f2a2c4395fa3b00"
+    }
+]

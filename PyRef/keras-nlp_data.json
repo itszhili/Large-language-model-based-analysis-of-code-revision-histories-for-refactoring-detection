@@ -1,0 +1,1539 @@
+[
+    {
+        "Refactoring Type": "Inline Method",
+        "Original": "call",
+        "Updated": "_trim_and_broadcast_position_embeddings",
+        "Location": "keras_nlp/layers/position_embedding.py/PositionEmbedding",
+        "Original Method Line": "(106,106)",
+        "Extracted/Inlined Method Line": 124,
+        "Extracted/Inlined Lines": [
+            108.0,
+            109.0,
+            112.0,
+            118.0
+        ],
+        "Description": " The method _trim_and_broadcast_position_embeddings from the module keras_nlp/layers/position_embedding.py in class PositionEmbedding is inlined into method call from the module keras_nlp/layers/position_embedding.py in class PositionEmbedding ",
+        "Commit": "089de9ee1051c0975ed0cdbef6a15de21446556e"
+    },
+    {
+        "Refactoring Type": "Inline Method",
+        "Original": "call",
+        "Updated": "_compute_trim_and_broadcast_position_embeddings",
+        "Location": "keras_nlp/layers/sine_position_encoding.py/SinePositionEncoding",
+        "Original Method Line": "(72,72)",
+        "Extracted/Inlined Method Line": 92,
+        "Extracted/Inlined Lines": [
+            76.0,
+            77.0,
+            78.0,
+            79.0,
+            80.0,
+            85.0,
+            87.0,
+            88.0,
+            90.0,
+            94.0
+        ],
+        "Description": " The method _compute_trim_and_broadcast_position_embeddings from the module keras_nlp/layers/sine_position_encoding.py in class SinePositionEncoding is inlined into method call from the module keras_nlp/layers/sine_position_encoding.py in class SinePositionEncoding ",
+        "Commit": "089de9ee1051c0975ed0cdbef6a15de21446556e"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_saving_model",
+        "Updated": "test_saving_model",
+        "Location": "keras_nlp/models/gpt2/gpt2_models_test.py/Gpt2Test",
+        "Original Line": 86,
+        "Updated Line": 89,
+        "Description": [
+            "The parameters [ save_format ] are added to the method test_saving_model from the module keras_nlp/models/gpt2/gpt2_models_test.py in class Gpt2Test"
+        ],
+        "Commit": "0fee8c1027a2e96ae1adcb14c48039cc94f9b5d8"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_saving_model",
+        "Updated": "test_saving_model",
+        "Location": "keras_nlp/models/distilbert/distilbert_models_test.py/DistilBertTest",
+        "Original Line": 94,
+        "Updated Line": 97,
+        "Description": [
+            "The parameters [ save_format ] are added to the method test_saving_model from the module keras_nlp/models/distilbert/distilbert_models_test.py in class DistilBertTest"
+        ],
+        "Commit": "1217543714c01e1318bb226fcb464e1e8c97457b"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "Gpt2Custom",
+        "Updated": "Gpt2",
+        "Location": "keras_nlp/models/gpt2/gpt2_models.py",
+        "Description": " class Gpt2Custom was renamed to class Gpt2 ",
+        "Commit": "14e2f928aff872ea36a02f8b0ee511aae38aeca4"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "test_opt_compile",
+        "Updated": "test_predict",
+        "Location": "keras_nlp/models/opt/opt_backbone_test.py/OPTTest",
+        "Original Line": 71,
+        "Updated Line": 64,
+        "Description": [
+            "The method test_opt_compile from the module keras_nlp/models/opt/opt_backbone_test.py in class OPTTest is renamed to test_predict",
+            "The parameters [ jit_compile ] of the method test_opt_compile from the module keras_nlp/models/opt/opt_backbone_test.py in class OPTTest is/are removed"
+        ],
+        "Commit": "1c215eccae22ee844918b485beaaabb35906077e"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "Roberta",
+        "Updated": "RobertaBackbone",
+        "Location": "keras_nlp/models/roberta/roberta_backbone.py",
+        "Description": " class Roberta was renamed to class RobertaBackbone ",
+        "Commit": "1ebbb7b5827789b0f1032e1ee1ca19efad0a9740"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "XLMRoberta",
+        "Updated": "XLMRobertaBackbone",
+        "Location": "keras_nlp/models/xlm_roberta/xlm_roberta_backbone.py",
+        "Description": " class XLMRoberta was renamed to class XLMRobertaBackbone ",
+        "Commit": "1ebbb7b5827789b0f1032e1ee1ca19efad0a9740"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "test_xlm_roberta_compile",
+        "Updated": "test_predict",
+        "Location": "keras_nlp/models/xlm_roberta/xlm_roberta_backbone_test.py/XLMRobertaBackboneTest",
+        "Original Line": 60,
+        "Updated Line": 67,
+        "Description": [
+            "The method test_xlm_roberta_compile from the module keras_nlp/models/xlm_roberta/xlm_roberta_backbone_test.py in class XLMRobertaBackboneTest is renamed to test_predict",
+            "The parameters [ jit_compile ] of the method test_xlm_roberta_compile from the module keras_nlp/models/xlm_roberta/xlm_roberta_backbone_test.py in class XLMRobertaBackboneTest is/are removed"
+        ],
+        "Commit": "1f467312cabdbf631935ba310949d6810e0b3231"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "test_classifier_fit_no_preprocessing",
+        "Updated": "test_classifier_fit_no_xla",
+        "Location": "keras_nlp/models/xlm_roberta/xlm_roberta_classifier_test.py/XLMRobertaClassifierTest",
+        "Original Line": 118,
+        "Updated Line": 100,
+        "Description": [
+            "The method test_classifier_fit_no_preprocessing from the module keras_nlp/models/xlm_roberta/xlm_roberta_classifier_test.py in class XLMRobertaClassifierTest is renamed to test_classifier_fit_no_xla",
+            "The parameters [ jit_compile ] of the method test_classifier_fit_no_preprocessing from the module keras_nlp/models/xlm_roberta/xlm_roberta_classifier_test.py in class XLMRobertaClassifierTest is/are removed"
+        ],
+        "Commit": "1f467312cabdbf631935ba310949d6810e0b3231"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "test_compile",
+        "Updated": "test_predict",
+        "Location": "keras_nlp/models/deberta_v3/deberta_v3_backbone_test.py/DebertaV3BackboneTest",
+        "Original Line": 71,
+        "Updated Line": 69,
+        "Description": [
+            "The method test_compile from the module keras_nlp/models/deberta_v3/deberta_v3_backbone_test.py in class DebertaV3BackboneTest is renamed to test_predict",
+            "The parameters [ jit_compile ] of the method test_compile from the module keras_nlp/models/deberta_v3/deberta_v3_backbone_test.py in class DebertaV3BackboneTest is/are removed"
+        ],
+        "Commit": "223281de7f8ee743e248e773c50fb88cc22c18f0"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "test_classifier_fit_no_preprocessing",
+        "Updated": "test_classifier_fit_no_xla",
+        "Location": "keras_nlp/models/deberta_v3/deberta_v3_classifier_test.py/DebertaV3ClassifierTest",
+        "Original Line": 126,
+        "Updated Line": 100,
+        "Description": [
+            "The method test_classifier_fit_no_preprocessing from the module keras_nlp/models/deberta_v3/deberta_v3_classifier_test.py in class DebertaV3ClassifierTest is renamed to test_classifier_fit_no_xla",
+            "The parameters [ jit_compile ] of the method test_classifier_fit_no_preprocessing from the module keras_nlp/models/deberta_v3/deberta_v3_classifier_test.py in class DebertaV3ClassifierTest is/are removed"
+        ],
+        "Commit": "223281de7f8ee743e248e773c50fb88cc22c18f0"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "test_deberta_v3_masked_lm_fit_no_preprocessing",
+        "Updated": "test_classifier_fit_no_xla",
+        "Location": "keras_nlp/models/deberta_v3/deberta_v3_masked_lm_test.py/DebertaV3MaskedLMTest",
+        "Original Line": 123,
+        "Updated Line": 98,
+        "Description": [
+            "The method test_deberta_v3_masked_lm_fit_no_preprocessing from the module keras_nlp/models/deberta_v3/deberta_v3_masked_lm_test.py in class DebertaV3MaskedLMTest is renamed to test_classifier_fit_no_xla",
+            "The parameters [ jit_compile ] of the method test_deberta_v3_masked_lm_fit_no_preprocessing from the module keras_nlp/models/deberta_v3/deberta_v3_masked_lm_test.py in class DebertaV3MaskedLMTest is/are removed"
+        ],
+        "Commit": "223281de7f8ee743e248e773c50fb88cc22c18f0"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_1d_tensor_input",
+        "Updated": "test_tensor_input",
+        "Location": "keras_nlp/metrics/bleu_test.py/BleuTest",
+        "Original Line": 72,
+        "Updated Line": 100,
+        "Description": [
+            "The method test_1d_tensor_input from the module keras_nlp/metrics/bleu_test.py in class BleuTest is renamed to test_tensor_input"
+        ],
+        "Commit": "23b8952f28162f6f141e2fc670aa3c14563654ac"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_rank_1_tensor_input_normalize_false",
+        "Updated": "test_1d_list_input_normalize_false",
+        "Location": "keras_nlp/metrics/edit_distance_test.py/EditDistanceTest",
+        "Original Line": 82,
+        "Updated Line": 53,
+        "Description": [
+            "The method test_rank_1_tensor_input_normalize_false from the module keras_nlp/metrics/edit_distance_test.py in class EditDistanceTest is renamed to test_1d_list_input_normalize_false"
+        ],
+        "Commit": "23b8952f28162f6f141e2fc670aa3c14563654ac"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_rank_2_tensor_input_normalize_false",
+        "Updated": "test_2d_list_input_normalize_false",
+        "Location": "keras_nlp/metrics/edit_distance_test.py/EditDistanceTest",
+        "Original Line": 92,
+        "Updated Line": 61,
+        "Description": [
+            "The method test_rank_2_tensor_input_normalize_false from the module keras_nlp/metrics/edit_distance_test.py in class EditDistanceTest is renamed to test_2d_list_input_normalize_false"
+        ],
+        "Commit": "23b8952f28162f6f141e2fc670aa3c14563654ac"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_rank_2_tensor_input_normalize",
+        "Updated": "test_tensor_input",
+        "Location": "keras_nlp/metrics/edit_distance_test.py/EditDistanceTest",
+        "Original Line": 64,
+        "Updated Line": 75,
+        "Description": [
+            "The method test_rank_2_tensor_input_normalize from the module keras_nlp/metrics/edit_distance_test.py in class EditDistanceTest is renamed to test_tensor_input"
+        ],
+        "Commit": "23b8952f28162f6f141e2fc670aa3c14563654ac"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "examples/bert/bert_finetune_glue.py/BertClassificationFinetuner",
+        "Original Line": 148,
+        "Updated Line": 148,
+        "Description": [
+            "The parameters [ hidden_size ] of the method __init__ from the module examples/bert/bert_finetune_glue.py in class BertClassificationFinetuner is/are removed"
+        ],
+        "Commit": "28203402be17e223f648dfddacc4a72e93b55ee7"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "test_compile",
+        "Updated": "test_predict",
+        "Location": "keras_nlp/models/whisper/whisper_backbone_test.py/WhisperBackboneTest",
+        "Original Line": 87,
+        "Updated Line": 72,
+        "Description": [
+            "The method test_compile from the module keras_nlp/models/whisper/whisper_backbone_test.py in class WhisperBackboneTest is renamed to test_predict",
+            "The parameters [ jit_compile ] of the method test_compile from the module keras_nlp/models/whisper/whisper_backbone_test.py in class WhisperBackboneTest is/are removed"
+        ],
+        "Commit": "339e2d62f3dbef0f7d9687d72fd8524d1456cd13"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "keras_nlp/samplers/top_p_sampler.py/TopPSampler",
+        "Original Line": 65,
+        "Updated Line": 71,
+        "Description": [
+            "The parameters [ k ] are added to the method __init__ from the module keras_nlp/samplers/top_p_sampler.py in class TopPSampler"
+        ],
+        "Commit": "33fdb1f5ca74704f10f45109ad1065d048d93cbd"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "test_roberta_compile",
+        "Updated": "test_predict",
+        "Location": "keras_nlp/models/roberta/roberta_backbone_test.py/RobertaBackboneTest",
+        "Original Line": 60,
+        "Updated Line": 57,
+        "Description": [
+            "The method test_roberta_compile from the module keras_nlp/models/roberta/roberta_backbone_test.py in class RobertaBackboneTest is renamed to test_predict",
+            "The parameters [ jit_compile ] of the method test_roberta_compile from the module keras_nlp/models/roberta/roberta_backbone_test.py in class RobertaBackboneTest is/are removed"
+        ],
+        "Commit": "3652d64236a8b2e259b4ad298a0329d1af25a792"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "test_roberta_classifier_fit_no_preprocessing",
+        "Updated": "test_classifier_fit_no_xla",
+        "Location": "keras_nlp/models/roberta/roberta_classifier_test.py/RobertaClassifierTest",
+        "Original Line": 121,
+        "Updated Line": 96,
+        "Description": [
+            "The method test_roberta_classifier_fit_no_preprocessing from the module keras_nlp/models/roberta/roberta_classifier_test.py in class RobertaClassifierTest is renamed to test_classifier_fit_no_xla",
+            "The parameters [ jit_compile ] of the method test_roberta_classifier_fit_no_preprocessing from the module keras_nlp/models/roberta/roberta_classifier_test.py in class RobertaClassifierTest is/are removed"
+        ],
+        "Commit": "3652d64236a8b2e259b4ad298a0329d1af25a792"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "test_roberta_masked_lm_fit_no_preprocessing",
+        "Updated": "test_classifier_fit_no_xla",
+        "Location": "keras_nlp/models/roberta/roberta_masked_lm_test.py/RobertaMaskedLMTest",
+        "Original Line": 122,
+        "Updated Line": 109,
+        "Description": [
+            "The method test_roberta_masked_lm_fit_no_preprocessing from the module keras_nlp/models/roberta/roberta_masked_lm_test.py in class RobertaMaskedLMTest is renamed to test_classifier_fit_no_xla",
+            "The parameters [ jit_compile ] of the method test_roberta_masked_lm_fit_no_preprocessing from the module keras_nlp/models/roberta/roberta_masked_lm_test.py in class RobertaMaskedLMTest is/are removed"
+        ],
+        "Commit": "3652d64236a8b2e259b4ad298a0329d1af25a792"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "get_config",
+        "Updated": "get_config",
+        "Location": "keras_nlp/tokenizers/byte_tokenizer.py/ByteTokenizer",
+        "Original Line": 251,
+        "Updated Line": 248,
+        "Description": [
+            "The return type of method get_config from the module keras_nlp/tokenizers/byte_tokenizer.py in class ByteTokenizer is updated"
+        ],
+        "Commit": "38ca02b96b1a9100bcc76d123b399ecbc1f902c2"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "get_config",
+        "Updated": "get_config",
+        "Location": "keras_nlp/tokenizers/unicode_character_tokenizer.py/UnicodeCharacterTokenizer",
+        "Original Line": 250,
+        "Updated Line": 247,
+        "Description": [
+            "The return type of method get_config from the module keras_nlp/tokenizers/unicode_character_tokenizer.py in class UnicodeCharacterTokenizer is updated"
+        ],
+        "Commit": "38ca02b96b1a9100bcc76d123b399ecbc1f902c2"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "get_config",
+        "Updated": "get_config",
+        "Location": "keras_nlp/tokenizers/word_piece_tokenizer.py/WordPieceTokenizer",
+        "Original Line": 269,
+        "Updated Line": 266,
+        "Description": [
+            "The return type of method get_config from the module keras_nlp/tokenizers/word_piece_tokenizer.py in class WordPieceTokenizer is updated"
+        ],
+        "Commit": "38ca02b96b1a9100bcc76d123b399ecbc1f902c2"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "DistilBertCustom",
+        "Updated": "DistilBert",
+        "Location": "keras_nlp/models/distilbert/distilbert_models.py",
+        "Description": " class DistilBertCustom was renamed to class DistilBert ",
+        "Commit": "3e25cda3d3d95c0c208b101aaca782fa0b74bae4"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "call",
+        "Updated": "call",
+        "Location": "keras_nlp/models/gpt_neo_x/gpt_neo_x_attention.py/GPTNeoXAttention",
+        "Original Line": 145,
+        "Updated Line": 145,
+        "Description": [
+            "The parameters [ cache cache_update_index ] are added to the method call from the module keras_nlp/models/gpt_neo_x/gpt_neo_x_attention.py in class GPTNeoXAttention"
+        ],
+        "Commit": "3f89f6b4428622b1d7a0b02977009a2fc9cf90e7"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_compute_self_attention_mask",
+        "Updated": "_compute_self_attention_mask",
+        "Location": "keras_nlp/models/gpt_neo_x/gpt_neo_x_decoder.py/GPTNeoXDecoder",
+        "Original Line": 171,
+        "Updated Line": 183,
+        "Description": [
+            "The parameters [ self_attention_cache self_attention_cache_update_index ] are added to the method _compute_self_attention_mask from the module keras_nlp/models/gpt_neo_x/gpt_neo_x_decoder.py in class GPTNeoXDecoder"
+        ],
+        "Commit": "3f89f6b4428622b1d7a0b02977009a2fc9cf90e7"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "call",
+        "Updated": "call",
+        "Location": "keras_nlp/models/gpt_neo_x/gpt_neo_x_decoder.py/GPTNeoXDecoder",
+        "Original Line": 142,
+        "Updated Line": 142,
+        "Description": [
+            "The parameters [ self_attention_cache self_attention_cache_update_index ] are added to the method call from the module keras_nlp/models/gpt_neo_x/gpt_neo_x_decoder.py in class GPTNeoXDecoder"
+        ],
+        "Commit": "3f89f6b4428622b1d7a0b02977009a2fc9cf90e7"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "from_preset",
+        "Updated": "tokenizer_cls",
+        "Location": "keras_nlp/models/albert/albert_preprocessor.py/AlbertPreprocessor",
+        "Original Line": 194,
+        "Updated Line": 180,
+        "Description": [
+            "The method from_preset from the module keras_nlp/models/albert/albert_preprocessor.py in class AlbertPreprocessor is renamed to tokenizer_cls",
+            "The parameters [ preset sequence_length truncate ] of the method from_preset from the module keras_nlp/models/albert/albert_preprocessor.py in class AlbertPreprocessor is/are removed"
+        ],
+        "Commit": "402fc72216fb0014b086e61ab185d00497e2e9a0"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "test_compile",
+        "Updated": "test_predict",
+        "Location": "keras_nlp/models/f_net/f_net_backbone_test.py/FNetBackboneTest",
+        "Original Line": 71,
+        "Updated Line": 59,
+        "Description": [
+            "The method test_compile from the module keras_nlp/models/f_net/f_net_backbone_test.py in class FNetBackboneTest is renamed to test_predict",
+            "The parameters [ jit_compile ] of the method test_compile from the module keras_nlp/models/f_net/f_net_backbone_test.py in class FNetBackboneTest is/are removed"
+        ],
+        "Commit": "46e025940e7aaff69fb77de0bc7e33e049ffbcb5"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "test_fnet_classifier_fit_no_preprocessing",
+        "Updated": "test_classifier_fit_no_xla",
+        "Location": "keras_nlp/models/f_net/f_net_classifier_test.py/FNetClassifierTest",
+        "Original Line": 127,
+        "Updated Line": 100,
+        "Description": [
+            "The method test_fnet_classifier_fit_no_preprocessing from the module keras_nlp/models/f_net/f_net_classifier_test.py in class FNetClassifierTest is renamed to test_classifier_fit_no_xla",
+            "The parameters [ jit_compile ] of the method test_fnet_classifier_fit_no_preprocessing from the module keras_nlp/models/f_net/f_net_classifier_test.py in class FNetClassifierTest is/are removed"
+        ],
+        "Commit": "46e025940e7aaff69fb77de0bc7e33e049ffbcb5"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "test_f_net_masked_lm_fit_no_preprocessing",
+        "Updated": "test_classifier_fit_no_xla",
+        "Location": "keras_nlp/models/f_net/f_net_masked_lm_test.py/FNetMaskedLMTest",
+        "Original Line": 120,
+        "Updated Line": 96,
+        "Description": [
+            "The method test_f_net_masked_lm_fit_no_preprocessing from the module keras_nlp/models/f_net/f_net_masked_lm_test.py in class FNetMaskedLMTest is renamed to test_classifier_fit_no_xla",
+            "The parameters [ jit_compile ] of the method test_f_net_masked_lm_fit_no_preprocessing from the module keras_nlp/models/f_net/f_net_masked_lm_test.py in class FNetMaskedLMTest is/are removed"
+        ],
+        "Commit": "46e025940e7aaff69fb77de0bc7e33e049ffbcb5"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "test_f_net_masked_lm_predict_no_preprocessing",
+        "Updated": "test_classifier_predict",
+        "Location": "keras_nlp/models/f_net/f_net_masked_lm_test.py/FNetMaskedLMTest",
+        "Original Line": 103,
+        "Updated Line": 86,
+        "Description": [
+            "The method test_f_net_masked_lm_predict_no_preprocessing from the module keras_nlp/models/f_net/f_net_masked_lm_test.py in class FNetMaskedLMTest is renamed to test_classifier_predict",
+            "The parameters [ jit_compile ] of the method test_f_net_masked_lm_predict_no_preprocessing from the module keras_nlp/models/f_net/f_net_masked_lm_test.py in class FNetMaskedLMTest is/are removed"
+        ],
+        "Commit": "46e025940e7aaff69fb77de0bc7e33e049ffbcb5"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_valid_call_masked_lm",
+        "Updated": "test_valid_call_classifier",
+        "Location": "keras_nlp/models/f_net/f_net_masked_lm_test.py/FNetMaskedLMTest",
+        "Original Line": 87,
+        "Updated Line": 83,
+        "Description": [
+            "The method test_valid_call_masked_lm from the module keras_nlp/models/f_net/f_net_masked_lm_test.py in class FNetMaskedLMTest is renamed to test_valid_call_classifier"
+        ],
+        "Commit": "46e025940e7aaff69fb77de0bc7e33e049ffbcb5"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_bert_classifier_fit",
+        "Updated": "test_classifier_fit",
+        "Location": "keras_nlp/models/distil_bert/distil_bert_classifier_test.py/DistilBertClassifierTest",
+        "Original Line": 95,
+        "Updated Line": 95,
+        "Description": [
+            "The method test_bert_classifier_fit from the module keras_nlp/models/distil_bert/distil_bert_classifier_test.py in class DistilBertClassifierTest is renamed to test_classifier_fit"
+        ],
+        "Commit": "4bbda28c8516ee6477c3430b17889497e2db613c"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_bert_classifier_fit_no_preprocessing",
+        "Updated": "test_classifier_fit_no_preprocessing",
+        "Location": "keras_nlp/models/distil_bert/distil_bert_classifier_test.py/DistilBertClassifierTest",
+        "Original Line": 105,
+        "Updated Line": 105,
+        "Description": [
+            "The method test_bert_classifier_fit_no_preprocessing from the module keras_nlp/models/distil_bert/distil_bert_classifier_test.py in class DistilBertClassifierTest is renamed to test_classifier_fit_no_preprocessing"
+        ],
+        "Commit": "4bbda28c8516ee6477c3430b17889497e2db613c"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_distil_bert_classifier_predict",
+        "Updated": "test_classifier_predict",
+        "Location": "keras_nlp/models/distil_bert/distil_bert_classifier_test.py/DistilBertClassifierTest",
+        "Original Line": 81,
+        "Updated Line": 81,
+        "Description": [
+            "The method test_distil_bert_classifier_predict from the module keras_nlp/models/distil_bert/distil_bert_classifier_test.py in class DistilBertClassifierTest is renamed to test_classifier_predict"
+        ],
+        "Commit": "4bbda28c8516ee6477c3430b17889497e2db613c"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_distil_bert_classifier_predict_no_preprocessing",
+        "Updated": "test_classifier_predict_no_preprocessing",
+        "Location": "keras_nlp/models/distil_bert/distil_bert_classifier_test.py/DistilBertClassifierTest",
+        "Original Line": 88,
+        "Updated Line": 88,
+        "Description": [
+            "The method test_distil_bert_classifier_predict_no_preprocessing from the module keras_nlp/models/distil_bert/distil_bert_classifier_test.py in class DistilBertClassifierTest is renamed to test_classifier_predict_no_preprocessing"
+        ],
+        "Commit": "4bbda28c8516ee6477c3430b17889497e2db613c"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "keras_nlp/samplers/beam_sampler.py/BeamSampler",
+        "Original Line": 65,
+        "Updated Line": 93,
+        "Description": [
+            "The parameters [ return_all_beams ] are added to the method __init__ from the module keras_nlp/samplers/beam_sampler.py in class BeamSampler"
+        ],
+        "Commit": "58c7e1d8ba59ebabef8cbc4f8b72ab43744ab580"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "TopKSamplingTextGenerationTest",
+        "Updated": "TopKSearchTextGenerationTest",
+        "Location": "keras_nlp/utils/text_generation_test.py",
+        "Description": " class TopKSamplingTextGenerationTest was renamed to class TopKSearchTextGenerationTest ",
+        "Commit": "5c87ada4df66542b50db6e2bf561b9722e93fd46"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "RandomSamplingTextGenerationTest",
+        "Updated": "RandomSearchTextGenerationTest",
+        "Location": "keras_nlp/utils/text_generation_test.py",
+        "Description": " class RandomSamplingTextGenerationTest was renamed to class RandomSearchTextGenerationTest ",
+        "Commit": "5c87ada4df66542b50db6e2bf561b9722e93fd46"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "keras_nlp/samplers/contrastive_sampler.py/ContrastiveSampler",
+        "Original Line": 73,
+        "Updated Line": 73,
+        "Description": [
+            "The parameters [ seed ] of the method __init__ from the module keras_nlp/samplers/contrastive_sampler.py in class ContrastiveSampler is/are removed"
+        ],
+        "Commit": "5d6cec74b1a92af0410c360b13092e00dc85842d"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "RobertaTest",
+        "Updated": "RobertaBackboneTest",
+        "Location": "keras_nlp/models/roberta/roberta_backbone_test.py",
+        "Description": " class RobertaTest was renamed to class RobertaBackboneTest ",
+        "Commit": "5daa3997c6155e7cfa63c7708aa56671516cf877"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "XLMRobertaTest",
+        "Updated": "XLMRobertaBackboneTest",
+        "Location": "keras_nlp/models/xlm_roberta/xlm_roberta_backbone_test.py",
+        "Description": " class XLMRobertaTest was renamed to class XLMRobertaBackboneTest ",
+        "Commit": "5daa3997c6155e7cfa63c7708aa56671516cf877"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "get_next_token",
+        "Location": "keras_nlp/samplers/sampler.py/Sampler",
+        "Original Line": 143,
+        "Updated Line": 250,
+        "Description": [
+            "The method __init__ from the module keras_nlp/samplers/sampler.py in class Sampler is renamed to get_next_token",
+            "The parameters [ jit_compile ] of the method __init__ from the module keras_nlp/samplers/sampler.py in class Sampler are changed/renamed to [next_token_probs]"
+        ],
+        "Commit": "612bbf5767fc7f5e6810f57d84977428534c778b"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_classifier_fit",
+        "Updated": "test_fit",
+        "Location": "keras_nlp/models/f_net/f_net_masked_lm_test.py/FNetMaskedLMTest",
+        "Original Line": 94,
+        "Updated Line": 93,
+        "Description": [
+            "The method test_classifier_fit from the module keras_nlp/models/f_net/f_net_masked_lm_test.py in class FNetMaskedLMTest is renamed to test_fit"
+        ],
+        "Commit": "64b7d65b8fd2d491909ebfb28e85534e37225bec"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_classifier_fit_no_xla",
+        "Updated": "test_fit_no_xla",
+        "Location": "keras_nlp/models/f_net/f_net_masked_lm_test.py/FNetMaskedLMTest",
+        "Original Line": 99,
+        "Updated Line": 98,
+        "Description": [
+            "The method test_classifier_fit_no_xla from the module keras_nlp/models/f_net/f_net_masked_lm_test.py in class FNetMaskedLMTest is renamed to test_fit_no_xla"
+        ],
+        "Commit": "64b7d65b8fd2d491909ebfb28e85534e37225bec"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_classifier_predict",
+        "Updated": "test_predict",
+        "Location": "keras_nlp/models/f_net/f_net_masked_lm_test.py/FNetMaskedLMTest",
+        "Original Line": 89,
+        "Updated Line": 88,
+        "Description": [
+            "The method test_classifier_predict from the module keras_nlp/models/f_net/f_net_masked_lm_test.py in class FNetMaskedLMTest is renamed to test_predict"
+        ],
+        "Commit": "64b7d65b8fd2d491909ebfb28e85534e37225bec"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "test_load_bert_base_cased",
+        "Updated": "test_load_bert_base",
+        "Location": "network_tests/test_load_ckpts.py/BertCkptTest",
+        "Original Line": 33,
+        "Updated Line": 29,
+        "Description": [
+            "The method test_load_bert_base_cased from the module network_tests/test_load_ckpts.py in class BertCkptTest is renamed to test_load_bert_base",
+            "The parameters [ weights ] are added to the method test_load_bert_base_cased from the module network_tests/test_load_ckpts.py in class BertCkptTest"
+        ],
+        "Commit": "6953e53e7183c1e19a75852cb6bb63e4236b6e30"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "test_compile",
+        "Updated": "test_predict",
+        "Location": "keras_nlp/models/albert/albert_backbone_test.py/AlbertBackboneTest",
+        "Original Line": 80,
+        "Updated Line": 66,
+        "Description": [
+            "The method test_compile from the module keras_nlp/models/albert/albert_backbone_test.py in class AlbertBackboneTest is renamed to test_predict",
+            "The parameters [ jit_compile ] of the method test_compile from the module keras_nlp/models/albert/albert_backbone_test.py in class AlbertBackboneTest is/are removed"
+        ],
+        "Commit": "794c4b18084a1fdf04cea0a2cae4889dbadd8516"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "test_albert_classifier_fit",
+        "Updated": "test_distilbert_classifier_fit_default_compile",
+        "Location": "keras_nlp/models/albert/albert_classifier_test.py/AlbertClassifierTest",
+        "Original Line": 118,
+        "Updated Line": 110,
+        "Description": [
+            "The method test_albert_classifier_fit from the module keras_nlp/models/albert/albert_classifier_test.py in class AlbertClassifierTest is renamed to test_distilbert_classifier_fit_default_compile",
+            "The parameters [ jit_compile ] of the method test_albert_classifier_fit from the module keras_nlp/models/albert/albert_classifier_test.py in class AlbertClassifierTest is/are removed"
+        ],
+        "Commit": "794c4b18084a1fdf04cea0a2cae4889dbadd8516"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_saved_model",
+        "Updated": "test_saving_model",
+        "Location": "keras_nlp/models/albert/albert_classifier_test.py/AlbertClassifierTest",
+        "Original Line": 139,
+        "Updated Line": 126,
+        "Description": [
+            "The method test_saved_model from the module keras_nlp/models/albert/albert_classifier_test.py in class AlbertClassifierTest is renamed to test_saving_model"
+        ],
+        "Commit": "794c4b18084a1fdf04cea0a2cae4889dbadd8516"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "test_albert_masked_lm_fit_no_preprocessing",
+        "Updated": "test_classifier_fit_no_xla",
+        "Location": "keras_nlp/models/albert/albert_masked_lm_test.py/AlbertMaskedLMTest",
+        "Original Line": 133,
+        "Updated Line": 118,
+        "Description": [
+            "The method test_albert_masked_lm_fit_no_preprocessing from the module keras_nlp/models/albert/albert_masked_lm_test.py in class AlbertMaskedLMTest is renamed to test_classifier_fit_no_xla",
+            "The parameters [ jit_compile ] of the method test_albert_masked_lm_fit_no_preprocessing from the module keras_nlp/models/albert/albert_masked_lm_test.py in class AlbertMaskedLMTest is/are removed"
+        ],
+        "Commit": "794c4b18084a1fdf04cea0a2cae4889dbadd8516"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_valid_call_masked_lm",
+        "Updated": "test_valid_call_classifier",
+        "Location": "keras_nlp/models/albert/albert_masked_lm_test.py/AlbertMaskedLMTest",
+        "Original Line": 100,
+        "Updated Line": 102,
+        "Description": [
+            "The method test_valid_call_masked_lm from the module keras_nlp/models/albert/albert_masked_lm_test.py in class AlbertMaskedLMTest is renamed to test_valid_call_classifier"
+        ],
+        "Commit": "794c4b18084a1fdf04cea0a2cae4889dbadd8516"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "MaskedLM",
+        "Updated": "MaskedLMHead",
+        "Location": "examples/bert/run_pretraining.py",
+        "Description": " class MaskedLM was renamed to class MaskedLMHead ",
+        "Commit": "7b2ea0b6de7159a52877b280cd343e6bc4e18dd2"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "keras_nlp/models/bert/bert_tasks.py/BertClassifier",
+        "Original Line": 100,
+        "Updated Line": 100,
+        "Description": [
+            "The parameters [ dropout ] are added to the method __init__ from the module keras_nlp/models/bert/bert_tasks.py in class BertClassifier"
+        ],
+        "Commit": "7c984f2c5ca3bdcf8f1f93e84b221c488690c0d0"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "from_preset",
+        "Updated": "from_preset",
+        "Old Location": "keras_nlp/models/bert/bert_backbone.py/BertBackbone",
+        "New Location": "keras_nlp/models/preprocessor.py/Preprocessor",
+        "Old Method Line": 225,
+        "New Method Line": 123,
+        "Description": " method from_preset from the module keras_nlp/models/bert/bert_backbone.py in class BertBackbone was moved to class Preprocessor of module keras_nlp/models/preprocessor.py ",
+        "Commit": "7dadc61525725548456c1a16c56f0c5e2dac4605"
+    },
+    {
+        "Refactoring Type": "Pull Up Method",
+        "Original": "from_preset",
+        "Updated": "from_preset",
+        "Old Location": "keras_nlp/models/bert/bert_preprocessor.py/BertPreprocessor",
+        "New Location": "keras_nlp/models/preprocessor.py/Preprocessor",
+        "Old Method Line": 201,
+        "New Method Line": 123,
+        "Description": " method from_preset from the module keras_nlp/models/bert/bert_preprocessor.py in class BertPreprocessor was moved to class Preprocessor of module keras_nlp/models/preprocessor.py ",
+        "Commit": "7dadc61525725548456c1a16c56f0c5e2dac4605"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "from_preset",
+        "Updated": "from_preset",
+        "Old Location": "keras_nlp/models/deberta_v3/deberta_v3_backbone.py/DebertaV3Backbone",
+        "New Location": "keras_nlp/models/preprocessor.py/Preprocessor",
+        "Old Method Line": 207,
+        "New Method Line": 123,
+        "Description": " method from_preset from the module keras_nlp/models/deberta_v3/deberta_v3_backbone.py in class DebertaV3Backbone was moved to class Preprocessor of module keras_nlp/models/preprocessor.py ",
+        "Commit": "7dadc61525725548456c1a16c56f0c5e2dac4605"
+    },
+    {
+        "Refactoring Type": "Pull Up Method",
+        "Original": "from_preset",
+        "Updated": "from_preset",
+        "Old Location": "keras_nlp/models/deberta_v3/deberta_v3_preprocessor.py/DebertaV3Preprocessor",
+        "New Location": "keras_nlp/models/preprocessor.py/Preprocessor",
+        "Old Method Line": 195,
+        "New Method Line": 123,
+        "Description": " method from_preset from the module keras_nlp/models/deberta_v3/deberta_v3_preprocessor.py in class DebertaV3Preprocessor was moved to class Preprocessor of module keras_nlp/models/preprocessor.py ",
+        "Commit": "7dadc61525725548456c1a16c56f0c5e2dac4605"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "from_preset",
+        "Updated": "from_preset",
+        "Old Location": "keras_nlp/models/distil_bert/distil_bert_backbone.py/DistilBertBackbone",
+        "New Location": "keras_nlp/models/preprocessor.py/Preprocessor",
+        "Old Method Line": 187,
+        "New Method Line": 123,
+        "Description": " method from_preset from the module keras_nlp/models/distil_bert/distil_bert_backbone.py in class DistilBertBackbone was moved to class Preprocessor of module keras_nlp/models/preprocessor.py ",
+        "Commit": "7dadc61525725548456c1a16c56f0c5e2dac4605"
+    },
+    {
+        "Refactoring Type": "Pull Up Method",
+        "Original": "from_preset",
+        "Updated": "from_preset",
+        "Old Location": "keras_nlp/models/distil_bert/distil_bert_preprocessor.py/DistilBertPreprocessor",
+        "New Location": "keras_nlp/models/preprocessor.py/Preprocessor",
+        "Old Method Line": 199,
+        "New Method Line": 123,
+        "Description": " method from_preset from the module keras_nlp/models/distil_bert/distil_bert_preprocessor.py in class DistilBertPreprocessor was moved to class Preprocessor of module keras_nlp/models/preprocessor.py ",
+        "Commit": "7dadc61525725548456c1a16c56f0c5e2dac4605"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "from_preset",
+        "Updated": "from_preset",
+        "Old Location": "keras_nlp/models/gpt2/gpt2_backbone.py/GPT2Backbone",
+        "New Location": "keras_nlp/models/preprocessor.py/Preprocessor",
+        "Old Method Line": 194,
+        "New Method Line": 123,
+        "Description": " method from_preset from the module keras_nlp/models/gpt2/gpt2_backbone.py in class GPT2Backbone was moved to class Preprocessor of module keras_nlp/models/preprocessor.py ",
+        "Commit": "7dadc61525725548456c1a16c56f0c5e2dac4605"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "from_preset",
+        "Updated": "from_preset",
+        "Old Location": "keras_nlp/models/roberta/roberta_backbone.py/RobertaBackbone",
+        "New Location": "keras_nlp/models/preprocessor.py/Preprocessor",
+        "Old Method Line": 181,
+        "New Method Line": 123,
+        "Description": " method from_preset from the module keras_nlp/models/roberta/roberta_backbone.py in class RobertaBackbone was moved to class Preprocessor of module keras_nlp/models/preprocessor.py ",
+        "Commit": "7dadc61525725548456c1a16c56f0c5e2dac4605"
+    },
+    {
+        "Refactoring Type": "Pull Up Method",
+        "Original": "from_preset",
+        "Updated": "from_preset",
+        "Old Location": "keras_nlp/models/roberta/roberta_preprocessor.py/RobertaPreprocessor",
+        "New Location": "keras_nlp/models/preprocessor.py/Preprocessor",
+        "Old Method Line": 204,
+        "New Method Line": 123,
+        "Description": " method from_preset from the module keras_nlp/models/roberta/roberta_preprocessor.py in class RobertaPreprocessor was moved to class Preprocessor of module keras_nlp/models/preprocessor.py ",
+        "Commit": "7dadc61525725548456c1a16c56f0c5e2dac4605"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "from_preset",
+        "Updated": "from_preset",
+        "Old Location": "keras_nlp/models/xlm_roberta/xlm_roberta_backbone.py/XLMRobertaBackbone",
+        "New Location": "keras_nlp/models/preprocessor.py/Preprocessor",
+        "Old Method Line": 95,
+        "New Method Line": 123,
+        "Description": " method from_preset from the module keras_nlp/models/xlm_roberta/xlm_roberta_backbone.py in class XLMRobertaBackbone was moved to class Preprocessor of module keras_nlp/models/preprocessor.py ",
+        "Commit": "7dadc61525725548456c1a16c56f0c5e2dac4605"
+    },
+    {
+        "Refactoring Type": "Pull Up Method",
+        "Original": "from_preset",
+        "Updated": "from_preset",
+        "Old Location": "keras_nlp/models/xlm_roberta/xlm_roberta_preprocessor.py/XLMRobertaPreprocessor",
+        "New Location": "keras_nlp/models/preprocessor.py/Preprocessor",
+        "Old Method Line": 204,
+        "New Method Line": 123,
+        "Description": " method from_preset from the module keras_nlp/models/xlm_roberta/xlm_roberta_preprocessor.py in class XLMRobertaPreprocessor was moved to class Preprocessor of module keras_nlp/models/preprocessor.py ",
+        "Commit": "7dadc61525725548456c1a16c56f0c5e2dac4605"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "test_compile",
+        "Updated": "test_predict",
+        "Location": "keras_nlp/models/bert/bert_backbone_test.py/BertBackboneTest",
+        "Original Line": 77,
+        "Updated Line": 65,
+        "Description": [
+            "The method test_compile from the module keras_nlp/models/bert/bert_backbone_test.py in class BertBackboneTest is renamed to test_predict",
+            "The parameters [ jit_compile ] of the method test_compile from the module keras_nlp/models/bert/bert_backbone_test.py in class BertBackboneTest is/are removed"
+        ],
+        "Commit": "855b82fef66e63f0346d0bb793d922e84074568a"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "test_bert_classifier_fit_no_preprocessing",
+        "Updated": "test_classifier_fit_no_xla",
+        "Location": "keras_nlp/models/bert/bert_classifier_test.py/BertClassifierTest",
+        "Original Line": 103,
+        "Updated Line": 78,
+        "Description": [
+            "The method test_bert_classifier_fit_no_preprocessing from the module keras_nlp/models/bert/bert_classifier_test.py in class BertClassifierTest is renamed to test_classifier_fit_no_xla",
+            "The parameters [ jit_compile ] of the method test_bert_classifier_fit_no_preprocessing from the module keras_nlp/models/bert/bert_classifier_test.py in class BertClassifierTest is/are removed"
+        ],
+        "Commit": "855b82fef66e63f0346d0bb793d922e84074568a"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "test_bert_masked_lm_fit_no_preprocessing",
+        "Updated": "test_classifier_fit_no_xla",
+        "Location": "keras_nlp/models/bert/bert_masked_lm_test.py/BertMaskedLMTest",
+        "Original Line": 112,
+        "Updated Line": 84,
+        "Description": [
+            "The method test_bert_masked_lm_fit_no_preprocessing from the module keras_nlp/models/bert/bert_masked_lm_test.py in class BertMaskedLMTest is renamed to test_classifier_fit_no_xla",
+            "The parameters [ jit_compile ] of the method test_bert_masked_lm_fit_no_preprocessing from the module keras_nlp/models/bert/bert_masked_lm_test.py in class BertMaskedLMTest is/are removed"
+        ],
+        "Commit": "855b82fef66e63f0346d0bb793d922e84074568a"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "Gpt2",
+        "Updated": "GPT2",
+        "Location": "keras_nlp/models/gpt2/gpt2_models.py",
+        "Description": " class Gpt2 was renamed to class GPT2 ",
+        "Commit": "8f6789a1e61c40d5eb0b0ba29f077553b981f0b0"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "Gpt2Test",
+        "Updated": "GPT2Test",
+        "Location": "keras_nlp/models/gpt2/gpt2_models_test.py",
+        "Description": " class Gpt2Test was renamed to class GPT2Test ",
+        "Commit": "8f6789a1e61c40d5eb0b0ba29f077553b981f0b0"
+    },
+    {
+        "Refactoring Type": "Inline Method",
+        "Original": "call",
+        "Updated": "_feedforward",
+        "Location": "keras_nlp/layers/transformer_decoder.py/TransformerDecoder",
+        "Original Method Line": "(205,201)",
+        "Extracted/Inlined Method Line": 200,
+        "Extracted/Inlined Lines": [
+            307.0,
+            308.0
+        ],
+        "Description": " The method _feedforward from the module keras_nlp/layers/transformer_decoder.py in class TransformerDecoder is inlined into method call from the module keras_nlp/layers/transformer_decoder.py in class TransformerDecoder ",
+        "Commit": "9bc5d37b3a5dfd56b1f4ed23b8aa69c6042c1c3b"
+    },
+    {
+        "Refactoring Type": "Inline Method",
+        "Original": "call",
+        "Updated": "_feedforward",
+        "Location": "keras_nlp/layers/transformer_encoder.py/TransformerEncoder",
+        "Original Method Line": "(158,160)",
+        "Extracted/Inlined Method Line": 153,
+        "Extracted/Inlined Lines": [
+            206.0,
+            207.0
+        ],
+        "Description": " The method _feedforward from the module keras_nlp/layers/transformer_encoder.py in class TransformerEncoder is inlined into method call from the module keras_nlp/layers/transformer_encoder.py in class TransformerEncoder ",
+        "Commit": "9bc5d37b3a5dfd56b1f4ed23b8aa69c6042c1c3b"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "keras_nlp/models/bert/bert_tasks.py/BertClassifier",
+        "Original Line": 77,
+        "Updated Line": 103,
+        "Description": [
+            "The parameters [ preprocessor ] are added to the method __init__ from the module keras_nlp/models/bert/bert_tasks.py in class BertClassifier"
+        ],
+        "Commit": "9c17e05303bbd0697c128be12b5d9adc19769d79"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_bert_classifier_compile",
+        "Updated": "test_bert_classifier_predict",
+        "Location": "keras_nlp/models/bert/bert_tasks_test.py/BertClassifierTest",
+        "Original Line": 64,
+        "Updated Line": 76,
+        "Description": [
+            "The method test_bert_classifier_compile from the module keras_nlp/models/bert/bert_tasks_test.py in class BertClassifierTest is renamed to test_bert_classifier_predict"
+        ],
+        "Commit": "9c17e05303bbd0697c128be12b5d9adc19769d79"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "GPT2",
+        "Updated": "GPT2Backbone",
+        "Location": "keras_nlp/models/gpt2/gpt2_backbone.py",
+        "Description": " class GPT2 was renamed to class GPT2Backbone ",
+        "Commit": "9c8129d726ee63ad5bb9a94c34f9028cab9f698b"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "keras_nlp/models/albert/albert_classifier.py/AlbertClassifier",
+        "Original Line": 149,
+        "Updated Line": 152,
+        "Description": [
+            "The parameters [ activation ] are added to the method __init__ from the module keras_nlp/models/albert/albert_classifier.py in class AlbertClassifier"
+        ],
+        "Commit": "a86cbba6be35770e39b1a956fa3b9963907d4417"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "keras_nlp/models/bert/bert_classifier.py/BertClassifier",
+        "Original Line": 137,
+        "Updated Line": 140,
+        "Description": [
+            "The parameters [ activation ] are added to the method __init__ from the module keras_nlp/models/bert/bert_classifier.py in class BertClassifier"
+        ],
+        "Commit": "a86cbba6be35770e39b1a956fa3b9963907d4417"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "keras_nlp/models/deberta_v3/deberta_v3_classifier.py/DebertaV3Classifier",
+        "Original Line": 166,
+        "Updated Line": 169,
+        "Description": [
+            "The parameters [ activation ] are added to the method __init__ from the module keras_nlp/models/deberta_v3/deberta_v3_classifier.py in class DebertaV3Classifier"
+        ],
+        "Commit": "a86cbba6be35770e39b1a956fa3b9963907d4417"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "keras_nlp/models/distil_bert/distil_bert_classifier.py/DistilBertClassifier",
+        "Original Line": 143,
+        "Updated Line": 146,
+        "Description": [
+            "The parameters [ activation ] are added to the method __init__ from the module keras_nlp/models/distil_bert/distil_bert_classifier.py in class DistilBertClassifier"
+        ],
+        "Commit": "a86cbba6be35770e39b1a956fa3b9963907d4417"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "keras_nlp/models/f_net/f_net_classifier.py/FNetClassifier",
+        "Original Line": 105,
+        "Updated Line": 108,
+        "Description": [
+            "The parameters [ activation ] are added to the method __init__ from the module keras_nlp/models/f_net/f_net_classifier.py in class FNetClassifier"
+        ],
+        "Commit": "a86cbba6be35770e39b1a956fa3b9963907d4417"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "keras_nlp/models/roberta/roberta_classifier.py/RobertaClassifier",
+        "Original Line": 139,
+        "Updated Line": 142,
+        "Description": [
+            "The parameters [ activation ] are added to the method __init__ from the module keras_nlp/models/roberta/roberta_classifier.py in class RobertaClassifier"
+        ],
+        "Commit": "a86cbba6be35770e39b1a956fa3b9963907d4417"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "keras_nlp/models/xlm_roberta/xlm_roberta_classifier.py/XLMRobertaClassifier",
+        "Original Line": 152,
+        "Updated Line": 155,
+        "Description": [
+            "The parameters [ activation ] are added to the method __init__ from the module keras_nlp/models/xlm_roberta/xlm_roberta_classifier.py in class XLMRobertaClassifier"
+        ],
+        "Commit": "a86cbba6be35770e39b1a956fa3b9963907d4417"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_deserialization",
+        "Updated": "test_get",
+        "Location": "keras_nlp/samplers/sampler_test.py/SamplerTest",
+        "Original Line": 34,
+        "Updated Line": 31,
+        "Description": [
+            "The method test_deserialization from the module keras_nlp/samplers/sampler_test.py in class SamplerTest is renamed to test_get"
+        ],
+        "Commit": "a995dd67a330e2184d82b7cd31e2d48eec6a1f3c"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "call",
+        "Updated": "_compute_trim_and_broadcast_position_embeddings",
+        "Location": "keras_nlp/layers/sine_position_encoding.py/SinePositionEncoding",
+        "Original Method Line": "(65,70)",
+        "Extracted/Inlined Method Line": 90,
+        "Extracted/Inlined Lines": [
+            70.0,
+            71.0,
+            72.0,
+            73.0,
+            74.0,
+            79.0,
+            81.0,
+            82.0,
+            84.0,
+            88.0
+        ],
+        "Description": " The method _compute_trim_and_broadcast_position_embeddings from the module keras_nlp/layers/sine_position_encoding.py in class SinePositionEncoding is extracted from method call from the module keras_nlp/layers/sine_position_encoding.py in class SinePositionEncoding ",
+        "Commit": "ae224a110dec0a630c13131c7b64d6dd0266e091"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "keras_nlp/models/gpt2/gpt2_preprocessor.py/GPT2Preprocessor",
+        "Original Line": 118,
+        "Updated Line": 122,
+        "Description": [
+            "The parameters [ add_start_token add_end_token ] are added to the method __init__ from the module keras_nlp/models/gpt2/gpt2_preprocessor.py in class GPT2Preprocessor"
+        ],
+        "Commit": "aeef7060d4493e77759fe706b8846802411155b4"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_quick_start",
+        "Updated": "test_quick_start",
+        "Location": "keras_nlp/tests/integration_tests/basic_usage_test.py/BasicUsageTest",
+        "Original Line": 22,
+        "Updated Line": 26,
+        "Description": [
+            "The parameters [ jit_compile ] are added to the method test_quick_start from the module keras_nlp/tests/integration_tests/basic_usage_test.py in class BasicUsageTest"
+        ],
+        "Commit": "b197f85e3c463071f0e00d5640c5571dacb1b0be"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "keras_nlp/layers/transformer_decoder.py/TransformerDecoder",
+        "Original Line": 70,
+        "Updated Line": 76,
+        "Description": [
+            "The parameters [ kernel_initializer bias_initializer ] are added to the method __init__ from the module keras_nlp/layers/transformer_decoder.py in class TransformerDecoder"
+        ],
+        "Commit": "ba8b15021fd6fb2b982487a575798f71a01277d6"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "keras_nlp/layers/transformer_encoder.py/TransformerEncoder",
+        "Original Line": 65,
+        "Updated Line": 71,
+        "Description": [
+            "The parameters [ kernel_initializer bias_initializer ] are added to the method __init__ from the module keras_nlp/layers/transformer_encoder.py in class TransformerEncoder"
+        ],
+        "Commit": "ba8b15021fd6fb2b982487a575798f71a01277d6"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "test_saving_model",
+        "Updated": "test_saved_model",
+        "Location": "keras_nlp/layers/masked_lm_head_test.py/MaskedLMHeadTest",
+        "Original Line": 159,
+        "Updated Line": 164,
+        "Description": [
+            "The method test_saving_model from the module keras_nlp/layers/masked_lm_head_test.py in class MaskedLMHeadTest is renamed to test_saved_model",
+            "The parameters [ save_format filename ] are added to the method test_saving_model from the module keras_nlp/layers/masked_lm_head_test.py in class MaskedLMHeadTest"
+        ],
+        "Commit": "ba8ddc5e456474fc9c21541fb4df52eae22d631f"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_bert_kernel_initializer",
+        "Updated": "bert_kernel_initializer",
+        "Location": "keras_nlp/models/bert.py",
+        "Original Line": 28,
+        "Updated Line": 29,
+        "Description": [
+            "The method _bert_kernel_initializer from the module keras_nlp/models/bert.py is renamed to bert_kernel_initializer"
+        ],
+        "Commit": "be4392ed7038851032d10f91631c2a3d8bb950d1"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "test_load_bert",
+        "Updated": "test_load_bert",
+        "Location": "keras_nlp/network_tests/test_load_ckpts.py/BertCkptTest",
+        "Original Line": 36,
+        "Updated Line": 29,
+        "Description": [
+            "The parameters [ bert_variant weights ] of the method test_load_bert from the module keras_nlp/network_tests/test_load_ckpts.py in class BertCkptTest is/are removed"
+        ],
+        "Commit": "be4392ed7038851032d10f91631c2a3d8bb950d1"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "test_load_vocabularies",
+        "Updated": "test_load_vocabularies",
+        "Location": "keras_nlp/network_tests/test_load_ckpts.py/BertCkptTest",
+        "Original Line": 53,
+        "Updated Line": 76,
+        "Description": [
+            "The parameters [ vocabulary ] of the method test_load_vocabularies from the module keras_nlp/network_tests/test_load_ckpts.py in class BertCkptTest is/are removed"
+        ],
+        "Commit": "be4392ed7038851032d10f91631c2a3d8bb950d1"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "examples/bert/bert_train.py/MaskedLMHead",
+        "Original Line": 115,
+        "Updated Line": 116,
+        "Description": [
+            "The parameters [ inner_activation ] of the method __init__ from the module examples/bert/bert_train.py in class MaskedLMHead are changed/renamed to [intermediate_activation]"
+        ],
+        "Commit": "bf2110e71efefc3e25560318dd157220d1cbda98"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_saving_model",
+        "Updated": "test_saved_model",
+        "Location": "keras_nlp/models/gpt2/gpt2_causal_lm_test.py/GPT2CausalLMTest",
+        "Original Line": 147,
+        "Updated Line": 147,
+        "Description": [
+            "The method test_saving_model from the module keras_nlp/models/gpt2/gpt2_causal_lm_test.py in class GPT2CausalLMTest is renamed to test_saved_model"
+        ],
+        "Commit": "c21f852426644e08631fcc1032059d55c7142ef6"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_saving_model",
+        "Updated": "test_saved_model",
+        "Location": "keras_nlp/models/roberta/roberta_classifier_test.py/RobertaClassifierTest",
+        "Original Line": 128,
+        "Updated Line": 128,
+        "Description": [
+            "The method test_saving_model from the module keras_nlp/models/roberta/roberta_classifier_test.py in class RobertaClassifierTest is renamed to test_saved_model"
+        ],
+        "Commit": "c21f852426644e08631fcc1032059d55c7142ef6"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "keras_nlp/models/task_test.py/SimpleTask",
+        "Original Line": 34,
+        "Updated Line": 35,
+        "Description": [
+            "The parameters [ activation ] are added to the method __init__ from the module keras_nlp/models/task_test.py in class SimpleTask"
+        ],
+        "Commit": "c71c9deff9f15b6baf44c456f4291fdb6c2720fb"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_saving_model",
+        "Updated": "test_saving_model",
+        "Location": "keras_nlp/models/roberta/roberta_models_test.py/RobertaTest",
+        "Original Line": 120,
+        "Updated Line": 123,
+        "Description": [
+            "The parameters [ save_format ] are added to the method test_saving_model from the module keras_nlp/models/roberta/roberta_models_test.py in class RobertaTest"
+        ],
+        "Commit": "c7b4487d6417d41fc034ead322d410a65e447bb1"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_saving_model",
+        "Updated": "test_saving_model",
+        "Location": "keras_nlp/models/xlm_roberta/xlm_roberta_models_test.py/XLMRobertaTest",
+        "Original Line": 99,
+        "Updated Line": 102,
+        "Description": [
+            "The parameters [ save_format ] are added to the method test_saving_model from the module keras_nlp/models/xlm_roberta/xlm_roberta_models_test.py in class XLMRobertaTest"
+        ],
+        "Commit": "c7b4487d6417d41fc034ead322d410a65e447bb1"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "DistilBert",
+        "Updated": "DistilBertBackbone",
+        "Location": "keras_nlp/models/distil_bert/distil_bert_backbone.py",
+        "Description": " class DistilBert was renamed to class DistilBertBackbone ",
+        "Commit": "d0afcd277c2d7086552c997e5f98c55d17333681"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "call",
+        "Updated": "_compute_self_attention_mask",
+        "Location": "keras_nlp/models/gpt_neo_x/gpt_neo_x_decoder.py/GPTNeoXDecoder",
+        "Original Method Line": "(132,142)",
+        "Extracted/Inlined Method Line": 171,
+        "Extracted/Inlined Lines": [
+            139.0,
+            140.0,
+            142.0,
+            145.0
+        ],
+        "Description": " The method _compute_self_attention_mask from the module keras_nlp/models/gpt_neo_x/gpt_neo_x_decoder.py in class GPTNeoXDecoder is extracted from method call from the module keras_nlp/models/gpt_neo_x/gpt_neo_x_decoder.py in class GPTNeoXDecoder ",
+        "Commit": "dfa3be3e2a0c21bbb7474583f6cf3ef501e1af07"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_detokenize",
+        "Updated": "test_detokenize_list_input",
+        "Location": "keras_nlp/tokenizers/byte_pair_tokenizer_test.py/BytePairTokenizerTest",
+        "Original Line": 60,
+        "Updated Line": 66,
+        "Description": [
+            "The method test_detokenize from the module keras_nlp/tokenizers/byte_pair_tokenizer_test.py in class BytePairTokenizerTest is renamed to test_detokenize_list_input"
+        ],
+        "Commit": "e3e1ddacac9b0fd9c0526f68af50493d720bf61c"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "Bert",
+        "Updated": "BertCustom",
+        "Location": "keras_nlp/models/bert.py",
+        "Description": " class Bert was renamed to class BertCustom ",
+        "Commit": "ebab6db95ef055cd7610bf2af52b798048340154"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "call",
+        "Updated": "call",
+        "Location": "keras_nlp/layers/token_and_position_embedding.py/TokenAndPositionEmbedding",
+        "Original Line": 122,
+        "Updated Line": 122,
+        "Description": [
+            "The parameters [ start_index ] are added to the method call from the module keras_nlp/layers/token_and_position_embedding.py in class TokenAndPositionEmbedding"
+        ],
+        "Commit": "edd6b6ba58afde819e7b07d4a0aa47f15a8a996b"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "test_distilbert_base_compile",
+        "Updated": "test_predict",
+        "Location": "keras_nlp/models/distil_bert/distil_bert_backbone_test.py/DistilBertTest",
+        "Original Line": 69,
+        "Updated Line": 63,
+        "Description": [
+            "The method test_distilbert_base_compile from the module keras_nlp/models/distil_bert/distil_bert_backbone_test.py in class DistilBertTest is renamed to test_predict",
+            "The parameters [ jit_compile ] of the method test_distilbert_base_compile from the module keras_nlp/models/distil_bert/distil_bert_backbone_test.py in class DistilBertTest is/are removed"
+        ],
+        "Commit": "f1464c577daf8fa10232d9357e7b38246590db2c"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "test_distilbert_masked_lm_fit_no_preprocessing",
+        "Updated": "test_classifier_fit_no_xla",
+        "Location": "keras_nlp/models/distil_bert/distil_bert_masked_lm_test.py/DistilBertMaskedLMTest",
+        "Original Line": 108,
+        "Updated Line": 86,
+        "Description": [
+            "The method test_distilbert_masked_lm_fit_no_preprocessing from the module keras_nlp/models/distil_bert/distil_bert_masked_lm_test.py in class DistilBertMaskedLMTest is renamed to test_classifier_fit_no_xla",
+            "The parameters [ jit_compile ] of the method test_distilbert_masked_lm_fit_no_preprocessing from the module keras_nlp/models/distil_bert/distil_bert_masked_lm_test.py in class DistilBertMaskedLMTest is/are removed"
+        ],
+        "Commit": "f1464c577daf8fa10232d9357e7b38246590db2c"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_saving_model",
+        "Updated": "test_saving_model",
+        "Location": "keras_nlp/models/bert/bert_models_test.py/BertTest",
+        "Original Line": 123,
+        "Updated Line": 126,
+        "Description": [
+            "The parameters [ save_format ] are added to the method test_saving_model from the module keras_nlp/models/bert/bert_models_test.py in class BertTest"
+        ],
+        "Commit": "f43039dae7c11cba8a8d8d5ddcfac729bdaa857c"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_saving_model",
+        "Updated": "test_saving_model",
+        "Location": "keras_nlp/models/bert/bert_tasks_test.py/BertClassifierTest",
+        "Original Line": 79,
+        "Updated Line": 82,
+        "Description": [
+            "The parameters [ save_format ] are added to the method test_saving_model from the module keras_nlp/models/bert/bert_tasks_test.py in class BertClassifierTest"
+        ],
+        "Commit": "f43039dae7c11cba8a8d8d5ddcfac729bdaa857c"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "keras_nlp/models/gpt_neo_x/rotary_embedding.py/RotaryEmbedding",
+        "Original Line": 19,
+        "Updated Line": 19,
+        "Description": [
+            "The parameters [ rotary_percentage ] of the method __init__ from the module keras_nlp/models/gpt_neo_x/rotary_embedding.py in class RotaryEmbedding is/are removed"
+        ],
+        "Commit": "f68c256824eb48eef04cd7123aa4db8ac1ab8a2c"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "_compute_cos_sin_embedding",
+        "Updated": "_compute_cos_sin_embedding",
+        "Location": "keras_nlp/models/gpt_neo_x/rotary_embedding.py/RotaryEmbedding",
+        "Original Line": 32,
+        "Updated Line": 32,
+        "Description": [
+            "The parameters [ rotary_ndims ] of the method _compute_cos_sin_embedding from the module keras_nlp/models/gpt_neo_x/rotary_embedding.py in class RotaryEmbedding are changed/renamed to [rotary_dim]"
+        ],
+        "Commit": "f68c256824eb48eef04cd7123aa4db8ac1ab8a2c"
+    }
+]

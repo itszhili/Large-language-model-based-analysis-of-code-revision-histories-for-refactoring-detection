@@ -1,0 +1,26 @@
+[
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "KolchinskiOptimizer",
+        "Updated": "KolchinskyOptimizer",
+        "Location": "dit/pid/measures/ipreceq.py",
+        "Description": " class KolchinskiOptimizer was renamed to class KolchinskyOptimizer ",
+        "Commit": "6ee4df76ecb7fbbb850d124cf5f22c42e686024b"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "PID_uparrow",
+        "Updated": "PID_SKAR_nw",
+        "Location": "dit/pid/iskar.py",
+        "Description": " class PID_uparrow was renamed to class PID_SKAR_nw ",
+        "Commit": "8f080f92822dd47b0930f9caa86c289c43fb05ad"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "SchneidmanProfile",
+        "Updated": "ConnectedInformations",
+        "Location": "dit/profiles/schneidman.py",
+        "Description": " class SchneidmanProfile was renamed to class ConnectedInformations ",
+        "Commit": "d3e36e5c6f47013633e2d6e8caa66f9b1995d9c0"
+    }
+]

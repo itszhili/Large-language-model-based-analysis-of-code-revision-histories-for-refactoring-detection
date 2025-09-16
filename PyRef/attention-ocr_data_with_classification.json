@@ -1,0 +1,103 @@
+[
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_prepare_image",
+        "Updated": "_prepare_image2",
+        "Location": "aocr/model/model.py/Model",
+        "Original Line": 475,
+        "Updated Line": 501,
+        "Description": [
+            "The method _prepare_image from the module aocr/model/model.py in class Model is renamed to _prepare_image2"
+        ],
+        "Commit": "0ce0fd2b98db6272e9a97d3076e7ff0b5668b606",
+        "Classification": [
+            " This is a machine learning specific software refactoring. The method name is being changed from",
+            "`_prepare_image` to `_prepare_image2` in the `aocr/model/model.py` file in the `Model` class. This",
+            "is a specific change related to machine learning and the naming conventions used in the field. The",
+            "commit message provides additional context, stating that the method renaming is part of a larger",
+            "refactoring effort. The commit message also includes the new method name, `_prepare_image2`, which",
+            "is used to replace the old method name, `_prepare_image`. Overall, this is a specific software",
+            "refactoring related to machine learning and the renaming of a method in the `aocr/model/model.py`",
+            "file in the `Model` class."
+        ],
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "setFullAsciiCharmap",
+        "Updated": "set_full_ascii_charmap",
+        "Location": "aocr/util/data_gen.py/DataGen",
+        "Original Line": 22,
+        "Updated Line": 24,
+        "Description": [
+            "The method setFullAsciiCharmap from the module aocr/util/data_gen.py in class DataGen is renamed to set_full_ascii_charmap"
+        ],
+        "Commit": "4ed7a5003f1ded5f588c5aa73d1f76b6b41c7531",
+        "Classification": [
+            " This is a general software refactoring, specifically a renaming of a method. The original method",
+            "name \"setFullAsciiCharmap\" is being renamed to \"set_full_ascii_charmap\" in the file",
+            "\"aocr/util/data_gen.py\" in the class \"DataGen\". The reason for refactoring is not specified in the",
+            "commit message, but it could be done for various reasons such as: * Consistency: The method name is",
+            "being renamed to be more consistent with other method names in the class or package. * Clarity: The",
+            "new name better describes the purpose of the method, making it easier to understand and maintain. *",
+            "Readability: The new name is more readable and easier to understand, especially for developers who",
+            "are not familiar with the codebase. * Maintenance: Renaming the method makes it easier to maintain",
+            "and update the codebase, as it eliminates the need to search for the old method name. This is a",
+            "minor refactoring, and it does not affect the functionality of the code."
+        ],
+        "Category": "ML-Specific"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "aocr/util/export.py/Exporter",
+        "Original Line": 7,
+        "Updated Line": 8,
+        "Description": [
+            "The parameters [ checkpoint_dir ] of the method __init__ from the module aocr/util/export.py in class Exporter is/are removed"
+        ],
+        "Commit": "589ea31d1c1745576aea4c6246c25f275936fbfe",
+        "Classification": [
+            " This is a machine learning specific software refactoring. The commit message mentions that the",
+            "parameter `checkpoint_dir` of the method `__init__` in the class `Exporter` from the module",
+            "`aocr/util/export.py` is being removed. This suggests that the code is related to machine learning",
+            "models and their training, and the refactoring involves removing a parameter that is no longer",
+            "needed or used. The fact that the commit message mentions the `aocr` directory and the `util` module",
+            "further suggests that this is a refactoring related to a machine learning project. The `export`",
+            "module is likely a part of the project's infrastructure for exporting trained models or other data",
+            "related to the project. Overall, this commit message seems to indicate a specific refactoring",
+            "related to machine learning code, rather than a general software refactoring that could apply to any",
+            "project."
+        ],
+        "Category": "General"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "append",
+        "Updated": "append",
+        "Location": "aocr/util/bucketdata.py/BucketData",
+        "Original Line": 14,
+        "Updated Line": 14,
+        "Description": [
+            "The parameters [ filename ] of the method append from the module aocr/util/bucketdata.py in class BucketData are changed/renamed to [label_plain]"
+        ],
+        "Commit": "6bb43dc2cf2413eb270b651803da020b597b3fec",
+        "Classification": [
+            " This is a machine learning specific software refactoring. The change involves renaming the",
+            "parameter \"filename\" to \"label_plain\" in the method \"append\" of the class \"BucketData\" in the file",
+            "\"aocr/util/bucketdata.py\". This suggests that the method is related to data processing or",
+            "manipulation, and the rename is likely done to make the code more readable or maintainable, or to",
+            "align with some naming convention used in the machine learning project."
+        ],
+        "Category": "ML-Specific"
+    }
+]

@@ -1,0 +1,170 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "predict",
+        "Updated": "predict",
+        "Location": "boss_train.py",
+        "Original Line": 59,
+        "Updated Line": 60,
+        "Description": [
+            "The parameters [ image ] are added to the method predict from the module boss_train.py"
+        ],
+        "Commit": "16fd6ddbbaae27b9639c0e6165a8e00c6d7e4aaa"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "main",
+        "Updated": "main",
+        "Location": "boss_train.py",
+        "Original Line": 88,
+        "Updated Line": 73,
+        "Description": [
+            "The parameters [ argv ] are added to the method main from the module boss_train.py"
+        ],
+        "Commit": "1dbf84698aafb7380ec4cf2ef1d8511c55011bff"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "predict",
+        "Updated": "predict",
+        "Location": "boss_train.py",
+        "Original Line": 58,
+        "Updated Line": 59,
+        "Description": [
+            "The parameters [ saver top_k_op ] of the method predict from the module boss_train.py is/are removed"
+        ],
+        "Commit": "26c7c0ac3f9efd41b83c63b7ec7e0c852114e888"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "extract_data",
+        "Updated": "extract_data",
+        "Location": "boss_input.py",
+        "Original Line": 76,
+        "Updated Line": 61,
+        "Description": [
+            "The parameters [ sess ] of the method extract_data from the module boss_input.py is/are removed"
+        ],
+        "Commit": "37a1a108f92e2422c49d3721050ca53aa5a5b67f"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "traverse_dir",
+        "Updated": "traverse_dir",
+        "Location": "boss_input.py",
+        "Original Line": 38,
+        "Updated Line": 37,
+        "Description": [
+            "The parameters [ sess ] of the method traverse_dir from the module boss_input.py is/are removed"
+        ],
+        "Commit": "37a1a108f92e2422c49d3721050ca53aa5a5b67f"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "extract_data",
+        "Updated": "extract_data",
+        "Location": "input_data.py",
+        "Original Line": 19,
+        "Updated Line": 20,
+        "Description": [
+            "The parameters [ sess ] are added to the method extract_data from the module input_data.py"
+        ],
+        "Commit": "47452d14a312e5df011ff33110d6038f2240c892"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "read_data_sets",
+        "Updated": "read_data_sets",
+        "Location": "input_data.py",
+        "Original Line": 87,
+        "Updated Line": 86,
+        "Description": [
+            "The parameters [ sess ] are added to the method read_data_sets from the module input_data.py"
+        ],
+        "Commit": "47452d14a312e5df011ff33110d6038f2240c892"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "traverse_dir",
+        "Updated": "traverse_dir",
+        "Location": "reader.py",
+        "Original Line": 16,
+        "Updated Line": 16,
+        "Description": [
+            "The parameters [ sess ] are added to the method traverse_dir from the module reader.py"
+        ],
+        "Commit": "47452d14a312e5df011ff33110d6038f2240c892"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "build_model",
+        "Updated": "build_model",
+        "Location": "trainer.py/Model",
+        "Original Line": 159,
+        "Updated Line": 64,
+        "Description": [
+            "The parameters [ dataset ] are added to the method build_model from the module trainer.py in class Model"
+        ],
+        "Commit": "64c5fbd214d057f167f8ec895a8474c6b4ffff94"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "train",
+        "Updated": "train",
+        "Location": "trainer.py/Model",
+        "Original Line": 183,
+        "Updated Line": 90,
+        "Description": [
+            "The parameters [ dataset ] are added to the method train from the module trainer.py in class Model"
+        ],
+        "Commit": "64c5fbd214d057f167f8ec895a8474c6b4ffff94"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "input_data.py/DataSet",
+        "Original Line": 64,
+        "Updated Line": 30,
+        "Description": [
+            "The parameters [ fake_data one_hot ] of the method __init__ from the module input_data.py in class DataSet is/are removed"
+        ],
+        "Commit": "65c064cdc519d2eb6b4b370b5049f0df90934bc8"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "read_image_",
+        "Updated": "read_image_",
+        "Location": "reader.py",
+        "Original Line": 35,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ sess ] are added to the method read_image_ from the module reader.py"
+        ],
+        "Commit": "a82d301534eda205d6139984f40e5e724af0a219"
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "loadData",
+        "Updated": "loadData",
+        "Location": "RMDL/text_feature_extraction.py",
+        "Original Line": 135,
+        "Updated Line": 135,
+        "Description": [
+            "The parameters [ MAX_NB_WORDS ] are added to the method loadData from the module RMDL/text_feature_extraction.py"
+        ],
+        "Commit": "ca186233bf32df3c5e3f651d0d7cbf588c725908"
+    }
+]

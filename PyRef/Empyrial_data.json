@@ -1,0 +1,16 @@
+[
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "information_ratio",
+        "Updated": "calculate_information_ratio",
+        "Location": "Empyrial/empyrial.py",
+        "Original Line": 126,
+        "Updated Line": 129,
+        "Description": [
+            "The method information_ratio from the module Empyrial/empyrial.py is renamed to calculate_information_ratio"
+        ],
+        "Commit": "07e769cf6a731a74ae3dea537a374029b07d80eb"
+    }
+]

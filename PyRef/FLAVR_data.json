@@ -1,0 +1,10 @@
+[
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "UCF_triplet",
+        "Updated": "UCF",
+        "Location": "dataset/ucf101_test.py",
+        "Description": " class UCF_triplet was renamed to class UCF ",
+        "Commit": "2771c44e6dc339cdf6aff6262708f77065b3e6f9"
+    }
+]

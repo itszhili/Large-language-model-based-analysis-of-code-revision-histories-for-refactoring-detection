@@ -1,0 +1,170 @@
+[
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "all_names",
+        "Updated": "all_template_names",
+        "Location": "promptsource/templates.py/DatasetTemplates",
+        "Original Line": 109,
+        "Updated Line": 109,
+        "Description": [
+            "The method all_names from the module promptsource/templates.py in class DatasetTemplates is renamed to all_template_names"
+        ],
+        "Commit": "03df2e89e543370e0c5b4640ebc2a775e900959b"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "promptsource/templates.py/Metadata",
+        "Original Line": 218,
+        "Updated Line": 424,
+        "Description": [
+            "The parameters [ languages ] are added to the method __init__ from the module promptsource/templates.py in class Metadata"
+        ],
+        "Commit": "0cc4b0c2942af4e29a7b95399020076f4e1a379a"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "update_template",
+        "Updated": "update_template",
+        "Location": "promptsource/templates.py/DatasetTemplates",
+        "Original Line": 206,
+        "Updated Line": 206,
+        "Description": [
+            "The parameters [ task_template ] are added to the method update_template from the module promptsource/templates.py in class DatasetTemplates"
+        ],
+        "Commit": "14e104b00e7e40c7da547b4ea5489ad10f12a76a"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "promptsource/templates.py/Template",
+        "Original Line": 251,
+        "Updated Line": 254,
+        "Description": [
+            "The parameters [ task_template ] are added to the method __init__ from the module promptsource/templates.py in class Template"
+        ],
+        "Commit": "14e104b00e7e40c7da547b4ea5489ad10f12a76a"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "show_text",
+        "Updated": "show_text",
+        "Location": "promptsource/app.py",
+        "Original Line": 89,
+        "Updated Line": 88,
+        "Description": [
+            "The parameters [ with_markdown ] are added to the method show_text from the module promptsource/app.py"
+        ],
+        "Commit": "1603eb9a3f128f34a65704423251ab2c5fddc263"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "list_datasets",
+        "Updated": "list_datasets",
+        "Location": "promptsource/utils.py",
+        "Original Line": 122,
+        "Updated Line": 122,
+        "Description": [
+            "The parameters [ template_collection _state ] of the method list_datasets from the module promptsource/utils.py is/are removed"
+        ],
+        "Commit": "2ec263695dc8c9f0f3b2378ccfdc95b8eeb07034"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "promptsource/templates.py/Template",
+        "Original Line": 133,
+        "Updated Line": 137,
+        "Description": [
+            "The parameters [ jinja_tpl ] are added to the method __init__ from the module promptsource/templates.py in class Template"
+        ],
+        "Commit": "35a490f5a5e6cf898629e6d70ce84955cde650fa"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "promptsource/templates.py/Template",
+        "Original Line": 137,
+        "Updated Line": 135,
+        "Description": [
+            "The parameters [ input_fn ] of the method __init__ from the module promptsource/templates.py in class Template is/are removed"
+        ],
+        "Commit": "3d2c58ad7c7503500a6ba925307b177865d43aac"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "dataset_fn",
+        "Updated": "dataset_fn",
+        "Location": "promptsource/seqio_tasks/tasks.py",
+        "Original Line": 82,
+        "Updated Line": 70,
+        "Description": [
+            "The parameters [ split_mapping ] are added to the method dataset_fn from the module promptsource/seqio_tasks/tasks.py"
+        ],
+        "Commit": "69b853e7b9f731e1e41028269b178bd42002a906"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "promptsource/templates.py/Template",
+        "Original Line": 61,
+        "Updated Line": 61,
+        "Description": [
+            "The parameters [ answer_choices_key ] of the method __init__ from the module promptsource/templates.py in class Template is/are removed"
+        ],
+        "Commit": "c8bacdeb54f3463694bcc8a86a08bb4eb02acb22"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "update_template",
+        "Updated": "update_template",
+        "Location": "promptsource/templates.py/DatasetTemplates",
+        "Original Line": 446,
+        "Updated Line": 429,
+        "Description": [
+            "The parameters [ answer_choices_key ] of the method update_template from the module promptsource/templates.py in class DatasetTemplates is/are removed"
+        ],
+        "Commit": "c8bacdeb54f3463694bcc8a86a08bb4eb02acb22"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "get_infos",
+        "Updated": "get_infos",
+        "Location": "promptsource/app.py",
+        "Original Line": 150,
+        "Updated Line": 34,
+        "Description": [
+            "The parameters [ all_infos ] are added to the method get_infos from the module promptsource/app.py"
+        ],
+        "Commit": "f3bc55e70a8e7cd3dfcaecc2925e1b75fc483c3a"
+    }
+]

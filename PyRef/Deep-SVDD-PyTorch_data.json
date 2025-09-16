@@ -1,0 +1,80 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "src/base/base_trainer.py/BaseTrainer",
+        "Original Line": 9,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ weight_decay ] are added to the method __init__ from the module src/base/base_trainer.py in class BaseTrainer"
+        ],
+        "Commit": "3305775511097cb543a32a3b8ddff82e57d76de2"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "pretrain",
+        "Updated": "pretrain",
+        "Location": "src/deepSVDD.py/DeepSVDD",
+        "Original Line": 60,
+        "Updated Line": 58,
+        "Description": [
+            "The parameters [ weight_decay n_jobs_dataloader ] are added to the method pretrain from the module src/deepSVDD.py in class DeepSVDD"
+        ],
+        "Commit": "3305775511097cb543a32a3b8ddff82e57d76de2"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "train",
+        "Updated": "train",
+        "Location": "src/deepSVDD.py/DeepSVDD",
+        "Original Line": 49,
+        "Updated Line": 49,
+        "Description": [
+            "The parameters [ weight_decay n_jobs_dataloader ] are added to the method train from the module src/deepSVDD.py in class DeepSVDD"
+        ],
+        "Commit": "3305775511097cb543a32a3b8ddff82e57d76de2"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "src/optim/ae_trainer.py/AETrainer",
+        "Original Line": 14,
+        "Updated Line": 14,
+        "Description": [
+            "The parameters [ weight_decay ] are added to the method __init__ from the module src/optim/ae_trainer.py in class AETrainer"
+        ],
+        "Commit": "3305775511097cb543a32a3b8ddff82e57d76de2"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "src/optim/deepSVDD_trainer.py/DeepSVDDTrainer",
+        "Original Line": 14,
+        "Updated Line": 14,
+        "Description": [
+            "The parameters [ weight_decay ] are added to the method __init__ from the module src/optim/deepSVDD_trainer.py in class DeepSVDDTrainer"
+        ],
+        "Commit": "3305775511097cb543a32a3b8ddff82e57d76de2"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "BaseDataset",
+        "Updated": "BaseADDataset",
+        "Location": "src/base/base_dataset.py",
+        "Description": " class BaseDataset was renamed to class BaseADDataset ",
+        "Commit": "944972d18fbf51e9e11696c8ac20dbaab0cd4fea"
+    }
+]

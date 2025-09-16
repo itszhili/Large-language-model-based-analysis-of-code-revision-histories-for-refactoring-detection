@@ -1,0 +1,3789 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algo.py/AlgoBasicCollaborative",
+        "Original Line": 275,
+        "Updated Line": 275,
+        "Description": [
+            "The parameters [ k ] are added to the method __init__ from the module algo.py in class AlgoBasicCollaborative"
+        ],
+        "Commit": "01eee91ce85f4d908755a95c08a4acdc6470d19c"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algoKorbenAndCo.py/AlgoNeighborhoodWithBaseline",
+        "Original Line": 6,
+        "Updated Line": 6,
+        "Description": [
+            "The parameters [ k ] are added to the method __init__ from the module algoKorbenAndCo.py in class AlgoNeighborhoodWithBaseline"
+        ],
+        "Commit": "01eee91ce85f4d908755a95c08a4acdc6470d19c"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/bases.py/AlgoBase",
+        "Original Line": 23,
+        "Updated Line": 23,
+        "Description": [
+            "The parameters [ baseline with_dump ] of the method __init__ from the module pyrec/prediction_algorithms/bases.py in class AlgoBase is/are removed"
+        ],
+        "Commit": "02116a197a624915934fa484bb8d38c2b9c52a46"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/knns.py/KNNBaseline",
+        "Original Line": 122,
+        "Updated Line": 115,
+        "Description": [
+            "The parameters [ sim_name ] of the method __init__ from the module pyrec/prediction_algorithms/knns.py in class KNNBaseline is/are removed"
+        ],
+        "Commit": "02116a197a624915934fa484bb8d38c2b9c52a46"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "__init__",
+        "Updated": "optimize_sgd",
+        "Location": "algo.py/AlgoWithBaseline",
+        "Original Method Line": "(244,246)",
+        "Extracted/Inlined Method Line": 264,
+        "Extracted/Inlined Lines": [
+            259.0,
+            260.0,
+            261.0,
+            262.0,
+            263.0,
+            264.0,
+            265.0,
+            267.0,
+            270.0
+        ],
+        "Description": " The method optimize_sgd from the module algo.py in class AlgoWithBaseline is extracted from method __init__ from the module algo.py in class AlgoWithBaseline ",
+        "Commit": "094f4ff03b57c380e7b8d07ef7109c47c85998ad"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "compute_stats",
+        "Updated": "get_rmse_mae",
+        "Location": "pyrec/stats.py",
+        "Original Line": 3,
+        "Updated Line": 3,
+        "Description": [
+            "The method compute_stats from the module pyrec/stats.py is renamed to get_rmse_mae"
+        ],
+        "Commit": "09aec6dc0a9b23a3b83fb615ab79c788804357df"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/bases.py/AlgoUsingSim",
+        "Original Line": 136,
+        "Updated Line": 144,
+        "Description": [
+            "The parameters [ training_data ] of the method __init__ from the module pyrec/prediction_algorithms/bases.py in class AlgoUsingSim are changed/renamed to [trainset]"
+        ],
+        "Commit": "0be583b3dbec56fe3423b4f8a087fdee2ff62572"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/bases.py/AlgoWithBaseline",
+        "Original Line": 169,
+        "Updated Line": 177,
+        "Description": [
+            "The parameters [ training_data ] of the method __init__ from the module pyrec/prediction_algorithms/bases.py in class AlgoWithBaseline are changed/renamed to [trainset]"
+        ],
+        "Commit": "0be583b3dbec56fe3423b4f8a087fdee2ff62572"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algo.py/Algo",
+        "Original Line": 11,
+        "Updated Line": 14,
+        "Description": [
+            "The parameters [ withDump ] are added to the method __init__ from the module algo.py in class Algo"
+        ],
+        "Commit": "0c0906c0bcb36efb624ca747eb5c10b9d6e5ed7c"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "load_from_file",
+        "Updated": "load_from_file",
+        "Location": "pyrec/dataset.py/Dataset",
+        "Original Line": 159,
+        "Updated Line": 184,
+        "Description": [
+            "The parameters [ file_name ] of the method load_from_file from the module pyrec/dataset.py in class Dataset are changed/renamed to [file_path]"
+        ],
+        "Commit": "0ed5fe291605e94f82a09e21b86c87975ea32168"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "surprise/model_selection/search.py/GridSearchCV",
+        "Original Line": 91,
+        "Updated Line": 94,
+        "Description": [
+            "The parameters [ return_train_measures ] are added to the method __init__ from the module surprise/model_selection/search.py in class GridSearchCV"
+        ],
+        "Commit": "112c8f98533e17481ea2cfb240d8a1bc3d370c00"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "surprise/dataset.py/Trainset",
+        "Original Line": 484,
+        "Updated Line": 479,
+        "Description": [
+            "The parameters [ rm ] of the method __init__ from the module surprise/dataset.py in class Trainset are changed/renamed to [n_ratings]"
+        ],
+        "Commit": "11acb1325f8c243ed41e8dec12209d5c37576607"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "surprise/trainset.py/Trainset",
+        "Original Line": 44,
+        "Updated Line": 44,
+        "Description": [
+            "The parameters [ offset ] of the method __init__ from the module surprise/trainset.py in class Trainset is/are removed"
+        ],
+        "Commit": "11bbff8da34f7edbd0db8bdeefa971b83e832095"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "dataset.py/Reader",
+        "Original Line": 50,
+        "Updated Line": 50,
+        "Description": [
+            "The parameters [ rawRatings ] of the method __init__ from the module dataset.py in class Reader are changed/renamed to [raw_ratings]"
+        ],
+        "Commit": "123e7458905e5ed28f462b42b2430e4fc381e82b"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "dataset.py/MovieLensReader",
+        "Original Line": 56,
+        "Updated Line": 56,
+        "Description": [
+            "The parameters [ rawRatings ] of the method __init__ from the module dataset.py in class MovieLensReader are changed/renamed to [raw_ratings]"
+        ],
+        "Commit": "123e7458905e5ed28f462b42b2430e4fc381e82b"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "dataset.py/MovieLens100kReader",
+        "Original Line": 63,
+        "Updated Line": 63,
+        "Description": [
+            "The parameters [ rawRatings ] of the method __init__ from the module dataset.py in class MovieLens100kReader are changed/renamed to [raw_ratings]"
+        ],
+        "Commit": "123e7458905e5ed28f462b42b2430e4fc381e82b"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "dataset.py/MovieLens1mReader",
+        "Original Line": 75,
+        "Updated Line": 75,
+        "Description": [
+            "The parameters [ rawRatings ] of the method __init__ from the module dataset.py in class MovieLens1mReader are changed/renamed to [raw_ratings]"
+        ],
+        "Commit": "123e7458905e5ed28f462b42b2430e4fc381e82b"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "dataset.py/BXReader",
+        "Original Line": 87,
+        "Updated Line": 87,
+        "Description": [
+            "The parameters [ rawRatings ] of the method __init__ from the module dataset.py in class BXReader are changed/renamed to [raw_ratings]"
+        ],
+        "Commit": "123e7458905e5ed28f462b42b2430e4fc381e82b"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "dataset.py/JesterReader",
+        "Original Line": 101,
+        "Updated Line": 101,
+        "Description": [
+            "The parameters [ rawRatings ] of the method __init__ from the module dataset.py in class JesterReader are changed/renamed to [raw_ratings]"
+        ],
+        "Commit": "123e7458905e5ed28f462b42b2430e4fc381e82b"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "downloadDataset",
+        "Updated": "download_dataset",
+        "Location": "dataset.py",
+        "Original Line": 116,
+        "Updated Line": 116,
+        "Description": [
+            "The method downloadDataset from the module dataset.py is renamed to download_dataset"
+        ],
+        "Commit": "123e7458905e5ed28f462b42b2430e4fc381e82b"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "kFolds",
+        "Updated": "k_folds",
+        "Location": "main.py",
+        "Original Line": 134,
+        "Updated Line": 134,
+        "Description": [
+            "The method kFolds from the module main.py is renamed to k_folds"
+        ],
+        "Commit": "123e7458905e5ed28f462b42b2430e4fc381e82b"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "main",
+        "Updated": "get_rmse",
+        "Location": "main.py",
+        "Original Method Line": "(24,24)",
+        "Extracted/Inlined Method Line": 147,
+        "Extracted/Inlined Lines": [
+            148.0,
+            149.0,
+            151.0,
+            153.0,
+            154.0,
+            164.0,
+            165.0,
+            167.0,
+            171.0,
+            172.0,
+            180.0,
+            183.0,
+            185.0,
+            188.0,
+            191.0,
+            194.0
+        ],
+        "Description": " The method get_rmse from the module main.py is extracted from method main from the module main.py ",
+        "Commit": "123e7458905e5ed28f462b42b2430e4fc381e82b"
+    },
+    {
+        "Refactoring Type": "Inline Method",
+        "Original": "main",
+        "Updated": "getRmse",
+        "Location": "main.py",
+        "Original Method Line": "(24,24)",
+        "Extracted/Inlined Method Line": 147,
+        "Extracted/Inlined Lines": [
+            148.0,
+            149.0,
+            151.0,
+            153.0,
+            154.0,
+            165.0,
+            167.0,
+            171.0,
+            172.0,
+            180.0,
+            183.0,
+            185.0,
+            188.0,
+            191.0,
+            194.0
+        ],
+        "Description": " The method getRmse from the module main.py is inlined into method main from the module main.py ",
+        "Commit": "123e7458905e5ed28f462b42b2430e4fc381e82b"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "prediction_algorithms/analogy.py/AlgoUsingAnalogy",
+        "Original Line": 12,
+        "Updated Line": 12,
+        "Description": [
+            "The parameters [ trainingData itemBased ] of the method __init__ from the module prediction_algorithms/analogy.py in class AlgoUsingAnalogy are changed/renamed to [training_data item_based]"
+        ],
+        "Commit": "123e7458905e5ed28f462b42b2430e4fc381e82b"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "prediction_algorithms/analogy.py/Parall",
+        "Original Line": 52,
+        "Updated Line": 52,
+        "Description": [
+            "The parameters [ trainingData itemBased sim ] of the method __init__ from the module prediction_algorithms/analogy.py in class Parall are changed/renamed to [training_data item_based sim_name]"
+        ],
+        "Commit": "123e7458905e5ed28f462b42b2430e4fc381e82b"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "prediction_algorithms/analogy.py/Pattern",
+        "Original Line": 144,
+        "Updated Line": 144,
+        "Description": [
+            "The parameters [ trainingData itemBased ] of the method __init__ from the module prediction_algorithms/analogy.py in class Pattern are changed/renamed to [training_data item_based]"
+        ],
+        "Commit": "123e7458905e5ed28f462b42b2430e4fc381e82b"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "prediction_algorithms/baseline_only.py/BaselineOnly",
+        "Original Line": 18,
+        "Updated Line": 18,
+        "Description": [
+            "The parameters [ trainingData itemBased ] of the method __init__ from the module prediction_algorithms/baseline_only.py in class BaselineOnly are changed/renamed to [training_data item_based]"
+        ],
+        "Commit": "123e7458905e5ed28f462b42b2430e4fc381e82b"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "prediction_algorithms/bases.py/AlgoBase",
+        "Original Line": 23,
+        "Updated Line": 23,
+        "Description": [
+            "The parameters [ trainingData itemBased withDump ] of the method __init__ from the module prediction_algorithms/bases.py in class AlgoBase are changed/renamed to [training_data item_based with_dump]"
+        ],
+        "Commit": "123e7458905e5ed28f462b42b2430e4fc381e82b"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "allRatings",
+        "Updated": "all_ratings",
+        "Location": "prediction_algorithms/bases.py/AlgoBase",
+        "Original Line": 98,
+        "Updated Line": 98,
+        "Description": [
+            "The method allRatings from the module prediction_algorithms/bases.py in class AlgoBase is renamed to all_ratings"
+        ],
+        "Commit": "123e7458905e5ed28f462b42b2430e4fc381e82b"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "dumpInfos",
+        "Updated": "dump_infos",
+        "Location": "prediction_algorithms/bases.py/AlgoBase",
+        "Original Line": 115,
+        "Updated Line": 115,
+        "Description": [
+            "The method dumpInfos from the module prediction_algorithms/bases.py in class AlgoBase is renamed to dump_infos"
+        ],
+        "Commit": "123e7458905e5ed28f462b42b2430e4fc381e82b"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "prediction_algorithms/bases.py/AlgoWithBaseline",
+        "Original Line": 162,
+        "Updated Line": 162,
+        "Description": [
+            "The parameters [ trainingData itemBased ] of the method __init__ from the module prediction_algorithms/bases.py in class AlgoWithBaseline are changed/renamed to [training_data item_based]"
+        ],
+        "Commit": "123e7458905e5ed28f462b42b2430e4fc381e82b"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "getBaseline",
+        "Updated": "get_baseline",
+        "Location": "prediction_algorithms/bases.py/AlgoWithBaseline",
+        "Original Line": 216,
+        "Updated Line": 216,
+        "Description": [
+            "The method getBaseline from the module prediction_algorithms/bases.py in class AlgoWithBaseline is renamed to get_baseline"
+        ],
+        "Commit": "123e7458905e5ed28f462b42b2430e4fc381e82b"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "prediction_algorithms/clone.py/AlgoUsingMeanDiff",
+        "Original Line": 15,
+        "Updated Line": 15,
+        "Description": [
+            "The parameters [ trainingData itemBased ] of the method __init__ from the module prediction_algorithms/clone.py in class AlgoUsingMeanDiff are changed/renamed to [training_data item_based]"
+        ],
+        "Commit": "123e7458905e5ed28f462b42b2430e4fc381e82b"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "prediction_algorithms/clone.py/CloneBruteforce",
+        "Original Line": 25,
+        "Updated Line": 25,
+        "Description": [
+            "The parameters [ trainingData itemBased ] of the method __init__ from the module prediction_algorithms/clone.py in class CloneBruteforce are changed/renamed to [training_data item_based]"
+        ],
+        "Commit": "123e7458905e5ed28f462b42b2430e4fc381e82b"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "prediction_algorithms/clone.py/CloneMeanDiff",
+        "Original Line": 70,
+        "Updated Line": 70,
+        "Description": [
+            "The parameters [ trainingData itemBased ] of the method __init__ from the module prediction_algorithms/clone.py in class CloneMeanDiff are changed/renamed to [training_data item_based]"
+        ],
+        "Commit": "123e7458905e5ed28f462b42b2430e4fc381e82b"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "prediction_algorithms/clone.py/CloneKNNMeanDiff",
+        "Original Line": 102,
+        "Updated Line": 102,
+        "Description": [
+            "The parameters [ trainingData itemBased sim ] of the method __init__ from the module prediction_algorithms/clone.py in class CloneKNNMeanDiff are changed/renamed to [training_data item_based sim_name]"
+        ],
+        "Commit": "123e7458905e5ed28f462b42b2430e4fc381e82b"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "prediction_algorithms/knns.py/KNNBasic",
+        "Original Line": 20,
+        "Updated Line": 20,
+        "Description": [
+            "The parameters [ trainingData itemBased sim ] of the method __init__ from the module prediction_algorithms/knns.py in class KNNBasic are changed/renamed to [training_data item_based sim_name]"
+        ],
+        "Commit": "123e7458905e5ed28f462b42b2430e4fc381e82b"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "prediction_algorithms/knns.py/KNNWithMeans",
+        "Original Line": 66,
+        "Updated Line": 66,
+        "Description": [
+            "The parameters [ trainingData itemBased sim ] of the method __init__ from the module prediction_algorithms/knns.py in class KNNWithMeans are changed/renamed to [training_data item_based sim_name]"
+        ],
+        "Commit": "123e7458905e5ed28f462b42b2430e4fc381e82b"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "prediction_algorithms/knns.py/KNNBaseline",
+        "Original Line": 118,
+        "Updated Line": 118,
+        "Description": [
+            "The parameters [ trainingData itemBased sim ] of the method __init__ from the module prediction_algorithms/knns.py in class KNNBaseline are changed/renamed to [training_data item_based sim_name]"
+        ],
+        "Commit": "123e7458905e5ed28f462b42b2430e4fc381e82b"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "prediction_algorithms/random.py/Random",
+        "Original Line": 18,
+        "Updated Line": 18,
+        "Description": [
+            "The parameters [ trainingData ] of the method __init__ from the module prediction_algorithms/random.py in class Random are changed/renamed to [training_data]"
+        ],
+        "Commit": "123e7458905e5ed28f462b42b2430e4fc381e82b"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "computeStats",
+        "Updated": "compute_stats",
+        "Location": "stats.py",
+        "Original Line": 4,
+        "Updated Line": 4,
+        "Description": [
+            "The method computeStats from the module stats.py is renamed to compute_stats"
+        ],
+        "Commit": "123e7458905e5ed28f462b42b2430e4fc381e82b"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "cos2",
+        "Updated": "constructCosineSimMat",
+        "Location": "algo.py/AlgoUsingSim",
+        "Original Line": 180,
+        "Updated Line": 149,
+        "Description": [
+            "The method cos2 from the module algo.py in class AlgoUsingSim is renamed to constructCosineSimMat"
+        ],
+        "Commit": "1c86a9a1f5b6f4a8bbe101f46d01d72e22405c75"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "details",
+        "Updated": "details",
+        "Location": "analyse.py",
+        "Original Line": 36,
+        "Updated Line": 38,
+        "Description": [
+            "The parameters [ e ] of the method details from the module analyse.py are changed/renamed to [p]"
+        ],
+        "Commit": "261620bc6d121ada09e8c9aa6e94a761970ac67b"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "err",
+        "Updated": "err",
+        "Location": "analyse.py",
+        "Original Line": 32,
+        "Updated Line": 34,
+        "Description": [
+            "The parameters [ e ] of the method err from the module analyse.py are changed/renamed to [p]"
+        ],
+        "Commit": "261620bc6d121ada09e8c9aa6e94a761970ac67b"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "errorBetween",
+        "Updated": "errorBetween",
+        "Location": "analyse.py",
+        "Original Line": 55,
+        "Updated Line": 57,
+        "Description": [
+            "The parameters [ e ] of the method errorBetween from the module analyse.py are changed/renamed to [p]"
+        ],
+        "Commit": "261620bc6d121ada09e8c9aa6e94a761970ac67b"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "ratingsCountBetween",
+        "Updated": "ratingsCountBetween",
+        "Location": "analyse.py",
+        "Original Line": 59,
+        "Updated Line": 61,
+        "Description": [
+            "The parameters [ e ] of the method ratingsCountBetween from the module analyse.py are changed/renamed to [p]"
+        ],
+        "Commit": "261620bc6d121ada09e8c9aa6e94a761970ac67b"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algo.py/AlgoAnalogy",
+        "Original Line": 187,
+        "Updated Line": 187,
+        "Description": [
+            "The parameters [ ur mr ] are added to the method __init__ from the module algo.py in class AlgoAnalogy"
+        ],
+        "Commit": "270cac6894fcb2c16fc2435a446e87133acd403b"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "load_from_df",
+        "Updated": "load_from_df",
+        "Location": "surprise/dataset.py/Dataset",
+        "Original Line": 169,
+        "Updated Line": 153,
+        "Description": [
+            "The parameters [ rating_scale ] of the method load_from_df from the module surprise/dataset.py in class Dataset is/are removed"
+        ],
+        "Commit": "28e811a7e78e948dc214bcbcefd250954d3eda2c"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "load_from_file",
+        "Updated": "load_from_file",
+        "Location": "surprise/dataset.py/Dataset",
+        "Original Line": 120,
+        "Updated Line": 110,
+        "Description": [
+            "The parameters [ rating_scale ] of the method load_from_file from the module surprise/dataset.py in class Dataset is/are removed"
+        ],
+        "Commit": "28e811a7e78e948dc214bcbcefd250954d3eda2c"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "load_from_folds",
+        "Updated": "load_from_folds",
+        "Location": "surprise/dataset.py/Dataset",
+        "Original Line": 141,
+        "Updated Line": 128,
+        "Description": [
+            "The parameters [ rating_scale ] of the method load_from_folds from the module surprise/dataset.py in class Dataset is/are removed"
+        ],
+        "Commit": "28e811a7e78e948dc214bcbcefd250954d3eda2c"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "surprise/dataset.py/DatasetUserFolds",
+        "Original Line": 281,
+        "Updated Line": 257,
+        "Description": [
+            "The parameters [ rating_scale ] of the method __init__ from the module surprise/dataset.py in class DatasetUserFolds is/are removed"
+        ],
+        "Commit": "28e811a7e78e948dc214bcbcefd250954d3eda2c"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "surprise/dataset.py/DatasetAutoFolds",
+        "Original Line": 304,
+        "Updated Line": 280,
+        "Description": [
+            "The parameters [ rating_scale ] of the method __init__ from the module surprise/dataset.py in class DatasetAutoFolds is/are removed"
+        ],
+        "Commit": "28e811a7e78e948dc214bcbcefd250954d3eda2c"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "compute_baselines",
+        "Updated": "compute_baselines",
+        "Location": "surprise/prediction_algorithms/algo_base.py/AlgoBase",
+        "Original Line": 211,
+        "Updated Line": 211,
+        "Description": [
+            "The parameters [ verbose ] of the method compute_baselines from the module surprise/prediction_algorithms/algo_base.py in class AlgoBase is/are removed"
+        ],
+        "Commit": "28e811a7e78e948dc214bcbcefd250954d3eda2c"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "compute_similarities",
+        "Updated": "compute_similarities",
+        "Location": "surprise/prediction_algorithms/algo_base.py/AlgoBase",
+        "Original Line": 252,
+        "Updated Line": 248,
+        "Description": [
+            "The parameters [ verbose ] of the method compute_similarities from the module surprise/prediction_algorithms/algo_base.py in class AlgoBase is/are removed"
+        ],
+        "Commit": "28e811a7e78e948dc214bcbcefd250954d3eda2c"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "test_PredifinedKFold",
+        "Updated": "test_PredifinedKFold",
+        "Location": "tests/test_split.py",
+        "Original Line": 291,
+        "Updated Line": 291,
+        "Description": [
+            "The parameters [ toy_data_reader ] of the method test_PredifinedKFold from the module tests/test_split.py is/are removed"
+        ],
+        "Commit": "28e811a7e78e948dc214bcbcefd250954d3eda2c"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "fcp",
+        "Updated": "fcp",
+        "Location": "pyrec/accuracy.py",
+        "Original Line": 81,
+        "Updated Line": 81,
+        "Description": [
+            "The parameters [ output ] of the method fcp from the module pyrec/accuracy.py are changed/renamed to [verbose]"
+        ],
+        "Commit": "2abdc31e043f676fec4c442d97f5c6d020b038d2"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "mae",
+        "Updated": "mae",
+        "Location": "pyrec/accuracy.py",
+        "Original Line": 51,
+        "Updated Line": 51,
+        "Description": [
+            "The parameters [ output ] of the method mae from the module pyrec/accuracy.py are changed/renamed to [verbose]"
+        ],
+        "Commit": "2abdc31e043f676fec4c442d97f5c6d020b038d2"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "rmse",
+        "Updated": "rmse",
+        "Location": "pyrec/accuracy.py",
+        "Original Line": 19,
+        "Updated Line": 19,
+        "Description": [
+            "The parameters [ output ] of the method rmse from the module pyrec/accuracy.py are changed/renamed to [verbose]"
+        ],
+        "Commit": "2abdc31e043f676fec4c442d97f5c6d020b038d2"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "predict",
+        "Updated": "predict",
+        "Location": "pyrec/prediction_algorithms/bases.py/AlgoBase",
+        "Original Line": 100,
+        "Updated Line": 100,
+        "Description": [
+            "The parameters [ output ] of the method predict from the module pyrec/prediction_algorithms/bases.py in class AlgoBase are changed/renamed to [verbose]"
+        ],
+        "Commit": "2abdc31e043f676fec4c442d97f5c6d020b038d2"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "surprise/model_selection/search.py/GridSearchCV",
+        "Original Line": 94,
+        "Updated Line": 104,
+        "Description": [
+            "The parameters [ refit ] are added to the method __init__ from the module surprise/model_selection/search.py in class GridSearchCV"
+        ],
+        "Commit": "2b67f93cf45e2a1172b63fcd161985786048a58c"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "train",
+        "Updated": "fit",
+        "Location": "examples/building_custom_algorithms/most_basic_algorithm2.py/MyOwnAlgorithm",
+        "Original Line": 23,
+        "Updated Line": 23,
+        "Description": [
+            "The method train from the module examples/building_custom_algorithms/most_basic_algorithm2.py in class MyOwnAlgorithm is renamed to fit"
+        ],
+        "Commit": "398d4ee3f33be3c792d5e98c088e00a5a34b5485"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "train",
+        "Updated": "fit",
+        "Location": "examples/building_custom_algorithms/with_baselines_or_sim.py/MyOwnAlgorithm",
+        "Original Line": 22,
+        "Updated Line": 22,
+        "Description": [
+            "The method train from the module examples/building_custom_algorithms/with_baselines_or_sim.py in class MyOwnAlgorithm is renamed to fit"
+        ],
+        "Commit": "398d4ee3f33be3c792d5e98c088e00a5a34b5485"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "train",
+        "Updated": "fit",
+        "Location": "surprise/prediction_algorithms/baseline_only.py/BaselineOnly",
+        "Original Line": 31,
+        "Updated Line": 31,
+        "Description": [
+            "The method train from the module surprise/prediction_algorithms/baseline_only.py in class BaselineOnly is renamed to fit"
+        ],
+        "Commit": "398d4ee3f33be3c792d5e98c088e00a5a34b5485"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "train",
+        "Updated": "fit",
+        "Location": "surprise/prediction_algorithms/knns.py/SymmetricAlgo",
+        "Original Line": 34,
+        "Updated Line": 34,
+        "Description": [
+            "The method train from the module surprise/prediction_algorithms/knns.py in class SymmetricAlgo is renamed to fit"
+        ],
+        "Commit": "398d4ee3f33be3c792d5e98c088e00a5a34b5485"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "train",
+        "Updated": "fit",
+        "Location": "surprise/prediction_algorithms/knns.py/KNNBasic",
+        "Original Line": 90,
+        "Updated Line": 90,
+        "Description": [
+            "The method train from the module surprise/prediction_algorithms/knns.py in class KNNBasic is renamed to fit"
+        ],
+        "Commit": "398d4ee3f33be3c792d5e98c088e00a5a34b5485"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "train",
+        "Updated": "fit",
+        "Location": "surprise/prediction_algorithms/knns.py/KNNWithMeans",
+        "Original Line": 164,
+        "Updated Line": 164,
+        "Description": [
+            "The method train from the module surprise/prediction_algorithms/knns.py in class KNNWithMeans is renamed to fit"
+        ],
+        "Commit": "398d4ee3f33be3c792d5e98c088e00a5a34b5485"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "train",
+        "Updated": "fit",
+        "Location": "surprise/prediction_algorithms/knns.py/KNNBaseline",
+        "Original Line": 259,
+        "Updated Line": 259,
+        "Description": [
+            "The method train from the module surprise/prediction_algorithms/knns.py in class KNNBaseline is renamed to fit"
+        ],
+        "Commit": "398d4ee3f33be3c792d5e98c088e00a5a34b5485"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "train",
+        "Updated": "fit",
+        "Location": "surprise/prediction_algorithms/knns.py/KNNWithZScore",
+        "Original Line": 346,
+        "Updated Line": 346,
+        "Description": [
+            "The method train from the module surprise/prediction_algorithms/knns.py in class KNNWithZScore is renamed to fit"
+        ],
+        "Commit": "398d4ee3f33be3c792d5e98c088e00a5a34b5485"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "train",
+        "Updated": "fit",
+        "Location": "surprise/prediction_algorithms/random_pred.py/NormalPredictor",
+        "Original Line": 32,
+        "Updated Line": 32,
+        "Description": [
+            "The method train from the module surprise/prediction_algorithms/random_pred.py in class NormalPredictor is renamed to fit"
+        ],
+        "Commit": "398d4ee3f33be3c792d5e98c088e00a5a34b5485"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algo.py/Algo",
+        "Original Line": 14,
+        "Updated Line": 18,
+        "Description": [
+            "The parameters [ rMin rMax ] are added to the method __init__ from the module algo.py in class Algo"
+        ],
+        "Commit": "4215991202cc9d2895faf080e4e6d9f7489bc4aa"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "recsys/prediction_algorithms/baseline_only.py/BaselineOnly",
+        "Original Line": 21,
+        "Updated Line": 25,
+        "Description": [
+            "The parameters [ bsl_options ] are added to the method __init__ from the module recsys/prediction_algorithms/baseline_only.py in class BaselineOnly"
+        ],
+        "Commit": "45bd8f33d5a43b950ea3a9ef258101204266a581"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "surprise/evaluate.py/GridSearch",
+        "Original Line": 146,
+        "Updated Line": 172,
+        "Description": [
+            "The parameters [ n_jobs pre_dispatch joblib_verbose ] are added to the method __init__ from the module surprise/evaluate.py in class GridSearch"
+        ],
+        "Commit": "4613feedb48c5ad6d2c2fc17fcb787b71e520b09"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algo.py/Algo",
+        "Original Line": 15,
+        "Updated Line": 14,
+        "Description": [
+            "The parameters [ mr movieBased ] of the method __init__ from the module algo.py in class Algo are changed/renamed to [ir itemBased]"
+        ],
+        "Commit": "4958ec1e0d31b3de4aefc42e82772b4532967eb9"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "getx0y0",
+        "Updated": "getx0y0",
+        "Location": "algo.py/Algo",
+        "Original Line": 61,
+        "Updated Line": 61,
+        "Description": [
+            "The parameters [ m0 ] of the method getx0y0 from the module algo.py in class Algo are changed/renamed to [i0]"
+        ],
+        "Commit": "4958ec1e0d31b3de4aefc42e82772b4532967eb9"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "updatePreds",
+        "Updated": "updatePreds",
+        "Location": "algo.py/Algo",
+        "Original Line": 68,
+        "Updated Line": 68,
+        "Description": [
+            "The parameters [ m0 ] of the method updatePreds from the module algo.py in class Algo are changed/renamed to [i0]"
+        ],
+        "Commit": "4958ec1e0d31b3de4aefc42e82772b4532967eb9"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algo.py/AlgoRandom",
+        "Original Line": 110,
+        "Updated Line": 110,
+        "Description": [
+            "The parameters [ mr ] of the method __init__ from the module algo.py in class AlgoRandom are changed/renamed to [ir]"
+        ],
+        "Commit": "4958ec1e0d31b3de4aefc42e82772b4532967eb9"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algo.py/AlgoUsingSim",
+        "Original Line": 129,
+        "Updated Line": 129,
+        "Description": [
+            "The parameters [ mr movieBased ] of the method __init__ from the module algo.py in class AlgoUsingSim are changed/renamed to [ir itemBased]"
+        ],
+        "Commit": "4958ec1e0d31b3de4aefc42e82772b4532967eb9"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algo.py/AlgoKNNBasic",
+        "Original Line": 275,
+        "Updated Line": 275,
+        "Description": [
+            "The parameters [ mr movieBased ] of the method __init__ from the module algo.py in class AlgoKNNBasic are changed/renamed to [ir itemBased]"
+        ],
+        "Commit": "4958ec1e0d31b3de4aefc42e82772b4532967eb9"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "estimate",
+        "Updated": "estimate",
+        "Location": "algo.py/AlgoKNNBasic",
+        "Original Line": 284,
+        "Updated Line": 284,
+        "Description": [
+            "The parameters [ m0 ] of the method estimate from the module algo.py in class AlgoKNNBasic are changed/renamed to [i0]"
+        ],
+        "Commit": "4958ec1e0d31b3de4aefc42e82772b4532967eb9"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algo.py/AlgoKNNWithMeans",
+        "Original Line": 311,
+        "Updated Line": 311,
+        "Description": [
+            "The parameters [ mr movieBased ] of the method __init__ from the module algo.py in class AlgoKNNWithMeans are changed/renamed to [ir itemBased]"
+        ],
+        "Commit": "4958ec1e0d31b3de4aefc42e82772b4532967eb9"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "estimate",
+        "Updated": "estimate",
+        "Location": "algo.py/AlgoKNNWithMeans",
+        "Original Line": 324,
+        "Updated Line": 324,
+        "Description": [
+            "The parameters [ m0 ] of the method estimate from the module algo.py in class AlgoKNNWithMeans are changed/renamed to [i0]"
+        ],
+        "Commit": "4958ec1e0d31b3de4aefc42e82772b4532967eb9"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algo.py/AlgoWithBaseline",
+        "Original Line": 350,
+        "Updated Line": 350,
+        "Description": [
+            "The parameters [ mr movieBased ] of the method __init__ from the module algo.py in class AlgoWithBaseline are changed/renamed to [ir itemBased]"
+        ],
+        "Commit": "4958ec1e0d31b3de4aefc42e82772b4532967eb9"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algo.py/AlgoBaselineOnly",
+        "Original Line": 411,
+        "Updated Line": 411,
+        "Description": [
+            "The parameters [ mr movieBased ] of the method __init__ from the module algo.py in class AlgoBaselineOnly are changed/renamed to [ir itemBased]"
+        ],
+        "Commit": "4958ec1e0d31b3de4aefc42e82772b4532967eb9"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "estimate",
+        "Updated": "estimate",
+        "Location": "algo.py/AlgoBaselineOnly",
+        "Original Line": 415,
+        "Updated Line": 415,
+        "Description": [
+            "The parameters [ m0 ] of the method estimate from the module algo.py in class AlgoBaselineOnly are changed/renamed to [i0]"
+        ],
+        "Commit": "4958ec1e0d31b3de4aefc42e82772b4532967eb9"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algoAnalogy.py/AlgoUsingAnalogy",
+        "Original Line": 7,
+        "Updated Line": 7,
+        "Description": [
+            "The parameters [ mr movieBased ] of the method __init__ from the module algoAnalogy.py in class AlgoUsingAnalogy are changed/renamed to [ir itemBased]"
+        ],
+        "Commit": "4958ec1e0d31b3de4aefc42e82772b4532967eb9"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algoAnalogy.py/AlgoParall",
+        "Original Line": 40,
+        "Updated Line": 40,
+        "Description": [
+            "The parameters [ mr movieBased ] of the method __init__ from the module algoAnalogy.py in class AlgoParall are changed/renamed to [ir itemBased]"
+        ],
+        "Commit": "4958ec1e0d31b3de4aefc42e82772b4532967eb9"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "estimate",
+        "Updated": "estimate",
+        "Location": "algoAnalogy.py/AlgoParall",
+        "Original Line": 78,
+        "Updated Line": 79,
+        "Description": [
+            "The parameters [ m0 ] of the method estimate from the module algoAnalogy.py in class AlgoParall are changed/renamed to [i0]"
+        ],
+        "Commit": "4958ec1e0d31b3de4aefc42e82772b4532967eb9"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algoAnalogy.py/AlgoPattern",
+        "Original Line": 139,
+        "Updated Line": 140,
+        "Description": [
+            "The parameters [ mr movieBased ] of the method __init__ from the module algoAnalogy.py in class AlgoPattern are changed/renamed to [ir itemBased]"
+        ],
+        "Commit": "4958ec1e0d31b3de4aefc42e82772b4532967eb9"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algoClone.py/AlgoUsingMeanDiff",
+        "Original Line": 6,
+        "Updated Line": 6,
+        "Description": [
+            "The parameters [ mr movieBased ] of the method __init__ from the module algoClone.py in class AlgoUsingMeanDiff are changed/renamed to [ir itemBased]"
+        ],
+        "Commit": "4958ec1e0d31b3de4aefc42e82772b4532967eb9"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algoClone.py/AlgoCloneBruteforce",
+        "Original Line": 36,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ mr movieBased ] of the method __init__ from the module algoClone.py in class AlgoCloneBruteforce are changed/renamed to [ir itemBased]"
+        ],
+        "Commit": "4958ec1e0d31b3de4aefc42e82772b4532967eb9"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "estimate",
+        "Updated": "estimate",
+        "Location": "algoClone.py/AlgoCloneBruteforce",
+        "Original Line": 52,
+        "Updated Line": 52,
+        "Description": [
+            "The parameters [ m0 ] of the method estimate from the module algoClone.py in class AlgoCloneBruteforce are changed/renamed to [i0]"
+        ],
+        "Commit": "4958ec1e0d31b3de4aefc42e82772b4532967eb9"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algoClone.py/AlgoCloneMeanDiff",
+        "Original Line": 77,
+        "Updated Line": 77,
+        "Description": [
+            "The parameters [ mr movieBased ] of the method __init__ from the module algoClone.py in class AlgoCloneMeanDiff are changed/renamed to [ir itemBased]"
+        ],
+        "Commit": "4958ec1e0d31b3de4aefc42e82772b4532967eb9"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "estimate",
+        "Updated": "estimate",
+        "Location": "algoClone.py/AlgoCloneMeanDiff",
+        "Original Line": 82,
+        "Updated Line": 82,
+        "Description": [
+            "The parameters [ m0 ] of the method estimate from the module algoClone.py in class AlgoCloneMeanDiff are changed/renamed to [i0]"
+        ],
+        "Commit": "4958ec1e0d31b3de4aefc42e82772b4532967eb9"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algoClone.py/AlgoCloneKNNMeanDiff",
+        "Original Line": 107,
+        "Updated Line": 107,
+        "Description": [
+            "The parameters [ mr movieBased ] of the method __init__ from the module algoClone.py in class AlgoCloneKNNMeanDiff are changed/renamed to [ir itemBased]"
+        ],
+        "Commit": "4958ec1e0d31b3de4aefc42e82772b4532967eb9"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "estimate",
+        "Updated": "estimate",
+        "Location": "algoClone.py/AlgoCloneKNNMeanDiff",
+        "Original Line": 117,
+        "Updated Line": 117,
+        "Description": [
+            "The parameters [ m0 ] of the method estimate from the module algoClone.py in class AlgoCloneKNNMeanDiff are changed/renamed to [i0]"
+        ],
+        "Commit": "4958ec1e0d31b3de4aefc42e82772b4532967eb9"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/knns.py/KNNWithMeans",
+        "Original Line": 83,
+        "Updated Line": 100,
+        "Description": [
+            "The parameters [ user_based ] of the method __init__ from the module pyrec/prediction_algorithms/knns.py in class KNNWithMeans are changed/renamed to [sim_options]"
+        ],
+        "Commit": "4dad2249614e0f85753d18be9ffe6ccb05c457cc"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/knns.py/KNNBaseline",
+        "Original Line": 136,
+        "Updated Line": 177,
+        "Description": [
+            "The parameters [ user_based ] of the method __init__ from the module pyrec/prediction_algorithms/knns.py in class KNNBaseline are changed/renamed to [sim_options]"
+        ],
+        "Commit": "4dad2249614e0f85753d18be9ffe6ccb05c457cc"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "simMSDClone",
+        "Updated": "constructMSDCloneSimMat",
+        "Location": "algo.py/AlgoUsingSim",
+        "Original Line": 207,
+        "Updated Line": 209,
+        "Description": [
+            "The method simMSDClone from the module algo.py in class AlgoUsingSim is renamed to constructMSDCloneSimMat",
+            "The parameters [ xi xj ] of the method simMSDClone from the module algo.py in class AlgoUsingSim is/are removed"
+        ],
+        "Commit": "51ac3ab93f022a80e6c2b669fd5e2528acf23fa4"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "evaluate",
+        "Updated": "evaluate",
+        "Location": "pyrec/evaluate.py",
+        "Original Line": 4,
+        "Updated Line": 8,
+        "Description": [
+            "The parameters [ with_dump ] are added to the method evaluate from the module pyrec/evaluate.py"
+        ],
+        "Commit": "5344a387031ca7df862557de96308a93b250c124"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "cross_validate",
+        "Updated": "cross_validate",
+        "Location": "surprise/model_selection/validation.py",
+        "Original Line": 17,
+        "Updated Line": 17,
+        "Description": [
+            "The parameters [ return_train_measures ] are added to the method cross_validate from the module surprise/model_selection/validation.py"
+        ],
+        "Commit": "58fc29ee03b531799810975e326c4c0744ef344c"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "fit_and_score",
+        "Updated": "fit_and_score",
+        "Location": "surprise/model_selection/validation.py",
+        "Original Line": 115,
+        "Updated Line": 131,
+        "Description": [
+            "The parameters [ return_train_measures ] are added to the method fit_and_score from the module surprise/model_selection/validation.py"
+        ],
+        "Commit": "58fc29ee03b531799810975e326c4c0744ef344c"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "print_summary",
+        "Updated": "print_summary",
+        "Location": "surprise/model_selection/validation.py",
+        "Original Line": 155,
+        "Updated Line": 184,
+        "Description": [
+            "The parameters [ train_measures ] are added to the method print_summary from the module surprise/model_selection/validation.py"
+        ],
+        "Commit": "58fc29ee03b531799810975e326c4c0744ef344c"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "all_ratings",
+        "Updated": "all_ratings",
+        "Old Location": "recsys/prediction_algorithms/algo_base.py/AlgoBase",
+        "New Location": "recsys/dataset.py/Trainset",
+        "Old Method Line": 244,
+        "New Method Line": 592,
+        "Description": " method all_ratings from the module recsys/prediction_algorithms/algo_base.py in class AlgoBase was moved to class Trainset of module recsys/dataset.py ",
+        "Commit": "5a8b5eec8957c5e77b3853120616d61bab85b85a"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "estimate",
+        "Updated": "estimate",
+        "Old Location": "recsys/prediction_algorithms/knns.py/KNNBaseline",
+        "New Location": "recsys/prediction_algorithms/knns.py/KNNWithMeans",
+        "Old Method Line": 211,
+        "New Method Line": 157,
+        "Description": " method estimate from the module recsys/prediction_algorithms/knns.py in class KNNBaseline was moved to class KNNWithMeans of module recsys/prediction_algorithms/knns.py ",
+        "Commit": "5a8b5eec8957c5e77b3853120616d61bab85b85a"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_best_estimator",
+        "Updated": "test_gridsearchcv_best_estimator",
+        "Location": "tests/test_search.py",
+        "Original Line": 39,
+        "Updated Line": 55,
+        "Description": [
+            "The method test_best_estimator from the module tests/test_search.py is renamed to test_gridsearchcv_best_estimator"
+        ],
+        "Commit": "5d3aa27a646b106d39130c938afed6967d96d99c"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_cv_results",
+        "Updated": "test_gridsearchcv_cv_results",
+        "Location": "tests/test_search.py",
+        "Original Line": 89,
+        "Updated Line": 105,
+        "Description": [
+            "The method test_cv_results from the module tests/test_search.py is renamed to test_gridsearchcv_cv_results"
+        ],
+        "Commit": "5d3aa27a646b106d39130c938afed6967d96d99c"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_parameter_combinations",
+        "Updated": "test_gridsearchcv_parameter_combinations",
+        "Location": "tests/test_search.py",
+        "Original Line": 21,
+        "Updated Line": 37,
+        "Description": [
+            "The method test_parameter_combinations from the module tests/test_search.py is renamed to test_gridsearchcv_parameter_combinations"
+        ],
+        "Commit": "5d3aa27a646b106d39130c938afed6967d96d99c"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_refit",
+        "Updated": "test_gridsearchcv_refit",
+        "Location": "tests/test_search.py",
+        "Original Line": 145,
+        "Updated Line": 161,
+        "Description": [
+            "The method test_refit from the module tests/test_search.py is renamed to test_gridsearchcv_refit"
+        ],
+        "Commit": "5d3aa27a646b106d39130c938afed6967d96d99c"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_same_splits",
+        "Updated": "test_gridsearchcv_same_splits",
+        "Location": "tests/test_search.py",
+        "Original Line": 62,
+        "Updated Line": 78,
+        "Description": [
+            "The method test_same_splits from the module tests/test_search.py is renamed to test_gridsearchcv_same_splits"
+        ],
+        "Commit": "5d3aa27a646b106d39130c938afed6967d96d99c"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "surprise/prediction_algorithms/baseline_only.py/BaselineOnly",
+        "Original Line": 27,
+        "Updated Line": 28,
+        "Description": [
+            "The parameters [ verbose ] are added to the method __init__ from the module surprise/prediction_algorithms/baseline_only.py in class BaselineOnly"
+        ],
+        "Commit": "5dc43a42e0db0ebc444d3244bfafb12711322c50"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "surprise/prediction_algorithms/knns.py/SymmetricAlgo",
+        "Original Line": 30,
+        "Updated Line": 30,
+        "Description": [
+            "The parameters [ verbose ] are added to the method __init__ from the module surprise/prediction_algorithms/knns.py in class SymmetricAlgo"
+        ],
+        "Commit": "5dc43a42e0db0ebc444d3244bfafb12711322c50"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "surprise/prediction_algorithms/knns.py/KNNBasic",
+        "Original Line": 86,
+        "Updated Line": 89,
+        "Description": [
+            "The parameters [ verbose ] are added to the method __init__ from the module surprise/prediction_algorithms/knns.py in class KNNBasic"
+        ],
+        "Commit": "5dc43a42e0db0ebc444d3244bfafb12711322c50"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "surprise/prediction_algorithms/knns.py/KNNWithMeans",
+        "Original Line": 161,
+        "Updated Line": 167,
+        "Description": [
+            "The parameters [ verbose ] are added to the method __init__ from the module surprise/prediction_algorithms/knns.py in class KNNWithMeans"
+        ],
+        "Commit": "5dc43a42e0db0ebc444d3244bfafb12711322c50"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "surprise/prediction_algorithms/knns.py/KNNBaseline",
+        "Original Line": 257,
+        "Updated Line": 266,
+        "Description": [
+            "The parameters [ verbose ] are added to the method __init__ from the module surprise/prediction_algorithms/knns.py in class KNNBaseline"
+        ],
+        "Commit": "5dc43a42e0db0ebc444d3244bfafb12711322c50"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "surprise/prediction_algorithms/knns.py/KNNWithZScore",
+        "Original Line": 347,
+        "Updated Line": 360,
+        "Description": [
+            "The parameters [ verbose ] are added to the method __init__ from the module surprise/prediction_algorithms/knns.py in class KNNWithZScore"
+        ],
+        "Commit": "5dc43a42e0db0ebc444d3244bfafb12711322c50"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "read_line",
+        "Updated": "parse_line",
+        "Location": "pyrec/dataset.py/Reader",
+        "Original Line": 452,
+        "Updated Line": 452,
+        "Description": [
+            "The method read_line from the module pyrec/dataset.py in class Reader is renamed to parse_line"
+        ],
+        "Commit": "5dcf6e86d094c5a09b1d67de52dd94ea0f2596d7"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/knns.py/KNNBasic",
+        "Original Line": 38,
+        "Updated Line": 38,
+        "Description": [
+            "The parameters [ user_based ] of the method __init__ from the module pyrec/prediction_algorithms/knns.py in class KNNBasic are changed/renamed to [sim_options]"
+        ],
+        "Commit": "674ea36c815bc6047db280c145b96f94d891c59a"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/dataset.py/Reader",
+        "Original Line": 264,
+        "Updated Line": 267,
+        "Description": [
+            "The parameters [ interval ] are added to the method __init__ from the module pyrec/dataset.py in class Reader"
+        ],
+        "Commit": "697fddb9fdca8955c2256bc7966543681d7b7398"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "AlgoGilles",
+        "Updated": "AlgoParall",
+        "Location": "algo.py",
+        "Description": " class AlgoGilles was renamed to class AlgoParall ",
+        "Commit": "6b29e7a683923dab6058712d3940e507d1cbcd6d"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "AlgoGillesKnn",
+        "Updated": "AlgoParallKnn",
+        "Location": "algo.py",
+        "Description": " class AlgoGillesKnn was renamed to class AlgoParallKnn ",
+        "Commit": "6b29e7a683923dab6058712d3940e507d1cbcd6d"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/baseline_only.py/BaselineOnly",
+        "Original Line": 18,
+        "Updated Line": 18,
+        "Description": [
+            "The parameters [ training_data ] of the method __init__ from the module pyrec/prediction_algorithms/baseline_only.py in class BaselineOnly is/are removed"
+        ],
+        "Commit": "6c62ab9132ad783fc30b570126ae0e9ea9a2bdb3"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "train",
+        "Location": "pyrec/prediction_algorithms/bases.py/AlgoWithBaseline",
+        "Original Line": 177,
+        "Updated Line": 182,
+        "Description": [
+            "The method __init__ from the module pyrec/prediction_algorithms/bases.py in class AlgoWithBaseline is renamed to train",
+            "The parameters [ user_based method ] of the method __init__ from the module pyrec/prediction_algorithms/bases.py in class AlgoWithBaseline is/are removed"
+        ],
+        "Commit": "6c62ab9132ad783fc30b570126ae0e9ea9a2bdb3"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "surprise/evaluate.py/GridSearch",
+        "Original Line": 172,
+        "Updated Line": 176,
+        "Description": [
+            "The parameters [ seed ] are added to the method __init__ from the module surprise/evaluate.py in class GridSearch"
+        ],
+        "Commit": "712b6702cb7267c5dac0e0fcba0672f15d0c311d"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Old Location": "pyrec/dataset.py/Reader",
+        "New Location": "pyrec/dataset.py/Dataset",
+        "Old Method Line": 81,
+        "New Method Line": 15,
+        "Description": " method __init__ from the module pyrec/dataset.py in class Reader was moved to class Dataset of module pyrec/dataset.py ",
+        "Commit": "71c55fe322785d9c928720eacbeff0d412dbc7e4"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "surprise/dataset.py/DatasetAutoFolds",
+        "Original Line": 300,
+        "Updated Line": 318,
+        "Description": [
+            "The parameters [ df ] are added to the method __init__ from the module surprise/dataset.py in class DatasetAutoFolds"
+        ],
+        "Commit": "757c9a1008820445193cea97ff0932d3ae2ccbb7"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "downloadDataset",
+        "Updated": "downloadDataset",
+        "Old Location": "main.py",
+        "New Location": "dataset.py",
+        "Old Method Line": 115,
+        "New Method Line": 102,
+        "Description": " method downloadDataset from the module main.py was moved to module dataset.py ",
+        "Commit": "7611df1148fb89156737af8867a053088dfa3a56"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "getRawRatings",
+        "Updated": "getRawRatings",
+        "Old Location": "main.py",
+        "New Location": "dataset.py",
+        "Old Method Line": 145,
+        "New Method Line": 132,
+        "Description": " method getRawRatings from the module main.py was moved to module dataset.py ",
+        "Commit": "7611df1148fb89156737af8867a053088dfa3a56"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algo.py/AlgoWithBaseline",
+        "Original Line": 381,
+        "Updated Line": 381,
+        "Description": [
+            "The parameters [ method ] of the method __init__ from the module algo.py in class AlgoWithBaseline is/are removed"
+        ],
+        "Commit": "76aced6c0d5096eb7cb5868e1ba17aea9f5923e5"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algo.py/Algo",
+        "Original Line": 11,
+        "Updated Line": 11,
+        "Description": [
+            "The parameters [ needBaseline ] are added to the method __init__ from the module algo.py in class Algo"
+        ],
+        "Commit": "775fae2c549b5d2c3c9f97d37d0dca6650e86315"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_parameters",
+        "Updated": "test_SVD_parameters",
+        "Location": "tests/test_SVD.py",
+        "Original Line": 22,
+        "Updated Line": 23,
+        "Description": [
+            "The method test_parameters from the module tests/test_SVD.py is renamed to test_SVD_parameters"
+        ],
+        "Commit": "8f23744cc40b05f9e4972342df9606882b57fa07"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_dump",
+        "Updated": "test_dump",
+        "Location": "tests/test_dump.py",
+        "Original Line": 11,
+        "Updated Line": 42,
+        "Description": [
+            "The parameters [ algo ] are added to the method test_dump from the module tests/test_dump.py"
+        ],
+        "Commit": "8f2d88dc09a6af6654026d70189fd3255ea8d8da"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/dataset.py/Reader",
+        "Original Line": 181,
+        "Updated Line": 185,
+        "Description": [
+            "The parameters [ name ] are added to the method __init__ from the module pyrec/dataset.py in class Reader"
+        ],
+        "Commit": "8f69a509717eb8ec2fa62309e09ef7db6e4403fc"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algo.py/AlgoBasicCollaborative",
+        "Original Line": 176,
+        "Updated Line": 191,
+        "Description": [
+            "The parameters [ sim ] are added to the method __init__ from the module algo.py in class AlgoBasicCollaborative"
+        ],
+        "Commit": "925d5212aa3276548ed5e1b538631ba3a9e78101"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algo.py/AlgoWithBaseline",
+        "Original Line": 440,
+        "Updated Line": 454,
+        "Description": [
+            "The parameters [ method ] are added to the method __init__ from the module algo.py in class AlgoWithBaseline"
+        ],
+        "Commit": "925d5212aa3276548ed5e1b538631ba3a9e78101"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algo.py/AlgoNeighborhoodWithBaseline",
+        "Original Line": 506,
+        "Updated Line": 519,
+        "Description": [
+            "The parameters [ sim ] are added to the method __init__ from the module algo.py in class AlgoNeighborhoodWithBaseline"
+        ],
+        "Commit": "925d5212aa3276548ed5e1b538631ba3a9e78101"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "AlgoUsingCosineSim",
+        "Updated": "AlgoUsingSim",
+        "Location": "algo.py",
+        "Description": " class AlgoUsingCosineSim was renamed to class AlgoUsingSim ",
+        "Commit": "925d5212aa3276548ed5e1b538631ba3a9e78101"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "download_builtin_dataset",
+        "Updated": "download_builtin_dataset",
+        "Location": "surprise/builtin_datasets.py",
+        "Original Line": 55,
+        "Updated Line": 61,
+        "Description": [
+            "The parameters [ dataset ] of the method download_builtin_dataset from the module surprise/builtin_datasets.py is/are removed"
+        ],
+        "Commit": "936b809167b69d9632e4f73e69bd89393680f165"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/baseline_only.py/BaselineOnly",
+        "Original Line": 18,
+        "Updated Line": 18,
+        "Description": [
+            "The parameters [ user_based method ] of the method __init__ from the module pyrec/prediction_algorithms/baseline_only.py in class BaselineOnly is/are removed"
+        ],
+        "Commit": "94fc6fc9af418a7a8699c098981f2607f2d84d4e"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/bases.py/AlgoBase",
+        "Original Line": 23,
+        "Updated Line": 23,
+        "Description": [
+            "The parameters [ baseline ] are added to the method __init__ from the module pyrec/prediction_algorithms/bases.py in class AlgoBase"
+        ],
+        "Commit": "94fc6fc9af418a7a8699c098981f2607f2d84d4e"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/bases.py/AlgoUsingSim",
+        "Original Line": 150,
+        "Updated Line": 215,
+        "Description": [
+            "The parameters [ user_based ] of the method __init__ from the module pyrec/prediction_algorithms/bases.py in class AlgoUsingSim is/are removed"
+        ],
+        "Commit": "94fc6fc9af418a7a8699c098981f2607f2d84d4e"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/knns.py/KNNBaseline",
+        "Original Line": 123,
+        "Updated Line": 122,
+        "Description": [
+            "The parameters [ user_based method ] of the method __init__ from the module pyrec/prediction_algorithms/knns.py in class KNNBaseline is/are removed"
+        ],
+        "Commit": "94fc6fc9af418a7a8699c098981f2607f2d84d4e"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "evaluate",
+        "Updated": "evaluate",
+        "Location": "pyrec/evaluate.py",
+        "Original Line": 13,
+        "Updated Line": 13,
+        "Description": [
+            "The parameters [ verbose ] are added to the method evaluate from the module pyrec/evaluate.py"
+        ],
+        "Commit": "98ecffa9b21ff3d4acf40337fc743d8a20bc6357"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test",
+        "Updated": "test",
+        "Location": "pyrec/prediction_algorithms/bases.py/AlgoBase",
+        "Original Line": 150,
+        "Updated Line": 155,
+        "Description": [
+            "The parameters [ verbose ] are added to the method test from the module pyrec/prediction_algorithms/bases.py in class AlgoBase"
+        ],
+        "Commit": "98ecffa9b21ff3d4acf40337fc743d8a20bc6357"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/bases.py/AlgoUsingSim",
+        "Original Line": 144,
+        "Updated Line": 145,
+        "Description": [
+            "The parameters [ trainset ] of the method __init__ from the module pyrec/prediction_algorithms/bases.py in class AlgoUsingSim is/are removed"
+        ],
+        "Commit": "9948a4caa7a1d92a3efff61c2cd7a408e4659b3e"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "construct_sim_mat",
+        "Updated": "construct_sim_mat",
+        "Location": "pyrec/prediction_algorithms/bases.py/AlgoUsingSim",
+        "Original Line": 154,
+        "Updated Line": 165,
+        "Description": [
+            "The parameters [ sim_name ] of the method construct_sim_mat from the module pyrec/prediction_algorithms/bases.py in class AlgoUsingSim is/are removed"
+        ],
+        "Commit": "9948a4caa7a1d92a3efff61c2cd7a408e4659b3e"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/knns.py/KNNBasic",
+        "Original Line": 20,
+        "Updated Line": 20,
+        "Description": [
+            "The parameters [ training_data ] of the method __init__ from the module pyrec/prediction_algorithms/knns.py in class KNNBasic is/are removed"
+        ],
+        "Commit": "9948a4caa7a1d92a3efff61c2cd7a408e4659b3e"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/knns.py/KNNWithMeans",
+        "Original Line": 65,
+        "Updated Line": 68,
+        "Description": [
+            "The parameters [ training_data ] of the method __init__ from the module pyrec/prediction_algorithms/knns.py in class KNNWithMeans is/are removed"
+        ],
+        "Commit": "9948a4caa7a1d92a3efff61c2cd7a408e4659b3e"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/knns.py/KNNBaseline",
+        "Original Line": 116,
+        "Updated Line": 123,
+        "Description": [
+            "The parameters [ training_data ] of the method __init__ from the module pyrec/prediction_algorithms/knns.py in class KNNBaseline is/are removed"
+        ],
+        "Commit": "9948a4caa7a1d92a3efff61c2cd7a408e4659b3e"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "recsys/prediction_algorithms/knns.py/KNNBaseline",
+        "Original Line": 177,
+        "Updated Line": 177,
+        "Description": [
+            "The parameters [ bsl_options ] are added to the method __init__ from the module recsys/prediction_algorithms/knns.py in class KNNBaseline"
+        ],
+        "Commit": "9bc82fd7338966f9822d200713c72280acdcb48b"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "build_anti_testset",
+        "Updated": "build_anti_testset",
+        "Location": "surprise/dataset.py/Trainset",
+        "Original Line": 673,
+        "Updated Line": 673,
+        "Description": [
+            "The parameters [ fill ] are added to the method build_anti_testset from the module surprise/dataset.py in class Trainset"
+        ],
+        "Commit": "9cb442ea19935775f4d22ec24a7d26fec10a53a3"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "estimate",
+        "Updated": "estimate",
+        "Location": "algo.py/AlgoRandom",
+        "Original Line": 125,
+        "Updated Line": 121,
+        "Description": [
+            "The parameters [ u0 m0 ] of the method estimate from the module algo.py in class AlgoRandom is/are removed"
+        ],
+        "Commit": "9d0e2aa7f827315389221634e8c94a5dcc8b9bee"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algo.py/AlgoRandom",
+        "Original Line": 116,
+        "Updated Line": 132,
+        "Description": [
+            "The parameters [ ur mr ] are added to the method __init__ from the module algo.py in class AlgoRandom"
+        ],
+        "Commit": "9fb0f139195a3f2b9fc1ff2111bd81a549667dcb"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algo.py/AlgoUsingCosineSim",
+        "Original Line": 134,
+        "Updated Line": 150,
+        "Description": [
+            "The parameters [ ur mr ] are added to the method __init__ from the module algo.py in class AlgoUsingCosineSim"
+        ],
+        "Commit": "9fb0f139195a3f2b9fc1ff2111bd81a549667dcb"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algo.py/AlgoBasicCollaborative",
+        "Original Line": 187,
+        "Updated Line": 203,
+        "Description": [
+            "The parameters [ ur mr ] are added to the method __init__ from the module algo.py in class AlgoBasicCollaborative"
+        ],
+        "Commit": "9fb0f139195a3f2b9fc1ff2111bd81a549667dcb"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "details",
+        "Updated": "details",
+        "Location": "analyse.py",
+        "Original Line": 36,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ est ] of the method details from the module analyse.py are changed/renamed to [e]"
+        ],
+        "Commit": "a0857db4ded392ebff3d32c5bd14b1b8fc0dd1a1"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "err",
+        "Updated": "err",
+        "Location": "analyse.py",
+        "Original Line": 32,
+        "Updated Line": 32,
+        "Description": [
+            "The parameters [ est ] of the method err from the module analyse.py are changed/renamed to [e]"
+        ],
+        "Commit": "a0857db4ded392ebff3d32c5bd14b1b8fc0dd1a1"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Change/Rename Parameter"
+        ],
+        "Original": "filterByRatingsCount",
+        "Updated": "ratingsCountBetween",
+        "Location": "analyse.py",
+        "Original Line": 61,
+        "Updated Line": 59,
+        "Description": [
+            "The method filterByRatingsCount from the module analyse.py is renamed to ratingsCountBetween",
+            "The parameters [ ests ] of the method filterByRatingsCount from the module analyse.py are changed/renamed to [e]"
+        ],
+        "Commit": "a0857db4ded392ebff3d32c5bd14b1b8fc0dd1a1"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "evaluate",
+        "Updated": "evaluate",
+        "Location": "pyrec/evaluate.py",
+        "Original Line": 13,
+        "Updated Line": 13,
+        "Description": [
+            "The parameters [ measures ] are added to the method evaluate from the module pyrec/evaluate.py"
+        ],
+        "Commit": "a470ddc441cb56909b7131253ff7846ebd89f99e"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "load_builtin",
+        "Updated": "load_builtin",
+        "Location": "surprise/dataset.py/Dataset",
+        "Original Line": 67,
+        "Updated Line": 67,
+        "Description": [
+            "The parameters [ prompt ] are added to the method load_builtin from the module surprise/dataset.py in class Dataset"
+        ],
+        "Commit": "a4d49ac6dc07007422cddbe850c23ec8cef664a1"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/analogy.py/AlgoUsingAnalogy",
+        "Original Line": 12,
+        "Updated Line": 12,
+        "Description": [
+            "The parameters [ item_based ] of the method __init__ from the module pyrec/prediction_algorithms/analogy.py in class AlgoUsingAnalogy are changed/renamed to [user_based]"
+        ],
+        "Commit": "a562bac5df38cbe61f04f1cb8027229dee2957e4"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/analogy.py/Parall",
+        "Original Line": 52,
+        "Updated Line": 52,
+        "Description": [
+            "The parameters [ item_based ] of the method __init__ from the module pyrec/prediction_algorithms/analogy.py in class Parall are changed/renamed to [user_based]"
+        ],
+        "Commit": "a562bac5df38cbe61f04f1cb8027229dee2957e4"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/analogy.py/Pattern",
+        "Original Line": 143,
+        "Updated Line": 143,
+        "Description": [
+            "The parameters [ item_based ] of the method __init__ from the module pyrec/prediction_algorithms/analogy.py in class Pattern are changed/renamed to [user_based]"
+        ],
+        "Commit": "a562bac5df38cbe61f04f1cb8027229dee2957e4"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/baseline_only.py/BaselineOnly",
+        "Original Line": 18,
+        "Updated Line": 18,
+        "Description": [
+            "The parameters [ item_based ] of the method __init__ from the module pyrec/prediction_algorithms/baseline_only.py in class BaselineOnly are changed/renamed to [user_based]"
+        ],
+        "Commit": "a562bac5df38cbe61f04f1cb8027229dee2957e4"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/bases.py/AlgoBase",
+        "Original Line": 23,
+        "Updated Line": 23,
+        "Description": [
+            "The parameters [ item_based ] of the method __init__ from the module pyrec/prediction_algorithms/bases.py in class AlgoBase are changed/renamed to [user_based]"
+        ],
+        "Commit": "a562bac5df38cbe61f04f1cb8027229dee2957e4"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/bases.py/AlgoUsingSim",
+        "Original Line": 134,
+        "Updated Line": 134,
+        "Description": [
+            "The parameters [ item_based ] of the method __init__ from the module pyrec/prediction_algorithms/bases.py in class AlgoUsingSim are changed/renamed to [user_based]"
+        ],
+        "Commit": "a562bac5df38cbe61f04f1cb8027229dee2957e4"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/bases.py/AlgoWithBaseline",
+        "Original Line": 157,
+        "Updated Line": 157,
+        "Description": [
+            "The parameters [ item_based ] of the method __init__ from the module pyrec/prediction_algorithms/bases.py in class AlgoWithBaseline are changed/renamed to [user_based]"
+        ],
+        "Commit": "a562bac5df38cbe61f04f1cb8027229dee2957e4"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/clone.py/AlgoUsingMeanDiff",
+        "Original Line": 15,
+        "Updated Line": 15,
+        "Description": [
+            "The parameters [ item_based ] of the method __init__ from the module pyrec/prediction_algorithms/clone.py in class AlgoUsingMeanDiff are changed/renamed to [user_based]"
+        ],
+        "Commit": "a562bac5df38cbe61f04f1cb8027229dee2957e4"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/clone.py/CloneBruteforce",
+        "Original Line": 25,
+        "Updated Line": 25,
+        "Description": [
+            "The parameters [ item_based ] of the method __init__ from the module pyrec/prediction_algorithms/clone.py in class CloneBruteforce are changed/renamed to [user_based]"
+        ],
+        "Commit": "a562bac5df38cbe61f04f1cb8027229dee2957e4"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/clone.py/CloneMeanDiff",
+        "Original Line": 69,
+        "Updated Line": 69,
+        "Description": [
+            "The parameters [ item_based ] of the method __init__ from the module pyrec/prediction_algorithms/clone.py in class CloneMeanDiff are changed/renamed to [user_based]"
+        ],
+        "Commit": "a562bac5df38cbe61f04f1cb8027229dee2957e4"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/clone.py/CloneKNNMeanDiff",
+        "Original Line": 100,
+        "Updated Line": 100,
+        "Description": [
+            "The parameters [ item_based ] of the method __init__ from the module pyrec/prediction_algorithms/clone.py in class CloneKNNMeanDiff are changed/renamed to [user_based]"
+        ],
+        "Commit": "a562bac5df38cbe61f04f1cb8027229dee2957e4"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/knns.py/KNNBasic",
+        "Original Line": 20,
+        "Updated Line": 20,
+        "Description": [
+            "The parameters [ item_based ] of the method __init__ from the module pyrec/prediction_algorithms/knns.py in class KNNBasic are changed/renamed to [user_based]"
+        ],
+        "Commit": "a562bac5df38cbe61f04f1cb8027229dee2957e4"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/knns.py/KNNWithMeans",
+        "Original Line": 65,
+        "Updated Line": 65,
+        "Description": [
+            "The parameters [ item_based ] of the method __init__ from the module pyrec/prediction_algorithms/knns.py in class KNNWithMeans are changed/renamed to [user_based]"
+        ],
+        "Commit": "a562bac5df38cbe61f04f1cb8027229dee2957e4"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/knns.py/KNNBaseline",
+        "Original Line": 116,
+        "Updated Line": 116,
+        "Description": [
+            "The parameters [ item_based ] of the method __init__ from the module pyrec/prediction_algorithms/knns.py in class KNNBaseline are changed/renamed to [user_based]"
+        ],
+        "Commit": "a562bac5df38cbe61f04f1cb8027229dee2957e4"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "surprise/dataset.py/Trainset",
+        "Original Line": 479,
+        "Updated Line": 482,
+        "Description": [
+            "The parameters [ r_min r_max ] of the method __init__ from the module surprise/dataset.py in class Trainset are changed/renamed to [rating_scale offset]"
+        ],
+        "Commit": "a8059e40f98e1daf7e4014fc23b1a7a106b76f46"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "predict",
+        "Updated": "predict",
+        "Location": "surprise/prediction_algorithms/algo_base.py/AlgoBase",
+        "Original Line": 53,
+        "Updated Line": 53,
+        "Description": [
+            "The parameters [ clip ] are added to the method predict from the module surprise/prediction_algorithms/algo_base.py in class AlgoBase"
+        ],
+        "Commit": "a8059e40f98e1daf7e4014fc23b1a7a106b76f46"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "surprise/model_selection/split.py/LeaveOneOut",
+        "Original Line": 361,
+        "Updated Line": 364,
+        "Description": [
+            "The parameters [ min_n_ratings ] are added to the method __init__ from the module surprise/model_selection/split.py in class LeaveOneOut"
+        ],
+        "Commit": "a8616967cc68216036239a51ca238f792015dcd5"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "recsys/prediction_algorithms/knns.py/KNNBasic",
+        "Original Line": 79,
+        "Updated Line": 83,
+        "Description": [
+            "The parameters [ min_k ] are added to the method __init__ from the module recsys/prediction_algorithms/knns.py in class KNNBasic"
+        ],
+        "Commit": "ab4f298edb3c66e4889b9505ddb89e99fffd3fa7"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "recsys/prediction_algorithms/knns.py/KNNWithMeans",
+        "Original Line": 147,
+        "Updated Line": 158,
+        "Description": [
+            "The parameters [ min_k ] are added to the method __init__ from the module recsys/prediction_algorithms/knns.py in class KNNWithMeans"
+        ],
+        "Commit": "ab4f298edb3c66e4889b9505ddb89e99fffd3fa7"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "recsys/prediction_algorithms/knns.py/KNNBaseline",
+        "Original Line": 234,
+        "Updated Line": 253,
+        "Description": [
+            "The parameters [ min_k ] are added to the method __init__ from the module recsys/prediction_algorithms/knns.py in class KNNBaseline"
+        ],
+        "Commit": "ab4f298edb3c66e4889b9505ddb89e99fffd3fa7"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "AlgoCollabDiff",
+        "Updated": "AlgoClone",
+        "Location": "algo.py",
+        "Description": " class AlgoCollabDiff was renamed to class AlgoClone ",
+        "Commit": "b3005c0d65f56fd4f9ebd1a8f4e5cb836840f1be"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "evaluate",
+        "Updated": "evaluate",
+        "Location": "recsys/evaluate.py",
+        "Original Line": 16,
+        "Updated Line": 16,
+        "Description": [
+            "The parameters [ dump_dir ] are added to the method evaluate from the module recsys/evaluate.py"
+        ],
+        "Commit": "b8fc6ede6e3f0f137434c60621296c7dead2c601"
+    },
+    {
+        "Refactoring Type": "Inline Method",
+        "Original": "evaluate",
+        "Updated": "dump_evaluation",
+        "Location": "recsys/evaluate.py",
+        "Original Method Line": "(16,16)",
+        "Extracted/Inlined Method Line": 80,
+        "Extracted/Inlined Lines": [
+            67.0,
+            69.0,
+            70.0,
+            72.0,
+            77.0
+        ],
+        "Description": " The method dump_evaluation from the module recsys/evaluate.py is inlined into method evaluate from the module recsys/evaluate.py ",
+        "Commit": "b8fc6ede6e3f0f137434c60621296c7dead2c601"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algo.py/AlgoGilles",
+        "Original Line": 339,
+        "Updated Line": 339,
+        "Description": [
+            "The parameters [ ur mr ] are added to the method __init__ from the module algo.py in class AlgoGilles"
+        ],
+        "Commit": "bef5ed47ab828412a804f8780d6d99c7fa43f0f7"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/dataset.py/Reader",
+        "Original Line": 427,
+        "Updated Line": 427,
+        "Description": [
+            "The parameters [ interval ] of the method __init__ from the module pyrec/dataset.py in class Reader are changed/renamed to [rating_scale]"
+        ],
+        "Commit": "c1d695e24502862a484b94f54cf1f2344e20e2a9"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "AlgoBasicCollaborative",
+        "Updated": "AlgoKNNBasic",
+        "Location": "algo.py",
+        "Description": " class AlgoBasicCollaborative was renamed to class AlgoKNNBasic ",
+        "Commit": "c686f534ef7e8022669a7ea58cd9f529c3647fce"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "AlgoNeighborhoodWithBaseline",
+        "Updated": "AlgoKNNBaseline",
+        "Location": "algoKorbenAndCo.py",
+        "Description": " class AlgoNeighborhoodWithBaseline was renamed to class AlgoKNNBaseline ",
+        "Commit": "c686f534ef7e8022669a7ea58cd9f529c3647fce"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Old Location": "pyrec/dataset.py/Reader",
+        "New Location": "pyrec/dataset.py/Dataset",
+        "Old Method Line": 81,
+        "New Method Line": 15,
+        "Description": " method __init__ from the module pyrec/dataset.py in class Reader was moved to class Dataset of module pyrec/dataset.py ",
+        "Commit": "c9faaa875561d43bfc257d8fa9cec8893ea69db6"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algo.py/Algo",
+        "Original Line": 11,
+        "Updated Line": 11,
+        "Description": [
+            "The parameters [ ur mr ] are added to the method __init__ from the module algo.py in class Algo"
+        ],
+        "Commit": "cbce05720e16b2c996e965cf476eb973e023a68c"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "getBaseline",
+        "Updated": "getBaseline",
+        "Location": "algo.py/Algo",
+        "Original Line": 42,
+        "Updated Line": 46,
+        "Description": [
+            "The parameters [ x0 y0 ] of the method getBaseline from the module algo.py in class Algo are changed/renamed to [x y]"
+        ],
+        "Commit": "cbce05720e16b2c996e965cf476eb973e023a68c"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "iterAllRatings",
+        "Updated": "allRatings",
+        "Location": "algo.py/Algo",
+        "Original Line": 95,
+        "Updated Line": 96,
+        "Description": [
+            "The method iterAllRatings from the module algo.py in class Algo is renamed to allRatings"
+        ],
+        "Commit": "d17d6bc197fb2442a70fcd5589ad972a881ccedc"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_NMF_parameters",
+        "Updated": "test_NMF_parameters",
+        "Location": "tests/test_NMF.py",
+        "Original Line": 24,
+        "Updated Line": 13,
+        "Description": [
+            "The parameters [ u1_ml100k pkf ] are added to the method test_NMF_parameters from the module tests/test_NMF.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_SVD_parameters",
+        "Updated": "test_SVD_parameters",
+        "Location": "tests/test_SVD.py",
+        "Original Line": 25,
+        "Updated Line": 13,
+        "Description": [
+            "The parameters [ u1_ml100k pkf ] are added to the method test_SVD_parameters from the module tests/test_SVD.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_SVDpp_parameters",
+        "Updated": "test_SVDpp_parameters",
+        "Location": "tests/test_SVD.py",
+        "Original Line": 98,
+        "Updated Line": 86,
+        "Description": [
+            "The parameters [ u1_ml100k pkf ] are added to the method test_SVDpp_parameters from the module tests/test_SVD.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_knns",
+        "Updated": "test_knns",
+        "Location": "tests/test_algorithms.py",
+        "Original Line": 60,
+        "Updated Line": 53,
+        "Description": [
+            "The parameters [ u1_ml100k pkf ] are added to the method test_knns from the module tests/test_algorithms.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_unknown_user_or_item",
+        "Updated": "test_unknown_user_or_item",
+        "Location": "tests/test_algorithms.py",
+        "Original Line": 28,
+        "Updated Line": 27,
+        "Description": [
+            "The parameters [ toy_data ] are added to the method test_unknown_user_or_item from the module tests/test_algorithms.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_als_n_epochs_field",
+        "Updated": "test_als_n_epochs_field",
+        "Location": "tests/test_bsl_options.py",
+        "Original Line": 43,
+        "Updated Line": 30,
+        "Description": [
+            "The parameters [ u1_ml100k pkf ] are added to the method test_als_n_epochs_field from the module tests/test_bsl_options.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_als_reg_i_field",
+        "Updated": "test_als_reg_i_field",
+        "Location": "tests/test_bsl_options.py",
+        "Original Line": 81,
+        "Updated Line": 68,
+        "Description": [
+            "The parameters [ u1_ml100k pkf ] are added to the method test_als_reg_i_field from the module tests/test_bsl_options.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_als_reg_u_field",
+        "Updated": "test_als_reg_u_field",
+        "Location": "tests/test_bsl_options.py",
+        "Original Line": 63,
+        "Updated Line": 50,
+        "Description": [
+            "The parameters [ u1_ml100k pkf ] are added to the method test_als_reg_u_field from the module tests/test_bsl_options.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_method_field",
+        "Updated": "test_method_field",
+        "Location": "tests/test_bsl_options.py",
+        "Original Line": 24,
+        "Updated Line": 11,
+        "Description": [
+            "The parameters [ u1_ml100k pkf ] are added to the method test_method_field from the module tests/test_bsl_options.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_sgd_learning_rate_field",
+        "Updated": "test_sgd_learning_rate_field",
+        "Location": "tests/test_bsl_options.py",
+        "Original Line": 117,
+        "Updated Line": 104,
+        "Description": [
+            "The parameters [ u1_ml100k pkf ] are added to the method test_sgd_learning_rate_field from the module tests/test_bsl_options.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_sgd_n_epoch_field",
+        "Updated": "test_sgd_n_epoch_field",
+        "Location": "tests/test_bsl_options.py",
+        "Original Line": 99,
+        "Updated Line": 86,
+        "Description": [
+            "The parameters [ u1_ml100k pkf ] are added to the method test_sgd_n_epoch_field from the module tests/test_bsl_options.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_sgd_reg_field",
+        "Updated": "test_sgd_reg_field",
+        "Location": "tests/test_bsl_options.py",
+        "Original Line": 137,
+        "Updated Line": 124,
+        "Description": [
+            "The parameters [ u1_ml100k pkf ] are added to the method test_sgd_reg_field from the module tests/test_bsl_options.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_CoClustering_parameters",
+        "Updated": "test_CoClustering_parameters",
+        "Location": "tests/test_co_clustering.py",
+        "Original Line": 23,
+        "Updated Line": 12,
+        "Description": [
+            "The parameters [ u1_ml100k pkf ] are added to the method test_CoClustering_parameters from the module tests/test_co_clustering.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_build_full_trainset",
+        "Updated": "test_build_full_trainset",
+        "Location": "tests/test_dataset.py",
+        "Original Line": 32,
+        "Updated Line": 30,
+        "Description": [
+            "The parameters [ toy_data ] are added to the method test_build_full_trainset from the module tests/test_dataset.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_no_call_to_split",
+        "Updated": "test_no_call_to_split",
+        "Location": "tests/test_dataset.py",
+        "Original Line": 47,
+        "Updated Line": 41,
+        "Description": [
+            "The parameters [ toy_data ] are added to the method test_no_call_to_split from the module tests/test_dataset.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_split",
+        "Updated": "test_split",
+        "Location": "tests/test_dataset.py",
+        "Original Line": 65,
+        "Updated Line": 56,
+        "Description": [
+            "The parameters [ toy_data ] are added to the method test_split from the module tests/test_dataset.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_trainset_testset",
+        "Updated": "test_trainset_testset",
+        "Location": "tests/test_dataset.py",
+        "Original Line": 114,
+        "Updated Line": 102,
+        "Description": [
+            "The parameters [ toy_data_reader ] are added to the method test_trainset_testset from the module tests/test_dataset.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_dump",
+        "Updated": "test_dump",
+        "Location": "tests/test_dump.py",
+        "Original Line": 17,
+        "Updated Line": 13,
+        "Description": [
+            "The parameters [ u1_ml100k ] are added to the method test_dump from the module tests/test_dump.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_best_estimator",
+        "Updated": "test_best_estimator",
+        "Location": "tests/test_grid_search.py",
+        "Original Line": 56,
+        "Updated Line": 49,
+        "Description": [
+            "The parameters [ small_ml ] are added to the method test_best_estimator from the module tests/test_grid_search.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_dict_parameters",
+        "Updated": "test_dict_parameters",
+        "Location": "tests/test_grid_search.py",
+        "Original Line": 72,
+        "Updated Line": 65,
+        "Description": [
+            "The parameters [ small_ml ] are added to the method test_dict_parameters from the module tests/test_grid_search.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_grid_search_cv_results",
+        "Updated": "test_grid_search_cv_results",
+        "Location": "tests/test_grid_search.py",
+        "Original Line": 31,
+        "Updated Line": 24,
+        "Description": [
+            "The parameters [ small_ml ] are added to the method test_grid_search_cv_results from the module tests/test_grid_search.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_measure_is_not_case_sensitive",
+        "Updated": "test_measure_is_not_case_sensitive",
+        "Location": "tests/test_grid_search.py",
+        "Original Line": 42,
+        "Updated Line": 35,
+        "Description": [
+            "The parameters [ small_ml ] are added to the method test_measure_is_not_case_sensitive from the module tests/test_grid_search.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_same_splits",
+        "Updated": "test_same_splits",
+        "Location": "tests/test_grid_search.py",
+        "Original Line": 93,
+        "Updated Line": 88,
+        "Description": [
+            "The parameters [ small_ml ] are added to the method test_same_splits from the module tests/test_grid_search.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_gridsearchcv_best_estimator",
+        "Updated": "test_gridsearchcv_best_estimator",
+        "Location": "tests/test_search.py",
+        "Original Line": 55,
+        "Updated Line": 55,
+        "Description": [
+            "The parameters [ u1_ml100k ] are added to the method test_gridsearchcv_best_estimator from the module tests/test_search.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_gridsearchcv_refit",
+        "Updated": "test_gridsearchcv_refit",
+        "Location": "tests/test_search.py",
+        "Original Line": 161,
+        "Updated Line": 156,
+        "Description": [
+            "The parameters [ u1_ml100k ] are added to the method test_gridsearchcv_refit from the module tests/test_search.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_randomizedsearchcv_best_estimator",
+        "Updated": "test_randomizedsearchcv_best_estimator",
+        "Location": "tests/test_search.py",
+        "Original Line": 241,
+        "Updated Line": 232,
+        "Description": [
+            "The parameters [ u1_ml100k ] are added to the method test_randomizedsearchcv_best_estimator from the module tests/test_search.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_randomizedsearchcv_refit",
+        "Updated": "test_randomizedsearchcv_refit",
+        "Location": "tests/test_search.py",
+        "Original Line": 351,
+        "Updated Line": 338,
+        "Description": [
+            "The parameters [ u1_ml100k ] are added to the method test_randomizedsearchcv_refit from the module tests/test_search.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_name_field",
+        "Updated": "test_name_field",
+        "Location": "tests/test_sim_options.py",
+        "Original Line": 29,
+        "Updated Line": 17,
+        "Description": [
+            "The parameters [ u1_ml100k pkf ] are added to the method test_name_field from the module tests/test_sim_options.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_shrinkage_field",
+        "Updated": "test_shrinkage_field",
+        "Location": "tests/test_sim_options.py",
+        "Original Line": 74,
+        "Updated Line": 62,
+        "Description": [
+            "The parameters [ u1_ml100k pkf ] are added to the method test_shrinkage_field from the module tests/test_sim_options.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_user_based_field",
+        "Updated": "test_user_based_field",
+        "Location": "tests/test_sim_options.py",
+        "Original Line": 59,
+        "Updated Line": 47,
+        "Description": [
+            "The parameters [ u1_ml100k pkf ] are added to the method test_user_based_field from the module tests/test_sim_options.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_KFold",
+        "Updated": "test_KFold",
+        "Location": "tests/test_split.py",
+        "Original Line": 25,
+        "Updated Line": 25,
+        "Description": [
+            "The parameters [ toy_data ] are added to the method test_KFold from the module tests/test_split.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_LeaveOneOut",
+        "Updated": "test_LeaveOneOut",
+        "Location": "tests/test_split.py",
+        "Original Line": 269,
+        "Updated Line": 246,
+        "Description": [
+            "The parameters [ toy_data ] are added to the method test_LeaveOneOut from the module tests/test_split.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_RepeatedCV",
+        "Updated": "test_RepeatedCV",
+        "Location": "tests/test_split.py",
+        "Original Line": 232,
+        "Updated Line": 215,
+        "Description": [
+            "The parameters [ toy_data ] are added to the method test_RepeatedCV from the module tests/test_split.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_ShuffleSplit",
+        "Updated": "test_ShuffleSplit",
+        "Location": "tests/test_split.py",
+        "Original Line": 94,
+        "Updated Line": 88,
+        "Description": [
+            "The parameters [ toy_data ] are added to the method test_ShuffleSplit from the module tests/test_split.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_train_test_split",
+        "Updated": "test_train_test_split",
+        "Location": "tests/test_split.py",
+        "Original Line": 181,
+        "Updated Line": 169,
+        "Description": [
+            "The parameters [ toy_data ] are added to the method test_train_test_split from the module tests/test_split.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_new_style_algo",
+        "Updated": "test_new_style_algo",
+        "Location": "tests/test_train2fit.py",
+        "Original Line": 17,
+        "Updated Line": 8,
+        "Description": [
+            "The parameters [ small_ml ] are added to the method test_new_style_algo from the module tests/test_train2fit.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_old_style_algo",
+        "Updated": "test_old_style_algo",
+        "Location": "tests/test_train2fit.py",
+        "Original Line": 71,
+        "Updated Line": 63,
+        "Description": [
+            "The parameters [ small_ml ] are added to the method test_old_style_algo from the module tests/test_train2fit.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_cross_validate",
+        "Updated": "test_cross_validate",
+        "Location": "tests/test_validation.py",
+        "Original Line": 15,
+        "Updated Line": 15,
+        "Description": [
+            "The parameters [ toy_data ] are added to the method test_cross_validate from the module tests/test_validation.py"
+        ],
+        "Commit": "d2b8a22303a9551744bf402f7cdf392c46383773"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "meanCommonXs",
+        "Updated": "meanCommonYs",
+        "Location": "analyseTools.py",
+        "Original Line": 7,
+        "Updated Line": 9,
+        "Description": [
+            "The method meanCommonXs from the module analyseTools.py is renamed to meanCommonYs"
+        ],
+        "Commit": "d5cbd62ea431cb429657b1ba10ae272bdc40568c"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "correctSolProp",
+        "Updated": "solProp",
+        "Location": "analyseTools.py",
+        "Original Line": 12,
+        "Updated Line": 14,
+        "Description": [
+            "The method correctSolProp from the module analyseTools.py is renamed to solProp",
+            "The parameters [ r ] are added to the method correctSolProp from the module analyseTools.py"
+        ],
+        "Commit": "d5cbd62ea431cb429657b1ba10ae272bdc40568c"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algo.py/AlgoRandom",
+        "Original Line": 122,
+        "Updated Line": 122,
+        "Description": [
+            "The parameters [ ur ir ] of the method __init__ from the module algo.py in class AlgoRandom is/are removed"
+        ],
+        "Commit": "d6627fe7c9dc7aedee3cf7cb13eedb23ea466bd4"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algo.py/AlgoUsingSim",
+        "Original Line": 141,
+        "Updated Line": 141,
+        "Description": [
+            "The parameters [ ur ir ] of the method __init__ from the module algo.py in class AlgoUsingSim is/are removed"
+        ],
+        "Commit": "d6627fe7c9dc7aedee3cf7cb13eedb23ea466bd4"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algo.py/AlgoKNNBasic",
+        "Original Line": 287,
+        "Updated Line": 287,
+        "Description": [
+            "The parameters [ ur ir ] of the method __init__ from the module algo.py in class AlgoKNNBasic is/are removed"
+        ],
+        "Commit": "d6627fe7c9dc7aedee3cf7cb13eedb23ea466bd4"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algo.py/AlgoKNNWithMeans",
+        "Original Line": 322,
+        "Updated Line": 322,
+        "Description": [
+            "The parameters [ ur ir ] of the method __init__ from the module algo.py in class AlgoKNNWithMeans is/are removed"
+        ],
+        "Commit": "d6627fe7c9dc7aedee3cf7cb13eedb23ea466bd4"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algo.py/AlgoWithBaseline",
+        "Original Line": 361,
+        "Updated Line": 361,
+        "Description": [
+            "The parameters [ ur ir ] of the method __init__ from the module algo.py in class AlgoWithBaseline is/are removed"
+        ],
+        "Commit": "d6627fe7c9dc7aedee3cf7cb13eedb23ea466bd4"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algo.py/AlgoBaselineOnly",
+        "Original Line": 420,
+        "Updated Line": 420,
+        "Description": [
+            "The parameters [ ur ir ] of the method __init__ from the module algo.py in class AlgoBaselineOnly is/are removed"
+        ],
+        "Commit": "d6627fe7c9dc7aedee3cf7cb13eedb23ea466bd4"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algoAnalogy.py/AlgoUsingAnalogy",
+        "Original Line": 7,
+        "Updated Line": 7,
+        "Description": [
+            "The parameters [ ur ir ] of the method __init__ from the module algoAnalogy.py in class AlgoUsingAnalogy is/are removed"
+        ],
+        "Commit": "d6627fe7c9dc7aedee3cf7cb13eedb23ea466bd4"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algoAnalogy.py/AlgoParall",
+        "Original Line": 40,
+        "Updated Line": 40,
+        "Description": [
+            "The parameters [ ur ir ] of the method __init__ from the module algoAnalogy.py in class AlgoParall is/are removed"
+        ],
+        "Commit": "d6627fe7c9dc7aedee3cf7cb13eedb23ea466bd4"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algoAnalogy.py/AlgoPattern",
+        "Original Line": 139,
+        "Updated Line": 139,
+        "Description": [
+            "The parameters [ ur ir ] of the method __init__ from the module algoAnalogy.py in class AlgoPattern is/are removed"
+        ],
+        "Commit": "d6627fe7c9dc7aedee3cf7cb13eedb23ea466bd4"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algoClone.py/AlgoCloneBruteforce",
+        "Original Line": 36,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ ur ir ] of the method __init__ from the module algoClone.py in class AlgoCloneBruteforce is/are removed"
+        ],
+        "Commit": "d6627fe7c9dc7aedee3cf7cb13eedb23ea466bd4"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algoClone.py/AlgoCloneMeanDiff",
+        "Original Line": 77,
+        "Updated Line": 77,
+        "Description": [
+            "The parameters [ ur ir ] of the method __init__ from the module algoClone.py in class AlgoCloneMeanDiff is/are removed"
+        ],
+        "Commit": "d6627fe7c9dc7aedee3cf7cb13eedb23ea466bd4"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algoClone.py/AlgoCloneKNNMeanDiff",
+        "Original Line": 107,
+        "Updated Line": 107,
+        "Description": [
+            "The parameters [ ur ir ] of the method __init__ from the module algoClone.py in class AlgoCloneKNNMeanDiff is/are removed"
+        ],
+        "Commit": "d6627fe7c9dc7aedee3cf7cb13eedb23ea466bd4"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algoKorenAndCo.py/AlgoKNNBaseline",
+        "Original Line": 6,
+        "Updated Line": 6,
+        "Description": [
+            "The parameters [ ur ir ] of the method __init__ from the module algoKorenAndCo.py in class AlgoKNNBaseline is/are removed"
+        ],
+        "Commit": "d6627fe7c9dc7aedee3cf7cb13eedb23ea466bd4"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algoKorenAndCo.py/AlgoFactors",
+        "Original Line": 92,
+        "Updated Line": 92,
+        "Description": [
+            "The parameters [ ur ir ] of the method __init__ from the module algoKorenAndCo.py in class AlgoFactors is/are removed"
+        ],
+        "Commit": "d6627fe7c9dc7aedee3cf7cb13eedb23ea466bd4"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_normal_predictor",
+        "Updated": "test_gracefull_stop",
+        "Location": "test/test_algorithms.py",
+        "Original Line": 21,
+        "Updated Line": 19,
+        "Description": [
+            "The method test_normal_predictor from the module test/test_algorithms.py is renamed to test_gracefull_stop"
+        ],
+        "Commit": "d8e9533e0b35b8287a2c0138a8288b2842b7b9ea"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algo.py/AlgoBaselineOnly",
+        "Original Line": 432,
+        "Updated Line": 436,
+        "Description": [
+            "The parameters [ ur mr ] are added to the method __init__ from the module algo.py in class AlgoBaselineOnly"
+        ],
+        "Commit": "de79484f3926e601c95d0383753dbdc7a525b7f1"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algo.py/AlgoNeighborhoodWithBaseline",
+        "Original Line": 441,
+        "Updated Line": 447,
+        "Description": [
+            "The parameters [ ur mr ] are added to the method __init__ from the module algo.py in class AlgoNeighborhoodWithBaseline"
+        ],
+        "Commit": "de79484f3926e601c95d0383753dbdc7a525b7f1"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/bases.py/AlgoBase",
+        "Original Line": 56,
+        "Updated Line": 57,
+        "Description": [
+            "The parameters [ user_based ] of the method __init__ from the module pyrec/prediction_algorithms/bases.py in class AlgoBase is/are removed"
+        ],
+        "Commit": "e0655bc12f311a9731550405b8b24206c436bf62"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/knns.py/KNNBasic",
+        "Original Line": 20,
+        "Updated Line": 31,
+        "Description": [
+            "The parameters [ user_based ] are added to the method __init__ from the module pyrec/prediction_algorithms/knns.py in class KNNBasic"
+        ],
+        "Commit": "e0655bc12f311a9731550405b8b24206c436bf62"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/knns.py/KNNWithMeans",
+        "Original Line": 65,
+        "Updated Line": 76,
+        "Description": [
+            "The parameters [ user_based ] are added to the method __init__ from the module pyrec/prediction_algorithms/knns.py in class KNNWithMeans"
+        ],
+        "Commit": "e0655bc12f311a9731550405b8b24206c436bf62"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/knns.py/KNNBaseline",
+        "Original Line": 118,
+        "Updated Line": 129,
+        "Description": [
+            "The parameters [ user_based ] are added to the method __init__ from the module pyrec/prediction_algorithms/knns.py in class KNNBaseline"
+        ],
+        "Commit": "e0655bc12f311a9731550405b8b24206c436bf62"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_algos",
+        "Updated": "test_normal_predictor",
+        "Location": "test/test_algorithms.py",
+        "Original Line": 22,
+        "Updated Line": 21,
+        "Description": [
+            "The method test_algos from the module test/test_algorithms.py is renamed to test_normal_predictor"
+        ],
+        "Commit": "e0655bc12f311a9731550405b8b24206c436bf62"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "printStats",
+        "Updated": "computeStats",
+        "Location": "common.py",
+        "Original Line": 17,
+        "Updated Line": 17,
+        "Description": [
+            "The method printStats from the module common.py is renamed to computeStats",
+            "The parameters [ output ] are added to the method printStats from the module common.py"
+        ],
+        "Commit": "e498d96fd97ed5280dbf7de970a29a49eaf48314"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/clone.py/AlgoUsingMeanDiff",
+        "Original Line": 15,
+        "Updated Line": 15,
+        "Description": [
+            "The parameters [ training_data ] of the method __init__ from the module pyrec/prediction_algorithms/clone.py in class AlgoUsingMeanDiff is/are removed"
+        ],
+        "Commit": "ed1db939d665369facdfc9b9d01520d41ad7e0e7"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/clone.py/CloneBruteforce",
+        "Original Line": 25,
+        "Updated Line": 30,
+        "Description": [
+            "The parameters [ training_data ] of the method __init__ from the module pyrec/prediction_algorithms/clone.py in class CloneBruteforce is/are removed"
+        ],
+        "Commit": "ed1db939d665369facdfc9b9d01520d41ad7e0e7"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyrec/prediction_algorithms/clone.py/CloneKNNMeanDiff",
+        "Original Line": 100,
+        "Updated Line": 79,
+        "Description": [
+            "The parameters [ training_data ] of the method __init__ from the module pyrec/prediction_algorithms/clone.py in class CloneKNNMeanDiff is/are removed"
+        ],
+        "Commit": "ed1db939d665369facdfc9b9d01520d41ad7e0e7"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "load_from_df",
+        "Updated": "load_from_df",
+        "Location": "surprise/dataset.py/Dataset",
+        "Original Line": 150,
+        "Updated Line": 166,
+        "Description": [
+            "The parameters [ rating_scale ] are added to the method load_from_df from the module surprise/dataset.py in class Dataset"
+        ],
+        "Commit": "ef93db4f9e8dfd1b165071a1fa0fbefdf0cd12b1"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "load_from_file",
+        "Updated": "load_from_file",
+        "Location": "surprise/dataset.py/Dataset",
+        "Original Line": 107,
+        "Updated Line": 117,
+        "Description": [
+            "The parameters [ rating_scale ] are added to the method load_from_file from the module surprise/dataset.py in class Dataset"
+        ],
+        "Commit": "ef93db4f9e8dfd1b165071a1fa0fbefdf0cd12b1"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "load_from_folds",
+        "Updated": "load_from_folds",
+        "Location": "surprise/dataset.py/Dataset",
+        "Original Line": 125,
+        "Updated Line": 138,
+        "Description": [
+            "The parameters [ rating_scale ] are added to the method load_from_folds from the module surprise/dataset.py in class Dataset"
+        ],
+        "Commit": "ef93db4f9e8dfd1b165071a1fa0fbefdf0cd12b1"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "surprise/dataset.py/DatasetUserFolds",
+        "Original Line": 254,
+        "Updated Line": 278,
+        "Description": [
+            "The parameters [ rating_scale ] are added to the method __init__ from the module surprise/dataset.py in class DatasetUserFolds"
+        ],
+        "Commit": "ef93db4f9e8dfd1b165071a1fa0fbefdf0cd12b1"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "surprise/dataset.py/DatasetAutoFolds",
+        "Original Line": 277,
+        "Updated Line": 301,
+        "Description": [
+            "The parameters [ rating_scale ] are added to the method __init__ from the module surprise/dataset.py in class DatasetAutoFolds"
+        ],
+        "Commit": "ef93db4f9e8dfd1b165071a1fa0fbefdf0cd12b1"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "compute_baselines",
+        "Updated": "compute_baselines",
+        "Location": "surprise/prediction_algorithms/algo_base.py/AlgoBase",
+        "Original Line": 211,
+        "Updated Line": 211,
+        "Description": [
+            "The parameters [ verbose ] are added to the method compute_baselines from the module surprise/prediction_algorithms/algo_base.py in class AlgoBase"
+        ],
+        "Commit": "ef93db4f9e8dfd1b165071a1fa0fbefdf0cd12b1"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "compute_similarities",
+        "Updated": "compute_similarities",
+        "Location": "surprise/prediction_algorithms/algo_base.py/AlgoBase",
+        "Original Line": 248,
+        "Updated Line": 252,
+        "Description": [
+            "The parameters [ verbose ] are added to the method compute_similarities from the module surprise/prediction_algorithms/algo_base.py in class AlgoBase"
+        ],
+        "Commit": "ef93db4f9e8dfd1b165071a1fa0fbefdf0cd12b1"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_PredifinedKFold",
+        "Updated": "test_PredifinedKFold",
+        "Location": "tests/test_split.py",
+        "Original Line": 291,
+        "Updated Line": 291,
+        "Description": [
+            "The parameters [ toy_data_reader ] are added to the method test_PredifinedKFold from the module tests/test_split.py"
+        ],
+        "Commit": "ef93db4f9e8dfd1b165071a1fa0fbefdf0cd12b1"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algo.py/Algo",
+        "Original Line": 11,
+        "Updated Line": 11,
+        "Description": [
+            "The parameters [ needBaseline ] of the method __init__ from the module algo.py in class Algo is/are removed"
+        ],
+        "Commit": "f3a03a7ca3e2f59cba6f52ddc61752660b38fde4"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algo.py/AlgoBaselineOnly",
+        "Original Line": 436,
+        "Updated Line": 463,
+        "Description": [
+            "The parameters [ method ] are added to the method __init__ from the module algo.py in class AlgoBaselineOnly"
+        ],
+        "Commit": "f3a03a7ca3e2f59cba6f52ddc61752660b38fde4"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algo.py/AlgoNeighborhoodWithBaseline",
+        "Original Line": 447,
+        "Updated Line": 474,
+        "Description": [
+            "The parameters [ method ] are added to the method __init__ from the module algo.py in class AlgoNeighborhoodWithBaseline"
+        ],
+        "Commit": "f3a03a7ca3e2f59cba6f52ddc61752660b38fde4"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "algo.py/AlgoKNNBelkor",
+        "Original Line": 477,
+        "Updated Line": 504,
+        "Description": [
+            "The parameters [ method ] are added to the method __init__ from the module algo.py in class AlgoKNNBelkor"
+        ],
+        "Commit": "f3a03a7ca3e2f59cba6f52ddc61752660b38fde4"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "getRawRatings",
+        "Updated": "getRawRatings",
+        "Location": "main.py",
+        "Original Line": 132,
+        "Updated Line": 145,
+        "Description": [
+            "The parameters [ trainFile ] are added to the method getRawRatings from the module main.py"
+        ],
+        "Commit": "f6386ac25afaafc56484a34ee6005e2007892258"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "load",
+        "Updated": "load_builtin",
+        "Location": "pyrec/dataset.py/Dataset",
+        "Original Line": 120,
+        "Updated Line": 120,
+        "Description": [
+            "The method load from the module pyrec/dataset.py in class Dataset is renamed to load_builtin"
+        ],
+        "Commit": "fb27d26bfa976fbfe729a23e80439e6c937f652d"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "getData",
+        "Updated": "getRawRatings",
+        "Location": "main.py",
+        "Original Line": 131,
+        "Updated Line": 131,
+        "Description": [
+            "The method getData from the module main.py is renamed to getRawRatings"
+        ],
+        "Commit": "feda045f30260a699da7b525dc1fc56c963546d3"
+    }
+]

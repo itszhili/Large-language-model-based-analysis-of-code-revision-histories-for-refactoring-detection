@@ -1,0 +1,66 @@
+[
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "SpacyWordTokenizer",
+        "Updated": "NLTKWordTokenizer",
+        "Location": "duplicate_questions/data/tokenizers/word_tokenizers.py",
+        "Description": " class SpacyWordTokenizer was renamed to class NLTKWordTokenizer ",
+        "Commit": "409ff72a5e5183e9bbe25a008b4a592201717d03"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_merge",
+        "Updated": "test_truncate",
+        "Location": "tests/data/test_dataset.py/TestDataset",
+        "Original Line": 16,
+        "Updated Line": 16,
+        "Description": [
+            "The method test_merge from the module tests/data/test_dataset.py in class TestDataset is renamed to test_truncate"
+        ],
+        "Commit": "bb142786e3192000cb213f227fb1ebbbe46f7896"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_get_validation_data_no_pad",
+        "Updated": "test_get_test_data_no_pad",
+        "Location": "tests/data/test_data_manager.py/TestDataManagerTest",
+        "Original Line": 279,
+        "Updated Line": 343,
+        "Description": [
+            "The method test_get_validation_data_no_pad from the module tests/data/test_data_manager.py in class TestDataManagerTest is renamed to test_get_test_data_no_pad"
+        ],
+        "Commit": "dc9953ae9490d24921287f4bf3a100fb7aa13d33"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_get_validation_data_pad_with_max_lens",
+        "Updated": "test_get_test_data_pad_with_max_lens",
+        "Location": "tests/data/test_data_manager.py/TestDataManagerTest",
+        "Original Line": 234,
+        "Updated Line": 293,
+        "Description": [
+            "The method test_get_validation_data_pad_with_max_lens from the module tests/data/test_data_manager.py in class TestDataManagerTest is renamed to test_get_test_data_pad_with_max_lens"
+        ],
+        "Commit": "dc9953ae9490d24921287f4bf3a100fb7aa13d33"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_get_validation_data_with_max_instances",
+        "Updated": "test_get_test_data_with_max_instances",
+        "Location": "tests/data/test_data_manager.py/TestDataManagerTest",
+        "Original Line": 253,
+        "Updated Line": 315,
+        "Description": [
+            "The method test_get_validation_data_with_max_instances from the module tests/data/test_data_manager.py in class TestDataManagerTest is renamed to test_get_test_data_with_max_instances"
+        ],
+        "Commit": "dc9953ae9490d24921287f4bf3a100fb7aa13d33"
+    }
+]

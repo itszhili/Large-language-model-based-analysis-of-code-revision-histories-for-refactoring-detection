@@ -1,0 +1,30 @@
+[
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "agents/experiment_ai.py/MLAI",
+        "Original Line": 1133,
+        "Updated Line": 1333,
+        "Description": [
+            "The parameters [ table seat dealer_seat thclient ] of the method __init__ from the module agents/experiment_ai.py in class MLAI is/are removed"
+        ],
+        "Commit": "7fd2053c5155f2f7461f857899a960b1395bf071"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "run_jianyang_ai",
+        "Updated": "run_jianyang_ai",
+        "Location": "main.py",
+        "Original Line": 51,
+        "Updated Line": 51,
+        "Description": [
+            "The parameters [ drawer ] are added to the method run_jianyang_ai from the module main.py"
+        ],
+        "Commit": "87dedb1017c80bf0e9ab782b1e09956ba64238d3"
+    }
+]

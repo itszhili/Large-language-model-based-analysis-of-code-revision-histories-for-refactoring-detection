@@ -1,0 +1,44 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "cast_inputs",
+        "Updated": "cast_inputs",
+        "Location": "openchem/models/GenerativeRNN.py/GenerativeRNN",
+        "Original Line": 97,
+        "Updated Line": 96,
+        "Description": [
+            "The parameters [ use_cuda ] are added to the method cast_inputs from the module openchem/models/GenerativeRNN.py in class GenerativeRNN"
+        ],
+        "Commit": "0966f1e342c41a9976b43d53df0441d426896652"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "get_params",
+        "Updated": "get_required_params",
+        "Location": "modules/encoders/cnn_encoder.py/CNNEncoder",
+        "Original Line": 34,
+        "Updated Line": 35,
+        "Description": [
+            "The method get_params from the module modules/encoders/cnn_encoder.py in class CNNEncoder is renamed to get_required_params"
+        ],
+        "Commit": "620b175857193575720c141ee44a416e5c71605c"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "get_params",
+        "Updated": "get_required_params",
+        "Location": "modules/embeddings/openchem_embedding.py/OpenChemEmbedding",
+        "Original Line": 22,
+        "Updated Line": 28,
+        "Description": [
+            "The method get_params from the module modules/embeddings/openchem_embedding.py in class OpenChemEmbedding is renamed to get_required_params"
+        ],
+        "Commit": "7e5e49c912b8da1f417c31f9649ccbb3a7d7ceb7"
+    }
+]

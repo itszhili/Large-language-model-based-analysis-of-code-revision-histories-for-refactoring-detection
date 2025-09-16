@@ -1,0 +1,44 @@
+[
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "calculate_wavelet",
+        "Updated": "calculate_wavelet",
+        "Location": "src/utils.py/WaveletSparsifier",
+        "Original Line": 83,
+        "Updated Line": 83,
+        "Description": [
+            "The parameters [ index ] of the method calculate_wavelet from the module src/utils.py in class WaveletSparsifier is/are removed"
+        ],
+        "Commit": "67426f06b74165b9cb301247a870130f6f4fe2cc"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "update_log",
+        "Updated": "update_log",
+        "Location": "src/gwnn.py/GWNNTrainer",
+        "Original Line": 77,
+        "Updated Line": 77,
+        "Description": [
+            "The parameters [ time ] of the method update_log from the module src/gwnn.py in class GWNNTrainer is/are removed"
+        ],
+        "Commit": "6b5dca7aae932896170fb96793747d48eccf83ef"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "calculate_wavelet",
+        "Updated": "calculate_wavelet",
+        "Location": "src/utils.py/WaveletSparsifier",
+        "Original Line": 84,
+        "Updated Line": 84,
+        "Description": [
+            "The parameters [ node ] of the method calculate_wavelet from the module src/utils.py in class WaveletSparsifier is/are removed"
+        ],
+        "Commit": "8f1f63110798d170d9fedd42018b7d05840777bd"
+    }
+]

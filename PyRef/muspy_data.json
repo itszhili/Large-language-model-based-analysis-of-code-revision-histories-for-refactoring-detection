@@ -1,0 +1,725 @@
+[
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_n_chroma_used",
+        "Updated": "test_n_pitch_classes_used",
+        "Location": "tests/test_metrics.py",
+        "Original Line": 15,
+        "Updated Line": 15,
+        "Description": [
+            "The method test_n_chroma_used from the module tests/test_metrics.py is renamed to test_n_pitch_classes_used"
+        ],
+        "Commit": "04ade3267915f42cf074ef52e8a87a59298d684a"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_music21_dataset",
+        "Updated": "test_convert",
+        "Location": "tests/test_datasets.py",
+        "Original Line": 9,
+        "Updated Line": 14,
+        "Description": [
+            "The method test_music21_dataset from the module tests/test_datasets.py is renamed to test_convert"
+        ],
+        "Commit": "2e45849c8178ec1513f94f5de6239081aa819bda"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_nmd_dataset",
+        "Updated": "test_nmd",
+        "Location": "tests/test_datasets.py",
+        "Original Line": 16,
+        "Updated Line": 40,
+        "Description": [
+            "The method test_nmd_dataset from the module tests/test_datasets.py is renamed to test_nmd"
+        ],
+        "Commit": "2e45849c8178ec1513f94f5de6239081aa819bda"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "check_tempos",
+        "Updated": "check_tempos",
+        "Location": "tests/utils.py",
+        "Original Line": 29,
+        "Updated Line": 30,
+        "Description": [
+            "The parameters [ strict ] are added to the method check_tempos from the module tests/utils.py"
+        ],
+        "Commit": "2e8c2537920193aaa04408ab4e48745d541b3168"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "muspy/datasets/base.py/DatasetInfo",
+        "Original Line": 55,
+        "Updated Line": 54,
+        "Description": [
+            "The parameters [ citation ] of the method __init__ from the module muspy/datasets/base.py in class DatasetInfo are changed/renamed to [license]"
+        ],
+        "Commit": "2f24836796180cefba1867b31d2a4ea1f9cadfbb"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "muspy/music.py/Music",
+        "Original Line": 96,
+        "Updated Line": 110,
+        "Description": [
+            "The parameters [ tempos ] are added to the method __init__ from the module muspy/music.py in class Music"
+        ],
+        "Commit": "4492c7935d25ad1859f945490a999b4940234612"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "JSONIOTestCase",
+        "Updated": "JSONTestCase",
+        "Location": "tests/test_io.py",
+        "Description": " class JSONIOTestCase was renamed to class JSONTestCase ",
+        "Commit": "4492c7935d25ad1859f945490a999b4940234612"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "YAMLIOTestCase",
+        "Updated": "YAMLTestCase",
+        "Location": "tests/test_io.py",
+        "Description": " class YAMLIOTestCase was renamed to class YAMLTestCase ",
+        "Commit": "4492c7935d25ad1859f945490a999b4940234612"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "MIDIIOTestCase",
+        "Updated": "MIDITestCase",
+        "Location": "tests/test_io.py",
+        "Description": " class MIDIIOTestCase was renamed to class MIDITestCase ",
+        "Commit": "4492c7935d25ad1859f945490a999b4940234612"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "MusicXMLIOTestCase",
+        "Updated": "MusicXMLTestCase",
+        "Location": "tests/test_io.py",
+        "Description": " class MusicXMLIOTestCase was renamed to class MusicXMLTestCase ",
+        "Commit": "4492c7935d25ad1859f945490a999b4940234612"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "muspy/classes.py/Track",
+        "Original Line": 468,
+        "Updated Line": 531,
+        "Description": [
+            "The parameters [ chords ] are added to the method __init__ from the module muspy/classes.py in class Track"
+        ],
+        "Commit": "4afb78cc8498f27ca4dd5c38f0ef82c5a162d59f"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "to_note_representation",
+        "Updated": "to_note_representation",
+        "Location": "muspy/music.py/Music",
+        "Original Line": 475,
+        "Updated Line": 475,
+        "Description": [
+            "The parameters [ min_step ] are added to the method to_note_representation from the module muspy/music.py in class Music"
+        ],
+        "Commit": "500fbeca3a5df1a6c7cf82f37e7819610c78b189"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "to_pianoroll_representation",
+        "Updated": "to_pianoroll_representation",
+        "Location": "muspy/music.py/Music",
+        "Original Line": 479,
+        "Updated Line": 479,
+        "Description": [
+            "The parameters [ min_step ] are added to the method to_pianoroll_representation from the module muspy/music.py in class Music"
+        ],
+        "Commit": "500fbeca3a5df1a6c7cf82f37e7819610c78b189"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "duration",
+        "Updated": "end",
+        "Location": "muspy/classes.py/Note",
+        "Original Line": 261,
+        "Updated Line": 262,
+        "Description": [
+            "The method duration from the module muspy/classes.py in class Note is renamed to end"
+        ],
+        "Commit": "51a0199a3470c1a54ab936f643c1ec6b66750e54"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "duration",
+        "Updated": "end",
+        "Location": "muspy/classes.py/Chord",
+        "Original Line": 354,
+        "Updated Line": 365,
+        "Description": [
+            "The method duration from the module muspy/classes.py in class Chord is renamed to end"
+        ],
+        "Commit": "51a0199a3470c1a54ab936f643c1ec6b66750e54"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_to_music21",
+        "Updated": "test_music21",
+        "Location": "tests/test_musisc21.py",
+        "Original Line": 16,
+        "Updated Line": 16,
+        "Description": [
+            "The method test_to_music21 from the module tests/test_musisc21.py is renamed to test_music21"
+        ],
+        "Commit": "5352bd2360612fbf24dbb5115d07d011ca37fd98"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "muspy/classes.py/SongInfo",
+        "Original Line": 53,
+        "Updated Line": 53,
+        "Description": [
+            "The parameters [ composers ] of the method __init__ from the module muspy/classes.py in class SongInfo are changed/renamed to [creators]"
+        ],
+        "Commit": "541e4b1e65ec41fad7b0fe619841ada77f67eafc"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "muspy/classes.py/Metadata",
+        "Original Line": 77,
+        "Updated Line": 73,
+        "Description": [
+            "The parameters [ artist ] of the method __init__ from the module muspy/classes.py in class Metadata is/are removed"
+        ],
+        "Commit": "5fe2d6a6deb64194563dab573966a4cea4d8ee33"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "clip",
+        "Updated": "clip",
+        "Location": "muspy/core.py",
+        "Original Line": 147,
+        "Updated Line": 151,
+        "Description": [
+            "The return type of method clip from the module muspy/core.py is updated"
+        ],
+        "Commit": "62ac8d3f6c407edec68adc89b9cfbb907ab879e9"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "transpose",
+        "Updated": "transpose",
+        "Location": "muspy/core.py",
+        "Original Line": 255,
+        "Updated Line": 257,
+        "Description": [
+            "The return type of method transpose from the module muspy/core.py is updated"
+        ],
+        "Commit": "62ac8d3f6c407edec68adc89b9cfbb907ab879e9"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "muspy/processors.py/NoteRepresentationProcessor",
+        "Original Line": 62,
+        "Updated Line": 67,
+        "Description": [
+            "The parameters [ dtype ] are added to the method __init__ from the module muspy/processors.py in class NoteRepresentationProcessor"
+        ],
+        "Commit": "6d8061ce10d1aaa31b300f3776e3ef44c5916208"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "muspy/processors.py/EventRepresentationProcessor",
+        "Original Line": 159,
+        "Updated Line": 169,
+        "Description": [
+            "The parameters [ encode_velocity ] are added to the method __init__ from the module muspy/processors.py in class EventRepresentationProcessor"
+        ],
+        "Commit": "6d8061ce10d1aaa31b300f3776e3ef44c5916208"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "write_midi",
+        "Updated": "write_midi",
+        "Location": "muspy/io/midi.py",
+        "Original Line": 38,
+        "Updated Line": 66,
+        "Description": [
+            "The parameters [ filename ] of the method write_midi from the module muspy/io/midi.py are changed/renamed to [path]"
+        ],
+        "Commit": "7331c4e104fa5f8221615ec3a1fab6a7c6a1f7bd"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "write_musicxml",
+        "Updated": "write_musicxml",
+        "Location": "muspy/io/musicxml.py",
+        "Original Line": 18,
+        "Updated Line": 22,
+        "Description": [
+            "The parameters [ filename ] of the method write_musicxml from the module muspy/io/musicxml.py are changed/renamed to [path]"
+        ],
+        "Commit": "7331c4e104fa5f8221615ec3a1fab6a7c6a1f7bd"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "on_the_fly",
+        "Updated": "get_raw_filenames",
+        "Location": "muspy/datasets/base.py/FolderDataset",
+        "Original Method Line": "(945,959)",
+        "Extracted/Inlined Method Line": 947,
+        "Extracted/Inlined Lines": [
+            954.0
+        ],
+        "Description": " The method get_raw_filenames from the module muspy/datasets/base.py in class FolderDataset is extracted from method on_the_fly from the module muspy/datasets/base.py in class FolderDataset ",
+        "Commit": "7d5a05e7bd4f616c2fc4b976c9f76e7b93626997"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_convert",
+        "Updated": "test_convert",
+        "Location": "tests/test_datasets.py",
+        "Original Line": 70,
+        "Updated Line": 86,
+        "Description": [
+            "The parameters [ tmp_path ] are added to the method test_convert from the module tests/test_datasets.py"
+        ],
+        "Commit": "97e16dae4c32105e67db30985cf79a872c072b67"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_split",
+        "Updated": "test_split",
+        "Location": "tests/test_datasets.py",
+        "Original Line": 79,
+        "Updated Line": 94,
+        "Description": [
+            "The parameters [ tmp_path ] are added to the method test_split from the module tests/test_datasets.py"
+        ],
+        "Commit": "97e16dae4c32105e67db30985cf79a872c072b67"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "parse_midi",
+        "Updated": "read_midi",
+        "Location": "muspy/io/midi.py",
+        "Original Line": 5,
+        "Updated Line": 16,
+        "Description": [
+            "The method parse_midi from the module muspy/io/midi.py is renamed to read_midi"
+        ],
+        "Commit": "9c6de898e5cf76468d4bf77dea597af91c7c2e02"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "parse_midi",
+        "Updated": "to_pretty_midi",
+        "Location": "muspy/io/midi.py",
+        "Original Method Line": "(5,38)",
+        "Extracted/Inlined Method Line": 30,
+        "Extracted/Inlined Lines": [
+            16.0
+        ],
+        "Description": " The method to_pretty_midi from the module muspy/io/midi.py is extracted from method parse_midi from the module muspy/io/midi.py ",
+        "Commit": "9c6de898e5cf76468d4bf77dea597af91c7c2e02"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "parse_musicxml",
+        "Updated": "read_musicxml",
+        "Location": "muspy/io/musicxml.py",
+        "Original Line": 4,
+        "Updated Line": 4,
+        "Description": [
+            "The method parse_musicxml from the module muspy/io/musicxml.py is renamed to read_musicxml"
+        ],
+        "Commit": "9c6de898e5cf76468d4bf77dea597af91c7c2e02"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "muspy/classes.py/Chord",
+        "Original Line": 459,
+        "Updated Line": 444,
+        "Description": [
+            "The parameters [ velocity ] are added to the method __init__ from the module muspy/classes.py in class Chord"
+        ],
+        "Commit": "ae735f8a326a12443a14851aebb60e14177fa7c8"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "clip",
+        "Updated": "clip",
+        "Location": "muspy/core.py",
+        "Original Line": 89,
+        "Updated Line": 108,
+        "Description": [
+            "The return type of method clip from the module muspy/core.py is updated"
+        ],
+        "Commit": "ae9033c2d1d901eb57091ff72f5de7de422455b7"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "remove_duplicate_changes",
+        "Updated": "remove_duplicate",
+        "Location": "muspy/core.py",
+        "Original Line": 140,
+        "Updated Line": 142,
+        "Description": [
+            "The method remove_duplicate_changes from the module muspy/core.py is renamed to remove_duplicate"
+        ],
+        "Commit": "ae9033c2d1d901eb57091ff72f5de7de422455b7"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "to_ordered_dict",
+        "Updated": "to_ordered_dict",
+        "Location": "muspy/core.py",
+        "Original Line": 108,
+        "Updated Line": 172,
+        "Description": [
+            "The parameters [ ignore_null ] are added to the method to_ordered_dict from the module muspy/core.py"
+        ],
+        "Commit": "ae9033c2d1d901eb57091ff72f5de7de422455b7"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "transpose",
+        "Updated": "transpose",
+        "Location": "muspy/core.py",
+        "Original Line": 170,
+        "Updated Line": 189,
+        "Description": [
+            "The return type of method transpose from the module muspy/core.py is updated"
+        ],
+        "Commit": "ae9033c2d1d901eb57091ff72f5de7de422455b7"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "muspy/classes.py/Tempo",
+        "Original Line": 119,
+        "Updated Line": 119,
+        "Description": [
+            "The parameters [ tempo ] of the method __init__ from the module muspy/classes.py in class Tempo are changed/renamed to [qpm]"
+        ],
+        "Commit": "af36ed2c0fcd6d266092d190143574b813fefcce"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "muspy/classes.py/MetaData",
+        "Original Line": 106,
+        "Updated Line": 140,
+        "Description": [
+            "The parameters [ song source ] of the method __init__ from the module muspy/classes.py in class MetaData are changed/renamed to [song_info source_info]"
+        ],
+        "Commit": "b7508ef2629578e712e2c96d54e6a016da3dc933"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "music_to_event_representation",
+        "Updated": "to_event_representation",
+        "Location": "muspy/representations/event.py",
+        "Original Line": 4,
+        "Updated Line": 4,
+        "Description": [
+            "The method music_to_event_representation from the module muspy/representations/event.py is renamed to to_event_representation"
+        ],
+        "Commit": "b82f2fbfc5d47504d73a6f4b13fcba3dd790e995"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "music_to_note_representation",
+        "Updated": "to_note_representation",
+        "Location": "muspy/representations/note.py",
+        "Original Line": 4,
+        "Updated Line": 4,
+        "Description": [
+            "The method music_to_note_representation from the module muspy/representations/note.py is renamed to to_note_representation"
+        ],
+        "Commit": "b82f2fbfc5d47504d73a6f4b13fcba3dd790e995"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "music_to_pianoroll_representation",
+        "Updated": "to_pianoroll_representation",
+        "Location": "muspy/representations/pianoroll.py",
+        "Original Line": 4,
+        "Updated Line": 4,
+        "Description": [
+            "The method music_to_pianoroll_representation from the module muspy/representations/pianoroll.py is renamed to to_pianoroll_representation"
+        ],
+        "Commit": "b82f2fbfc5d47504d73a6f4b13fcba3dd790e995"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_load_json",
+        "Updated": "test_load_json_path",
+        "Location": "tests/test_io.py",
+        "Original Line": 11,
+        "Updated Line": 11,
+        "Description": [
+            "The method test_load_json from the module tests/test_io.py is renamed to test_load_json_path"
+        ],
+        "Commit": "bcf7a399e8e44556d8fb8b74c73bfbcea2662871"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_load_yaml",
+        "Updated": "test_load_yaml_path",
+        "Location": "tests/test_io.py",
+        "Original Line": 16,
+        "Updated Line": 22,
+        "Description": [
+            "The method test_load_yaml from the module tests/test_io.py is renamed to test_load_yaml_path"
+        ],
+        "Commit": "bcf7a399e8e44556d8fb8b74c73bfbcea2662871"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "parse_pypianoroll_track",
+        "Updated": "from_pypianoroll_track",
+        "Location": "muspy/inputs/pianoroll.py",
+        "Original Line": 39,
+        "Updated Line": 39,
+        "Description": [
+            "The method parse_pypianoroll_track from the module muspy/inputs/pianoroll.py is renamed to from_pypianoroll_track"
+        ],
+        "Commit": "c23dcabfd3ee4d6acfc2fcaff7ad3e7f744661fb"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "TimingInfo",
+        "Updated": "Timing",
+        "Location": "muspy/classes.py",
+        "Description": " class TimingInfo was renamed to class Timing ",
+        "Commit": "c3d3be6e4cf1b68ec0a2292efb86b9b21ace02d3"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "download_bravura_font",
+        "Updated": "download_bravura_font",
+        "Location": "muspy/external.py",
+        "Original Line": 39,
+        "Updated Line": 39,
+        "Description": [
+            "The parameters [ overwrite ] are added to the method download_bravura_font from the module muspy/external.py"
+        ],
+        "Commit": "d59442641e0ff694fe1c33770bb75ad9e4f467c5"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "download_musescore_soundfont",
+        "Updated": "download_musescore_soundfont",
+        "Location": "muspy/external.py",
+        "Original Line": 71,
+        "Updated Line": 82,
+        "Description": [
+            "The parameters [ overwrite ] are added to the method download_musescore_soundfont from the module muspy/external.py"
+        ],
+        "Commit": "d59442641e0ff694fe1c33770bb75ad9e4f467c5"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "muspy/classes.py/Annotation",
+        "Original Line": 442,
+        "Updated Line": 433,
+        "Description": [
+            "The parameters [ group ] are added to the method __init__ from the module muspy/classes.py in class Annotation"
+        ],
+        "Commit": "da0c956cccf401f273c26a92957a31a84b263b45"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "muspy/classes.py/MetaData",
+        "Original Line": 74,
+        "Updated Line": 106,
+        "Description": [
+            "The parameters [ song_info source_info ] of the method __init__ from the module muspy/classes.py in class MetaData are changed/renamed to [song source]"
+        ],
+        "Commit": "dc5b98a4e895a3a811f8f9523c414c46cfdc59db"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "muspy/classes.py/Track",
+        "Original Line": 288,
+        "Updated Line": 312,
+        "Description": [
+            "The parameters [ lyrics ] are added to the method __init__ from the module muspy/classes.py in class Track"
+        ],
+        "Commit": "dc5b98a4e895a3a811f8f9523c414c46cfdc59db"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "muspy/classes.py/SourceInfo",
+        "Original Line": 86,
+        "Updated Line": 95,
+        "Description": [
+            "The parameters [ id ] of the method __init__ from the module muspy/classes.py in class SourceInfo are changed/renamed to [copyright]"
+        ],
+        "Commit": "e30b5b89907c83958d466690c7be339950e85000"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "to_ordered_dict",
+        "Updated": "to_ordered_dict",
+        "Location": "muspy/core.py",
+        "Original Line": 204,
+        "Updated Line": 232,
+        "Description": [
+            "The parameters [ copy ] of the method to_ordered_dict from the module muspy/core.py are changed/renamed to [deepcopy]"
+        ],
+        "Commit": "e351c986e5c1d4d37d0a35d5dad392cb5facc305"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "print",
+        "Updated": "print",
+        "Location": "muspy/base.py/Base",
+        "Original Line": 227,
+        "Updated Line": 227,
+        "Description": [
+            "The parameters [ skip_none ] are added to the method print from the module muspy/base.py in class Base"
+        ],
+        "Commit": "e948db2785290a92c108b371cbcf1e285102a1db"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "to",
+        "Updated": "to_representation",
+        "Location": "muspy/music.py/Music",
+        "Original Method Line": "(238,332)",
+        "Extracted/Inlined Method Line": 357,
+        "Extracted/Inlined Lines": [
+            239.0
+        ],
+        "Description": " The method to_representation from the module muspy/music.py in class Music is extracted from method to from the module muspy/music.py in class Music ",
+        "Commit": "ef16ff8780ae591f09a0d4b49b4ad13087f8f2a7"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "muspy/classes.py/Timing",
+        "Original Line": 184,
+        "Updated Line": 184,
+        "Description": [
+            "The parameters [ is_symbolic ] of the method __init__ from the module muspy/classes.py in class Timing are changed/renamed to [is_metrical]"
+        ],
+        "Commit": "f7c1405d78765055c0cf31cbfd6190a70abcec3d"
+    }
+]

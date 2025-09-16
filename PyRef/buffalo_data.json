@@ -1,0 +1,46 @@
+[
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test04_most_similar",
+        "Updated": "test04_text8_most_similar",
+        "Location": "tests/parallel/test_algo.py/TestAlgo",
+        "Original Line": 129,
+        "Updated Line": 129,
+        "Description": [
+            "The method test04_most_similar from the module tests/parallel/test_algo.py in class TestAlgo is renamed to test04_text8_most_similar"
+        ],
+        "Commit": "213505dc83dd15452ae7cf8f6de72ec7e8c3fb06"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "TestMatrixMarketNumpy",
+        "Updated": "TestMatrixMarketReader",
+        "Location": "tests/data/test_mm.py",
+        "Description": " class TestMatrixMarketNumpy was renamed to class TestMatrixMarketReader ",
+        "Commit": "42f47fd3e8f79b3f501447c747a53ae6666dd28a"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "TensorboardExtention",
+        "Updated": "TensorboardExtension",
+        "Location": "buffalo/algo/base.py",
+        "Description": " class TensorboardExtention was renamed to class TensorboardExtension ",
+        "Commit": "58b9d7df896e9fb78458e130444f46144b78e928"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test7_train_ml20m",
+        "Updated": "test7_train_ml_20m",
+        "Location": "tests/algo/test_cfr.py/TestCFR",
+        "Original Line": 113,
+        "Updated Line": 113,
+        "Description": [
+            "The method test7_train_ml20m from the module tests/algo/test_cfr.py in class TestCFR is renamed to test7_train_ml_20m"
+        ],
+        "Commit": "c5cf642d7385874cf90211d2eb7a218fc1932fea"
+    }
+]

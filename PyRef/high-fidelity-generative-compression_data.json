@@ -1,0 +1,248 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "decompress_forward",
+        "Updated": "decompress_forward",
+        "Location": "src/network/hyperprior.py/Hyperprior",
+        "Original Line": 237,
+        "Updated Line": 238,
+        "Description": [
+            "The parameters [ device ] are added to the method decompress_forward from the module src/network/hyperprior.py in class Hyperprior"
+        ],
+        "Commit": "078e83d6b70f494c824988b65e546da4e37223be"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "prepare_compress",
+        "Updated": "prepare_compress",
+        "Location": "compress.py",
+        "Original Line": 35,
+        "Updated Line": 35,
+        "Description": [
+            "The parameters [ model_path ] of the method prepare_compress from the module compress.py are changed/renamed to [ckpt_path]"
+        ],
+        "Commit": "0e6c3e3b8755ba1b1078fd15b020166eb8105202"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "perceptual_loss",
+        "Updated": "perceptual_loss_wrapper",
+        "Location": "model.py/HificModel",
+        "Original Line": 151,
+        "Updated Line": 152,
+        "Description": [
+            "The method perceptual_loss from the module model.py in class HificModel is renamed to perceptual_loss_wrapper"
+        ],
+        "Commit": "28ffef0e089cf957794e6d1f5614c03170cca36f"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "unpack_likelihood_params",
+        "Updated": "unpack_likelihood_params",
+        "Location": "src/network/hyper.py",
+        "Original Line": 19,
+        "Updated Line": 18,
+        "Description": [
+            "The parameters [ log_scales_min ] are added to the method unpack_likelihood_params from the module src/network/hyper.py"
+        ],
+        "Commit": "2deba527f2aed1e7662ae076d0e2754a5978bd6c"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "prepare_dataloader",
+        "Updated": "prepare_dataloader",
+        "Location": "compress.py",
+        "Original Line": 35,
+        "Updated Line": 35,
+        "Description": [
+            "The parameters [ args ] are added to the method prepare_dataloader from the module compress.py"
+        ],
+        "Commit": "3a5cb4410e6d8b7d50a1815ba720cc53a93b58e1"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "standardized_CDF",
+        "Updated": "standardized_CDF_gaussian",
+        "Location": "hific/submodels/hyperprior.py/PriorDensity",
+        "Original Line": 94,
+        "Updated Line": 94,
+        "Description": [
+            "The method standardized_CDF from the module hific/submodels/hyperprior.py in class PriorDensity is renamed to standardized_CDF_gaussian"
+        ],
+        "Commit": "4049cacf95ebeab1c665c71433e5d3bed4ff6c7e"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "MLPEncoder",
+        "Updated": "Encoder",
+        "Location": "models/network.py",
+        "Description": " class MLPEncoder was renamed to class Encoder ",
+        "Commit": "4140ca7bc254d292f69dfd365b62a9bbcad10b56"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "hific_encoder",
+        "Updated": "Discriminator",
+        "Location": "models/network.py",
+        "Description": " class hific_encoder was renamed to class Discriminator ",
+        "Commit": "4140ca7bc254d292f69dfd365b62a9bbcad10b56"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "_estimate_entropy",
+        "Updated": "_estimate_entropy",
+        "Location": "hific/submodels/hyperprior.py/CodingModel",
+        "Original Line": 53,
+        "Updated Line": 60,
+        "Description": [
+            "The parameters [ x ] of the method _estimate_entropy from the module hific/submodels/hyperprior.py in class CodingModel is/are removed"
+        ],
+        "Commit": "491cec88c4ff5954fc956587b336f329fc49a40a"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "quantize_latents",
+        "Updated": "quantize_latents_st",
+        "Location": "hific/submodels/hyperprior.py/Hyperprior",
+        "Original Line": 265,
+        "Updated Line": 272,
+        "Description": [
+            "The method quantize_latents from the module hific/submodels/hyperprior.py in class Hyperprior is renamed to quantize_latents_st"
+        ],
+        "Commit": "491cec88c4ff5954fc956587b336f329fc49a40a"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "get_scheduled_params",
+        "Updated": "get_scheduled_params",
+        "Location": "hific/utils/helpers.py",
+        "Original Line": 57,
+        "Updated Line": 57,
+        "Description": [
+            "The parameters [ ignore_schedule ] are added to the method get_scheduled_params from the module hific/utils/helpers.py"
+        ],
+        "Commit": "491cec88c4ff5954fc956587b336f329fc49a40a"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "weighted_rate_loss",
+        "Updated": "weighted_rate_loss",
+        "Location": "hific/utils/losses.py",
+        "Original Line": 8,
+        "Updated Line": 8,
+        "Description": [
+            "The parameters [ ignore_schedule ] are added to the method weighted_rate_loss from the module hific/utils/losses.py"
+        ],
+        "Commit": "491cec88c4ff5954fc956587b336f329fc49a40a"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "HyperpriorEncoder",
+        "Updated": "HyperpriorAnalysis",
+        "Location": "models/network.py",
+        "Description": " class HyperpriorEncoder was renamed to class HyperpriorAnalysis ",
+        "Commit": "5c4ba61492b09a27724394f7dba9cd12106d5e8d"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "HificModel",
+        "Updated": "Model",
+        "Location": "src/model.py",
+        "Description": " class HificModel was renamed to class Model ",
+        "Commit": "704dc3431d07da30df01babf7e2af5f2191d7872"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "EvalLoader",
+        "Updated": "Evaluation",
+        "Location": "hific/utils/datasets.py",
+        "Description": " class EvalLoader was renamed to class Evaluation ",
+        "Commit": "74cf1ff4a6647577e845ca7e8c48db1476beea81"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "prepare_compress",
+        "Updated": "prepare_model",
+        "Location": "compress.py",
+        "Original Line": 35,
+        "Updated Line": 50,
+        "Description": [
+            "The method prepare_compress from the module compress.py is renamed to prepare_model",
+            "The parameters [ output_dir batch_size ] of the method prepare_compress from the module compress.py is/are removed"
+        ],
+        "Commit": "cc2cf2c270ed7e7ac7c9537ac0211747421b2b25"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "standardized_CDF_gaussian",
+        "Updated": "standardized_CDF_gaussian",
+        "Old Location": "src/network/hyperprior.py/PriorDensity",
+        "New Location": "src/helpers/maths.py",
+        "Old Method Line": 113,
+        "New Method Line": 31,
+        "Description": " method standardized_CDF_gaussian from the module src/network/hyperprior.py in class PriorDensity was moved to module src/helpers/maths.py ",
+        "Commit": "d0dfed997d9ed1d3beb19f22c5f63e86ab3aa8cb"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "standardized_CDF_logistic",
+        "Updated": "standardized_CDF_logistic",
+        "Old Location": "src/network/hyperprior.py/PriorDensity",
+        "New Location": "src/helpers/maths.py",
+        "Old Method Line": 118,
+        "New Method Line": 36,
+        "Description": " method standardized_CDF_logistic from the module src/network/hyperprior.py in class PriorDensity was moved to module src/helpers/maths.py ",
+        "Commit": "d0dfed997d9ed1d3beb19f22c5f63e86ab3aa8cb"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "perceptual_loss_wrapper",
+        "Updated": "perceptual_loss_wrapper",
+        "Location": "hific/model.py/HificModel",
+        "Original Line": 173,
+        "Updated Line": 178,
+        "Description": [
+            "The parameters [ normalize ] are added to the method perceptual_loss_wrapper from the module hific/model.py in class HificModel"
+        ],
+        "Commit": "e0dac4d4af731a62a52b0520353e646a9477b814"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_transforms",
+        "Updated": "_transforms",
+        "Location": "hific/utils/datasets.py/OpenImages",
+        "Original Line": 146,
+        "Updated Line": 146,
+        "Description": [
+            "The parameters [ H W ] are added to the method _transforms from the module hific/utils/datasets.py in class OpenImages"
+        ],
+        "Commit": "ea6ed4c5b9a7e1a785dc91d919ea1f50db7f30a7"
+    }
+]

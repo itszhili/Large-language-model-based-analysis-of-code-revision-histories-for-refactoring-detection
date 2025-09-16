@@ -1,0 +1,30 @@
+[
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "setup_layers",
+        "Updated": "setup_weights",
+        "Location": "src/layers.py/AttentionModule",
+        "Original Line": 11,
+        "Updated Line": 11,
+        "Description": [
+            "The method setup_layers from the module src/layers.py in class AttentionModule is renamed to setup_weights"
+        ],
+        "Commit": "505055acd44ba43e0f72a1cb0b93e4c357ed383e"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "setup_layers",
+        "Updated": "setup_weights",
+        "Location": "src/layers.py/TenorNetworkModule",
+        "Original Line": 32,
+        "Updated Line": 32,
+        "Description": [
+            "The method setup_layers from the module src/layers.py in class TenorNetworkModule is renamed to setup_weights"
+        ],
+        "Commit": "505055acd44ba43e0f72a1cb0b93e4c357ed383e"
+    }
+]

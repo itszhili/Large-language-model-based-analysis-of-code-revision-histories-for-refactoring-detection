@@ -1,0 +1,65 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "genome_handler.py/GenomeHandler",
+        "Original Line": 22,
+        "Updated Line": 23,
+        "Description": [
+            "The parameters [ n_classes ] are added to the method __init__ from the module genome_handler.py in class GenomeHandler"
+        ],
+        "Commit": "139f58d10a5045f304af6eab56405de104a0178a"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "GenomeDecoder",
+        "Updated": "Genome",
+        "Location": "evolution.py",
+        "Description": " class GenomeDecoder was renamed to class Genome ",
+        "Commit": "7b1cf87ee065b65c6168b5ef48fb132d986459e5"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "evolution.py/Evolutions",
+        "Original Line": 11,
+        "Updated Line": 13,
+        "Description": [
+            "The parameters [ self ] are added to the method __init__ from the module evolution.py in class Evolutions"
+        ],
+        "Commit": "9a4fa2030485790dbf908eddef81b0459d1196fd"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "mutate",
+        "Updated": "convParam",
+        "Location": "genome_handler.py/GenomeHandler",
+        "Original Method Line": "(72,79)",
+        "Extracted/Inlined Method Line": 71,
+        "Extracted/Inlined Lines": [
+            79.0,
+            89.0
+        ],
+        "Description": " The method convParam from the module genome_handler.py in class GenomeHandler is extracted from method mutate from the module genome_handler.py in class GenomeHandler ",
+        "Commit": "b0bd846bb84f3e4e810fe035753777cac07ee6b7"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "mutate",
+        "Updated": "denseParam",
+        "Location": "genome_handler.py/GenomeHandler",
+        "Original Method Line": "(72,79)",
+        "Extracted/Inlined Method Line": 75,
+        "Extracted/Inlined Lines": [
+            89.0
+        ],
+        "Description": " The method denseParam from the module genome_handler.py in class GenomeHandler is extracted from method mutate from the module genome_handler.py in class GenomeHandler ",
+        "Commit": "b0bd846bb84f3e4e810fe035753777cac07ee6b7"
+    }
+]

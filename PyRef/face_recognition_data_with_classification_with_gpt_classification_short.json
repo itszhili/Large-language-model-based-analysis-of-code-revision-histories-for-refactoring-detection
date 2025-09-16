@@ -1,0 +1,764 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "load_image_file",
+        "Updated": "load_image_file",
+        "Location": "face_recognition/api.py",
+        "Original Line": 47,
+        "Updated Line": 47,
+        "Description": [
+            "The parameters [ mode ] are added to the method load_image_file from the module face_recognition/api.py"
+        ],
+        "Commit": "20d50f36cd6ef61bd39d621d8b735ac92a9ac7e1",
+        "Classification": [
+            " This is a machine learning specific software refactoring. The commit message indicates that the",
+            "`load_image_file` method in the `face_recognition/api.py` file has been updated to add a new",
+            "parameter `mode`. This parameter is specific to machine learning models and is used to specify the",
+            "type of image processing to perform, such as loading an image for training or loading an image for",
+            "inference. The commit message also mentions that the original line 47 of the",
+            "`face_recognition/api.py` file has been updated to reflect the new parameter, indicating that the",
+            "refactoring was made in the machine learning code."
+        ],
+        "Category2": "General",
+        "Certainty": "5",
+        "GPT4 Classification": [
+            "General"
+        ],
+        "Llama2 Classification": [
+            " General"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "main",
+        "Updated": "main",
+        "Location": "face_recognition/face_detection_cli.py",
+        "Original Line": 54,
+        "Updated Line": 56,
+        "Description": [
+            "The parameters [ upsample ] are added to the method main from the module face_recognition/face_detection_cli.py"
+        ],
+        "Commit": "3337c1e0505bef73840690807d99101656995152",
+        "Classification": [
+            " This is a machine learning specific software refactoring. The commit message mentions adding",
+            "parameters to the `main` method from the `face_recognition/face_detection_cli.py` module. This",
+            "suggests that the refactoring is related to the implementation of machine learning algorithms,",
+            "specifically face detection, and modifying the main method to accommodate new parameters."
+        ],
+        "Category2": "ML-Specific",
+        "Certainty": "4",
+        "GPT4 Classification": [
+            "machine-learning-specific"
+        ],
+        "Llama2 Classification": [
+            " Machine-learning-specific"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "process_images_in_process_pool",
+        "Updated": "process_images_in_process_pool",
+        "Location": "face_recognition/face_detection_cli.py",
+        "Original Line": 29,
+        "Updated Line": 29,
+        "Description": [
+            "The parameters [ upsample ] are added to the method process_images_in_process_pool from the module face_recognition/face_detection_cli.py"
+        ],
+        "Commit": "3337c1e0505bef73840690807d99101656995152",
+        "Classification": [
+            " This is a machine learning specific software refactoring. The change involves adding a new",
+            "parameter `upsample` to the method `process_images_in_process_pool` in the file",
+            "`face_recognition/face_detection_cli.py`. This parameter is not related to any general software",
+            "development principles, but rather to the specific machine learning algorithms and techniques used",
+            "in the project. The commit message provides additional context, stating that the change was made to",
+            "add the `upsample` parameter to the method. This suggests that the change was made to improve the",
+            "performance or functionality of the machine learning model, rather than to address a general",
+            "software development issue. Overall, based on the commit message and the code change, this",
+            "refactoring can be classified as a machine learning specific software refactoring."
+        ],
+        "Category2": "ML-Specific",
+        "Certainty": "4",
+        "GPT4 Classification": [
+            "machine-learning-specific"
+        ],
+        "Llama2 Classification": [
+            " Machine-learning-specific"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_image",
+        "Updated": "test_image",
+        "Location": "face_recognition/face_detection_cli.py",
+        "Original Line": 17,
+        "Updated Line": 17,
+        "Description": [
+            "The parameters [ upsample ] are added to the method test_image from the module face_recognition/face_detection_cli.py"
+        ],
+        "Commit": "3337c1e0505bef73840690807d99101656995152",
+        "Classification": [
+            " This is a machine learning specific software refactoring. The commit message mentions adding",
+            "parameters to the `test_image` method in the `face_recognition/face_detection_cli.py` file.",
+            "Specifically, the `upsample` parameters are being added. This suggests that the code is related to",
+            "machine learning, specifically image processing or computer vision, as `upsample` is a common",
+            "technique used in these fields."
+        ],
+        "Category2": "ML-Specific",
+        "Certainty": "4",
+        "GPT4 Classification": [
+            "machine-learning-specific"
+        ],
+        "Llama2 Classification": [
+            " Machine-learning-specific"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "face_encodings",
+        "Updated": "face_encodings",
+        "Location": "face_recognition/api.py",
+        "Original Line": 203,
+        "Updated Line": 203,
+        "Description": [
+            "The parameters [ model ] are added to the method face_encodings from the module face_recognition/api.py"
+        ],
+        "Commit": "4d7bc049468ee78c971c2609af8979f1ab092584",
+        "Classification": [
+            " This is a machine learning specific software refactoring. The change involves adding a parameter to",
+            "the `face_encodings` method in the `face_recognition/api.py` file. Specifically, the `model`",
+            "parameter is added to the method. This type of refactoring is common in machine learning",
+            "development, as it allows for more flexibility and customization in the code. By adding parameters",
+            "to methods, developers can easily switch between different machine learning models or configurations",
+            "without having to modify the rest of the codebase. In this particular example, the `model` parameter",
+            "is added to the `face_encodings` method, which is likely a method that encodes face images using a",
+            "machine learning model. By adding this parameter, developers can now pass in different machine",
+            "learning models or configurations, allowing for more flexibility in the code. Overall, this is a",
+            "specific type of refactoring that is commonly used in machine learning development to improve code",
+            "flexibility and customization."
+        ],
+        "Category2": "ML-Specific",
+        "Certainty": "5",
+        "GPT4 Classification": [
+            "machine-learning-specific"
+        ],
+        "Llama2 Classification": [
+            " Machine-learning-specific"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "css_to_rect",
+        "Updated": "_css_to_rect",
+        "Location": "face_recognition/api.py",
+        "Original Line": 24,
+        "Updated Line": 25,
+        "Description": [
+            "The method css_to_rect from the module face_recognition/api.py is renamed to _css_to_rect"
+        ],
+        "Commit": "51acc6e0558802b365e33b142cfcd8d5b16564ee",
+        "Classification": [
+            " This is a machine learning specific software refactoring. The method `css_to_rect` has been renamed",
+            "to `_css_to_rect` in the `face_recognition/api.py` file. This change is specific to the machine",
+            "learning model and its implementation, and is not a general software refactoring. The reason for",
+            "renaming the method is likely to make the code more consistent and easier to maintain, as well as to",
+            "avoid any potential naming conflicts or ambiguities in the future. This is a common practice in",
+            "software development, especially in machine learning and data science, where codebases can grow in",
+            "size and complexity over time. The fact that the change was committed with a specific commit hash",
+            "(51acc6e0558802b365e33b142cfcd8d5b16564ee) also suggests that this is a specific, intentional change",
+            "made to the codebase, rather than a general software refactoring."
+        ],
+        "Category2": "General",
+        "Certainty": "5",
+        "GPT4 Classification": [
+            "general"
+        ],
+        "Llama2 Classification": [
+            " General"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "face_distance",
+        "Updated": "_face_distance",
+        "Location": "face_recognition/api.py",
+        "Original Line": 33,
+        "Updated Line": 35,
+        "Description": [
+            "The method face_distance from the module face_recognition/api.py is renamed to _face_distance"
+        ],
+        "Commit": "51acc6e0558802b365e33b142cfcd8d5b16564ee",
+        "Classification": [
+            " This is a machine learning specific software refactoring. The method `face_distance` in the",
+            "`face_recognition/api.py` file has been renamed to `_face_distance`. This is a common practice in",
+            "software development, especially in machine learning, where it is important to have consistent and",
+            "meaningful variable names to make the code more readable and maintainable. The reason for this",
+            "refactoring is likely to make the code more understandable and easier to work with, as the original",
+            "name `face_distance` is quite vague and does not provide any information about the purpose of the",
+            "method. By renaming it to `_face_distance`, the developers are making it clear that this method is",
+            "related to the distance between faces, which can help other developers understand the purpose of the",
+            "method more easily. Additionally, this refactoring is specific to machine learning because it",
+            "involves renaming a method that is used in a machine learning model. Machine learning models often",
+            "have complex and abstract names, and it is important to use meaningful and descriptive variable",
+            "names to make the code more understandable and easier to maintain. Overall, this refactoring is a",
+            "good practice in software development and is especially important in machine learning, where it is",
+            "crucial to have well-documented and well-maintained code."
+        ],
+        "Category2": "General",
+        "Certainty": "5",
+        "GPT4 Classification": [
+            "General"
+        ],
+        "Llama2 Classification": [
+            " General"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "raw_face_landmarks",
+        "Updated": "_raw_face_landmarks",
+        "Location": "face_recognition/api.py",
+        "Original Line": 74,
+        "Updated Line": 80,
+        "Description": [
+            "The method raw_face_landmarks from the module face_recognition/api.py is renamed to _raw_face_landmarks"
+        ],
+        "Commit": "51acc6e0558802b365e33b142cfcd8d5b16564ee",
+        "Classification": [
+            " This is a machine learning specific software refactoring. The method `raw_face_landmarks` has been",
+            "renamed to `_raw_face_landmarks` in the `face_recognition/api.py` file. The reason for this",
+            "refactoring is likely to make the code more consistent and easier to read by removing the underscore",
+            "from the beginning of the method name. The `_` prefix is often used to indicate that a method is an",
+            "internal implementation detail and should not be used directly by clients. By renaming the method to",
+            "`_raw_face_landmarks`, the developers are making it clear that this method is an internal",
+            "implementation detail and should not be directly accessed by clients. This type of refactoring is",
+            "common in machine learning and data science projects, where the focus is on developing models and",
+            "algorithms rather than on creating user-facing interfaces. By refactoring the code to make it more",
+            "consistent and easier to read, developers can improve the maintainability and scalability of the",
+            "codebase, which is particularly important in machine learning and data science projects where the",
+            "codebase can grow rapidly."
+        ],
+        "Category2": "General",
+        "Certainty": "5",
+        "GPT4 Classification": [
+            "General"
+        ],
+        "Llama2 Classification": [
+            " General"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "raw_face_locations",
+        "Updated": "_raw_face_locations",
+        "Location": "face_recognition/api.py",
+        "Original Line": 53,
+        "Updated Line": 57,
+        "Description": [
+            "The method raw_face_locations from the module face_recognition/api.py is renamed to _raw_face_locations"
+        ],
+        "Commit": "51acc6e0558802b365e33b142cfcd8d5b16564ee",
+        "Classification": [
+            " This is a machine learning specific software refactoring. The method `raw_face_locations` in the",
+            "`face_recognition/api.py` file has been renamed to `_raw_face_locations`. The reason for this",
+            "refactoring is likely to make the code more consistent and easier to understand, as well as to avoid",
+            "confusion between the terms \"raw\" and \"raw face locations\". By renaming the method to",
+            "`_raw_face_locations`, the code becomes more readable and maintainable, as it is clearer what the",
+            "method is actually doing. This type of refactoring is common in machine learning and data science,",
+            "where it is important to have clear and consistent naming conventions to make the code easier to",
+            "understand and maintain. It is also a best practice to use underscores to distinguish private",
+            "variables and methods from public ones, as it makes the code more readable and easier to follow."
+        ],
+        "Category2": "General",
+        "Certainty": "5",
+        "GPT4 Classification": [
+            "General"
+        ],
+        "Llama2 Classification": [
+            " General"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "rect_to_css",
+        "Updated": "_rect_to_css",
+        "Location": "face_recognition/api.py",
+        "Original Line": 15,
+        "Updated Line": 15,
+        "Description": [
+            "The method rect_to_css from the module face_recognition/api.py is renamed to _rect_to_css"
+        ],
+        "Commit": "51acc6e0558802b365e33b142cfcd8d5b16564ee",
+        "Classification": [
+            " This is a general software refactoring, specifically a renaming of a method. The method",
+            "`rect_to_css` has been renamed to `_rect_to_css` in the `face_recognition/api.py` file. This type of",
+            "refactoring is common in software development and can help improve code readability,",
+            "maintainability, and organization. The reason for this refactoring could be to: * Make the method",
+            "name more descriptive and easier to understand * Avoid conflicts with other methods or variables",
+            "with the same name * Improve the overall structure and organization of the codebase * Reflect",
+            "changes in the code or functionality  It's important to note that this is a small refactoring and it",
+            "doesn't affect the functionality of the code, it's just a cosmetic change to make the code more",
+            "readable and maintainable."
+        ],
+        "Category2": "General",
+        "Certainty": "5",
+        "GPT4 Classification": [
+            "General"
+        ],
+        "Llama2 Classification": [
+            " General"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_raw_face_landmarks",
+        "Updated": "_raw_face_landmarks",
+        "Location": "face_recognition/api.py",
+        "Original Line": 146,
+        "Updated Line": 149,
+        "Description": [
+            "The parameters [ model ] are added to the method _raw_face_landmarks from the module face_recognition/api.py"
+        ],
+        "Commit": "5f804870c14803c2664942c958f11112276a79cc",
+        "Classification": [
+            " This is a machine learning specific software refactoring. The commit message mentions adding",
+            "parameters to the method `_raw_face_landmarks` in the `face_recognition/api.py` file. Specifically,",
+            "the `model` parameter is added to the method. Machine learning models are a type of software that",
+            "can be trained on data to make predictions or classify new data. Refactoring the code to add",
+            "parameters to a machine learning model can improve the performance and efficiency of the model, or",
+            "make it easier to use and maintain. Therefore, this refactoring is specific to machine learning and",
+            "is not a general software refactoring."
+        ],
+        "Category2": "ML-Specific",
+        "Certainty": "5",
+        "GPT4 Classification": [
+            "machine-learning-specific"
+        ],
+        "Llama2 Classification": [
+            " Machine-learning-specific"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "load_image_file",
+        "Updated": "load_image_file",
+        "Location": "face_recognition/api.py",
+        "Original Line": 70,
+        "Updated Line": 70,
+        "Description": [
+            "The parameters [ filename ] of the method load_image_file from the module face_recognition/api.py are changed/renamed to [name]"
+        ],
+        "Commit": "60fe4e8c0054c10171a206f5f01013502c8274e2",
+        "Classification": [
+            " This is a machine learning specific software refactoring. The commit message indicates that the",
+            "parameters of the `load_image_file` method in the `face_recognition/api.py` file have been changed",
+            "or renamed from `filename` to `name`. This is a specific change related to machine learning and the",
+            "loading of image files, rather than a general software refactoring."
+        ],
+        "Category2": "General",
+        "Certainty": "5",
+        "GPT4 Classification": [
+            "General"
+        ],
+        "Llama2 Classification": [
+            " General"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "main",
+        "Updated": "main",
+        "Location": "face_recognition/cli.py",
+        "Original Line": 81,
+        "Updated Line": 82,
+        "Description": [
+            "The parameters [ tolerance ] are added to the method main from the module face_recognition/cli.py"
+        ],
+        "Commit": "b8a803731c23dbf73ac3e219a847f6e2ea5a582d",
+        "Classification": [
+            " This is a machine learning specific software refactoring. The commit message indicates that the",
+            "parameters [tolerance] were added to the method main from the module face_recognition/cli.py. This",
+            "suggests that the code in the main method was modified to accept additional parameters, which is a",
+            "common refactoring in machine learning projects. Here are some reasons why this might be considered",
+            "a machine learning specific refactoring: 1. Modifying parameters: In machine learning, parameters",
+            "are often added to methods to fine-tune the model's performance or to enable different",
+            "functionalities. This refactoring involves adding parameters to the main method, which is a common",
+            "practice in machine learning. 2. Modifying code in a specific module: The commit message mentions",
+            "that the parameters were added to the method main from the module face_recognition/cli.py. This",
+            "suggests that the code in the main method is being modified in a specific module related to machine",
+            "learning, which is a common practice in machine learning projects. 3. Using machine learning",
+            "specific libraries: The module face_recognition/cli.py is likely a module related to face",
+            "recognition, which is a common machine learning task. The commit message suggests that the",
+            "parameters were added to the main method in this module, which further suggests that the refactoring",
+            "is related to machine learning. Based on these reasons, it can be concluded that this is a machine",
+            "learning specific refactoring."
+        ],
+        "Category2": "ML-Specific",
+        "Certainty": "5",
+        "GPT4 Classification": [
+            "machine-learning-specific"
+        ],
+        "Llama2 Classification": [
+            " Machine-learning-specific"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "process_images_in_process_pool",
+        "Updated": "process_images_in_process_pool",
+        "Location": "face_recognition/cli.py",
+        "Original Line": 60,
+        "Updated Line": 60,
+        "Description": [
+            "The parameters [ tolerance ] are added to the method process_images_in_process_pool from the module face_recognition/cli.py"
+        ],
+        "Commit": "b8a803731c23dbf73ac3e219a847f6e2ea5a582d",
+        "Classification": [
+            " This is a machine learning specific software refactoring. The commit message mentions adding",
+            "parameters to the method `process_images_in_process_pool` from the module `face_recognition/cli.py`.",
+            "This suggests that the method was previously defined without these parameters, and now they have",
+            "been added to improve the functionality or performance of the method in some way. The specific",
+            "change mentioned in the commit message is the addition of the `tolerance` parameter, which suggests",
+            "that this method is likely related to image processing or computer vision tasks, and the parameter",
+            "is being added to control some aspect of the image processing. Overall, this is a specific",
+            "refactoring related to machine learning, as it involves modifying the implementation of a method in",
+            "a module related to machine learning, and adding new parameters to improve the functionality of the",
+            "method."
+        ],
+        "Category2": "ML-Specific",
+        "Certainty": "5",
+        "GPT4 Classification": [
+            "general"
+        ],
+        "Llama2 Classification": [
+            " General"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_image",
+        "Updated": "test_image",
+        "Location": "face_recognition/cli.py",
+        "Original Line": 35,
+        "Updated Line": 35,
+        "Description": [
+            "The parameters [ tolerance ] are added to the method test_image from the module face_recognition/cli.py"
+        ],
+        "Commit": "b8a803731c23dbf73ac3e219a847f6e2ea5a582d",
+        "Classification": [
+            " This is a machine learning specific software refactoring. The commit message indicates that the",
+            "parameter `tolerance` has been added to the `test_image` method in the `face_recognition/cli.py`",
+            "module. This is a specific change related to machine learning, as `tolerance` is a parameter used in",
+            "face recognition algorithms to control the level of similarity required for two faces to be",
+            "considered a match. The commit message also indicates that the change was made in the",
+            "`face_recognition/cli.py` module, which is a common module used in machine learning applications.",
+            "Therefore, this is a machine learning specific refactoring."
+        ],
+        "Category2": "ML-Specific",
+        "Certainty": "5",
+        "GPT4 Classification": [
+            "machine-learning-specific"
+        ],
+        "Llama2 Classification": [
+            " Machine-learning-specific"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "main",
+        "Updated": "main",
+        "Location": "face_recognition/cli.py",
+        "Original Line": 82,
+        "Updated Line": 98,
+        "Description": [
+            "The parameters [ show_distance ] are added to the method main from the module face_recognition/cli.py"
+        ],
+        "Commit": "bf1825257f3fcf22e10f8d1ce78aaf0e5dec8070",
+        "Classification": [
+            " This is a machine learning specific software refactoring. The commit message mentions adding",
+            "parameters to the `main` method from the `face_recognition/cli.py` module. This suggests that the",
+            "refactoring involves modifying the main method to accept additional input parameters from another",
+            "module, which is a common pattern in machine learning development. Here are some possible reasons",
+            "why this refactoring might be necessary: 1. Modularization: By separating the main method into",
+            "smaller functions or modules, the code becomes more modular and easier to maintain. This can make it",
+            "easier to update or modify the code without affecting other parts of the system. 2. Flexibility:",
+            "Adding parameters to the main method allows the user to customize the behavior of the code without",
+            "modifying the code itself. This can make the code more flexible and adaptable to different use",
+            "cases. 3. Reusability: By separating the main method into smaller functions or modules, the code",
+            "becomes more reusable. This can make it easier to reuse the code in other projects or applications.",
+            "4. Easier testing: With separate functions or modules, it can be easier to test the code without",
+            "affecting other parts of the system. Overall, this refactoring seems to be related to the machine",
+            "learning development process and is likely intended to improve the maintainability, flexibility, and",
+            "reusability of the code."
+        ],
+        "Category2": "ML-Specific",
+        "Certainty": "3",
+        "GPT4 Classification": [
+            "general"
+        ],
+        "Llama2 Classification": [
+            " Machine-learning-specific"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "process_images_in_process_pool",
+        "Updated": "process_images_in_process_pool",
+        "Location": "face_recognition/cli.py",
+        "Original Line": 60,
+        "Updated Line": 68,
+        "Description": [
+            "The parameters [ show_distance ] are added to the method process_images_in_process_pool from the module face_recognition/cli.py"
+        ],
+        "Commit": "bf1825257f3fcf22e10f8d1ce78aaf0e5dec8070",
+        "Classification": [
+            " This is a machine learning specific software refactoring. The change involves adding a new",
+            "parameter to an existing method in a machine learning library, specifically the `face_recognition`",
+            "library in this case. The parameter is `show_distance`, which is added to the",
+            "`process_images_in_process_pool` method in the `cli.py` file. This type of refactoring is common in",
+            "machine learning development, as machine learning models and libraries often have complex algorithms",
+            "and techniques that require specific parameters to be set in order to function correctly. By adding",
+            "new parameters to existing methods, developers can fine-tune and customize the behavior of these",
+            "models and libraries to better suit their specific needs and use cases. In this particular change,",
+            "the addition of the `show_distance` parameter allows developers to specify whether or not to show",
+            "the distance between the recognized face and the input image. This can be useful for debugging and",
+            "testing purposes, as it allows developers to easily visualize the results of the face recognition",
+            "process. Overall, this is a specific type of software refactoring that is tailored to the needs of",
+            "machine learning development, and is intended to improve the functionality and customizability of",
+            "the `face_recognition` library."
+        ],
+        "Category2": "ML-Specific",
+        "Certainty": "3",
+        "GPT4 Classification": [
+            "machine-learning-specific"
+        ],
+        "Llama2 Classification": [
+            " Machine-learning-specific"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_image",
+        "Updated": "test_image",
+        "Location": "face_recognition/cli.py",
+        "Original Line": 35,
+        "Updated Line": 42,
+        "Description": [
+            "The parameters [ show_distance ] are added to the method test_image from the module face_recognition/cli.py"
+        ],
+        "Commit": "bf1825257f3fcf22e10f8d1ce78aaf0e5dec8070",
+        "Classification": [
+            " This is a machine learning specific software refactoring. The commit message indicates that the",
+            "`show_distance` parameters have been added to the `test_image` method in the",
+            "`face_recognition/cli.py` module. This is a specific change related to machine learning and image",
+            "recognition, rather than a general software refactoring."
+        ],
+        "Category2": "ML-Specific",
+        "Certainty": "3",
+        "GPT4 Classification": [
+            "general"
+        ],
+        "Llama2 Classification": [
+            " Machine-learning-specific"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_raw_face_locations_batched",
+        "Updated": "_raw_face_locations_batched",
+        "Location": "face_recognition/api.py",
+        "Original Line": 119,
+        "Updated Line": 119,
+        "Description": [
+            "The parameters [ batch_size ] are added to the method _raw_face_locations_batched from the module face_recognition/api.py"
+        ],
+        "Commit": "df83b441a98d4b9a6c824738d30ccb44775fa51e",
+        "Classification": [
+            " This is a machine learning specific software refactoring. The change involves adding a parameter",
+            "`batch_size` to the method `_raw_face_locations_batched` in the `face_recognition/api.py` file. This",
+            "change is specific to machine learning models and algorithms that use batch processing, which is a",
+            "common technique in machine learning to improve the efficiency and scalability of algorithms by",
+            "processing multiple data samples together in a batch. By adding the `batch_size` parameter, the",
+            "method can now handle different batch sizes, which can be useful in different scenarios, such as: *",
+            "Batching multiple face images together for faster processing * Processing a large number of face",
+            "images in a single batch for more efficient training * Handling different batch sizes for different",
+            "machine learning models or algorithms This change is specific to machine learning and is not a",
+            "general software refactoring."
+        ],
+        "Category2": "ML-Specific",
+        "Certainty": "5",
+        "GPT4 Classification": [
+            "machine-learning-specific"
+        ],
+        "Llama2 Classification": [
+            " Machine-learning-specific"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "capture",
+        "Updated": "capture",
+        "Location": "examples/facerec_from_webcam_multiprocessing.py",
+        "Original Line": 33,
+        "Updated Line": 35,
+        "Description": [
+            "The parameters [ Global worker_num ] are added to the method capture from the module examples/facerec_from_webcam_multiprocessing.py"
+        ],
+        "Commit": "df84e2cd8a225e0f3094bd8cb13172aa9b918f29",
+        "Classification": [
+            " This is a machine learning specific software refactoring. The commit message mentions adding",
+            "parameters to a method called `capture` from the module `facerec_from_webcam_multiprocessing.py`.",
+            "Specifically, the parameters `Global worker_num` are added to the method. This is a machine learning",
+            "specific refactoring because it involves modifying a method that is likely related to image or video",
+            "processing, which is a common task in machine learning. The addition of parameters to the method",
+            "suggests that the method is being modified to accept additional inputs or to perform more complex",
+            "processing. In general, software refactoring involves restructuring existing code to improve its",
+            "maintainability, readability, and performance. However, when the refactoring involves modifying",
+            "machine learning models or algorithms, it is considered a machine learning specific refactoring."
+        ],
+        "Category2": "ML-Specific",
+        "Certainty": "4",
+        "GPT4 Classification": [
+            "general"
+        ],
+        "Llama2 Classification": [
+            " General"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "next_id",
+        "Updated": "next_id",
+        "Location": "examples/facerec_from_webcam_multiprocessing.py",
+        "Original Line": 17,
+        "Updated Line": 19,
+        "Description": [
+            "The parameters [ worker_num ] are added to the method next_id from the module examples/facerec_from_webcam_multiprocessing.py"
+        ],
+        "Commit": "df84e2cd8a225e0f3094bd8cb13172aa9b918f29",
+        "Classification": [
+            " This is a machine learning specific software refactoring. The change involves adding a parameter",
+            "`worker_num` to the `next_id` method in the `facerec_from_webcam_multiprocessing.py` module. This",
+            "change is specific to machine learning and is likely related to parallelizing the computation of the",
+            "`next_id` method using multiple worker processes. The commit message provides additional context,",
+            "stating that the change is intended to \"add the parameters [worker_num] to the method next_id from",
+            "the module examples/facerec_from_webcam_multiprocessing.py\". This suggests that the change is",
+            "related to parallelizing the computation of the `next_id` method using multiple worker processes,",
+            "and that the additional parameters are being added to support this functionality. Overall, this is a",
+            "specific software refactoring related to machine learning and parallel computing, rather than a",
+            "general software refactoring."
+        ],
+        "Category2": "ML-Specific",
+        "Certainty": "4",
+        "GPT4 Classification": [
+            "general"
+        ],
+        "Llama2 Classification": [
+            " Machine-learning-specific"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "prev_id",
+        "Updated": "prev_id",
+        "Location": "examples/facerec_from_webcam_multiprocessing.py",
+        "Original Line": 25,
+        "Updated Line": 27,
+        "Description": [
+            "The parameters [ worker_num ] are added to the method prev_id from the module examples/facerec_from_webcam_multiprocessing.py"
+        ],
+        "Commit": "df84e2cd8a225e0f3094bd8cb13172aa9b918f29",
+        "Classification": [
+            " This is a machine learning specific software refactoring. The change involves adding a new",
+            "parameter `worker_num` to the `prev_id` method in the `facerec_from_webcam_multiprocessing.py`",
+            "module. This change is specific to machine learning and is likely related to the multiprocessing",
+            "functionality in the module. The commit message provides additional context, stating that the",
+            "parameters `worker_num` are being added to the method `prev_id` from the",
+            "`facerec_from_webcam_multiprocessing.py` module. This suggests that the change is related to the",
+            "processing of webcam data in a multiprocessing environment, and the addition of the `worker_num`",
+            "parameter is likely intended to improve the performance or efficiency of the method. Overall, this",
+            "is a specific refactoring related to machine learning and multiprocessing, rather than a general",
+            "software refactoring that could apply to any type of software."
+        ],
+        "Category2": "ML-Specific",
+        "Certainty": "4",
+        "GPT4 Classification": [
+            "machine-learning-specific"
+        ],
+        "Llama2 Classification": [
+            " Machine-learning-specific"
+        ]
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "process",
+        "Updated": "process",
+        "Location": "examples/facerec_from_webcam_multiprocessing.py",
+        "Original Line": 56,
+        "Updated Line": 58,
+        "Description": [
+            "The parameters [ Global worker_num ] are added to the method process from the module examples/facerec_from_webcam_multiprocessing.py"
+        ],
+        "Commit": "df84e2cd8a225e0f3094bd8cb13172aa9b918f29",
+        "Classification": [
+            " This is a machine learning specific software refactoring. The commit message mentions adding",
+            "parameters to the `process` method, which suggests that the code is related to machine learning.",
+            "Additionally, the location of the refactoring (in the `facerec_from_webcam_multiprocessing.py` file)",
+            "and the fact that the parameters are being added to a method used in machine learning further",
+            "confirm that this is a machine learning specific refactoring."
+        ],
+        "Category2": "ML-Specific",
+        "Certainty": "4",
+        "GPT4 Classification": [
+            "machine-learning-specific"
+        ],
+        "Llama2 Classification": [
+            " Machine-learning-specific"
+        ]
+    }
+]

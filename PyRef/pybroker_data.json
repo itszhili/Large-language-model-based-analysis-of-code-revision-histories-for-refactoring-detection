@@ -1,0 +1,336 @@
+[
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "_apply_slippage",
+        "Updated": "_apply_slippage",
+        "Location": "src/pybroker/strategy.py/BacktestMixin",
+        "Original Line": 357,
+        "Updated Line": 356,
+        "Description": [
+            "The parameters [ price_scope ] of the method _apply_slippage from the module src/pybroker/strategy.py in class BacktestMixin is/are removed"
+        ],
+        "Commit": "0eb2bcde1bac5ab96ad92ff8dee88bea3813c8d7"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "calc_target_shares",
+        "Updated": "calc_target_shares",
+        "Location": "src/pybroker/context.py/ExecContext",
+        "Original Line": 970,
+        "Updated Line": 974,
+        "Description": [
+            "The return type of method calc_target_shares from the module src/pybroker/context.py in class ExecContext is updated"
+        ],
+        "Commit": "1058224f62f381562736327c1376b45f6daeee14"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "_buy",
+        "Updated": "_add_entry",
+        "Location": "src/pybroker/portfolio.py/Portfolio",
+        "Original Method Line": "(447,468)",
+        "Extracted/Inlined Method Line": 277,
+        "Extracted/Inlined Lines": [
+            465.0,
+            466.0,
+            481.0
+        ],
+        "Description": " The method _add_entry from the module src/pybroker/portfolio.py in class Portfolio is extracted from method _buy from the module src/pybroker/portfolio.py in class Portfolio ",
+        "Commit": "32e48deaf69decdd9fce414efca4d1ba593f7a44"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "_run_walkfoward",
+        "Updated": "_fractional_shares_enabled",
+        "Location": "src/pybroker/strategy.py/Strategy",
+        "Original Method Line": "(1201,1206)",
+        "Extracted/Inlined Method Line": 1201,
+        "Extracted/Inlined Lines": [
+            1220.0
+        ],
+        "Description": " The method _fractional_shares_enabled from the module src/pybroker/strategy.py in class Strategy is extracted from method _run_walkfoward from the module src/pybroker/strategy.py in class Strategy ",
+        "Commit": "46ca839909ab69d5c9dddd00adc0afda85f69241"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__call__",
+        "Updated": "__call__",
+        "Location": "src/pybroker/model.py/ModelLoader",
+        "Original Line": 124,
+        "Updated Line": 127,
+        "Description": [
+            "The parameters [ train_start_date train_end_date ] are added to the method __call__ from the module src/pybroker/model.py in class ModelLoader"
+        ],
+        "Commit": "502e5fe4660f0fd2d659dda80e26e2dd6d437abc"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_model_loader_call_with_kwargs",
+        "Updated": "test_model_loader_call_with_kwargs",
+        "Location": "tests/test_model.py/TestModelSource",
+        "Original Line": 119,
+        "Updated Line": 139,
+        "Description": [
+            "The parameters [ start_date end_date ] are added to the method test_model_loader_call_with_kwargs from the module tests/test_model.py in class TestModelSource"
+        ],
+        "Commit": "502e5fe4660f0fd2d659dda80e26e2dd6d437abc"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "lose_rate",
+        "Updated": "loss_rate",
+        "Location": "src/pybroker/context.py/BaseContext",
+        "Original Line": 117,
+        "Updated Line": 117,
+        "Description": [
+            "The method lose_rate from the module src/pybroker/context.py in class BaseContext is renamed to loss_rate"
+        ],
+        "Commit": "66b7d1ad327da81988000215fe936f7bd48b4536"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_lose_rate",
+        "Updated": "test_loss_rate",
+        "Location": "tests/test_context.py",
+        "Original Line": 222,
+        "Updated Line": 222,
+        "Description": [
+            "The method test_lose_rate from the module tests/test_context.py is renamed to test_loss_rate"
+        ],
+        "Commit": "66b7d1ad327da81988000215fe936f7bd48b4536"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_win_lose_rate",
+        "Updated": "test_win_loss_rate",
+        "Location": "tests/test_portfolio.py",
+        "Original Line": 2905,
+        "Updated Line": 2905,
+        "Description": [
+            "The method test_win_lose_rate from the module tests/test_portfolio.py is renamed to test_win_loss_rate"
+        ],
+        "Commit": "66b7d1ad327da81988000215fe936f7bd48b4536"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_add_trade",
+        "Updated": "_add_trade",
+        "Location": "src/pybroker/portfolio.py/Portfolio",
+        "Original Line": 353,
+        "Updated Line": 357,
+        "Description": [
+            "The parameters [ exit_price agg_pnl ] are added to the method _add_trade from the module src/pybroker/portfolio.py in class Portfolio"
+        ],
+        "Commit": "741c7a14cfafb01fc4c8a47b83edebf45f1f8f9e"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "assert_trade",
+        "Updated": "assert_trade",
+        "Location": "tests/test_portfolio.py",
+        "Original Line": 61,
+        "Updated Line": 61,
+        "Description": [
+            "The parameters [ exit agg_pnl ] are added to the method assert_trade from the module tests/test_portfolio.py"
+        ],
+        "Commit": "741c7a14cfafb01fc4c8a47b83edebf45f1f8f9e"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "calc_target_shares",
+        "Updated": "calc_target_shares",
+        "Location": "src/pybroker/context.py/ExecContext",
+        "Original Line": 954,
+        "Updated Line": 958,
+        "Description": [
+            "The parameters [ cash ] are added to the method calc_target_shares from the module src/pybroker/context.py in class ExecContext"
+        ],
+        "Commit": "7be305e8492eca5490cca1b4f75e506c60d7336d"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_param_when_set_and_get",
+        "Updated": "test_param_when_set_and_get",
+        "Location": "tests/test_scope.py",
+        "Original Line": 116,
+        "Updated Line": 117,
+        "Description": [
+            "The parameters [ value ] are added to the method test_param_when_set_and_get from the module tests/test_scope.py"
+        ],
+        "Commit": "93612e9c89e736c9726df1796fec4444315fbc42"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "test_set_exec_ctx_data",
+        "Updated": "test_set_exec_ctx_data",
+        "Location": "tests/test_context.py",
+        "Original Line": 602,
+        "Updated Line": 617,
+        "Description": [
+            "The parameters [ symbols ] of the method test_set_exec_ctx_data from the module tests/test_context.py is/are removed"
+        ],
+        "Commit": "9bbdbd0d4ee95617583947648082b1d37fc8cec1"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "ctx_with_orders",
+        "Updated": "ctx_with_orders",
+        "Location": "tests/test_context.py",
+        "Original Line": 151,
+        "Updated Line": 168,
+        "Description": [
+            "The parameters [ trades ] are added to the method ctx_with_orders from the module tests/test_context.py"
+        ],
+        "Commit": "a6fff130de920e03c5ac6dd33ddfe114a85fdcf9"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_set_exec_ctx_data",
+        "Updated": "test_set_exec_ctx_data",
+        "Location": "tests/test_context.py",
+        "Original Line": 462,
+        "Updated Line": 462,
+        "Description": [
+            "The parameters [ sym_end_index ] are added to the method test_set_exec_ctx_data from the module tests/test_context.py"
+        ],
+        "Commit": "a79f0bf1e77f768461b06753edb9e57005ba546f"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "_cover",
+        "Updated": "_exit_short",
+        "Location": "src/pybroker/portfolio.py/Portfolio",
+        "Original Method Line": "(445,445)",
+        "Extracted/Inlined Method Line": 487,
+        "Extracted/Inlined Lines": [
+            474.0,
+            478.0,
+            480.0,
+            484.0,
+            502.0,
+            506.0,
+            507.0,
+            527.0
+        ],
+        "Description": " The method _exit_short from the module src/pybroker/portfolio.py in class Portfolio is extracted from method _cover from the module src/pybroker/portfolio.py in class Portfolio ",
+        "Commit": "ce8e1e735af189afa47e6d595273cb82945ae12f"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "_sell_existing",
+        "Updated": "_exit_long",
+        "Location": "src/pybroker/portfolio.py/Portfolio",
+        "Original Method Line": "(627,612)",
+        "Extracted/Inlined Method Line": 639,
+        "Extracted/Inlined Lines": [
+            641.0,
+            645.0,
+            647.0,
+            651.0,
+            669.0,
+            673.0,
+            674.0,
+            694.0
+        ],
+        "Description": " The method _exit_long from the module src/pybroker/portfolio.py in class Portfolio is extracted from method _sell_existing from the module src/pybroker/portfolio.py in class Portfolio ",
+        "Commit": "ce8e1e735af189afa47e6d595273cb82945ae12f"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "src/pybroker/context.py/PosSizeContext",
+        "Original Line": 397,
+        "Updated Line": 400,
+        "Description": [
+            "The parameters [ sessions ] are added to the method __init__ from the module src/pybroker/context.py in class PosSizeContext"
+        ],
+        "Commit": "e7752359d77d1199ceaa0d235978a7a24204efb4"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "src/pybroker/data.py/AlpacaCrypto",
+        "Original Line": 358,
+        "Updated Line": 396,
+        "Description": [
+            "The parameters [ exchange ] of the method __init__ from the module src/pybroker/data.py in class AlpacaCrypto is/are removed"
+        ],
+        "Commit": "f0802a22d1338d9f0d3d4ae4a8e6774e51d76d1f"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "test_init",
+        "Updated": "test_init",
+        "Location": "tests/test_data.py/TestAlpacaCrypto",
+        "Original Line": 372,
+        "Updated Line": 394,
+        "Description": [
+            "The parameters [ mock_alpaca ] of the method test_init from the module tests/test_data.py in class TestAlpacaCrypto are changed/renamed to [mock_alpaca_crypto]"
+        ],
+        "Commit": "f0802a22d1338d9f0d3d4ae4a8e6774e51d76d1f"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "_add_order",
+        "Updated": "_add_order",
+        "Location": "src/pybroker/portfolio.py/Portfolio",
+        "Original Line": 280,
+        "Updated Line": 278,
+        "Description": [
+            "The parameters [ pnl ] of the method _add_order from the module src/pybroker/portfolio.py in class Portfolio is/are removed"
+        ],
+        "Commit": "f846ff29b8ec78f5a4dce6565134487d4ffcd75e"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "assert_order",
+        "Updated": "assert_order",
+        "Location": "tests/test_portfolio.py",
+        "Original Line": 41,
+        "Updated Line": 41,
+        "Description": [
+            "The parameters [ pnl ] of the method assert_order from the module tests/test_portfolio.py is/are removed"
+        ],
+        "Commit": "f846ff29b8ec78f5a4dce6565134487d4ffcd75e"
+    }
+]
