@@ -12,9 +12,9 @@ import os
 import textwrap
 
 # Path to JSON file
-json_file_path = '/mimer/NOBACKUP/groups/2023-llm-refactoring/PyRef/face_recognition_data_with_classification_with_gpt_classification.json'
+json_file_path = '/mimer/NOBACKUP/groups/2023-llm-refactoring/PyRef/AB3DMOT_data.json'
 # output_json_suffix = '_with_fewshot_classification.json'
-output_json_suffix = '_short.json'
+output_json_suffix = '_graph.json'
 
 # Generate the output file name
 base_name = os.path.basename(json_file_path)
@@ -85,106 +85,106 @@ def main(
 
     dialogs = []
     # One-shot
-    # for content in content_list:
-    #     dialog = [{"role": "user", "content": f"Is this a machine learning specific software refactoring or a general software refactoring? {content}"}]
-    #     dialogs.append(dialog)
+    for content in content_list:
+        dialog = [{"role": "user", "content": f"Classify this refactoring into DATA_PIPELINE, MODEL_LOGIC, TRAINING_PROCESS, EVALUATION_MONITORING, or DEPLOYMENT_INFRASTRUCTURE. Answer with only the category name. {content}"}]
+        dialogs.append(dialog)
     
     # Few-shot with examples
-    for content in content_list:
-        dialog = [{"role": "user", "content": 
-        f"""   
-         "Refactoring Type": [
-            "Add Parameter"
-        ],
-        "Original": "_merge_on_cpu",
-        "Updated": "_merge_on_cpu",
-        "Location": "apps/DeepFaceLive/backend/FaceMerger.py/FaceMergerWorker",
-        "Original Line": 174,
-        "Updated Line": 185,
-        "Description": [
-            "The parameters [ face_align_img ] are added to the method _merge_on_cpu from the module apps/DeepFaceLive/backend/FaceMerger.py in class FaceMergerWorker"
-        ],
-        "Commit": "03547088c6453b9c05931020a33d4640d7cd75f2",
-        "Classification": [" Machine-learning specific software refactoring"]
+    # for content in content_list:
+    #     dialog = [{"role": "user", "content": 
+    #     f"""   
+    #      "Refactoring Type": [
+    #         "Add Parameter"
+    #     ],
+    #     "Original": "_merge_on_cpu",
+    #     "Updated": "_merge_on_cpu",
+    #     "Location": "apps/DeepFaceLive/backend/FaceMerger.py/FaceMergerWorker",
+    #     "Original Line": 174,
+    #     "Updated Line": 185,
+    #     "Description": [
+    #         "The parameters [ face_align_img ] are added to the method _merge_on_cpu from the module apps/DeepFaceLive/backend/FaceMerger.py in class FaceMergerWorker"
+    #     ],
+    #     "Commit": "03547088c6453b9c05931020a33d4640d7cd75f2",
+    #     "Classification": [" Machine-learning specific software refactoring"]
 
         
-         "Refactoring Type": [
-            "Change Return Type"
-        ],
-        "Original": "get_files_paths",
-        "Updated": "get_files_paths",
-        "Location": "xlib/path/path.py",
-        "Original Line": 25,
-        "Updated Line": 26,
-        "Description": [
-            "The return type of method get_files_paths from the module xlib/path/path.py is updated"
-        ],
-        "Commit": "2605930dfea8db970f884a4f729784f3586173d4",
-        "Classification": [" General software refactoring"]
+    #      "Refactoring Type": [
+    #         "Change Return Type"
+    #     ],
+    #     "Original": "get_files_paths",
+    #     "Updated": "get_files_paths",
+    #     "Location": "xlib/path/path.py",
+    #     "Original Line": 25,
+    #     "Updated Line": 26,
+    #     "Description": [
+    #         "The return type of method get_files_paths from the module xlib/path/path.py is updated"
+    #     ],
+    #     "Commit": "2605930dfea8db970f884a4f729784f3586173d4",
+    #     "Classification": [" General software refactoring"]
 
         
-        "Refactoring Type": [
-            "Rename Method"
-        ],
-        "Original": "_free_random_pooled_buffers",
-        "Updated": "_release_random_pooled_buffers",
-        "Location": "xlib/avecl/_internal/backend/Device.py/Device",
-        "Original Line": 205,
-        "Updated Line": 205,
-        "Description": [
-            "The method _free_random_pooled_buffers from the module xlib/avecl/_internal/backend/Device.py in class Device is renamed to _release_random_pooled_buffers"
-        ],
-        "Commit": "2d401f47f87de9fdbea2f04a4f268c9d180f39d6"
-         "Classification": [ " General software refactoring" ]
+    #     "Refactoring Type": [
+    #         "Rename Method"
+    #     ],
+    #     "Original": "_free_random_pooled_buffers",
+    #     "Updated": "_release_random_pooled_buffers",
+    #     "Location": "xlib/avecl/_internal/backend/Device.py/Device",
+    #     "Original Line": 205,
+    #     "Updated Line": 205,
+    #     "Description": [
+    #         "The method _free_random_pooled_buffers from the module xlib/avecl/_internal/backend/Device.py in class Device is renamed to _release_random_pooled_buffers"
+    #     ],
+    #     "Commit": "2d401f47f87de9fdbea2f04a4f268c9d180f39d6"
+    #      "Classification": [ " General software refactoring" ]
 
         
 
-         "Refactoring Type": [
-            "Rename Method"
-        ],
-        "Original": "get_compute_capability",
-        "Updated": "get_execution_provider",
-        "Location": "xlib/onnxruntime/device.py/ORTDeviceInfo",
-        "Original Line": 30,
-        "Updated Line": 35,
-        "Description": [
-            "The method get_compute_capability from the module xlib/onnxruntime/device.py in class ORTDeviceInfo is renamed to get_execution_provider"
-        ],
-        "Commit": "6d504d596904b1f68349fa3535e09b69484eca98",
-        "Classification": [" Machine-learning specific software refactoring"]
+    #      "Refactoring Type": [
+    #         "Rename Method"
+    #     ],
+    #     "Original": "get_compute_capability",
+    #     "Updated": "get_execution_provider",
+    #     "Location": "xlib/onnxruntime/device.py/ORTDeviceInfo",
+    #     "Original Line": 30,
+    #     "Updated Line": 35,
+    #     "Description": [
+    #         "The method get_compute_capability from the module xlib/onnxruntime/device.py in class ORTDeviceInfo is renamed to get_execution_provider"
+    #     ],
+    #     "Commit": "6d504d596904b1f68349fa3535e09b69484eca98",
+    #     "Classification": [" Machine-learning specific software refactoring"]
 
-         "Refactoring Type": [
-            "Rename Method"
-        ],
-        "Original": "get_compute_capability",
-        "Updated": "get_execution_provider",
-        "Location": "xlib/onnxruntime/device.py/ORTDeviceInfo",
-        "Original Line": 30,
-        "Updated Line": 35,
-        "Description": [
-            "The method get_compute_capability from the module xlib/onnxruntime/device.py in class ORTDeviceInfo is renamed to get_execution_provider"
-        ],
-        "Commit": "6d504d596904b1f68349fa3535e09b69484eca98",
-        "Classification": [" Machine-learning specific software refactoring"]
+    #      "Refactoring Type": [
+    #         "Rename Method"
+    #     ],
+    #     "Original": "get_compute_capability",
+    #     "Updated": "get_execution_provider",
+    #     "Location": "xlib/onnxruntime/device.py/ORTDeviceInfo",
+    #     "Original Line": 30,
+    #     "Updated Line": 35,
+    #     "Description": [
+    #         "The method get_compute_capability from the module xlib/onnxruntime/device.py in class ORTDeviceInfo is renamed to get_execution_provider"
+    #     ],
+    #     "Commit": "6d504d596904b1f68349fa3535e09b69484eca98",
+    #     "Classification": [" Machine-learning specific software refactoring"]
 
-         "Refactoring Type": [
-            "Rename Method"
-        ],
-        "Original": "get_compute_capability",
-        "Updated": "get_execution_provider",
-        "Location": "xlib/onnxruntime/device.py/ORTDeviceInfo",
-        "Original Line": 30,
-        "Updated Line": 35,
-        "Description": [
-            "The method get_compute_capability from the module xlib/onnxruntime/device.py in class ORTDeviceInfo is renamed to get_execution_provider"
-        ],
-        "Commit": "6d504d596904b1f68349fa3535e09b69484eca98",
-        "Classification": [" Machine-learning specific software refactoring"]
+    #      "Refactoring Type": [
+    #         "Rename Method"
+    #     ],
+    #     "Original": "get_compute_capability",
+    #     "Updated": "get_execution_provider",
+    #     "Location": "xlib/onnxruntime/device.py/ORTDeviceInfo",
+    #     "Original Line": 30,
+    #     "Updated Line": 35,
+    #     "Description": [
+    #         "The method get_compute_capability from the module xlib/onnxruntime/device.py in class ORTDeviceInfo is renamed to get_execution_provider"
+    #     ],
+    #     "Commit": "6d504d596904b1f68349fa3535e09b69484eca98",
+    #     "Classification": [" Machine-learning specific software refactoring"]
 
         
-        Classify this refactoring to general software refactoring or machine-learning specific software refactoring.
-        Answer with Machine-learning specific software refactoring or General software refactoring{content}"""}]
-        dialogs.append(dialog)
+    #     Classify this refactoring to general software refactoring or machine-learning specific software refactoring.
+    #     Answer with Machine-learning specific software refactoring or General software refactoring{content}"""}]
+    #     dialogs.append(dialog)
 
         # General software refactoring Description:The return type of method get_files_paths from the module xlib/path/path.py is updated
         # Machine-learning specific software refactoring Description:The parameters face_align_img are added to the method _merge_on_cpu from the module apps/DeepFaceLive/backend/FaceMerger.py in class FaceMergerWorker
