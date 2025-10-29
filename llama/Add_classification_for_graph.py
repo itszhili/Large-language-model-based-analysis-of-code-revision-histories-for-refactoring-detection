@@ -86,7 +86,12 @@ def main(
     dialogs = []
     # One-shot
     for content in content_list:
-        dialog = [{"role": "user", "content": f"Classify this refactoring into one of these categories: DATA_PIPELINE, MODEL_LOGIC, TRAINING_PROCESS, EVALUATION_MONITORING, or DEPLOYMENT_INFRASTRUCTURE. Answer with only the category name. {content}"}]
+        dialog = [{"role": "user", "content": f"""Classify this refactoring into one of these categories: DATA_PIPELINE, MODEL_LOGIC, TRAINING_PROCESS, EVALUATION_MONITORING, or DEPLOYMENT_INFRASTRUCTURE. Answer with only the category name. 
+                    Example:
+            Location: train/loop.py
+            Description: Added new optimizer for better convergence.
+            Answer: TRAINING_PROCESS
+            {content}"""}]
         dialogs.append(dialog)
 
     # for content in content_list:

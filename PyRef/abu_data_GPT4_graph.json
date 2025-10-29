@@ -12,7 +12,7 @@
             "The parameters [ rs ] are added to the method code_to_symbol from the module abupy/MarketBu/ABuSymbol.py"
         ],
         "Commit": "179a26717c7c94999ac6f0df09643e62b05c2551",
-        "Llama Classification": " DATA_PIPELINE"
+        "Component GPT4": "MODEL_LOGIC"
     },
     {
         "Refactoring Type": "Move Method",
@@ -24,7 +24,7 @@
         "New Method Line": 43,
         "Description": " method query_symbol_sub_market from the module abupy/MarketBu/ABuDataFeed.py in class TXApi was moved to module abupy/MarketBu/ABuDataFeed.py ",
         "Commit": "179a26717c7c94999ac6f0df09643e62b05c2551",
-        "Llama Classification": " Sure! Based on the provided information, I would classify this refactoring as:\nDATA_PIPELINE"
+        "Component GPT4": "MODEL_LOGIC"
     },
     {
         "Refactoring Type": [
@@ -39,7 +39,7 @@
             "The method grid_mul_func from the module abupy/MetricsBu/ABuGridSearch.py is renamed to grid_search_mul_process"
         ],
         "Commit": "647ad0179b4a273f214505cd4f0f2355f8b438dc",
-        "Llama Classification": " Sure! Here is the category for the refactoring you provided:\nDATA_PIPELINE"
+        "Component GPT4": "MODEL_LOGIC"
     },
     {
         "Refactoring Type": [
@@ -54,7 +54,7 @@
             "The parameters [ show_progress ] are added to the method batch_get_pick_time_kl_pd from the module abupy/TradeBu/ABuKLManager.py in class AbuKLManager"
         ],
         "Commit": "647ad0179b4a273f214505cd4f0f2355f8b438dc",
-        "Llama Classification": " Sure! Based on the provided information, I would classify this refactoring as:\nTRAINING_PROCESS"
+        "Component GPT4": "EVALUATION_MONITORING"
     },
     {
         "Refactoring Type": [
@@ -69,7 +69,7 @@
             "The parameters [ show_progress ] are added to the method gen_dict_pick_time_kl_pd from the module abupy/TradeBu/ABuKLManager.py"
         ],
         "Commit": "647ad0179b4a273f214505cd4f0f2355f8b438dc",
-        "Llama Classification": " Sure! Here is the category for the refactoring you provided:\nDATA_PIPELINE"
+        "Component GPT4": "DATA_PIPELINE"
     },
     {
         "Refactoring Type": [
@@ -84,7 +84,7 @@
             "The parameters [ show_progress ] are added to the method do_symbols_with_same_factors from the module abupy/AlphaBu/ABuPickTimeExecute.py"
         ],
         "Commit": "b5ec880f1d8c1ada0d71b1e11f2d6a0b2798e4d5",
-        "Llama Classification": " Sure! Here is the category for the refactoring you provided:\nDATA_PIPELINE"
+        "Component GPT4": "MODEL_LOGIC"
     },
     {
         "Refactoring Type": [
@@ -99,7 +99,7 @@
             "The parameters [ show_progress ] are added to the method do_symbols_with_same_factors_process from the module abupy/AlphaBu/ABuPickTimeMaster.py in class AbuPickTimeMaster"
         ],
         "Commit": "b5ec880f1d8c1ada0d71b1e11f2d6a0b2798e4d5",
-        "Llama Classification": " Sure! Here is the category for the refactoring you provided:\nDATA_PIPELINE"
+        "Component GPT4": "MODEL_LOGIC"
     },
     {
         "Refactoring Type": [
@@ -114,7 +114,7 @@
             "The parameters [ deposit_rate ] of the method __init__ from the module abupy/BetaBu/ABuPositionBase.py in class AbuPositionBase is/are removed"
         ],
         "Commit": "b5ec880f1d8c1ada0d71b1e11f2d6a0b2798e4d5",
-        "Llama Classification": " Sure! Here is the category for the refactoring you provided:\nDATA_PIPELINE"
+        "Component GPT4": "MODEL_LOGIC"
     },
     {
         "Refactoring Type": "Extract Method",
@@ -128,7 +128,7 @@
         ],
         "Description": " The method _slippage_class_init from the module abupy/FactorBuyBu/ABuFactorBuyBase.py in class AbuFactorBuyBase is extracted from method __init__ from the module abupy/FactorBuyBu/ABuFactorBuyBase.py in class AbuFactorBuyBase ",
         "Commit": "b5ec880f1d8c1ada0d71b1e11f2d6a0b2798e4d5",
-        "Llama Classification": " Sure! Based on the information provided, I would classify this refactoring as TRAINING_PROCESS."
+        "Component GPT4": "MODEL_LOGIC"
     },
     {
         "Refactoring Type": "Extract Method",
@@ -143,7 +143,7 @@
         ],
         "Description": " The method past_today_kl from the module abupy/FactorBuyBu/ABuFactorBuyBase.py in class AbuFactorBuyBase is extracted from method _fit_pick_stock from the module abupy/FactorBuyBu/ABuFactorBuyBase.py in class AbuFactorBuyBase ",
         "Commit": "b5ec880f1d8c1ada0d71b1e11f2d6a0b2798e4d5",
-        "Llama Classification": " DATA_PIPELINE"
+        "Component GPT4": "MODEL_LOGIC"
     },
     {
         "Refactoring Type": [
@@ -158,7 +158,7 @@
             "The parameters [ need_empty_sell ] are added to the method gen_factor_grid from the module abupy/MetricsBu/ABuGridHelper.py"
         ],
         "Commit": "b5ec880f1d8c1ada0d71b1e11f2d6a0b2798e4d5",
-        "Llama Classification": " DATA_PIPELINE"
+        "Component GPT4": "MODEL_LOGIC"
     },
     {
         "Refactoring Type": [
@@ -173,7 +173,7 @@
             "The parameters [ show_progress ] are added to the method apply_action_to_capital from the module abupy/TradeBu/ABuTradeExecute.py"
         ],
         "Commit": "b5ec880f1d8c1ada0d71b1e11f2d6a0b2798e4d5",
-        "Llama Classification": " Sure! Here is the category for the refactoring you provided:\nDATA_PIPELINE"
+        "Component GPT4": "MODEL_LOGIC"
     },
     {
         "Refactoring Type": [
@@ -188,7 +188,7 @@
             "The parameters [ show_progress ] are added to the method __init__ from the module abupy/UtilBu/ABuProgress.py in class AbuMulPidProgress"
         ],
         "Commit": "b5ec880f1d8c1ada0d71b1e11f2d6a0b2798e4d5",
-        "Llama Classification": " Sure! Here is the category for the refactoring you provided:\nDATA_PIPELINE"
+        "Component GPT4": "EVALUATION_MONITORING"
     },
     {
         "Refactoring Type": [
@@ -203,7 +203,7 @@
             "The parameters [ only_one ] are added to the method add_to_buy_factor from the module abupy/WidgetBu/ABuWGBFBase.py in class BFSubscriberMixin"
         ],
         "Commit": "b5ec880f1d8c1ada0d71b1e11f2d6a0b2798e4d5",
-        "Llama Classification": " Sure! Here is the category for the refactoring you provided:\nDATA_PIPELINE"
+        "Component GPT4": "MODEL_LOGIC"
     },
     {
         "Refactoring Type": [
@@ -218,7 +218,7 @@
             "The parameters [ show_add_buy add_button_style ] are added to the method __init__ from the module abupy/WidgetBu/ABuWGBase.py in class WidgetFactorManagerBase"
         ],
         "Commit": "b5ec880f1d8c1ada0d71b1e11f2d6a0b2798e4d5",
-        "Llama Classification": " Sure! Here is the category for the refactoring you provided:\nDATA_PIPELINE"
+        "Component GPT4": "MODEL_LOGIC"
     },
     {
         "Refactoring Type": [
@@ -233,7 +233,7 @@
             "The parameters [ only_one ] are added to the method add_factor from the module abupy/WidgetBu/ABuWGBase.py in class WidgetFactorManagerBase"
         ],
         "Commit": "b5ec880f1d8c1ada0d71b1e11f2d6a0b2798e4d5",
-        "Llama Classification": " Sure! Here is the category for the refactoring you provided:\nDATA_PIPELINE"
+        "Component GPT4": "MODEL_LOGIC"
     },
     {
         "Refactoring Type": "Extract Method",
@@ -263,7 +263,7 @@
         ],
         "Description": " The method _cache_abu_result_path from the module abupy/CoreBu/ABuStore.py is extracted from method store_abu_result_tuple from the module abupy/CoreBu/ABuStore.py ",
         "Commit": "bf5f459824b742e68913a60892ed5589c68d2cb2",
-        "Llama Classification": " Sure! Based on the provided information, I would classify this refactoring as:\nDATA_PIPELINE"
+        "Component GPT4": "DATA_PIPELINE"
     },
     {
         "Refactoring Type": [
@@ -278,7 +278,7 @@
             "The parameters [ show_pg ] are added to the method _do_pick_time_work from the module abupy/AlphaBu/ABuPickTimeExecute.py"
         ],
         "Commit": "d111c2dbac0209434ac60ea5ad1d041d93b30199",
-        "Llama Classification": " Sure! Here is the category for the refactoring you provided:\nDATA_PIPELINE"
+        "Component GPT4": "MODEL_LOGIC"
     },
     {
         "Refactoring Type": [
@@ -293,7 +293,7 @@
             "The parameters [ how ] are added to the method dump_pickle from the module abupy/UtilBu/ABuFileUtil.py"
         ],
         "Commit": "d111c2dbac0209434ac60ea5ad1d041d93b30199",
-        "Llama Classification": " Sure! Here is the category for the refactoring you provided:\nDATA_PIPELINE"
+        "Component GPT4": "DATA_PIPELINE"
     },
     {
         "Refactoring Type": [
@@ -308,7 +308,7 @@
             "The parameters [ log ] are added to the method show_msg from the module abupy/UtilBu/ABuOsUtil.py"
         ],
         "Commit": "d111c2dbac0209434ac60ea5ad1d041d93b30199",
-        "Llama Classification": " Sure! Here is the category for the refactoring you provided:\nDATA_PIPELINE"
+        "Component GPT4": "MODEL_LOGIC"
     },
     {
         "Refactoring Type": "Extract Method",
@@ -332,7 +332,7 @@
         ],
         "Description": " The method do_check_process_is_dead from the module abupy/UtilBu/ABuProgress.py is extracted from method check_process_is_dead from the module abupy/UtilBu/ABuProgress.py ",
         "Commit": "d111c2dbac0209434ac60ea5ad1d041d93b30199",
-        "Llama Classification": " Sure! Based on the given information, I would classify this refactoring as:\nDATA_PIPELINE"
+        "Component GPT4": "DEPLOYMENT_INFRASTRUCTURE"
     },
     {
         "Refactoring Type": [
@@ -347,7 +347,7 @@
             "The parameters [ show_log ] are added to the method disable_example_env_ipython from the module abupy/CoreBu/ABuEnv.py"
         ],
         "Commit": "d30888a36c00da1a68a050db1fa6c1342be35b8e",
-        "Llama Classification": " Sure! Here is the category for the refactoring you provided:\nDATA_PIPELINE"
+        "Component GPT4": "MODEL_LOGIC"
     },
     {
         "Refactoring Type": [
@@ -362,7 +362,7 @@
             "The parameters [ show_log check_cn ] are added to the method enable_example_env_ipython from the module abupy/CoreBu/ABuEnv.py"
         ],
         "Commit": "d30888a36c00da1a68a050db1fa6c1342be35b8e",
-        "Llama Classification": " Sure! Here is the category for the refactoring you provided:\nDATA_PIPELINE"
+        "Component GPT4": "MODEL_LOGIC"
     },
     {
         "Refactoring Type": [
@@ -377,7 +377,7 @@
             "The parameters [ fast_mode ] are added to the method search_to_symbol_dict from the module abupy/MarketBu/ABuSymbol.py"
         ],
         "Commit": "d30888a36c00da1a68a050db1fa6c1342be35b8e",
-        "Llama Classification": " Sure! Here is the category for the refactoring you provided:\nDATA_PIPELINE"
+        "Component GPT4": "DATA_PIPELINE"
     },
     {
         "Refactoring Type": [
@@ -392,7 +392,7 @@
             "The parameters [ benchmark_kl_pd ] are added to the method __init__ from the module abupy/TradeBu/ABuBenchmark.py in class AbuBenchmark"
         ],
         "Commit": "d30888a36c00da1a68a050db1fa6c1342be35b8e",
-        "Llama Classification": " Sure! Here is the category for the refactoring you provided:\nDATA_PIPELINE"
+        "Component GPT4": "MODEL_LOGIC"
     },
     {
         "Refactoring Type": [
@@ -407,6 +407,6 @@
             "The parameters [ today ] are added to the method fit_day from the module abupy/FactorBuyBu/ABuFactorBuyBase.py in class AbuFactorBuyBase"
         ],
         "Commit": "f8abb36792fa713d9bccc45d16cd0bcec94df5dd",
-        "Llama Classification": " DATA_PIPELINE"
+        "Component GPT4": "MODEL_LOGIC"
     }
 ]
