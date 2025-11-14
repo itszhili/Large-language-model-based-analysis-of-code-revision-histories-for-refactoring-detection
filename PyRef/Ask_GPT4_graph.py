@@ -14,11 +14,12 @@ from dotenv import load_dotenv
 # openai_api_key = os.getenv("OPENAI_API_KEY")
 
 # Create an OpenAI client
-client = OpenAI(api_key="sk-proj-BYNJCUVBuJVT4mXiYMLAT3BlbkFJgQGFSDww51LADbnX6Ziu")
+load_dotenv() 
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # Path to JSON file
 json_file_path = '/mimer/NOBACKUP/groups/2023-llm-refactoring/PyRef/face_recognition_data.json'
-output_json_suffix = '_GPT4_graph.json'
+output_json_suffix = '_GPT4_graph_new.json'
 
 # Generate the output file name
 base_name = os.path.basename(json_file_path)
@@ -69,8 +70,11 @@ def classify_with_gpt(content, custom_question=None, model="gpt-4", temperature=
         if custom_question:
             question = custom_question
         else:
+            # question = f"""{content} 
+            # Classify this refactoring into one of these categories: DATA_PIPELINE, MODEL_LOGIC, TRAINING_PROCESS, EVALUATION_MONITORING, or DEPLOYMENT_INFRASTRUCTURE. 
+            # Answer with only the category name."""
             question = f"""{content} 
-            Classify this refactoring into one of these categories: DATA_PIPELINE, MODEL_LOGIC, TRAINING_PROCESS, EVALUATION_MONITORING, or DEPLOYMENT_INFRASTRUCTURE. 
+            Classify this refactoring into one of these categories: Data Processing, Model Development, Evaluation, Deployment & Serving, Visualization & UI, or Monitoring & Logging. 
             Answer with only the category name."""
         
         # Log the question before making the request
@@ -159,9 +163,9 @@ def main(model: str = "gpt-4", temperature: float = 0, max_tokens: int = 10, inc
         #     classification = classify_with_gpt(content, model=model, temperature=temperature, max_tokens=max_tokens)
 
         if classification:
-            block['Component GPT4'] = classification
+            block['Component GPT4 New'] = classification
         else:
-            block['Component GPT4'] = ["Failed to classify"]
+            block['Component GPT4 New'] = ["Failed to classify"]
 
 
     with open(output_file_path, 'w', encoding='utf-8') as file:

@@ -8,7 +8,7 @@ from collections import Counter
 import math
 import matplotlib.pyplot as plt
 
-# 五个固定类别（顺序会决定雷达图轴的顺时针排列）
+# Five fixed categories (order determines clockwise order of radar chart axes)
 CATEGORIES = [
     "DATA_PIPELINE",
     "MODEL_LOGIC",
@@ -17,49 +17,62 @@ CATEGORIES = [
     "DEPLOYMENT_INFRASTRUCTURE",
 ]
 
-KEY_NAME = "Component GPT4"  # 你的 JSON 中存放类别的键
+KEY_NAME = "Component GPT4"  # The key in your JSON storing the classification result
 
 def load_refactorings(path):
-    """支持两种结构：
-    1) 顶层是 list[refactoring_dict]
-    2) 顶层是 dict 且含 'refactorings' -> list
+    """
+    Support two possible JSON structures:
+    1) Top level is a list of refactoring dicts
+    2) Top level is a dict containing a key like 'refactorings' -> list
     """
     with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
+
     if isinstance(data, list):
         return data
+
     if isinstance(data, dict):
-        # 常见：{"refactorings": [...]} 或 {"items":[...]} 之类
+        # Common structures: {"refactorings": [...]}, {"items": [...]}, {"data": [...]}, etc.
         for k in ("refactorings", "items", "data"):
             if k in data and isinstance(data[k], list):
                 return data[k]
-    # 兜底：如果结构不对，返回空列表
+
+    # Fallback: if structure is unexpected, return empty list
     return []
 
 def tally(refactorings):
+    """
+    Count occurrences of each category. Handle failures or unknown categories.
+    """
     counts = Counter({c: 0 for c in CATEGORIES})
     total = len(refactorings)
     failed = 0
 
     for rf in refactorings:
         val = rf.get(KEY_NAME, None)
-        # 允许 val 为字符串或列表（有时存成 ["TRAINING_PROCESS"]）
+
+        # Allow val to be a string or a list (some files may store ["TRAINING_PROCESS"])
         if isinstance(val, list) and val:
             val = val[0]
         if isinstance(val, str):
             val = val.strip()
+
         if val in CATEGORIES:
             counts[val] += 1
         else:
             failed += 1
+
     return counts, total, failed
 
 def plot_radar(counts, title, save_path):
-    # 雷达图需要把第一个点重复到末尾闭合
+    """
+    Draw a pentagon-style radar chart based on category counts.
+    """
+    # Radar chart requires repeating the first value at the end to close the polygon
     values = [counts[c] for c in CATEGORIES]
     values.append(values[0])
 
-    # 角度
+    # Angles for each axis
     N = len(CATEGORIES)
     angles = [n / float(N) * 2 * math.pi for n in range(N)]
     angles.append(angles[0])
@@ -67,15 +80,15 @@ def plot_radar(counts, title, save_path):
     fig = plt.figure(figsize=(6, 6))
     ax = plt.subplot(111, polar=True)
 
-    # 画线与填充（不指定颜色，使用默认）
+    # Plot the line and fill (use default matplotlib colors)
     ax.plot(angles, values, linewidth=2)
     ax.fill(angles, values, alpha=0.25)
 
-    # 轴标签
+    # Axis labels
     ax.set_xticks([n / float(N) * 2 * math.pi for n in range(N)])
     ax.set_xticklabels(CATEGORIES)
 
-    # y 轴从 0 到最大计数的合适上界
+    # Y-axis limits from 0 to an appropriate upper bound
     ymax = max(values) if values else 1
     if ymax == 0:
         ymax = 1
@@ -87,25 +100,26 @@ def plot_radar(counts, title, save_path):
     plt.close(fig)
 
 def main():
-    ap = argparse.ArgumentParser(description="Count RF categories and draw a pentagon radar chart.")
+    ap = argparse.ArgumentParser(description="Count RF categories and generate a pentagon radar chart.")
     ap.add_argument("json_file", help="Path to a project's JSON file")
     args = ap.parse_args()
 
     refactorings = load_refactorings(args.json_file)
     counts, total, failed = tally(refactorings)
 
-    # 打印统计
+    # Print statistics
     print(f"File: {args.json_file}")
     for c in CATEGORIES:
         print(f"{c}: {counts[c]}")
     print(f"TOTAL RFs: {total}")
-    print(f"FAILED (unknown/missing '{KEY_NAME}'): {failed}")
+    print(f"FAILED (unknown or missing '{KEY_NAME}'): {failed}")
 
-    # 画图
+    # Plot radar chart
     base = os.path.splitext(args.json_file)[0]
     out_png = f"{base}-radar.png"
     title = os.path.basename(args.json_file)
     plot_radar(counts, title, out_png)
+
     print(f"Radar chart saved to: {out_png}")
 
 if __name__ == "__main__":

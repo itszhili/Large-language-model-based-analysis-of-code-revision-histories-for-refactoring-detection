@@ -14,7 +14,8 @@ from dotenv import load_dotenv
 # openai_api_key = os.getenv("OPENAI_API_KEY")
 
 # Create an OpenAI client
-client = OpenAI(api_key="sk-proj-BYNJCUVBuJVT4mXiYMLAT3BlbkFJgQGFSDww51LADbnX6Ziu")
+load_dotenv() 
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # Path to JSON file
 json_file_path = '/mimer/NOBACKUP/groups/2023-llm-refactoring/PyRef/face_recognition_data_categorylabeling.json'
