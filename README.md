@@ -1,6 +1,6 @@
 # LLM-Based Analysis of Code Revision Histories for Refactoring Detection
 
-A research project that leverages Large Language Models (LLMs) — including **GPT-4** and **LLaMA 2** — to detect and classify software refactorings in Python project revision histories.
+A research project that leverages Large Language Models (LLMs) — including **GPT-4** and **Llama 2** — to detect and classify software refactorings in Python project revision histories.
 
 ---
 
@@ -9,7 +9,7 @@ A research project that leverages Large Language Models (LLMs) — including **G
 This project combines static analysis with LLM-based classification to study refactoring patterns in open-source Python machine learning projects. The pipeline consists of three main stages:
 
 1. **Refactoring Detection** — Extract refactoring operations from Git commit histories using [PyRef](https://github.com/PyRef/PyRef).
-2. **LLM Classification** — Classify each detected refactoring using GPT-4 or LLaMA 2 into ML-specific components or general software categories.
+2. **LLM Classification** — Classify each detected refactoring using GPT-4 or Llama 2 into ML-specific components or general software categories.
 3. **Evaluation & Visualization** — Compute precision/recall/F1 metrics and visualize category distributions with radar charts.
 
 ---
@@ -29,8 +29,8 @@ This project combines static analysis with LLM-based classification to study ref
 │   └── data/
 │       └── dataset.csv             # Labeled oracle dataset
 │
-├── llama/                          # LLaMA 2 classification module
-│   ├── Add_classification.py       # One-shot classification with LLaMA
+├── llama/                          # Llama 2 classification module
+│   ├── Add_classification.py       # One-shot classification with Llama
 │   ├── Add_classification_for_all.py
 │   ├── Add_classification_for_graph.py
 │   ├── Add_classification_short.py
@@ -115,7 +115,7 @@ Refactorings are classified into one of the following ML pipeline components:
 
 #### Supported LLMs
 - **GPT-4** via OpenAI API (`gpt-refactor-analysis/scripts/Ask_GPT4*.py`)
-- **LLaMA 2** (7B / 7B-Chat) via local inference (`llama/Add_classification*.py`)
+- **Llama 2** (7B / 7B-Chat) via local inference (`llama/Add_classification*.py`)
 
 ---
 
@@ -135,7 +135,7 @@ pip install -r requirements.txt
 ```
 > ⚠️ Requires `pandas < 2.0.0` (the `.append()` API is used internally).
 
-**LLaMA dependencies:**
+**Llama dependencies:**
 ```bash
 cd llama
 pip install -r requirements.txt
@@ -204,9 +204,9 @@ Run component-level (graph) classification:
 python Ask_GPT4_graph.py
 ```
 
-### Step 4: Classify with LLaMA 2
+### Step 4: Classify with Llama 2
 
-Ensure LLaMA 2 weights are placed in `llama/llama-2-7b-chat/`.
+Ensure Llama 2 weights are placed in `llama/llama-2-7b-chat/`.
 
 Run with `torchrun`:
 ```bash
@@ -249,7 +249,7 @@ A pentagon radar chart will be saved as `<project>-radar.png` in the same direct
 
 ## Dataset
 
-The `gpt-refactor-analysis/dataset/` directory contains refactoring data extracted from 30+ open-source Python ML projects, including:
+The `gpt-refactor-analysis/dataset/` directory contains refactoring data extracted from 200+ open-source Python ML projects, including:
 
 - `ultralytics`, `whisper-timestamped`, `tutor-gpt`, `torchcde`
 - `texar-pytorch`, `uis-rnn`, `verde`, `zi2zi`, and more
@@ -273,5 +273,5 @@ Each project has two JSON files:
 ## License
 
 - **PyRef** is licensed under its original license (see `PyRef/LICENSE`).
-- **LLaMA 2** is subject to Meta's [Llama 2 Community License](https://ai.meta.com/llama/license/).
+- **Llama 2** is subject to Meta's [Llama 2 Community License](https://ai.meta.com/llama/license/).
 - All other scripts in this repository are for research purposes.
