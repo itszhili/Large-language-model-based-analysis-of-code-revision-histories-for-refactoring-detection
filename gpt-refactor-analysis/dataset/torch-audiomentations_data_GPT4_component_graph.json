@@ -1,0 +1,551 @@
+[
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_compose",
+        "Updated": "test_compose_dict",
+        "Location": "tests/test_compose.py/TestCompose",
+        "Original Line": 15,
+        "Updated Line": 40,
+        "Description": [
+            "The method test_compose from the module tests/test_compose.py in class TestCompose is renamed to test_compose_dict"
+        ],
+        "Commit": "0963d45ea8acebcda9f8dc545a52497e98b8472e",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_someof",
+        "Updated": "test_someof_dict",
+        "Location": "tests/test_someof.py/TestSomeOf",
+        "Original Line": 22,
+        "Updated Line": 34,
+        "Description": [
+            "The method test_someof from the module tests/test_someof.py in class TestSomeOf is renamed to test_someof_dict"
+        ],
+        "Commit": "0963d45ea8acebcda9f8dc545a52497e98b8472e",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_spliceout",
+        "Updated": "test_splice_out",
+        "Location": "tests/test_spliceout.py/TestSpliceout",
+        "Original Line": 11,
+        "Updated Line": 11,
+        "Description": [
+            "The method test_spliceout from the module tests/test_spliceout.py in class TestSpliceout is renamed to test_splice_out"
+        ],
+        "Commit": "25dba2dceda7e7b5ebe2d0ce3f05ce5f403a1788",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_spliceout_cuda",
+        "Updated": "test_splice_out_cuda",
+        "Location": "tests/test_spliceout.py/TestSpliceout",
+        "Original Line": 83,
+        "Updated Line": 83,
+        "Description": [
+            "The method test_spliceout_cuda from the module tests/test_spliceout.py in class TestSpliceout is renamed to test_splice_out_cuda"
+        ],
+        "Commit": "25dba2dceda7e7b5ebe2d0ce3f05ce5f403a1788",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_spliceout_multichannel",
+        "Updated": "test_splice_out_multichannel",
+        "Location": "tests/test_spliceout.py/TestSpliceout",
+        "Original Line": 64,
+        "Updated Line": 64,
+        "Description": [
+            "The method test_spliceout_multichannel from the module tests/test_spliceout.py in class TestSpliceout is renamed to test_splice_out_multichannel"
+        ],
+        "Commit": "25dba2dceda7e7b5ebe2d0ce3f05ce5f403a1788",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_spliceout_odd_hann",
+        "Updated": "test_splice_out_odd_hann",
+        "Location": "tests/test_spliceout.py/TestSpliceout",
+        "Original Line": 26,
+        "Updated Line": 26,
+        "Description": [
+            "The method test_spliceout_odd_hann from the module tests/test_spliceout.py in class TestSpliceout is renamed to test_splice_out_odd_hann"
+        ],
+        "Commit": "25dba2dceda7e7b5ebe2d0ce3f05ce5f403a1788",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_spliceout_perbatch",
+        "Updated": "test_splice_out_per_batch",
+        "Location": "tests/test_spliceout.py/TestSpliceout",
+        "Original Line": 41,
+        "Updated Line": 41,
+        "Description": [
+            "The method test_spliceout_perbatch from the module tests/test_spliceout.py in class TestSpliceout is renamed to test_splice_out_per_batch"
+        ],
+        "Commit": "25dba2dceda7e7b5ebe2d0ce3f05ce5f403a1788",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "test_per_batch_shift",
+        "Updated": "test_per_batch_shift",
+        "Location": "tests/test_pitch_shift.py/TestPitchShift",
+        "Original Line": 27,
+        "Updated Line": 22,
+        "Description": [
+            "The parameters [ device_name ] of the method test_per_batch_shift from the module tests/test_pitch_shift.py in class TestPitchShift is/are removed"
+        ],
+        "Commit": "2c7e995d55caf14afdd461fd491ec42f28980ab5",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "test_per_channel_shift",
+        "Updated": "test_per_channel_shift",
+        "Location": "tests/test_pitch_shift.py/TestPitchShift",
+        "Original Line": 41,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ device_name ] of the method test_per_channel_shift from the module tests/test_pitch_shift.py in class TestPitchShift is/are removed"
+        ],
+        "Commit": "2c7e995d55caf14afdd461fd491ec42f28980ab5",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "test_per_example_shift",
+        "Updated": "test_per_example_shift",
+        "Location": "tests/test_pitch_shift.py/TestPitchShift",
+        "Original Line": 34,
+        "Updated Line": 29,
+        "Description": [
+            "The parameters [ device_name ] of the method test_per_example_shift from the module tests/test_pitch_shift.py in class TestPitchShift is/are removed"
+        ],
+        "Commit": "2c7e995d55caf14afdd461fd491ec42f28980ab5",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "get_example",
+        "Updated": "get_example",
+        "Location": "tests/test_pitch_shift.py",
+        "Original Line": 10,
+        "Updated Line": 10,
+        "Description": [
+            "The parameters [ device_name ] of the method get_example from the module tests/test_pitch_shift.py is/are removed"
+        ],
+        "Commit": "2c7e995d55caf14afdd461fd491ec42f28980ab5",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "LowPassFilter",
+        "Updated": "PitchShift",
+        "Location": "torch_audiomentations/augmentations/pitch_shift.py",
+        "Description": " class LowPassFilter was renamed to class PitchShift ",
+        "Commit": "3e0461d93d9f1cfd61958270a3d988f800c9cf8f",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_gain_to_device",
+        "Updated": "test_gain_to_device_cuda",
+        "Location": "tests/test_gain.py/TestGain",
+        "Original Line": 145,
+        "Updated Line": 148,
+        "Description": [
+            "The method test_gain_to_device from the module tests/test_gain.py in class TestGain is renamed to test_gain_to_device_cuda"
+        ],
+        "Commit": "4246464f36f5362912c94ad30503d80c9836e0ce",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "TestImpulseResponse",
+        "Updated": "TestApplyImpulseResponse",
+        "Location": "tests/test_impulse_response.py",
+        "Description": " class TestImpulseResponse was renamed to class TestApplyImpulseResponse ",
+        "Commit": "5718258526fc913458bf5d1c45ddccb265e88001",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "ImpulseResponse",
+        "Updated": "ApplyImpulseResponse",
+        "Location": "torch_audiomentations/augmentations/impulse_response.py",
+        "Description": " class ImpulseResponse was renamed to class ApplyImpulseResponse ",
+        "Commit": "5718258526fc913458bf5d1c45ddccb265e88001",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_impulse_response_guaranteed_with_batched_tensor_input",
+        "Updated": "test_impulse_response_guaranteed_with_batched_tensor_input",
+        "Location": "tests/test_impulse_response.py",
+        "Original Line": 57,
+        "Updated Line": 61,
+        "Description": [
+            "The parameters [ sample_rate compensate_for_propagation_delay ] are added to the method test_impulse_response_guaranteed_with_batched_tensor_input from the module tests/test_impulse_response.py"
+        ],
+        "Commit": "593c5a3f2e7d91a72b257b095070331bf3690409",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "get_dist",
+        "Updated": "get_dist",
+        "Location": "torch_audiomentations/augmentations/band_pass_filter.py/BandPassFilter",
+        "Original Line": 49,
+        "Updated Line": 53,
+        "Description": [
+            "The parameters [ max_freq ] are added to the method get_dist from the module torch_audiomentations/augmentations/band_pass_filter.py in class BandPassFilter"
+        ],
+        "Commit": "5b2b57454f0971ec41291857aa7a8a4452a3a379",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torch_audiomentations/augmentations/background_noise.py/ApplyBackgroundNoise",
+        "Original Line": 13,
+        "Updated Line": 13,
+        "Description": [
+            "The parameters [ device ] are added to the method __init__ from the module torch_audiomentations/augmentations/background_noise.py in class ApplyBackgroundNoise"
+        ],
+        "Commit": "655e1caf2ecf4d6b4dd7d09916cd136fc87e0f70",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torch_audiomentations/augmentations/impulse_response.py/ApplyImpulseResponse",
+        "Original Line": 14,
+        "Updated Line": 14,
+        "Description": [
+            "The parameters [ device ] are added to the method __init__ from the module torch_audiomentations/augmentations/impulse_response.py in class ApplyImpulseResponse"
+        ],
+        "Commit": "655e1caf2ecf4d6b4dd7d09916cd136fc87e0f70",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "TestSplitout",
+        "Updated": "TestSpliceout",
+        "Location": "tests/test_spliceout.py",
+        "Description": " class TestSplitout was renamed to class TestSpliceout ",
+        "Commit": "68824e70ff198b12556a9f826da66fa942d6ae3f",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_digital_silence",
+        "Updated": "test_digital_silence_in_batch",
+        "Location": "tests/test_peak_normalization.py/TestPeakNormalization",
+        "Original Line": 99,
+        "Updated Line": 99,
+        "Description": [
+            "The method test_digital_silence from the module tests/test_peak_normalization.py in class TestPeakNormalization is renamed to test_digital_silence_in_batch"
+        ],
+        "Commit": "6e609b025af0b293c4473e4eca9a8a0a49738736",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "testcrop",
+        "Updated": "test_crop",
+        "Location": "tests/test_random_crop.py/TestRandomCrop",
+        "Original Line": 7,
+        "Updated Line": 9,
+        "Description": [
+            "The method testcrop from the module tests/test_random_crop.py in class TestRandomCrop is renamed to test_crop"
+        ],
+        "Commit": "76a15874c29dc2b142c23318687d59c1e1a31644",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torch_audiomentations/augmentations/peak_normalization.py/PeakNormalization",
+        "Original Line": 20,
+        "Updated Line": 21,
+        "Description": [
+            "The parameters [ mode p_mode ] are added to the method __init__ from the module torch_audiomentations/augmentations/peak_normalization.py in class PeakNormalization"
+        ],
+        "Commit": "7e7f50d5c3ca07ea146138b6e444b01cfcf852b1",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torch_audiomentations/augmentations/polarity_inversion.py/PolarityInversion",
+        "Original Line": 17,
+        "Updated Line": 19,
+        "Description": [
+            "The parameters [ mode p_mode ] are added to the method __init__ from the module torch_audiomentations/augmentations/polarity_inversion.py in class PolarityInversion"
+        ],
+        "Commit": "7e7f50d5c3ca07ea146138b6e444b01cfcf852b1",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "TestAddBackgroundNoise",
+        "Updated": "TestAddColoredNoise",
+        "Location": "tests/test_colored_noise.py",
+        "Description": " class TestAddBackgroundNoise was renamed to class TestAddColoredNoise ",
+        "Commit": "7f82c15c8d9d80823f374021b4d8822b3f3b7acf",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_gen_noise",
+        "Updated": "_gen_noise",
+        "Location": "torch_audiomentations/augmentations/colored_noise.py",
+        "Original Line": 10,
+        "Updated Line": 10,
+        "Description": [
+            "The parameters [ device ] are added to the method _gen_noise from the module torch_audiomentations/augmentations/colored_noise.py"
+        ],
+        "Commit": "7f82c15c8d9d80823f374021b4d8822b3f3b7acf",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_apply_to_all_2_dim",
+        "Updated": "test_apply_to_all",
+        "Location": "tests/test_peak_normalization.py/TestPeakNormalization",
+        "Original Line": 12,
+        "Updated Line": 12,
+        "Description": [
+            "The method test_apply_to_all_2_dim from the module tests/test_peak_normalization.py in class TestPeakNormalization is renamed to test_apply_to_all"
+        ],
+        "Commit": "85ed8ee9b5a707862002434c6e0d998666042498",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_apply_to_all_3_dim_cuda",
+        "Updated": "test_apply_to_all_cuda",
+        "Location": "tests/test_peak_normalization.py/TestPeakNormalization",
+        "Original Line": 173,
+        "Updated Line": 146,
+        "Description": [
+            "The method test_apply_to_all_3_dim_cuda from the module tests/test_peak_normalization.py in class TestPeakNormalization is renamed to test_apply_to_all_cuda"
+        ],
+        "Commit": "85ed8ee9b5a707862002434c6e0d998666042498",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_apply_to_only_too_loud_sounds_3_dim",
+        "Updated": "test_apply_to_only_too_loud_sounds",
+        "Location": "tests/test_peak_normalization.py/TestPeakNormalization",
+        "Original Line": 70,
+        "Updated Line": 41,
+        "Description": [
+            "The method test_apply_to_only_too_loud_sounds_3_dim from the module tests/test_peak_normalization.py in class TestPeakNormalization is renamed to test_apply_to_only_too_loud_sounds"
+        ],
+        "Commit": "85ed8ee9b5a707862002434c6e0d998666042498",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torch_audiomentations/augmentations/spliceout.py/SpliceOut",
+        "Original Line": 21,
+        "Updated Line": 21,
+        "Description": [
+            "The parameters [ n_fft ] of the method __init__ from the module torch_audiomentations/augmentations/spliceout.py in class SpliceOut is/are removed"
+        ],
+        "Commit": "86daebc444e2e48a0c76a394a4dad62ab47933a1",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Change/Rename Parameter"
+        ],
+        "Original": "apply",
+        "Updated": "apply_transform",
+        "Location": "torch_audiomentations/augmentations/background_noise.py/ApplyBackgroundNoise",
+        "Original Line": 79,
+        "Updated Line": 93,
+        "Description": [
+            "The method apply from the module torch_audiomentations/augmentations/background_noise.py in class ApplyBackgroundNoise is renamed to apply_transform",
+            "The parameters [ samples ] of the method apply from the module torch_audiomentations/augmentations/background_noise.py in class ApplyBackgroundNoise are changed/renamed to [selected_samples]"
+        ],
+        "Commit": "8e7aa121bc85419dce26aae646ac779578d217cb",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Change/Rename Parameter"
+        ],
+        "Original": "apply",
+        "Updated": "apply_transform",
+        "Location": "torch_audiomentations/augmentations/impulse_response.py/ApplyImpulseResponse",
+        "Original Line": 43,
+        "Updated Line": 50,
+        "Description": [
+            "The method apply from the module torch_audiomentations/augmentations/impulse_response.py in class ApplyImpulseResponse is renamed to apply_transform",
+            "The parameters [ samples ] of the method apply from the module torch_audiomentations/augmentations/impulse_response.py in class ApplyImpulseResponse are changed/renamed to [selected_samples]"
+        ],
+        "Commit": "8e7aa121bc85419dce26aae646ac779578d217cb",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Change/Rename Parameter"
+        ],
+        "Original": "forward",
+        "Updated": "apply_transform",
+        "Location": "torch_audiomentations/augmentations/polarity_inversion.py/PolarityInversion",
+        "Original Line": 26,
+        "Updated Line": 26,
+        "Description": [
+            "The method forward from the module torch_audiomentations/augmentations/polarity_inversion.py in class PolarityInversion is renamed to apply_transform",
+            "The parameters [ samples ] of the method forward from the module torch_audiomentations/augmentations/polarity_inversion.py in class PolarityInversion are changed/renamed to [selected_samples]"
+        ],
+        "Commit": "8e7aa121bc85419dce26aae646ac779578d217cb",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_shift_by_1_sample_3dim",
+        "Updated": "test_shift_by_1_sample_3dim",
+        "Location": "tests/test_shift.py/TestShift",
+        "Original Line": 11,
+        "Updated Line": 24,
+        "Description": [
+            "The parameters [ device_name ] are added to the method test_shift_by_1_sample_3dim from the module tests/test_shift.py in class TestShift"
+        ],
+        "Commit": "992e45b168c40399fb8e28f05bbb65f3fe19d637",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torch_audiomentations/augmentations/spliceout.py/SpliceOut",
+        "Original Line": 14,
+        "Updated Line": 14,
+        "Description": [
+            "The parameters [ n_fft ] are added to the method __init__ from the module torch_audiomentations/augmentations/spliceout.py in class SpliceOut"
+        ],
+        "Commit": "ed1ae6d162df8fdfac266d9836c12a5a4dedb9aa",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_impulse_response_with_batched_tensor_input",
+        "Updated": "test_impulse_response_guaranteed_with_batched_tensor_input",
+        "Location": "tests/test_impulse_response.py/TestApplyImpulseResponse",
+        "Original Line": 21,
+        "Updated Line": 22,
+        "Description": [
+            "The method test_impulse_response_with_batched_tensor_input from the module tests/test_impulse_response.py in class TestApplyImpulseResponse is renamed to test_impulse_response_guaranteed_with_batched_tensor_input"
+        ],
+        "Commit": "f2f9d49ff262b471f618a52a9e24306baa830b01",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_impulse_response_with_single_tensor_input",
+        "Updated": "test_impulse_response_guaranteed_with_single_tensor_input",
+        "Location": "tests/test_impulse_response.py/TestApplyImpulseResponse",
+        "Original Line": 17,
+        "Updated Line": 18,
+        "Description": [
+            "The method test_impulse_response_with_single_tensor_input from the module tests/test_impulse_response.py in class TestApplyImpulseResponse is renamed to test_impulse_response_guaranteed_with_single_tensor_input"
+        ],
+        "Commit": "f2f9d49ff262b471f618a52a9e24306baa830b01",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "TestApplyBackgroundNoise",
+        "Updated": "TestAddBackgroundNoise",
+        "Location": "tests/test_background_noise.py",
+        "Description": " class TestApplyBackgroundNoise was renamed to class TestAddBackgroundNoise ",
+        "Commit": "f30603bd6c34c6f1a9069b785464656a8c48a47a",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "ApplyBackgroundNoise",
+        "Updated": "AddBackgroundNoise",
+        "Location": "torch_audiomentations/augmentations/background_noise.py",
+        "Description": " class ApplyBackgroundNoise was renamed to class AddBackgroundNoise ",
+        "Commit": "f30603bd6c34c6f1a9069b785464656a8c48a47a",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

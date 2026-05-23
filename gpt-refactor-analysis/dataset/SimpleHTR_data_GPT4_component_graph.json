@@ -1,0 +1,41 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "src/Model.py/Model",
+        "Original Line": 13,
+        "Updated Line": 13,
+        "Description": [
+            "The parameters [ useBeamSearch ] are added to the method __init__ from the module src/Model.py in class Model"
+        ],
+        "Commit": "617e9e28a7c5ae3892043d79da55dfc86435f56b",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "FilePaths",
+        "Updated": "Constants",
+        "Location": "src/analyze.py",
+        "Description": " class FilePaths was renamed to class Constants ",
+        "Commit": "b2ac69ac570c5bf82ab78a094d107b2645952874",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "src/Model.py/Model",
+        "Original Line": 13,
+        "Updated Line": 13,
+        "Description": [
+            "The parameters [ mustRestore ] are added to the method __init__ from the module src/Model.py in class Model"
+        ],
+        "Commit": "da316a356f485b2a593605a9772f3ab18e251581",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

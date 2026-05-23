@@ -1,0 +1,16 @@
+[
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "evaluate",
+        "Updated": "get_data_column",
+        "Location": "eyeballer/eyeballer.py/EyeballModel",
+        "Original Method Line": "(192,193)",
+        "Extracted/Inlined Method Line": 269,
+        "Extracted/Inlined Lines": [
+            261.0
+        ],
+        "Description": " The method get_data_column from the module eyeballer/eyeballer.py in class EyeballModel is extracted from method evaluate from the module eyeballer/eyeballer.py in class EyeballModel ",
+        "Commit": "ae7636b358e9aef2853c6247c529518e7926cdb6",
+        "GPT4 Component Graph": "Data Processing"
+    }
+]

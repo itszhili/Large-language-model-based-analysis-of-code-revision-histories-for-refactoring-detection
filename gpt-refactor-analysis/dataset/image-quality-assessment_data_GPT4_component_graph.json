@@ -1,0 +1,26 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "src/handlers/model_builder.py/Nima",
+        "Original Line": 10,
+        "Updated Line": 10,
+        "Description": [
+            "The parameters [ weights ] are added to the method __init__ from the module src/handlers/model_builder.py in class Nima"
+        ],
+        "Commit": "b9267ab808974104e2cfb969ace8dc62da1237bc",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "TestGetLabels",
+        "Updated": "TestUtils",
+        "Location": "src/tests/test_augmentation_utils.py",
+        "Description": " class TestGetLabels was renamed to class TestUtils ",
+        "Commit": "f18a0aefd1b2bd0dbc728cf5201736838b5eb288",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

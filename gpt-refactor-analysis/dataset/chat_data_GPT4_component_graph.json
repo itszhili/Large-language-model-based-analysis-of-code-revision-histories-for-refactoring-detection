@@ -1,0 +1,47 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "get_location_by_ip",
+        "Updated": "get_location_by_ip",
+        "Location": "chat/api.py",
+        "Original Line": 44,
+        "Updated Line": 44,
+        "Description": [
+            "The parameters [ city ] are added to the method get_location_by_ip from the module chat/api.py"
+        ],
+        "Commit": "76d0f4918e5f1927b078d4dcc1f6ddcb3a9796a4",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "get_navigation_location",
+        "Updated": "get_navigation_location",
+        "Location": "chat/qa.py",
+        "Original Line": 22,
+        "Updated Line": 22,
+        "Description": [
+            "The parameters [ path key ] are added to the method get_navigation_location from the module chat/qa.py"
+        ],
+        "Commit": "a7af5f74b45846c2f2aca17534c8a741d89fa153",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "get_age",
+        "Updated": "get_age",
+        "Location": "chat/mytools.py",
+        "Original Line": 249,
+        "Updated Line": 281,
+        "Description": [
+            "The parameters [ birthday ] of the method get_age from the module chat/mytools.py are changed/renamed to [info]"
+        ],
+        "Commit": "d9cd2102a0e3eed7dfbca3854188577184f4c443",
+        "GPT4 Component Graph": "Data Processing"
+    }
+]

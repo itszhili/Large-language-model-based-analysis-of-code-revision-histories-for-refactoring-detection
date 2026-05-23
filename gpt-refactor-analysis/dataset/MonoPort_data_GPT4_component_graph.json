@@ -1,0 +1,32 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "monoport/lib/dataset/ppl_dynamic.py/PPLDynamicDataset",
+        "Original Line": 21,
+        "Updated Line": 21,
+        "Description": [
+            "The parameters [ split ] are added to the method __init__ from the module monoport/lib/dataset/ppl_dynamic.py in class PPLDynamicDataset"
+        ],
+        "Commit": "3faf2cfac68b738c08d6aa1638111d82957bbf37",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "monoport/lib/dataset/ppl_static.py/PPLStaticDataset",
+        "Original Line": 43,
+        "Updated Line": 43,
+        "Description": [
+            "The parameters [ split ] are added to the method __init__ from the module monoport/lib/dataset/ppl_static.py in class PPLStaticDataset"
+        ],
+        "Commit": "3faf2cfac68b738c08d6aa1638111d82957bbf37",
+        "GPT4 Component Graph": "Data Processing"
+    }
+]

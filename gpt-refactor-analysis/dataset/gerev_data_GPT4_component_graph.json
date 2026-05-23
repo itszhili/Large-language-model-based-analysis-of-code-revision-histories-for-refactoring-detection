@@ -1,0 +1,91 @@
+[
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "_cross_encode",
+        "Updated": "_cross_encode",
+        "Location": "backend/search.py",
+        "Original Line": 71,
+        "Updated Line": 71,
+        "Description": [
+            "The parameters [ encoded_query ] of the method _cross_encode from the module backend/search.py are changed/renamed to [query]"
+        ],
+        "Commit": "56f4254c5e19f370a757db713b79bc66b6aaa753",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "get_left_to_index",
+        "Updated": "get_currently_indexing",
+        "Location": "app/indexing/background_indexer.py/BackgroundIndexer",
+        "Original Line": 14,
+        "Updated Line": 14,
+        "Description": [
+            "The method get_left_to_index from the module app/indexing/background_indexer.py in class BackgroundIndexer is renamed to get_currently_indexing"
+        ],
+        "Commit": "74cdec456439fe05160c26407f8ea9da217e9d5c",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "_feed_channel",
+        "Updated": "_get_mattermost_user",
+        "Location": "app/data_sources/mattermost.py/MattermostDataSource",
+        "Original Method Line": "(115,122)",
+        "Extracted/Inlined Method Line": 118,
+        "Extracted/Inlined Lines": [
+            131.0
+        ],
+        "Description": " The method _get_mattermost_user from the module app/data_sources/mattermost.py in class MattermostDataSource is extracted from method _feed_channel from the module app/data_sources/mattermost.py in class MattermostDataSource ",
+        "Commit": "b7b9e7ba89969d839a904a811732a759c57c3a89",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "add_and_save",
+        "Updated": "update",
+        "Location": "backend/index.py/Index",
+        "Original Line": 31,
+        "Updated Line": 33,
+        "Description": [
+            "The method add_and_save from the module backend/index.py in class Index is renamed to update"
+        ],
+        "Commit": "d2ddaa15013345e8c8af35583e6b98ca29350746",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "get_all_books",
+        "Updated": "get_all_books",
+        "Location": "app/data_sources/bookstack.py/BookStack",
+        "Original Line": 64,
+        "Updated Line": 64,
+        "Description": [
+            "The return type of method get_all_books from the module app/data_sources/bookstack.py in class BookStack is updated"
+        ],
+        "Commit": "e9c552a7da28a1667b583cf8b13f21dbd7d813f8",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "get_all_pages_from_book",
+        "Updated": "get_all_pages_from_book",
+        "Location": "app/data_sources/bookstack.py/BookStack",
+        "Original Line": 83,
+        "Updated Line": 83,
+        "Description": [
+            "The return type of method get_all_pages_from_book from the module app/data_sources/bookstack.py in class BookStack is updated"
+        ],
+        "Commit": "e9c552a7da28a1667b583cf8b13f21dbd7d813f8",
+        "GPT4 Component Graph": "Data Processing"
+    }
+]

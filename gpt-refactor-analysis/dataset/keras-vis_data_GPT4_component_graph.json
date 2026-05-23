@@ -1,0 +1,791 @@
+[
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "main",
+        "Updated": "visualize_multiple_same_filter",
+        "Location": "examples/visualize_layer.py",
+        "Original Line": 9,
+        "Updated Line": 31,
+        "Description": [
+            "The method main from the module examples/visualize_layer.py is renamed to visualize_multiple_same_filter"
+        ],
+        "Commit": "01f0bb2051aee38fd23ad16e4478e136b06974b5",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "vis/callbacks.py/GifGenerator",
+        "Original Line": 50,
+        "Updated Line": 51,
+        "Description": [
+            "The parameters [ input_range ] are added to the method __init__ from the module vis/callbacks.py in class GifGenerator"
+        ],
+        "Commit": "04dcaf123b434250f376ce301bd92e4dc2189907",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_activation",
+        "Updated": "visualize_activation",
+        "Location": "vis/visualization/activation_maximization.py",
+        "Original Line": 52,
+        "Updated Line": 54,
+        "Description": [
+            "The parameters [ wrt_tensor ] are added to the method visualize_activation from the module vis/visualization/activation_maximization.py"
+        ],
+        "Commit": "0c57850db2ba95905f4ff7b38a685bc6d0d38087",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_activation_with_losses",
+        "Updated": "visualize_activation_with_losses",
+        "Location": "vis/visualization/activation_maximization.py",
+        "Original Line": 13,
+        "Updated Line": 13,
+        "Description": [
+            "The parameters [ wrt_tensor ] are added to the method visualize_activation_with_losses from the module vis/visualization/activation_maximization.py"
+        ],
+        "Commit": "0c57850db2ba95905f4ff7b38a685bc6d0d38087",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_saliency",
+        "Updated": "visualize_saliency",
+        "Location": "vis/visualization/saliency.py",
+        "Original Line": 82,
+        "Updated Line": 83,
+        "Description": [
+            "The parameters [ wrt_tensor ] are added to the method visualize_saliency from the module vis/visualization/saliency.py"
+        ],
+        "Commit": "0c57850db2ba95905f4ff7b38a685bc6d0d38087",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_saliency_with_losses",
+        "Updated": "visualize_saliency_with_losses",
+        "Location": "vis/visualization/saliency.py",
+        "Original Line": 51,
+        "Updated Line": 50,
+        "Description": [
+            "The parameters [ wrt_tensor ] are added to the method visualize_saliency_with_losses from the module vis/visualization/saliency.py"
+        ],
+        "Commit": "0c57850db2ba95905f4ff7b38a685bc6d0d38087",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_multiple_same_filter",
+        "Updated": "visualize_multiple_same_filter",
+        "Location": "examples/visualize_layer.py",
+        "Original Line": 31,
+        "Updated Line": 34,
+        "Description": [
+            "The parameters [ num_runs ] are added to the method visualize_multiple_same_filter from the module examples/visualize_layer.py"
+        ],
+        "Commit": "0d682b1227799ae56d1031a6a1adbb385a70a6e2",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_random",
+        "Updated": "visualize_random",
+        "Location": "examples/visualize_layer.py",
+        "Original Line": 9,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ num_categories ] are added to the method visualize_random from the module examples/visualize_layer.py"
+        ],
+        "Commit": "0d682b1227799ae56d1031a6a1adbb385a70a6e2",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "build_loss",
+        "Updated": "build_loss",
+        "Location": "vis/losses.py/Loss",
+        "Original Line": 18,
+        "Updated Line": 18,
+        "Description": [
+            "The parameters [ img ] of the method build_loss from the module vis/losses.py in class Loss is/are removed"
+        ],
+        "Commit": "0d682b1227799ae56d1031a6a1adbb385a70a6e2",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "build_loss",
+        "Updated": "build_loss",
+        "Location": "vis/losses.py/ActivationMaximization",
+        "Original Line": 77,
+        "Updated Line": 73,
+        "Description": [
+            "The parameters [ img ] of the method build_loss from the module vis/losses.py in class ActivationMaximization is/are removed"
+        ],
+        "Commit": "0d682b1227799ae56d1031a6a1adbb385a70a6e2",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_eval_losses",
+        "Updated": "eval_losses",
+        "Location": "vis/optimizer.py/Optimizer",
+        "Original Line": 39,
+        "Updated Line": 45,
+        "Description": [
+            "The method _eval_losses from the module vis/optimizer.py in class Optimizer is renamed to eval_losses"
+        ],
+        "Commit": "0d682b1227799ae56d1031a6a1adbb385a70a6e2",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_get_seed_img",
+        "Updated": "get_seed_img",
+        "Location": "vis/optimizer.py/Optimizer",
+        "Original Line": 104,
+        "Updated Line": 97,
+        "Description": [
+            "The method _get_seed_img from the module vis/optimizer.py in class Optimizer is renamed to get_seed_img"
+        ],
+        "Commit": "0d682b1227799ae56d1031a6a1adbb385a70a6e2",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_jitter",
+        "Updated": "jitter",
+        "Location": "vis/optimizer.py/Optimizer",
+        "Original Line": 88,
+        "Updated Line": 81,
+        "Description": [
+            "The method _jitter from the module vis/optimizer.py in class Optimizer is renamed to jitter"
+        ],
+        "Commit": "0d682b1227799ae56d1031a6a1adbb385a70a6e2",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_rmsprop",
+        "Updated": "rmsprop",
+        "Location": "vis/optimizer.py/Optimizer",
+        "Original Line": 68,
+        "Updated Line": 61,
+        "Description": [
+            "The method _rmsprop from the module vis/optimizer.py in class Optimizer is renamed to rmsprop"
+        ],
+        "Commit": "0d682b1227799ae56d1031a6a1adbb385a70a6e2",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "vis/regularizers.py/TotalVariation",
+        "Original Line": 29,
+        "Updated Line": 28,
+        "Description": [
+            "The parameters [ img_input ] are added to the method __init__ from the module vis/regularizers.py in class TotalVariation"
+        ],
+        "Commit": "0d682b1227799ae56d1031a6a1adbb385a70a6e2",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "vis/regularizers.py/LPNorm",
+        "Original Line": 57,
+        "Updated Line": 59,
+        "Description": [
+            "The parameters [ img_input ] are added to the method __init__ from the module vis/regularizers.py in class LPNorm"
+        ],
+        "Commit": "0d682b1227799ae56d1031a6a1adbb385a70a6e2",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "build_loss",
+        "Updated": "build_loss",
+        "Location": "vis/regularizers.py/LPNorm",
+        "Original Line": 71,
+        "Updated Line": 76,
+        "Description": [
+            "The parameters [ img ] of the method build_loss from the module vis/regularizers.py in class LPNorm is/are removed"
+        ],
+        "Commit": "0d682b1227799ae56d1031a6a1adbb385a70a6e2",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "generate_rand_img",
+        "Updated": "generate_rand_img",
+        "Location": "vis/utils/utils.py",
+        "Original Line": 81,
+        "Updated Line": 97,
+        "Description": [
+            "The parameters [ c w h ] of the method generate_rand_img from the module vis/utils/utils.py are changed/renamed to [ch rows cols]"
+        ],
+        "Commit": "0d682b1227799ae56d1031a6a1adbb385a70a6e2",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "visualize_activation",
+        "Updated": "visualize_activation",
+        "Location": "vis/visualization.py",
+        "Original Line": 80,
+        "Updated Line": 176,
+        "Description": [
+            "The parameters [ img layer ] of the method visualize_activation from the module vis/visualization.py are changed/renamed to [model layer_idx]"
+        ],
+        "Commit": "0d682b1227799ae56d1031a6a1adbb385a70a6e2",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "VGG16",
+        "Updated": "VGG16",
+        "Location": "vis/utils/vggnet.py",
+        "Original Line": 25,
+        "Updated Line": 25,
+        "Description": [
+            "The parameters [ input_shape pooling classes ] are added to the method VGG16 from the module vis/utils/vggnet.py"
+        ],
+        "Commit": "20c1c7500160b7b6eda561a7b11b321745cc0e89",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "get_image_indices",
+        "Updated": "get_img_indices",
+        "Location": "vis/utils/utils.py",
+        "Original Line": 117,
+        "Updated Line": 117,
+        "Description": [
+            "The method get_image_indices from the module vis/utils/utils.py is renamed to get_img_indices"
+        ],
+        "Commit": "2430a1713b6650f8b336aa94d22e98271202220c",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "BackendAgnosticImageSlice",
+        "Updated": "_BackendAgnosticImageSlice",
+        "Location": "vis/utils/utils.py",
+        "Description": " class BackendAgnosticImageSlice was renamed to class _BackendAgnosticImageSlice ",
+        "Commit": "2430a1713b6650f8b336aa94d22e98271202220c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "BoundedRange",
+        "Updated": "LPNorm",
+        "Location": "regularizers.py",
+        "Description": " class BoundedRange was renamed to class LPNorm ",
+        "Commit": "28efeac08d3d26a9f966fd726f193dfbac496734",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "minimize",
+        "Updated": "minimize",
+        "Location": "vis/optimizer.py/Optimizer",
+        "Original Line": 92,
+        "Updated Line": 99,
+        "Description": [
+            "The parameters [ grad_modifier ] are added to the method minimize from the module vis/optimizer.py in class Optimizer"
+        ],
+        "Commit": "29580bdf7b46f06fe51ef063c41bf2709024239f",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_saliency",
+        "Updated": "visualize_saliency",
+        "Location": "vis/visualization/saliency.py",
+        "Original Line": 83,
+        "Updated Line": 87,
+        "Description": [
+            "The parameters [ keepdims ] are added to the method visualize_saliency from the module vis/visualization/saliency.py"
+        ],
+        "Commit": "2b12dbcde7f9de6424db21fb8070e45ec55b9ee8",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_saliency_with_losses",
+        "Updated": "visualize_saliency_with_losses",
+        "Location": "vis/visualization/saliency.py",
+        "Original Line": 50,
+        "Updated Line": 50,
+        "Description": [
+            "The parameters [ keepdims ] are added to the method visualize_saliency_with_losses from the module vis/visualization/saliency.py"
+        ],
+        "Commit": "2b12dbcde7f9de6424db21fb8070e45ec55b9ee8",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_get_num_filters",
+        "Updated": "get_num_filters",
+        "Location": "vis/visualization.py",
+        "Original Line": 14,
+        "Updated Line": 15,
+        "Description": [
+            "The method _get_num_filters from the module vis/visualization.py is renamed to get_num_filters"
+        ],
+        "Commit": "4e8a831d2a4f4ce8d80c25d43c614255237da71a",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_cam",
+        "Updated": "visualize_cam",
+        "Location": "vis/visualization.py",
+        "Original Line": 89,
+        "Updated Line": 170,
+        "Description": [
+            "The parameters [ text ] are added to the method visualize_cam from the module vis/visualization.py"
+        ],
+        "Commit": "4e8a831d2a4f4ce8d80c25d43c614255237da71a",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_saliency",
+        "Updated": "visualize_saliency",
+        "Location": "vis/visualization.py",
+        "Original Line": 30,
+        "Updated Line": 107,
+        "Description": [
+            "The parameters [ text ] are added to the method visualize_saliency from the module vis/visualization.py"
+        ],
+        "Commit": "4e8a831d2a4f4ce8d80c25d43c614255237da71a",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "_compute_grads",
+        "Updated": "_compute_grads",
+        "Location": "tests/vis/backend/test_backend.py",
+        "Original Line": 12,
+        "Updated Line": 12,
+        "Description": [
+            "The parameters [ input_value ] of the method _compute_grads from the module tests/vis/backend/test_backend.py are changed/renamed to [input_array]"
+        ],
+        "Commit": "514b7f7c52d7231f1a3615819b1adb237de73004",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_modified_backprop",
+        "Updated": "_guided_backprop",
+        "Location": "vis/backend/tensorflow_backend.py",
+        "Original Line": 15,
+        "Updated Line": 15,
+        "Description": [
+            "The method _modified_backprop from the module vis/backend/tensorflow_backend.py is renamed to _guided_backprop"
+        ],
+        "Commit": "514b7f7c52d7231f1a3615819b1adb237de73004",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_activation",
+        "Updated": "visualize_activation",
+        "Location": "visualization.py",
+        "Original Line": 79,
+        "Updated Line": 79,
+        "Description": [
+            "The parameters [ seed_img ] are added to the method visualize_activation from the module visualization.py"
+        ],
+        "Commit": "56161808d37953c14aa30526752a916e445560f2",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "get_imagenet_label",
+        "Updated": "lookup_imagenet_labels",
+        "Location": "vis/utils/utils.py",
+        "Original Line": 256,
+        "Updated Line": 255,
+        "Description": [
+            "The method get_imagenet_label from the module vis/utils/utils.py is renamed to lookup_imagenet_labels",
+            "The parameters [ join ] of the method get_imagenet_label from the module vis/utils/utils.py is/are removed"
+        ],
+        "Commit": "56198ddddd47ac1ff9867a60496ae0ffb6f12ea1",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "vis/optimizer.py/Optimizer",
+        "Original Line": 13,
+        "Updated Line": 13,
+        "Description": [
+            "The parameters [ norm_grads ] are added to the method __init__ from the module vis/optimizer.py in class Optimizer"
+        ],
+        "Commit": "5ee8d4a1719a4c1070924351af9c2119432e7066",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "rmsprop",
+        "Updated": "_rmsprop",
+        "Location": "vis/optimizer.py/Optimizer",
+        "Original Line": 61,
+        "Updated Line": 49,
+        "Description": [
+            "The method rmsprop from the module vis/optimizer.py in class Optimizer is renamed to _rmsprop"
+        ],
+        "Commit": "5ee8d4a1719a4c1070924351af9c2119432e7066",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "minimize",
+        "Updated": "minimize",
+        "Location": "vis/optimizer.py/Optimizer",
+        "Original Line": 95,
+        "Updated Line": 83,
+        "Description": [
+            "The parameters [ progress_gif_path ] of the method minimize from the module vis/optimizer.py in class Optimizer are changed/renamed to [callbacks]"
+        ],
+        "Commit": "5ee8d4a1719a4c1070924351af9c2119432e7066",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "visualize_cam",
+        "Updated": "visualize_cam",
+        "Location": "vis/visualization.py",
+        "Original Line": 177,
+        "Updated Line": 177,
+        "Description": [
+            "The parameters [ overlay ] of the method visualize_cam from the module vis/visualization.py is/are removed"
+        ],
+        "Commit": "5ee8d4a1719a4c1070924351af9c2119432e7066",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "visualize_saliency",
+        "Updated": "visualize_saliency",
+        "Location": "vis/visualization.py",
+        "Original Line": 114,
+        "Updated Line": 117,
+        "Description": [
+            "The parameters [ overlay ] of the method visualize_saliency from the module vis/visualization.py is/are removed"
+        ],
+        "Commit": "5ee8d4a1719a4c1070924351af9c2119432e7066",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "minimize",
+        "Updated": "minimize",
+        "Location": "vis/optimizer.py/Optimizer",
+        "Original Line": 87,
+        "Updated Line": 92,
+        "Description": [
+            "The parameters [ seed_img ] of the method minimize from the module vis/optimizer.py in class Optimizer are changed/renamed to [seed_input]"
+        ],
+        "Commit": "7f0ae42983727c049b2e67bff7125e5b12773bfd",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "minimize",
+        "Updated": "minimize",
+        "Location": "vis/optimizer.py/Optimizer",
+        "Original Line": 111,
+        "Updated Line": 95,
+        "Description": [
+            "The parameters [ jitter ] of the method minimize from the module vis/optimizer.py in class Optimizer are changed/renamed to [image_modifiers]"
+        ],
+        "Commit": "848ab9f00d7e8b9ae730fe4f06dff361a0105ffc",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "func2md",
+        "Updated": "func2md",
+        "Location": "docs/md_autogen.py/MarkdownAPIGenerator",
+        "Original Line": 185,
+        "Updated Line": 186,
+        "Description": [
+            "The parameters [ names ] are added to the method func2md from the module docs/md_autogen.py in class MarkdownAPIGenerator"
+        ],
+        "Commit": "9f221345e7a58804e347f2a1879b06922222413b",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "generate_cam",
+        "Updated": "generate_cam",
+        "Location": "examples/attention_maps.py",
+        "Original Line": 33,
+        "Updated Line": 35,
+        "Description": [
+            "The parameters [ show ] are added to the method generate_cam from the module examples/attention_maps.py"
+        ],
+        "Commit": "b00571a9c076a627ec375068eb7a0bdbe9ddac3c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "generate_saliceny_map",
+        "Updated": "generate_saliceny_map",
+        "Location": "examples/attention_maps.py",
+        "Original Line": 11,
+        "Updated Line": 11,
+        "Description": [
+            "The parameters [ show ] are added to the method generate_saliceny_map from the module examples/attention_maps.py"
+        ],
+        "Commit": "b00571a9c076a627ec375068eb7a0bdbe9ddac3c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_multiple_categories",
+        "Updated": "visualize_multiple_categories",
+        "Location": "examples/visualize_layer.py",
+        "Original Line": 59,
+        "Updated Line": 65,
+        "Description": [
+            "The parameters [ show ] are added to the method visualize_multiple_categories from the module examples/visualize_layer.py"
+        ],
+        "Commit": "b00571a9c076a627ec375068eb7a0bdbe9ddac3c",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_multiple_same_filter",
+        "Updated": "visualize_multiple_same_filter",
+        "Location": "examples/visualize_layer.py",
+        "Original Line": 35,
+        "Updated Line": 37,
+        "Description": [
+            "The parameters [ show ] are added to the method visualize_multiple_same_filter from the module examples/visualize_layer.py"
+        ],
+        "Commit": "b00571a9c076a627ec375068eb7a0bdbe9ddac3c",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_random",
+        "Updated": "visualize_random",
+        "Location": "examples/visualize_layer.py",
+        "Original Line": 9,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ show ] are added to the method visualize_random from the module examples/visualize_layer.py"
+        ],
+        "Commit": "b00571a9c076a627ec375068eb7a0bdbe9ddac3c",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "rmsprop",
+        "Updated": "_rmsprop",
+        "Location": "optimizer.py/Optimizer",
+        "Original Line": 85,
+        "Updated Line": 58,
+        "Description": [
+            "The method rmsprop from the module optimizer.py in class Optimizer is renamed to _rmsprop"
+        ],
+        "Commit": "b5fd7ba5cd24f36e038c3a77f94df740424c0d0b",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "apply_modifications",
+        "Updated": "apply_modifications",
+        "Location": "vis/utils/utils.py",
+        "Original Line": 95,
+        "Updated Line": 95,
+        "Description": [
+            "The parameters [ custom_objects ] are added to the method apply_modifications from the module vis/utils/utils.py"
+        ],
+        "Commit": "bbddec8fecb429b497c81f592d3e9b2925d520ef",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "build_loss",
+        "Updated": "build_loss",
+        "Location": "losses.py/Loss",
+        "Original Line": 12,
+        "Updated Line": 12,
+        "Description": [
+            "The parameters [ layer_dict ] of the method build_loss from the module losses.py in class Loss is/are removed"
+        ],
+        "Commit": "e44aa334cc01416d9fe5d1c43e993456cec6d63b",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "optimizer.py/Optimizer",
+        "Original Line": 10,
+        "Updated Line": 12,
+        "Description": [
+            "The parameters [ regularizers ] of the method __init__ from the module optimizer.py in class Optimizer is/are removed"
+        ],
+        "Commit": "e44aa334cc01416d9fe5d1c43e993456cec6d63b",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "minimize",
+        "Updated": "minimize",
+        "Location": "optimizer.py/Optimizer",
+        "Original Line": 76,
+        "Updated Line": 79,
+        "Description": [
+            "The parameters [ jitter progress_gif_path ] are added to the method minimize from the module optimizer.py in class Optimizer"
+        ],
+        "Commit": "e44aa334cc01416d9fe5d1c43e993456cec6d63b",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "visualize_activation",
+        "Updated": "visualize_activation",
+        "Location": "vis/visualization.py",
+        "Original Line": 41,
+        "Updated Line": 41,
+        "Description": [
+            "The parameters [ text ] of the method visualize_activation from the module vis/visualization.py is/are removed"
+        ],
+        "Commit": "f92dd441311594f80ee5be4a2d2a1d6b21b96c59",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "minimize",
+        "Updated": "_get_seed_img",
+        "Location": "optimizer.py/Optimizer",
+        "Original Method Line": "(78,92)",
+        "Extracted/Inlined Method Line": 78,
+        "Extracted/Inlined Lines": [
+            92.0,
+            93.0,
+            94.0,
+            96.0,
+            97.0,
+            99.0
+        ],
+        "Description": " The method _get_seed_img from the module optimizer.py in class Optimizer is extracted from method minimize from the module optimizer.py in class Optimizer ",
+        "Commit": "fed2eea3b464773d3d6f9edbc2fc6dec9798ed5b",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

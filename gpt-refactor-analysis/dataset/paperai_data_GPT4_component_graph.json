@@ -1,0 +1,32 @@
+[
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "testSearch",
+        "Updated": "testSearch",
+        "Location": "test/python/testapi.py/TestAPI",
+        "Original Line": 57,
+        "Updated Line": 56,
+        "Description": [
+            "The parameters [ cpucount ] of the method testSearch from the module test/python/testapi.py in class TestAPI is/are removed"
+        ],
+        "Commit": "6d307c7b8e82c23164907fb17628297cfe8f6c2a",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "testSearch",
+        "Updated": "testSearch",
+        "Location": "test/python/testapi.py/TestAPI",
+        "Original Line": 56,
+        "Updated Line": 57,
+        "Description": [
+            "The parameters [ cpucount ] are added to the method testSearch from the module test/python/testapi.py in class TestAPI"
+        ],
+        "Commit": "92413ca6ec4ea165f1f3b7d18e3c0b84ca0d443a",
+        "GPT4 Component Graph": "Data Processing"
+    }
+]

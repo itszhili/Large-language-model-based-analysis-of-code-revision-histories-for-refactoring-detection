@@ -1,0 +1,361 @@
+[
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "get_all_ranks",
+        "Updated": "get_all_ranks",
+        "Location": "pluribus/game/card.py",
+        "Original Line": 9,
+        "Updated Line": 11,
+        "Description": [
+            "The return type of method get_all_ranks from the module pluribus/game/card.py is updated"
+        ],
+        "Commit": "08aec094d1bc253867304fe9f4d6c2e2e6cd0de1",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "get_all_suits",
+        "Updated": "get_all_suits",
+        "Location": "pluribus/game/card.py",
+        "Original Line": 4,
+        "Updated Line": 6,
+        "Description": [
+            "The return type of method get_all_suits from the module pluribus/game/card.py is updated"
+        ],
+        "Commit": "08aec094d1bc253867304fe9f4d6c2e2e6cd0de1",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "process_river_ehs",
+        "Updated": "process_river_ehs",
+        "Location": "poker_ai/clustering/card_info_lut_builder.py/CardInfoLutBuilder",
+        "Original Line": 223,
+        "Updated Line": 225,
+        "Description": [
+            "The return type of method process_river_ehs from the module poker_ai/clustering/card_info_lut_builder.py in class CardInfoLutBuilder is updated"
+        ],
+        "Commit": "1b85ecd7bf6957cc276a2e1d9e18cf830aac13d9",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "process_turn_ehs_distributions",
+        "Updated": "process_turn_ehs_distributions",
+        "Location": "poker_ai/clustering/card_info_lut_builder.py/CardInfoLutBuilder",
+        "Original Line": 263,
+        "Updated Line": 265,
+        "Description": [
+            "The return type of method process_turn_ehs_distributions from the module poker_ai/clustering/card_info_lut_builder.py in class CardInfoLutBuilder is updated"
+        ],
+        "Commit": "1b85ecd7bf6957cc276a2e1d9e18cf830aac13d9",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "research/clustering/information_abstraction.py/ShortDeck",
+        "Original Line": 36,
+        "Updated Line": 51,
+        "Description": [
+            "The parameters [ num_cards ] of the method __init__ from the module research/clustering/information_abstraction.py in class ShortDeck is/are removed"
+        ],
+        "Commit": "1d4f4f3e039757305bf8e2d15cfdef119d17a492",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "research/clustering/information_abstraction.py/InfoSets",
+        "Original Line": 103,
+        "Updated Line": 118,
+        "Description": [
+            "The parameters [ num_cards ] of the method __init__ from the module research/clustering/information_abstraction.py in class InfoSets is/are removed"
+        ],
+        "Commit": "1d4f4f3e039757305bf8e2d15cfdef119d17a492",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "research/clustering/information_abstraction.py/InfoBucketMaker",
+        "Original Line": 140,
+        "Updated Line": 155,
+        "Description": [
+            "The parameters [ num_cards ] of the method __init__ from the module research/clustering/information_abstraction.py in class InfoBucketMaker is/are removed"
+        ],
+        "Commit": "1d4f4f3e039757305bf8e2d15cfdef119d17a492",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "research/multiprocessing_blueprint/worker.py/Worker",
+        "Original Line": 21,
+        "Updated Line": 19,
+        "Description": [
+            "The parameters [ logging_queue ] are added to the method __init__ from the module research/multiprocessing_blueprint/worker.py in class Worker"
+        ],
+        "Commit": "35b5467eb47402683d3e06a795fe215029df2245",
+        "GPT4 Component Graph": "Monitoring & Logging"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "research/blueprint_algo/blueprint_short_deck_poker.py/ShortDeckPokerState",
+        "Original Line": 125,
+        "Updated Line": 106,
+        "Description": [
+            "The parameters [ small_blind big_blind ] are added to the method __init__ from the module research/blueprint_algo/blueprint_short_deck_poker.py in class ShortDeckPokerState"
+        ],
+        "Commit": "3de342b9fca46b35535c43e40d9df62800d5b514",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "_increment_stage",
+        "Updated": "_reset_betting_round_state",
+        "Location": "research/blueprint_algo/blueprint_short_deck_poker.py/ShortDeckPokerState",
+        "Original Method Line": "(214,207)",
+        "Extracted/Inlined Method Line": 202,
+        "Extracted/Inlined Lines": [
+            217.0
+        ],
+        "Description": " The method _reset_betting_round_state from the module research/blueprint_algo/blueprint_short_deck_poker.py in class ShortDeckPokerState is extracted from method _increment_stage from the module research/blueprint_algo/blueprint_short_deck_poker.py in class ShortDeckPokerState ",
+        "Commit": "3de342b9fca46b35535c43e40d9df62800d5b514",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "new_game",
+        "Updated": "new_game",
+        "Location": "research/blueprint_algo/blueprint_short_deck_poker.py",
+        "Original Line": 265,
+        "Updated Line": 271,
+        "Description": [
+            "The parameters [ info_set_lut ] are added to the method new_game from the module research/blueprint_algo/blueprint_short_deck_poker.py"
+        ],
+        "Commit": "661066eb43e8cf47601c44d273e6bc25bf924c94",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "h",
+        "Updated": "h",
+        "Location": "research/blueprint_algo/blueprint_short_deck_poker.py/ShortDeckPokerState",
+        "Original Line": 225,
+        "Updated Line": 231,
+        "Description": [
+            "The return type of method h from the module research/blueprint_algo/blueprint_short_deck_poker.py in class ShortDeckPokerState is updated"
+        ],
+        "Commit": "67bf0d25365ab99839bc7fc8bd719e131e104b11",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "legal_actions",
+        "Updated": "legal_actions",
+        "Location": "research/blueprint_algo/blueprint_short_deck_poker.py/ShortDeckPokerState",
+        "Original Line": 220,
+        "Updated Line": 226,
+        "Description": [
+            "The return type of method legal_actions from the module research/blueprint_algo/blueprint_short_deck_poker.py in class ShortDeckPokerState is updated"
+        ],
+        "Commit": "67bf0d25365ab99839bc7fc8bd719e131e104b11",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "rs",
+        "Updated": "rs",
+        "Location": "research/blueprint_algo/blueprint_short_deck_poker.py/ShortDeckPokerState",
+        "Original Line": 230,
+        "Updated Line": 236,
+        "Description": [
+            "The return type of method rs from the module research/blueprint_algo/blueprint_short_deck_poker.py in class ShortDeckPokerState is updated"
+        ],
+        "Commit": "67bf0d25365ab99839bc7fc8bd719e131e104b11",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "next",
+        "Updated": "__call__",
+        "Location": "research/preflop_hand_ranking/monte_carlo_rank.py/PreflopMatrixEvaluator",
+        "Original Line": 74,
+        "Updated Line": 56,
+        "Description": [
+            "The method next from the module research/preflop_hand_ranking/monte_carlo_rank.py in class PreflopMatrixEvaluator is renamed to __call__"
+        ],
+        "Commit": "6ce983e46c10ef0357159d90ff365937aadcd18d",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "research/preflop_hand_ranking/monte_carlo_rank.py/PreflopMatrixEvaluator",
+        "Original Line": 15,
+        "Updated Line": 50,
+        "Description": [
+            "The parameters [ n_ranks ] are added to the method __init__ from the module research/preflop_hand_ranking/monte_carlo_rank.py in class PreflopMatrixEvaluator"
+        ],
+        "Commit": "6ce983e46c10ef0357159d90ff365937aadcd18d",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "_send_job",
+        "Updated": "_send_job",
+        "Location": "research/blueprint_algo/sync/server.py/Server",
+        "Original Line": 112,
+        "Updated Line": 115,
+        "Description": [
+            "The parameters [ name ] of the method _send_job from the module research/blueprint_algo/sync/server.py in class Server are changed/renamed to [job_name]"
+        ],
+        "Commit": "b9a71fd6f86c2356bb9a4635dd9fd065c75d5dd7",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "research/blueprint_algo/sync/worker.py/Worker",
+        "Original Line": 17,
+        "Updated Line": 19,
+        "Description": [
+            "The parameters [ queue worker_status ] of the method __init__ from the module research/blueprint_algo/sync/worker.py in class Worker are changed/renamed to [job_queue status_queue]"
+        ],
+        "Commit": "b9a71fd6f86c2356bb9a4635dd9fd065c75d5dd7",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "cli",
+        "Updated": "train",
+        "Location": "poker_ai/ai/runner.py",
+        "Original Line": 100,
+        "Updated Line": 100,
+        "Description": [
+            "The method cli from the module poker_ai/ai/runner.py is renamed to train"
+        ],
+        "Commit": "bc2696134c2240bba31ea763855001323237c70c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pluribus/game/state.py/PokerGameState",
+        "Original Line": 12,
+        "Updated Line": 12,
+        "Description": [
+            "The parameters [ is_terminal ] are added to the method __init__ from the module pluribus/game/state.py in class PokerGameState"
+        ],
+        "Commit": "bea7932d014d02cc0cceafc8b0aa74b5e6f7e554",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_round_setup",
+        "Updated": "round_setup",
+        "Location": "pluribus/game/engine.py/PokerEngine",
+        "Original Line": 44,
+        "Updated Line": 44,
+        "Description": [
+            "The method _round_setup from the module pluribus/game/engine.py in class PokerEngine is renamed to round_setup"
+        ],
+        "Commit": "c33e709731a4337e822d889244a6acaa9a29da65",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "all_bets",
+        "Updated": "all_bets",
+        "Location": "pluribus/game/engine.py/PokerEngine",
+        "Original Line": 238,
+        "Updated Line": 238,
+        "Description": [
+            "The return type of method all_bets from the module pluribus/game/engine.py in class PokerEngine is updated"
+        ],
+        "Commit": "d30860e05c9e42b8d821281f7a4a912aac653e58",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pluribus/games/short_deck/state.py/ShortDeckPokerState",
+        "Original Line": 23,
+        "Updated Line": 26,
+        "Description": [
+            "The parameters [ pickle_dir load_pickle_files ] are added to the method __init__ from the module pluribus/games/short_deck/state.py in class ShortDeckPokerState"
+        ],
+        "Commit": "e48957521e88107f43b1454d1554b4e03aacd61b",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "bet",
+        "Updated": "add_to_pot",
+        "Location": "pluribus/game/player.py/Player",
+        "Original Line": 59,
+        "Updated Line": 64,
+        "Description": [
+            "The method bet from the module pluribus/game/player.py in class Player is renamed to add_to_pot"
+        ],
+        "Commit": "f1005b08ffdacbe84dcac1cdb6854b5142459ec3",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

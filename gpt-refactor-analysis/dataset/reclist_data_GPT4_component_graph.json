@@ -1,0 +1,256 @@
+[
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "nep_stats",
+        "Updated": "basic_stats",
+        "Location": "reclist/reclist.py/SpotifySessionRecList",
+        "Original Line": 74,
+        "Updated Line": 74,
+        "Description": [
+            "The method nep_stats from the module reclist/reclist.py in class SpotifySessionRecList is renamed to basic_stats"
+        ],
+        "Commit": "1ade80bbbb82c1b58a734dbc5bc78892ed5d4d64",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "CoveoSessionRecList",
+        "Updated": "FreeSessionRecList",
+        "Location": "reclist/receval_apo.py",
+        "Description": " class CoveoSessionRecList was renamed to class FreeSessionRecList ",
+        "Commit": "2cf9895d3fda81d3ccc3a31946ffce3f6c288842",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "mrr_at_k",
+        "Updated": "rr_at_k",
+        "Location": "reclist/metrics/standard_metrics.py",
+        "Original Method Line": "(92,105)",
+        "Extracted/Inlined Method Line": 99,
+        "Extracted/Inlined Lines": [
+            94.0,
+            95.0,
+            97.0
+        ],
+        "Description": " The method rr_at_k from the module reclist/metrics/standard_metrics.py is extracted from method mrr_at_k from the module reclist/metrics/standard_metrics.py ",
+        "Commit": "3c3d79f591df94985e56ce6ea81999720bd400d7",
+        "GPT4 Component Graph": "Evaluation"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "hits_at_k",
+        "Updated": "hits_at_k",
+        "Location": "reclist/metrics/standard_metrics.py",
+        "Original Line": 27,
+        "Updated Line": 28,
+        "Description": [
+            "The return type of method hits_at_k from the module reclist/metrics/standard_metrics.py is updated"
+        ],
+        "Commit": "4a37419f7a0d553a8054951a4018ebc47fc3b84e",
+        "GPT4 Component Graph": "Evaluation"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "false_positives_at_k",
+        "Updated": "misses_at_k",
+        "Location": "reclist/metrics/standard_metrics.py",
+        "Original Line": 38,
+        "Updated Line": 38,
+        "Description": [
+            "The method false_positives_at_k from the module reclist/metrics/standard_metrics.py is renamed to misses_at_k"
+        ],
+        "Commit": "4f77db6da6ea8a1a1e828535af3ead15e81cda10",
+        "GPT4 Component Graph": "Evaluation"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "train",
+        "Updated": "train",
+        "Location": "reclist/recommenders/prod2vec.py/CoveoP2VRecModel",
+        "Original Line": 17,
+        "Updated Line": 17,
+        "Description": [
+            "The parameters [ iterations ] are added to the method train from the module reclist/recommenders/prod2vec.py in class CoveoP2VRecModel"
+        ],
+        "Commit": "69e0135914a7de48829bcce0245973299fb9602f",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "train",
+        "Updated": "train",
+        "Location": "reclist/recommenders/prod2vec.py/SpotifyP2VRecModel",
+        "Original Line": 59,
+        "Updated Line": 59,
+        "Description": [
+            "The parameters [ iterations ] are added to the method train from the module reclist/recommenders/prod2vec.py in class SpotifyP2VRecModel"
+        ],
+        "Commit": "69e0135914a7de48829bcce0245973299fb9602f",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_examples",
+        "Updated": "test_coveo_example",
+        "Location": "tests/test_reclist.py",
+        "Original Line": 16,
+        "Updated Line": 16,
+        "Description": [
+            "The method test_examples from the module tests/test_reclist.py is renamed to test_coveo_example"
+        ],
+        "Commit": "69e0135914a7de48829bcce0245973299fb9602f",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "predict",
+        "Updated": "predict",
+        "Location": "reclist/abstractions.py/RecModel",
+        "Original Line": 72,
+        "Updated Line": 72,
+        "Description": [
+            "The parameters [ prediction_input ] of the method predict from the module reclist/abstractions.py in class RecModel is/are removed"
+        ],
+        "Commit": "75107ab15426256b6a53a75ab961e31498ecb4ea",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "rmse_by_genre",
+        "Updated": "rmse_by_slice",
+        "Location": "reclist/reclist.py/MovieLensRecList",
+        "Original Method Line": "(23,28)",
+        "Extracted/Inlined Method Line": 13,
+        "Extracted/Inlined Lines": [
+            24.0,
+            25.0,
+            26.0
+        ],
+        "Description": " The method rmse_by_slice from the module reclist/reclist.py in class MovieLensRecList is extracted from method rmse_by_genre from the module reclist/reclist.py in class MovieLensRecList ",
+        "Commit": "783fd9a13a559be4428cd1e4f525617bc17de5b4",
+        "GPT4 Component Graph": "Evaluation"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "P2VRecModel",
+        "Updated": "CoveoP2VRecModel",
+        "Location": "reclist/recommenders/prod2vec.py",
+        "Description": " class P2VRecModel was renamed to class CoveoP2VRecModel ",
+        "Commit": "9ba366a0281e455cb0cce252a7cc584e85c9e97b",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "reclist/receval.py/RecList",
+        "Original Line": 52,
+        "Updated Line": 52,
+        "Description": [
+            "The parameters [ logging_parameters ] are added to the method __init__ from the module reclist/receval.py in class RecList"
+        ],
+        "Commit": "a0c506cf3ad21c91c370b770e9cc12f49c00f62f",
+        "GPT4 Component Graph": "Monitoring & Logging"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "reclist/receval.py/CoveoSessionRecList",
+        "Original Line": 204,
+        "Updated Line": 204,
+        "Description": [
+            "The parameters [ similarity_model ] are added to the method __init__ from the module reclist/receval.py in class CoveoSessionRecList"
+        ],
+        "Commit": "a0c506cf3ad21c91c370b770e9cc12f49c00f62f",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "rr_at_k",
+        "Updated": "rr_at_k",
+        "Location": "reclist/metrics/standard_metrics.py",
+        "Original Line": 197,
+        "Updated Line": 197,
+        "Description": [
+            "The return type of method rr_at_k from the module reclist/metrics/standard_metrics.py is updated"
+        ],
+        "Commit": "d3a1fb9a9218b74edf7711b94b5403d38dc0efe6",
+        "GPT4 Component Graph": "Evaluation"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "misses_at_k",
+        "Updated": "misses_at_k",
+        "Location": "reclist/metrics/standard_metrics.py",
+        "Original Line": 92,
+        "Updated Line": 121,
+        "Description": [
+            "The return type of method misses_at_k from the module reclist/metrics/standard_metrics.py is updated"
+        ],
+        "Commit": "e0d3a83501fab5c1c077685c12cd4e4a2dd7a929",
+        "GPT4 Component Graph": "Evaluation"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "ranks_at_k",
+        "Updated": "ranks_at_k",
+        "Location": "reclist/metrics/standard_metrics.py",
+        "Original Line": 79,
+        "Updated Line": 82,
+        "Description": [
+            "The return type of method ranks_at_k from the module reclist/metrics/standard_metrics.py is updated"
+        ],
+        "Commit": "e0d3a83501fab5c1c077685c12cd4e4a2dd7a929",
+        "GPT4 Component Graph": "Evaluation"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "SkigramSimilarityModel",
+        "Updated": "FakeSimilarityModel",
+        "Location": "reclist/similarity_models.py",
+        "Description": " class SkigramSimilarityModel was renamed to class FakeSimilarityModel ",
+        "Commit": "f115829fff19268e75d440ee953591bbdf6794b6",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "train",
+        "Updated": "train",
+        "Location": "reclist/recommenders/prod2vec.py/MovieLensP2VRecModel",
+        "Original Line": 107,
+        "Updated Line": 107,
+        "Description": [
+            "The parameters [ iterations ] are added to the method train from the module reclist/recommenders/prod2vec.py in class MovieLensP2VRecModel"
+        ],
+        "Commit": "f1a3dc25e4cf5477cfcea644141ab24e09f9052d",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

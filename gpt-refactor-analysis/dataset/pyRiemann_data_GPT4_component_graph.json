@@ -1,0 +1,588 @@
+[
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyriemann/spatialfilters.py/AJDC",
+        "Original Line": 551,
+        "Updated Line": 554,
+        "Description": [
+            "The parameters [ expl_var ] of the method __init__ from the module pyriemann/spatialfilters.py in class AJDC are changed/renamed to [dim_red]"
+        ],
+        "Commit": "039ce35992059724a237c3d90b32cc5a65b8d2da",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "covmeans",
+        "Updated": "centroids",
+        "Location": "pyriemann/clustering.py/Kmeans",
+        "Original Line": 123,
+        "Updated Line": 211,
+        "Description": [
+            "The method covmeans from the module pyriemann/clustering.py in class Kmeans is renamed to centroids"
+        ],
+        "Commit": "149f3098a908750edb1cfb23eef339a2b0edc15f",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyriemann/spatialfilters.py/CSP",
+        "Original Line": 181,
+        "Updated Line": 184,
+        "Description": [
+            "The parameters [ log ] are added to the method __init__ from the module pyriemann/spatialfilters.py in class CSP"
+        ],
+        "Commit": "3187dca1d75b8c0831cbd2216be8f37d22603d64",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyriemann/estimation.py/XdawnCovariances",
+        "Original Line": 208,
+        "Updated Line": 208,
+        "Description": [
+            "The parameters [ baseline_cov ] are added to the method __init__ from the module pyriemann/estimation.py in class XdawnCovariances"
+        ],
+        "Commit": "353b65cf4308f3e34d38cddc5cf25f8d160e88d7",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyriemann/spatialfilters.py/Xdawn",
+        "Original Line": 60,
+        "Updated Line": 61,
+        "Description": [
+            "The parameters [ Cx ] of the method __init__ from the module pyriemann/spatialfilters.py in class Xdawn are changed/renamed to [baseline_cov]"
+        ],
+        "Commit": "353b65cf4308f3e34d38cddc5cf25f8d160e88d7",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_Xdawn_Cx",
+        "Updated": "test_Xdawn_baselinecov",
+        "Location": "tests/test_spatialfilters.py",
+        "Original Line": 27,
+        "Updated Line": 27,
+        "Description": [
+            "The method test_Xdawn_Cx from the module tests/test_spatialfilters.py is renamed to test_Xdawn_baselinecov"
+        ],
+        "Commit": "353b65cf4308f3e34d38cddc5cf25f8d160e88d7",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_distance_func_rand",
+        "Updated": "test_distance_func_geodesic",
+        "Location": "tests/test_utils_distance.py",
+        "Original Line": 65,
+        "Updated Line": 65,
+        "Description": [
+            "The method test_distance_func_rand from the module tests/test_utils_distance.py is renamed to test_distance_func_geodesic"
+        ],
+        "Commit": "38c754685146aa7a7b6814b25e4d04cd51bcfaeb",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_distance_logdet_implementation",
+        "Updated": "test_distance_implementation_logdet",
+        "Location": "tests/test_utils_distance.py",
+        "Original Line": 73,
+        "Updated Line": 115,
+        "Description": [
+            "The method test_distance_logdet_implementation from the module tests/test_utils_distance.py is renamed to test_distance_implementation_logdet"
+        ],
+        "Commit": "38c754685146aa7a7b6814b25e4d04cd51bcfaeb",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyriemann/clustering.py/Potato",
+        "Original Line": 286,
+        "Updated Line": 290,
+        "Description": [
+            "The parameters [ pos_label neg_label ] are added to the method __init__ from the module pyriemann/clustering.py in class Potato"
+        ],
+        "Commit": "3cef2c2b249faa0fbd86a534bad9d3c5a2bcd501",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "fit",
+        "Updated": "fit",
+        "Location": "pyriemann/tangentspace.py/TangentSpace",
+        "Original Line": 75,
+        "Updated Line": 75,
+        "Description": [
+            "The parameters [ sample_weight ] are added to the method fit from the module pyriemann/tangentspace.py in class TangentSpace"
+        ],
+        "Commit": "45ad6827355e80f45ccaf1bb88e17da410764a4a",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "fit_transform",
+        "Updated": "fit_transform",
+        "Location": "pyriemann/tangentspace.py/TangentSpace",
+        "Original Line": 140,
+        "Updated Line": 143,
+        "Description": [
+            "The parameters [ sample_weight ] are added to the method fit_transform from the module pyriemann/tangentspace.py in class TangentSpace"
+        ],
+        "Commit": "45ad6827355e80f45ccaf1bb88e17da410764a4a",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_FgMDM_fit",
+        "Updated": "test_KNN",
+        "Location": "tests/test_classification.py",
+        "Original Line": 64,
+        "Updated Line": 66,
+        "Description": [
+            "The method test_FgMDM_fit from the module tests/test_classification.py is renamed to test_KNN"
+        ],
+        "Commit": "5cbe2059b5663865c657a09c63baee3c909e963a",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "sqrtm",
+        "Updated": "_matrix_operator",
+        "Location": "pyriemann/utils/base.py",
+        "Original Method Line": "(9,13)",
+        "Extracted/Inlined Method Line": 5,
+        "Extracted/Inlined Lines": [
+            22.0,
+            24.0,
+            25.0
+        ],
+        "Description": " The method _matrix_operator from the module pyriemann/utils/base.py is extracted from method sqrtm from the module pyriemann/utils/base.py ",
+        "Commit": "6125e2aae892d605b6bb27c311a11c83df5365c2",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyriemann/estimation.py/ERPCovariances",
+        "Original Line": 33,
+        "Updated Line": 150,
+        "Description": [
+            "The parameters [ estimator ] are added to the method __init__ from the module pyriemann/estimation.py in class ERPCovariances"
+        ],
+        "Commit": "6cf0c4a404a6c77ed3eb0519a79c86192410272c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyriemann/estimation.py/XdawnCovariances",
+        "Original Line": 68,
+        "Updated Line": 186,
+        "Description": [
+            "The parameters [ estimator ] are added to the method __init__ from the module pyriemann/estimation.py in class XdawnCovariances"
+        ],
+        "Commit": "6cf0c4a404a6c77ed3eb0519a79c86192410272c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_euclid",
+        "Updated": "test_euclid",
+        "Location": "tests/test_utils_kernel.py",
+        "Original Line": 83,
+        "Updated Line": 84,
+        "Description": [
+            "The parameters [ n_dim0 n_dim1 ] are added to the method test_euclid from the module tests/test_utils_kernel.py"
+        ],
+        "Commit": "79f6fbfef57c26d585c87f4eea882a8edce99694",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_coherences",
+        "Updated": "test_coherences",
+        "Location": "tests/test_estimation.py",
+        "Original Line": 68,
+        "Updated Line": 70,
+        "Description": [
+            "The parameters [ coh ] are added to the method test_coherences from the module tests/test_estimation.py"
+        ],
+        "Commit": "831b286e5749806d8b86236d9b2e769420e603e6",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_is_pos_def",
+        "Updated": "test_is_pos_def",
+        "Location": "tests/test_utils_test.py",
+        "Original Line": 51,
+        "Updated Line": 54,
+        "Description": [
+            "The parameters [ fast_mode ] are added to the method test_is_pos_def from the module tests/test_utils_test.py"
+        ],
+        "Commit": "84c78c4fb9123fdac58a0905903a6940765a201a",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyriemann/estimation.py/XdawnCovariances",
+        "Original Line": 68,
+        "Updated Line": 68,
+        "Description": [
+            "The parameters [ classes ] are added to the method __init__ from the module pyriemann/estimation.py in class XdawnCovariances"
+        ],
+        "Commit": "85ac738bd48818e856899bb2dcab1d9dc6df4111",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyriemann/spatialfilters.py/Xdawn",
+        "Original Line": 12,
+        "Updated Line": 12,
+        "Description": [
+            "The parameters [ classes ] are added to the method __init__ from the module pyriemann/spatialfilters.py in class Xdawn"
+        ],
+        "Commit": "85ac738bd48818e856899bb2dcab1d9dc6df4111",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "plot",
+        "Updated": "plot",
+        "Location": "pyriemann/permutations.py/PermutationTest",
+        "Original Line": 208,
+        "Updated Line": 208,
+        "Description": [
+            "The parameters [ nbins range ] are added to the method plot from the module pyriemann/permutations.py in class PermutationTest"
+        ],
+        "Commit": "8ee30421ea89ae5f0e0b6266d2944358bb135193",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyriemann/tangentspace.py/FGDA",
+        "Original Line": 38,
+        "Updated Line": 39,
+        "Description": [
+            "The parameters [ metric ] of the method __init__ from the module pyriemann/tangentspace.py in class FGDA is/are removed"
+        ],
+        "Commit": "9302d6f56cb836b95e357ed533a3d3aaed4f4016",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "fit",
+        "Updated": "_fit_lda",
+        "Location": "pyriemann/tangentspace.py/FGDA",
+        "Original Method Line": "(42,59)",
+        "Extracted/Inlined Method Line": 44,
+        "Extracted/Inlined Lines": [
+            43.0,
+            44.0,
+            46.0,
+            47.0,
+            49.0,
+            50.0
+        ],
+        "Description": " The method _fit_lda from the module pyriemann/tangentspace.py in class FGDA is extracted from method fit from the module pyriemann/tangentspace.py in class FGDA ",
+        "Commit": "9302d6f56cb836b95e357ed533a3d3aaed4f4016",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "transform",
+        "Updated": "_retro_project",
+        "Location": "pyriemann/tangentspace.py/FGDA",
+        "Original Method Line": "(52,63)",
+        "Extracted/Inlined Method Line": 55,
+        "Extracted/Inlined Lines": [
+            54.0,
+            55.0
+        ],
+        "Description": " The method _retro_project from the module pyriemann/tangentspace.py in class FGDA is extracted from method transform from the module pyriemann/tangentspace.py in class FGDA ",
+        "Commit": "9302d6f56cb836b95e357ed533a3d3aaed4f4016",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyriemann/estimation.py/CospCovariances",
+        "Original Line": 244,
+        "Updated Line": 244,
+        "Description": [
+            "The parameters [ phase_correction ] of the method __init__ from the module pyriemann/estimation.py in class CospCovariances is/are removed"
+        ],
+        "Commit": "9d38ba8d0324f988ace49f66025aa58af291824f",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyriemann/embedding.py/RiemannLLE",
+        "Original Line": 156,
+        "Updated Line": 159,
+        "Description": [
+            "The parameters [ n_jobs ] of the method __init__ from the module pyriemann/embedding.py in class RiemannLLE is/are removed"
+        ],
+        "Commit": "abc0c018bb0e40991c00a6fdef46f5a1bf458eeb",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "riemann_lle",
+        "Updated": "riemann_lle",
+        "Location": "pyriemann/embedding.py",
+        "Original Line": 252,
+        "Updated Line": 284,
+        "Description": [
+            "The parameters [ null_space_args ] of the method riemann_lle from the module pyriemann/embedding.py is/are removed"
+        ],
+        "Commit": "abc0c018bb0e40991c00a6fdef46f5a1bf458eeb",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "test_rlle_embedding",
+        "Updated": "test_rlle_embedding",
+        "Location": "tests/test_embedding.py",
+        "Original Line": 32,
+        "Updated Line": 31,
+        "Description": [
+            "The parameters [ metric ] of the method test_rlle_embedding from the module tests/test_embedding.py is/are removed"
+        ],
+        "Commit": "abc0c018bb0e40991c00a6fdef46f5a1bf458eeb",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "predict",
+        "Updated": "predict",
+        "Location": "pyriemann/classification.py/KNearestNeighbor",
+        "Original Line": 522,
+        "Updated Line": 523,
+        "Description": [
+            "The parameters [ X ] are added to the method predict from the module pyriemann/classification.py in class KNearestNeighbor"
+        ],
+        "Commit": "adb59e6717ecc27c692094de02cd710a4d800535",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "CovEmbedding",
+        "Updated": "Embedding",
+        "Location": "pyriemann/embedding.py",
+        "Description": " class CovEmbedding was renamed to class Embedding ",
+        "Commit": "cc56872c1762b2302dbf5bc8d4ebe8778cf13511",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_kernel",
+        "Updated": "test_kernel_x_x",
+        "Location": "tests/test_utils_kernel.py",
+        "Original Line": 21,
+        "Updated Line": 21,
+        "Description": [
+            "The method test_kernel from the module tests/test_utils_kernel.py is renamed to test_kernel_x_x"
+        ],
+        "Commit": "d91b2df8e973eac88f7a5f5fc9a94757e6f4b322",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyriemann/spatialfilters.py/Xdawn",
+        "Original Line": 17,
+        "Updated Line": 57,
+        "Description": [
+            "The parameters [ applyfilters ] of the method __init__ from the module pyriemann/spatialfilters.py in class Xdawn is/are removed"
+        ],
+        "Commit": "d98d2f051dd6072522051b766a09b2ea57859e59",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "test_ElectrodeSelection_transform",
+        "Updated": "test_electrodeselection_nonelabel",
+        "Location": "tests/test_channelselection.py",
+        "Original Line": 5,
+        "Updated Line": 15,
+        "Description": [
+            "The method test_ElectrodeSelection_transform from the module tests/test_channelselection.py is renamed to test_electrodeselection_nonelabel",
+            "The parameters [ get_labels ] of the method test_ElectrodeSelection_transform from the module tests/test_channelselection.py is/are removed"
+        ],
+        "Commit": "df36d4be9c06e8d33f63015c9437528abf340fba",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_FlatChannelRemover",
+        "Updated": "test_flatchannelremover",
+        "Location": "tests/test_channelselection.py",
+        "Original Line": 15,
+        "Updated Line": 23,
+        "Description": [
+            "The method test_FlatChannelRemover from the module tests/test_channelselection.py is renamed to test_flatchannelremover"
+        ],
+        "Commit": "df36d4be9c06e8d33f63015c9437528abf340fba",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_covariances_eegtocov",
+        "Updated": "test_covariances_cospectrum",
+        "Location": "tests/test_utils_covariance.py",
+        "Original Line": 35,
+        "Updated Line": 35,
+        "Description": [
+            "The method test_covariances_eegtocov from the module tests/test_utils_covariance.py is renamed to test_covariances_cospectrum"
+        ],
+        "Commit": "e3b7837897a220d4a1f50a95df89aee0867105fe",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_fit_lda",
+        "Updated": "_fit_lda",
+        "Location": "pyriemann/tangentspace.py/FGDA",
+        "Original Line": 196,
+        "Updated Line": 225,
+        "Description": [
+            "The parameters [ sample_weight ] are added to the method _fit_lda from the module pyriemann/tangentspace.py in class FGDA"
+        ],
+        "Commit": "e856368c1e9627d10e39c5108aab96c0e14a2852",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "fit",
+        "Updated": "fit",
+        "Location": "pyriemann/tangentspace.py/FGDA",
+        "Original Line": 216,
+        "Updated Line": 247,
+        "Description": [
+            "The parameters [ sample_weight ] are added to the method fit from the module pyriemann/tangentspace.py in class FGDA"
+        ],
+        "Commit": "e856368c1e9627d10e39c5108aab96c0e14a2852",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "fit_transform",
+        "Updated": "fit_transform",
+        "Location": "pyriemann/tangentspace.py/FGDA",
+        "Original Line": 224,
+        "Updated Line": 284,
+        "Description": [
+            "The parameters [ sample_weight ] are added to the method fit_transform from the module pyriemann/tangentspace.py in class FGDA"
+        ],
+        "Commit": "e856368c1e9627d10e39c5108aab96c0e14a2852",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pyriemann/spatialfilters.py/Xdawn",
+        "Original Line": 59,
+        "Updated Line": 60,
+        "Description": [
+            "The parameters [ Cx ] are added to the method __init__ from the module pyriemann/spatialfilters.py in class Xdawn"
+        ],
+        "Commit": "f6cb5c4d0ef71e64c65997c7db14f2536c90b6cc",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

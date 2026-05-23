@@ -1,0 +1,35 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "usaddress/__init__.py/RepeatedLabelError",
+        "Original Line": 201,
+        "Updated Line": 201,
+        "Description": [
+            "The parameters [ repeated_label ] are added to the method __init__ from the module usaddress/__init__.py in class RepeatedLabelError"
+        ],
+        "Commit": "9c01b95a060192ca846ce2f427fa611cdf8aea63",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "TestSimpleAddresses",
+        "Updated": "TestPerformance",
+        "Location": "tests/test_labeling.py",
+        "Description": " class TestSimpleAddresses was renamed to class TestPerformance ",
+        "Commit": "d0cc56c26bc3724bbb935d9bf42b71df52cb36e7",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "TestUS50Addresses",
+        "Updated": "TestPerformanceOld",
+        "Location": "tests/test_labeling.py",
+        "Description": " class TestUS50Addresses was renamed to class TestPerformanceOld ",
+        "Commit": "d0cc56c26bc3724bbb935d9bf42b71df52cb36e7",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

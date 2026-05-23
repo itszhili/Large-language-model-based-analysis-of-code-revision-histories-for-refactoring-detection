@@ -1,0 +1,17 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "datasets/LiveCamera.py/LiveCameraDataset",
+        "Original Line": 8,
+        "Updated Line": 10,
+        "Description": [
+            "The parameters [ multiperson device ] are added to the method __init__ from the module datasets/LiveCamera.py in class LiveCameraDataset"
+        ],
+        "Commit": "39153ddee71cd4e6c8f3760a0205a92f3d6501e7",
+        "GPT4 Component Graph": "Data Processing"
+    }
+]

@@ -1,0 +1,167 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "main",
+        "Updated": "main",
+        "Location": "eagle-eye.py",
+        "Original Line": 69,
+        "Updated Line": 70,
+        "Description": [
+            "The parameters [ skipFB ] are added to the method main from the module eagle-eye.py"
+        ],
+        "Commit": "06bb75dd51233800c4af69c5ae007a0fcd1944e5",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "main",
+        "Updated": "main",
+        "Location": "eagle-eye.py",
+        "Original Line": 65,
+        "Updated Line": 63,
+        "Description": [
+            "The parameters [ skipY ] of the method main from the module eagle-eye.py is/are removed"
+        ],
+        "Commit": "3f0c0af85c93cf49992c608bb56022cc68b2a6b9",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "makeJSONReport",
+        "Updated": "makeJSONReport",
+        "Location": "report/report.py",
+        "Original Line": 41,
+        "Updated Line": 40,
+        "Description": [
+            "The parameters [ age ] of the method makeJSONReport from the module report/report.py is/are removed"
+        ],
+        "Commit": "3f0c0af85c93cf49992c608bb56022cc68b2a6b9",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "makeReport",
+        "Updated": "makeReport",
+        "Location": "report/report.py",
+        "Original Line": 5,
+        "Updated Line": 5,
+        "Description": [
+            "The parameters [ age ] of the method makeReport from the module report/report.py is/are removed"
+        ],
+        "Commit": "3f0c0af85c93cf49992c608bb56022cc68b2a6b9",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "main",
+        "Updated": "main",
+        "Location": "eagle-eye.py",
+        "Original Line": 64,
+        "Updated Line": 64,
+        "Description": [
+            "The parameters [ FBUrls ] are added to the method main from the module eagle-eye.py"
+        ],
+        "Commit": "413bcc8a15310e8b19ef547af125491b3afc4c60",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "main",
+        "Updated": "main",
+        "Location": "eagle-eye.py",
+        "Original Line": 65,
+        "Updated Line": 65,
+        "Description": [
+            "The parameters [ dockerMode dockerName ] are added to the method main from the module eagle-eye.py"
+        ],
+        "Commit": "43ee04dda2f0ed93d542f3439863d14557592455",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "makeReport",
+        "Updated": "makeReport",
+        "Location": "report/report.py",
+        "Original Line": 4,
+        "Updated Line": 4,
+        "Description": [
+            "The parameters [ age ] are added to the method makeReport from the module report/report.py"
+        ],
+        "Commit": "44ddb85c45b6b3c70af31cfbda5741494bb81dcd",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "main",
+        "Updated": "main",
+        "Location": "eagle-eye.py",
+        "Original Line": 66,
+        "Updated Line": 65,
+        "Description": [
+            "The parameters [ skipIR ] of the method main from the module eagle-eye.py is/are removed"
+        ],
+        "Commit": "4bb571e28e57cd89d03b3b432ac9d3953d72a387",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "grabber/google.py/GoogleGrabber",
+        "Original Line": 20,
+        "Updated Line": 20,
+        "Description": [
+            "The parameters [ max_pages ] of the method __init__ from the module grabber/google.py in class GoogleGrabber is/are removed"
+        ],
+        "Commit": "7458227cb3e796b24a69e4fdd71db13ed6df4a01",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "main",
+        "Updated": "main",
+        "Location": "eagle-eye.py",
+        "Original Line": 63,
+        "Updated Line": 66,
+        "Description": [
+            "The parameters [ jsonRep ] are added to the method main from the module eagle-eye.py"
+        ],
+        "Commit": "7e976d381c5554ac4fc9ec4d951aaa5d8f9b1560",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "main",
+        "Updated": "main",
+        "Location": "eagle-eye.py",
+        "Original Line": 70,
+        "Updated Line": 70,
+        "Description": [
+            "The parameters [ skipIR skipY ] are added to the method main from the module eagle-eye.py"
+        ],
+        "Commit": "f3e49edeec39510daf1cf84e0d6c2b006a874bf3",
+        "GPT4 Component Graph": "Data Processing"
+    }
+]

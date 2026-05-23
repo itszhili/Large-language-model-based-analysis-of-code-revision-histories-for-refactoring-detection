@@ -1,0 +1,191 @@
+[
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "greens_func",
+        "Updated": "greens_func_jit",
+        "Location": "verde/spline.py",
+        "Original Line": 540,
+        "Updated Line": 588,
+        "Description": [
+            "The method greens_func from the module verde/spline.py is renamed to greens_func_jit"
+        ],
+        "Commit": "014fd48907ec3f99b31d24d28f624fd5011bcbee",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "verde/blockreduce.py/BlockReduce",
+        "Original Line": 88,
+        "Updated Line": 92,
+        "Description": [
+            "The parameters [ drop_coords ] are added to the method __init__ from the module verde/blockreduce.py in class BlockReduce"
+        ],
+        "Commit": "20c906b7f62df95fc1c8efe3e7fb53a452102d9f",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "verde/blockreduce.py/BlockMean",
+        "Original Line": 306,
+        "Updated Line": 328,
+        "Description": [
+            "The parameters [ drop_coords ] are added to the method __init__ from the module verde/blockreduce.py in class BlockMean"
+        ],
+        "Commit": "20c906b7f62df95fc1c8efe3e7fb53a452102d9f",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "verde/vector.py/VectorSpline2D",
+        "Original Line": 88,
+        "Updated Line": 100,
+        "Description": [
+            "The parameters [ engine ] are added to the method __init__ from the module verde/vector.py in class VectorSpline2D"
+        ],
+        "Commit": "4e07765bd3e61aec59a7d69a144dc55e7d64c458",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "distance_mask",
+        "Updated": "distance_mask",
+        "Location": "verde/grid_math.py",
+        "Original Line": 8,
+        "Updated Line": 10,
+        "Description": [
+            "The parameters [ region spacing shape ] are added to the method distance_mask from the module verde/grid_math.py"
+        ],
+        "Commit": "653bc289df71775c887eadda4a07aa01d558b9ca",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "fetch_baja_bathymetry",
+        "Updated": "fetch_baja_bathymetry",
+        "Location": "verde/datasets/sample_data.py",
+        "Original Line": 29,
+        "Updated Line": 42,
+        "Description": [
+            "The parameters [ force_download ] of the method fetch_baja_bathymetry from the module verde/datasets/sample_data.py is/are removed"
+        ],
+        "Commit": "9538bd0e0d4a70c8a7fa4e4f1b8e447c135c56e8",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "fetch_california_gps",
+        "Updated": "fetch_california_gps",
+        "Location": "verde/datasets/sample_data.py",
+        "Original Line": 177,
+        "Updated Line": 176,
+        "Description": [
+            "The parameters [ force_download ] of the method fetch_california_gps from the module verde/datasets/sample_data.py is/are removed"
+        ],
+        "Commit": "9538bd0e0d4a70c8a7fa4e4f1b8e447c135c56e8",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "fetch_rio_magnetic",
+        "Updated": "fetch_rio_magnetic",
+        "Location": "verde/datasets/sample_data.py",
+        "Original Line": 97,
+        "Updated Line": 103,
+        "Description": [
+            "The parameters [ force_download ] of the method fetch_rio_magnetic from the module verde/datasets/sample_data.py is/are removed"
+        ],
+        "Commit": "9538bd0e0d4a70c8a7fa4e4f1b8e447c135c56e8",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "train_test_split",
+        "Updated": "train_test_split",
+        "Location": "verde/model_selection.py",
+        "Original Line": 281,
+        "Updated Line": 281,
+        "Description": [
+            "The parameters [ blocked ] are added to the method train_test_split from the module verde/model_selection.py"
+        ],
+        "Commit": "ba2131d028f943c9f48ecba2171e90d8be6471be",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "scatter_points",
+        "Updated": "scatter_points",
+        "Location": "verde/utils.py",
+        "Original Line": 39,
+        "Updated Line": 39,
+        "Description": [
+            "The parameters [ random_seed ] of the method scatter_points from the module verde/utils.py are changed/renamed to [random_state]"
+        ],
+        "Commit": "c59ffe74dafa20b1742aaa1d384d448fc3e1f28b",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "verde/spline.py/Spline",
+        "Original Line": 88,
+        "Updated Line": 87,
+        "Description": [
+            "The parameters [ fudge ] of the method __init__ from the module verde/spline.py in class Spline are changed/renamed to [mindist]"
+        ],
+        "Commit": "dd5fb7f293cf09ab8d253d354ae9c4a41309936e",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "Vector2D",
+        "Updated": "VectorSpline2D",
+        "Location": "verde/vector.py",
+        "Description": " class Vector2D was renamed to class VectorSpline2D ",
+        "Commit": "dd5fb7f293cf09ab8d253d354ae9c4a41309936e",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "verde/spline.py/Spline",
+        "Original Line": 87,
+        "Updated Line": 92,
+        "Description": [
+            "The parameters [ region ] are added to the method __init__ from the module verde/spline.py in class Spline"
+        ],
+        "Commit": "ea130b0d784ddb984880a4e756bcc5ba675d6c60",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

@@ -1,0 +1,125 @@
+[
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_inv_preemphasis",
+        "Updated": "inv_preemphasis",
+        "Location": "util/audio.py",
+        "Original Line": 94,
+        "Updated Line": 23,
+        "Description": [
+            "The method _inv_preemphasis from the module util/audio.py is renamed to inv_preemphasis"
+        ],
+        "Commit": "9190f660bcf6e36015c67961b82fa0449184869f",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_preemphasis",
+        "Updated": "preemphasis",
+        "Location": "util/audio.py",
+        "Original Line": 91,
+        "Updated Line": 19,
+        "Description": [
+            "The method _preemphasis from the module util/audio.py is renamed to preemphasis"
+        ],
+        "Commit": "9190f660bcf6e36015c67961b82fa0449184869f",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "_stft",
+        "Updated": "_stft_parameters",
+        "Location": "util/audio.py",
+        "Original Method Line": "(51,84)",
+        "Extracted/Inlined Method Line": 104,
+        "Extracted/Inlined Lines": [
+            52.0,
+            53.0,
+            54.0
+        ],
+        "Description": " The method _stft_parameters from the module util/audio.py is extracted from method _stft from the module util/audio.py ",
+        "Commit": "9190f660bcf6e36015c67961b82fa0449184869f",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Change/Rename Parameter"
+        ],
+        "Original": "_characters_to_sequence",
+        "Updated": "_symbols_to_sequence",
+        "Location": "text/__init__.py",
+        "Original Line": 66,
+        "Updated Line": 66,
+        "Description": [
+            "The method _characters_to_sequence from the module text/__init__.py is renamed to _symbols_to_sequence",
+            "The parameters [ chars ] of the method _characters_to_sequence from the module text/__init__.py are changed/renamed to [symbols]"
+        ],
+        "Commit": "9e1ea7a879e813e062d7345459a2cbaa5a4ef369",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_pipelines",
+        "Updated": "test_cleaner_pipelines",
+        "Location": "tests/text_test.py",
+        "Original Line": 55,
+        "Updated Line": 55,
+        "Description": [
+            "The method test_pipelines from the module tests/text_test.py is renamed to test_cleaner_pipelines"
+        ],
+        "Commit": "c4e14ad3b9b7f1f00e101b8d8961c4e10665947b",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "basic_pipeline",
+        "Updated": "basic_cleaners",
+        "Location": "text/cleaners.py",
+        "Original Line": 66,
+        "Updated Line": 66,
+        "Description": [
+            "The method basic_pipeline from the module text/cleaners.py is renamed to basic_cleaners"
+        ],
+        "Commit": "c4e14ad3b9b7f1f00e101b8d8961c4e10665947b",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "english_pipeline",
+        "Updated": "english_cleaners",
+        "Location": "text/cleaners.py",
+        "Original Line": 81,
+        "Updated Line": 81,
+        "Description": [
+            "The method english_pipeline from the module text/cleaners.py is renamed to english_cleaners"
+        ],
+        "Commit": "c4e14ad3b9b7f1f00e101b8d8961c4e10665947b",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "transliteration_pipeline",
+        "Updated": "transliteration_cleaners",
+        "Location": "text/cleaners.py",
+        "Original Line": 73,
+        "Updated Line": 73,
+        "Description": [
+            "The method transliteration_pipeline from the module text/cleaners.py is renamed to transliteration_cleaners"
+        ],
+        "Commit": "c4e14ad3b9b7f1f00e101b8d8961c4e10665947b",
+        "GPT4 Component Graph": "Data Processing"
+    }
+]

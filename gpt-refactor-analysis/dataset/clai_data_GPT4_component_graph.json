@@ -1,0 +1,107 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "clai/datasource/model/plugin_config.py/PluginConfig",
+        "Original Line": 15,
+        "Updated Line": 15,
+        "Description": [
+            "The parameters [ user_install ] are added to the method __init__ from the module clai/datasource/model/plugin_config.py in class PluginConfig"
+        ],
+        "Commit": "6e0c9362820598370d7714c2f3f5935c82310821",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "append_setup_to_file",
+        "Updated": "append_setup_to_file",
+        "Location": "install.py",
+        "Original Line": 379,
+        "Updated Line": 391,
+        "Description": [
+            "The parameters [ port ] are added to the method append_setup_to_file from the module install.py"
+        ],
+        "Commit": "745ebca305a510504f8f15129888f443d49f43e1",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "searchResult",
+        "Updated": "extractSearchResult",
+        "Location": "clai/server/plugins/helpme/search_provider.py/Provider",
+        "Original Line": 44,
+        "Updated Line": 44,
+        "Description": [
+            "The method searchResult from the module clai/server/plugins/helpme/search_provider.py in class Provider is renamed to extractSearchResult"
+        ],
+        "Commit": "76a3471fd002d273ed73602cccc438052cf5519c",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "install_plugins_dependencies",
+        "Updated": "install_plugins_dependencies",
+        "Location": "install.py",
+        "Original Line": 184,
+        "Updated Line": 184,
+        "Description": [
+            "The parameters [ user_install ] are added to the method install_plugins_dependencies from the module install.py"
+        ],
+        "Commit": "ced3612147172978d191d0c4c47a490c17a96576",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "clai/datasource/model/plugin_config.py/PluginConfig",
+        "Original Line": 15,
+        "Updated Line": 15,
+        "Description": [
+            "The parameters [ z_default ] of the method __init__ from the module clai/datasource/model/plugin_config.py in class PluginConfig is/are removed"
+        ],
+        "Commit": "d45d0755f27b0d7aea096201c3468c78b158b1ca",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "remove_system_folder",
+        "Updated": "remove_system_folder",
+        "Location": "uninstall.py",
+        "Original Line": 32,
+        "Updated Line": 32,
+        "Description": [
+            "The parameters [ path ] are added to the method remove_system_folder from the module uninstall.py"
+        ],
+        "Commit": "e81bae79c3e7613f7a0c7e1d16b6caa6431fc637",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "clai/server/command_runner/agent_descriptor.py/AgentDescriptor",
+        "Original Line": 10,
+        "Updated Line": 10,
+        "Description": [
+            "The parameters [ z_default ] are added to the method __init__ from the module clai/server/command_runner/agent_descriptor.py in class AgentDescriptor"
+        ],
+        "Commit": "fa162c8a15213598eb188dd5e4b682eb40644b02",
+        "GPT4 Component Graph": "Data Processing"
+    }
+]

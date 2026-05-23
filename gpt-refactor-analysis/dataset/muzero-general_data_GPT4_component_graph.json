@@ -1,0 +1,221 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "train",
+        "Updated": "train",
+        "Location": "muzero.py/MuZero",
+        "Original Line": 55,
+        "Updated Line": 56,
+        "Description": [
+            "The parameters [ replay_buffer_path ] are added to the method train from the module muzero.py in class MuZero"
+        ],
+        "Commit": "04e63ea7549f5fe80cce60b2fa112bbe9c008021",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "models.py/DynamicNetwork",
+        "Original Line": 215,
+        "Updated Line": 214,
+        "Description": [
+            "The parameters [ pooling_stride ] of the method __init__ from the module models.py in class DynamicNetwork is/are removed"
+        ],
+        "Commit": "2a9b99b17eb311772fc3f8873c9a95e0e27d94d5",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "models.py/PredictionNetwork",
+        "Original Line": 262,
+        "Updated Line": 255,
+        "Description": [
+            "The parameters [ pooling_stride ] of the method __init__ from the module models.py in class PredictionNetwork is/are removed"
+        ],
+        "Commit": "2a9b99b17eb311772fc3f8873c9a95e0e27d94d5",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "models.py/MuZeroResidualNetwork",
+        "Original Line": 309,
+        "Updated Line": 296,
+        "Description": [
+            "The parameters [ pooling_stride ] of the method __init__ from the module models.py in class MuZeroResidualNetwork is/are removed"
+        ],
+        "Commit": "2a9b99b17eb311772fc3f8873c9a95e0e27d94d5",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "models.py/DynamicsNetwork",
+        "Original Line": 296,
+        "Updated Line": 298,
+        "Description": [
+            "The parameters [ reduced_channels block_output_size ] of the method __init__ from the module models.py in class DynamicsNetwork are changed/renamed to [reduced_channels_reward block_output_size_reward]"
+        ],
+        "Commit": "40974a975666910bf2102e51ac9cd269ebe95981",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "models.py/PredictionNetwork",
+        "Original Line": 335,
+        "Updated Line": 337,
+        "Description": [
+            "The parameters [ block_output_size_value block_output_size_policy ] are added to the method __init__ from the module models.py in class PredictionNetwork"
+        ],
+        "Commit": "40974a975666910bf2102e51ac9cd269ebe95981",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "models.py/MuZeroResidualNetwork",
+        "Original Line": 375,
+        "Updated Line": 383,
+        "Description": [
+            "The parameters [ reduced_channels_value reduced_channels_policy ] are added to the method __init__ from the module models.py in class MuZeroResidualNetwork"
+        ],
+        "Commit": "40974a975666910bf2102e51ac9cd269ebe95981",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "Connect4",
+        "Updated": "TicTacToe",
+        "Location": "games/tictactoe.py",
+        "Description": " class Connect4 was renamed to class TicTacToe ",
+        "Commit": "4701a41294f888f3102f42d622db4016d6dc6f22",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "models.py/DynamicNetwork",
+        "Original Line": 203,
+        "Updated Line": 206,
+        "Description": [
+            "The parameters [ pooling_stride ] are added to the method __init__ from the module models.py in class DynamicNetwork"
+        ],
+        "Commit": "4701a41294f888f3102f42d622db4016d6dc6f22",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "models.py/PredictionNetwork",
+        "Original Line": 251,
+        "Updated Line": 253,
+        "Description": [
+            "The parameters [ pooling_stride ] are added to the method __init__ from the module models.py in class PredictionNetwork"
+        ],
+        "Commit": "4701a41294f888f3102f42d622db4016d6dc6f22",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "models.py/MuZeroResidualNetwork",
+        "Original Line": 300,
+        "Updated Line": 300,
+        "Description": [
+            "The parameters [ pooling_stride ] are added to the method __init__ from the module models.py in class MuZeroResidualNetwork"
+        ],
+        "Commit": "4701a41294f888f3102f42d622db4016d6dc6f22",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "self_play.py/SelfPlay",
+        "Original Line": 17,
+        "Updated Line": 17,
+        "Description": [
+            "The parameters [ device ] of the method __init__ from the module self_play.py in class SelfPlay is/are removed"
+        ],
+        "Commit": "c9059c395d49f88ccc4e007aee69d73d53aa44a2",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "trainer.py/Trainer",
+        "Original Line": 17,
+        "Updated Line": 17,
+        "Description": [
+            "The parameters [ device ] of the method __init__ from the module trainer.py in class Trainer is/are removed"
+        ],
+        "Commit": "c9059c395d49f88ccc4e007aee69d73d53aa44a2",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "loss_function",
+        "Updated": "loss_function",
+        "Location": "trainer.py/Trainer",
+        "Original Line": 207,
+        "Updated Line": 211,
+        "Description": [
+            "The parameters [ weight_batch ] are added to the method loss_function from the module trainer.py in class Trainer"
+        ],
+        "Commit": "f593f98ec04e2766d80069908b6699ba5bc5fe1e",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "loss_function",
+        "Updated": "loss_function",
+        "Location": "trainer.py/Trainer",
+        "Original Line": 211,
+        "Updated Line": 274,
+        "Description": [
+            "The parameters [ weight_batch ] of the method loss_function from the module trainer.py in class Trainer is/are removed"
+        ],
+        "Commit": "f60f199aee0999d66a584e53a8f4dd14e47acddf",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

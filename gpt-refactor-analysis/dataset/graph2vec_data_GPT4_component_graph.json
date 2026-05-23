@@ -1,0 +1,11 @@
+[
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "WeisfehlerLehmanMachine",
+        "Updated": "WeisfeilerLehmanMachine",
+        "Location": "src/graph2vec.py",
+        "Description": " class WeisfehlerLehmanMachine was renamed to class WeisfeilerLehmanMachine ",
+        "Commit": "dc59f7ac908ff6caf42bab8083db018db806adec",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

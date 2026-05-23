@@ -1,0 +1,47 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "sendMsg",
+        "Updated": "sendMsg",
+        "Location": "modules/connect.py",
+        "Original Line": 21,
+        "Updated Line": 21,
+        "Description": [
+            "The parameters [ namespace ] are added to the method sendMsg from the module modules/connect.py"
+        ],
+        "Commit": "321dc785941f6db2559c58440eb7e42d76ebf7d6",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "modules/sound.py/audioPlayer",
+        "Original Line": 19,
+        "Updated Line": 18,
+        "Description": [
+            "The parameters [ loop name canPlay ] of the method __init__ from the module modules/sound.py in class audioPlayer is/are removed"
+        ],
+        "Commit": "5e11c2a7d898e085f36bd61b39b5af7e6f537ee6",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "modules/sound.py/audioPlayer",
+        "Original Line": 18,
+        "Updated Line": 19,
+        "Description": [
+            "The parameters [ loop name canPlay ] are added to the method __init__ from the module modules/sound.py in class audioPlayer"
+        ],
+        "Commit": "c98808f0767ae5ec99837889d4f2360a5b632c4b",
+        "GPT4 Component Graph": "Data Processing"
+    }
+]

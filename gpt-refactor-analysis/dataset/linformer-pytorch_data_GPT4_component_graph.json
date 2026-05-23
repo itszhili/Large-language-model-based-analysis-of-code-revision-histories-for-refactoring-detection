@@ -1,0 +1,79 @@
+[
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "get_linear",
+        "Updated": "get_EF",
+        "Location": "linformer_pytorch/linformer_pytorch.py",
+        "Original Line": 17,
+        "Updated Line": 17,
+        "Description": [
+            "The method get_linear from the module linformer_pytorch/linformer_pytorch.py is renamed to get_EF"
+        ],
+        "Commit": "467b13aed384895f614883e202e15cfdac8a3ab5",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "linformer_pytorch/linformer_pytorch.py/LinearAttentionHead",
+        "Original Line": 61,
+        "Updated Line": 61,
+        "Description": [
+            "The parameters [ E F ] are added to the method __init__ from the module linformer_pytorch/linformer_pytorch.py in class LinearAttentionHead"
+        ],
+        "Commit": "6c080a57a560fcb960b674be328e60719e1c7126",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "forward",
+        "Updated": "forward",
+        "Location": "linformer_pytorch/linformer_pytorch.py/LinearAttentionHead",
+        "Original Line": 69,
+        "Updated Line": 71,
+        "Description": [
+            "The parameters [ E F ] of the method forward from the module linformer_pytorch/linformer_pytorch.py in class LinearAttentionHead is/are removed"
+        ],
+        "Commit": "6c080a57a560fcb960b674be328e60719e1c7126",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "linformer_pytorch/linformer_pytorch.py/FeedForward",
+        "Original Line": 14,
+        "Updated Line": 14,
+        "Description": [
+            "The parameters [ dim mult ] of the method __init__ from the module linformer_pytorch/linformer_pytorch.py in class FeedForward are changed/renamed to [channels ff_dim]"
+        ],
+        "Commit": "7e79a81b8a7df8a15a70b23c59260d90846a7258",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "get_EF",
+        "Updated": "get_linear",
+        "Location": "linformer_pytorch/linformer_pytorch.py",
+        "Original Line": 14,
+        "Updated Line": 14,
+        "Description": [
+            "The method get_EF from the module linformer_pytorch/linformer_pytorch.py is renamed to get_linear",
+            "The parameters [ bias ] are added to the method get_EF from the module linformer_pytorch/linformer_pytorch.py"
+        ],
+        "Commit": "81ca79239783d939f67b3d89eca3f5e723287665",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

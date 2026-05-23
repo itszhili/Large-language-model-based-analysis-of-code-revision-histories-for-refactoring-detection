@@ -1,0 +1,121 @@
+[
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "kaggler/preprocessing/data.py/OneHotEncoder",
+        "Original Line": 81,
+        "Updated Line": 199,
+        "Description": [
+            "The parameters [ nan_as_var ] of the method __init__ from the module kaggler/preprocessing/data.py in class OneHotEncoder is/are removed"
+        ],
+        "Commit": "171e6249ce52198294f16161865d6d4019b73321",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "kaggler/model/automl.py/AutoXGB",
+        "Original Line": 212,
+        "Updated Line": 212,
+        "Description": [
+            "The parameters [ fs_pct ] are added to the method __init__ from the module kaggler/model/automl.py in class AutoXGB"
+        ],
+        "Commit": "2cf068b7f55c160e590ac17388b887303ce0291e",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "kaggler/model/automl.py/AutoLGB",
+        "Original Line": 314,
+        "Updated Line": 314,
+        "Description": [
+            "The parameters [ fs_pct ] are added to the method __init__ from the module kaggler/model/automl.py in class AutoLGB"
+        ],
+        "Commit": "2cf068b7f55c160e590ac17388b887303ce0291e",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_automl",
+        "Updated": "test_automl_regression",
+        "Location": "tests/model/test_automl.py",
+        "Original Line": 18,
+        "Updated Line": 18,
+        "Description": [
+            "The method test_automl from the module tests/model/test_automl.py is renamed to test_automl_regression"
+        ],
+        "Commit": "510e70b9b7612436a2467abfcbcf1ddccec7369d",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "kaggler/model/nn.py/NN",
+        "Original Line": 27,
+        "Updated Line": 16,
+        "Description": [
+            "The parameters [ n_iter n_hidden n_batch l_w1 l_w2 ] of the method __init__ from the module kaggler/model/nn.py in class NN are changed/renamed to [n h b l1 l2]"
+        ],
+        "Commit": "b5baf22a712e49d33fd38b00213d6f666b426537",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "kaggler/preprocessing/autoencoder.py/DAELayer",
+        "Original Line": 96,
+        "Updated Line": 97,
+        "Description": [
+            "The parameters [ random_state ] of the method __init__ from the module kaggler/preprocessing/autoencoder.py in class DAELayer are changed/renamed to [seed]"
+        ],
+        "Commit": "ca4dd68e245a587dda27647c3a576abd2dff6d0b",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_autolgb",
+        "Updated": "test_autolgb_classification",
+        "Location": "tests/test_autolgb.py",
+        "Original Line": 18,
+        "Updated Line": 18,
+        "Description": [
+            "The method test_autolgb from the module tests/test_autolgb.py is renamed to test_autolgb_classification"
+        ],
+        "Commit": "d5fe02b2683b1158f027d54be355d08dea9a629b",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Inline Method",
+        "Original": "transform",
+        "Updated": "_transform_col",
+        "Location": "kaggler/preprocessing/data.py/TargetEncoder",
+        "Original Method Line": "(447,442)",
+        "Extracted/Inlined Method Line": 415,
+        "Extracted/Inlined Lines": [
+            459.0
+        ],
+        "Description": " The method _transform_col from the module kaggler/preprocessing/data.py in class TargetEncoder is inlined into method transform from the module kaggler/preprocessing/data.py in class TargetEncoder ",
+        "Commit": "e450f6a4ad9ffc29087c1a236b21c509177b1521",
+        "GPT4 Component Graph": "Data Processing"
+    }
+]

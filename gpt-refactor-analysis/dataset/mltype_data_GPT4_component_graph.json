@@ -1,0 +1,26 @@
+[
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "sample",
+        "Updated": "sample",
+        "Location": "mltype/cli/cli.py",
+        "Original Line": 408,
+        "Updated Line": 400,
+        "Description": [
+            "The parameters [ window_size ] of the method sample from the module mltype/cli/cli.py is/are removed"
+        ],
+        "Commit": "80c680c470f69fa99517522d10d55c12de3f1d89",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "Action",
+        "Updated": "TestAction",
+        "Location": "tests/test_base.py",
+        "Description": " class Action was renamed to class TestAction ",
+        "Commit": "8c174f21fe5cee0eb8bba8876a923aab9edca270",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

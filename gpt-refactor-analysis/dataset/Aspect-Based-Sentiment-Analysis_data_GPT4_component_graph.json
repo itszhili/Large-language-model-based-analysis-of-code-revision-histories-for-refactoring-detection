@@ -1,0 +1,751 @@
+[
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "AspectSpan",
+        "Updated": "Example",
+        "Location": "aspect_based_sentiment_analysis/data_types.py",
+        "Description": " class AspectSpan was renamed to class Example ",
+        "Commit": "087bf42b6cfa6b725827c0b2031554c947080cf7",
+        "Category": "General",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "AspectSpanLabeled",
+        "Updated": "LabeledExample",
+        "Location": "aspect_based_sentiment_analysis/data_types.py",
+        "Description": " class AspectSpanLabeled was renamed to class LabeledExample ",
+        "Commit": "087bf42b6cfa6b725827c0b2031554c947080cf7",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "call",
+        "Updated": "call",
+        "Location": "aspect_based_sentiment_analysis/models.py/BertABSClassifier",
+        "Original Line": 90,
+        "Updated Line": 134,
+        "Description": [
+            "The return type of method call from the module aspect_based_sentiment_analysis/models.py in class BertABSClassifier is updated"
+        ],
+        "Commit": "2c70ea7637bbe0d1d535a2b51477c2b447fe3779",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "Example",
+        "Updated": "TrainExample",
+        "Location": "aspect_based_sentiment_analysis/data_types.py",
+        "Description": " class Example was renamed to class TrainExample ",
+        "Commit": "2dc8fcccf5ae6a0e696f97d2af4061adb45f9f7e",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "AspectPrediction",
+        "Updated": "Prediction",
+        "Location": "aspect_based_sentiment_analysis/data_types.py",
+        "Description": " class AspectPrediction was renamed to class Prediction ",
+        "Commit": "2dc8fcccf5ae6a0e696f97d2af4061adb45f9f7e",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "Label",
+        "Updated": "Sentiment",
+        "Location": "aspect_based_sentiment_analysis/data_types.py",
+        "Description": " class Label was renamed to class Sentiment ",
+        "Commit": "2dc8fcccf5ae6a0e696f97d2af4061adb45f9f7e",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "flatten",
+        "Updated": "batch",
+        "Location": "aspect_based_sentiment_analysis/data_types.py/Document",
+        "Original Line": 97,
+        "Updated Line": 129,
+        "Description": [
+            "The method flatten from the module aspect_based_sentiment_analysis/data_types.py in class Document is renamed to batch"
+        ],
+        "Commit": "34f72ac02d7a87fafd69de6708fbf4c6015fdaf2",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "AspectInterest",
+        "Updated": "AspectRepresentation",
+        "Location": "aspect_based_sentiment_analysis/data_types.py",
+        "Description": " class AspectInterest was renamed to class AspectRepresentation ",
+        "Commit": "34f72ac02d7a87fafd69de6708fbf4c6015fdaf2",
+        "Category": "General",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "pipeline",
+        "Updated": "test_integration",
+        "Location": "tests/test_pipeline.py",
+        "Original Line": 15,
+        "Updated Line": 31,
+        "Description": [
+            "The method pipeline from the module tests/test_pipeline.py is renamed to test_integration",
+            "The parameters [ name tokenizer ] are added to the method pipeline from the module tests/test_pipeline.py"
+        ],
+        "Commit": "390ff9136fbcb561cd6410cb0d5c316b33498f09",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "AttentionPatternRecognizer",
+        "Updated": "AttentionGradientProduct",
+        "Location": "aspect_based_sentiment_analysis/probing/recognizers.py",
+        "Description": " class AttentionPatternRecognizer was renamed to class AttentionGradientProduct ",
+        "Commit": "3d3efe788cfc9a1492f66ec22283343c08b44637",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_get_interest",
+        "Updated": "test_get_product",
+        "Location": "tests/probing/test_recognizers.py",
+        "Original Line": 65,
+        "Updated Line": 64,
+        "Description": [
+            "The method test_get_interest from the module tests/probing/test_recognizers.py is renamed to test_get_product"
+        ],
+        "Commit": "3d3efe788cfc9a1492f66ec22283343c08b44637",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "get_patterns",
+        "Updated": "get_impacts",
+        "Location": "aspect_based_sentiment_analysis/probing/recognizers.py/AttentionGradientProduct",
+        "Original Method Line": "(80,93)",
+        "Extracted/Inlined Method Line": 81,
+        "Extracted/Inlined Lines": [
+            97.0,
+            99.0
+        ],
+        "Description": " The method get_impacts from the module aspect_based_sentiment_analysis/probing/recognizers.py in class AttentionGradientProduct is extracted from method get_patterns from the module aspect_based_sentiment_analysis/probing/recognizers.py in class AttentionGradientProduct ",
+        "Commit": "49ab1e3bab5fe6fe1f79bbd04e871b6ab0c2f89d",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_semeval_classification_restaurants",
+        "Updated": "test_semeval_classification_restaurant",
+        "Location": "tests/test_performance.py",
+        "Original Line": 24,
+        "Updated Line": 24,
+        "Description": [
+            "The method test_semeval_classification_restaurants from the module tests/test_performance.py is renamed to test_semeval_classification_restaurant"
+        ],
+        "Commit": "5d5a8be16b5b61ee34d07ac10dcb484dbbd5b2a6",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Evaluation"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "predict",
+        "Updated": "predict",
+        "Location": "aspect_based_sentiment_analysis/pipelines.py/BertPipeline",
+        "Original Line": 37,
+        "Updated Line": 39,
+        "Description": [
+            "The return type of method predict from the module aspect_based_sentiment_analysis/pipelines.py in class BertPipeline is updated"
+        ],
+        "Commit": "5fef71783398b7b7d405646cf3292a0f583df19a",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "highlight_pattern",
+        "Updated": "highlight_pattern",
+        "Location": "aspect_based_sentiment_analysis/plots.py",
+        "Original Line": 38,
+        "Updated Line": 38,
+        "Description": [
+            "The parameters [ rgb ] are added to the method highlight_pattern from the module aspect_based_sentiment_analysis/plots.py"
+        ],
+        "Commit": "66c5500462b76f5fdd7328917a09c7aafa1cc4c2",
+        "Category": "General",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "inputs",
+        "Updated": "inputs",
+        "Location": "tests/probing/test_recognizers.py",
+        "Original Line": 18,
+        "Updated Line": 14,
+        "Description": [
+            "The parameters [ request ] of the method inputs from the module tests/probing/test_recognizers.py is/are removed"
+        ],
+        "Commit": "7c5449691dd9a45fa27309e5636195253cfc9d7f",
+        "Category": "General",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_get_word_attentions",
+        "Updated": "test_merge_input_attentions",
+        "Location": "article/test_explain.py",
+        "Original Line": 72,
+        "Updated Line": 42,
+        "Description": [
+            "The method test_get_word_attentions from the module article/test_explain.py is renamed to test_merge_input_attentions"
+        ],
+        "Commit": "86faa6cc491f519847ad92cb316fd356e1060c54",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter",
+            "Change Return Type"
+        ],
+        "Original": "__call__",
+        "Updated": "__call__",
+        "Location": "aspect_based_sentiment_analysis/probing/recognizers.py/AttentionPatternRecognizer",
+        "Original Line": 58,
+        "Updated Line": 58,
+        "Description": [
+            "The parameters [ document ] of the method __call__ from the module aspect_based_sentiment_analysis/probing/recognizers.py in class AttentionPatternRecognizer are changed/renamed to [aspect_span]",
+            "The return type of method __call__ from the module aspect_based_sentiment_analysis/probing/recognizers.py in class AttentionPatternRecognizer is updated"
+        ],
+        "Commit": "9541db0ad4b72ddaee9724bd24d2a7f316b0c37e",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "construct_patterns",
+        "Updated": "construct_patterns",
+        "Location": "aspect_based_sentiment_analysis/probing/recognizers.py/AttentionPatternRecognizer",
+        "Original Line": 182,
+        "Updated Line": 183,
+        "Description": [
+            "The parameters [ document ] of the method construct_patterns from the module aspect_based_sentiment_analysis/probing/recognizers.py in class AttentionPatternRecognizer are changed/renamed to [aspect_span]"
+        ],
+        "Commit": "9541db0ad4b72ddaee9724bd24d2a7f316b0c37e",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Change/Rename Parameter"
+        ],
+        "Original": "get_aspect_pattern",
+        "Updated": "get_aspect_representation",
+        "Location": "aspect_based_sentiment_analysis/probing/recognizers.py/AttentionPatternRecognizer",
+        "Original Line": 106,
+        "Updated Line": 107,
+        "Description": [
+            "The method get_aspect_pattern from the module aspect_based_sentiment_analysis/probing/recognizers.py in class AttentionPatternRecognizer is renamed to get_aspect_representation",
+            "The parameters [ document ] of the method get_aspect_pattern from the module aspect_based_sentiment_analysis/probing/recognizers.py in class AttentionPatternRecognizer are changed/renamed to [aspect_span]"
+        ],
+        "Commit": "9541db0ad4b72ddaee9724bd24d2a7f316b0c37e",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "get_indices",
+        "Updated": "get_indices",
+        "Location": "aspect_based_sentiment_analysis/probing/recognizers.py/AttentionPatternRecognizer",
+        "Original Line": 146,
+        "Updated Line": 147,
+        "Description": [
+            "The parameters [ document ] of the method get_indices from the module aspect_based_sentiment_analysis/probing/recognizers.py in class AttentionPatternRecognizer are changed/renamed to [aspect_span]"
+        ],
+        "Commit": "9541db0ad4b72ddaee9724bd24d2a7f316b0c37e",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "get_patterns",
+        "Updated": "get_patterns",
+        "Location": "aspect_based_sentiment_analysis/probing/recognizers.py/AttentionPatternRecognizer",
+        "Original Line": 82,
+        "Updated Line": 82,
+        "Description": [
+            "The parameters [ document ] of the method get_patterns from the module aspect_based_sentiment_analysis/probing/recognizers.py in class AttentionPatternRecognizer are changed/renamed to [aspect_span]"
+        ],
+        "Commit": "9541db0ad4b72ddaee9724bd24d2a7f316b0c37e",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_get_aspect_pattern",
+        "Updated": "test_get_aspect_representation",
+        "Location": "tests/probing/test_recognizers.py",
+        "Original Line": 117,
+        "Updated Line": 121,
+        "Description": [
+            "The method test_get_aspect_pattern from the module tests/probing/test_recognizers.py is renamed to test_get_aspect_representation"
+        ],
+        "Commit": "9541db0ad4b72ddaee9724bd24d2a7f316b0c37e",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "aspect_based_sentiment_analysis/models.py/BertABSCConfig",
+        "Original Line": 33,
+        "Updated Line": 33,
+        "Description": [
+            "The parameters [ num_polarities ] are added to the method __init__ from the module aspect_based_sentiment_analysis/models.py in class BertABSCConfig"
+        ],
+        "Commit": "9f5eb6a174e4ddc77e2690060c6e1d9bf2019a45",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "batch",
+        "Updated": "encode",
+        "Location": "aspect_based_sentiment_analysis/pipelines.py/BertPipeline",
+        "Original Line": 121,
+        "Updated Line": 174,
+        "Description": [
+            "The method batch from the module aspect_based_sentiment_analysis/pipelines.py in class BertPipeline is renamed to encode"
+        ],
+        "Commit": "9f968ace065295d0c8d3865d805ef31d72423dc3",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_integration",
+        "Updated": "test_call",
+        "Location": "tests/absa/test_pipeline.py",
+        "Original Line": 33,
+        "Updated Line": 36,
+        "Description": [
+            "The method test_integration from the module tests/absa/test_pipeline.py is renamed to test_call"
+        ],
+        "Commit": "a07c7d135ef0c95092f135baec1140df057fd526",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_get_completed_task",
+        "Updated": "test_postprocess",
+        "Location": "tests/absa/test_pipeline.py",
+        "Original Line": 152,
+        "Updated Line": 133,
+        "Description": [
+            "The method test_get_completed_task from the module tests/absa/test_pipeline.py is renamed to test_postprocess"
+        ],
+        "Commit": "a07c7d135ef0c95092f135baec1140df057fd526",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_label",
+        "Updated": "test_review",
+        "Location": "tests/absa/test_pipeline.py",
+        "Original Line": 104,
+        "Updated Line": 110,
+        "Description": [
+            "The method test_label from the module tests/absa/test_pipeline.py is renamed to test_review"
+        ],
+        "Commit": "a07c7d135ef0c95092f135baec1140df057fd526",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_basic_pattern_recognizer_call",
+        "Updated": "test_basic_pattern_recognizer",
+        "Location": "tests/absa/test_aux_models.py",
+        "Original Line": 14,
+        "Updated Line": 58,
+        "Description": [
+            "The method test_basic_pattern_recognizer_call from the module tests/absa/test_aux_models.py is renamed to test_basic_pattern_recognizer"
+        ],
+        "Commit": "a60906bbb83d5e475e85e365ebf8fbe03ad70c3d",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Change/Rename Parameter"
+        ],
+        "Original": "explain",
+        "Updated": "display_html",
+        "Location": "aspect_based_sentiment_analysis/plots.py",
+        "Original Line": 48,
+        "Updated Line": 48,
+        "Description": [
+            "The method explain from the module aspect_based_sentiment_analysis/plots.py is renamed to display_html",
+            "The parameters [ example ] of the method explain from the module aspect_based_sentiment_analysis/plots.py are changed/renamed to [patterns]"
+        ],
+        "Commit": "a7b0a1563e6168d1dbeb795565f069deee505cdc",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "aspect_based_sentiment_analysis/models.py/BertABSCConfig",
+        "Original Line": 33,
+        "Updated Line": 24,
+        "Description": [
+            "The parameters [ tags ] of the method __init__ from the module aspect_based_sentiment_analysis/models.py in class BertABSCConfig is/are removed"
+        ],
+        "Commit": "ab9a2a0a817cea148ebc556be51c6b9158330b9f",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Inline Method",
+        "Original": "call",
+        "Updated": "call_extractor",
+        "Location": "aspect_based_sentiment_analysis/models.py/BertABSClassifier",
+        "Original Method Line": "(65,48)",
+        "Extracted/Inlined Method Line": 81,
+        "Extracted/Inlined Lines": [
+            49.0,
+            51.0,
+            52.0,
+            53.0,
+            54.0
+        ],
+        "Description": " The method call_extractor from the module aspect_based_sentiment_analysis/models.py in class BertABSClassifier is inlined into method call from the module aspect_based_sentiment_analysis/models.py in class BertABSClassifier ",
+        "Commit": "ab9a2a0a817cea148ebc556be51c6b9158330b9f",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "plot_patterns",
+        "Updated": "plot_patterns",
+        "Location": "aspect_based_sentiment_analysis/plots.py",
+        "Original Line": 4,
+        "Updated Line": 4,
+        "Description": [
+            "The parameters [ aspect ] of the method plot_patterns from the module aspect_based_sentiment_analysis/plots.py are changed/renamed to [prediction]"
+        ],
+        "Commit": "ab9a2a0a817cea148ebc556be51c6b9158330b9f",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_predict",
+        "Updated": "test_call",
+        "Location": "tests/test_pipeline.py",
+        "Original Line": 23,
+        "Updated Line": 23,
+        "Description": [
+            "The method test_predict from the module tests/test_pipeline.py is renamed to test_call"
+        ],
+        "Commit": "be2c876da309f07d395e1ecaeadd478a8a937697",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "BertPipeline",
+        "Updated": "_Pipeline",
+        "Location": "aspect_based_sentiment_analysis/pipelines.py",
+        "Description": " class BertPipeline was renamed to class _Pipeline ",
+        "Commit": "c27039087f4b7bad57133da897025d0977c3a2db",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "test_inference",
+        "Updated": "test_inference",
+        "Location": "tests/test_performance.py",
+        "Original Line": 17,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ nlp ] of the method test_inference from the module tests/test_performance.py is/are removed"
+        ],
+        "Commit": "c7321bfc52f255c70e65dbe254bd4f69848c7327",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "call",
+        "Updated": "call",
+        "Location": "aspect_based_sentiment_analysis/models.py/BertABSClassifier",
+        "Original Line": 47,
+        "Updated Line": 90,
+        "Description": [
+            "The parameters [ attention_mask token_type_ids ] are added to the method call from the module aspect_based_sentiment_analysis/models.py in class BertABSClassifier"
+        ],
+        "Commit": "c8b981a6b7844f5610872178905b50b1cb2bb6d2",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "make_document",
+        "Updated": "make_aspect_span",
+        "Location": "aspect_based_sentiment_analysis/alignment.py",
+        "Original Line": 30,
+        "Updated Line": 11,
+        "Description": [
+            "The method make_document from the module aspect_based_sentiment_analysis/alignment.py is renamed to make_aspect_span"
+        ],
+        "Commit": "cc55663e9d3cf1675b164375edcf175391c3e0c3",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "document",
+        "Updated": "aspect_span",
+        "Location": "tests/test_alignment.py",
+        "Original Line": 17,
+        "Updated Line": 14,
+        "Description": [
+            "The method document from the module tests/test_alignment.py is renamed to aspect_span"
+        ],
+        "Commit": "cc55663e9d3cf1675b164375edcf175391c3e0c3",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "test_make_alignment",
+        "Updated": "test_make_alignment",
+        "Location": "tests/test_alignment.py",
+        "Original Line": 52,
+        "Updated Line": 49,
+        "Description": [
+            "The parameters [ document ] of the method test_make_alignment from the module tests/test_alignment.py are changed/renamed to [aspect_span]"
+        ],
+        "Commit": "cc55663e9d3cf1675b164375edcf175391c3e0c3",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "test_merge_input_attentions",
+        "Updated": "test_merge_input_attentions",
+        "Location": "tests/test_alignment.py",
+        "Original Line": 59,
+        "Updated Line": 57,
+        "Description": [
+            "The parameters [ document ] of the method test_merge_input_attentions from the module tests/test_alignment.py are changed/renamed to [aspect_span]"
+        ],
+        "Commit": "cc55663e9d3cf1675b164375edcf175391c3e0c3",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "test_integration",
+        "Updated": "nlp",
+        "Location": "tests/test_pipeline.py",
+        "Original Line": 31,
+        "Updated Line": 20,
+        "Description": [
+            "The method test_integration from the module tests/test_pipeline.py is renamed to nlp",
+            "The parameters [ name tokenizer ] of the method test_integration from the module tests/test_pipeline.py is/are removed"
+        ],
+        "Commit": "e87b173c7e45db7ad3119bf8562649ea04bbb544",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_normalize",
+        "Updated": "test_scale",
+        "Location": "tests/probing/test_recognizers.py",
+        "Original Line": 165,
+        "Updated Line": 168,
+        "Description": [
+            "The method test_normalize from the module tests/probing/test_recognizers.py is renamed to test_scale"
+        ],
+        "Commit": "eda5625f78b05ef931cacc9ed2d3223a8580e095",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "explain",
+        "Updated": "explain",
+        "Location": "aspect_based_sentiment_analysis/probing/plots.py",
+        "Original Line": 48,
+        "Updated Line": 48,
+        "Description": [
+            "The parameters [ aspect_span ] of the method explain from the module aspect_based_sentiment_analysis/probing/plots.py are changed/renamed to [example]"
+        ],
+        "Commit": "fa48c716081986fdb992ecd5e4c47ccef0061d69",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__call__",
+        "Updated": "__call__",
+        "Location": "aspect_based_sentiment_analysis/probing/recognizers.py/AttentionPatternRecognizer",
+        "Original Line": 56,
+        "Updated Line": 56,
+        "Description": [
+            "The parameters [ aspect_span ] of the method __call__ from the module aspect_based_sentiment_analysis/probing/recognizers.py in class AttentionPatternRecognizer are changed/renamed to [example]"
+        ],
+        "Commit": "fa48c716081986fdb992ecd5e4c47ccef0061d69",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "construct_patterns",
+        "Updated": "construct_patterns",
+        "Location": "aspect_based_sentiment_analysis/probing/recognizers.py/AttentionPatternRecognizer",
+        "Original Line": 182,
+        "Updated Line": 181,
+        "Description": [
+            "The parameters [ aspect_span ] of the method construct_patterns from the module aspect_based_sentiment_analysis/probing/recognizers.py in class AttentionPatternRecognizer are changed/renamed to [example]"
+        ],
+        "Commit": "fa48c716081986fdb992ecd5e4c47ccef0061d69",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "get_aspect_representation",
+        "Updated": "get_aspect_representation",
+        "Location": "aspect_based_sentiment_analysis/probing/recognizers.py/AttentionPatternRecognizer",
+        "Original Line": 107,
+        "Updated Line": 106,
+        "Description": [
+            "The parameters [ aspect_span ] of the method get_aspect_representation from the module aspect_based_sentiment_analysis/probing/recognizers.py in class AttentionPatternRecognizer are changed/renamed to [example]"
+        ],
+        "Commit": "fa48c716081986fdb992ecd5e4c47ccef0061d69",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "get_indices",
+        "Updated": "get_indices",
+        "Location": "aspect_based_sentiment_analysis/probing/recognizers.py/AttentionPatternRecognizer",
+        "Original Line": 147,
+        "Updated Line": 146,
+        "Description": [
+            "The parameters [ aspect_span ] of the method get_indices from the module aspect_based_sentiment_analysis/probing/recognizers.py in class AttentionPatternRecognizer are changed/renamed to [example]"
+        ],
+        "Commit": "fa48c716081986fdb992ecd5e4c47ccef0061d69",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "get_patterns",
+        "Updated": "get_patterns",
+        "Location": "aspect_based_sentiment_analysis/probing/recognizers.py/AttentionPatternRecognizer",
+        "Original Line": 80,
+        "Updated Line": 80,
+        "Description": [
+            "The parameters [ aspect_span ] of the method get_patterns from the module aspect_based_sentiment_analysis/probing/recognizers.py in class AttentionPatternRecognizer are changed/renamed to [example]"
+        ],
+        "Commit": "fa48c716081986fdb992ecd5e4c47ccef0061d69",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

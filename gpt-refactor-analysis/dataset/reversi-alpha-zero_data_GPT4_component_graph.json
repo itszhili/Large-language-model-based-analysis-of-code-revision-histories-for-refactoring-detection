@@ -1,0 +1,179 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "src/reversi_zero/lib/tensorboard_step_callback.py/TensorBoardStepCallback",
+        "Original Line": 10,
+        "Updated Line": 10,
+        "Description": [
+            "The parameters [ logging_per_steps ] are added to the method __init__ from the module src/reversi_zero/lib/tensorboard_step_callback.py in class TensorBoardStepCallback"
+        ],
+        "Commit": "012539f1e91a75f031681593f277e3f594bf870a",
+        "GPT4 Component Graph": "Monitoring & Logging"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "select_action_q_and_u",
+        "Updated": "normalize",
+        "Location": "src/reversi_zero/agent/player.py/ReversiPlayer",
+        "Original Method Line": "(352,352)",
+        "Extracted/Inlined Method Line": 391,
+        "Extracted/Inlined Lines": [
+            373.0
+        ],
+        "Description": " The method normalize from the module src/reversi_zero/agent/player.py in class ReversiPlayer is extracted from method select_action_q_and_u from the module src/reversi_zero/agent/player.py in class ReversiPlayer ",
+        "Commit": "036ae13cf433e0f9e99c7ca75b23ba8e9faec4fd",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "set_session_config",
+        "Updated": "set_session_config",
+        "Location": "src/reversi_zero/lib/tf_util.py",
+        "Original Line": 1,
+        "Updated Line": 1,
+        "Description": [
+            "The parameters [ allow_soft_placement ] of the method set_session_config from the module src/reversi_zero/lib/tf_util.py are changed/renamed to [allow_growth]"
+        ],
+        "Commit": "2e5721069832ce12c712be4956ce9dd0e575ac61",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "src/reversi_zero/worker/self_play.py/SelfPlayWorker",
+        "Original Line": 34,
+        "Updated Line": 35,
+        "Description": [
+            "The parameters [ worker_index ] are added to the method __init__ from the module src/reversi_zero/worker/self_play.py in class SelfPlayWorker"
+        ],
+        "Commit": "54fe052c10b91aedd86fd5cb61c7392de57f709a",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "__init__",
+        "Updated": "create_player",
+        "Location": "src/reversi_zero/play_game/nboard.py/NBoardEngine",
+        "Original Method Line": "(31,31)",
+        "Extracted/Inlined Method Line": 44,
+        "Extracted/Inlined Lines": [
+            41.0
+        ],
+        "Description": " The method create_player from the module src/reversi_zero/play_game/nboard.py in class NBoardEngine is extracted from method __init__ from the module src/reversi_zero/play_game/nboard.py in class NBoardEngine ",
+        "Commit": "62b142eaf43f0c65705e41420014ed7e378a8866",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "__init__",
+        "Updated": "create_solver",
+        "Location": "src/reversi_zero/agent/player.py/ReversiPlayer",
+        "Original Method Line": "(27,27)",
+        "Extracted/Inlined Method Line": 436,
+        "Extracted/Inlined Lines": [
+            58.0
+        ],
+        "Description": " The method create_solver from the module src/reversi_zero/agent/player.py in class ReversiPlayer is extracted from method __init__ from the module src/reversi_zero/agent/player.py in class ReversiPlayer ",
+        "Commit": "6d6dc8727836a5e3717c8eb00516e6c27cf76d7e",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "on_train_end",
+        "Updated": "close",
+        "Location": "src/reversi_zero/lib/tensorboard_step_callback.py/TensorBoardStepCallback",
+        "Original Line": 32,
+        "Updated Line": 32,
+        "Description": [
+            "The method on_train_end from the module src/reversi_zero/lib/tensorboard_step_callback.py in class TensorBoardStepCallback is renamed to close",
+            "The parameters [ logs ] of the method on_train_end from the module src/reversi_zero/lib/tensorboard_step_callback.py in class TensorBoardStepCallback is/are removed"
+        ],
+        "Commit": "7064f55a7c1b08f7f2457ecec66efbd47a3af746",
+        "GPT4 Component Graph": "Monitoring & Logging"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "train_epoch",
+        "Updated": "train_epoch",
+        "Location": "src/reversi_zero/worker/optimize.py/OptimizeWorker",
+        "Original Line": 62,
+        "Updated Line": 56,
+        "Description": [
+            "The parameters [ callbacks ] are added to the method train_epoch from the module src/reversi_zero/worker/optimize.py in class OptimizeWorker"
+        ],
+        "Commit": "817cb605a4e8afef568c3535666258b96fce4134",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "quit",
+        "Updated": "handle_quit",
+        "Location": "src/reversi_zero/play_game/gui.py/Frame",
+        "Original Line": 60,
+        "Updated Line": 60,
+        "Description": [
+            "The method quit from the module src/reversi_zero/play_game/gui.py in class Frame is renamed to handle_quit"
+        ],
+        "Commit": "a82c518701c885b2994529bb30d80e0af9260eb4",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "quit",
+        "Updated": "new_game",
+        "Location": "src/reversi_zero/play_game/gui.py/Frame",
+        "Original Method Line": "(60,63)",
+        "Extracted/Inlined Method Line": 66,
+        "Extracted/Inlined Lines": [
+            61.0
+        ],
+        "Description": " The method new_game from the module src/reversi_zero/play_game/gui.py in class Frame is extracted from method quit from the module src/reversi_zero/play_game/gui.py in class Frame ",
+        "Commit": "a82c518701c885b2994529bb30d80e0af9260eb4",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "calc_policy",
+        "Updated": "calc_policy_by_tau_1",
+        "Location": "src/reversi_zero/agent/player.py/ReversiPlayer",
+        "Original Method Line": "(241,242)",
+        "Extracted/Inlined Method Line": 260,
+        "Extracted/Inlined Lines": [
+            252.0
+        ],
+        "Description": " The method calc_policy_by_tau_1 from the module src/reversi_zero/agent/player.py in class ReversiPlayer is extracted from method calc_policy from the module src/reversi_zero/agent/player.py in class ReversiPlayer ",
+        "Commit": "d873275a1967a760365bb0dae5255fc745e5bda2",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "src/reversi_zero/config.py/Config",
+        "Original Line": 14,
+        "Updated Line": 14,
+        "Description": [
+            "The parameters [ config_type ] are added to the method __init__ from the module src/reversi_zero/config.py in class Config"
+        ],
+        "Commit": "f64e088d68759bab92493bc0744bfc1d4dd88c77",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

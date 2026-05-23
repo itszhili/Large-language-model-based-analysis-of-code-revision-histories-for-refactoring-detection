@@ -1,0 +1,92 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_get_model",
+        "Updated": "_get_model",
+        "Location": "tests/test_deepvoice3.py",
+        "Original Line": 27,
+        "Updated Line": 27,
+        "Description": [
+            "The parameters [ use_memory_mask ] are added to the method _get_model from the module tests/test_deepvoice3.py"
+        ],
+        "Commit": "96ecbdba66058274e2ceb9f58261daa4a45eb873",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "deepvoice3_pytorch/modules.py/SinusoidalEncoding",
+        "Original Line": 35,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ padding_idx ] of the method __init__ from the module deepvoice3_pytorch/modules.py in class SinusoidalEncoding is/are removed"
+        ],
+        "Commit": "9aa9f1b0ad53a87c4d22bcff7d3a9d185567de11",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_pad",
+        "Updated": "_pad",
+        "Location": "train.py",
+        "Original Line": 60,
+        "Updated Line": 60,
+        "Description": [
+            "The parameters [ constant_values ] are added to the method _pad from the module train.py"
+        ],
+        "Commit": "a0b36a485bfe99ebf258c23057e1d8a602e9e7b2",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "build_deepvoice3",
+        "Updated": "build_deepvoice3",
+        "Location": "deepvoice3_pytorch/deepvoice3.py",
+        "Original Line": 49,
+        "Updated Line": 49,
+        "Description": [
+            "The parameters [ use_memory_mask ] are added to the method build_deepvoice3 from the module deepvoice3_pytorch/deepvoice3.py"
+        ],
+        "Commit": "be4233ab7b769a46b210cb97aba5fa0cbc1f53f6",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "position_encoding_init",
+        "Updated": "position_encoding_init",
+        "Location": "deepvoice3_pytorch/deepvoice3.py",
+        "Original Line": 268,
+        "Updated Line": 270,
+        "Description": [
+            "The parameters [ position_rate ] are added to the method position_encoding_init from the module deepvoice3_pytorch/deepvoice3.py"
+        ],
+        "Commit": "c89d35ee18a67308a665224f7d357ff26355292d",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_single_spaker_deepvoice3",
+        "Updated": "_test_data",
+        "Location": "tests/test_deepvoice3.py",
+        "Original Line": 50,
+        "Updated Line": 49,
+        "Description": [
+            "The method test_single_spaker_deepvoice3 from the module tests/test_deepvoice3.py is renamed to _test_data"
+        ],
+        "Commit": "dc0da84a6aced860befb47d17a734e68f237c628",
+        "GPT4 Component Graph": "Data Processing"
+    }
+]

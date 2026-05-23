@@ -10,11 +10,8 @@ __pycache__/
 
 .env
 
-PyRef/gptenv/*
-!PyRef/gptenv/**/.gitkeep
-
-PyRef/Repos/*
-!PyRef/Repos/**/.gitkeep
+gpt-refactor-analysis/gptenv/
+!gpt-refactor-analysis/gptenv/**/.gitkeep
 
 Llama2/
 
@@ -25,6 +22,9 @@ llama/llama/*
 
 llama/llama-2-7b-chat/*
 !llama/llama-2-7b-chat/**/.gitkeep
+
+llama/llama-2-7b/*
+!llama/llama-2-7b/**/.gitkeep
 
 llama/llama.egg-info/*
 !llama/llama.egg-info/**/.gitkeep

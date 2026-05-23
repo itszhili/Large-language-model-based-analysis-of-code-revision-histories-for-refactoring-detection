@@ -1,0 +1,26 @@
+[
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "CoreferenceEnglishMatchingTest",
+        "Updated": "CoreferenceGermanMatchingTest",
+        "Location": "tests/de/test_structural_matching_with_coreference_DE.py",
+        "Description": " class CoreferenceEnglishMatchingTest was renamed to class CoreferenceGermanMatchingTest ",
+        "Commit": "2eb995b964aa8cb287b5046f7f20fd272c91b15d",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_noun_lemmas_preferred_control",
+        "Updated": "test_noun_lemmas_preferred_control_1",
+        "Location": "tests/en/test_phraselet_production_EN.py/EnglishPhraseletProductionTest",
+        "Original Line": 455,
+        "Updated Line": 455,
+        "Description": [
+            "The method test_noun_lemmas_preferred_control from the module tests/en/test_phraselet_production_EN.py in class EnglishPhraseletProductionTest is renamed to test_noun_lemmas_preferred_control_1"
+        ],
+        "Commit": "8308cfd486b27fe2fce53470b7dc75d8f3f967b6",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

@@ -1,0 +1,79 @@
+[
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_connect_database",
+        "Updated": "connect_database",
+        "Location": "src/Kite/database.py/Database",
+        "Original Line": 12,
+        "Updated Line": 12,
+        "Description": [
+            "The method _connect_database from the module src/Kite/database.py in class Database is renamed to connect_database"
+        ],
+        "Commit": "56e630cc308d29d64ddb1e3628879d713fcb320c",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "src/Gon/cnstock_spyder.py/CnStockSpyder",
+        "Original Line": 29,
+        "Updated Line": 30,
+        "Description": [
+            "The parameters [ database_name collection_name ] are added to the method __init__ from the module src/Gon/cnstock_spyder.py in class CnStockSpyder"
+        ],
+        "Commit": "fb3d4653eb8f0d97b20ee984ec59b2298aa2e675",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "src/Gon/jrj_spyder.py/JrjSpyder",
+        "Original Line": 22,
+        "Updated Line": 23,
+        "Description": [
+            "The parameters [ database_name collection_name ] are added to the method __init__ from the module src/Gon/jrj_spyder.py in class JrjSpyder"
+        ],
+        "Commit": "fb3d4653eb8f0d97b20ee984ec59b2298aa2e675",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "src/Gon/nbd_spyder.py/NbdSpyder",
+        "Original Line": 23,
+        "Updated Line": 24,
+        "Description": [
+            "The parameters [ database_name collection_name ] are added to the method __init__ from the module src/Gon/nbd_spyder.py in class NbdSpyder"
+        ],
+        "Commit": "fb3d4653eb8f0d97b20ee984ec59b2298aa2e675",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Change/Rename Parameter"
+        ],
+        "Original": "create_db",
+        "Updated": "_connect_database",
+        "Location": "src/Kite/database.py/Database",
+        "Original Line": 11,
+        "Updated Line": 12,
+        "Description": [
+            "The method create_db from the module src/Kite/database.py in class Database is renamed to _connect_database",
+            "The parameters [ database_str ] of the method create_db from the module src/Kite/database.py in class Database are changed/renamed to [database_name]"
+        ],
+        "Commit": "fb3d4653eb8f0d97b20ee984ec59b2298aa2e675",
+        "GPT4 Component Graph": "Data Processing"
+    }
+]

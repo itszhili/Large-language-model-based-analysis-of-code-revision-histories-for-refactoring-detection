@@ -1,0 +1,32 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "solve",
+        "Updated": "solve",
+        "Location": "rex_gym/model/kinematics.py/Kinematics",
+        "Original Line": 103,
+        "Updated Line": 103,
+        "Description": [
+            "The parameters [ frames ] are added to the method solve from the module rex_gym/model/kinematics.py in class Kinematics"
+        ],
+        "Commit": "b45a3e89b677035a7a2a9ff2668340676237647e",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "rex_trotting",
+        "Updated": "rex_walking",
+        "Location": "rex_gym/agents/scripts/configs.py",
+        "Original Line": 65,
+        "Updated Line": 65,
+        "Description": [
+            "The method rex_trotting from the module rex_gym/agents/scripts/configs.py is renamed to rex_walking"
+        ],
+        "Commit": "ed305cf0998db05ab5f37a469514df5c5a2f8d3d",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

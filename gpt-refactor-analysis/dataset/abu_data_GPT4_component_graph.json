@@ -1,0 +1,412 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "code_to_symbol",
+        "Updated": "code_to_symbol",
+        "Location": "abupy/MarketBu/ABuSymbol.py",
+        "Original Line": 15,
+        "Updated Line": 19,
+        "Description": [
+            "The parameters [ rs ] are added to the method code_to_symbol from the module abupy/MarketBu/ABuSymbol.py"
+        ],
+        "Commit": "179a26717c7c94999ac6f0df09643e62b05c2551",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "query_symbol_sub_market",
+        "Updated": "query_symbol_sub_market",
+        "Old Location": "abupy/MarketBu/ABuDataFeed.py/TXApi",
+        "New Location": "abupy/MarketBu/ABuDataFeed.py",
+        "Old Method Line": 136,
+        "New Method Line": 43,
+        "Description": " method query_symbol_sub_market from the module abupy/MarketBu/ABuDataFeed.py in class TXApi was moved to module abupy/MarketBu/ABuDataFeed.py ",
+        "Commit": "179a26717c7c94999ac6f0df09643e62b05c2551",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "grid_mul_func",
+        "Updated": "grid_search_mul_process",
+        "Location": "abupy/MetricsBu/ABuGridSearch.py",
+        "Original Line": 106,
+        "Updated Line": 107,
+        "Description": [
+            "The method grid_mul_func from the module abupy/MetricsBu/ABuGridSearch.py is renamed to grid_search_mul_process"
+        ],
+        "Commit": "647ad0179b4a273f214505cd4f0f2355f8b438dc",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "batch_get_pick_time_kl_pd",
+        "Updated": "batch_get_pick_time_kl_pd",
+        "Location": "abupy/TradeBu/ABuKLManager.py/AbuKLManager",
+        "Original Line": 181,
+        "Updated Line": 182,
+        "Description": [
+            "The parameters [ show_progress ] are added to the method batch_get_pick_time_kl_pd from the module abupy/TradeBu/ABuKLManager.py in class AbuKLManager"
+        ],
+        "Commit": "647ad0179b4a273f214505cd4f0f2355f8b438dc",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "gen_dict_pick_time_kl_pd",
+        "Updated": "gen_dict_pick_time_kl_pd",
+        "Location": "abupy/TradeBu/ABuKLManager.py",
+        "Original Line": 32,
+        "Updated Line": 32,
+        "Description": [
+            "The parameters [ show_progress ] are added to the method gen_dict_pick_time_kl_pd from the module abupy/TradeBu/ABuKLManager.py"
+        ],
+        "Commit": "647ad0179b4a273f214505cd4f0f2355f8b438dc",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "do_symbols_with_same_factors",
+        "Updated": "do_symbols_with_same_factors",
+        "Location": "abupy/AlphaBu/ABuPickTimeExecute.py",
+        "Original Line": 81,
+        "Updated Line": 81,
+        "Description": [
+            "The parameters [ show_progress ] are added to the method do_symbols_with_same_factors from the module abupy/AlphaBu/ABuPickTimeExecute.py"
+        ],
+        "Commit": "b5ec880f1d8c1ada0d71b1e11f2d6a0b2798e4d5",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "do_symbols_with_same_factors_process",
+        "Updated": "do_symbols_with_same_factors_process",
+        "Location": "abupy/AlphaBu/ABuPickTimeMaster.py/AbuPickTimeMaster",
+        "Original Line": 30,
+        "Updated Line": 30,
+        "Description": [
+            "The parameters [ show_progress ] are added to the method do_symbols_with_same_factors_process from the module abupy/AlphaBu/ABuPickTimeMaster.py in class AbuPickTimeMaster"
+        ],
+        "Commit": "b5ec880f1d8c1ada0d71b1e11f2d6a0b2798e4d5",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "abupy/BetaBu/ABuPositionBase.py/AbuPositionBase",
+        "Original Line": 28,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ deposit_rate ] of the method __init__ from the module abupy/BetaBu/ABuPositionBase.py in class AbuPositionBase is/are removed"
+        ],
+        "Commit": "b5ec880f1d8c1ada0d71b1e11f2d6a0b2798e4d5",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "__init__",
+        "Updated": "_slippage_class_init",
+        "Location": "abupy/FactorBuyBu/ABuFactorBuyBase.py/AbuFactorBuyBase",
+        "Original Method Line": "(71,73)",
+        "Extracted/Inlined Method Line": 142,
+        "Extracted/Inlined Lines": [
+            88.0
+        ],
+        "Description": " The method _slippage_class_init from the module abupy/FactorBuyBu/ABuFactorBuyBase.py in class AbuFactorBuyBase is extracted from method __init__ from the module abupy/FactorBuyBu/ABuFactorBuyBase.py in class AbuFactorBuyBase ",
+        "Commit": "b5ec880f1d8c1ada0d71b1e11f2d6a0b2798e4d5",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "_fit_pick_stock",
+        "Updated": "past_today_kl",
+        "Location": "abupy/FactorBuyBu/ABuFactorBuyBase.py/AbuFactorBuyBase",
+        "Original Method Line": "(273,302)",
+        "Extracted/Inlined Method Line": 328,
+        "Extracted/Inlined Lines": [
+            277.0,
+            280.0
+        ],
+        "Description": " The method past_today_kl from the module abupy/FactorBuyBu/ABuFactorBuyBase.py in class AbuFactorBuyBase is extracted from method _fit_pick_stock from the module abupy/FactorBuyBu/ABuFactorBuyBase.py in class AbuFactorBuyBase ",
+        "Commit": "b5ec880f1d8c1ada0d71b1e11f2d6a0b2798e4d5",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "gen_factor_grid",
+        "Updated": "gen_factor_grid",
+        "Location": "abupy/MetricsBu/ABuGridHelper.py",
+        "Original Line": 30,
+        "Updated Line": 30,
+        "Description": [
+            "The parameters [ need_empty_sell ] are added to the method gen_factor_grid from the module abupy/MetricsBu/ABuGridHelper.py"
+        ],
+        "Commit": "b5ec880f1d8c1ada0d71b1e11f2d6a0b2798e4d5",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "apply_action_to_capital",
+        "Updated": "apply_action_to_capital",
+        "Location": "abupy/TradeBu/ABuTradeExecute.py",
+        "Original Line": 141,
+        "Updated Line": 141,
+        "Description": [
+            "The parameters [ show_progress ] are added to the method apply_action_to_capital from the module abupy/TradeBu/ABuTradeExecute.py"
+        ],
+        "Commit": "b5ec880f1d8c1ada0d71b1e11f2d6a0b2798e4d5",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "abupy/UtilBu/ABuProgress.py/AbuMulPidProgress",
+        "Original Line": 162,
+        "Updated Line": 171,
+        "Description": [
+            "The parameters [ show_progress ] are added to the method __init__ from the module abupy/UtilBu/ABuProgress.py in class AbuMulPidProgress"
+        ],
+        "Commit": "b5ec880f1d8c1ada0d71b1e11f2d6a0b2798e4d5",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "add_to_buy_factor",
+        "Updated": "add_to_buy_factor",
+        "Location": "abupy/WidgetBu/ABuWGBFBase.py/BFSubscriberMixin",
+        "Original Line": 50,
+        "Updated Line": 50,
+        "Description": [
+            "The parameters [ only_one ] are added to the method add_to_buy_factor from the module abupy/WidgetBu/ABuWGBFBase.py in class BFSubscriberMixin"
+        ],
+        "Commit": "b5ec880f1d8c1ada0d71b1e11f2d6a0b2798e4d5",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "abupy/WidgetBu/ABuWGBase.py/WidgetFactorManagerBase",
+        "Original Line": 80,
+        "Updated Line": 92,
+        "Description": [
+            "The parameters [ show_add_buy add_button_style ] are added to the method __init__ from the module abupy/WidgetBu/ABuWGBase.py in class WidgetFactorManagerBase"
+        ],
+        "Commit": "b5ec880f1d8c1ada0d71b1e11f2d6a0b2798e4d5",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "add_factor",
+        "Updated": "add_factor",
+        "Location": "abupy/WidgetBu/ABuWGBase.py/WidgetFactorManagerBase",
+        "Original Line": 150,
+        "Updated Line": 165,
+        "Description": [
+            "The parameters [ only_one ] are added to the method add_factor from the module abupy/WidgetBu/ABuWGBase.py in class WidgetFactorManagerBase"
+        ],
+        "Commit": "b5ec880f1d8c1ada0d71b1e11f2d6a0b2798e4d5",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "store_abu_result_tuple",
+        "Updated": "_cache_abu_result_path",
+        "Location": "abupy/CoreBu/ABuStore.py",
+        "Original Method Line": "(58,199)",
+        "Extracted/Inlined Method Line": 161,
+        "Extracted/Inlined Lines": [
+            68.0,
+            72.0,
+            73.0,
+            74.0,
+            75.0,
+            76.0,
+            77.0,
+            78.0,
+            79.0,
+            80.0,
+            81.0,
+            84.0,
+            86.0,
+            91.0,
+            92.0,
+            97.0,
+            102.0
+        ],
+        "Description": " The method _cache_abu_result_path from the module abupy/CoreBu/ABuStore.py is extracted from method store_abu_result_tuple from the module abupy/CoreBu/ABuStore.py ",
+        "Commit": "bf5f459824b742e68913a60892ed5589c68d2cb2",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_do_pick_time_work",
+        "Updated": "_do_pick_time_work",
+        "Location": "abupy/AlphaBu/ABuPickTimeExecute.py",
+        "Original Line": 46,
+        "Updated Line": 46,
+        "Description": [
+            "The parameters [ show_pg ] are added to the method _do_pick_time_work from the module abupy/AlphaBu/ABuPickTimeExecute.py"
+        ],
+        "Commit": "d111c2dbac0209434ac60ea5ad1d041d93b30199",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "dump_pickle",
+        "Updated": "dump_pickle",
+        "Location": "abupy/UtilBu/ABuFileUtil.py",
+        "Original Line": 122,
+        "Updated Line": 122,
+        "Description": [
+            "The parameters [ how ] are added to the method dump_pickle from the module abupy/UtilBu/ABuFileUtil.py"
+        ],
+        "Commit": "d111c2dbac0209434ac60ea5ad1d041d93b30199",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "show_msg",
+        "Updated": "show_msg",
+        "Location": "abupy/UtilBu/ABuOsUtil.py",
+        "Original Line": 17,
+        "Updated Line": 17,
+        "Description": [
+            "The parameters [ log ] are added to the method show_msg from the module abupy/UtilBu/ABuOsUtil.py"
+        ],
+        "Commit": "d111c2dbac0209434ac60ea5ad1d041d93b30199",
+        "GPT4 Component Graph": "Monitoring & Logging"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "check_process_is_dead",
+        "Updated": "do_check_process_is_dead",
+        "Location": "abupy/UtilBu/ABuProgress.py",
+        "Original Method Line": "(127,127)",
+        "Extracted/Inlined Method Line": 135,
+        "Extracted/Inlined Lines": [
+            129.0,
+            134.0,
+            135.0,
+            136.0,
+            138.0,
+            140.0,
+            141.0,
+            142.0,
+            143.0,
+            144.0,
+            145.0
+        ],
+        "Description": " The method do_check_process_is_dead from the module abupy/UtilBu/ABuProgress.py is extracted from method check_process_is_dead from the module abupy/UtilBu/ABuProgress.py ",
+        "Commit": "d111c2dbac0209434ac60ea5ad1d041d93b30199",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "disable_example_env_ipython",
+        "Updated": "disable_example_env_ipython",
+        "Location": "abupy/CoreBu/ABuEnv.py",
+        "Original Line": 326,
+        "Updated Line": 342,
+        "Description": [
+            "The parameters [ show_log ] are added to the method disable_example_env_ipython from the module abupy/CoreBu/ABuEnv.py"
+        ],
+        "Commit": "d30888a36c00da1a68a050db1fa6c1342be35b8e",
+        "GPT4 Component Graph": "Monitoring & Logging"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "enable_example_env_ipython",
+        "Updated": "enable_example_env_ipython",
+        "Location": "abupy/CoreBu/ABuEnv.py",
+        "Original Line": 295,
+        "Updated Line": 297,
+        "Description": [
+            "The parameters [ show_log check_cn ] are added to the method enable_example_env_ipython from the module abupy/CoreBu/ABuEnv.py"
+        ],
+        "Commit": "d30888a36c00da1a68a050db1fa6c1342be35b8e",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "search_to_symbol_dict",
+        "Updated": "search_to_symbol_dict",
+        "Location": "abupy/MarketBu/ABuSymbol.py",
+        "Original Line": 193,
+        "Updated Line": 196,
+        "Description": [
+            "The parameters [ fast_mode ] are added to the method search_to_symbol_dict from the module abupy/MarketBu/ABuSymbol.py"
+        ],
+        "Commit": "d30888a36c00da1a68a050db1fa6c1342be35b8e",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "abupy/TradeBu/ABuBenchmark.py/AbuBenchmark",
+        "Original Line": 25,
+        "Updated Line": 25,
+        "Description": [
+            "The parameters [ benchmark_kl_pd ] are added to the method __init__ from the module abupy/TradeBu/ABuBenchmark.py in class AbuBenchmark"
+        ],
+        "Commit": "d30888a36c00da1a68a050db1fa6c1342be35b8e",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "fit_day",
+        "Updated": "fit_day",
+        "Location": "abupy/FactorBuyBu/ABuFactorBuyBase.py/AbuFactorBuyBase",
+        "Original Line": 173,
+        "Updated Line": 213,
+        "Description": [
+            "The parameters [ today ] are added to the method fit_day from the module abupy/FactorBuyBu/ABuFactorBuyBase.py in class AbuFactorBuyBase"
+        ],
+        "Commit": "f8abb36792fa713d9bccc45d16cd0bcec94df5dd",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

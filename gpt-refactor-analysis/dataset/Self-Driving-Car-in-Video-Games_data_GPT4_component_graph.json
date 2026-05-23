@@ -1,0 +1,104 @@
+[
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "dataset.py/Tedd1104DataModule",
+        "Original Line": 432,
+        "Updated Line": 422,
+        "Description": [
+            "The parameters [ accelerator ] of the method __init__ from the module dataset.py in class Tedd1104DataModule is/are removed"
+        ],
+        "Commit": "150a93ea99cf451fa63aa05d44be75fda898197b",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "dataset_image_reordering.py/Tedd1104ataModuleForImageReordering",
+        "Original Line": 226,
+        "Updated Line": 219,
+        "Description": [
+            "The parameters [ accelerator ] of the method __init__ from the module dataset_image_reordering.py in class Tedd1104ataModuleForImageReordering is/are removed"
+        ],
+        "Commit": "150a93ea99cf451fa63aa05d44be75fda898197b",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "forward",
+        "Updated": "forward",
+        "Location": "model.py/TEDD1104LSTM",
+        "Original Line": 740,
+        "Updated Line": 740,
+        "Description": [
+            "The parameters [ attention_mask ] are added to the method forward from the module model.py in class TEDD1104LSTM"
+        ],
+        "Commit": "635611c45482618acfd04fe2f71722f70243a135",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "model.py/EncoderCNN",
+        "Original Line": 200,
+        "Updated Line": 200,
+        "Description": [
+            "The parameters [ sequence_size ] are added to the method __init__ from the module model.py in class EncoderCNN"
+        ],
+        "Commit": "d09e391c7a1682fd4cc814e2030a46ce3416b5a4",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "model.py/TEDD1104LSTM",
+        "Original Line": 494,
+        "Updated Line": 489,
+        "Description": [
+            "The parameters [ layers_out ] of the method __init__ from the module model.py in class TEDD1104LSTM is/are removed"
+        ],
+        "Commit": "de292d7a6d4709ddf461a3d58bdd4cbaa46fa9b0",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "model.py/TEDD1104Transformer",
+        "Original Line": 592,
+        "Updated Line": 585,
+        "Description": [
+            "The parameters [ layers_out ] of the method __init__ from the module model.py in class TEDD1104Transformer is/are removed"
+        ],
+        "Commit": "de292d7a6d4709ddf461a3d58bdd4cbaa46fa9b0",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "configure_optimizers",
+        "Updated": "configure_optimizers",
+        "Old Location": "model.py",
+        "New Location": "model.py/Tedd1104ModelPL",
+        "Old Method Line": 882,
+        "New Method Line": 873,
+        "Description": " method configure_optimizers from the module model.py was moved to class Tedd1104ModelPL of module model.py ",
+        "Commit": "de292d7a6d4709ddf461a3d58bdd4cbaa46fa9b0",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

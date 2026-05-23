@@ -1,0 +1,17 @@
+[
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "draw_text_in_image",
+        "Updated": "draw_text_in_image",
+        "Location": "main.py",
+        "Original Line": 132,
+        "Updated Line": 132,
+        "Description": [
+            "The parameters [ total_text_width ] of the method draw_text_in_image from the module main.py are changed/renamed to [line_width]"
+        ],
+        "Commit": "5b0fa64be41ba14fd5ac1513ae8ae54b6baf94db",
+        "GPT4 Component Graph": "Visualization & UI"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "action",
+        "Updated": "main",
+        "Location": "main.py",
+        "Original Line": 22,
+        "Updated Line": 8,
+        "Description": [
+            "The method action from the module main.py is renamed to main"
+        ],
+        "Commit": "428d89e2bac25e2a5702c1ecb3de3d6f36a8e4a6",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

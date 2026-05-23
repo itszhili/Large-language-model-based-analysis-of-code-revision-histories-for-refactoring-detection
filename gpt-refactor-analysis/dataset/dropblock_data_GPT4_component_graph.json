@@ -1,0 +1,41 @@
+[
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "DropBlock",
+        "Updated": "DropBlock2D",
+        "Location": "dropblock/dropblock.py",
+        "Description": " class DropBlock was renamed to class DropBlock2D ",
+        "Commit": "75bb2c733bf0e31777b1afc9d1f4a97940f1c655",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_block_mask_no_overlap",
+        "Updated": "test_block_mask_Hw_even",
+        "Location": "tests/test_dropblock.py",
+        "Original Line": 7,
+        "Updated Line": 27,
+        "Description": [
+            "The method test_block_mask_no_overlap from the module tests/test_dropblock.py is renamed to test_block_mask_Hw_even"
+        ],
+        "Commit": "79763cc5073e5fa1a6e5b7de868fda7ab5c074e3",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_block_mask_overlap",
+        "Updated": "test_block_mask_Hw_odd",
+        "Location": "tests/test_dropblock.py",
+        "Original Line": 26,
+        "Updated Line": 86,
+        "Description": [
+            "The method test_block_mask_overlap from the module tests/test_dropblock.py is renamed to test_block_mask_Hw_odd"
+        ],
+        "Commit": "79763cc5073e5fa1a6e5b7de868fda7ab5c074e3",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

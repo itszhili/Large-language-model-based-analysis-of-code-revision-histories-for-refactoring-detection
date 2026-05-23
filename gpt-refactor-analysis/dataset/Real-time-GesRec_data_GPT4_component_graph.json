@@ -1,0 +1,17 @@
+[
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "parse_opts",
+        "Updated": "parse_opts_offline",
+        "Location": "opts.py",
+        "Original Line": 4,
+        "Updated Line": 4,
+        "Description": [
+            "The method parse_opts from the module opts.py is renamed to parse_opts_offline"
+        ],
+        "Commit": "65eddc67e4699f8d21f2a99f1d95fbb3c93a3e39",
+        "GPT4 Component Graph": "Data Processing"
+    }
+]

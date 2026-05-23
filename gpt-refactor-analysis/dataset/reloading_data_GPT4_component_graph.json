@@ -1,0 +1,11 @@
+[
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "partial",
+        "Updated": "no_iter_partial",
+        "Location": "reloading/reloading.py",
+        "Description": " class partial was renamed to class no_iter_partial ",
+        "Commit": "772d20c590bb1ba3b3dd9a651b540b953009a03c",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

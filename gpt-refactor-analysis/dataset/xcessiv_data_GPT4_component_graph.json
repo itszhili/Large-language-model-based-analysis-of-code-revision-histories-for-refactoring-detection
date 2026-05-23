@@ -1,0 +1,118 @@
+[
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "verify_main_dataset_extraction_function",
+        "Updated": "verify_dataset_extraction_function",
+        "Location": "xcessiv/functions.py",
+        "Original Line": 59,
+        "Updated Line": 64,
+        "Description": [
+            "The method verify_main_dataset_extraction_function from the module xcessiv/functions.py is renamed to verify_dataset_extraction_function"
+        ],
+        "Commit": "28796547e97968f53d741fcb4aedbd153cad7402",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xcessiv/models.py/StackedEnsemble",
+        "Original Line": 375,
+        "Updated Line": 374,
+        "Description": [
+            "The parameters [ append_original ] of the method __init__ from the module xcessiv/models.py in class StackedEnsemble is/are removed"
+        ],
+        "Commit": "44577e73057dd6de58d10c9b6ff0966d95f5ac14",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xcessiv/stacker.py/XcessivStackedEnsemble",
+        "Original Line": 7,
+        "Updated Line": 7,
+        "Description": [
+            "The parameters [ append_original ] of the method __init__ from the module xcessiv/stacker.py in class XcessivStackedEnsemble is/are removed"
+        ],
+        "Commit": "44577e73057dd6de58d10c9b6ff0966d95f5ac14",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "xcessiv/exceptions.py/UserError",
+        "Original Line": 5,
+        "Updated Line": 5,
+        "Description": [
+            "The parameters [ payload ] of the method __init__ from the module xcessiv/exceptions.py in class UserError is/are removed"
+        ],
+        "Commit": "656983472224436d9d201475c33e9e51a7871f98",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Change/Rename Parameter"
+        ],
+        "Original": "verify_main_dataset_extraction",
+        "Updated": "verify_main_dataset_extraction_function",
+        "Location": "xcessiv/functions.py",
+        "Original Line": 39,
+        "Updated Line": 39,
+        "Description": [
+            "The method verify_main_dataset_extraction from the module xcessiv/functions.py is renamed to verify_main_dataset_extraction_function",
+            "The parameters [ path ] of the method verify_main_dataset_extraction from the module xcessiv/functions.py are changed/renamed to [function]"
+        ],
+        "Commit": "6649dfa01f55cfa59c773561f26002cc01d6393b",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_split_main_for_blend",
+        "Updated": "test_split_main_for_holdout",
+        "Location": "xcessiv/tests/test_parsers.py/TestReturnTrainDataFromJSON",
+        "Original Line": 44,
+        "Updated Line": 44,
+        "Description": [
+            "The method test_split_main_for_blend from the module xcessiv/tests/test_parsers.py in class TestReturnTrainDataFromJSON is renamed to test_split_main_for_holdout"
+        ],
+        "Commit": "ccf9e646782e4bbb555657019a7601b5f9a10dc8",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_split_main_for_test_and_blend",
+        "Updated": "test_split_main_for_test_and_holdout",
+        "Location": "xcessiv/tests/test_parsers.py/TestReturnTrainDataFromJSON",
+        "Original Line": 51,
+        "Updated Line": 51,
+        "Description": [
+            "The method test_split_main_for_test_and_blend from the module xcessiv/tests/test_parsers.py in class TestReturnTrainDataFromJSON is renamed to test_split_main_for_test_and_holdout"
+        ],
+        "Commit": "ccf9e646782e4bbb555657019a7601b5f9a10dc8",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "Ensemble",
+        "Updated": "StackedEnsemble",
+        "Location": "xcessiv/models.py",
+        "Description": " class Ensemble was renamed to class StackedEnsemble ",
+        "Commit": "f09a222fb5ce221c109dd95f7889faee8a65df26",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

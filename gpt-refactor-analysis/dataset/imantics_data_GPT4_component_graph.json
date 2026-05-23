@@ -1,0 +1,144 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "imantics/annotation.py/Annotation",
+        "Original Line": 87,
+        "Updated Line": 87,
+        "Description": [
+            "The parameters [ width height ] are added to the method __init__ from the module imantics/annotation.py in class Annotation"
+        ],
+        "Commit": "1d9faf502c19df42520751059d1b50855925edba",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__getitem__",
+        "Updated": "__getitem__",
+        "Location": "imantics/annotation.py/Mask",
+        "Original Line": 272,
+        "Updated Line": 365,
+        "Description": [
+            "The parameters [ item ] of the method __getitem__ from the module imantics/annotation.py in class Mask are changed/renamed to [key]"
+        ],
+        "Commit": "3bff529ba3df355a64846054b16458c822bffefb",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "Segments",
+        "Updated": "Segment",
+        "Location": "imantics/annotation.py",
+        "Description": " class Segments was renamed to class Segment ",
+        "Commit": "3eb20d578e5bd5f9ed13c64bf0769b4c20657888",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_from_segments",
+        "Updated": "test_from_segment",
+        "Location": "tests/test_mask.py/TestMaskInitalization",
+        "Original Line": 69,
+        "Updated Line": 69,
+        "Description": [
+            "The method test_from_segments from the module tests/test_mask.py in class TestMaskInitalization is renamed to test_from_segment"
+        ],
+        "Commit": "3eb20d578e5bd5f9ed13c64bf0769b4c20657888",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_to_segments",
+        "Updated": "test_to_segment",
+        "Location": "tests/test_mask.py/TestMaskConversion",
+        "Original Line": 81,
+        "Updated Line": 81,
+        "Description": [
+            "The method test_to_segments from the module tests/test_mask.py in class TestMaskConversion is renamed to test_to_segment"
+        ],
+        "Commit": "3eb20d578e5bd5f9ed13c64bf0769b4c20657888",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "yolo",
+        "Updated": "yolo",
+        "Location": "imantics/annotation.py/Annotation",
+        "Original Line": 286,
+        "Updated Line": 286,
+        "Description": [
+            "The parameters [ as_string ] are added to the method yolo from the module imantics/annotation.py in class Annotation"
+        ],
+        "Commit": "7c3092a62ea28ab9374c6331e6b8ebffb0c111c8",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "Bbox",
+        "Updated": "BBox",
+        "Location": "imantics/annotation.py",
+        "Description": " class Bbox was renamed to class BBox ",
+        "Commit": "eca3f3986400a969a3b1199af9e7ed16080ace2c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "empty",
+        "Updated": "empty",
+        "Location": "imantics/image.py/Image",
+        "Original Line": 65,
+        "Updated Line": 65,
+        "Description": [
+            "The parameters [ width height ] are added to the method empty from the module imantics/image.py in class Image"
+        ],
+        "Commit": "edd955b04ee748afd140dc3c2dde4f3276668021",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Change/Rename Parameter"
+        ],
+        "Original": "from_mask",
+        "Updated": "from_bbox",
+        "Location": "imantics/annotation.py/Annotation",
+        "Original Line": 21,
+        "Updated Line": 35,
+        "Description": [
+            "The method from_mask from the module imantics/annotation.py in class Annotation is renamed to from_bbox",
+            "The parameters [ mask ] of the method from_mask from the module imantics/annotation.py in class Annotation are changed/renamed to [bbox]"
+        ],
+        "Commit": "fa7e89d4cb3bbd290e1483043dfccd9343c3a492",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Change/Rename Parameter"
+        ],
+        "Original": "from_bbox",
+        "Updated": "from_mask",
+        "Location": "imantics/annotation.py/Annotation",
+        "Original Line": 35,
+        "Updated Line": 21,
+        "Description": [
+            "The method from_bbox from the module imantics/annotation.py in class Annotation is renamed to from_mask",
+            "The parameters [ bbox ] of the method from_bbox from the module imantics/annotation.py in class Annotation are changed/renamed to [mask]"
+        ],
+        "Commit": "fa7e89d4cb3bbd290e1483043dfccd9343c3a492",
+        "GPT4 Component Graph": "Data Processing"
+    }
+]

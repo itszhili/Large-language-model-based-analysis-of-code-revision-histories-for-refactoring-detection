@@ -1,0 +1,17 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "get_instrument_filename",
+        "Updated": "get_instrument_filename",
+        "Location": "lmd2lpd.py",
+        "Original Line": 46,
+        "Updated Line": 46,
+        "Description": [
+            "The parameters [ postfix ] are added to the method get_instrument_filename from the module lmd2lpd.py"
+        ],
+        "Commit": "977865196c40aef5b4fd0346933a0b6118fb35a6",
+        "GPT4 Component Graph": "Data Processing"
+    }
+]

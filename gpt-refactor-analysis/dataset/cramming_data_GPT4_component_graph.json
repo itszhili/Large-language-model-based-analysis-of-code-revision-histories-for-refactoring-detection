@@ -1,0 +1,11 @@
+[
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "TorchEngine",
+        "Updated": "TorchEngineMinimal",
+        "Location": "cramming/backend/torch_default.py",
+        "Description": " class TorchEngine was renamed to class TorchEngineMinimal ",
+        "Commit": "ed4f099c34c9ef83ee87357264ab157983eabc4a",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

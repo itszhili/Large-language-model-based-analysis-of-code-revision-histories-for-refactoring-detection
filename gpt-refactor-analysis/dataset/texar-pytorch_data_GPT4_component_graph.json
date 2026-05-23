@@ -1,0 +1,287 @@
+[
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "start",
+        "Updated": "reset",
+        "Location": "texar/torch/run/executor_utils.py/ProgressTracker",
+        "Original Method Line": "(185,186)",
+        "Extracted/Inlined Method Line": 205,
+        "Extracted/Inlined Lines": [
+            189.0,
+            190.0,
+            191.0
+        ],
+        "Description": " The method reset from the module texar/torch/run/executor_utils.py in class ProgressTracker is extracted from method start from the module texar/torch/run/executor_utils.py in class ProgressTracker ",
+        "Commit": "15c3d8d677ce197d68b117641bf5207e8f1f0f4e",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "GELU",
+        "Updated": "GPTGELU",
+        "Location": "texar/custom/gelu.py",
+        "Description": " class GELU was renamed to class GPTGELU ",
+        "Commit": "15d04a7ad6c7432ad2e0b9accf434f53be423459",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "mask_sequences",
+        "Updated": "transpose_batch_time",
+        "Location": "texar/utils/shapes.py",
+        "Original Method Line": "(53,78)",
+        "Extracted/Inlined Method Line": 37,
+        "Extracted/Inlined Lines": [
+            96.0
+        ],
+        "Description": " The method transpose_batch_time from the module texar/utils/shapes.py is extracted from method mask_sequences from the module texar/utils/shapes.py ",
+        "Commit": "1d2ee29ba5ec6e5776c632b8c839c9a805b3ca7c",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "texar/models/transformer.py/LabelSmoothingLoss",
+        "Original Line": 191,
+        "Updated Line": 174,
+        "Description": [
+            "The parameters [ label_smoothing ] of the method __init__ from the module texar/models/transformer.py in class LabelSmoothingLoss are changed/renamed to [label_confidence]"
+        ],
+        "Commit": "227c048d23645f0136f53dcc16f217eaf41a2781",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "zero_state",
+        "Updated": "zero_state",
+        "Location": "texar/core/cell_wrappers.py/AttentionWrapper",
+        "Original Line": 588,
+        "Updated Line": 588,
+        "Description": [
+            "The parameters [ max_time ] of the method zero_state from the module texar/core/cell_wrappers.py in class AttentionWrapper is/are removed"
+        ],
+        "Commit": "568d1c79ed22459172137ab966b1b331cbaf5616",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "layers",
+        "Updated": "layers",
+        "Location": "texar/core/layers.py/MergeLayer",
+        "Original Line": 707,
+        "Updated Line": 707,
+        "Description": [
+            "The return type of method layers from the module texar/core/layers.py in class MergeLayer is updated"
+        ],
+        "Commit": "57ad85de4f4a3765872c0bce64ed7cebbdef84fe",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "initialize",
+        "Updated": "initialize",
+        "Old Location": "texar/modules/decoders/decoder_base.py/DecoderBase",
+        "New Location": "texar/modules/decoders/rnn_decoder_base.py/RNNDecoderBase",
+        "Old Method Line": 382,
+        "New Method Line": 228,
+        "Description": " method initialize from the module texar/modules/decoders/decoder_base.py in class DecoderBase was moved to class RNNDecoderBase of module texar/modules/decoders/rnn_decoder_base.py ",
+        "Commit": "6386ab625e8249ff137a9f318d0b146e1ae60eb9",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Change/Rename Parameter"
+        ],
+        "Original": "forward",
+        "Updated": "_download_checkpoint",
+        "Location": "texar/modules/pretrained/pretrained_base.py/PretrainedMixin",
+        "Original Line": 131,
+        "Updated Line": 39,
+        "Description": [
+            "The method forward from the module texar/modules/pretrained/pretrained_base.py in class PretrainedMixin is renamed to _download_checkpoint",
+            "The parameters [ self inputs ] of the method forward from the module texar/modules/pretrained/pretrained_base.py in class PretrainedMixin are changed/renamed to [pretrained_model_name cache_dir]"
+        ],
+        "Commit": "68e1c9d68d15480138f3ceb23a27c0d1a68a04e2",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "load_pretrained_config",
+        "Updated": "_transform_config",
+        "Location": "texar/modules/pretrained/pretrained_base.py/PretrainedMixin",
+        "Original Method Line": "(41,85)",
+        "Extracted/Inlined Method Line": 57,
+        "Extracted/Inlined Lines": [
+            73.0
+        ],
+        "Description": " The method _transform_config from the module texar/modules/pretrained/pretrained_base.py in class PretrainedMixin is extracted from method load_pretrained_config from the module texar/modules/pretrained/pretrained_base.py in class PretrainedMixin ",
+        "Commit": "68e1c9d68d15480138f3ceb23a27c0d1a68a04e2",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "init_pretrained_weights",
+        "Updated": "_init_from_checkpoint",
+        "Location": "texar/modules/pretrained/pretrained_base.py/PretrainedMixin",
+        "Original Method Line": "(93,126)",
+        "Extracted/Inlined Method Line": 70,
+        "Extracted/Inlined Lines": [
+            95.0
+        ],
+        "Description": " The method _init_from_checkpoint from the module texar/modules/pretrained/pretrained_base.py in class PretrainedMixin is extracted from method init_pretrained_weights from the module texar/modules/pretrained/pretrained_base.py in class PretrainedMixin ",
+        "Commit": "68e1c9d68d15480138f3ceb23a27c0d1a68a04e2",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "default_hparams",
+        "Updated": "default_hparams",
+        "Location": "texar/modules/embedders/position_embedders.py/SinusoidsPositionEmbedder",
+        "Original Line": 250,
+        "Updated Line": 227,
+        "Description": [
+            "The parameters [ self ] of the method default_hparams from the module texar/modules/embedders/position_embedders.py in class SinusoidsPositionEmbedder is/are removed"
+        ],
+        "Commit": "8b72dac6fb23ac5f2f54d28d3f0c63e85058e0c9",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "finalize",
+        "Updated": "finalize",
+        "Location": "examples/xlnet/xlnet/model/decoder.py/XLNetDecoder",
+        "Original Line": 126,
+        "Updated Line": 128,
+        "Description": [
+            "The return type of method finalize from the module examples/xlnet/xlnet/model/decoder.py in class XLNetDecoder is updated"
+        ],
+        "Commit": "b23b5f37109d0a625301e71867c579042c78d54f",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "zero_state",
+        "Updated": "zero_state",
+        "Location": "texar/core/cell_wrappers.py/AttentionWrapper",
+        "Original Line": 583,
+        "Updated Line": 586,
+        "Description": [
+            "The parameters [ dtype device ] of the method zero_state from the module texar/core/cell_wrappers.py in class AttentionWrapper is/are removed"
+        ],
+        "Commit": "bb016a7e194d3e7b6645ce15c9afe1de20c954f4",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "initialize",
+        "Updated": "initialize",
+        "Location": "texar/modules/decoders/rnn_decoders.py/AttentionRNNDecoder",
+        "Original Line": 456,
+        "Updated Line": 456,
+        "Description": [
+            "The parameters [ memory ] of the method initialize from the module texar/modules/decoders/rnn_decoders.py in class AttentionRNNDecoder is/are removed"
+        ],
+        "Commit": "bb016a7e194d3e7b6645ce15c9afe1de20c954f4",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "step",
+        "Updated": "step",
+        "Location": "texar/modules/decoders/rnn_decoders.py/AttentionRNNDecoder",
+        "Original Line": 473,
+        "Updated Line": 471,
+        "Description": [
+            "The parameters [ memory memory_sequence_length ] of the method step from the module texar/modules/decoders/rnn_decoders.py in class AttentionRNNDecoder is/are removed"
+        ],
+        "Commit": "bb016a7e194d3e7b6645ce15c9afe1de20c954f4",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_pad_and_concat",
+        "Updated": "test_pad_and_concat_float",
+        "Location": "texar/utils/shapes_test.py/ShapesTest",
+        "Original Line": 28,
+        "Updated Line": 43,
+        "Description": [
+            "The method test_pad_and_concat from the module texar/utils/shapes_test.py in class ShapesTest is renamed to test_pad_and_concat_float"
+        ],
+        "Commit": "d493506e5fb7826864d0ea59e8ce685026c5b939",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "get_config",
+        "Updated": "get_config",
+        "Location": "texar/core/regularizers.py/L1L2",
+        "Original Line": 61,
+        "Updated Line": 67,
+        "Description": [
+            "The return type of method get_config from the module texar/core/regularizers.py in class L1L2 is updated"
+        ],
+        "Commit": "da9d847dd43a4fd3c5b1e94036d7eca692c8c4dc",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_input_ids_to_outputs",
+        "Updated": "_input_ids_to_outputs",
+        "Location": "texar/modules/decoders/transformer_decoders.py/TransformerDecoder",
+        "Original Line": 288,
+        "Updated Line": 291,
+        "Description": [
+            "The parameters [ embedding_fn ] are added to the method _input_ids_to_outputs from the module texar/modules/decoders/transformer_decoders.py in class TransformerDecoder"
+        ],
+        "Commit": "e3b4f19375a2dd710ce573534ae0fbc9c716c97d",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "label_name",
+        "Updated": "label_name",
+        "Location": "texar/torch/run/metric/base_metric.py/Metric",
+        "Original Line": 36,
+        "Updated Line": 36,
+        "Description": [
+            "The return type of method label_name from the module texar/torch/run/metric/base_metric.py in class Metric is updated"
+        ],
+        "Commit": "eddb39e91420aa61675cae9bf6479d43432e18ef",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "Dropout_with_mask",
+        "Updated": "EmbeddingDropout",
+        "Location": "texar/modules/embedders/embedder_base.py",
+        "Description": " class Dropout_with_mask was renamed to class EmbeddingDropout ",
+        "Commit": "fa1ba4749616dd47f8e0c020fb4159126ea8bfae",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

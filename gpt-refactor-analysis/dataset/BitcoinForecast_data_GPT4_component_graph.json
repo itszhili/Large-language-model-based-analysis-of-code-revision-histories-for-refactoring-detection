@@ -1,0 +1,32 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "predictFuture",
+        "Updated": "predictFuture",
+        "Location": "network.py",
+        "Original Line": 35,
+        "Updated Line": 41,
+        "Description": [
+            "The parameters [ writeToFile ] are added to the method predictFuture from the module network.py"
+        ],
+        "Commit": "29324c63237396a25e30b136f5510ea6c64ab67e",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "predictNext15m",
+        "Updated": "predictFuture",
+        "Location": "network.py",
+        "Original Line": 18,
+        "Updated Line": 19,
+        "Description": [
+            "The method predictNext15m from the module network.py is renamed to predictFuture"
+        ],
+        "Commit": "fcc7bce93d23c12eed74598e7ed36fc69de8c0ea",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

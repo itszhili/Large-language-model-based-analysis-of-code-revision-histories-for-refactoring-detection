@@ -1,0 +1,173 @@
+[
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "select_all",
+        "Updated": "select_all",
+        "Location": "mlscraper/selectors.py/CssRuleSelector",
+        "Original Line": 28,
+        "Updated Line": 33,
+        "Description": [
+            "The parameters [ page ] of the method select_all from the module mlscraper/selectors.py in class CssRuleSelector are changed/renamed to [node]"
+        ],
+        "Commit": "04aef4bfdd331e99d4d5f9f10111fed6b8e39de1",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "HTMLTextMatch",
+        "Updated": "HTMLExactTextMatch",
+        "Location": "mlscraper/html.py",
+        "Description": " class HTMLTextMatch was renamed to class HTMLExactTextMatch ",
+        "Commit": "13a11d65d477abd347a4b24d21216985631bd446",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "classes",
+        "Updated": "classes",
+        "Location": "mlscraper/html.py/Node",
+        "Original Line": 137,
+        "Updated Line": 141,
+        "Description": [
+            "The return type of method classes from the module mlscraper/html.py in class Node is updated"
+        ],
+        "Commit": "2da7c22ea15aa6716e99cca5519a2da0e2b7f1b7",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "basic_html",
+        "Updated": "whitespace_html",
+        "Location": "test/test_basic.py",
+        "Original Line": 31,
+        "Updated Line": 31,
+        "Description": [
+            "The method basic_html from the module test/test_basic.py is renamed to whitespace_html"
+        ],
+        "Commit": "599fdab5472e2cf50c39242c1e41a7ec7e62df7c",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "find_all",
+        "Updated": "find_all",
+        "Location": "mlscraper/html.py/Node",
+        "Original Line": 47,
+        "Updated Line": 46,
+        "Description": [
+            "The return type of method find_all from the module mlscraper/html.py in class Node is updated"
+        ],
+        "Commit": "59ba75e02b3c2b762ce5d735f618752186b79292",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "select_all",
+        "Updated": "select_all",
+        "Location": "mlscraper/selectors.py/Selector",
+        "Original Line": 19,
+        "Updated Line": 18,
+        "Description": [
+            "The return type of method select_all from the module mlscraper/selectors.py in class Selector is updated"
+        ],
+        "Commit": "59ba75e02b3c2b762ce5d735f618752186b79292",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "select_all",
+        "Updated": "select_all",
+        "Location": "mlscraper/selectors.py/PassThroughSelector",
+        "Original Line": 27,
+        "Updated Line": 26,
+        "Description": [
+            "The return type of method select_all from the module mlscraper/selectors.py in class PassThroughSelector is updated"
+        ],
+        "Commit": "59ba75e02b3c2b762ce5d735f618752186b79292",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "find_all",
+        "Updated": "find_all",
+        "Location": "mlscraper/html.py/Node",
+        "Original Line": 46,
+        "Updated Line": 48,
+        "Description": [
+            "The return type of method find_all from the module mlscraper/html.py in class Node is updated"
+        ],
+        "Commit": "9c22147fd8f7c451ed8627af8bcb8c7eab5ba8e0",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "Match",
+        "Updated": "HTMLMatch",
+        "Location": "mlscraper/html.py",
+        "Description": " class Match was renamed to class HTMLMatch ",
+        "Commit": "9c22147fd8f7c451ed8627af8bcb8c7eab5ba8e0",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "TextMatch",
+        "Updated": "HTMLTextMatch",
+        "Location": "mlscraper/html.py",
+        "Description": " class TextMatch was renamed to class HTMLTextMatch ",
+        "Commit": "9c22147fd8f7c451ed8627af8bcb8c7eab5ba8e0",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "AttributeMatch",
+        "Updated": "HTMLAttributeMatch",
+        "Location": "mlscraper/html.py",
+        "Description": " class AttributeMatch was renamed to class HTMLAttributeMatch ",
+        "Commit": "9c22147fd8f7c451ed8627af8bcb8c7eab5ba8e0",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_find_all",
+        "Updated": "test_find_all",
+        "Location": "tests/test_util.py/TestPage",
+        "Original Line": 16,
+        "Updated Line": 15,
+        "Description": [
+            "The parameters [ stackoverflow_samples ] are added to the method test_find_all from the module tests/test_util.py in class TestPage"
+        ],
+        "Commit": "faebafbac0b01a062a93ee143fc82d052b7419c5",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_something",
+        "Updated": "test_something",
+        "Location": "tests/test_util.py/TestPage",
+        "Original Line": 10,
+        "Updated Line": 10,
+        "Description": [
+            "The parameters [ stackoverflow_samples ] are added to the method test_something from the module tests/test_util.py in class TestPage"
+        ],
+        "Commit": "faebafbac0b01a062a93ee143fc82d052b7419c5",
+        "GPT4 Component Graph": "Data Processing"
+    }
+]

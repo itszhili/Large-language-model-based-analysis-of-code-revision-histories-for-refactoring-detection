@@ -1,0 +1,131 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "reformer_pytorch/reformer_pytorch.py/SelfAttention",
+        "Original Line": 318,
+        "Updated Line": 318,
+        "Description": [
+            "The parameters [ causal ] are added to the method __init__ from the module reformer_pytorch/reformer_pytorch.py in class SelfAttention"
+        ],
+        "Commit": "1c2056d5f68cb5d42340e053ca8a4d725e4dbdfb",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "reformer_pytorch/reformer_enc_dec.py/ReformerEncDec",
+        "Original Line": 36,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ dim ] are added to the method __init__ from the module reformer_pytorch/reformer_enc_dec.py in class ReformerEncDec"
+        ],
+        "Commit": "388cfcb2e3d39552f48de7e828f6a84074f31c20",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "reformer_pytorch/reformer_pytorch.py/ReformerLM",
+        "Original Line": 474,
+        "Updated Line": 485,
+        "Description": [
+            "The parameters [ fixed_position_emb ] are added to the method __init__ from the module reformer_pytorch/reformer_pytorch.py in class ReformerLM"
+        ],
+        "Commit": "89a0d83b01971b3fc7ff28e57b931af62f0289af",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "reformer_pytorch/reformer_pytorch.py/ReformerLM",
+        "Original Line": 467,
+        "Updated Line": 470,
+        "Description": [
+            "The parameters [ emb_dim ] are added to the method __init__ from the module reformer_pytorch/reformer_pytorch.py in class ReformerLM"
+        ],
+        "Commit": "8b60ccb26235b06a5774d2bce555be425759fad5",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "reformer_pytorch/reformer_enc_dec.py/ReformerEncDec",
+        "Original Line": 36,
+        "Updated Line": 34,
+        "Description": [
+            "The parameters [ ignore_index pad_value ] are added to the method __init__ from the module reformer_pytorch/reformer_enc_dec.py in class ReformerEncDec"
+        ],
+        "Commit": "9913cd5d8e601a35e0c2bb42e0f0d84a0c07fb11",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "reformer_pytorch/reversible.py/ReversibleBlock",
+        "Original Line": 42,
+        "Updated Line": 42,
+        "Description": [
+            "The parameters [ depth send_signal ] are added to the method __init__ from the module reformer_pytorch/reversible.py in class ReversibleBlock"
+        ],
+        "Commit": "b82758c9acdd9624b728c8f5a71ed512bc9e5c56",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "reformer_pytorch/reversible.py/ReversibleSequence",
+        "Original Line": 126,
+        "Updated Line": 137,
+        "Description": [
+            "The parameters [ send_signal ] are added to the method __init__ from the module reformer_pytorch/reversible.py in class ReversibleSequence"
+        ],
+        "Commit": "b82758c9acdd9624b728c8f5a71ed512bc9e5c56",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "reformer_pytorch/reformer_pytorch.py/ReformerLM",
+        "Original Line": 563,
+        "Updated Line": 609,
+        "Description": [
+            "The parameters [ axial_position_emb axial_position_shape axial_position_dims ] are added to the method __init__ from the module reformer_pytorch/reformer_pytorch.py in class ReformerLM"
+        ],
+        "Commit": "f9a676a67d504d1e5adc64e81f280d3fb82f8c28",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "FixedPositionEmbedding",
+        "Updated": "FixedPositionalEmbedding",
+        "Location": "reformer_pytorch/reformer_pytorch.py",
+        "Description": " class FixedPositionEmbedding was renamed to class FixedPositionalEmbedding ",
+        "Commit": "f9a676a67d504d1e5adc64e81f280d3fb82f8c28",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

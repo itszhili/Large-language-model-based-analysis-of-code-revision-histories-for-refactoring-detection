@@ -1,0 +1,3278 @@
+[
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/dataset_loader.py/VideoDataset",
+        "Original Line": 56,
+        "Updated Line": 56,
+        "Description": [
+            "The parameters [ sample ] of the method __init__ from the module torchreid/dataset_loader.py in class VideoDataset are changed/renamed to [sample_method]"
+        ],
+        "Commit": "01fe76cf2709157be600a5559535251a2b8bf32c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "losses.py/RingLoss",
+        "Original Line": 152,
+        "Updated Line": 154,
+        "Description": [
+            "The parameters [ weight_ring ] of the method __init__ from the module losses.py in class RingLoss is/are removed"
+        ],
+        "Commit": "0de31316d33087b3df23f15893651eab260701d4",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "InceptionV4ReID",
+        "Updated": "InceptionV4Base",
+        "Location": "models/InceptionV4.py",
+        "Description": " class InceptionV4ReID was renamed to class InceptionV4Base ",
+        "Commit": "0de31316d33087b3df23f15893651eab260701d4",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "train",
+        "Updated": "train",
+        "Location": "train_img_model_cent.py",
+        "Original Line": 197,
+        "Updated Line": 196,
+        "Description": [
+            "The parameters [ epoch ] are added to the method train from the module train_img_model_cent.py"
+        ],
+        "Commit": "1702e018e4d09eb2b46edf9aa5c39ef99c11808c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "train",
+        "Updated": "train",
+        "Location": "train_img_model_xent.py",
+        "Original Line": 192,
+        "Updated Line": 191,
+        "Description": [
+            "The parameters [ epoch ] are added to the method train from the module train_img_model_xent.py"
+        ],
+        "Commit": "1702e018e4d09eb2b46edf9aa5c39ef99c11808c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "train",
+        "Updated": "train",
+        "Location": "train_img_model_xent_htri.py",
+        "Original Line": 201,
+        "Updated Line": 200,
+        "Description": [
+            "The parameters [ epoch ] are added to the method train from the module train_img_model_xent_htri.py"
+        ],
+        "Commit": "1702e018e4d09eb2b46edf9aa5c39ef99c11808c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "train",
+        "Updated": "train",
+        "Location": "train_vid_model_xent.py",
+        "Original Line": 189,
+        "Updated Line": 188,
+        "Description": [
+            "The parameters [ epoch ] are added to the method train from the module train_vid_model_xent.py"
+        ],
+        "Commit": "1702e018e4d09eb2b46edf9aa5c39ef99c11808c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "train",
+        "Updated": "train",
+        "Location": "train_vid_model_xent_htri.py",
+        "Original Line": 198,
+        "Updated Line": 197,
+        "Description": [
+            "The parameters [ epoch ] are added to the method train from the module train_vid_model_xent_htri.py"
+        ],
+        "Commit": "1702e018e4d09eb2b46edf9aa5c39ef99c11808c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/data/datamanager.py/ImageDataManager",
+        "Original Line": 143,
+        "Updated Line": 144,
+        "Description": [
+            "The parameters [ train_sampler_t ] are added to the method __init__ from the module torchreid/data/datamanager.py in class ImageDataManager"
+        ],
+        "Commit": "1708c008adaedfa55a423fa2202b8da2df2413c6",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "save_checkpoint",
+        "Updated": "save_checkpoint",
+        "Location": "torchreid/utils/torchtools.py",
+        "Original Line": 17,
+        "Updated Line": 17,
+        "Description": [
+            "The parameters [ remove_module_from_keys ] are added to the method save_checkpoint from the module torchreid/utils/torchtools.py"
+        ],
+        "Commit": "19e03d409709f212706a2471cbcfb97478344206",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "train",
+        "Updated": "train",
+        "Location": "train_imgreid_xent.py",
+        "Original Line": 159,
+        "Updated Line": 160,
+        "Description": [
+            "The parameters [ freeze_bn ] of the method train from the module train_imgreid_xent.py are changed/renamed to [fixbase]"
+        ],
+        "Commit": "205df55987d9c62c13738bebc5ffe18b738f1c50",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/data/datamanager.py/ImageDataManager",
+        "Original Line": 133,
+        "Updated Line": 133,
+        "Description": [
+            "The parameters [ load_unlabeled_targets ] of the method __init__ from the module torchreid/data/datamanager.py in class ImageDataManager are changed/renamed to [load_train_targets]"
+        ],
+        "Commit": "2095ee05c5ec0a81e970f912746033e6d301fb7f",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "evaluate",
+        "Updated": "evaluate",
+        "Location": "eval_metrics.py",
+        "Original Line": 59,
+        "Updated Line": 61,
+        "Description": [
+            "The parameters [ metric_cuhk03 ] of the method evaluate from the module eval_metrics.py are changed/renamed to [use_metric_cuhk03]"
+        ],
+        "Commit": "240a831ba98fc635ec36df4a46cc87e8ea664553",
+        "GPT4 Component Graph": "Evaluation"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "run",
+        "Updated": "run",
+        "Location": "torchreid/engine/engine.py/Engine",
+        "Original Line": 44,
+        "Updated Line": 47,
+        "Description": [
+            "The parameters [ visactmap ] are added to the method run from the module torchreid/engine/engine.py in class Engine"
+        ],
+        "Commit": "27d4f2f0930a05673220e4d2a6036ca5492ea842",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_cp_img_to",
+        "Updated": "_cp_img_to",
+        "Location": "torchreid/utils/reidtools.py",
+        "Original Line": 39,
+        "Updated Line": 49,
+        "Description": [
+            "The parameters [ matched ] are added to the method _cp_img_to from the module torchreid/utils/reidtools.py"
+        ],
+        "Commit": "27d4f2f0930a05673220e4d2a6036ca5492ea842",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "visualize_ranked_results",
+        "Updated": "visualize_ranked_results",
+        "Location": "torchreid/utils/reidtools.py",
+        "Original Line": 14,
+        "Updated Line": 19,
+        "Description": [
+            "The parameters [ data_type width height ] are added to the method visualize_ranked_results from the module torchreid/utils/reidtools.py"
+        ],
+        "Commit": "27d4f2f0930a05673220e4d2a6036ca5492ea842",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data_manager/cuhk01.py/CUHK01",
+        "Original Line": 38,
+        "Updated Line": 37,
+        "Description": [
+            "The parameters [ use_lmdb ] of the method __init__ from the module data_manager/cuhk01.py in class CUHK01 is/are removed"
+        ],
+        "Commit": "28ecca939714b4accd75aeb2aacf547ef9e93d3b",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data_manager/cuhk03.py/CUHK03",
+        "Original Line": 43,
+        "Updated Line": 42,
+        "Description": [
+            "The parameters [ use_lmdb ] of the method __init__ from the module data_manager/cuhk03.py in class CUHK03 is/are removed"
+        ],
+        "Commit": "28ecca939714b4accd75aeb2aacf547ef9e93d3b",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data_manager/dukemtmcreid.py/DukeMTMCreID",
+        "Original Line": 38,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ use_lmdb ] of the method __init__ from the module data_manager/dukemtmcreid.py in class DukeMTMCreID is/are removed"
+        ],
+        "Commit": "28ecca939714b4accd75aeb2aacf547ef9e93d3b",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data_manager/grid.py/GRID",
+        "Original Line": 38,
+        "Updated Line": 37,
+        "Description": [
+            "The parameters [ use_lmdb ] of the method __init__ from the module data_manager/grid.py in class GRID is/are removed"
+        ],
+        "Commit": "28ecca939714b4accd75aeb2aacf547ef9e93d3b",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data_manager/ilids.py/iLIDS",
+        "Original Line": 38,
+        "Updated Line": 37,
+        "Description": [
+            "The parameters [ use_lmdb ] of the method __init__ from the module data_manager/ilids.py in class iLIDS is/are removed"
+        ],
+        "Commit": "28ecca939714b4accd75aeb2aacf547ef9e93d3b",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data_manager/market1501.py/Market1501",
+        "Original Line": 36,
+        "Updated Line": 34,
+        "Description": [
+            "The parameters [ use_lmdb ] of the method __init__ from the module data_manager/market1501.py in class Market1501 is/are removed"
+        ],
+        "Commit": "28ecca939714b4accd75aeb2aacf547ef9e93d3b",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data_manager/msmt17.py/MSMT17",
+        "Original Line": 37,
+        "Updated Line": 35,
+        "Description": [
+            "The parameters [ use_lmdb ] of the method __init__ from the module data_manager/msmt17.py in class MSMT17 is/are removed"
+        ],
+        "Commit": "28ecca939714b4accd75aeb2aacf547ef9e93d3b",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data_manager/prid450s.py/PRID450S",
+        "Original Line": 38,
+        "Updated Line": 37,
+        "Description": [
+            "The parameters [ use_lmdb ] of the method __init__ from the module data_manager/prid450s.py in class PRID450S is/are removed"
+        ],
+        "Commit": "28ecca939714b4accd75aeb2aacf547ef9e93d3b",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data_manager/viper.py/VIPeR",
+        "Original Line": 37,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ use_lmdb ] of the method __init__ from the module data_manager/viper.py in class VIPeR is/are removed"
+        ],
+        "Commit": "28ecca939714b4accd75aeb2aacf547ef9e93d3b",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "models/DenseNet.py/DenseNet121",
+        "Original Line": 12,
+        "Updated Line": 12,
+        "Description": [
+            "The parameters [ loss ] are added to the method __init__ from the module models/DenseNet.py in class DenseNet121"
+        ],
+        "Commit": "2949021259450456b70590b3da317ac9f0ec2f8b",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "models/ResNet.py/ResNet50",
+        "Original Line": 12,
+        "Updated Line": 12,
+        "Description": [
+            "The parameters [ loss ] are added to the method __init__ from the module models/ResNet.py in class ResNet50"
+        ],
+        "Commit": "2949021259450456b70590b3da317ac9f0ec2f8b",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "models/ResNet.py/ResNet50M",
+        "Original Line": 34,
+        "Updated Line": 41,
+        "Description": [
+            "The parameters [ loss ] are added to the method __init__ from the module models/ResNet.py in class ResNet50M"
+        ],
+        "Commit": "2949021259450456b70590b3da317ac9f0ec2f8b",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_extract_features",
+        "Updated": "extract_features",
+        "Location": "projects/DML/dml.py/ImageDMLEngine",
+        "Original Line": 141,
+        "Updated Line": 141,
+        "Description": [
+            "The method _extract_features from the module projects/DML/dml.py in class ImageDMLEngine is renamed to extract_features"
+        ],
+        "Commit": "2a9f44af9b6b2e42c4c58616859dfb91fe8b3588",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_two_stepped_transfer_learning",
+        "Updated": "two_stepped_transfer_learning",
+        "Location": "projects/DML/dml.py/ImageDMLEngine",
+        "Original Line": 116,
+        "Updated Line": 116,
+        "Description": [
+            "The method _two_stepped_transfer_learning from the module projects/DML/dml.py in class ImageDMLEngine is renamed to two_stepped_transfer_learning"
+        ],
+        "Commit": "2a9f44af9b6b2e42c4c58616859dfb91fe8b3588",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test",
+        "Updated": "test",
+        "Location": "train_img_model_xent.py",
+        "Original Line": 179,
+        "Updated Line": 179,
+        "Description": [
+            "The parameters [ ranks ] are added to the method test from the module train_img_model_xent.py"
+        ],
+        "Commit": "2b75f3a11e0eef8288425eca3eb1dbb076035255",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "return_testdataset_by_name",
+        "Updated": "return_query_and_gallery_by_name",
+        "Location": "torchreid/data/datamanager.py/DataManager",
+        "Original Line": 68,
+        "Updated Line": 64,
+        "Description": [
+            "The method return_testdataset_by_name from the module torchreid/data/datamanager.py in class DataManager is renamed to return_query_and_gallery_by_name"
+        ],
+        "Commit": "307e38e519e27a7395461137581c299570cf57d8",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/data/datamanager.py/ImageDataManager",
+        "Original Line": 122,
+        "Updated Line": 133,
+        "Description": [
+            "The parameters [ use_unlabeled_targets ] are added to the method __init__ from the module torchreid/data/datamanager.py in class ImageDataManager"
+        ],
+        "Commit": "307e38e519e27a7395461137581c299570cf57d8",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "_evaluate",
+        "Updated": "_evaluate",
+        "Location": "torchreid/engine/engine.py/Engine",
+        "Original Line": 209,
+        "Updated Line": 224,
+        "Description": [
+            "The parameters [ queryloader galleryloader ] of the method _evaluate from the module torchreid/engine/engine.py in class Engine are changed/renamed to [query_loader gallery_loader]"
+        ],
+        "Commit": "307e38e519e27a7395461137581c299570cf57d8",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "run",
+        "Updated": "run",
+        "Location": "torchreid/engine/engine.py/Engine",
+        "Original Line": 44,
+        "Updated Line": 42,
+        "Description": [
+            "The parameters [ visactmap ] of the method run from the module torchreid/engine/engine.py in class Engine is/are removed"
+        ],
+        "Commit": "307e38e519e27a7395461137581c299570cf57d8",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "test",
+        "Updated": "test",
+        "Location": "torchreid/engine/engine.py/Engine",
+        "Original Line": 168,
+        "Updated Line": 174,
+        "Description": [
+            "The parameters [ testloader ] of the method test from the module torchreid/engine/engine.py in class Engine is/are removed"
+        ],
+        "Commit": "307e38e519e27a7395461137581c299570cf57d8",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "_evaluate",
+        "Updated": "_feature_extraction",
+        "Location": "torchreid/engine/engine.py/Engine",
+        "Original Method Line": "(209,224)",
+        "Extracted/Inlined Method Line": 241,
+        "Extracted/Inlined Lines": [
+            216.0,
+            217.0,
+            218.0,
+            219.0,
+            220.0,
+            221.0,
+            222.0,
+            223.0,
+            224.0,
+            228.0,
+            229.0,
+            230.0,
+            243.0,
+            244.0,
+            245.0
+        ],
+        "Description": " The method _feature_extraction from the module torchreid/engine/engine.py in class Engine is extracted from method _evaluate from the module torchreid/engine/engine.py in class Engine ",
+        "Commit": "307e38e519e27a7395461137581c299570cf57d8",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "train",
+        "Updated": "train",
+        "Location": "torchreid/engine/image/softmax.py/ImageSoftmaxEngine",
+        "Original Line": 71,
+        "Updated Line": 71,
+        "Description": [
+            "The parameters [ trainloader ] of the method train from the module torchreid/engine/image/softmax.py in class ImageSoftmaxEngine are changed/renamed to [writer]"
+        ],
+        "Commit": "307e38e519e27a7395461137581c299570cf57d8",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "train",
+        "Updated": "train",
+        "Location": "torchreid/engine/image/triplet.py/ImageTripletEngine",
+        "Original Line": 82,
+        "Updated Line": 82,
+        "Description": [
+            "The parameters [ trainloader ] of the method train from the module torchreid/engine/image/triplet.py in class ImageTripletEngine are changed/renamed to [writer]"
+        ],
+        "Commit": "307e38e519e27a7395461137581c299570cf57d8",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "models/HACNN.py/HardAttn",
+        "Original Line": 131,
+        "Updated Line": 149,
+        "Description": [
+            "The parameters [ num_regions ] of the method __init__ from the module models/HACNN.py in class HardAttn is/are removed"
+        ],
+        "Commit": "31a88a7675f0982a050cc2af40f3edc726b606a5",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "models/HACNN.py/HarmAttn",
+        "Original Line": 150,
+        "Updated Line": 168,
+        "Description": [
+            "The parameters [ num_regions ] of the method __init__ from the module models/HACNN.py in class HarmAttn is/are removed"
+        ],
+        "Commit": "31a88a7675f0982a050cc2af40f3edc726b606a5",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "models/HACNN.py/HACNN",
+        "Original Line": 167,
+        "Updated Line": 191,
+        "Description": [
+            "The parameters [ num_regions ] of the method __init__ from the module models/HACNN.py in class HACNN are changed/renamed to [learn_region]"
+        ],
+        "Commit": "31a88a7675f0982a050cc2af40f3edc726b606a5",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/data_manager.py/ImageDataManager",
+        "Original Line": 40,
+        "Updated Line": 81,
+        "Description": [
+            "The parameters [ root split_id height width train_batch_size test_batch_size workers train_sampler augdata_re num_instances ] of the method __init__ from the module torchreid/data_manager.py in class ImageDataManager is/are removed"
+        ],
+        "Commit": "356a677cd3f63a32f40339c82019d57108a75b92",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/data_manager.py/VideoDataManager",
+        "Original Line": 135,
+        "Updated Line": 168,
+        "Description": [
+            "The parameters [ root split_id height width train_batch_size test_batch_size workers train_sampler augdata_re num_instances ] of the method __init__ from the module torchreid/data_manager.py in class VideoDataManager is/are removed"
+        ],
+        "Commit": "356a677cd3f63a32f40339c82019d57108a75b92",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "train",
+        "Updated": "forward_backward",
+        "Location": "torchreid/engine/engine.py/Engine",
+        "Original Line": 167,
+        "Updated Line": 297,
+        "Description": [
+            "The method train from the module torchreid/engine/engine.py in class Engine is renamed to forward_backward",
+            "The parameters [ data ] are added to the method train from the module torchreid/engine/engine.py in class Engine"
+        ],
+        "Commit": "36e22e8ce1b62bbdf9633e91ed441c7f0e204f45",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/losses/cross_entropy_loss.py/CrossEntropyLoss",
+        "Original Line": 29,
+        "Updated Line": 29,
+        "Description": [
+            "The parameters [ epsilon ] of the method __init__ from the module torchreid/losses/cross_entropy_loss.py in class CrossEntropyLoss are changed/renamed to [eps]"
+        ],
+        "Commit": "36e22e8ce1b62bbdf9633e91ed441c7f0e204f45",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "init_model",
+        "Updated": "build_model",
+        "Location": "torchreid/models/__init__.py",
+        "Original Line": 61,
+        "Updated Line": 59,
+        "Description": [
+            "The method init_model from the module torchreid/models/__init__.py is renamed to build_model",
+            "The parameters [ num_classes loss pretrained use_gpu ] are added to the method init_model from the module torchreid/models/__init__.py"
+        ],
+        "Commit": "37f92b7cc393ac2a0a0bce93c85500a47e3e0c83",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Inline Method",
+        "Original": "init_model",
+        "Updated": "get_names",
+        "Location": "torchreid/models/__init__.py",
+        "Original Method Line": "(61,59)",
+        "Extracted/Inlined Method Line": 57,
+        "Extracted/Inlined Lines": [
+            60.0
+        ],
+        "Description": " The method get_names from the module torchreid/models/__init__.py is inlined into method init_model from the module torchreid/models/__init__.py ",
+        "Commit": "37f92b7cc393ac2a0a0bce93c85500a47e3e0c83",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_evaluate",
+        "Updated": "_evaluate",
+        "Location": "torchreid/engine/engine.py/Engine",
+        "Original Line": 209,
+        "Updated Line": 219,
+        "Description": [
+            "The parameters [ normalize_feature ] are added to the method _evaluate from the module torchreid/engine/engine.py in class Engine"
+        ],
+        "Commit": "3e10dc60dcc384f14b87661fedafaef4beb6893b",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "run",
+        "Updated": "run",
+        "Location": "torchreid/engine/engine.py/Engine",
+        "Original Line": 43,
+        "Updated Line": 44,
+        "Description": [
+            "The parameters [ normalize_feature ] are added to the method run from the module torchreid/engine/engine.py in class Engine"
+        ],
+        "Commit": "3e10dc60dcc384f14b87661fedafaef4beb6893b",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test",
+        "Updated": "test",
+        "Location": "torchreid/engine/engine.py/Engine",
+        "Original Line": 152,
+        "Updated Line": 158,
+        "Description": [
+            "The parameters [ normalize_feature ] are added to the method test from the module torchreid/engine/engine.py in class Engine"
+        ],
+        "Commit": "3e10dc60dcc384f14b87661fedafaef4beb6893b",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_check_before_run",
+        "Updated": "check_before_run",
+        "Location": "torchreid/datasets/cuhk01.py/CUHK01",
+        "Original Line": 82,
+        "Updated Line": 82,
+        "Description": [
+            "The method _check_before_run from the module torchreid/datasets/cuhk01.py in class CUHK01 is renamed to check_before_run"
+        ],
+        "Commit": "3fe5cb118c0ccd142c8ec8e0fd43f65eb7da486c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_extract_file",
+        "Updated": "extract_file",
+        "Location": "torchreid/datasets/cuhk01.py/CUHK01",
+        "Original Line": 74,
+        "Updated Line": 74,
+        "Description": [
+            "The method _extract_file from the module torchreid/datasets/cuhk01.py in class CUHK01 is renamed to extract_file"
+        ],
+        "Commit": "3fe5cb118c0ccd142c8ec8e0fd43f65eb7da486c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_prepare_split",
+        "Updated": "prepare_split",
+        "Location": "torchreid/datasets/cuhk01.py/CUHK01",
+        "Original Line": 89,
+        "Updated Line": 89,
+        "Description": [
+            "The method _prepare_split from the module torchreid/datasets/cuhk01.py in class CUHK01 is renamed to prepare_split"
+        ],
+        "Commit": "3fe5cb118c0ccd142c8ec8e0fd43f65eb7da486c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_check_before_run",
+        "Updated": "check_before_run",
+        "Location": "torchreid/datasets/cuhk03.py/CUHK03",
+        "Original Line": 92,
+        "Updated Line": 92,
+        "Description": [
+            "The method _check_before_run from the module torchreid/datasets/cuhk03.py in class CUHK03 is renamed to check_before_run"
+        ],
+        "Commit": "3fe5cb118c0ccd142c8ec8e0fd43f65eb7da486c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_preprocess",
+        "Updated": "preprocess",
+        "Location": "torchreid/datasets/cuhk03.py/CUHK03",
+        "Original Line": 105,
+        "Updated Line": 105,
+        "Description": [
+            "The method _preprocess from the module torchreid/datasets/cuhk03.py in class CUHK03 is renamed to preprocess"
+        ],
+        "Commit": "3fe5cb118c0ccd142c8ec8e0fd43f65eb7da486c",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_check_before_run",
+        "Updated": "check_before_run",
+        "Location": "torchreid/datasets/dukemtmcreid.py/DukeMTMCreID",
+        "Original Line": 83,
+        "Updated Line": 83,
+        "Description": [
+            "The method _check_before_run from the module torchreid/datasets/dukemtmcreid.py in class DukeMTMCreID is renamed to check_before_run"
+        ],
+        "Commit": "3fe5cb118c0ccd142c8ec8e0fd43f65eb7da486c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_download_data",
+        "Updated": "download_data",
+        "Location": "torchreid/datasets/dukemtmcreid.py/DukeMTMCreID",
+        "Original Line": 66,
+        "Updated Line": 66,
+        "Description": [
+            "The method _download_data from the module torchreid/datasets/dukemtmcreid.py in class DukeMTMCreID is renamed to download_data"
+        ],
+        "Commit": "3fe5cb118c0ccd142c8ec8e0fd43f65eb7da486c",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_process_dir",
+        "Updated": "process_dir",
+        "Location": "torchreid/datasets/dukemtmcreid.py/DukeMTMCreID",
+        "Original Line": 94,
+        "Updated Line": 94,
+        "Description": [
+            "The method _process_dir from the module torchreid/datasets/dukemtmcreid.py in class DukeMTMCreID is renamed to process_dir"
+        ],
+        "Commit": "3fe5cb118c0ccd142c8ec8e0fd43f65eb7da486c",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_check_before_run",
+        "Updated": "check_before_run",
+        "Location": "torchreid/datasets/dukemtmcvidreid.py/DukeMTMCVidReID",
+        "Original Line": 87,
+        "Updated Line": 87,
+        "Description": [
+            "The method _check_before_run from the module torchreid/datasets/dukemtmcvidreid.py in class DukeMTMCVidReID is renamed to check_before_run"
+        ],
+        "Commit": "3fe5cb118c0ccd142c8ec8e0fd43f65eb7da486c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_download_data",
+        "Updated": "download_data",
+        "Location": "torchreid/datasets/dukemtmcvidreid.py/DukeMTMCVidReID",
+        "Original Line": 70,
+        "Updated Line": 70,
+        "Description": [
+            "The method _download_data from the module torchreid/datasets/dukemtmcvidreid.py in class DukeMTMCVidReID is renamed to download_data"
+        ],
+        "Commit": "3fe5cb118c0ccd142c8ec8e0fd43f65eb7da486c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_process_dir",
+        "Updated": "process_dir",
+        "Location": "torchreid/datasets/dukemtmcvidreid.py/DukeMTMCVidReID",
+        "Original Line": 98,
+        "Updated Line": 98,
+        "Description": [
+            "The method _process_dir from the module torchreid/datasets/dukemtmcvidreid.py in class DukeMTMCVidReID is renamed to process_dir"
+        ],
+        "Commit": "3fe5cb118c0ccd142c8ec8e0fd43f65eb7da486c",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_check_before_run",
+        "Updated": "check_before_run",
+        "Location": "torchreid/datasets/grid.py/GRID",
+        "Original Line": 76,
+        "Updated Line": 76,
+        "Description": [
+            "The method _check_before_run from the module torchreid/datasets/grid.py in class GRID is renamed to check_before_run"
+        ],
+        "Commit": "3fe5cb118c0ccd142c8ec8e0fd43f65eb7da486c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_download_data",
+        "Updated": "download_data",
+        "Location": "torchreid/datasets/grid.py/GRID",
+        "Original Line": 87,
+        "Updated Line": 87,
+        "Description": [
+            "The method _download_data from the module torchreid/datasets/grid.py in class GRID is renamed to download_data"
+        ],
+        "Commit": "3fe5cb118c0ccd142c8ec8e0fd43f65eb7da486c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_prepare_split",
+        "Updated": "prepare_split",
+        "Location": "torchreid/datasets/grid.py/GRID",
+        "Original Line": 104,
+        "Updated Line": 104,
+        "Description": [
+            "The method _prepare_split from the module torchreid/datasets/grid.py in class GRID is renamed to prepare_split"
+        ],
+        "Commit": "3fe5cb118c0ccd142c8ec8e0fd43f65eb7da486c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_check_before_run",
+        "Updated": "check_before_run",
+        "Location": "torchreid/datasets/ilidsvid.py/iLIDSVID",
+        "Original Line": 92,
+        "Updated Line": 92,
+        "Description": [
+            "The method _check_before_run from the module torchreid/datasets/ilidsvid.py in class iLIDSVID is renamed to check_before_run"
+        ],
+        "Commit": "3fe5cb118c0ccd142c8ec8e0fd43f65eb7da486c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_download_data",
+        "Updated": "download_data",
+        "Location": "torchreid/datasets/ilidsvid.py/iLIDSVID",
+        "Original Line": 76,
+        "Updated Line": 76,
+        "Description": [
+            "The method _download_data from the module torchreid/datasets/ilidsvid.py in class iLIDSVID is renamed to download_data"
+        ],
+        "Commit": "3fe5cb118c0ccd142c8ec8e0fd43f65eb7da486c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_prepare_split",
+        "Updated": "prepare_split",
+        "Location": "torchreid/datasets/ilidsvid.py/iLIDSVID",
+        "Original Line": 101,
+        "Updated Line": 101,
+        "Description": [
+            "The method _prepare_split from the module torchreid/datasets/ilidsvid.py in class iLIDSVID is renamed to prepare_split"
+        ],
+        "Commit": "3fe5cb118c0ccd142c8ec8e0fd43f65eb7da486c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_process_data",
+        "Updated": "process_data",
+        "Location": "torchreid/datasets/ilidsvid.py/iLIDSVID",
+        "Original Line": 145,
+        "Updated Line": 145,
+        "Description": [
+            "The method _process_data from the module torchreid/datasets/ilidsvid.py in class iLIDSVID is renamed to process_data"
+        ],
+        "Commit": "3fe5cb118c0ccd142c8ec8e0fd43f65eb7da486c",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_check_before_run",
+        "Updated": "check_before_run",
+        "Location": "torchreid/datasets/market1501.py/Market1501",
+        "Original Line": 65,
+        "Updated Line": 65,
+        "Description": [
+            "The method _check_before_run from the module torchreid/datasets/market1501.py in class Market1501 is renamed to check_before_run"
+        ],
+        "Commit": "3fe5cb118c0ccd142c8ec8e0fd43f65eb7da486c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_process_dir",
+        "Updated": "process_dir",
+        "Location": "torchreid/datasets/market1501.py/Market1501",
+        "Original Line": 78,
+        "Updated Line": 78,
+        "Description": [
+            "The method _process_dir from the module torchreid/datasets/market1501.py in class Market1501 is renamed to process_dir"
+        ],
+        "Commit": "3fe5cb118c0ccd142c8ec8e0fd43f65eb7da486c",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_check_before_run",
+        "Updated": "check_before_run",
+        "Location": "torchreid/datasets/mars.py/Mars",
+        "Original Line": 75,
+        "Updated Line": 75,
+        "Description": [
+            "The method _check_before_run from the module torchreid/datasets/mars.py in class Mars is renamed to check_before_run"
+        ],
+        "Commit": "3fe5cb118c0ccd142c8ec8e0fd43f65eb7da486c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_get_names",
+        "Updated": "get_names",
+        "Location": "torchreid/datasets/mars.py/Mars",
+        "Original Line": 90,
+        "Updated Line": 90,
+        "Description": [
+            "The method _get_names from the module torchreid/datasets/mars.py in class Mars is renamed to get_names"
+        ],
+        "Commit": "3fe5cb118c0ccd142c8ec8e0fd43f65eb7da486c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_process_data",
+        "Updated": "process_data",
+        "Location": "torchreid/datasets/mars.py/Mars",
+        "Original Line": 98,
+        "Updated Line": 98,
+        "Description": [
+            "The method _process_data from the module torchreid/datasets/mars.py in class Mars is renamed to process_data"
+        ],
+        "Commit": "3fe5cb118c0ccd142c8ec8e0fd43f65eb7da486c",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_check_before_run",
+        "Updated": "check_before_run",
+        "Location": "torchreid/datasets/msmt17.py/MSMT17",
+        "Original Line": 94,
+        "Updated Line": 94,
+        "Description": [
+            "The method _check_before_run from the module torchreid/datasets/msmt17.py in class MSMT17 is renamed to check_before_run"
+        ],
+        "Commit": "3fe5cb118c0ccd142c8ec8e0fd43f65eb7da486c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_process_dir",
+        "Updated": "process_dir",
+        "Location": "torchreid/datasets/msmt17.py/MSMT17",
+        "Original Line": 103,
+        "Updated Line": 103,
+        "Description": [
+            "The method _process_dir from the module torchreid/datasets/msmt17.py in class MSMT17 is renamed to process_dir"
+        ],
+        "Commit": "3fe5cb118c0ccd142c8ec8e0fd43f65eb7da486c",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_check_before_run",
+        "Updated": "check_before_run",
+        "Location": "torchreid/datasets/prid2011.py/PRID2011",
+        "Original Line": 69,
+        "Updated Line": 69,
+        "Description": [
+            "The method _check_before_run from the module torchreid/datasets/prid2011.py in class PRID2011 is renamed to check_before_run"
+        ],
+        "Commit": "3fe5cb118c0ccd142c8ec8e0fd43f65eb7da486c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_process_data",
+        "Updated": "process_dir",
+        "Location": "torchreid/datasets/prid2011.py/PRID2011",
+        "Original Line": 74,
+        "Updated Line": 74,
+        "Description": [
+            "The method _process_data from the module torchreid/datasets/prid2011.py in class PRID2011 is renamed to process_dir"
+        ],
+        "Commit": "3fe5cb118c0ccd142c8ec8e0fd43f65eb7da486c",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_check_before_run",
+        "Updated": "check_before_run",
+        "Location": "torchreid/datasets/prid450s.py/PRID450S",
+        "Original Line": 75,
+        "Updated Line": 75,
+        "Description": [
+            "The method _check_before_run from the module torchreid/datasets/prid450s.py in class PRID450S is renamed to check_before_run"
+        ],
+        "Commit": "3fe5cb118c0ccd142c8ec8e0fd43f65eb7da486c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_download_data",
+        "Updated": "download_data",
+        "Location": "torchreid/datasets/prid450s.py/PRID450S",
+        "Original Line": 84,
+        "Updated Line": 84,
+        "Description": [
+            "The method _download_data from the module torchreid/datasets/prid450s.py in class PRID450S is renamed to download_data"
+        ],
+        "Commit": "3fe5cb118c0ccd142c8ec8e0fd43f65eb7da486c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_prepare_split",
+        "Updated": "prepare_split",
+        "Location": "torchreid/datasets/prid450s.py/PRID450S",
+        "Original Line": 101,
+        "Updated Line": 101,
+        "Description": [
+            "The method _prepare_split from the module torchreid/datasets/prid450s.py in class PRID450S is renamed to prepare_split"
+        ],
+        "Commit": "3fe5cb118c0ccd142c8ec8e0fd43f65eb7da486c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_check_before_run",
+        "Updated": "check_before_run",
+        "Location": "torchreid/datasets/sensereid.py/SenseReID",
+        "Original Line": 64,
+        "Updated Line": 64,
+        "Description": [
+            "The method _check_before_run from the module torchreid/datasets/sensereid.py in class SenseReID is renamed to check_before_run"
+        ],
+        "Commit": "3fe5cb118c0ccd142c8ec8e0fd43f65eb7da486c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_process_dir",
+        "Updated": "process_dir",
+        "Location": "torchreid/datasets/sensereid.py/SenseReID",
+        "Original Line": 73,
+        "Updated Line": 73,
+        "Description": [
+            "The method _process_dir from the module torchreid/datasets/sensereid.py in class SenseReID is renamed to process_dir"
+        ],
+        "Commit": "3fe5cb118c0ccd142c8ec8e0fd43f65eb7da486c",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_check_before_run",
+        "Updated": "check_before_run",
+        "Location": "torchreid/datasets/viper.py/VIPeR",
+        "Original Line": 91,
+        "Updated Line": 91,
+        "Description": [
+            "The method _check_before_run from the module torchreid/datasets/viper.py in class VIPeR is renamed to check_before_run"
+        ],
+        "Commit": "3fe5cb118c0ccd142c8ec8e0fd43f65eb7da486c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_download_data",
+        "Updated": "download_data",
+        "Location": "torchreid/datasets/viper.py/VIPeR",
+        "Original Line": 74,
+        "Updated Line": 74,
+        "Description": [
+            "The method _download_data from the module torchreid/datasets/viper.py in class VIPeR is renamed to download_data"
+        ],
+        "Commit": "3fe5cb118c0ccd142c8ec8e0fd43f65eb7da486c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_prepare_split",
+        "Updated": "prepare_split",
+        "Location": "torchreid/datasets/viper.py/VIPeR",
+        "Original Line": 100,
+        "Updated Line": 100,
+        "Description": [
+            "The method _prepare_split from the module torchreid/datasets/viper.py in class VIPeR is renamed to prepare_split"
+        ],
+        "Commit": "3fe5cb118c0ccd142c8ec8e0fd43f65eb7da486c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data_manager.py/Market1501",
+        "Original Line": 43,
+        "Updated Line": 34,
+        "Description": [
+            "The parameters [ root ] are added to the method __init__ from the module data_manager.py in class Market1501"
+        ],
+        "Commit": "44bc7b25ffbf41b7edb32e0147bdaa4f9154850e",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data_manager.py/CUHK03",
+        "Original Line": 143,
+        "Updated Line": 125,
+        "Description": [
+            "The parameters [ root ] are added to the method __init__ from the module data_manager.py in class CUHK03"
+        ],
+        "Commit": "44bc7b25ffbf41b7edb32e0147bdaa4f9154850e",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data_manager.py/DukeMTMCreID",
+        "Original Line": 385,
+        "Updated Line": 380,
+        "Description": [
+            "The parameters [ root ] are added to the method __init__ from the module data_manager.py in class DukeMTMCreID"
+        ],
+        "Commit": "44bc7b25ffbf41b7edb32e0147bdaa4f9154850e",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data_manager.py/MSMT17",
+        "Original Line": 469,
+        "Updated Line": 463,
+        "Description": [
+            "The parameters [ root ] are added to the method __init__ from the module data_manager.py in class MSMT17"
+        ],
+        "Commit": "44bc7b25ffbf41b7edb32e0147bdaa4f9154850e",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data_manager.py/Mars",
+        "Original Line": 552,
+        "Updated Line": 549,
+        "Description": [
+            "The parameters [ root ] are added to the method __init__ from the module data_manager.py in class Mars"
+        ],
+        "Commit": "44bc7b25ffbf41b7edb32e0147bdaa4f9154850e",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data_manager.py/iLIDSVID",
+        "Original Line": 691,
+        "Updated Line": 688,
+        "Description": [
+            "The parameters [ root ] are added to the method __init__ from the module data_manager.py in class iLIDSVID"
+        ],
+        "Commit": "44bc7b25ffbf41b7edb32e0147bdaa4f9154850e",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data_manager.py/PRID",
+        "Original Line": 859,
+        "Updated Line": 861,
+        "Description": [
+            "The parameters [ root ] are added to the method __init__ from the module data_manager.py in class PRID"
+        ],
+        "Commit": "44bc7b25ffbf41b7edb32e0147bdaa4f9154850e",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "resume_from_checkpoint",
+        "Updated": "resume_from_checkpoint",
+        "Location": "torchreid/utils/torchtools.py",
+        "Original Line": 97,
+        "Updated Line": 97,
+        "Description": [
+            "The parameters [ scheduler ] are added to the method resume_from_checkpoint from the module torchreid/utils/torchtools.py"
+        ],
+        "Commit": "469a038d01bf10e460651d0a85e52a64c954f648",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/engine/engine.py/Engine",
+        "Original Line": 22,
+        "Updated Line": 22,
+        "Description": [
+            "The parameters [ dataset ] of the method __init__ from the module torchreid/engine/engine.py in class Engine are changed/renamed to [datamanager]"
+        ],
+        "Commit": "46a0d5c27d237be3ea12a026bbeba41e0456b494",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/engine/image/softmax.py/ImageSoftmaxEngine",
+        "Original Line": 19,
+        "Updated Line": 19,
+        "Description": [
+            "The parameters [ dataset ] of the method __init__ from the module torchreid/engine/image/softmax.py in class ImageSoftmaxEngine are changed/renamed to [datamanager]"
+        ],
+        "Commit": "46a0d5c27d237be3ea12a026bbeba41e0456b494",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/engine/image/triplet.py/ImageTripletEngine",
+        "Original Line": 19,
+        "Updated Line": 19,
+        "Description": [
+            "The parameters [ dataset ] of the method __init__ from the module torchreid/engine/image/triplet.py in class ImageTripletEngine are changed/renamed to [datamanager]"
+        ],
+        "Commit": "46a0d5c27d237be3ea12a026bbeba41e0456b494",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/engine/video/softmax.py/VideoSoftmaxEngine",
+        "Original Line": 16,
+        "Updated Line": 16,
+        "Description": [
+            "The parameters [ dataset ] of the method __init__ from the module torchreid/engine/video/softmax.py in class VideoSoftmaxEngine are changed/renamed to [datamanager]"
+        ],
+        "Commit": "46a0d5c27d237be3ea12a026bbeba41e0456b494",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/engine/video/triplet.py/VideoTripletEngine",
+        "Original Line": 17,
+        "Updated Line": 17,
+        "Description": [
+            "The parameters [ dataset ] of the method __init__ from the module torchreid/engine/video/triplet.py in class VideoTripletEngine are changed/renamed to [datamanager]"
+        ],
+        "Commit": "46a0d5c27d237be3ea12a026bbeba41e0456b494",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/data/datamanager.py/ImageDataManager",
+        "Original Line": 151,
+        "Updated Line": 153,
+        "Description": [
+            "The parameters [ num_datasets ] are added to the method __init__ from the module torchreid/data/datamanager.py in class ImageDataManager"
+        ],
+        "Commit": "4c7c43d34e837d9cfcb29f241d84388d039463ff",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/data/datamanager.py/VideoDataManager",
+        "Original Line": 404,
+        "Updated Line": 411,
+        "Description": [
+            "The parameters [ num_datasets ] are added to the method __init__ from the module torchreid/data/datamanager.py in class VideoDataManager"
+        ],
+        "Commit": "4c7c43d34e837d9cfcb29f241d84388d039463ff",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "build_train_sampler",
+        "Updated": "build_train_sampler",
+        "Location": "torchreid/data/sampler.py",
+        "Original Line": 138,
+        "Updated Line": 204,
+        "Description": [
+            "The parameters [ num_datasets ] are added to the method build_train_sampler from the module torchreid/data/sampler.py"
+        ],
+        "Commit": "4c7c43d34e837d9cfcb29f241d84388d039463ff",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "init_params",
+        "Updated": "_load_imagenet_weights",
+        "Location": "torchreid/models/inceptionresnetv2.py/InceptionResNetV2",
+        "Original Line": 344,
+        "Updated Line": 353,
+        "Description": [
+            "The method init_params from the module torchreid/models/inceptionresnetv2.py in class InceptionResNetV2 is renamed to _load_imagenet_weights"
+        ],
+        "Commit": "4ce9024fcc64d7f98ac5441921c33131306e3186",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "forward",
+        "Updated": "forward",
+        "Old Location": "torchreid/models/inceptionresnetv2.py/InceptionResNetV2",
+        "New Location": "torchreid/models/inceptionv4.py/InceptionV4Base",
+        "Old Method Line": 373,
+        "New Method Line": 312,
+        "Description": " method forward from the module torchreid/models/inceptionresnetv2.py in class InceptionResNetV2 was moved to class InceptionV4Base of module torchreid/models/inceptionv4.py ",
+        "Commit": "4ce9024fcc64d7f98ac5441921c33131306e3186",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/data/datamanager.py/DataManager",
+        "Original Line": 26,
+        "Updated Line": 28,
+        "Description": [
+            "The parameters [ norm_std use_gpu ] are added to the method __init__ from the module torchreid/data/datamanager.py in class DataManager"
+        ],
+        "Commit": "53656196068ad6b8b5987451e5c831a19afb737e",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/data/datamanager.py/ImageDataManager",
+        "Original Line": 115,
+        "Updated Line": 122,
+        "Description": [
+            "The parameters [ use_gpu batch_size_train batch_size_test ] are added to the method __init__ from the module torchreid/data/datamanager.py in class ImageDataManager"
+        ],
+        "Commit": "53656196068ad6b8b5987451e5c831a19afb737e",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/data/datamanager.py/VideoDataManager",
+        "Original Line": 269,
+        "Updated Line": 281,
+        "Description": [
+            "The parameters [ use_gpu batch_size_train batch_size_test ] are added to the method __init__ from the module torchreid/data/datamanager.py in class VideoDataManager"
+        ],
+        "Commit": "53656196068ad6b8b5987451e5c831a19afb737e",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/engine/engine.py/Engine",
+        "Original Line": 41,
+        "Updated Line": 41,
+        "Description": [
+            "The parameters [ use_cpu ] of the method __init__ from the module torchreid/engine/engine.py in class Engine are changed/renamed to [use_gpu]"
+        ],
+        "Commit": "53656196068ad6b8b5987451e5c831a19afb737e",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/engine/image/softmax.py/ImageSoftmaxEngine",
+        "Original Line": 65,
+        "Updated Line": 65,
+        "Description": [
+            "The parameters [ use_cpu ] of the method __init__ from the module torchreid/engine/image/softmax.py in class ImageSoftmaxEngine are changed/renamed to [use_gpu]"
+        ],
+        "Commit": "53656196068ad6b8b5987451e5c831a19afb737e",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/engine/image/triplet.py/ImageTripletEngine",
+        "Original Line": 71,
+        "Updated Line": 71,
+        "Description": [
+            "The parameters [ use_cpu ] of the method __init__ from the module torchreid/engine/image/triplet.py in class ImageTripletEngine are changed/renamed to [use_gpu]"
+        ],
+        "Commit": "53656196068ad6b8b5987451e5c831a19afb737e",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/engine/video/softmax.py/VideoSoftmaxEngine",
+        "Original Line": 67,
+        "Updated Line": 67,
+        "Description": [
+            "The parameters [ use_cpu ] of the method __init__ from the module torchreid/engine/video/softmax.py in class VideoSoftmaxEngine are changed/renamed to [use_gpu]"
+        ],
+        "Commit": "53656196068ad6b8b5987451e5c831a19afb737e",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/engine/video/triplet.py/VideoTripletEngine",
+        "Original Line": 75,
+        "Updated Line": 75,
+        "Description": [
+            "The parameters [ use_cpu ] of the method __init__ from the module torchreid/engine/video/triplet.py in class VideoTripletEngine are changed/renamed to [use_gpu]"
+        ],
+        "Commit": "53656196068ad6b8b5987451e5c831a19afb737e",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "mobilenetv2_1dot0",
+        "Updated": "mobilenetv2_x1_0",
+        "Location": "torchreid/models/mobilenetv2.py",
+        "Original Line": 203,
+        "Updated Line": 203,
+        "Description": [
+            "The method mobilenetv2_1dot0 from the module torchreid/models/mobilenetv2.py is renamed to mobilenetv2_x1_0"
+        ],
+        "Commit": "554807ad36b7aa49660c059983c80e229bd9ded5",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "mobilenetv2_1dot4",
+        "Updated": "mobilenetv2_x1_4",
+        "Location": "torchreid/models/mobilenetv2.py",
+        "Original Line": 219,
+        "Updated Line": 219,
+        "Description": [
+            "The method mobilenetv2_1dot4 from the module torchreid/models/mobilenetv2.py is renamed to mobilenetv2_x1_4"
+        ],
+        "Commit": "554807ad36b7aa49660c059983c80e229bd9ded5",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data_manager.py/CUHK03",
+        "Original Line": 131,
+        "Updated Line": 139,
+        "Description": [
+            "The parameters [ cuhk03_classic_split ] are added to the method __init__ from the module data_manager.py in class CUHK03"
+        ],
+        "Commit": "56959d9acdea1335d747c7d4a9a4645cb75adfc3",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_extract_split",
+        "Updated": "_extract_classic_split",
+        "Location": "data_manager.py/CUHK03",
+        "Original Line": 256,
+        "Updated Line": 261,
+        "Description": [
+            "The method _extract_split from the module data_manager.py in class CUHK03 is renamed to _extract_classic_split"
+        ],
+        "Commit": "56959d9acdea1335d747c7d4a9a4645cb75adfc3",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "_process_images",
+        "Updated": "_process_images",
+        "Location": "data_manager.py/CUHK03",
+        "Original Line": 218,
+        "Updated Line": 226,
+        "Description": [
+            "The parameters [ viewid ] of the method _process_images from the module data_manager.py in class CUHK03 is/are removed"
+        ],
+        "Commit": "56959d9acdea1335d747c7d4a9a4645cb75adfc3",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_evaluate",
+        "Updated": "_evaluate",
+        "Location": "torchreid/engine/engine.py/Engine",
+        "Original Line": 203,
+        "Updated Line": 209,
+        "Description": [
+            "The parameters [ rerank ] are added to the method _evaluate from the module torchreid/engine/engine.py in class Engine"
+        ],
+        "Commit": "5839a026c3aeebce260cbf1127a1d18c2714be96",
+        "GPT4 Component Graph": "Evaluation"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "run",
+        "Updated": "run",
+        "Location": "torchreid/engine/engine.py/Engine",
+        "Original Line": 43,
+        "Updated Line": 43,
+        "Description": [
+            "The parameters [ rerank ] are added to the method run from the module torchreid/engine/engine.py in class Engine"
+        ],
+        "Commit": "5839a026c3aeebce260cbf1127a1d18c2714be96",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test",
+        "Updated": "test",
+        "Location": "torchreid/engine/engine.py/Engine",
+        "Original Line": 149,
+        "Updated Line": 152,
+        "Description": [
+            "The parameters [ rerank ] are added to the method test from the module torchreid/engine/engine.py in class Engine"
+        ],
+        "Commit": "5839a026c3aeebce260cbf1127a1d18c2714be96",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data_manager/cuhk01.py/CUHK01",
+        "Original Line": 35,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ verbose use_lmdb ] are added to the method __init__ from the module data_manager/cuhk01.py in class CUHK01"
+        ],
+        "Commit": "5be07818b13828ed5478a5714f23213e587f3af6",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data_manager/cuhk03.py/CUHK03",
+        "Original Line": 40,
+        "Updated Line": 41,
+        "Description": [
+            "The parameters [ verbose use_lmdb ] are added to the method __init__ from the module data_manager/cuhk03.py in class CUHK03"
+        ],
+        "Commit": "5be07818b13828ed5478a5714f23213e587f3af6",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data_manager/dukemtmcreid.py/DukeMTMCreID",
+        "Original Line": 34,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ verbose use_lmdb ] are added to the method __init__ from the module data_manager/dukemtmcreid.py in class DukeMTMCreID"
+        ],
+        "Commit": "5be07818b13828ed5478a5714f23213e587f3af6",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data_manager/dukemtmcvidreid.py/DukeMTMCVidReID",
+        "Original Line": 35,
+        "Updated Line": 35,
+        "Description": [
+            "The parameters [ verbose ] are added to the method __init__ from the module data_manager/dukemtmcvidreid.py in class DukeMTMCVidReID"
+        ],
+        "Commit": "5be07818b13828ed5478a5714f23213e587f3af6",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data_manager/grid.py/GRID",
+        "Original Line": 35,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ verbose use_lmdb ] are added to the method __init__ from the module data_manager/grid.py in class GRID"
+        ],
+        "Commit": "5be07818b13828ed5478a5714f23213e587f3af6",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data_manager/ilids.py/iLIDS",
+        "Original Line": 35,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ verbose use_lmdb ] are added to the method __init__ from the module data_manager/ilids.py in class iLIDS"
+        ],
+        "Commit": "5be07818b13828ed5478a5714f23213e587f3af6",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data_manager/ilidsvid.py/iLIDSVID",
+        "Original Line": 35,
+        "Updated Line": 35,
+        "Description": [
+            "The parameters [ verbose ] are added to the method __init__ from the module data_manager/ilidsvid.py in class iLIDSVID"
+        ],
+        "Commit": "5be07818b13828ed5478a5714f23213e587f3af6",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data_manager/market1501.py/Market1501",
+        "Original Line": 32,
+        "Updated Line": 34,
+        "Description": [
+            "The parameters [ verbose use_lmdb ] are added to the method __init__ from the module data_manager/market1501.py in class Market1501"
+        ],
+        "Commit": "5be07818b13828ed5478a5714f23213e587f3af6",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data_manager/mars.py/Mars",
+        "Original Line": 33,
+        "Updated Line": 33,
+        "Description": [
+            "The parameters [ verbose ] are added to the method __init__ from the module data_manager/mars.py in class Mars"
+        ],
+        "Commit": "5be07818b13828ed5478a5714f23213e587f3af6",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data_manager/msmt17.py/MSMT17",
+        "Original Line": 33,
+        "Updated Line": 35,
+        "Description": [
+            "The parameters [ verbose use_lmdb ] are added to the method __init__ from the module data_manager/msmt17.py in class MSMT17"
+        ],
+        "Commit": "5be07818b13828ed5478a5714f23213e587f3af6",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data_manager/prid2011.py/PRID2011",
+        "Original Line": 35,
+        "Updated Line": 35,
+        "Description": [
+            "The parameters [ verbose ] are added to the method __init__ from the module data_manager/prid2011.py in class PRID2011"
+        ],
+        "Commit": "5be07818b13828ed5478a5714f23213e587f3af6",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data_manager/prid450s.py/PRID450S",
+        "Original Line": 35,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ verbose use_lmdb ] are added to the method __init__ from the module data_manager/prid450s.py in class PRID450S"
+        ],
+        "Commit": "5be07818b13828ed5478a5714f23213e587f3af6",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data_manager/viper.py/VIPeR",
+        "Original Line": 35,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ verbose use_lmdb ] are added to the method __init__ from the module data_manager/viper.py in class VIPeR"
+        ],
+        "Commit": "5be07818b13828ed5478a5714f23213e587f3af6",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "return_query_and_gallery_by_name",
+        "Updated": "fetch_qg",
+        "Location": "torchreid/data/datamanager.py/DataManager",
+        "Original Line": 73,
+        "Updated Line": 73,
+        "Description": [
+            "The method return_query_and_gallery_by_name from the module torchreid/data/datamanager.py in class DataManager is renamed to fetch_qg"
+        ],
+        "Commit": "5ce43185b156c19c60d19be97dfb5ad89423e52c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "evaluate",
+        "Updated": "eval_market1501",
+        "Location": "eval_metrics.py",
+        "Original Line": 5,
+        "Updated Line": 8,
+        "Description": [
+            "The method evaluate from the module eval_metrics.py is renamed to eval_market1501"
+        ],
+        "Commit": "62359a16eff93fba13f322c642d1d6a1e8f9e3c3",
+        "GPT4 Component Graph": "Evaluation"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/data/datamanager.py/DataManager",
+        "Original Line": 27,
+        "Updated Line": 26,
+        "Description": [
+            "The parameters [ color_jitter color_aug ] of the method __init__ from the module torchreid/data/datamanager.py in class DataManager is/are removed"
+        ],
+        "Commit": "709018d9481774f442cfa05cddf031e6ba7fcdcd",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/data/datamanager.py/ImageDataManager",
+        "Original Line": 117,
+        "Updated Line": 112,
+        "Description": [
+            "The parameters [ color_jitter color_aug ] of the method __init__ from the module torchreid/data/datamanager.py in class ImageDataManager is/are removed"
+        ],
+        "Commit": "709018d9481774f442cfa05cddf031e6ba7fcdcd",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/data/datamanager.py/VideoDataManager",
+        "Original Line": 266,
+        "Updated Line": 259,
+        "Description": [
+            "The parameters [ color_jitter color_aug ] of the method __init__ from the module torchreid/data/datamanager.py in class VideoDataManager is/are removed"
+        ],
+        "Commit": "709018d9481774f442cfa05cddf031e6ba7fcdcd",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "init_dataset",
+        "Updated": "init_img_dataset",
+        "Location": "data_manager.py",
+        "Original Line": 1093,
+        "Updated Line": 1094,
+        "Description": [
+            "The method init_dataset from the module data_manager.py is renamed to init_img_dataset"
+        ],
+        "Commit": "749d522ed4b60fc96af8ceaf150355c2a5831373",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "eval_cuhk03",
+        "Updated": "eval_cuhk03",
+        "Location": "torchreid/eval_metrics.py",
+        "Original Line": 20,
+        "Updated Line": 20,
+        "Description": [
+            "The parameters [ N ] of the method eval_cuhk03 from the module torchreid/eval_metrics.py is/are removed"
+        ],
+        "Commit": "75279f0728a75c6743d8494e148fea194be11e96",
+        "GPT4 Component Graph": "Evaluation"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "evaluate",
+        "Updated": "evaluate_py",
+        "Location": "torchreid/eval_metrics.py",
+        "Original Method Line": "(144,159)",
+        "Extracted/Inlined Method Line": 152,
+        "Extracted/Inlined Lines": [
+            148.0,
+            149.0,
+            151.0
+        ],
+        "Description": " The method evaluate_py from the module torchreid/eval_metrics.py is extracted from method evaluate from the module torchreid/eval_metrics.py ",
+        "Commit": "75279f0728a75c6743d8494e148fea194be11e96",
+        "GPT4 Component Graph": "Evaluation"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/data/datamanager.py/ImageDataManager",
+        "Original Line": 133,
+        "Updated Line": 133,
+        "Description": [
+            "The parameters [ use_unlabeled_targets ] of the method __init__ from the module torchreid/data/datamanager.py in class ImageDataManager are changed/renamed to [load_unlabeled_targets]"
+        ],
+        "Commit": "7d8431cf49f2aae681017cf445c48a1b78349e69",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "forward",
+        "Updated": "forward",
+        "Location": "torchreid/models/osnet.py/OSNet",
+        "Original Line": 295,
+        "Updated Line": 295,
+        "Description": [
+            "The parameters [ output_featuremaps_only ] are added to the method forward from the module torchreid/models/osnet.py in class OSNet"
+        ],
+        "Commit": "7e0249a084341cf2e658b928bc91768b2db036d1",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test",
+        "Updated": "test",
+        "Location": "train_imgreid_xent.py",
+        "Original Line": 301,
+        "Updated Line": 310,
+        "Description": [
+            "The parameters [ return_distmat ] are added to the method test from the module train_imgreid_xent.py"
+        ],
+        "Commit": "83a1bb7bec595f2ddc3134ed6cc1fac90f28fd90",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_check_before_run",
+        "Updated": "check_before_run",
+        "Location": "torchreid/datasets/ilids.py/iLIDS",
+        "Original Line": 92,
+        "Updated Line": 85,
+        "Description": [
+            "The method _check_before_run from the module torchreid/datasets/ilids.py in class iLIDS is renamed to check_before_run"
+        ],
+        "Commit": "83b9b382807471508f39d651c7301678cc1ca762",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_download_data",
+        "Updated": "download_data",
+        "Location": "torchreid/datasets/ilids.py/iLIDS",
+        "Original Line": 76,
+        "Updated Line": 69,
+        "Description": [
+            "The method _download_data from the module torchreid/datasets/ilids.py in class iLIDS is renamed to download_data"
+        ],
+        "Commit": "83b9b382807471508f39d651c7301678cc1ca762",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "__init__",
+        "Updated": "process_split",
+        "Location": "torchreid/datasets/ilids.py/iLIDS",
+        "Original Method Line": "(38,39)",
+        "Extracted/Inlined Method Line": 169,
+        "Extracted/Inlined Lines": [
+            60.0,
+            61.0,
+            62.0
+        ],
+        "Description": " The method process_split from the module torchreid/datasets/ilids.py in class iLIDS is extracted from method __init__ from the module torchreid/datasets/ilids.py in class iLIDS ",
+        "Commit": "83b9b382807471508f39d651c7301678cc1ca762",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_load_imagenet_weights",
+        "Updated": "load_imagenet_weights",
+        "Location": "torchreid/models/inceptionresnetv2.py/InceptionResNetV2",
+        "Original Line": 353,
+        "Updated Line": 351,
+        "Description": [
+            "The method _load_imagenet_weights from the module torchreid/models/inceptionresnetv2.py in class InceptionResNetV2 is renamed to load_imagenet_weights"
+        ],
+        "Commit": "859b03cf19d0f9afb1fc26f2e58d1f40338551a3",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_compute_loss",
+        "Updated": "compute_loss",
+        "Location": "torchreid/engine/engine.py/Engine",
+        "Original Line": 442,
+        "Updated Line": 442,
+        "Description": [
+            "The method _compute_loss from the module torchreid/engine/engine.py in class Engine is renamed to compute_loss"
+        ],
+        "Commit": "89bf30bd149f485005b2bc75a49ed470e54e7e06",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_extract_features",
+        "Updated": "extract_features",
+        "Location": "torchreid/engine/engine.py/Engine",
+        "Original Line": 449,
+        "Updated Line": 449,
+        "Description": [
+            "The method _extract_features from the module torchreid/engine/engine.py in class Engine is renamed to extract_features"
+        ],
+        "Commit": "89bf30bd149f485005b2bc75a49ed470e54e7e06",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_parse_data_for_eval",
+        "Updated": "parse_data_for_eval",
+        "Location": "torchreid/engine/engine.py/Engine",
+        "Original Line": 457,
+        "Updated Line": 457,
+        "Description": [
+            "The method _parse_data_for_eval from the module torchreid/engine/engine.py in class Engine is renamed to parse_data_for_eval"
+        ],
+        "Commit": "89bf30bd149f485005b2bc75a49ed470e54e7e06",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_parse_data_for_train",
+        "Updated": "parse_data_for_train",
+        "Location": "torchreid/engine/engine.py/Engine",
+        "Original Line": 452,
+        "Updated Line": 452,
+        "Description": [
+            "The method _parse_data_for_train from the module torchreid/engine/engine.py in class Engine is renamed to parse_data_for_train"
+        ],
+        "Commit": "89bf30bd149f485005b2bc75a49ed470e54e7e06",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_two_stepped_transfer_learning",
+        "Updated": "two_stepped_transfer_learning",
+        "Location": "torchreid/engine/engine.py/Engine",
+        "Original Line": 463,
+        "Updated Line": 463,
+        "Description": [
+            "The method _two_stepped_transfer_learning from the module torchreid/engine/engine.py in class Engine is renamed to two_stepped_transfer_learning"
+        ],
+        "Commit": "89bf30bd149f485005b2bc75a49ed470e54e7e06",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_extract_features",
+        "Updated": "extract_features",
+        "Location": "torchreid/engine/video/softmax.py/VideoSoftmaxEngine",
+        "Original Line": 95,
+        "Updated Line": 95,
+        "Description": [
+            "The method _extract_features from the module torchreid/engine/video/softmax.py in class VideoSoftmaxEngine is renamed to extract_features"
+        ],
+        "Commit": "89bf30bd149f485005b2bc75a49ed470e54e7e06",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_parse_data_for_train",
+        "Updated": "parse_data_for_train",
+        "Location": "torchreid/engine/video/softmax.py/VideoSoftmaxEngine",
+        "Original Line": 80,
+        "Updated Line": 80,
+        "Description": [
+            "The method _parse_data_for_train from the module torchreid/engine/video/softmax.py in class VideoSoftmaxEngine is renamed to parse_data_for_train"
+        ],
+        "Commit": "89bf30bd149f485005b2bc75a49ed470e54e7e06",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "evaluate",
+        "Updated": "evaluate",
+        "Location": "eval_metrics.py",
+        "Original Line": 129,
+        "Updated Line": 133,
+        "Description": [
+            "The parameters [ use_cython ] are added to the method evaluate from the module eval_metrics.py"
+        ],
+        "Commit": "8fb222ed62a589f689b5d1c087df1d2780f19273",
+        "GPT4 Component Graph": "Evaluation"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/models/resnet.py/BasicBlock",
+        "Original Line": 31,
+        "Updated Line": 42,
+        "Description": [
+            "The parameters [ groups base_width dilation norm_layer ] are added to the method __init__ from the module torchreid/models/resnet.py in class BasicBlock"
+        ],
+        "Commit": "97ee4b423b23103e22517bbbbba20b0aa3a0eda8",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/models/resnet.py/Bottleneck",
+        "Original Line": 63,
+        "Updated Line": 82,
+        "Description": [
+            "The parameters [ groups base_width dilation norm_layer ] are added to the method __init__ from the module torchreid/models/resnet.py in class Bottleneck"
+        ],
+        "Commit": "97ee4b423b23103e22517bbbbba20b0aa3a0eda8",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/models/resnet.py/ResNet",
+        "Original Line": 114,
+        "Updated Line": 140,
+        "Description": [
+            "The parameters [ zero_init_residual groups width_per_group replace_stride_with_dilation norm_layer ] are added to the method __init__ from the module torchreid/models/resnet.py in class ResNet"
+        ],
+        "Commit": "97ee4b423b23103e22517bbbbba20b0aa3a0eda8",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "conv3x3",
+        "Updated": "conv1x1",
+        "Location": "torchreid/models/resnet.py",
+        "Original Line": 22,
+        "Updated Line": 34,
+        "Description": [
+            "The method conv3x3 from the module torchreid/models/resnet.py is renamed to conv1x1"
+        ],
+        "Commit": "97ee4b423b23103e22517bbbbba20b0aa3a0eda8",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/data_manager.py/BaseDataManager",
+        "Original Line": 14,
+        "Updated Line": 14,
+        "Description": [
+            "The parameters [ combineall ] are added to the method __init__ from the module torchreid/data_manager.py in class BaseDataManager"
+        ],
+        "Commit": "983c9e51e5308d426c3500a66a471d8b4e23a766",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "init_attributes",
+        "Updated": "init_attributes",
+        "Location": "torchreid/datasets/bases.py/BaseDataset",
+        "Original Line": 35,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ combineall ] are added to the method init_attributes from the module torchreid/datasets/bases.py in class BaseDataset"
+        ],
+        "Commit": "983c9e51e5308d426c3500a66a471d8b4e23a766",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/data_manager.py/ImageDataManager",
+        "Original Line": 39,
+        "Updated Line": 40,
+        "Description": [
+            "The parameters [ train_sampler num_instances ] are added to the method __init__ from the module torchreid/data_manager.py in class ImageDataManager"
+        ],
+        "Commit": "9980b5378bca7d7b555bc8b24329368d7ed39c93",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/samplers.py/RandomIdentitySampler",
+        "Original Line": 22,
+        "Updated Line": 23,
+        "Description": [
+            "The parameters [ batch_size ] are added to the method __init__ from the module torchreid/samplers.py in class RandomIdentitySampler"
+        ],
+        "Commit": "9aa1aa24c0eaafb95f3a0a580de9df38e803e039",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "forward",
+        "Updated": "forward",
+        "Location": "torchreid/models/osnet.py/OSNet",
+        "Original Line": 295,
+        "Updated Line": 295,
+        "Description": [
+            "The parameters [ output_featuremaps_only ] of the method forward from the module torchreid/models/osnet.py in class OSNet are changed/renamed to [return_featuremaps]"
+        ],
+        "Commit": "a20f8a66bdb48aacf27ea039152b4383532cb979",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "DukeMTMCvidreID",
+        "Updated": "DukeMTMCVidReID",
+        "Location": "data_manager.py",
+        "Description": " class DukeMTMCvidreID was renamed to class DukeMTMCVidReID ",
+        "Commit": "a2362d53b8a06459458efce58b27215d778edc15",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "train",
+        "Updated": "train",
+        "Location": "projects/OSNet_AIN/softmax_nas.py/ImageSoftmaxNASEngine",
+        "Original Line": 36,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ trainloader ] of the method train from the module projects/OSNet_AIN/softmax_nas.py in class ImageSoftmaxNASEngine are changed/renamed to [writer]"
+        ],
+        "Commit": "a3cea489fad62a6dd255e04cadd22e2e848fee1b",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "build_lr_scheduler",
+        "Updated": "build_lr_scheduler",
+        "Location": "torchreid/optim/lr_scheduler.py",
+        "Original Line": 10,
+        "Updated Line": 10,
+        "Description": [
+            "The parameters [ max_epoch ] are added to the method build_lr_scheduler from the module torchreid/optim/lr_scheduler.py"
+        ],
+        "Commit": "a40ba19207c116aa311ba68f72daa538563fa06d",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "CrossEntropyLabelSmooth",
+        "Updated": "CrossEntropyLoss",
+        "Location": "torchreid/losses/cross_entropy_loss.py",
+        "Description": " class CrossEntropyLabelSmooth was renamed to class CrossEntropyLoss ",
+        "Commit": "a57558738e27dae83a3576f2fbf8b3c6c8a4f1ef",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/data/datamanager.py/ImageDataManager",
+        "Original Line": 145,
+        "Updated Line": 149,
+        "Description": [
+            "The parameters [ k_tfm ] are added to the method __init__ from the module torchreid/data/datamanager.py in class ImageDataManager"
+        ],
+        "Commit": "a5ee40744ca1f88b6ae3326ea4df20fc68f67544",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/data/datasets/dataset.py/Dataset",
+        "Original Line": 30,
+        "Updated Line": 34,
+        "Description": [
+            "The parameters [ k_tfm ] are added to the method __init__ from the module torchreid/data/datasets/dataset.py in class Dataset"
+        ],
+        "Commit": "a5ee40744ca1f88b6ae3326ea4df20fc68f67544",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "InceptionV4Base",
+        "Updated": "InceptionV4",
+        "Location": "torchreid/models/inceptionv4.py",
+        "Description": " class InceptionV4Base was renamed to class InceptionV4 ",
+        "Commit": "aa98ef5a7bd548426f1f635a79ac5b470f9e75d1",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "ResNet",
+        "Updated": "ResNetMid",
+        "Location": "torchreid/models/resnetmid.py",
+        "Description": " class ResNet was renamed to class ResNetMid ",
+        "Commit": "aa98ef5a7bd548426f1f635a79ac5b470f9e75d1",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "check_isfile",
+        "Updated": "check_isfile",
+        "Location": "torchreid/utils/tools.py",
+        "Original Line": 32,
+        "Updated Line": 33,
+        "Description": [
+            "The parameters [ path ] of the method check_isfile from the module torchreid/utils/tools.py are changed/renamed to [fpath]"
+        ],
+        "Commit": "aa98ef5a7bd548426f1f635a79ac5b470f9e75d1",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "mkdir_if_missing",
+        "Updated": "mkdir_if_missing",
+        "Location": "torchreid/utils/tools.py",
+        "Original Line": 23,
+        "Updated Line": 23,
+        "Description": [
+            "The parameters [ directory ] of the method mkdir_if_missing from the module torchreid/utils/tools.py are changed/renamed to [dirname]"
+        ],
+        "Commit": "aa98ef5a7bd548426f1f635a79ac5b470f9e75d1",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "models/HACNN.py/HACNN",
+        "Original Line": 191,
+        "Updated Line": 191,
+        "Description": [
+            "The parameters [ use_gpu ] are added to the method __init__ from the module models/HACNN.py in class HACNN"
+        ],
+        "Commit": "ac38a1c141b591499377a2cd552390541c301802",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/data/datamanager.py/ImageDataManager",
+        "Original Line": 149,
+        "Updated Line": 151,
+        "Description": [
+            "The parameters [ num_cams ] are added to the method __init__ from the module torchreid/data/datamanager.py in class ImageDataManager"
+        ],
+        "Commit": "ad4d8d7c297f1c56f403add1a821d02f72a6c0e0",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/data/datamanager.py/VideoDataManager",
+        "Original Line": 397,
+        "Updated Line": 404,
+        "Description": [
+            "The parameters [ num_cams ] are added to the method __init__ from the module torchreid/data/datamanager.py in class VideoDataManager"
+        ],
+        "Commit": "ad4d8d7c297f1c56f403add1a821d02f72a6c0e0",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "build_train_sampler",
+        "Updated": "build_train_sampler",
+        "Location": "torchreid/data/sampler.py",
+        "Original Line": 80,
+        "Updated Line": 138,
+        "Description": [
+            "The parameters [ num_cams ] are added to the method build_train_sampler from the module torchreid/data/sampler.py"
+        ],
+        "Commit": "ad4d8d7c297f1c56f403add1a821d02f72a6c0e0",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "get_videodata_info",
+        "Updated": "get_videodata_info",
+        "Location": "torchreid/datasets/bases.py/BaseDataset",
+        "Original Line": 24,
+        "Updated Line": 24,
+        "Description": [
+            "The parameters [ return_tracklet_info ] of the method get_videodata_info from the module torchreid/datasets/bases.py in class BaseDataset are changed/renamed to [return_tracklet_stats]"
+        ],
+        "Commit": "b065f130d0c8966b4f23bc750c150c0f3eaf7582",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "train",
+        "Updated": "train",
+        "Location": "torchreid/engine/engine.py/Engine",
+        "Original Line": 236,
+        "Updated Line": 237,
+        "Description": [
+            "The parameters [ epoch max_epoch writer ] of the method train from the module torchreid/engine/engine.py in class Engine is/are removed"
+        ],
+        "Commit": "b184fba02997d7622224b9fdcec97b96badaab25",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "export_openvino",
+        "Updated": "export_openvino",
+        "Location": "tools/export.py",
+        "Original Line": 119,
+        "Updated Line": 104,
+        "Description": [
+            "The parameters [ prefix ] of the method export_openvino from the module tools/export.py is/are removed"
+        ],
+        "Commit": "b49a8a7546e0194e995f369ba30c116ad1cf6f1c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "export_tflite",
+        "Updated": "export_tflite",
+        "Location": "tools/export.py",
+        "Original Line": 146,
+        "Updated Line": 130,
+        "Description": [
+            "The parameters [ prefix ] of the method export_tflite from the module tools/export.py is/are removed"
+        ],
+        "Commit": "b49a8a7546e0194e995f369ba30c116ad1cf6f1c",
+        "GPT4 Component Graph": "Deployment & Serving"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "train",
+        "Updated": "train",
+        "Location": "train_imgreid_xent_htri.py",
+        "Original Line": 144,
+        "Updated Line": 156,
+        "Description": [
+            "The parameters [ fixbase ] are added to the method train from the module train_imgreid_xent_htri.py"
+        ],
+        "Commit": "b85e1b59d6bac874d270d2604977e9ec8bd60851",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "train",
+        "Updated": "train",
+        "Location": "train_vidreid_xent.py",
+        "Original Line": 162,
+        "Updated Line": 154,
+        "Description": [
+            "The parameters [ freeze_bn ] of the method train from the module train_vidreid_xent.py are changed/renamed to [fixbase]"
+        ],
+        "Commit": "b85e1b59d6bac874d270d2604977e9ec8bd60851",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "train",
+        "Updated": "train",
+        "Location": "train_vidreid_xent_htri.py",
+        "Original Line": 146,
+        "Updated Line": 158,
+        "Description": [
+            "The parameters [ fixbase ] are added to the method train from the module train_vidreid_xent_htri.py"
+        ],
+        "Commit": "b85e1b59d6bac874d270d2604977e9ec8bd60851",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "train",
+        "Updated": "train",
+        "Location": "train_imgreid_xent.py",
+        "Original Line": 219,
+        "Updated Line": 242,
+        "Description": [
+            "The parameters [ freeze_bn ] are added to the method train from the module train_imgreid_xent.py"
+        ],
+        "Commit": "b88d36cd9c8056e15607a40f5d10a9072ab84b22",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "train",
+        "Updated": "train",
+        "Location": "train_vidreid_xent.py",
+        "Original Line": 210,
+        "Updated Line": 233,
+        "Description": [
+            "The parameters [ freeze_bn ] are added to the method train from the module train_vidreid_xent.py"
+        ],
+        "Commit": "b88d36cd9c8056e15607a40f5d10a9072ab84b22",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/data_manager.py/ImageDataManager",
+        "Original Line": 40,
+        "Updated Line": 40,
+        "Description": [
+            "The parameters [ augdata_re ] are added to the method __init__ from the module torchreid/data_manager.py in class ImageDataManager"
+        ],
+        "Commit": "bac2ce56624fdee04f3e45f5af2b41f13e17adbf",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/data_manager.py/VideoDataManager",
+        "Original Line": 135,
+        "Updated Line": 135,
+        "Description": [
+            "The parameters [ augdata_re ] are added to the method __init__ from the module torchreid/data_manager.py in class VideoDataManager"
+        ],
+        "Commit": "bac2ce56624fdee04f3e45f5af2b41f13e17adbf",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "visactmap",
+        "Updated": "visactmap",
+        "Location": "tools/visualize_actmap.py",
+        "Original Line": 26,
+        "Updated Line": 26,
+        "Description": [
+            "The parameters [ print_freq ] of the method visactmap from the module tools/visualize_actmap.py is/are removed"
+        ],
+        "Commit": "bf79ba96bec87e3eb30c57636ef3d60ff4afe278",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "models/ShuffleNet.py/Bottleneck",
+        "Original Line": 27,
+        "Updated Line": 27,
+        "Description": [
+            "The parameters [ group_conv1x1 ] are added to the method __init__ from the module models/ShuffleNet.py in class Bottleneck"
+        ],
+        "Commit": "c770722ee55f8691678dc0a227f5668db78c403b",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "models/InceptionResNetV2.py/InceptionResNetV2",
+        "Original Line": 235,
+        "Updated Line": 238,
+        "Description": [
+            "The parameters [ loss ] are added to the method __init__ from the module models/InceptionResNetV2.py in class InceptionResNetV2"
+        ],
+        "Commit": "cd3a565ad0442b6225e040c917dbeaf260c19732",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "forward",
+        "Updated": "featuremaps",
+        "Location": "torchreid/models/mobilenetv2.py/MobileNetV2",
+        "Original Method Line": "(101,113)",
+        "Extracted/Inlined Method Line": 101,
+        "Extracted/Inlined Lines": [
+            102.0,
+            103.0,
+            104.0,
+            105.0,
+            106.0,
+            107.0,
+            108.0,
+            109.0,
+            110.0
+        ],
+        "Description": " The method featuremaps from the module torchreid/models/mobilenetv2.py in class MobileNetV2 is extracted from method forward from the module torchreid/models/mobilenetv2.py in class MobileNetV2 ",
+        "Commit": "d076e41e78acaaacdb9b6d4a585fe57c8f3b65af",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "forward",
+        "Updated": "featuremaps",
+        "Location": "torchreid/models/mudeep.py/MuDeep",
+        "Original Method Line": "(176,184)",
+        "Extracted/Inlined Method Line": 176,
+        "Extracted/Inlined Lines": [
+            177.0,
+            178.0,
+            179.0,
+            180.0,
+            181.0
+        ],
+        "Description": " The method featuremaps from the module torchreid/models/mudeep.py in class MuDeep is extracted from method forward from the module torchreid/models/mudeep.py in class MuDeep ",
+        "Commit": "d076e41e78acaaacdb9b6d4a585fe57c8f3b65af",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "add_image_dataset",
+        "Updated": "register_image_dataset",
+        "Location": "torchreid/data/datasets/__init__.py",
+        "Original Line": 46,
+        "Updated Line": 48,
+        "Description": [
+            "The method add_image_dataset from the module torchreid/data/datasets/__init__.py is renamed to register_image_dataset"
+        ],
+        "Commit": "d0fe37c558b8842f70dfea15b50495440de719d3",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "add_video_dataset",
+        "Updated": "register_video_dataset",
+        "Location": "torchreid/data/datasets/__init__.py",
+        "Original Line": 53,
+        "Updated Line": 77,
+        "Description": [
+            "The method add_video_dataset from the module torchreid/data/datasets/__init__.py is renamed to register_video_dataset"
+        ],
+        "Commit": "d0fe37c558b8842f70dfea15b50495440de719d3",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_evaluate",
+        "Updated": "_evaluate",
+        "Location": "torchreid/engine/engine.py/Engine",
+        "Original Line": 97,
+        "Updated Line": 203,
+        "Description": [
+            "The parameters [ epoch ] are added to the method _evaluate from the module torchreid/engine/engine.py in class Engine"
+        ],
+        "Commit": "d0fe37c558b8842f70dfea15b50495440de719d3",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test",
+        "Updated": "test",
+        "Location": "torchreid/engine/engine.py/Engine",
+        "Original Line": 81,
+        "Updated Line": 150,
+        "Description": [
+            "The parameters [ epoch ] are added to the method test from the module torchreid/engine/engine.py in class Engine"
+        ],
+        "Commit": "d0fe37c558b8842f70dfea15b50495440de719d3",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test",
+        "Updated": "test",
+        "Location": "train_imgreid_xent_htri.py",
+        "Original Line": 297,
+        "Updated Line": 306,
+        "Description": [
+            "The parameters [ return_distmat ] are added to the method test from the module train_imgreid_xent_htri.py"
+        ],
+        "Commit": "dbbb68b955b1ea1739599136693d0ba9b9439f3c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test",
+        "Updated": "test",
+        "Location": "train_vidreid_xent.py",
+        "Original Line": 289,
+        "Updated Line": 298,
+        "Description": [
+            "The parameters [ return_distmat ] are added to the method test from the module train_vidreid_xent.py"
+        ],
+        "Commit": "dbbb68b955b1ea1739599136693d0ba9b9439f3c",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test",
+        "Updated": "test",
+        "Location": "train_vidreid_xent_htri.py",
+        "Original Line": 279,
+        "Updated Line": 288,
+        "Description": [
+            "The parameters [ return_distmat ] are added to the method test from the module train_vidreid_xent_htri.py"
+        ],
+        "Commit": "dbbb68b955b1ea1739599136693d0ba9b9439f3c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "_evaluate",
+        "Updated": "_evaluate",
+        "Location": "torchreid/engine/engine.py/Engine",
+        "Original Line": 347,
+        "Updated Line": 345,
+        "Description": [
+            "The parameters [ epoch ] of the method _evaluate from the module torchreid/engine/engine.py in class Engine is/are removed"
+        ],
+        "Commit": "de42729f41f61fd853e44ed3d5d8ffc68dae4579",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "test",
+        "Updated": "test",
+        "Location": "torchreid/engine/engine.py/Engine",
+        "Original Line": 296,
+        "Updated Line": 292,
+        "Description": [
+            "The parameters [ epoch ] of the method test from the module torchreid/engine/engine.py in class Engine is/are removed"
+        ],
+        "Commit": "de42729f41f61fd853e44ed3d5d8ffc68dae4579",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/data_manager.py/ImageDataManager",
+        "Original Line": 39,
+        "Updated Line": 39,
+        "Description": [
+            "The parameters [ train_names test_names ] of the method __init__ from the module torchreid/data_manager.py in class ImageDataManager are changed/renamed to [source_names target_names]"
+        ],
+        "Commit": "e17bbcddf38e6fdb673120437d6d30b6e411fe57",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/data_manager.py/VideoDataManager",
+        "Original Line": 139,
+        "Updated Line": 139,
+        "Description": [
+            "The parameters [ train_names test_names sample ] of the method __init__ from the module torchreid/data_manager.py in class VideoDataManager are changed/renamed to [source_names target_names sample_method]"
+        ],
+        "Commit": "e17bbcddf38e6fdb673120437d6d30b6e411fe57",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "_extract_img",
+        "Updated": "_extract_img",
+        "Location": "torchreid/datasets/cuhk03.py/CUHK03",
+        "Original Line": 149,
+        "Updated Line": 138,
+        "Description": [
+            "The parameters [ name ] of the method _extract_img from the module torchreid/datasets/cuhk03.py in class CUHK03 are changed/renamed to [image_type]"
+        ],
+        "Commit": "e2b1001165d39cffcbd6dae3647744949e1888b0",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "preprocess",
+        "Updated": "preprocess_split",
+        "Location": "torchreid/datasets/cuhk03.py/CUHK03",
+        "Original Line": 105,
+        "Updated Line": 95,
+        "Description": [
+            "The method preprocess from the module torchreid/datasets/cuhk03.py in class CUHK03 is renamed to preprocess_split"
+        ],
+        "Commit": "e2b1001165d39cffcbd6dae3647744949e1888b0",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "PRID",
+        "Updated": "PRID2011",
+        "Location": "data_manager.py",
+        "Description": " class PRID was renamed to class PRID2011 ",
+        "Commit": "e50179f4bc40c6f3411cf0a76eb69e7bfdb1477a",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "init_optim",
+        "Updated": "init_optimizer",
+        "Location": "torchreid/optimizers.py",
+        "Original Line": 6,
+        "Updated Line": 6,
+        "Description": [
+            "The method init_optim from the module torchreid/optimizers.py is renamed to init_optimizer",
+            "The parameters [ momentum sgd_dampening sgd_nesterov rmsprop_alpha adam_beta1 adam_beta2 ] are added to the method init_optim from the module torchreid/optimizers.py"
+        ],
+        "Commit": "e6464f34438b7e42e3066f5be911a74c0435f0af",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/models/resnet.py/ResNet",
+        "Original Line": 107,
+        "Updated Line": 107,
+        "Description": [
+            "The parameters [ dropout_p ] are added to the method __init__ from the module torchreid/models/resnet.py in class ResNet"
+        ],
+        "Commit": "ee5fb676bf51610f8b28b92cc50976ba884239b1",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_construct_fc_layer",
+        "Updated": "_construct_fc_layer",
+        "Location": "torchreid/models/resnet.py/ResNet",
+        "Original Line": 149,
+        "Updated Line": 150,
+        "Description": [
+            "The parameters [ dropout_p ] are added to the method _construct_fc_layer from the module torchreid/models/resnet.py in class ResNet"
+        ],
+        "Commit": "ee5fb676bf51610f8b28b92cc50976ba884239b1",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_construct_fc_layer",
+        "Updated": "_construct_fc_layer",
+        "Location": "torchreid/models/resnetmid.py/ResNet",
+        "Original Line": 152,
+        "Updated Line": 152,
+        "Description": [
+            "The parameters [ dropout_p ] are added to the method _construct_fc_layer from the module torchreid/models/resnetmid.py in class ResNet"
+        ],
+        "Commit": "ee5fb676bf51610f8b28b92cc50976ba884239b1",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/data_manager.py/ImageDataManager",
+        "Original Line": 40,
+        "Updated Line": 40,
+        "Description": [
+            "The parameters [ market1501_500k ] are added to the method __init__ from the module torchreid/data_manager.py in class ImageDataManager"
+        ],
+        "Commit": "ef2bacbc0093ddf6e0c4cb3e747f7ccd9069afbb",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "torchreid/datasets/market1501.py/Market1501",
+        "Original Line": 36,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ market1501_500k ] are added to the method __init__ from the module torchreid/datasets/market1501.py in class Market1501"
+        ],
+        "Commit": "ef2bacbc0093ddf6e0c4cb3e747f7ccd9069afbb",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "evaluate",
+        "Updated": "evaluate",
+        "Location": "eval_metrics.py",
+        "Original Line": 5,
+        "Updated Line": 5,
+        "Description": [
+            "The parameters [ max_rank ] are added to the method evaluate from the module eval_metrics.py"
+        ],
+        "Commit": "ef99dd489a33c750b95f08f8d65a1e1439d7b441",
+        "GPT4 Component Graph": "Evaluation"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "train",
+        "Updated": "train",
+        "Location": "torchreid/engine/image/softmax.py/ImageSoftmaxEngine",
+        "Original Line": 75,
+        "Updated Line": 75,
+        "Description": [
+            "The parameters [ fixbase_epoch ] are added to the method train from the module torchreid/engine/image/softmax.py in class ImageSoftmaxEngine"
+        ],
+        "Commit": "f57d88decf9ec9e5ed8d02420f10e1f879089135",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "train",
+        "Updated": "train",
+        "Location": "torchreid/engine/image/triplet.py/ImageTripletEngine",
+        "Original Line": 86,
+        "Updated Line": 86,
+        "Description": [
+            "The parameters [ fixbase_epoch ] are added to the method train from the module torchreid/engine/image/triplet.py in class ImageTripletEngine"
+        ],
+        "Commit": "f57d88decf9ec9e5ed8d02420f10e1f879089135",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "adjust_learning_rate",
+        "Updated": "adjust_learning_rate",
+        "Location": "torchreid/utils/torchtools.py",
+        "Original Line": 8,
+        "Updated Line": 8,
+        "Description": [
+            "The parameters [ linear_decay final_lr max_epoch ] are added to the method adjust_learning_rate from the module torchreid/utils/torchtools.py"
+        ],
+        "Commit": "fdc451c0e5354c7b03eac87646a47be7c1f640b7",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "make_art.py/Worker",
+        "Original Line": 69,
+        "Updated Line": 71,
+        "Description": [
+            "The parameters [ upscl_keep ] are added to the method __init__ from the module make_art.py in class Worker"
+        ],
+        "Commit": "20372a68c9eadd26b4c7bb9453ed1b4c922aa9bf",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "make_art.py/Worker",
+        "Original Line": 66,
+        "Updated Line": 69,
+        "Description": [
+            "The parameters [ do_upscale upscl_amt upscl_face ] are added to the method __init__ from the module make_art.py in class Worker"
+        ],
+        "Commit": "7f3f2805406d0a3de2588371634d23261ff8b8d0",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

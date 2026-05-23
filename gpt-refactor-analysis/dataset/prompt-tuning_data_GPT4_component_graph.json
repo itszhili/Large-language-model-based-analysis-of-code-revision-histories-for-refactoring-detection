@@ -1,0 +1,32 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "mrqa",
+        "Updated": "mrqa",
+        "Location": "prompt_tuning/data/preprocessors.py",
+        "Original Line": 94,
+        "Updated Line": 94,
+        "Description": [
+            "The parameters [ task_name ] are added to the method mrqa from the module prompt_tuning/data/preprocessors.py"
+        ],
+        "Commit": "6e6fc5d8c623708b9f8386fbb4de9a51a73457f7",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_preprocess_wikilingua",
+        "Updated": "test_preprocess_text_generation",
+        "Location": "prompt_tuning/data/preprocessors_test.py/PreprocessorsTest",
+        "Original Line": 100,
+        "Updated Line": 100,
+        "Description": [
+            "The method test_preprocess_wikilingua from the module prompt_tuning/data/preprocessors_test.py in class PreprocessorsTest is renamed to test_preprocess_text_generation"
+        ],
+        "Commit": "a7d507fbb01c0a5d24c9726bd61dbf966024c0d0",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

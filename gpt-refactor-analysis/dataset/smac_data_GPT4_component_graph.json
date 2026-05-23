@@ -1,0 +1,47 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "reset",
+        "Updated": "reset",
+        "Location": "smac/env/pettingzoo/StarCraft2PZEnv.py/smac_parallel_env",
+        "Original Line": 119,
+        "Updated Line": 119,
+        "Description": [
+            "The parameters [ seed ] are added to the method reset from the module smac/env/pettingzoo/StarCraft2PZEnv.py in class smac_parallel_env"
+        ],
+        "Commit": "4e2334ecc69d3413ee28a7f4c69843f1fa0bcd9b",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "kill_all_units",
+        "Updated": "_kill_all_units",
+        "Location": "smac/env/starcraft2/starcraft2.py/StarCraft2Env",
+        "Original Line": 1092,
+        "Updated Line": 1099,
+        "Description": [
+            "The method kill_all_units from the module smac/env/starcraft2/starcraft2.py in class StarCraft2Env is renamed to _kill_all_units"
+        ],
+        "Commit": "91761f15c807be20f0a7f7968045e4f495ad8b16",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "reset",
+        "Updated": "reset",
+        "Location": "smac/env/pettingzoo/StarCraft2PZEnv.py/smac_parallel_env",
+        "Original Line": 119,
+        "Updated Line": 119,
+        "Description": [
+            "The parameters [ options ] are added to the method reset from the module smac/env/pettingzoo/StarCraft2PZEnv.py in class smac_parallel_env"
+        ],
+        "Commit": "c8d0c54266e5df5f485dab68ac3e2a0c3e134bc5",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

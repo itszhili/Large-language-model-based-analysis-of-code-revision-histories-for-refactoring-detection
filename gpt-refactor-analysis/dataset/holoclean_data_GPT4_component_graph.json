@@ -1,0 +1,209 @@
+[
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "TestHolocleanRepair",
+        "Updated": "TestHoloCleanRepair",
+        "Location": "tests/test_holoclean_repair.py",
+        "Description": " class TestHolocleanRepair was renamed to class TestHoloCleanRepair ",
+        "Commit": "1dbb18148378d54b215e1acf969e9552416b29bb",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "get_attr_census",
+        "Updated": "get_attr_nypd",
+        "Location": "batch_tests/hc.py",
+        "Original Line": 57,
+        "Updated Line": 53,
+        "Description": [
+            "The method get_attr_census from the module batch_tests/hc.py is renamed to get_attr_nypd"
+        ],
+        "Commit": "2de004c47c6e59f81528267ba8957352b7d52442",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "domain/estimators/naive_bayes.py/NaiveBayes",
+        "Original Line": 12,
+        "Updated Line": 13,
+        "Description": [
+            "The parameters [ corr_strength ] of the method __init__ from the module domain/estimators/naive_bayes.py in class NaiveBayes are changed/renamed to [cor_strength]"
+        ],
+        "Commit": "3a43dd2c639a1856e312df2e52d6203e05594604",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "domain/estimator.py/Estimator",
+        "Original Line": 12,
+        "Updated Line": 12,
+        "Description": [
+            "The parameters [ env ] are added to the method __init__ from the module domain/estimator.py in class Estimator"
+        ],
+        "Commit": "53ea5a97509ac781ebb5706f28adb52d73637600",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "ConstraintFeat",
+        "Updated": "ConstraintFeaturizer",
+        "Location": "repair/featurize/constraintfeat.py",
+        "Description": " class ConstraintFeat was renamed to class ConstraintFeaturizer ",
+        "Commit": "53ea5a97509ac781ebb5706f28adb52d73637600",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_update_featurizers",
+        "Updated": "_update_featurizers",
+        "Location": "domain/estimators/recurrent_logistic.py/RecurrentLogistic",
+        "Original Line": 56,
+        "Updated Line": 57,
+        "Description": [
+            "The parameters [ reuse_stats ] are added to the method _update_featurizers from the module domain/estimators/recurrent_logistic.py in class RecurrentLogistic"
+        ],
+        "Commit": "73022da099920e4ca64684412f4ebf8b6734ee65",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "domain/estimators/recurrent_logistic.py/CooccurFeaturizer",
+        "Original Line": 260,
+        "Updated Line": 279,
+        "Description": [
+            "The parameters [ freq cooccur_freq ] are added to the method __init__ from the module domain/estimators/recurrent_logistic.py in class CooccurFeaturizer"
+        ],
+        "Commit": "73022da099920e4ca64684412f4ebf8b6734ee65",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "domain/estimators/recurrent_logistic.py/CooccurAttrFeaturizer",
+        "Original Line": 342,
+        "Updated Line": 381,
+        "Description": [
+            "The parameters [ freq cooccur_freq ] are added to the method __init__ from the module domain/estimators/recurrent_logistic.py in class CooccurAttrFeaturizer"
+        ],
+        "Commit": "73022da099920e4ca64684412f4ebf8b6734ee65",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "domain/domain.py/DomainEngine",
+        "Original Line": 14,
+        "Updated Line": 14,
+        "Description": [
+            "The parameters [ sampling_prob ] of the method __init__ from the module domain/domain.py in class DomainEngine is/are removed"
+        ],
+        "Commit": "730c9965b79a86d0a4545216e05087dd74cc01f2",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "domain/domain.py/DomainEngine",
+        "Original Line": 14,
+        "Updated Line": 14,
+        "Description": [
+            "The parameters [ cor_strength ] of the method __init__ from the module domain/domain.py in class DomainEngine is/are removed"
+        ],
+        "Commit": "b8cc4329d5b1d1d8f73ea0f5bd7894b847531dee",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_hospital",
+        "Updated": "test_hospital_with_init",
+        "Location": "tests/test_holoclean_repair.py",
+        "Original Line": 8,
+        "Updated Line": 10,
+        "Description": [
+            "The method test_hospital from the module tests/test_holoclean_repair.py is renamed to test_hospital_with_init"
+        ],
+        "Commit": "cfcfe4aab780833c3d279b5b74263d90bc21b349",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "gen_binary_queries",
+        "Updated": "_orig_cnf",
+        "Location": "repair/featurize/constraintfeat.py/ConstraintFeat",
+        "Original Method Line": "(124,133)",
+        "Extracted/Inlined Method Line": 162,
+        "Extracted/Inlined Lines": [
+            128.0,
+            129.0
+        ],
+        "Description": " The method _orig_cnf from the module repair/featurize/constraintfeat.py in class ConstraintFeat is extracted from method gen_binary_queries from the module repair/featurize/constraintfeat.py in class ConstraintFeat ",
+        "Commit": "e9c32a29bbf1fd9ddb4c16428b1da343ddec1f54",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "InitAttFeaturizer",
+        "Updated": "InitAttrFeaturizer",
+        "Location": "repair/featurize/initattfeat.py",
+        "Description": " class InitAttFeaturizer was renamed to class InitAttrFeaturizer ",
+        "Commit": "ee241174acee59c89eb6048b87ec06d2bea326c0",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "setup_featurizer",
+        "Updated": "setup_featurizer",
+        "Location": "repair/featurize/featurizer.py/Featurizer",
+        "Original Line": 14,
+        "Updated Line": 14,
+        "Description": [
+            "The parameters [ batch_size ] are added to the method setup_featurizer from the module repair/featurize/featurizer.py in class Featurizer"
+        ],
+        "Commit": "f96c9da665f26f483dea1ddb3a5686f4d5c3a13d",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "get_attr_nypd",
+        "Updated": "get_attr_census",
+        "Location": "batch_tests/batch_run_scripts/hc.py",
+        "Original Line": 53,
+        "Updated Line": 57,
+        "Description": [
+            "The method get_attr_nypd from the module batch_tests/batch_run_scripts/hc.py is renamed to get_attr_census"
+        ],
+        "Commit": "fd3d4ad81584df1960204d77c22bb3eb5d4a1f55",
+        "GPT4 Component Graph": "Data Processing"
+    }
+]

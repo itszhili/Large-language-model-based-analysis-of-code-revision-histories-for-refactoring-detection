@@ -1,0 +1,118 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "query_and_get_answer",
+        "Updated": "query_and_get_answer",
+        "Location": "backend/src/SearchGPTService.py/SearchGPTService",
+        "Original Line": 16,
+        "Updated Line": 17,
+        "Description": [
+            "The parameters [ load_from_cache ] are added to the method query_and_get_answer from the module backend/src/SearchGPTService.py in class SearchGPTService"
+        ],
+        "Commit": "7e46c4ad09ad053a6fca0f2deb6c29ed78cf0cd3",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "search_related_source",
+        "Updated": "search_related_source",
+        "Location": "src/SemanticSearchService.py/BatchOpenAISemanticSearchService",
+        "Original Line": 188,
+        "Updated Line": 188,
+        "Description": [
+            "The parameters [ self ] are added to the method search_related_source from the module src/SemanticSearchService.py in class BatchOpenAISemanticSearchService"
+        ],
+        "Commit": "842058328d3259e4706e2259f8136c453feed061",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "query_and_get_answer",
+        "Updated": "_prompt",
+        "Location": "backend/src/SearchGPTService.py/SearchGPTService",
+        "Original Method Line": "(16,49)",
+        "Extracted/Inlined Method Line": 31,
+        "Extracted/Inlined Lines": [
+            21.0,
+            22.0,
+            23.0,
+            24.0,
+            25.0,
+            26.0,
+            27.0,
+            28.0,
+            29.0,
+            30.0,
+            31.0,
+            32.0,
+            34.0,
+            35.0,
+            36.0,
+            37.0
+        ],
+        "Description": " The method _prompt from the module backend/src/SearchGPTService.py in class SearchGPTService is extracted from method query_and_get_answer from the module backend/src/SearchGPTService.py in class SearchGPTService ",
+        "Commit": "b5fa04c79f344824d035d82e9c4edb2467e51530",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "backend/src/SemanticSearchService.py/SemanticSearchService",
+        "Original Line": 17,
+        "Updated Line": 17,
+        "Description": [
+            "The parameters [ config ] are added to the method __init__ from the module backend/src/SemanticSearchService.py in class SemanticSearchService"
+        ],
+        "Commit": "e4bb9e15ed1eb80ed1ea913dcf5ef2b78f9a61d0",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "backend/src/SemanticSearchService.py/PyTerrierService",
+        "Original Line": 47,
+        "Updated Line": 48,
+        "Description": [
+            "The parameters [ config ] are added to the method __init__ from the module backend/src/SemanticSearchService.py in class PyTerrierService"
+        ],
+        "Commit": "e4bb9e15ed1eb80ed1ea913dcf5ef2b78f9a61d0",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "backend/src/SemanticSearchService.py/LangChainFAISSService",
+        "Original Line": 102,
+        "Updated Line": 104,
+        "Description": [
+            "The parameters [ config ] are added to the method __init__ from the module backend/src/SemanticSearchService.py in class LangChainFAISSService"
+        ],
+        "Commit": "e4bb9e15ed1eb80ed1ea913dcf5ef2b78f9a61d0",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "post_process_gpt_input_text_df",
+        "Updated": "post_process_gpt_input_text_df",
+        "Old Location": "src/Util.py",
+        "New Location": "src/SemanticSearchService.py/BatchOpenAISemanticSearchService",
+        "Old Method Line": 25,
+        "New Method Line": 204,
+        "Description": " method post_process_gpt_input_text_df from the module src/Util.py was moved to class BatchOpenAISemanticSearchService of module src/SemanticSearchService.py ",
+        "Commit": "f33f48ce48a00c95f113475b2a355aa0b675d89f",
+        "GPT4 Component Graph": "Data Processing"
+    }
+]

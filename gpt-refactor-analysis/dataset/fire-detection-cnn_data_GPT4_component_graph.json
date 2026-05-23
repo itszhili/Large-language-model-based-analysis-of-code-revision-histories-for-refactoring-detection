@@ -1,0 +1,47 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "construct_firenet",
+        "Updated": "construct_firenet",
+        "Location": "firenet.py",
+        "Original Line": 26,
+        "Updated Line": 26,
+        "Description": [
+            "The parameters [ training ] are added to the method construct_firenet from the module firenet.py"
+        ],
+        "Commit": "787b0f4f8ddcdc6ae225592b9155374357ddbcdc",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "convert_to_tflite",
+        "Updated": "convert_to_tflite",
+        "Location": "converter/converter.py",
+        "Original Line": 106,
+        "Updated Line": 106,
+        "Description": [
+            "The parameters [ input_tensor_dim_x input_tensor_dim_y input_tensor_channels ] are added to the method convert_to_tflite from the module converter/converter.py"
+        ],
+        "Commit": "aac35e4187a802d3635f63becb695bcef4e0b684",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "construct_inceptionv1onfire",
+        "Updated": "construct_inceptionv1onfire",
+        "Location": "inceptionV1-OnFire.py",
+        "Original Line": 27,
+        "Updated Line": 27,
+        "Description": [
+            "The parameters [ training ] are added to the method construct_inceptionv1onfire from the module inceptionV1-OnFire.py"
+        ],
+        "Commit": "afaf68c4a101588011646169a3c39a3d09798071",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

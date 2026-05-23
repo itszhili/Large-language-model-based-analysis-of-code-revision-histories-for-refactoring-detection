@@ -1,0 +1,1708 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/perception/detection/traffic_light.py/TrafficLight",
+        "Original Line": 51,
+        "Updated Line": 57,
+        "Description": [
+            "The parameters [ confidence bounding_box ] are added to the method __init__ from the module pylot/perception/detection/traffic_light.py in class TrafficLight"
+        ],
+        "Commit": "048706e2742f57174de6ff7edc2e2f113f040d27",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/loggers/eval_metric_logger_operator.py/EvalMetricLoggerOperator",
+        "Original Line": 23,
+        "Updated Line": 29,
+        "Description": [
+            "The parameters [ pose_stream obstacle_stream ] are added to the method __init__ from the module pylot/loggers/eval_metric_logger_operator.py in class EvalMetricLoggerOperator"
+        ],
+        "Commit": "0603e26faeeb21496eb6db3cbeddf2ae8751d5b6",
+        "GPT4 Component Graph": "Monitoring & Logging"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "connect",
+        "Updated": "connect",
+        "Location": "pylot/loggers/eval_metric_logger_operator.py/EvalMetricLoggerOperator",
+        "Original Line": 50,
+        "Updated Line": 61,
+        "Description": [
+            "The parameters [ pose_stream obstacle_stream ] are added to the method connect from the module pylot/loggers/eval_metric_logger_operator.py in class EvalMetricLoggerOperator"
+        ],
+        "Commit": "0603e26faeeb21496eb6db3cbeddf2ae8751d5b6",
+        "GPT4 Component Graph": "Monitoring & Logging"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "add_eval_metric_logging",
+        "Updated": "add_eval_metric_logging",
+        "Location": "pylot/operator_creator.py",
+        "Original Line": 727,
+        "Updated Line": 727,
+        "Description": [
+            "The parameters [ pose_stream obstacle_stream ] are added to the method add_eval_metric_logging from the module pylot/operator_creator.py"
+        ],
+        "Commit": "0603e26faeeb21496eb6db3cbeddf2ae8751d5b6",
+        "GPT4 Component Graph": "Monitoring & Logging"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "add_perfect_perception_component",
+        "Updated": "add_perfect_perception_component",
+        "Location": "pylot.py",
+        "Original Line": 240,
+        "Updated Line": 240,
+        "Description": [
+            "The parameters [ lane_detection_stream_name ] are added to the method add_perfect_perception_component from the module pylot.py"
+        ],
+        "Commit": "08bac1fcbf119ef3bc68420fbef6200541a09194",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "add_tracking_evaluation",
+        "Updated": "add_tracking_evaluation",
+        "Location": "pylot/operator_creator.py",
+        "Original Line": 269,
+        "Updated Line": 269,
+        "Description": [
+            "The parameters [ matching_policy ] are added to the method add_tracking_evaluation from the module pylot/operator_creator.py"
+        ],
+        "Commit": "0bc7ee2d9410f40dd6e8c4c9f3f0d364621adb30",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/perception/tracking/tracking_eval_operator.py/TrackingEvalOperator",
+        "Original Line": 24,
+        "Updated Line": 24,
+        "Description": [
+            "The parameters [ matching_policy ] are added to the method __init__ from the module pylot/perception/tracking/tracking_eval_operator.py in class TrackingEvalOperator"
+        ],
+        "Commit": "0bc7ee2d9410f40dd6e8c4c9f3f0d364621adb30",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/loggers/bounding_box_logger_operator.py/BoundingBoxLoggerOperator",
+        "Original Line": 23,
+        "Updated Line": 23,
+        "Description": [
+            "The parameters [ file_base_name ] are added to the method __init__ from the module pylot/loggers/bounding_box_logger_operator.py in class BoundingBoxLoggerOperator"
+        ],
+        "Commit": "1518c0a14ff1dc66a3c2cfd38862ca468084ec5c",
+        "GPT4 Component Graph": "Monitoring & Logging"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "add_bounding_box_logging",
+        "Updated": "add_bounding_box_logging",
+        "Location": "pylot/operator_creator.py",
+        "Original Line": 664,
+        "Updated Line": 664,
+        "Description": [
+            "The parameters [ file_base_name ] are added to the method add_bounding_box_logging from the module pylot/operator_creator.py"
+        ],
+        "Commit": "1518c0a14ff1dc66a3c2cfd38862ca468084ec5c",
+        "GPT4 Component Graph": "Monitoring & Logging"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/perception/detection/lane.py/Lane",
+        "Original Line": 2,
+        "Updated Line": 10,
+        "Description": [
+            "The parameters [ id ] are added to the method __init__ from the module pylot/perception/detection/lane.py in class Lane"
+        ],
+        "Commit": "18c7dae70adf26cc5cef1ce39f942e8e12a964c5",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "add_waypoint_planning",
+        "Updated": "add_planning",
+        "Location": "pylot/operator_creator.py",
+        "Original Line": 444,
+        "Updated Line": 377,
+        "Description": [
+            "The method add_waypoint_planning from the module pylot/operator_creator.py is renamed to add_planning"
+        ],
+        "Commit": "18fd57d1d4255ed8cc18d6104a3f76b7fc672aec",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/simulation/messages.py/FrameMessage",
+        "Original Line": 5,
+        "Updated Line": 13,
+        "Description": [
+            "The parameters [ stream_name ] of the method __init__ from the module pylot/simulation/messages.py in class FrameMessage is/are removed"
+        ],
+        "Commit": "1ab9623b3489a11f5296053757d12c2be78c3916",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/simulation/messages.py/DepthFrameMessage",
+        "Original Line": 22,
+        "Updated Line": 45,
+        "Description": [
+            "The parameters [ stream_name ] of the method __init__ from the module pylot/simulation/messages.py in class DepthFrameMessage is/are removed"
+        ],
+        "Commit": "1ab9623b3489a11f5296053757d12c2be78c3916",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/simulation/messages.py/PointCloudMessage",
+        "Original Line": 41,
+        "Updated Line": 73,
+        "Description": [
+            "The parameters [ stream_name ] of the method __init__ from the module pylot/simulation/messages.py in class PointCloudMessage is/are removed"
+        ],
+        "Commit": "1ab9623b3489a11f5296053757d12c2be78c3916",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/simulation/messages.py/GroundVehiclesMessage",
+        "Original Line": 56,
+        "Updated Line": 96,
+        "Description": [
+            "The parameters [ stream_name ] of the method __init__ from the module pylot/simulation/messages.py in class GroundVehiclesMessage is/are removed"
+        ],
+        "Commit": "1ab9623b3489a11f5296053757d12c2be78c3916",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/simulation/messages.py/GroundPedestriansMessage",
+        "Original Line": 66,
+        "Updated Line": 111,
+        "Description": [
+            "The parameters [ stream_name ] of the method __init__ from the module pylot/simulation/messages.py in class GroundPedestriansMessage is/are removed"
+        ],
+        "Commit": "1ab9623b3489a11f5296053757d12c2be78c3916",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/simulation/messages.py/GroundTrafficLightsMessage",
+        "Original Line": 77,
+        "Updated Line": 127,
+        "Description": [
+            "The parameters [ stream_name ] of the method __init__ from the module pylot/simulation/messages.py in class GroundTrafficLightsMessage is/are removed"
+        ],
+        "Commit": "1ab9623b3489a11f5296053757d12c2be78c3916",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/simulation/messages.py/GroundSpeedSignsMessage",
+        "Original Line": 88,
+        "Updated Line": 143,
+        "Description": [
+            "The parameters [ stream_name ] of the method __init__ from the module pylot/simulation/messages.py in class GroundSpeedSignsMessage is/are removed"
+        ],
+        "Commit": "1ab9623b3489a11f5296053757d12c2be78c3916",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "get_closest_point_in_point_cloud",
+        "Updated": "get_closest_point_in_point_cloud",
+        "Location": "pylot/perception/point_cloud.py/PointCloud",
+        "Original Line": 109,
+        "Updated Line": 113,
+        "Description": [
+            "The parameters [ normalized ] are added to the method get_closest_point_in_point_cloud from the module pylot/perception/point_cloud.py in class PointCloud"
+        ],
+        "Commit": "20e1151b334a693da070cbc4e86e2176f0a98cf6",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Inline Method",
+        "Original": "setup",
+        "Updated": "__init_attributes",
+        "Location": "pylot/simulation/challenge/ERDOSAgent.py/ERDOSAgent",
+        "Original Method Line": "(65,41)",
+        "Extracted/Inlined Method Line": 41,
+        "Extracted/Inlined Lines": [
+            43.0,
+            44.0,
+            46.0,
+            47.0,
+            48.0,
+            50.0,
+            53.0,
+            55.0,
+            56.0,
+            59.0,
+            60.0,
+            61.0,
+            62.0,
+            63.0,
+            64.0
+        ],
+        "Description": " The method __init_attributes from the module pylot/simulation/challenge/ERDOSAgent.py in class ERDOSAgent is inlined into method setup from the module pylot/simulation/challenge/ERDOSAgent.py in class ERDOSAgent ",
+        "Commit": "30d6e878acad6d5589c2b01aeba6279e24daca9f",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Inline Method",
+        "Original": "setup",
+        "Updated": "__init_attributes",
+        "Location": "pylot/simulation/challenge/ERDOSTrack4Agent.py/ERDOSTrack4Agent",
+        "Original Method Line": "(40,23)",
+        "Extracted/Inlined Method Line": 23,
+        "Extracted/Inlined Lines": [
+            28.0,
+            29.0,
+            31.0,
+            32.0,
+            34.0,
+            36.0,
+            37.0,
+            39.0,
+            40.0,
+            41.0,
+            42.0
+        ],
+        "Description": " The method __init_attributes from the module pylot/simulation/challenge/ERDOSTrack4Agent.py in class ERDOSTrack4Agent is inlined into method setup from the module pylot/simulation/challenge/ERDOSTrack4Agent.py in class ERDOSTrack4Agent ",
+        "Commit": "30d6e878acad6d5589c2b01aeba6279e24daca9f",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/planning/messages.py/WaypointsMessage",
+        "Original Line": 14,
+        "Updated Line": 14,
+        "Description": [
+            "The parameters [ agent_state ] are added to the method __init__ from the module pylot/planning/messages.py in class WaypointsMessage"
+        ],
+        "Commit": "33940cd81d6f1ffc31ee334fd9ad8b2d6b7cb37f",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/perception/detection/utils.py/DetectedObstacle",
+        "Original Line": 276,
+        "Updated Line": 276,
+        "Description": [
+            "The parameters [ location ] of the method __init__ from the module pylot/perception/detection/utils.py in class DetectedObstacle are changed/renamed to [transform]"
+        ],
+        "Commit": "340a32e16bd425d5e9e9d69d2fff24122412ee6b",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Change/Rename Parameter"
+        ],
+        "Original": "set_location",
+        "Updated": "set_transform",
+        "Location": "pylot/perception/detection/utils.py/DetectedObstacle",
+        "Original Line": 288,
+        "Updated Line": 288,
+        "Description": [
+            "The method set_location from the module pylot/perception/detection/utils.py in class DetectedObstacle is renamed to set_transform",
+            "The parameters [ location ] of the method set_location from the module pylot/perception/detection/utils.py in class DetectedObstacle are changed/renamed to [transform]"
+        ],
+        "Commit": "340a32e16bd425d5e9e9d69d2fff24122412ee6b",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/perception/detection/utils.py/DetectedSpeedLimit",
+        "Original Line": 356,
+        "Updated Line": 356,
+        "Description": [
+            "The parameters [ location ] of the method __init__ from the module pylot/perception/detection/utils.py in class DetectedSpeedLimit are changed/renamed to [transform]"
+        ],
+        "Commit": "340a32e16bd425d5e9e9d69d2fff24122412ee6b",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "add_camera",
+        "Updated": "add_camera",
+        "Location": "scripts/check_3d_2d_conversions.py",
+        "Original Line": 171,
+        "Updated Line": 148,
+        "Description": [
+            "The parameters [ world ] are added to the method add_camera from the module scripts/check_3d_2d_conversions.py"
+        ],
+        "Commit": "3560bcfc55858b20387fa253d974c6ba133822bc",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "add_depth_camera",
+        "Updated": "add_depth_camera",
+        "Location": "scripts/check_3d_2d_conversions.py",
+        "Original Line": 160,
+        "Updated Line": 137,
+        "Description": [
+            "The parameters [ world ] are added to the method add_depth_camera from the module scripts/check_3d_2d_conversions.py"
+        ],
+        "Commit": "3560bcfc55858b20387fa253d974c6ba133822bc",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "add_lidar",
+        "Updated": "add_lidar",
+        "Location": "scripts/check_3d_2d_conversions.py",
+        "Original Line": 145,
+        "Updated Line": 122,
+        "Description": [
+            "The parameters [ world ] are added to the method add_lidar from the module scripts/check_3d_2d_conversions.py"
+        ],
+        "Commit": "3560bcfc55858b20387fa253d974c6ba133822bc",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "add_vehicle",
+        "Updated": "add_vehicle",
+        "Location": "scripts/check_3d_2d_conversions.py",
+        "Original Line": 182,
+        "Updated Line": 159,
+        "Description": [
+            "The parameters [ world ] are added to the method add_vehicle from the module scripts/check_3d_2d_conversions.py"
+        ],
+        "Commit": "3560bcfc55858b20387fa253d974c6ba133822bc",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "inverse_transform",
+        "Updated": "inverse_transform_points",
+        "Location": "pylot/simulation/utils.py/Transform",
+        "Original Line": 476,
+        "Updated Line": 498,
+        "Description": [
+            "The method inverse_transform from the module pylot/simulation/utils.py in class Transform is renamed to inverse_transform_points",
+            "The parameters [ points ] are added to the method inverse_transform from the module pylot/simulation/utils.py in class Transform"
+        ],
+        "Commit": "393afba2f7069bf26a2496313740d0f4dac1820c",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "transform_points",
+        "Updated": "__transform",
+        "Location": "pylot/simulation/utils.py/Transform",
+        "Original Method Line": "(445,481)",
+        "Extracted/Inlined Method Line": 449,
+        "Extracted/Inlined Lines": [
+            459.0,
+            463.0,
+            466.0,
+            469.0,
+            472.0,
+            474.0
+        ],
+        "Description": " The method __transform from the module pylot/simulation/utils.py in class Transform is extracted from method transform_points from the module pylot/simulation/utils.py in class Transform ",
+        "Commit": "393afba2f7069bf26a2496313740d0f4dac1820c",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/perception/base_perception_eval_operator.py/BasePerceptionEvalOperator",
+        "Original Line": 17,
+        "Updated Line": 19,
+        "Description": [
+            "The parameters [ scoring_module ] are added to the method __init__ from the module pylot/perception/base_perception_eval_operator.py in class BasePerceptionEvalOperator"
+        ],
+        "Commit": "3f6b09acef092f05a8451c2e252c8c0c4a548fbd",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_as_numpy_array",
+        "Updated": "test_location_as_numpy_array",
+        "Location": "tests/test_transforms.py",
+        "Original Line": 90,
+        "Updated Line": 90,
+        "Description": [
+            "The method test_as_numpy_array from the module tests/test_transforms.py is renamed to test_location_as_numpy_array"
+        ],
+        "Commit": "3fdc62f81553e10a40b5f58d7a377655d28098ef",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/control/pid.py/PIDLongitudinalController",
+        "Original Line": 18,
+        "Updated Line": 19,
+        "Description": [
+            "The parameters [ use_real_time ] are added to the method __init__ from the module pylot/control/pid.py in class PIDLongitudinalController"
+        ],
+        "Commit": "438a81d1d0ed9dc94fb0f80feb158ee61a963c13",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/control/pid.py/PIDLateralController",
+        "Original Line": 60,
+        "Updated Line": 74,
+        "Description": [
+            "The parameters [ use_real_time ] are added to the method __init__ from the module pylot/control/pid.py in class PIDLateralController"
+        ],
+        "Commit": "438a81d1d0ed9dc94fb0f80feb158ee61a963c13",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "add_mpc_agent",
+        "Updated": "add_mpc",
+        "Location": "pylot/operator_creator.py",
+        "Original Line": 643,
+        "Updated Line": 643,
+        "Description": [
+            "The method add_mpc_agent from the module pylot/operator_creator.py is renamed to add_mpc"
+        ],
+        "Commit": "438a81d1d0ed9dc94fb0f80feb158ee61a963c13",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/perception/tracking/da_siam_rpn_tracker.py/MultiObjectDaSiamRPNTracker",
+        "Original Line": 62,
+        "Updated Line": 64,
+        "Description": [
+            "The parameters [ logger ] are added to the method __init__ from the module pylot/perception/tracking/da_siam_rpn_tracker.py in class MultiObjectDaSiamRPNTracker"
+        ],
+        "Commit": "4e752e68cc120212b7ba328a8caa04f42b899428",
+        "GPT4 Component Graph": "Monitoring & Logging"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/perception/tracking/sort_tracker.py/MultiObjectSORTTracker",
+        "Original Line": 10,
+        "Updated Line": 10,
+        "Description": [
+            "The parameters [ logger ] are added to the method __init__ from the module pylot/perception/tracking/sort_tracker.py in class MultiObjectSORTTracker"
+        ],
+        "Commit": "4e752e68cc120212b7ba328a8caa04f42b899428",
+        "GPT4 Component Graph": "Monitoring & Logging"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "get_intrinsic",
+        "Updated": "get_intrinsic_matrix",
+        "Location": "pylot/simulation/sensor_setup.py/CameraSetup",
+        "Original Line": 102,
+        "Updated Line": 102,
+        "Description": [
+            "The method get_intrinsic from the module pylot/simulation/sensor_setup.py in class CameraSetup is renamed to get_intrinsic_matrix"
+        ],
+        "Commit": "51592ba725132a904aa1e27a1b07b75380de58f5",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "from_carla_point_cloud",
+        "Updated": "from_carla_point_cloud",
+        "Location": "pylot/perception/point_cloud.py/PointCloud",
+        "Original Line": 30,
+        "Updated Line": 31,
+        "Description": [
+            "The parameters [ transform ] of the method from_carla_point_cloud from the module pylot/perception/point_cloud.py in class PointCloud are changed/renamed to [lidar_setup]"
+        ],
+        "Commit": "598b494739f778e6341f430f6902a89f12006402",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/map/hd_map.py/HDMap",
+        "Original Line": 7,
+        "Updated Line": 11,
+        "Description": [
+            "The parameters [ log_file_name ] are added to the method __init__ from the module pylot/map/hd_map.py in class HDMap"
+        ],
+        "Commit": "5d33a6bef8326abed90c82626f1984b7af6cda66",
+        "GPT4 Component Graph": "Monitoring & Logging"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "add_grasshopper3_camera",
+        "Updated": "add_grasshopper3_camera",
+        "Location": "lincoln.py",
+        "Original Line": 22,
+        "Updated Line": 22,
+        "Description": [
+            "The parameters [ topic_name ] are added to the method add_grasshopper3_camera from the module lincoln.py"
+        ],
+        "Commit": "6af55400bdb0ca4f251af7c00e8889b1b4b74200",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "add_velodyne_lidar",
+        "Updated": "add_velodyne_lidar",
+        "Location": "lincoln.py",
+        "Original Line": 35,
+        "Updated Line": 39,
+        "Description": [
+            "The parameters [ topic_name ] are added to the method add_velodyne_lidar from the module lincoln.py"
+        ],
+        "Commit": "6af55400bdb0ca4f251af7c00e8889b1b4b74200",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "add_perfect_planning",
+        "Updated": "add_avoidance_agent",
+        "Location": "scenario_runner.py",
+        "Original Line": 22,
+        "Updated Line": 23,
+        "Description": [
+            "The method add_perfect_planning from the module scenario_runner.py is renamed to add_avoidance_agent"
+        ],
+        "Commit": "6b5a87a5ad12fced39790945d354ca240c41eb4d",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/map/lane_map.py/LaneMap",
+        "Original Line": 6,
+        "Updated Line": 14,
+        "Description": [
+            "The parameters [ log_file ] are added to the method __init__ from the module pylot/map/lane_map.py in class LaneMap"
+        ],
+        "Commit": "745a251e67d8fd0e0d898a2bc2c0d33c1fc3a766",
+        "GPT4 Component Graph": "Monitoring & Logging"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "get_freenet",
+        "Updated": "is_at_stop",
+        "Location": "pylot/map/hd_map.py/HDMap",
+        "Original Line": 47,
+        "Updated Line": 60,
+        "Description": [
+            "The method get_freenet from the module pylot/map/hd_map.py in class HDMap is renamed to is_at_stop"
+        ],
+        "Commit": "76e3e39e61d04fa30f8f4b7b759b4e917a52c7e2",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "is_traffic_light_visible",
+        "Updated": "is_traffic_light_visible",
+        "Old Location": "pylot/control/utils.py",
+        "New Location": "pylot/control/ground_utils.py",
+        "Old Method Line": 71,
+        "New Method Line": 73,
+        "Description": " method is_traffic_light_visible from the module pylot/control/utils.py was moved to module pylot/control/ground_utils.py ",
+        "Commit": "76e3e39e61d04fa30f8f4b7b759b4e917a52c7e2",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/planning/frenet_optimal_trajectory/fot_planning_operator.py/FOTPlanningOperator",
+        "Original Line": 34,
+        "Updated Line": 34,
+        "Description": [
+            "The parameters [ name ] of the method __init__ from the module pylot/planning/frenet_optimal_trajectory/fot_planning_operator.py in class FOTPlanningOperator is/are removed"
+        ],
+        "Commit": "7a455c342f6e84cb1332fc89fe2b7ebe603014a2",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "create_camera_setups",
+        "Updated": "_add_depth_estimation_camera_setups",
+        "Location": "data_gatherer.py",
+        "Original Method Line": "(47,135)",
+        "Extracted/Inlined Method Line": 62,
+        "Extracted/Inlined Lines": [
+            93.0,
+            95.0,
+            96.0,
+            99.0,
+            105.0,
+            107.0,
+            109.0,
+            110.0,
+            113.0,
+            119.0
+        ],
+        "Description": " The method _add_depth_estimation_camera_setups from the module data_gatherer.py is extracted from method create_camera_setups from the module data_gatherer.py ",
+        "Commit": "7cd3290513e4fa867167c99879fe07bea1a90ba7",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "create_camera_setups",
+        "Updated": "_add_top_down_segmented_camera_setup",
+        "Location": "data_gatherer.py",
+        "Original Method Line": "(47,135)",
+        "Extracted/Inlined Method Line": 96,
+        "Extracted/Inlined Lines": [
+            80.0,
+            81.0,
+            83.0,
+            90.0,
+            121.0
+        ],
+        "Description": " The method _add_top_down_segmented_camera_setup from the module data_gatherer.py is extracted from method create_camera_setups from the module data_gatherer.py ",
+        "Commit": "7cd3290513e4fa867167c99879fe07bea1a90ba7",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "create_camera_setups",
+        "Updated": "_add_top_down_rgb_camera_setup",
+        "Location": "data_gatherer.py",
+        "Original Method Line": "(47,135)",
+        "Extracted/Inlined Method Line": 116,
+        "Extracted/Inlined Lines": [
+            80.0,
+            81.0,
+            83.0
+        ],
+        "Description": " The method _add_top_down_rgb_camera_setup from the module data_gatherer.py is extracted from method create_camera_setups from the module data_gatherer.py ",
+        "Commit": "7cd3290513e4fa867167c99879fe07bea1a90ba7",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "add_lane_detection",
+        "Updated": "add_canny_edge_lane_detection",
+        "Location": "pylot/operator_creator.py",
+        "Original Line": 132,
+        "Updated Line": 132,
+        "Description": [
+            "The method add_lane_detection from the module pylot/operator_creator.py is renamed to add_canny_edge_lane_detection"
+        ],
+        "Commit": "8017d684ae24e16043c25e5c8288e0d69cb0ba39",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "add_obstacle_location_finder",
+        "Updated": "add_obstacle_location_finder",
+        "Location": "pylot/operator_creator.py",
+        "Original Line": 60,
+        "Updated Line": 60,
+        "Description": [
+            "The parameters [ camera_stream ] of the method add_obstacle_location_finder from the module pylot/operator_creator.py is/are removed"
+        ],
+        "Commit": "864cf8f7a24bdf99ea5a31ae1e261be17081c924",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "add_obstacle_location_history",
+        "Updated": "add_obstacle_location_history",
+        "Location": "pylot/operator_creator.py",
+        "Original Line": 97,
+        "Updated Line": 95,
+        "Description": [
+            "The parameters [ camera_stream ] of the method add_obstacle_location_history from the module pylot/operator_creator.py is/are removed"
+        ],
+        "Commit": "864cf8f7a24bdf99ea5a31ae1e261be17081c924",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/perception/detection/obstacle_location_finder_operator.py/ObstacleLocationFinderOperator",
+        "Original Line": 40,
+        "Updated Line": 38,
+        "Description": [
+            "The parameters [ camera_stream ] of the method __init__ from the module pylot/perception/detection/obstacle_location_finder_operator.py in class ObstacleLocationFinderOperator is/are removed"
+        ],
+        "Commit": "864cf8f7a24bdf99ea5a31ae1e261be17081c924",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "connect",
+        "Updated": "connect",
+        "Location": "pylot/perception/detection/obstacle_location_finder_operator.py/ObstacleLocationFinderOperator",
+        "Original Line": 60,
+        "Updated Line": 56,
+        "Description": [
+            "The parameters [ camera_stream ] of the method connect from the module pylot/perception/detection/obstacle_location_finder_operator.py in class ObstacleLocationFinderOperator is/are removed"
+        ],
+        "Commit": "864cf8f7a24bdf99ea5a31ae1e261be17081c924",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/perception/tracking/obstacle_location_history_operator.py/ObstacleLocationHistoryOperator",
+        "Original Line": 12,
+        "Updated Line": 12,
+        "Description": [
+            "The parameters [ camera_stream ] of the method __init__ from the module pylot/perception/tracking/obstacle_location_history_operator.py in class ObstacleLocationHistoryOperator is/are removed"
+        ],
+        "Commit": "864cf8f7a24bdf99ea5a31ae1e261be17081c924",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "connect",
+        "Updated": "connect",
+        "Location": "pylot/perception/tracking/obstacle_location_history_operator.py/ObstacleLocationHistoryOperator",
+        "Original Line": 38,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ camera_stream ] of the method connect from the module pylot/perception/tracking/obstacle_location_history_operator.py in class ObstacleLocationHistoryOperator is/are removed"
+        ],
+        "Commit": "864cf8f7a24bdf99ea5a31ae1e261be17081c924",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "on_msg_camera_stream",
+        "Updated": "__run_model",
+        "Location": "pylot/perception/detection/detection_operator.py/DetectionOperator",
+        "Original Method Line": "(98,100)",
+        "Extracted/Inlined Method Line": 168,
+        "Extracted/Inlined Lines": [
+            117.0,
+            124.0,
+            125.0,
+            126.0,
+            127.0
+        ],
+        "Description": " The method __run_model from the module pylot/perception/detection/detection_operator.py in class DetectionOperator is extracted from method on_msg_camera_stream from the module pylot/perception/detection/detection_operator.py in class DetectionOperator ",
+        "Commit": "88c03921d11fd86c3122d0a62e80044403c6a2f9",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "on_frame",
+        "Updated": "__run_model",
+        "Location": "pylot/perception/detection/traffic_light_det_operator.py/TrafficLightDetOperator",
+        "Original Method Line": "(88,93)",
+        "Extracted/Inlined Method Line": 131,
+        "Extracted/Inlined Lines": [
+            103.0,
+            105.0,
+            112.0,
+            113.0,
+            114.0,
+            115.0
+        ],
+        "Description": " The method __run_model from the module pylot/perception/detection/traffic_light_det_operator.py in class TrafficLightDetOperator is extracted from method on_frame from the module pylot/perception/detection/traffic_light_det_operator.py in class TrafficLightDetOperator ",
+        "Commit": "88c03921d11fd86c3122d0a62e80044403c6a2f9",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/debug/lidar_visualizer_operator.py/LidarVisualizerOperator",
+        "Original Line": 18,
+        "Updated Line": 21,
+        "Description": [
+            "The parameters [ flags ] are added to the method __init__ from the module pylot/debug/lidar_visualizer_operator.py in class LidarVisualizerOperator"
+        ],
+        "Commit": "8902e86019cb87f69b2a1565d58cc40d42e6940b",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "create_center_lidar_setup",
+        "Updated": "create_center_lidar_setup",
+        "Location": "pylot/drivers/sensor_setup.py",
+        "Original Line": 136,
+        "Updated Line": 136,
+        "Description": [
+            "The parameters [ rotation_frequency ] are added to the method create_center_lidar_setup from the module pylot/drivers/sensor_setup.py"
+        ],
+        "Commit": "8902e86019cb87f69b2a1565d58cc40d42e6940b",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "add_obstacle_location_finder",
+        "Updated": "add_obstacle_location_finder",
+        "Location": "pylot/operator_creator.py",
+        "Original Line": 100,
+        "Updated Line": 100,
+        "Description": [
+            "The parameters [ name ] of the method add_obstacle_location_finder from the module pylot/operator_creator.py is/are removed"
+        ],
+        "Commit": "8bec8791d2ba07fbeefa74eb6265a8a4fa618c99",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "send_lidar_msg",
+        "Updated": "send_lidar_msg",
+        "Location": "pylot/simulation/challenge/ERDOSAgent.py/ERDOSAgent",
+        "Original Line": 181,
+        "Updated Line": 197,
+        "Description": [
+            "The parameters [ data ] of the method send_lidar_msg from the module pylot/simulation/challenge/ERDOSAgent.py in class ERDOSAgent are changed/renamed to [carla_pc]"
+        ],
+        "Commit": "8bec8791d2ba07fbeefa74eb6265a8a4fa618c99",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__send_ground_actors_data",
+        "Updated": "__send_ground_actors_data",
+        "Location": "pylot/simulation/carla_operator.py/CarlaOperator",
+        "Original Line": 362,
+        "Updated Line": 368,
+        "Description": [
+            "The parameters [ watermark_msg ] of the method __send_ground_actors_data from the module pylot/simulation/carla_operator.py in class CarlaOperator is/are removed"
+        ],
+        "Commit": "8e9d2a29dfc6d8aacfd6800800317a65a90cc77d",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__send_hero_vehicle_data",
+        "Updated": "__send_hero_vehicle_data",
+        "Location": "pylot/simulation/carla_operator.py/CarlaOperator",
+        "Original Line": 351,
+        "Updated Line": 356,
+        "Description": [
+            "The parameters [ watermark_msg ] of the method __send_hero_vehicle_data from the module pylot/simulation/carla_operator.py in class CarlaOperator is/are removed"
+        ],
+        "Commit": "8e9d2a29dfc6d8aacfd6800800317a65a90cc77d",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "select_max_bbox",
+        "Updated": "select_max_bbox",
+        "Location": "pylot/simulation/utils.py",
+        "Original Line": 546,
+        "Updated Line": 548,
+        "Description": [
+            "The parameters [ img_width img_height ] are added to the method select_max_bbox from the module pylot/simulation/utils.py"
+        ],
+        "Commit": "9c10ef101fc4641317c8b838885cebaa6e5e1022",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "add_perfect_detector",
+        "Updated": "add_perfect_detector",
+        "Location": "pylot/operator_creator.py",
+        "Original Line": 511,
+        "Updated Line": 513,
+        "Description": [
+            "The parameters [ ground_traffic_lights_stream ] of the method add_perfect_detector from the module pylot/operator_creator.py is/are removed"
+        ],
+        "Commit": "a4000a78612bf6a6e0501459f0bb36ae283fe2c0",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/simulation/perfect_detector_operator.py/PerfectDetectorOperator",
+        "Original Line": 24,
+        "Updated Line": 23,
+        "Description": [
+            "The parameters [ ground_traffic_lights_stream ] of the method __init__ from the module pylot/simulation/perfect_detector_operator.py in class PerfectDetectorOperator is/are removed"
+        ],
+        "Commit": "a4000a78612bf6a6e0501459f0bb36ae283fe2c0",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "connect",
+        "Updated": "connect",
+        "Location": "pylot/simulation/perfect_detector_operator.py/PerfectDetectorOperator",
+        "Original Line": 94,
+        "Updated Line": 83,
+        "Description": [
+            "The parameters [ ground_traffic_lights_stream ] of the method connect from the module pylot/simulation/perfect_detector_operator.py in class PerfectDetectorOperator is/are removed"
+        ],
+        "Commit": "a4000a78612bf6a6e0501459f0bb36ae283fe2c0",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/perception/tracking/obstacle_trajectory.py/ObstacleTrajectory",
+        "Original Line": 2,
+        "Updated Line": 15,
+        "Description": [
+            "The parameters [ bounding_box ] are added to the method __init__ from the module pylot/perception/tracking/obstacle_trajectory.py in class ObstacleTrajectory"
+        ],
+        "Commit": "a74668e2c327871985707d1d10f19d43a2690991",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/prediction/obstacle_prediction.py/ObstaclePrediction",
+        "Original Line": 18,
+        "Updated Line": 29,
+        "Description": [
+            "The parameters [ transform bounding_box ] are added to the method __init__ from the module pylot/prediction/obstacle_prediction.py in class ObstaclePrediction"
+        ],
+        "Commit": "a74668e2c327871985707d1d10f19d43a2690991",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "main",
+        "Updated": "create_camera_logger_op",
+        "Location": "data_gatherer.py",
+        "Original Method Line": "(257,83)",
+        "Extracted/Inlined Method Line": 51,
+        "Extracted/Inlined Lines": [
+            269.0
+        ],
+        "Description": " The method create_camera_logger_op from the module data_gatherer.py is extracted from method main from the module data_gatherer.py ",
+        "Commit": "ac44a76a86e4af3fde9f793bcacc7473c080285e",
+        "GPT4 Component Graph": "Monitoring & Logging"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "add_camera_driver",
+        "Updated": "_add_camera_driver",
+        "Location": "pylot/operator_creator.py",
+        "Original Line": 257,
+        "Updated Line": 321,
+        "Description": [
+            "The method add_camera_driver from the module pylot/operator_creator.py is renamed to _add_camera_driver"
+        ],
+        "Commit": "b4d3f4d44fd14be3f89740cc6714525dec1ae431",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "add_lidar_driver",
+        "Updated": "_add_lidar_driver",
+        "Location": "pylot/operator_creator.py",
+        "Original Line": 268,
+        "Updated Line": 339,
+        "Description": [
+            "The method add_lidar_driver from the module pylot/operator_creator.py is renamed to _add_lidar_driver"
+        ],
+        "Commit": "b4d3f4d44fd14be3f89740cc6714525dec1ae431",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "create_left_right_camera_setups",
+        "Updated": "create_left_right_camera_setups",
+        "Location": "pylot/simulation/sensor_setup.py",
+        "Original Line": 28,
+        "Updated Line": 28,
+        "Description": [
+            "The parameters [ camera_offset ] are added to the method create_left_right_camera_setups from the module pylot/simulation/sensor_setup.py"
+        ],
+        "Commit": "b4d3f4d44fd14be3f89740cc6714525dec1ae431",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "add_rgb_camera",
+        "Updated": "add_rgb_camera",
+        "Old Location": "pylot.py",
+        "New Location": "pylot/operator_creator.py",
+        "Old Method Line": 17,
+        "New Method Line": 261,
+        "Description": " method add_rgb_camera from the module pylot.py was moved to module pylot/operator_creator.py ",
+        "Commit": "b4d3f4d44fd14be3f89740cc6714525dec1ae431",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "add_depth_camera",
+        "Updated": "add_depth_camera",
+        "Old Location": "pylot.py",
+        "New Location": "pylot/operator_creator.py",
+        "Old Method Line": 27,
+        "New Method Line": 274,
+        "Description": " method add_depth_camera from the module pylot.py was moved to module pylot/operator_creator.py ",
+        "Commit": "b4d3f4d44fd14be3f89740cc6714525dec1ae431",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "add_segmented_camera",
+        "Updated": "add_segmented_camera",
+        "Old Location": "pylot.py",
+        "New Location": "pylot/operator_creator.py",
+        "Old Method Line": 37,
+        "New Method Line": 288,
+        "Description": " method add_segmented_camera from the module pylot.py was moved to module pylot/operator_creator.py ",
+        "Commit": "b4d3f4d44fd14be3f89740cc6714525dec1ae431",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "add_lidar",
+        "Updated": "add_lidar",
+        "Old Location": "pylot.py",
+        "New Location": "pylot/operator_creator.py",
+        "Old Method Line": 64,
+        "New Method Line": 332,
+        "Description": " method add_lidar from the module pylot.py was moved to module pylot/operator_creator.py ",
+        "Commit": "b4d3f4d44fd14be3f89740cc6714525dec1ae431",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "distance",
+        "Updated": "distance",
+        "Location": "pylot/perception/detection/obstacle.py/Obstacle",
+        "Original Line": 69,
+        "Updated Line": 81,
+        "Description": [
+            "The parameters [ vehicle_transform ] of the method distance from the module pylot/perception/detection/obstacle.py in class Obstacle are changed/renamed to [other_transform]"
+        ],
+        "Commit": "b7e682445cee6ccb4fb59ca976fa3b9f58c47862",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "save",
+        "Updated": "buffer_msg",
+        "Location": "pylot/localization/localization_operator.py/LocalizationOperator",
+        "Original Line": 86,
+        "Updated Line": 99,
+        "Description": [
+            "The method save from the module pylot/localization/localization_operator.py in class LocalizationOperator is renamed to buffer_msg"
+        ],
+        "Commit": "bfc023a296ad971062cd78bb5fafcb1a2d943df6",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/loggers/bounding_box_logger_operator.py/BoundingBoxLoggerOperator",
+        "Original Line": 22,
+        "Updated Line": 22,
+        "Description": [
+            "The parameters [ finished_indicator_stream ] are added to the method __init__ from the module pylot/loggers/bounding_box_logger_operator.py in class BoundingBoxLoggerOperator"
+        ],
+        "Commit": "c86ac87faaf1cf5ca4e71cd8c29d15d6788fc723",
+        "GPT4 Component Graph": "Monitoring & Logging"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/loggers/camera_logger_operator.py/CameraLoggerOperator",
+        "Original Line": 23,
+        "Updated Line": 23,
+        "Description": [
+            "The parameters [ finished_indicator_stream ] are added to the method __init__ from the module pylot/loggers/camera_logger_operator.py in class CameraLoggerOperator"
+        ],
+        "Commit": "c86ac87faaf1cf5ca4e71cd8c29d15d6788fc723",
+        "GPT4 Component Graph": "Monitoring & Logging"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/loggers/eval_metric_logger_operator.py/EvalMetricLoggerOperator",
+        "Original Line": 27,
+        "Updated Line": 27,
+        "Description": [
+            "The parameters [ finished_indicator_stream ] are added to the method __init__ from the module pylot/loggers/eval_metric_logger_operator.py in class EvalMetricLoggerOperator"
+        ],
+        "Commit": "c86ac87faaf1cf5ca4e71cd8c29d15d6788fc723",
+        "GPT4 Component Graph": "Monitoring & Logging"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/loggers/imu_logger_operator.py/IMULoggerOperator",
+        "Original Line": 25,
+        "Updated Line": 25,
+        "Description": [
+            "The parameters [ finished_indicator_stream ] are added to the method __init__ from the module pylot/loggers/imu_logger_operator.py in class IMULoggerOperator"
+        ],
+        "Commit": "c86ac87faaf1cf5ca4e71cd8c29d15d6788fc723",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/loggers/lidar_logger_operator.py/LidarLoggerOperator",
+        "Original Line": 23,
+        "Updated Line": 23,
+        "Description": [
+            "The parameters [ finished_indicator_stream ] are added to the method __init__ from the module pylot/loggers/lidar_logger_operator.py in class LidarLoggerOperator"
+        ],
+        "Commit": "c86ac87faaf1cf5ca4e71cd8c29d15d6788fc723",
+        "GPT4 Component Graph": "Monitoring & Logging"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/loggers/multiple_object_tracker_logger_operator.py/MultipleObjectTrackerLoggerOperator",
+        "Original Line": 22,
+        "Updated Line": 22,
+        "Description": [
+            "The parameters [ finished_indicator_stream ] are added to the method __init__ from the module pylot/loggers/multiple_object_tracker_logger_operator.py in class MultipleObjectTrackerLoggerOperator"
+        ],
+        "Commit": "c86ac87faaf1cf5ca4e71cd8c29d15d6788fc723",
+        "GPT4 Component Graph": "Monitoring & Logging"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/loggers/trajectory_logger_operator.py/TrajectoryLoggerOperator",
+        "Original Line": 23,
+        "Updated Line": 23,
+        "Description": [
+            "The parameters [ finished_indicator_stream ] are added to the method __init__ from the module pylot/loggers/trajectory_logger_operator.py in class TrajectoryLoggerOperator"
+        ],
+        "Commit": "c86ac87faaf1cf5ca4e71cd8c29d15d6788fc723",
+        "GPT4 Component Graph": "Monitoring & Logging"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "add_fot_planning",
+        "Updated": "add_fot_planning",
+        "Location": "pylot/operator_creator.py",
+        "Original Line": 266,
+        "Updated Line": 266,
+        "Description": [
+            "The parameters [ global_trajectory_stream open_drive_stream ] are added to the method add_fot_planning from the module pylot/operator_creator.py"
+        ],
+        "Commit": "cb3e4134b0989066d1862d3a7dcba8fd885914e3",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/planning/frenet_optimal_trajectory/fot_planning_operator.py/FOTPlanningOperator",
+        "Original Line": 34,
+        "Updated Line": 32,
+        "Description": [
+            "The parameters [ global_trajectory_stream open_drive_stream ] are added to the method __init__ from the module pylot/planning/frenet_optimal_trajectory/fot_planning_operator.py in class FOTPlanningOperator"
+        ],
+        "Commit": "cb3e4134b0989066d1862d3a7dcba8fd885914e3",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "connect",
+        "Updated": "connect",
+        "Location": "pylot/planning/frenet_optimal_trajectory/fot_planning_operator.py/FOTPlanningOperator",
+        "Original Line": 59,
+        "Updated Line": 63,
+        "Description": [
+            "The parameters [ global_trajectory_stream open_drive_stream ] are added to the method connect from the module pylot/planning/frenet_optimal_trajectory/fot_planning_operator.py in class FOTPlanningOperator"
+        ],
+        "Commit": "cb3e4134b0989066d1862d3a7dcba8fd885914e3",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Pull Up Method",
+        "Original": "l1_distance",
+        "Updated": "l1_distance",
+        "Old Location": "pylot/utils.py/Location",
+        "New Location": "pylot/utils.py/Vector3D",
+        "Old Method Line": 307,
+        "New Method Line": 109,
+        "Description": " method l1_distance from the module pylot/utils.py in class Location was moved to class Vector3D of module pylot/utils.py ",
+        "Commit": "d0cd4b733f2134187d5950aab704afaeb096818b",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/drivers/carla_imu_driver_operator.py/CarlaIMUDriverOperator",
+        "Original Line": 29,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ ground_vehicle_id_stream ] of the method __init__ from the module pylot/drivers/carla_imu_driver_operator.py in class CarlaIMUDriverOperator are changed/renamed to [ego_vehicle_id_stream]"
+        ],
+        "Commit": "d15dd7e4e46153bd4402d195612d2d21012e13fc",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "connect",
+        "Updated": "connect",
+        "Location": "pylot/drivers/carla_imu_driver_operator.py/CarlaIMUDriverOperator",
+        "Original Line": 45,
+        "Updated Line": 52,
+        "Description": [
+            "The parameters [ ground_vehicle_id_stream ] of the method connect from the module pylot/drivers/carla_imu_driver_operator.py in class CarlaIMUDriverOperator are changed/renamed to [ego_vehicle_id_stream]"
+        ],
+        "Commit": "d15dd7e4e46153bd4402d195612d2d21012e13fc",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/loggers/eval_metric_logger_operator.py/EvalMetricLoggerOperator",
+        "Original Line": 29,
+        "Updated Line": 27,
+        "Description": [
+            "The parameters [ obstacle_stream ] of the method __init__ from the module pylot/loggers/eval_metric_logger_operator.py in class EvalMetricLoggerOperator is/are removed"
+        ],
+        "Commit": "d20c81229a84c397e90ce07716146fbcdadeb86a",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "connect",
+        "Updated": "connect",
+        "Location": "pylot/loggers/eval_metric_logger_operator.py/EvalMetricLoggerOperator",
+        "Original Line": 61,
+        "Updated Line": 57,
+        "Description": [
+            "The parameters [ obstacle_stream ] of the method connect from the module pylot/loggers/eval_metric_logger_operator.py in class EvalMetricLoggerOperator is/are removed"
+        ],
+        "Commit": "d20c81229a84c397e90ce07716146fbcdadeb86a",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "add_eval_metric_logging",
+        "Updated": "add_eval_metric_logging",
+        "Location": "pylot/operator_creator.py",
+        "Original Line": 706,
+        "Updated Line": 706,
+        "Description": [
+            "The parameters [ obstacle_stream ] of the method add_eval_metric_logging from the module pylot/operator_creator.py is/are removed"
+        ],
+        "Commit": "d20c81229a84c397e90ce07716146fbcdadeb86a",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "_add_camera_driver",
+        "Updated": "add_camera_driver",
+        "Location": "pylot/operator_creator.py",
+        "Original Line": 539,
+        "Updated Line": 494,
+        "Description": [
+            "The method _add_camera_driver from the module pylot/operator_creator.py is renamed to add_camera_driver"
+        ],
+        "Commit": "d9a16ffb6fbfdad21c910d9c8efa8c4c831c752f",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/perception/detection/stop_sign.py/StopSign",
+        "Original Line": 20,
+        "Updated Line": 23,
+        "Description": [
+            "The parameters [ confidence id bounding_box_3d ] are added to the method __init__ from the module pylot/perception/detection/stop_sign.py in class StopSign"
+        ],
+        "Commit": "d9bab338cdbb1450ed671b987a3481dad1284fff",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "connect",
+        "Updated": "connect",
+        "Location": "data_gatherer.py/SynchronizerOperator",
+        "Original Line": 46,
+        "Updated Line": 54,
+        "Description": [
+            "The parameters [ wait_stream ] are added to the method connect from the module data_gatherer.py in class SynchronizerOperator"
+        ],
+        "Commit": "dd660106d8f4988cdb311543d020533589a16d59",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__create_unreal_transform",
+        "Updated": "__create_unreal_transform",
+        "Location": "pylot/drivers/sensor_setup.py/LidarSetup",
+        "Original Line": 539,
+        "Updated Line": 545,
+        "Description": [
+            "The parameters [ legacy ] are added to the method __create_unreal_transform from the module pylot/drivers/sensor_setup.py in class LidarSetup"
+        ],
+        "Commit": "e0679772af2ff36b9c18f609d686ba9879078d70",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/drivers/sensor_setup.py/LidarSetup",
+        "Original Line": 478,
+        "Updated Line": 481,
+        "Description": [
+            "The parameters [ legacy ] are added to the method __init__ from the module pylot/drivers/sensor_setup.py in class LidarSetup"
+        ],
+        "Commit": "e0679772af2ff36b9c18f609d686ba9879078d70",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "create_center_lidar_setup",
+        "Updated": "create_center_lidar_setup",
+        "Location": "pylot/drivers/sensor_setup.py",
+        "Original Line": 136,
+        "Updated Line": 136,
+        "Description": [
+            "The parameters [ legacy ] are added to the method create_center_lidar_setup from the module pylot/drivers/sensor_setup.py"
+        ],
+        "Commit": "e0679772af2ff36b9c18f609d686ba9879078d70",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_apply_rrt_star",
+        "Updated": "_apply_rrt_star",
+        "Location": "pylot/planning/rrt_star/rrt_star_planning_operator.py/RRTStarPlanningOperator",
+        "Original Line": 187,
+        "Updated Line": 129,
+        "Description": [
+            "The parameters [ hyperparameters ] are added to the method _apply_rrt_star from the module pylot/planning/rrt_star/rrt_star_planning_operator.py in class RRTStarPlanningOperator"
+        ],
+        "Commit": "ee22e27428caffe19dc602d52454097b27d72111",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "__init__",
+        "Updated": "parse_hyperparameters",
+        "Location": "pylot/planning/rrt_star/rrt_star_planning_operator.py/RRTStarPlanningOperator",
+        "Original Method Line": "(32,31)",
+        "Extracted/Inlined Method Line": 54,
+        "Extracted/Inlined Lines": [
+            50.0
+        ],
+        "Description": " The method parse_hyperparameters from the module pylot/planning/rrt_star/rrt_star_planning_operator.py in class RRTStarPlanningOperator is extracted from method __init__ from the module pylot/planning/rrt_star/rrt_star_planning_operator.py in class RRTStarPlanningOperator ",
+        "Commit": "ee22e27428caffe19dc602d52454097b27d72111",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/drivers/grasshopper3_driver_operator.py/Grasshopper3DriverOperator",
+        "Original Line": 5,
+        "Updated Line": 10,
+        "Description": [
+            "The parameters [ topic_name ] are added to the method __init__ from the module pylot/drivers/grasshopper3_driver_operator.py in class Grasshopper3DriverOperator"
+        ],
+        "Commit": "eff4ded84c8696d45bf777b3817d7e3061080471",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/drivers/velodyne_driver_operator.py/VelodyneDriverOperator",
+        "Original Line": 5,
+        "Updated Line": 10,
+        "Description": [
+            "The parameters [ topic_name ] are added to the method __init__ from the module pylot/drivers/velodyne_driver_operator.py in class VelodyneDriverOperator"
+        ],
+        "Commit": "eff4ded84c8696d45bf777b3817d7e3061080471",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "add_obstacle_location_finder",
+        "Updated": "add_obstacle_location_finder",
+        "Location": "pylot/operator_creator.py",
+        "Original Line": 88,
+        "Updated Line": 88,
+        "Description": [
+            "The parameters [ camera_stream ] are added to the method add_obstacle_location_finder from the module pylot/operator_creator.py"
+        ],
+        "Commit": "f44cbb64761e3b4732ddbeeab5ff6fcfe991a48a",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "pylot/perception/detection/obstacle_location_finder_operator.py/ObstacleLocationFinderOperator",
+        "Original Line": 36,
+        "Updated Line": 38,
+        "Description": [
+            "The parameters [ camera_stream ] are added to the method __init__ from the module pylot/perception/detection/obstacle_location_finder_operator.py in class ObstacleLocationFinderOperator"
+        ],
+        "Commit": "f44cbb64761e3b4732ddbeeab5ff6fcfe991a48a",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "connect",
+        "Updated": "connect",
+        "Location": "pylot/perception/detection/obstacle_location_finder_operator.py/ObstacleLocationFinderOperator",
+        "Original Line": 54,
+        "Updated Line": 58,
+        "Description": [
+            "The parameters [ camera_stream ] are added to the method connect from the module pylot/perception/detection/obstacle_location_finder_operator.py in class ObstacleLocationFinderOperator"
+        ],
+        "Commit": "f44cbb64761e3b4732ddbeeab5ff6fcfe991a48a",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "compute_magnitude_angle",
+        "Updated": "compute_magnitude_angle",
+        "Old Location": "pylot/utils.py/Location",
+        "New Location": "pylot/utils.py/Transform",
+        "Old Method Line": 250,
+        "New Method Line": 435,
+        "Description": " method compute_magnitude_angle from the module pylot/utils.py in class Location was moved to class Transform of module pylot/utils.py ",
+        "Commit": "fb272ea32e7ce4157a159b90529ea33b3b71500c",
+        "GPT4 Component Graph": "Data Processing"
+    }
+]

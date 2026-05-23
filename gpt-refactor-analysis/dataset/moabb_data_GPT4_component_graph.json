@@ -1,0 +1,499 @@
+[
+    {
+        "Refactoring Type": "Pull Up Method",
+        "Original": "scoring",
+        "Updated": "scoring",
+        "Old Location": "moabb/contexts/base.py/BaseImageryParadigm",
+        "New Location": "moabb/contexts/base.py/BaseParadigm",
+        "Old Method Line": 126,
+        "New Method Line": 17,
+        "Description": " method scoring from the module moabb/contexts/base.py in class BaseImageryParadigm was moved to class BaseParadigm of module moabb/contexts/base.py ",
+        "Commit": "027c9844f1fbcf00977fd0d4f30a76cac9c842f0",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "moabb/contexts/motor_imagery.py/BaseMotorImagery",
+        "Original Line": 30,
+        "Updated Line": 30,
+        "Description": [
+            "The parameters [ evaluator ] are added to the method __init__ from the module moabb/contexts/motor_imagery.py in class BaseMotorImagery"
+        ],
+        "Commit": "028274e8f52c54b10d632a61ee19a6e64f7a90e6",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "FilterBankMotorImagery",
+        "Updated": "FilterBank",
+        "Location": "moabb/paradigms/motor_imagery.py",
+        "Description": " class FilterBankMotorImagery was renamed to class FilterBank ",
+        "Commit": "1be88be9d88c037c84e2f533cb53f59135db4ef9",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "get_data",
+        "Updated": "_create_process_pipeline",
+        "Location": "moabb/datasets/base.py/BaseDataset",
+        "Original Method Line": "(197,204)",
+        "Extracted/Inlined Method Line": 197,
+        "Extracted/Inlined Lines": [
+            259.0
+        ],
+        "Description": " The method _create_process_pipeline from the module moabb/datasets/base.py in class BaseDataset is extracted from method get_data from the module moabb/datasets/base.py in class BaseDataset ",
+        "Commit": "2024d50eb20eb83b94d6d6ea0401d77383748edc",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "moabb/pipelines/utils_pytorch.py/BraindecodeDatasetLoader",
+        "Original Line": 17,
+        "Updated Line": 39,
+        "Description": [
+            "The parameters [ drop_last_window ] are added to the method __init__ from the module moabb/pipelines/utils_pytorch.py in class BraindecodeDatasetLoader"
+        ],
+        "Commit": "241c8c2643a269e5f1fccbe28c76e831dda4a0f8",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "Shin2017",
+        "Updated": "BaseShin2017",
+        "Location": "moabb/datasets/bbci_eeg_fnirs.py",
+        "Description": " class Shin2017 was renamed to class BaseShin2017 ",
+        "Commit": "4de985840b14aed9fb23dd2dbbc08fcc21835eea",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "BNCI2014001",
+        "Updated": "BNCI2014_001",
+        "Location": "moabb/datasets/bnci.py",
+        "Description": " class BNCI2014001 was renamed to class BNCI2014_001 ",
+        "Commit": "4de985840b14aed9fb23dd2dbbc08fcc21835eea",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "BNCI2014002",
+        "Updated": "BNCI2014_002",
+        "Location": "moabb/datasets/bnci.py",
+        "Description": " class BNCI2014002 was renamed to class BNCI2014_002 ",
+        "Commit": "4de985840b14aed9fb23dd2dbbc08fcc21835eea",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "BNCI2014004",
+        "Updated": "BNCI2014_004",
+        "Location": "moabb/datasets/bnci.py",
+        "Description": " class BNCI2014004 was renamed to class BNCI2014_004 ",
+        "Commit": "4de985840b14aed9fb23dd2dbbc08fcc21835eea",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "BNCI2014008",
+        "Updated": "BNCI2014_008",
+        "Location": "moabb/datasets/bnci.py",
+        "Description": " class BNCI2014008 was renamed to class BNCI2014_008 ",
+        "Commit": "4de985840b14aed9fb23dd2dbbc08fcc21835eea",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "BNCI2014009",
+        "Updated": "BNCI2014_009",
+        "Location": "moabb/datasets/bnci.py",
+        "Description": " class BNCI2014009 was renamed to class BNCI2014_009 ",
+        "Commit": "4de985840b14aed9fb23dd2dbbc08fcc21835eea",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "BNCI2015001",
+        "Updated": "BNCI2015_001",
+        "Location": "moabb/datasets/bnci.py",
+        "Description": " class BNCI2015001 was renamed to class BNCI2015_001 ",
+        "Commit": "4de985840b14aed9fb23dd2dbbc08fcc21835eea",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "BNCI2015003",
+        "Updated": "BNCI2015_003",
+        "Location": "moabb/datasets/bnci.py",
+        "Description": " class BNCI2015003 was renamed to class BNCI2015_003 ",
+        "Commit": "4de985840b14aed9fb23dd2dbbc08fcc21835eea",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "BNCI2015004",
+        "Updated": "BNCI2015_004",
+        "Location": "moabb/datasets/bnci.py",
+        "Description": " class BNCI2015004 was renamed to class BNCI2015_004 ",
+        "Commit": "4de985840b14aed9fb23dd2dbbc08fcc21835eea",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "bi2012",
+        "Updated": "BI2012",
+        "Location": "moabb/datasets/braininvaders.py",
+        "Description": " class bi2012 was renamed to class BI2012 ",
+        "Commit": "4de985840b14aed9fb23dd2dbbc08fcc21835eea",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "bi2013a",
+        "Updated": "BI2013a",
+        "Location": "moabb/datasets/braininvaders.py",
+        "Description": " class bi2013a was renamed to class BI2013a ",
+        "Commit": "4de985840b14aed9fb23dd2dbbc08fcc21835eea",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "bi2014a",
+        "Updated": "BI2014a",
+        "Location": "moabb/datasets/braininvaders.py",
+        "Description": " class bi2014a was renamed to class BI2014a ",
+        "Commit": "4de985840b14aed9fb23dd2dbbc08fcc21835eea",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "bi2014b",
+        "Updated": "BI2014b",
+        "Location": "moabb/datasets/braininvaders.py",
+        "Description": " class bi2014b was renamed to class BI2014b ",
+        "Commit": "4de985840b14aed9fb23dd2dbbc08fcc21835eea",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "bi2015a",
+        "Updated": "BI2015a",
+        "Location": "moabb/datasets/braininvaders.py",
+        "Description": " class bi2015a was renamed to class BI2015a ",
+        "Commit": "4de985840b14aed9fb23dd2dbbc08fcc21835eea",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "bi2015b",
+        "Updated": "BI2015b",
+        "Location": "moabb/datasets/braininvaders.py",
+        "Description": " class bi2015b was renamed to class BI2015b ",
+        "Commit": "4de985840b14aed9fb23dd2dbbc08fcc21835eea",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "VirtualReality",
+        "Updated": "Cattan2019_VR",
+        "Location": "moabb/datasets/braininvaders.py",
+        "Description": " class VirtualReality was renamed to class Cattan2019_VR ",
+        "Commit": "4de985840b14aed9fb23dd2dbbc08fcc21835eea",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "bi2014a_il",
+        "Updated": "BI2014a_Il",
+        "Location": "moabb/datasets/compound_dataset/bi_illiteracy.py",
+        "Description": " class bi2014a_il was renamed to class BI2014a_Il ",
+        "Commit": "4de985840b14aed9fb23dd2dbbc08fcc21835eea",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "bi2014b_il",
+        "Updated": "BI2014b_Il",
+        "Location": "moabb/datasets/compound_dataset/bi_illiteracy.py",
+        "Description": " class bi2014b_il was renamed to class BI2014b_Il ",
+        "Commit": "4de985840b14aed9fb23dd2dbbc08fcc21835eea",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "bi2015a_il",
+        "Updated": "BI2015a_Il",
+        "Location": "moabb/datasets/compound_dataset/bi_illiteracy.py",
+        "Description": " class bi2015a_il was renamed to class BI2015a_Il ",
+        "Commit": "4de985840b14aed9fb23dd2dbbc08fcc21835eea",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "bi2015b_il",
+        "Updated": "BI2015b_Il",
+        "Location": "moabb/datasets/compound_dataset/bi_illiteracy.py",
+        "Description": " class bi2015b_il was renamed to class BI2015b_Il ",
+        "Commit": "4de985840b14aed9fb23dd2dbbc08fcc21835eea",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "MunichMI",
+        "Updated": "GrosseWentrup2009",
+        "Location": "moabb/datasets/mpi_mi.py",
+        "Description": " class MunichMI was renamed to class GrosseWentrup2009 ",
+        "Commit": "4de985840b14aed9fb23dd2dbbc08fcc21835eea",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "HeadMountedDisplay",
+        "Updated": "Cattan2019_PHMD",
+        "Location": "moabb/datasets/phmd_ml.py",
+        "Description": " class HeadMountedDisplay was renamed to class Cattan2019_PHMD ",
+        "Commit": "4de985840b14aed9fb23dd2dbbc08fcc21835eea",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "SSVEPExo",
+        "Updated": "Kalunga2016",
+        "Location": "moabb/datasets/ssvep_exo.py",
+        "Description": " class SSVEPExo was renamed to class Kalunga2016 ",
+        "Commit": "4de985840b14aed9fb23dd2dbbc08fcc21835eea",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "moabb/datasets/fake.py/FakeDataset",
+        "Original Line": 16,
+        "Updated Line": 16,
+        "Description": [
+            "The parameters [ channels ] are added to the method __init__ from the module moabb/datasets/fake.py in class FakeDataset"
+        ],
+        "Commit": "5353e87ad699120b1044b1637877ecf660ccd3a6",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "compute_anova",
+        "Updated": "_rmanova",
+        "Location": "moabb/viz/meta_analysis.py",
+        "Original Line": 35,
+        "Updated Line": 46,
+        "Description": [
+            "The method compute_anova from the module moabb/viz/meta_analysis.py is renamed to _rmanova"
+        ],
+        "Commit": "5c64255d0a345ccf66b3e58a03ae5d61587335b6",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "preprocess_data",
+        "Updated": "preprocess_data",
+        "Location": "moabb/evaluations/evaluations.py/CrossSessionEvaluation",
+        "Original Line": 195,
+        "Updated Line": 195,
+        "Description": [
+            "The parameters [ paradigm ] of the method preprocess_data from the module moabb/evaluations/evaluations.py in class CrossSessionEvaluation is/are removed"
+        ],
+        "Commit": "5e3690e9e4480fd29463ac52a84e9a94b713c6ed",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_ovmi",
+        "Updated": "test_mpi_mi",
+        "Location": "moabb/tests/download.py/Test_Downloads",
+        "Original Line": 64,
+        "Updated Line": 80,
+        "Description": [
+            "The method test_ovmi from the module moabb/tests/download.py in class Test_Downloads is renamed to test_mpi_mi"
+        ],
+        "Commit": "7339ec7852bac0c97dcc482364ffdf11b23adc81",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "process_raw",
+        "Updated": "process_raw",
+        "Location": "moabb/tests/analysis.py/DummyParadigm",
+        "Original Line": 38,
+        "Updated Line": 38,
+        "Description": [
+            "The parameters [ self dataset return_epochs ] are added to the method process_raw from the module moabb/tests/analysis.py in class DummyParadigm"
+        ],
+        "Commit": "900a585c64eb6a73c61cb48d1d03fbad29ddd491",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "blocks_reps",
+        "Updated": "blocks_reps",
+        "Location": "moabb/datasets/utils.py",
+        "Original Line": 160,
+        "Updated Line": 161,
+        "Description": [
+            "The parameters [ n_rep ] are added to the method blocks_reps from the module moabb/datasets/utils.py"
+        ],
+        "Commit": "a7f082e94c6b47fae9349ccd3f3e3d45ab36094e",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "moabb/datasets/fake.py/FakeDataset",
+        "Original Line": 16,
+        "Updated Line": 32,
+        "Description": [
+            "The parameters [ channels ] are added to the method __init__ from the module moabb/datasets/fake.py in class FakeDataset"
+        ],
+        "Commit": "a7f66ea57fd61406258a0e26775e4e7629296cf5",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "moabb/datasets/bnci.py/BNCI2014002",
+        "Original Line": 43,
+        "Updated Line": 53,
+        "Description": [
+            "The parameters [ tmin tmax ] are added to the method __init__ from the module moabb/datasets/bnci.py in class BNCI2014002"
+        ],
+        "Commit": "b672cdc460980ba709c0f34e808d5073fff5fa71",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "moabb/datasets/bnci.py/BNCI2014004",
+        "Original Line": 56,
+        "Updated Line": 66,
+        "Description": [
+            "The parameters [ tmin tmax ] are added to the method __init__ from the module moabb/datasets/bnci.py in class BNCI2014004"
+        ],
+        "Commit": "b672cdc460980ba709c0f34e808d5073fff5fa71",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "moabb/datasets/bnci.py/BNCI2015001",
+        "Original Line": 69,
+        "Updated Line": 79,
+        "Description": [
+            "The parameters [ tmin tmax ] are added to the method __init__ from the module moabb/datasets/bnci.py in class BNCI2015001"
+        ],
+        "Commit": "b672cdc460980ba709c0f34e808d5073fff5fa71",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "moabb/pipelines/classification.py/SSVEP_TRCA",
+        "Original Line": 187,
+        "Updated Line": 184,
+        "Description": [
+            "The parameters [ n_fbands ] of the method __init__ from the module moabb/pipelines/classification.py in class SSVEP_TRCA is/are removed"
+        ],
+        "Commit": "bce0f9fe79bedac2a8452a6fa4d20ca4dabb8d98",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "moabb/datasets/fake.py/FakeDataset",
+        "Original Line": 16,
+        "Updated Line": 16,
+        "Description": [
+            "The parameters [ paradigm ] are added to the method __init__ from the module moabb/datasets/fake.py in class FakeDataset"
+        ],
+        "Commit": "cf541ac446dd7f609f58fa5dc0414b818412716e",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_filter_bank_mi",
+        "Updated": "test_FilterBankMotorImagery_paradigm",
+        "Location": "moabb/tests/paradigms.py/Test_MotorImagery",
+        "Original Line": 79,
+        "Updated Line": 94,
+        "Description": [
+            "The method test_filter_bank_mi from the module moabb/tests/paradigms.py in class Test_MotorImagery is renamed to test_FilterBankMotorImagery_paradigm"
+        ],
+        "Commit": "cf541ac446dd7f609f58fa5dc0414b818412716e",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_leftright_paradigm",
+        "Updated": "test_LeftRightImagery_paradigm",
+        "Location": "moabb/tests/paradigms.py/Test_MotorImagery",
+        "Original Line": 64,
+        "Updated Line": 76,
+        "Description": [
+            "The method test_leftright_paradigm from the module moabb/tests/paradigms.py in class Test_MotorImagery is renamed to test_LeftRightImagery_paradigm"
+        ],
+        "Commit": "cf541ac446dd7f609f58fa5dc0414b818412716e",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "score",
+        "Updated": "score",
+        "Location": "moabb/contexts/motor_imagery.py/MotorImageryMultiClasses",
+        "Original Line": 93,
+        "Updated Line": 93,
+        "Description": [
+            "The parameters [ groups ] are added to the method score from the module moabb/contexts/motor_imagery.py in class MotorImageryMultiClasses"
+        ],
+        "Commit": "d314fe168569b9a4fe89818715c4e901487f0136",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

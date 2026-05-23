@@ -1,0 +1,290 @@
+[
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "DiceMoedelApproxGenCF",
+        "Updated": "DiceModelApproxGenCF",
+        "Location": "dice_ml/dice_interfaces/dice_model_approx_gencf.py",
+        "Description": " class DiceMoedelApproxGenCF was renamed to class DiceModelApproxGenCF ",
+        "Commit": "2a4946368c921e7618f50c9337fb1350ed1c2e74",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "predict_proba_fn",
+        "Updated": "predict_fn_scores",
+        "Location": "dice_ml/explainer_interfaces/dice_genetic.py/DiceGenetic",
+        "Original Line": 218,
+        "Updated Line": 218,
+        "Description": [
+            "The method predict_proba_fn from the module dice_ml/explainer_interfaces/dice_genetic.py in class DiceGenetic is renamed to predict_fn_scores"
+        ],
+        "Commit": "2c7018cfbed9d958a8cc3b4df7ea58ccaa715110",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "KD_binary_vars_classification_exp_object",
+        "Updated": "KD_binary_vars_classification_exp_object",
+        "Location": "tests/conftest.py",
+        "Original Line": 144,
+        "Updated Line": 142,
+        "Description": [
+            "The parameters [ load_custom_vars_testing_dataset ] of the method KD_binary_vars_classification_exp_object from the module tests/conftest.py is/are removed"
+        ],
+        "Commit": "31fed35b33c6da8883e66a107850431a1748a4a2",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_counterfactual_explanations_class",
+        "Updated": "test_serialization_deserialization_counterfactual_explanations_class",
+        "Location": "tests/test_counterfactual_explanations.py/TestCounterfactualExplanations",
+        "Original Line": 8,
+        "Updated Line": 8,
+        "Description": [
+            "The method test_counterfactual_explanations_class from the module tests/test_counterfactual_explanations.py in class TestCounterfactualExplanations is renamed to test_serialization_deserialization_counterfactual_explanations_class"
+        ],
+        "Commit": "4a1ac84a9ba2c36963e558fdd58598658b0c87c3",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "DiverseCounterfactuals",
+        "Updated": "CounterfactualExamples",
+        "Location": "dice_ml/diverse_counterfactuals.py",
+        "Description": " class DiverseCounterfactuals was renamed to class CounterfactualExamples ",
+        "Commit": "4cd65c336ddd27857135168d0c2c97b121971d45",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_random_counterfactual_explanations_output",
+        "Updated": "test_counterfactual_explanations_output",
+        "Location": "tests/test_counterfactual_explanations.py/TestSerializationCounterfactualExplanations",
+        "Original Line": 154,
+        "Updated Line": 154,
+        "Description": [
+            "The method test_random_counterfactual_explanations_output from the module tests/test_counterfactual_explanations.py in class TestSerializationCounterfactualExplanations is renamed to test_counterfactual_explanations_output"
+        ],
+        "Commit": "4e69bceecc5d1ae487f1f8b53e0d000c54cf48f2",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_random_local_importance_output",
+        "Updated": "test_local_importance_output",
+        "Location": "tests/test_counterfactual_explanations.py/TestSerializationCounterfactualExplanations",
+        "Original Line": 176,
+        "Updated Line": 176,
+        "Description": [
+            "The method test_random_local_importance_output from the module tests/test_counterfactual_explanations.py in class TestSerializationCounterfactualExplanations is renamed to test_local_importance_output"
+        ],
+        "Commit": "4e69bceecc5d1ae487f1f8b53e0d000c54cf48f2",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_random_summary_importance_output",
+        "Updated": "test_summary_importance_output",
+        "Location": "tests/test_counterfactual_explanations.py/TestSerializationCounterfactualExplanations",
+        "Original Line": 199,
+        "Updated Line": 199,
+        "Description": [
+            "The method test_random_summary_importance_output from the module tests/test_counterfactual_explanations.py in class TestSerializationCounterfactualExplanations is renamed to test_summary_importance_output"
+        ],
+        "Commit": "4e69bceecc5d1ae487f1f8b53e0d000c54cf48f2",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "dice_ml/explainer_interfaces/explainer_base.py/ExplainerBase",
+        "Original Line": 9,
+        "Updated Line": 15,
+        "Description": [
+            "The parameters [ model_interface ] are added to the method __init__ from the module dice_ml/explainer_interfaces/explainer_base.py in class ExplainerBase"
+        ],
+        "Commit": "72d600069857e22d08f1e7e9614d59d10d26f225",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_random_tree_counterfactual_explanations_output",
+        "Updated": "test_random_counterfactual_explanations_output",
+        "Location": "tests/test_dice_interface/test_dice_random.py/TestDiceRandomMultiClassificationMethods",
+        "Original Line": 171,
+        "Updated Line": 145,
+        "Description": [
+            "The method test_random_tree_counterfactual_explanations_output from the module tests/test_dice_interface/test_dice_random.py in class TestDiceRandomMultiClassificationMethods is renamed to test_random_counterfactual_explanations_output"
+        ],
+        "Commit": "74f5a8cb13d3dd9d4bb108a9fa35ab45c0b1f359",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_random_output",
+        "Updated": "test_random_output",
+        "Location": "tests/test_dice_interface/test_dice_random.py/TestDiceRandomRegressionMethods",
+        "Original Line": 207,
+        "Updated Line": 181,
+        "Description": [
+            "The parameters [ version ] are added to the method test_random_output from the module tests/test_dice_interface/test_dice_random.py in class TestDiceRandomRegressionMethods"
+        ],
+        "Commit": "74f5a8cb13d3dd9d4bb108a9fa35ab45c0b1f359",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "test_ohe_min_max_transformed_query_instance",
+        "Updated": "test_ohe_min_max_transformed_query_instance",
+        "Location": "tests/test_data.py/TestCommonDataMethods",
+        "Original Line": 58,
+        "Updated Line": 58,
+        "Description": [
+            "The parameters [ encode_categorical output_query ] of the method test_ohe_min_max_transformed_query_instance from the module tests/test_data.py in class TestCommonDataMethods is/are removed"
+        ],
+        "Commit": "861b5eaa0e4bc6b7452bb8eca54f89b8eed97892",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "load_adult_income_dataset",
+        "Updated": "load_adult_income_dataset",
+        "Location": "dice_ml/utils/helpers.py",
+        "Original Line": 10,
+        "Updated Line": 10,
+        "Description": [
+            "The parameters [ save_intermediate ] of the method load_adult_income_dataset from the module dice_ml/utils/helpers.py is/are removed"
+        ],
+        "Commit": "918d73202d0fadfb83373d63009bbb7a0cd334c2",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "load_adult_income_dataset",
+        "Updated": "load_adult_income_dataset",
+        "Location": "dice_ml/utils/helpers.py",
+        "Original Line": 10,
+        "Updated Line": 10,
+        "Description": [
+            "The parameters [ save_intermediate ] of the method load_adult_income_dataset from the module dice_ml/utils/helpers.py is/are removed"
+        ],
+        "Commit": "9ca767f0cba5157400a9a5171c3e637ac73af540",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "_initiate_exp_object",
+        "Updated": "_initiate_exp_object",
+        "Location": "tests/test_counterfactual_explanations.py/TestSerializationCounterfactualExplanations",
+        "Original Line": 113,
+        "Updated Line": 112,
+        "Description": [
+            "The parameters [ random_binary_classification_exp_object ] of the method _initiate_exp_object from the module tests/test_counterfactual_explanations.py in class TestSerializationCounterfactualExplanations are changed/renamed to [binary_classification_exp_object]"
+        ],
+        "Commit": "c0f727a9dbd56f2b2fe661831197df7e37010316",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_get_exp",
+        "Updated": "_get_exp",
+        "Location": "tests/test_dice.py/TestBaseExplainerLoader",
+        "Original Line": 9,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ is_public_data_interface ] are added to the method _get_exp from the module tests/test_dice.py in class TestBaseExplainerLoader"
+        ],
+        "Commit": "cab2ebf783f366a1d8bf2b5c8e2e7a12bf7b40d4",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_KD_tree_output",
+        "Updated": "test_KD_tree_output",
+        "Location": "tests/test_dice_interface/test_dice_KD.py/TestDiceKDBinaryClassificationMethods",
+        "Original Line": 74,
+        "Updated Line": 75,
+        "Description": [
+            "The parameters [ posthoc_sparsity_algorithm ] are added to the method test_KD_tree_output from the module tests/test_dice_interface/test_dice_KD.py in class TestDiceKDBinaryClassificationMethods"
+        ],
+        "Commit": "d4c4247c9fc94231487d2b50e60ae3ef1f07a2fd",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_KD_tree_output",
+        "Updated": "test_KD_tree_output",
+        "Location": "tests/test_dice_interface/test_dice_KD.py/TestDiceKDMultiClassificationMethods",
+        "Original Line": 156,
+        "Updated Line": 159,
+        "Description": [
+            "The parameters [ posthoc_sparsity_algorithm ] are added to the method test_KD_tree_output from the module tests/test_dice_interface/test_dice_KD.py in class TestDiceKDMultiClassificationMethods"
+        ],
+        "Commit": "d4c4247c9fc94231487d2b50e60ae3ef1f07a2fd",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "test_KD_tree_output",
+        "Updated": "test_KD_tree_output",
+        "Location": "tests/test_dice_interface/test_dice_KD.py/TestDiceKDRegressionMethods",
+        "Original Line": 198,
+        "Updated Line": 204,
+        "Description": [
+            "The parameters [ posthoc_sparsity_algorithm ] are added to the method test_KD_tree_output from the module tests/test_dice_interface/test_dice_KD.py in class TestDiceKDRegressionMethods"
+        ],
+        "Commit": "d4c4247c9fc94231487d2b50e60ae3ef1f07a2fd",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_get_exp",
+        "Updated": "_get_exp",
+        "Location": "tests/test_dice.py/TestBaseExplainerLoader",
+        "Original Line": 9,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ method ] are added to the method _get_exp from the module tests/test_dice.py in class TestBaseExplainerLoader"
+        ],
+        "Commit": "fddc9719e96c4f553d8651fb55db480456e45d2e",
+        "GPT4 Component Graph": "Data Processing"
+    }
+]

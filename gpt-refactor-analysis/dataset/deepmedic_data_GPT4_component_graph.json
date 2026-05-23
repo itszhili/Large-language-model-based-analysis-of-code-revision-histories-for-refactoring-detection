@@ -1,0 +1,346 @@
+[
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "AccuracyOfEpochMonitorSegmentation",
+        "Updated": "AccuracyMonitorForEpSegm",
+        "Location": "deepmedic/logging/accuracyMonitor.py",
+        "Description": " class AccuracyOfEpochMonitorSegmentation was renamed to class AccuracyMonitorForEpSegm ",
+        "Commit": "00cdc6def3c81f832879b47b2ca028d133f5df92",
+        "GPT4 Component Graph": "Monitoring & Logging"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "deepmedic/logging/loggers.py/Logger",
+        "Original Line": 24,
+        "Updated Line": 24,
+        "Description": [
+            "The parameters [ log_txt_path ] of the method __init__ from the module deepmedic/logging/loggers.py in class Logger are changed/renamed to [log_path]"
+        ],
+        "Commit": "14d613c60e3022f14d69c3f1c5953bc5f1155d9f",
+        "GPT4 Component Graph": "Monitoring & Logging"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "errorSegmDimensionsSmallerThanReceptiveF",
+        "Updated": "errorSegmDimensionsSmallerThanReceptiveF",
+        "Location": "deepmedic/frontEnd/configParsing/modelParams.py/ModelParameters",
+        "Original Line": 23,
+        "Updated Line": 23,
+        "Description": [
+            "The parameters [ segmentDimensions ] of the method errorSegmDimensionsSmallerThanReceptiveF from the module deepmedic/frontEnd/configParsing/modelParams.py in class ModelParameters are changed/renamed to [inp_dims]"
+        ],
+        "Commit": "1e1d1a2b79bd3787ddd2b7fb3613a36f0217a251",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "x_entr",
+        "Updated": "x_entr",
+        "Location": "deepmedic/neuralnet/cost_functions.py",
+        "Original Line": 13,
+        "Updated Line": 13,
+        "Description": [
+            "The parameters [ eps ] are added to the method x_entr from the module deepmedic/neuralnet/cost_functions.py"
+        ],
+        "Commit": "1e27fc96294fb13969a23c158bd164ade5195587",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "makeFoldersNeededForTestingSession",
+        "Updated": "make_folders_for_test_session",
+        "Location": "deepmedic/frontEnd/sessHelpers.py",
+        "Original Line": 37,
+        "Updated Line": 37,
+        "Description": [
+            "The method makeFoldersNeededForTestingSession from the module deepmedic/frontEnd/sessHelpers.py is renamed to make_folders_for_test_session"
+        ],
+        "Commit": "3cbb57a041410be497f0ab191c43a31fa6889c40",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "makeFoldersNeededForTrainingSession",
+        "Updated": "make_folders_for_train_session",
+        "Location": "deepmedic/frontEnd/sessHelpers.py",
+        "Original Line": 81,
+        "Updated Line": 81,
+        "Description": [
+            "The method makeFoldersNeededForTrainingSession from the module deepmedic/frontEnd/sessHelpers.py is renamed to make_folders_for_train_session"
+        ],
+        "Commit": "3cbb57a041410be497f0ab191c43a31fa6889c40",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "initBn",
+        "Updated": "initBn",
+        "Location": "deepmedic/neuralnet/ops.py",
+        "Original Line": 47,
+        "Updated Line": 47,
+        "Description": [
+            "The parameters [ movingAvgOverXBatches ] are added to the method initBn from the module deepmedic/neuralnet/ops.py"
+        ],
+        "Commit": "3ffd599c72c928094c36d3c69fb75051f8715935",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "inferenceWholeVolumes",
+        "Updated": "forward_pass",
+        "Location": "deepmedic/routines/testing.py",
+        "Original Method Line": "(247,260)",
+        "Extracted/Inlined Method Line": 246,
+        "Extracted/Inlined Lines": [
+            400.0,
+            404.0,
+            406.0,
+            407.0
+        ],
+        "Description": " The method forward_pass from the module deepmedic/routines/testing.py is extracted from method inferenceWholeVolumes from the module deepmedic/routines/testing.py ",
+        "Commit": "4219af0b039bea1067cd919d7c3d293b8538741b",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "create_inp_plchldrs",
+        "Updated": "create_inp_plchldrs",
+        "Location": "deepmedic/neuralnet/cnn3d.py/Cnn3d",
+        "Original Line": 226,
+        "Updated Line": 226,
+        "Description": [
+            "The parameters [ kern_dims_hr_path ] of the method create_inp_plchldrs from the module deepmedic/neuralnet/cnn3d.py in class Cnn3d is/are removed"
+        ],
+        "Commit": "46402b9a4703256bd454ae79a87419c3393bf255",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "deepmedic/logging/loggers.py/Logger",
+        "Original Line": 23,
+        "Updated Line": 24,
+        "Description": [
+            "The parameters [ filenameAndPathOfLoggerTxt ] of the method __init__ from the module deepmedic/logging/loggers.py in class Logger are changed/renamed to [log_txt_path]"
+        ],
+        "Commit": "4a22b446842c9725dbd5a551844b5ed94a78c9f6",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "getLayer",
+        "Updated": "get_block",
+        "Location": "deepmedic/neuralnet/pathways.py/Pathway",
+        "Original Line": 285,
+        "Updated Line": 293,
+        "Description": [
+            "The method getLayer from the module deepmedic/neuralnet/pathways.py in class Pathway is renamed to get_block"
+        ],
+        "Commit": "4b45c5e576f7ea1213199e20c0767153b29c1949",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "get_path_to_load_model_from",
+        "Updated": "get_tensorboard_bool",
+        "Location": "deepmedic/frontEnd/configParsing/trainSessionParams.py/TrainSessionParameters",
+        "Original Line": 346,
+        "Updated Line": 452,
+        "Description": [
+            "The method get_path_to_load_model_from from the module deepmedic/frontEnd/configParsing/trainSessionParams.py in class TrainSessionParameters is renamed to get_tensorboard_bool"
+        ],
+        "Commit": "769ba79881434cbc083ef132ae37c8fe72b9ccdc",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "makeLayer",
+        "Updated": "makeLayer",
+        "Location": "deepmedic/neuralnet/layers.py/SoftmaxLayer",
+        "Original Line": 424,
+        "Updated Line": 424,
+        "Description": [
+            "The parameters [ softmaxTemperature ] of the method makeLayer from the module deepmedic/neuralnet/layers.py in class SoftmaxLayer are changed/renamed to [t]"
+        ],
+        "Commit": "8a2b018e0018555125aef5ce6833e5dc6d37d7b4",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "ConvLayer",
+        "Updated": "ConvBlock",
+        "Location": "deepmedic/neuralnet/layers.py",
+        "Description": " class ConvLayer was renamed to class ConvBlock ",
+        "Commit": "b14e41898c5276e1a809f3651e9db595b0d4b549",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "LowRankConvLayer",
+        "Updated": "LowRankConvBlock",
+        "Location": "deepmedic/neuralnet/layers.py",
+        "Description": " class LowRankConvLayer was renamed to class LowRankConvBlock ",
+        "Commit": "b14e41898c5276e1a809f3651e9db595b0d4b549",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "inferenceWholeVolumes",
+        "Updated": "print_start_log",
+        "Location": "deepmedic/routines/testing.py",
+        "Original Method Line": "(456,485)",
+        "Extracted/Inlined Method Line": 431,
+        "Extracted/Inlined Lines": [
+            483.0,
+            484.0,
+            486.0
+        ],
+        "Description": " The method print_start_log from the module deepmedic/routines/testing.py is extracted from method inferenceWholeVolumes from the module deepmedic/routines/testing.py ",
+        "Commit": "bc514abfa31644d7f4abe68e2d48730211af1b1a",
+        "GPT4 Component Graph": "Monitoring & Logging"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "inferenceWholeVolumes",
+        "Updated": "print_seg_i_log",
+        "Location": "deepmedic/routines/testing.py",
+        "Original Method Line": "(456,485)",
+        "Extracted/Inlined Method Line": 438,
+        "Extracted/Inlined Lines": [
+            524.0,
+            525.0
+        ],
+        "Description": " The method print_seg_i_log from the module deepmedic/routines/testing.py is extracted from method inferenceWholeVolumes from the module deepmedic/routines/testing.py ",
+        "Commit": "bc514abfa31644d7f4abe68e2d48730211af1b1a",
+        "GPT4 Component Graph": "Monitoring & Logging"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "inferenceWholeVolumes",
+        "Updated": "print_seg_log",
+        "Location": "deepmedic/routines/testing.py",
+        "Original Method Line": "(456,485)",
+        "Extracted/Inlined Method Line": 443,
+        "Extracted/Inlined Lines": [
+            569.0,
+            574.0
+        ],
+        "Description": " The method print_seg_log from the module deepmedic/routines/testing.py is extracted from method inferenceWholeVolumes from the module deepmedic/routines/testing.py ",
+        "Commit": "bc514abfa31644d7f4abe68e2d48730211af1b1a",
+        "GPT4 Component Graph": "Monitoring & Logging"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "inferenceWholeVolumes",
+        "Updated": "print_time_log",
+        "Location": "deepmedic/routines/testing.py",
+        "Original Method Line": "(456,485)",
+        "Extracted/Inlined Method Line": 451,
+        "Extracted/Inlined Lines": [
+            649.0
+        ],
+        "Description": " The method print_time_log from the module deepmedic/routines/testing.py is extracted from method inferenceWholeVolumes from the module deepmedic/routines/testing.py ",
+        "Commit": "bc514abfa31644d7f4abe68e2d48730211af1b1a",
+        "GPT4 Component Graph": "Monitoring & Logging"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "pooling3d",
+        "Updated": "pool3dMirrorPad",
+        "Location": "deepmedic/neuralnet/ops.py",
+        "Original Line": 267,
+        "Updated Line": 267,
+        "Description": [
+            "The method pooling3d from the module deepmedic/neuralnet/ops.py is renamed to pool3dMirrorPad"
+        ],
+        "Commit": "cbc32b30b36e3fc4dd5d7da86c8cca1759d351f0",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "create_inp_plchldrs",
+        "Updated": "create_inp_plchldrs",
+        "Location": "deepmedic/neuralnet/cnn3d.py/Cnn3d",
+        "Original Line": 226,
+        "Updated Line": 226,
+        "Description": [
+            "The parameters [ inp_dms ] of the method create_inp_plchldrs from the module deepmedic/neuralnet/cnn3d.py in class Cnn3d are changed/renamed to [inp_dims]"
+        ],
+        "Commit": "e1d3975a78de13e91e7367c316d941e9a430cfcf",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "applyBn",
+        "Updated": "applyBn",
+        "Location": "deepmedic/neuralnet/ops.py",
+        "Original Line": 64,
+        "Updated Line": 64,
+        "Description": [
+            "The parameters [ inputTest ] of the method applyBn from the module deepmedic/neuralnet/ops.py is/are removed"
+        ],
+        "Commit": "e9718b663bcb6b9ca38557ebcd255cdd3c19bed8",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Inline Method",
+        "Original": "inferenceWholeVolumes",
+        "Updated": "print_seg_i_log",
+        "Location": "deepmedic/routines/testing.py",
+        "Original Method Line": "(485,450)",
+        "Extracted/Inlined Method Line": 438,
+        "Extracted/Inlined Lines": [
+            522.0,
+            523.0
+        ],
+        "Description": " The method print_seg_i_log from the module deepmedic/routines/testing.py is inlined into method inferenceWholeVolumes from the module deepmedic/routines/testing.py ",
+        "Commit": "f0a8e40172d16a308741e66efe58424a3f950abb",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "getLayers",
+        "Updated": "get_blocks",
+        "Location": "deepmedic/neuralnet/pathways.py/Pathway",
+        "Original Line": 256,
+        "Updated Line": 256,
+        "Description": [
+            "The method getLayers from the module deepmedic/neuralnet/pathways.py in class Pathway is renamed to get_blocks"
+        ],
+        "Commit": "fa2af25183ae45ebcb34b8a1a400e43415b35ffe",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

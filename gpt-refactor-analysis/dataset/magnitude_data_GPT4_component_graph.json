@@ -1,0 +1,47 @@
+[
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_pad_to_length_left_truncate_none",
+        "Updated": "test_pad_to_length_truncate_none",
+        "Location": "tests/tests.py/MagnitudeTest",
+        "Original Line": 492,
+        "Updated Line": 528,
+        "Description": [
+            "The method test_pad_to_length_left_truncate_none from the module tests/tests.py in class MagnitudeTest is renamed to test_pad_to_length_truncate_none"
+        ],
+        "Commit": "13a9f2b9403da789059b8758491dfa2215e26088",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "create_magnitude",
+        "Updated": "create_magnitude",
+        "Location": "tests/benchmark.py",
+        "Original Line": 205,
+        "Updated Line": 205,
+        "Description": [
+            "The parameters [ case_insensitive ] are added to the method create_magnitude from the module tests/benchmark.py"
+        ],
+        "Commit": "7067de3b39c46ba631b04ebdead0b1104120f65b",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_create_empty_db",
+        "Updated": "_create_empty_db",
+        "Location": "pymagnitude/__init__.py/Magnitude",
+        "Original Line": 338,
+        "Updated Line": 335,
+        "Description": [
+            "The parameters [ db ] are added to the method _create_empty_db from the module pymagnitude/__init__.py in class Magnitude"
+        ],
+        "Commit": "949e71cb7723500821fae2220a4bb9c64692eb0b",
+        "GPT4 Component Graph": "Data Processing"
+    }
+]

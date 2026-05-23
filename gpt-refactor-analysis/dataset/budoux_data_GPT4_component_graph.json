@@ -1,0 +1,238 @@
+[
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "TestUpdateWeights",
+        "Updated": "TestUpdate",
+        "Location": "scripts/tests/test_train.py",
+        "Description": " class TestUpdateWeights was renamed to class TestUpdate ",
+        "Commit": "05334634dfaca635dcab05f1f4644803cb821ce9",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "pred",
+        "Updated": "pred",
+        "Location": "scripts/train.py",
+        "Original Line": 132,
+        "Updated Line": 128,
+        "Description": [
+            "The parameters [ phis ] of the method pred from the module scripts/train.py are changed/renamed to [scores]"
+        ],
+        "Commit": "05334634dfaca635dcab05f1f4644803cb821ce9",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "split_data",
+        "Updated": "split_data",
+        "Location": "scripts/train.py",
+        "Original Line": 99,
+        "Updated Line": 95,
+        "Description": [
+            "The return type of method split_data from the module scripts/train.py is updated"
+        ],
+        "Commit": "05334634dfaca635dcab05f1f4644803cb821ce9",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "update_weights",
+        "Updated": "update",
+        "Location": "scripts/train.py",
+        "Original Line": 184,
+        "Updated Line": 180,
+        "Description": [
+            "The method update_weights from the module scripts/train.py is renamed to update",
+            "The parameters [ M ] of the method update_weights from the module scripts/train.py is/are removed"
+        ],
+        "Commit": "05334634dfaca635dcab05f1f4644803cb821ce9",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "scripts/prepare_knbc.py/KNBCHTMLParser",
+        "Original Line": 55,
+        "Updated Line": 58,
+        "Description": [
+            "The parameters [ split_tab ] of the method __init__ from the module scripts/prepare_knbc.py in class KNBCHTMLParser are changed/renamed to [granularity]"
+        ],
+        "Commit": "09e26f8a5a2f2817921e9627f2cff917319b6a57",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_parse",
+        "Updated": "test_parse_phrase",
+        "Location": "scripts/tests/test_prepare_knbc.py/TestKNBCHTMLParser",
+        "Original Line": 64,
+        "Updated Line": 64,
+        "Description": [
+            "The method test_parse from the module scripts/tests/test_prepare_knbc.py in class TestKNBCHTMLParser is renamed to test_parse_phrase"
+        ],
+        "Commit": "09e26f8a5a2f2817921e9627f2cff917319b6a57",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_parse_split_tags",
+        "Updated": "test_parse_tag",
+        "Location": "scripts/tests/test_prepare_knbc.py/TestKNBCHTMLParser",
+        "Original Line": 69,
+        "Updated Line": 69,
+        "Description": [
+            "The method test_parse_split_tags from the module scripts/tests/test_prepare_knbc.py in class TestKNBCHTMLParser is renamed to test_parse_tag"
+        ],
+        "Commit": "09e26f8a5a2f2817921e9627f2cff917319b6a57",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "budoux/html_processor.py/HTMLChunkResolver",
+        "Original Line": 52,
+        "Updated Line": 52,
+        "Description": [
+            "The parameters [ separator ] are added to the method __init__ from the module budoux/html_processor.py in class HTMLChunkResolver"
+        ],
+        "Commit": "651fd4e503c06a1f2372f16b28436a416ea82869",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "resolve",
+        "Updated": "resolve",
+        "Location": "budoux/html_processor.py",
+        "Original Line": 108,
+        "Updated Line": 110,
+        "Description": [
+            "The parameters [ separator ] are added to the method resolve from the module budoux/html_processor.py"
+        ],
+        "Commit": "651fd4e503c06a1f2372f16b28436a416ea82869",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "split_dataset",
+        "Updated": "split_dataset",
+        "Location": "scripts/train.py",
+        "Original Line": 82,
+        "Updated Line": 82,
+        "Description": [
+            "The return type of method split_dataset from the module scripts/train.py is updated"
+        ],
+        "Commit": "a0eef65575d0da81fb6fcd79c980498ad61cce24",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "pred",
+        "Updated": "pred",
+        "Location": "scripts/train.py",
+        "Original Line": 143,
+        "Updated Line": 141,
+        "Description": [
+            "The return type of method pred from the module scripts/train.py is updated"
+        ],
+        "Commit": "c103cf2dcbad93c8119cf621c9a06d9716432dec",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "update",
+        "Updated": "update",
+        "Location": "scripts/train.py",
+        "Original Line": 195,
+        "Updated Line": 192,
+        "Description": [
+            "The return type of method update from the module scripts/train.py is updated"
+        ],
+        "Commit": "c103cf2dcbad93c8119cf621c9a06d9716432dec",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "process",
+        "Updated": "process",
+        "Location": "scripts/encode_data.py",
+        "Original Line": 105,
+        "Updated Line": 111,
+        "Description": [
+            "The parameters [ scale ] are added to the method process from the module scripts/encode_data.py"
+        ],
+        "Commit": "c3baa9ff4dc3d4a610eed1ae37f8b6f23b7ce543",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_on_positive_point",
+        "Updated": "test_on_negative_point_with_scale",
+        "Location": "scripts/tests/test_encode_data.py/TestProcess",
+        "Original Line": 121,
+        "Updated Line": 132,
+        "Description": [
+            "The method test_on_positive_point from the module scripts/tests/test_encode_data.py in class TestProcess is renamed to test_on_negative_point_with_scale"
+        ],
+        "Commit": "c3baa9ff4dc3d4a610eed1ae37f8b6f23b7ce543",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_on_negative_point",
+        "Updated": "test_on_positive_point_with_scale",
+        "Location": "scripts/tests/test_encode_data.py/TestProcess",
+        "Original Line": 129,
+        "Updated Line": 140,
+        "Description": [
+            "The method test_on_negative_point from the module scripts/tests/test_encode_data.py in class TestProcess is renamed to test_on_positive_point_with_scale"
+        ],
+        "Commit": "c3baa9ff4dc3d4a610eed1ae37f8b6f23b7ce543",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "check",
+        "Updated": "check",
+        "Location": "tests/test_feature_extractor.py/TestFeatureExtractor",
+        "Original Line": 50,
+        "Updated Line": 51,
+        "Description": [
+            "The parameters [ msg ] are added to the method check from the module tests/test_feature_extractor.py in class TestFeatureExtractor"
+        ],
+        "Commit": "de8538042e90f6b51bb9dff60bba5bb88946236a",
+        "GPT4 Component Graph": "Data Processing"
+    }
+]

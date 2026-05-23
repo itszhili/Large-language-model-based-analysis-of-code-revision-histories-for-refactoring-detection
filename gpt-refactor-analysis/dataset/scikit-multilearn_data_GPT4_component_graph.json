@@ -1,0 +1,448 @@
+[
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "clean",
+        "Updated": "_clean",
+        "Location": "skmultilearn/problem_transform/lp.py/LabelPowerset",
+        "Original Line": 114,
+        "Updated Line": 114,
+        "Description": [
+            "The method clean from the module skmultilearn/problem_transform/lp.py in class LabelPowerset is renamed to _clean"
+        ],
+        "Commit": "06ca80e861d57fa22af7ba34cd8306f7c907e401",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "skmultilearn/cluster/random.py/RandomLabelSpaceClusterer",
+        "Original Line": 13,
+        "Updated Line": 17,
+        "Description": [
+            "The parameters [ partition_size partition_count ] of the method __init__ from the module skmultilearn/cluster/random.py in class RandomLabelSpaceClusterer are changed/renamed to [cluster_size cluster_count]"
+        ],
+        "Commit": "14b9a942eefa8ab0f7e0021f229049308b67e520",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "skmultilearn/neurofuzzy/MLARAMfast.py/Neuron",
+        "Original Line": 17,
+        "Updated Line": 24,
+        "Description": [
+            "The parameters [ startpoint ] of the method __init__ from the module skmultilearn/neurofuzzy/MLARAMfast.py in class Neuron are changed/renamed to [vc]"
+        ],
+        "Commit": "1e37a901b717af971af9d92353afb2d7c1fbbb30",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "skmultilearn/adapt/mlknn.py/MLkNN",
+        "Original Line": 96,
+        "Updated Line": 98,
+        "Description": [
+            "The parameters [ n_jobs ] are added to the method __init__ from the module skmultilearn/adapt/mlknn.py in class MLkNN"
+        ],
+        "Commit": "20fbcfbd7beb475b12ec1294e29cf9204ec8c1a0",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "MatrixLabelSpaceClustererTests",
+        "Updated": "FixedLabelSpaceClustererTests",
+        "Location": "skmultilearn/cluster/tests/test_fixed.py",
+        "Description": " class MatrixLabelSpaceClustererTests was renamed to class FixedLabelSpaceClustererTests ",
+        "Commit": "23244f36eecddf6e26e948e832594b31295c9db9",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "draw_ordering",
+        "Updated": "generate_label_ordering",
+        "Location": "skmultilearn/problem_transform/transformations.py/RandomOrderedClassifierChain",
+        "Original Line": 10,
+        "Updated Line": 10,
+        "Description": [
+            "The method draw_ordering from the module skmultilearn/problem_transform/transformations.py in class RandomOrderedClassifierChain is renamed to generate_label_ordering"
+        ],
+        "Commit": "259dc6c5be37b1ea373076cd0b0803420f00979f",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "MLClassifierBaseTest",
+        "Updated": "ProblemTransformationBaseTest",
+        "Location": "skmultilearn/tests/test_base.py",
+        "Description": " class MLClassifierBaseTest was renamed to class ProblemTransformationBaseTest ",
+        "Commit": "259dc6c5be37b1ea373076cd0b0803420f00979f",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "skmultilearn/adapt/mlknn.py/MLkNN",
+        "Original Line": 12,
+        "Updated Line": 13,
+        "Description": [
+            "The parameters [ ignore_first_neighbours ] are added to the method __init__ from the module skmultilearn/adapt/mlknn.py in class MLkNN"
+        ],
+        "Commit": "3ae1660e25438fc42ffec8fddc0073e584a547ca",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "KNearestNeighbours",
+        "Updated": "MLkNN",
+        "Location": "skmultilearn/lazy/mlknn.py",
+        "Description": " class KNearestNeighbours was renamed to class MLkNN ",
+        "Commit": "4294646d7738e9837a227c1020d61ba0ea27b755",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "skmultilearn/ensemble/rakelo.py/RakelO",
+        "Original Line": 14,
+        "Updated Line": 14,
+        "Description": [
+            "The parameters [ models ] of the method __init__ from the module skmultilearn/ensemble/rakelo.py in class RakelO are changed/renamed to [model_count]"
+        ],
+        "Commit": "42de1644d58841c6e8c6c3ca10b1effc69658207",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "CCTest",
+        "Updated": "LPTest",
+        "Location": "skmultilearn/problem_transform/tests/test_lp.py",
+        "Description": " class CCTest was renamed to class LPTest ",
+        "Commit": "477efdd012f9696468ce7037dec5967b2b3de2de",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "skmultilearn/ensemble/rakelo.py/RakelO",
+        "Original Line": 20,
+        "Updated Line": 21,
+        "Description": [
+            "The parameters [ require_dense ] of the method __init__ from the module skmultilearn/ensemble/rakelo.py in class RakelO is/are removed"
+        ],
+        "Commit": "47d22ca4860a6bf3dc754a367b67fc0a04afd8b4",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "fit",
+        "Updated": "fit",
+        "Location": "skmultilearn/base/mock.py/MockClassifier",
+        "Original Line": 10,
+        "Updated Line": 12,
+        "Description": [
+            "The parameters [ self ] are added to the method fit from the module skmultilearn/base/mock.py in class MockClassifier"
+        ],
+        "Commit": "4ad6d7c628f44e52673c48ca25b4487142b213e5",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "predict",
+        "Updated": "predict",
+        "Location": "skmultilearn/base/mock.py/MockClassifier",
+        "Original Line": 14,
+        "Updated Line": 16,
+        "Description": [
+            "The parameters [ self ] are added to the method predict from the module skmultilearn/base/mock.py in class MockClassifier"
+        ],
+        "Commit": "4ad6d7c628f44e52673c48ca25b4487142b213e5",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_iclude_self_edges_is_not_bool_exception",
+        "Updated": "test_include_self_edges_is_not_bool_exception",
+        "Location": "skmultilearn/cluster/tests/test_base.py/ClustererBaseTests",
+        "Original Line": 17,
+        "Updated Line": 19,
+        "Description": [
+            "The method test_iclude_self_edges_is_not_bool_exception from the module skmultilearn/cluster/tests/test_base.py in class ClustererBaseTests is renamed to test_include_self_edges_is_not_bool_exception"
+        ],
+        "Commit": "4f9fc8e66ff37f4870f276d4d371a4eedf62af69",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_if_order_is_set",
+        "Updated": "test_if_order_is_set_when_explicitly_given",
+        "Location": "skmultilearn/problem_transform/tests/test_cc.py/CCTest",
+        "Original Line": 55,
+        "Updated Line": 55,
+        "Description": [
+            "The method test_if_order_is_set from the module skmultilearn/problem_transform/tests/test_cc.py in class CCTest is renamed to test_if_order_is_set_when_explicitly_given"
+        ],
+        "Commit": "608b43fb6b23fbb1db40a824a385d4cf555481f9",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "generate_partition",
+        "Updated": "_generate_partition",
+        "Location": "skmultilearn/problem_transform/br.py/BinaryRelevance",
+        "Original Line": 35,
+        "Updated Line": 113,
+        "Description": [
+            "The method generate_partition from the module skmultilearn/problem_transform/br.py in class BinaryRelevance is renamed to _generate_partition"
+        ],
+        "Commit": "60a956d7e0cd7baeebf9c17d52fa6dedda35a043",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "skmultilearn/ensemble/rakelo.py/RakelO",
+        "Original Line": 14,
+        "Updated Line": 8,
+        "Description": [
+            "The parameters [ base_classifier_require_dense ] are added to the method __init__ from the module skmultilearn/ensemble/rakelo.py in class RakelO"
+        ],
+        "Commit": "6a7c5a11f311c399720744d768d3f1cf7cc5996a",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "get_labelpowerset_with_nb",
+        "Updated": "get_rakeld_with_nb",
+        "Location": "skmultilearn/ensemble/tests/test_rakeld.py/RakelDTest",
+        "Original Line": 15,
+        "Updated Line": 20,
+        "Description": [
+            "The method get_labelpowerset_with_nb from the module skmultilearn/ensemble/tests/test_rakeld.py in class RakelDTest is renamed to get_rakeld_with_nb"
+        ],
+        "Commit": "6a7c5a11f311c399720744d768d3f1cf7cc5996a",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "get_labelpowerset_with_svc",
+        "Updated": "get_rakeld_with_svc",
+        "Location": "skmultilearn/ensemble/tests/test_rakeld.py/RakelDTest",
+        "Original Line": 12,
+        "Updated Line": 13,
+        "Description": [
+            "The method get_labelpowerset_with_svc from the module skmultilearn/ensemble/tests/test_rakeld.py in class RakelDTest is renamed to get_rakeld_with_svc"
+        ],
+        "Commit": "6a7c5a11f311c399720744d768d3f1cf7cc5996a",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "get_labelpowerset_with_nb",
+        "Updated": "get_rakeld_with_nb",
+        "Location": "skmultilearn/ensemble/tests/test_rakelo.py/RakelOTest",
+        "Original Line": 16,
+        "Updated Line": 22,
+        "Description": [
+            "The method get_labelpowerset_with_nb from the module skmultilearn/ensemble/tests/test_rakelo.py in class RakelOTest is renamed to get_rakeld_with_nb"
+        ],
+        "Commit": "6a7c5a11f311c399720744d768d3f1cf7cc5996a",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "get_labelpowerset_with_svc",
+        "Updated": "get_rakeld_with_svc",
+        "Location": "skmultilearn/ensemble/tests/test_rakelo.py/RakelOTest",
+        "Original Line": 13,
+        "Updated Line": 14,
+        "Description": [
+            "The method get_labelpowerset_with_svc from the module skmultilearn/ensemble/tests/test_rakelo.py in class RakelOTest is renamed to get_rakeld_with_svc"
+        ],
+        "Commit": "6a7c5a11f311c399720744d768d3f1cf7cc5996a",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "LabelSpacePartitioningClassifierTest",
+        "Updated": "FixedLabelSpacePartitioningClassifierTest",
+        "Location": "skmultilearn/ensemble/tests/test_fixed.py",
+        "Description": " class LabelSpacePartitioningClassifierTest was renamed to class FixedLabelSpacePartitioningClassifierTest ",
+        "Commit": "9765461c772705404282dd82ec2c5413c143a530",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "generate_partition",
+        "Updated": "_generate_partition",
+        "Location": "skmultilearn/ensemble/partition.py/LabelSpacePartitioningClassifier",
+        "Original Line": 34,
+        "Updated Line": 121,
+        "Description": [
+            "The method generate_partition from the module skmultilearn/ensemble/partition.py in class LabelSpacePartitioningClassifier is renamed to _generate_partition"
+        ],
+        "Commit": "a3ee45fa17f00fbfe4861dc90de779453aeb71f4",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "skmultilearn/meta/cc.py/ClassifierChain",
+        "Original Line": 10,
+        "Updated Line": 11,
+        "Description": [
+            "The parameters [ require_dense ] are added to the method __init__ from the module skmultilearn/meta/cc.py in class ClassifierChain"
+        ],
+        "Commit": "aaf18de354fe31e813713e8e8180072f1caf8125",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "skmultilearn/base.py/MLClassifierBase",
+        "Original Line": 15,
+        "Updated Line": 17,
+        "Description": [
+            "The parameters [ require_dense ] are added to the method __init__ from the module skmultilearn/base.py in class MLClassifierBase"
+        ],
+        "Commit": "d69ad8f122dd0989569595dbb6f34ef6ae075102",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "skmultilearn/meta/br.py/BinaryRelevance",
+        "Original Line": 9,
+        "Updated Line": 10,
+        "Description": [
+            "The parameters [ require_dense ] are added to the method __init__ from the module skmultilearn/meta/br.py in class BinaryRelevance"
+        ],
+        "Commit": "d69ad8f122dd0989569595dbb6f34ef6ae075102",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "skmultilearn/lazy/mlknn.py/KNearestNeighbours",
+        "Original Line": 8,
+        "Updated Line": 8,
+        "Description": [
+            "The parameters [ classifier ] of the method __init__ from the module skmultilearn/lazy/mlknn.py in class KNearestNeighbours is/are removed"
+        ],
+        "Commit": "d7b685c3c43dd232a22bbf8f363ace9f4177cf5c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "ClassifierChains",
+        "Updated": "ClassifierChain",
+        "Location": "skmultilearn/meta/cc.py",
+        "Description": " class ClassifierChains was renamed to class ClassifierChain ",
+        "Commit": "dae47d0b092e973268972ad550360aa4590b8f1b",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "get_unique_combinatinos",
+        "Updated": "get_unique_combinations",
+        "Location": "skmultilearn/model_selection/measures.py",
+        "Original Line": 70,
+        "Updated Line": 70,
+        "Description": [
+            "The method get_unique_combinatinos from the module skmultilearn/model_selection/measures.py is renamed to get_unique_combinations"
+        ],
+        "Commit": "e52a613b7816a2386e8bc765a8e8aa67b36434ab",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "test_if_dense_classification_works",
+        "Updated": "classifier_verification",
+        "Location": "skmultilearn/meta/tests/test_br.py/BRTest",
+        "Original Line": 20,
+        "Updated Line": 11,
+        "Description": [
+            "The method test_if_dense_classification_works from the module skmultilearn/meta/tests/test_br.py in class BRTest is renamed to classifier_verification",
+            "The parameters [ base_classifier indicator require_dense ] are added to the method test_if_dense_classification_works from the module skmultilearn/meta/tests/test_br.py in class BRTest"
+        ],
+        "Commit": "edb8d0b15bce2dec984cbe0b5f36c708f10d99a9",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "skmultilearn/meta/lp.py/LabelPowerset",
+        "Original Line": 9,
+        "Updated Line": 9,
+        "Description": [
+            "The parameters [ require_dense ] are added to the method __init__ from the module skmultilearn/meta/lp.py in class LabelPowerset"
+        ],
+        "Commit": "f4cbba9deedf7372a6568f0acec8b3067068e234",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

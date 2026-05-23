@@ -1,0 +1,323 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "forecast",
+        "Updated": "forecast",
+        "Location": "nixtlats/timegpt.py/TimeGPT",
+        "Original Line": 186,
+        "Updated Line": 208,
+        "Description": [
+            "The parameters [ validate_token ] are added to the method forecast from the module nixtlats/timegpt.py in class TimeGPT"
+        ],
+        "Commit": "10038ba043bdea6ead180b7aaec516604fc5b16e",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "tsforecast/forecast/make_forecast.py/TSForecast",
+        "Original Line": 49,
+        "Updated Line": 49,
+        "Description": [
+            "The parameters [ naive_forecast ] are added to the method __init__ from the module tsforecast/forecast/make_forecast.py in class TSForecast"
+        ],
+        "Commit": "27661c02510b210375368004e5c984b858deded3",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "nixtlats/timegpt.py/TimeGPT",
+        "Original Line": 20,
+        "Updated Line": 20,
+        "Description": [
+            "The parameters [ api_url ] of the method __init__ from the module nixtlats/timegpt.py in class TimeGPT is/are removed"
+        ],
+        "Commit": "2e7234bd8b4143616e163371cb0a01c8a31743e7",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "compute_tsfeatures",
+        "Updated": "compute_calendartsfeatures",
+        "Location": "api/main.py",
+        "Original Line": 61,
+        "Updated Line": 61,
+        "Description": [
+            "The method compute_tsfeatures from the module api/main.py is renamed to compute_calendartsfeatures"
+        ],
+        "Commit": "33551f7b10eec2528370b3d9ffd1cd5e8ac54011",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "tsforecast/forecast/make_forecast.py/TSForecast",
+        "Original Line": 46,
+        "Updated Line": 46,
+        "Description": [
+            "The parameters [ filename_target ] of the method __init__ from the module tsforecast/forecast/make_forecast.py in class TSForecast are changed/renamed to [filename]"
+        ],
+        "Commit": "33551f7b10eec2528370b3d9ffd1cd5e8ac54011",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "tsfeatures/calendar/make_holidays.py/CalendarFeatures",
+        "Original Line": 148,
+        "Updated Line": 148,
+        "Description": [
+            "The parameters [ filename_output ] are added to the method __init__ from the module tsfeatures/calendar/make_holidays.py in class CalendarFeatures"
+        ],
+        "Commit": "46684218cae68444f3c733f0f25888b9858e4e98",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "tsfeatures/features/make_features.py/TSFeatures",
+        "Original Line": 17,
+        "Updated Line": 17,
+        "Description": [
+            "The parameters [ filename_output ] are added to the method __init__ from the module tsfeatures/features/make_features.py in class TSFeatures"
+        ],
+        "Commit": "46684218cae68444f3c733f0f25888b9858e4e98",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "tsforecast/forecast/make_forecast.py/TSForecast",
+        "Original Line": 48,
+        "Updated Line": 48,
+        "Description": [
+            "The parameters [ dir_train dir_output ] are added to the method __init__ from the module tsforecast/forecast/make_forecast.py in class TSForecast"
+        ],
+        "Commit": "5f79fbb5ccf42dc1b7737f039e66a8d2abc9b068",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "tsforecast",
+        "Updated": "tsforecast",
+        "Location": "sdk/python-autotimeseries/autotimeseries/core.py/AutoTS",
+        "Original Line": 332,
+        "Updated Line": 332,
+        "Description": [
+            "The parameters [ filename_temporal objective metric learning_rate n_estimators num_leaves min_data_in_leaf bagging_freq bagging_fraction ] of the method tsforecast from the module sdk/python-autotimeseries/autotimeseries/core.py in class AutoTS is/are removed"
+        ],
+        "Commit": "7004525aa41a8ddb7dab8cc904ea954d6f099208",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "action_files/models_performance/main.py/Experiment",
+        "Original Line": 27,
+        "Updated Line": 27,
+        "Description": [
+            "The parameters [ experiment_name ] are added to the method __init__ from the module action_files/models_performance/main.py in class Experiment"
+        ],
+        "Commit": "736fe54b7c13aa36418f76a4a8a88e09a2a248b6",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "tsforecast/forecast/make_forecast.py/TSForecast",
+        "Original Line": 46,
+        "Updated Line": 46,
+        "Description": [
+            "The parameters [ metric ] are added to the method __init__ from the module tsforecast/forecast/make_forecast.py in class TSForecast"
+        ],
+        "Commit": "74798fa7032570736710e5c2dd11137b3ec11dae",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "TSForecastArgs",
+        "Updated": "TSForecastDataArgs",
+        "Location": "api/main.py",
+        "Description": " class TSForecastArgs was renamed to class TSForecastDataArgs ",
+        "Commit": "90b670afbf450fd5fe2de2b1735476aa42f96081",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "tsfeatures/calendar/make_holidays.py/CalendarFeatures",
+        "Original Line": 149,
+        "Updated Line": 149,
+        "Description": [
+            "The parameters [ scale ] are added to the method __init__ from the module tsfeatures/calendar/make_holidays.py in class CalendarFeatures"
+        ],
+        "Commit": "90e6364eb1efac184e0523bbc38d19948ba5afc8",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "evaluate_timegpt",
+        "Updated": "evaluate_timegpt",
+        "Location": "action_files/models_performance/main.py/Experiment",
+        "Original Line": 140,
+        "Updated Line": 140,
+        "Description": [
+            "The parameters [ model ] are added to the method evaluate_timegpt from the module action_files/models_performance/main.py in class Experiment"
+        ],
+        "Commit": "acc9a70569f3e7e83ac212edc8dbb8f09801f181",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "FileArgs",
+        "Updated": "S3Args",
+        "Location": "api/main.py",
+        "Description": " class FileArgs was renamed to class S3Args ",
+        "Commit": "acd6be66cc07f8e400eb54d5c6a45921643bf142",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "TimeGPT",
+        "Updated": "_TimeGPT",
+        "Location": "nixtlats/timegpt.py",
+        "Description": " class TimeGPT was renamed to class _TimeGPT ",
+        "Commit": "be49a7a27d80767eaa04efb70eeba561edf09bc2",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "TSForecast",
+        "Updated": "TSForecastARIMA",
+        "Location": "tsforecast/forecast/make_forecast.py",
+        "Description": " class TSForecast was renamed to class TSForecastARIMA ",
+        "Commit": "c6ae7fea37cd3c07806bc890ebb5cd4fb3f25e7d",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "compute_tsforecast",
+        "Updated": "compute_tsforecast",
+        "Location": "api/main.py",
+        "Original Line": 105,
+        "Updated Line": 91,
+        "Description": [
+            "The parameters [ model_args ] of the method compute_tsforecast from the module api/main.py is/are removed"
+        ],
+        "Commit": "d20545fffcd7ec0c44d5de3c9d3937bab42d75dc",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "detect_anomalies",
+        "Updated": "detect_anomalies",
+        "Location": "nixtlats/distributed/timegpt.py/_DistributedTimeGPT",
+        "Original Line": 163,
+        "Updated Line": 165,
+        "Description": [
+            "The parameters [ model ] are added to the method detect_anomalies from the module nixtlats/distributed/timegpt.py in class _DistributedTimeGPT"
+        ],
+        "Commit": "d2317158b9bc1bb91d81a8fb2274241f25691235",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "forecast",
+        "Updated": "forecast",
+        "Location": "nixtlats/distributed/timegpt.py/_DistributedTimeGPT",
+        "Original Line": 117,
+        "Updated Line": 117,
+        "Description": [
+            "The parameters [ model ] are added to the method forecast from the module nixtlats/distributed/timegpt.py in class _DistributedTimeGPT"
+        ],
+        "Commit": "d2317158b9bc1bb91d81a8fb2274241f25691235",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "tsforecast/forecast/make_forecast.py/TSForecast",
+        "Original Line": 46,
+        "Updated Line": 46,
+        "Description": [
+            "The parameters [ backtest_windows ] are added to the method __init__ from the module tsforecast/forecast/make_forecast.py in class TSForecast"
+        ],
+        "Commit": "d959f866d70874c9f376247cc4b207cb5688282f",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "detect_anomalies",
+        "Updated": "detect_anomalies",
+        "Location": "nixtlats/distributed/timegpt.py/_DistributedTimeGPT",
+        "Original Line": 157,
+        "Updated Line": 157,
+        "Description": [
+            "The parameters [ clean_ex_first date_features date_features_to_one_hot ] are added to the method detect_anomalies from the module nixtlats/distributed/timegpt.py in class _DistributedTimeGPT"
+        ],
+        "Commit": "ecf4df80b800ec1c11ffb139df2b930008b93285",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "tsforecast/forecast/make_forecast.py/TSForecast",
+        "Original Line": 48,
+        "Updated Line": 48,
+        "Description": [
+            "The parameters [ filename_temporal_future ] of the method __init__ from the module tsforecast/forecast/make_forecast.py in class TSForecast is/are removed"
+        ],
+        "Commit": "fb09dda21ae95cad1091a6111e8c5afb5c0ead32",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

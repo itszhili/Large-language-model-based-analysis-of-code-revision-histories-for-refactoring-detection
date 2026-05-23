@@ -1,0 +1,146 @@
+[
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "respond",
+        "Updated": "respond",
+        "Location": "agent/chain.py/BloomChain",
+        "Original Line": 66,
+        "Updated Line": 60,
+        "Description": [
+            "The parameters [ self ] of the method respond from the module agent/chain.py in class BloomChain are changed/renamed to [cls]"
+        ],
+        "Commit": "018a3d8d6dc832682174b8e7559d14c7ae90e52a",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "think",
+        "Updated": "think",
+        "Location": "agent/chain.py/BloomChain",
+        "Original Line": 49,
+        "Updated Line": 42,
+        "Description": [
+            "The parameters [ self ] of the method think from the module agent/chain.py in class BloomChain are changed/renamed to [cls]"
+        ],
+        "Commit": "018a3d8d6dc832682174b8e7559d14c7ae90e52a",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "add_conversation",
+        "Updated": "add_conversation",
+        "Location": "agent/mediator.py/SupabaseMediator",
+        "Original Line": 70,
+        "Updated Line": 71,
+        "Description": [
+            "The parameters [ metadata ] are added to the method add_conversation from the module agent/mediator.py in class SupabaseMediator"
+        ],
+        "Commit": "028825429ee3b968bb7aa082cb5ccc03cefc9483",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "agent/chain.py/BloomChain",
+        "Original Line": 31,
+        "Updated Line": 32,
+        "Description": [
+            "The parameters [ llm verbose ] of the method __init__ from the module agent/chain.py in class BloomChain is/are removed"
+        ],
+        "Commit": "1ce5316c400c4ba7499d42b49d5a84746e26d6b2",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "load_chains",
+        "Updated": "load_chains",
+        "Location": "chain.py",
+        "Original Line": 59,
+        "Updated Line": 59,
+        "Description": [
+            "The parameters [ thought_memory response_memory ] of the method load_chains from the module chain.py is/are removed"
+        ],
+        "Commit": "28f10882c08c1dfb353686c22c7cb1cffcbc761b",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "ChannelCache",
+        "Updated": "ConversationCache",
+        "Location": "chain.py",
+        "Description": " class ChannelCache was renamed to class ConversationCache ",
+        "Commit": "482e4b6214a6fadcc6234bfd58caaf2f64af6864",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "chain.py/ConversationCache",
+        "Original Line": 166,
+        "Updated Line": 166,
+        "Description": [
+            "The parameters [ convo_type ] are added to the method __init__ from the module chain.py in class ConversationCache"
+        ],
+        "Commit": "643eb777b1d1f2dd5e0a18b740374dc788c2cead",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "respond",
+        "Updated": "respond",
+        "Location": "agent/chain.py/BloomChain",
+        "Original Line": 62,
+        "Updated Line": 66,
+        "Description": [
+            "The parameters [ response_memory ] of the method respond from the module agent/chain.py in class BloomChain are changed/renamed to [cache]"
+        ],
+        "Commit": "6b026a96a871b12b7f7e223fb36d05d23e93615c",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "load_chains",
+        "Updated": "load_chains",
+        "Location": "chain.py",
+        "Original Line": 57,
+        "Updated Line": 57,
+        "Description": [
+            "The parameters [ thought_memory response_memory ] are added to the method load_chains from the module chain.py"
+        ],
+        "Commit": "b7a1023a169a97cd1f135aa3b14595f21b88295d",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "chain.py/ConversationCache",
+        "Original Line": 228,
+        "Updated Line": 155,
+        "Description": [
+            "The parameters [ context ] of the method __init__ from the module chain.py in class ConversationCache is/are removed"
+        ],
+        "Commit": "dd72081417c1c41a03bbf24b65ba6ccab15588ab",
+        "GPT4 Component Graph": "Data Processing"
+    }
+]

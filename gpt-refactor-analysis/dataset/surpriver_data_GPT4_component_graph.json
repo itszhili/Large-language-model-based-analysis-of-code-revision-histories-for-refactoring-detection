@@ -1,0 +1,47 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data_loader.py/DataEngine",
+        "Original Line": 24,
+        "Updated Line": 24,
+        "Description": [
+            "The parameters [ volatility_filter ] are added to the method __init__ from the module data_loader.py in class DataEngine"
+        ],
+        "Commit": "b821d5b54e30bdc733b5f893456f150203756206",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data_loader.py/DataEngine",
+        "Original Line": 24,
+        "Updated Line": 26,
+        "Description": [
+            "The parameters [ stocks_list data_source ] are added to the method __init__ from the module data_loader.py in class DataEngine"
+        ],
+        "Commit": "c63a9b2251c3ed71a4c97da4e70e1fa737761029",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data_loader.py/DataEngine",
+        "Original Line": 24,
+        "Updated Line": 26,
+        "Description": [
+            "The parameters [ stocks_list data_source ] are added to the method __init__ from the module data_loader.py in class DataEngine"
+        ],
+        "Commit": "eae984077c47b525b17ecf0866017d95612ae5d5",
+        "GPT4 Component Graph": "Data Processing"
+    }
+]

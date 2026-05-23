@@ -1,0 +1,512 @@
+[
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Change/Rename Parameter"
+        ],
+        "Original": "center_size",
+        "Updated": "point_form",
+        "Location": "box_utils.py",
+        "Original Line": 57,
+        "Updated Line": 8,
+        "Description": [
+            "The method center_size from the module box_utils.py is renamed to point_form",
+            "The parameters [ priors ] of the method center_size from the module box_utils.py are changed/renamed to [boxes]"
+        ],
+        "Commit": "093b3d212c1f4dcbb6a94d275fbb6f5f0c845f0a",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "voc.py/VOCSegmentation",
+        "Original Line": 89,
+        "Updated Line": 50,
+        "Description": [
+            "The parameters [ transform ] of the method __init__ from the module voc.py in class VOCSegmentation are changed/renamed to [input_transform]"
+        ],
+        "Commit": "1945ca0d9e4850ed0517978a00f2f86fcabe0ce1",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_transform",
+        "Updated": "base_transform",
+        "Location": "data/data_augment.py",
+        "Original Line": 91,
+        "Updated Line": 91,
+        "Description": [
+            "The method test_transform from the module data/data_augment.py is renamed to base_transform"
+        ],
+        "Commit": "1aef97b1e16d240eada166008b51675fd5786a15",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "SwapChannelTransform",
+        "Updated": "SwapChannel",
+        "Location": "data/data_augment.py",
+        "Description": " class SwapChannelTransform was renamed to class SwapChannel ",
+        "Commit": "1aef97b1e16d240eada166008b51675fd5786a15",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data/voc.py/AnnotationTransform",
+        "Original Line": 98,
+        "Updated Line": 99,
+        "Description": [
+            "The parameters [ class_to_index ] of the method __init__ from the module data/voc.py in class AnnotationTransform are changed/renamed to [class_to_ind]"
+        ],
+        "Commit": "27c5f12e2335cd32164c5767cefe91ffb2d8ea69",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "TransformVOCAnnotation",
+        "Updated": "AnnotationTransform",
+        "Location": "voc.py",
+        "Description": " class TransformVOCAnnotation was renamed to class AnnotationTransform ",
+        "Commit": "3d24276dfe8a05c67faf3aa6fb49f89508392794",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "decode_boxes",
+        "Updated": "decode_boxes",
+        "Location": "utils.py",
+        "Original Line": 8,
+        "Updated Line": 7,
+        "Description": [
+            "The parameters [ code_type ] of the method decode_boxes from the module utils.py is/are removed"
+        ],
+        "Commit": "4fefb9f6c4fd2026cdbe2c570afe9ff853bdb786",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "test_net",
+        "Updated": "test_net",
+        "Location": "utils/metrics/evaluate.py",
+        "Original Line": 62,
+        "Updated Line": 62,
+        "Description": [
+            "The parameters [ save_folder thresh ] of the method test_net from the module utils/metrics/evaluate.py is/are removed"
+        ],
+        "Commit": "546e6c506204a8271b5d189ad9f62fa94a1e6747",
+        "GPT4 Component Graph": "Evaluation"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "utils/metrics/mAPmeter.py/mAPMeter",
+        "Original Line": 8,
+        "Updated Line": 16,
+        "Description": [
+            "The parameters [ ovp_thresh use_difficult class_names pred_idx ] of the method __init__ from the module utils/metrics/mAPmeter.py in class mAPMeter is/are removed"
+        ],
+        "Commit": "6034a97e3069855c869a1734f411d3bad67a8a67",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data/coco.py/COCODetection",
+        "Original Line": 59,
+        "Updated Line": 72,
+        "Description": [
+            "The parameters [ dataset_name ] are added to the method __init__ from the module data/coco.py in class COCODetection"
+        ],
+        "Commit": "66faf9cb02604e0909d39f8a9f59e03d3dd9008b",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "AnnotationTransform",
+        "Updated": "VOCAnnotationTransform",
+        "Location": "data/voc0712.py",
+        "Description": " class AnnotationTransform was renamed to class VOCAnnotationTransform ",
+        "Commit": "66faf9cb02604e0909d39f8a9f59e03d3dd9008b",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "detection_collate",
+        "Updated": "detection_collate",
+        "Old Location": "data/voc0712.py",
+        "New Location": "data/__init__.py",
+        "Old Method Line": 188,
+        "New Method Line": 9,
+        "Description": " method detection_collate from the module data/voc0712.py was moved to module data/__init__.py ",
+        "Commit": "66faf9cb02604e0909d39f8a9f59e03d3dd9008b",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "apply_nms",
+        "Updated": "nms",
+        "Location": "box_utils.py",
+        "Original Line": 182,
+        "Updated Line": 181,
+        "Description": [
+            "The method apply_nms from the module box_utils.py is renamed to nms"
+        ],
+        "Commit": "804fef391e8e695fe1d206a31a27a5104262062e",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "voc.py/VOCDetection",
+        "Original Line": 126,
+        "Updated Line": 103,
+        "Description": [
+            "The parameters [ dataset_name ] are added to the method __init__ from the module voc.py in class VOCDetection"
+        ],
+        "Commit": "80a35a50ae1109604927a4f2708efbedf9c4ffed",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "test_transform",
+        "Updated": "train_transform",
+        "Location": "data/data_augmentor.py",
+        "Original Line": 65,
+        "Updated Line": 65,
+        "Description": [
+            "The method test_transform from the module data/data_augmentor.py is renamed to train_transform"
+        ],
+        "Commit": "8ad7057d398804be27e60a7ede8d345d2330456c",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__call__",
+        "Updated": "__call__",
+        "Location": "data/voc.py/AnnotationTransform",
+        "Original Line": 104,
+        "Updated Line": 103,
+        "Description": [
+            "The parameters [ channels ] of the method __call__ from the module data/voc.py in class AnnotationTransform is/are removed"
+        ],
+        "Commit": "8caf2e68d42d3c9338ea72bf93c8431fca55bc85",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data/coco.py/COCODetection",
+        "Original Line": 77,
+        "Updated Line": 86,
+        "Description": [
+            "The parameters [ dataset_name ] are added to the method __init__ from the module data/coco.py in class COCODetection"
+        ],
+        "Commit": "8dd38657a3b1df98df26cf18be9671647905c2a0",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "ssd.py/SSD",
+        "Original Line": 27,
+        "Updated Line": 28,
+        "Description": [
+            "The parameters [ size ] are added to the method __init__ from the module ssd.py in class SSD"
+        ],
+        "Commit": "8dd38657a3b1df98df26cf18be9671647905c2a0",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "train_transform",
+        "Updated": "test_transform",
+        "Location": "data/data_augmentor.py",
+        "Original Line": 65,
+        "Updated Line": 82,
+        "Description": [
+            "The method train_transform from the module data/data_augmentor.py is renamed to test_transform"
+        ],
+        "Commit": "97a62abc7cdc80f8330c26563bbd9a3cac30711d",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "data_augment",
+        "Updated": "train_transform",
+        "Location": "data/data_augmentor.py",
+        "Original Line": 36,
+        "Updated Line": 36,
+        "Description": [
+            "The method data_augment from the module data/data_augmentor.py is renamed to train_transform"
+        ],
+        "Commit": "97a62abc7cdc80f8330c26563bbd9a3cac30711d",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "__getitem__",
+        "Updated": "pull_item",
+        "Location": "data/voc0712.py/VOCDetection",
+        "Original Method Line": "(169,116)",
+        "Extracted/Inlined Method Line": 124,
+        "Extracted/Inlined Lines": [
+            170.0,
+            171.0,
+            172.0,
+            173.0,
+            181.0,
+            182.0
+        ],
+        "Description": " The method pull_item from the module data/voc0712.py in class VOCDetection is extracted from method __getitem__ from the module data/voc0712.py in class VOCDetection ",
+        "Commit": "a62fb84f8e887799a627e9e57d1bb99a825e1c5a",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "layers/modules/multibox_loss.py/MultiBoxLoss",
+        "Original Line": 37,
+        "Updated Line": 32,
+        "Description": [
+            "The parameters [ use_gpu ] are added to the method __init__ from the module layers/modules/multibox_loss.py in class MultiBoxLoss"
+        ],
+        "Commit": "a62fb84f8e887799a627e9e57d1bb99a825e1c5a",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "_functions/prior_box.py/PriorBox",
+        "Original Line": 12,
+        "Updated Line": 20,
+        "Description": [
+            "The parameters [ clip ] of the method __init__ from the module _functions/prior_box.py in class PriorBox is/are removed"
+        ],
+        "Commit": "c1c9074f6c5194392cd86ff6bf6f1526a6e5c435",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "build_base",
+        "Updated": "vgg",
+        "Location": "ssd.py",
+        "Original Line": 210,
+        "Updated Line": 130,
+        "Description": [
+            "The method build_base from the module ssd.py is renamed to vgg"
+        ],
+        "Commit": "c1c9074f6c5194392cd86ff6bf6f1526a6e5c435",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "forward",
+        "Updated": "forward",
+        "Location": "detection_output.py/Detect",
+        "Original Line": 36,
+        "Updated Line": 23,
+        "Description": [
+            "The parameters [ box_data ] of the method forward from the module detection_output.py in class Detect are changed/renamed to [prior_data]"
+        ],
+        "Commit": "cd6156bb53e42629011f370b4799fec031ad38b4",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "forward",
+        "Updated": "forward",
+        "Location": "model.py/SSD",
+        "Original Line": 84,
+        "Updated Line": 113,
+        "Description": [
+            "The parameters [ phase ] of the method forward from the module model.py in class SSD is/are removed"
+        ],
+        "Commit": "cd6156bb53e42629011f370b4799fec031ad38b4",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "make_layers",
+        "Updated": "build_base",
+        "Location": "model.py",
+        "Original Line": 123,
+        "Updated Line": 218,
+        "Description": [
+            "The method make_layers from the module model.py is renamed to build_base"
+        ],
+        "Commit": "cd6156bb53e42629011f370b4799fec031ad38b4",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "data/coco.py/COCODetection",
+        "Original Line": 72,
+        "Updated Line": 77,
+        "Description": [
+            "The parameters [ dataset_name ] of the method __init__ from the module data/coco.py in class COCODetection is/are removed"
+        ],
+        "Commit": "e1bb0d0d8e4608589e1e108bd15097876d79f49f",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "train",
+        "Updated": "create_vis_plot",
+        "Location": "train.py",
+        "Original Method Line": "(104,104)",
+        "Extracted/Inlined Method Line": 191,
+        "Extracted/Inlined Lines": [
+            119.0
+        ],
+        "Description": " The method create_vis_plot from the module train.py is extracted from method train from the module train.py ",
+        "Commit": "e1bb0d0d8e4608589e1e108bd15097876d79f49f",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "train",
+        "Updated": "update_vis_plot",
+        "Location": "train.py",
+        "Original Method Line": "(104,104)",
+        "Extracted/Inlined Method Line": 204,
+        "Extracted/Inlined Lines": [
+            152.0,
+            200.0,
+            201.0
+        ],
+        "Description": " The method update_vis_plot from the module train.py is extracted from method train from the module train.py ",
+        "Commit": "e1bb0d0d8e4608589e1e108bd15097876d79f49f",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "voc.py/VOCSegmentation",
+        "Original Line": 50,
+        "Updated Line": 56,
+        "Description": [
+            "The parameters [ input_transform ] of the method __init__ from the module voc.py in class VOCSegmentation are changed/renamed to [transform]"
+        ],
+        "Commit": "e385d07f7a013ae8e6716bdc4833c6fa32465137",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "show",
+        "Updated": "show",
+        "Location": "voc.py/VOCDetection",
+        "Original Line": 182,
+        "Updated Line": 177,
+        "Description": [
+            "The parameters [ subparts ] are added to the method show from the module voc.py in class VOCDetection"
+        ],
+        "Commit": "ee5b775026eb53238fe1821e19a774dc1e1a41da",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "test_net",
+        "Updated": "test_net",
+        "Location": "test.py",
+        "Original Line": 34,
+        "Updated Line": 31,
+        "Description": [
+            "The parameters [ top_k ] of the method test_net from the module test.py is/are removed"
+        ],
+        "Commit": "f11749586af995fa72dc11f387c75cd20a981c7f",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "test_net",
+        "Updated": "test_net",
+        "Location": "voc_eval.py",
+        "Original Line": 338,
+        "Updated Line": 335,
+        "Description": [
+            "The parameters [ transform thresh ] of the method test_net from the module voc_eval.py is/are removed"
+        ],
+        "Commit": "f11749586af995fa72dc11f387c75cd20a981c7f",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "ssd.py/SSD",
+        "Original Line": 33,
+        "Updated Line": 34,
+        "Description": [
+            "The parameters [ version ] are added to the method __init__ from the module ssd.py in class SSD"
+        ],
+        "Commit": "fcbd43e2812a0fb9ce37d06bcf9222741a65ebbd",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

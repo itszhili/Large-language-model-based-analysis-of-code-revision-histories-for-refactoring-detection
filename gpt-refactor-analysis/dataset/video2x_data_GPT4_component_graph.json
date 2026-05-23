@@ -1,0 +1,1570 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "waifu2x.py/WAIFU2X",
+        "Original Line": 29,
+        "Updated Line": 26,
+        "Description": [
+            "The parameters [ model_type ] are added to the method __init__ from the module waifu2x.py in class WAIFU2X"
+        ],
+        "Commit": "0000f138fb365111a7ffed2a859620bccc95e91c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "src/wrappers/ffmpeg.py/Ffmpeg",
+        "Original Line": 30,
+        "Updated Line": 30,
+        "Description": [
+            "The parameters [ image_format ] of the method __init__ from the module src/wrappers/ffmpeg.py in class Ffmpeg are changed/renamed to [extracted_frame_format]"
+        ],
+        "Commit": "0b15fb7bd294207824ff83e553d524910d449bc2",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "make_gif",
+        "Updated": "make_gif",
+        "Location": "src/wrappers/gifski.py/Gifski",
+        "Original Line": 25,
+        "Updated Line": 25,
+        "Description": [
+            "The parameters [ image_format ] of the method make_gif from the module src/wrappers/gifski.py in class Gifski are changed/renamed to [extracted_frame_format]"
+        ],
+        "Commit": "0b15fb7bd294207824ff83e553d524910d449bc2",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "start_progress_bar",
+        "Updated": "progress_monitor",
+        "Location": "src/video2x_gui.py/Video2XMainWindow",
+        "Original Line": 633,
+        "Updated Line": 658,
+        "Description": [
+            "The method start_progress_bar from the module src/video2x_gui.py in class Video2XMainWindow is renamed to progress_monitor"
+        ],
+        "Commit": "0d9d5c4f43c0b8ef0e10b7ad389a44420973f705",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "show_message",
+        "Updated": "show_information",
+        "Location": "src/video2x_gui.py/Video2XMainWindow",
+        "Original Line": 623,
+        "Updated Line": 626,
+        "Description": [
+            "The method show_message from the module src/video2x_gui.py in class Video2XMainWindow is renamed to show_information",
+            "The parameters [ custom_icon ] of the method show_message from the module src/video2x_gui.py in class Video2XMainWindow is/are removed"
+        ],
+        "Commit": "0d9d5c4f43c0b8ef0e10b7ad389a44420973f705",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "upscale_errored",
+        "Updated": "upscale_errored",
+        "Location": "src/video2x_gui.py/Video2XMainWindow",
+        "Original Line": 754,
+        "Updated Line": 783,
+        "Description": [
+            "The parameters [ error_message ] of the method upscale_errored from the module src/video2x_gui.py in class Video2XMainWindow are changed/renamed to [exception]"
+        ],
+        "Commit": "0d9d5c4f43c0b8ef0e10b7ad389a44420973f705",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "ProgressBarWorker",
+        "Updated": "ProgressMonitorWorkder",
+        "Location": "src/video2x_gui.py",
+        "Description": " class ProgressBarWorker was renamed to class ProgressMonitorWorkder ",
+        "Commit": "0d9d5c4f43c0b8ef0e10b7ad389a44420973f705",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "bin/upscaler.py/Upscaler",
+        "Original Line": 33,
+        "Updated Line": 33,
+        "Description": [
+            "The parameters [ extracted_frames upscaled_frames preserve_frames ] are added to the method __init__ from the module bin/upscaler.py in class Upscaler"
+        ],
+        "Commit": "12e9e084c8ce2852a503b088461c070ae346e8c4",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "bin/ffmpeg.py/Ffmpeg",
+        "Original Line": 25,
+        "Updated Line": 24,
+        "Description": [
+            "The parameters [ outfile ] of the method __init__ from the module bin/ffmpeg.py in class Ffmpeg is/are removed"
+        ],
+        "Commit": "150ab58b407c640b73f8f588bb9920a606cd1850",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "convert_video",
+        "Updated": "convert_video",
+        "Location": "bin/ffmpeg.py/Ffmpeg",
+        "Original Line": 61,
+        "Updated Line": 60,
+        "Description": [
+            "The parameters [ upscaled ] of the method convert_video from the module bin/ffmpeg.py in class Ffmpeg are changed/renamed to [upscaled_frames]"
+        ],
+        "Commit": "150ab58b407c640b73f8f588bb9920a606cd1850",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "extract_frames",
+        "Updated": "extract_frames",
+        "Location": "bin/ffmpeg.py/Ffmpeg",
+        "Original Line": 31,
+        "Updated Line": 45,
+        "Description": [
+            "The parameters [ videoin outpath ] of the method extract_frames from the module bin/ffmpeg.py in class Ffmpeg are changed/renamed to [input_video extracted_frames]"
+        ],
+        "Commit": "150ab58b407c640b73f8f588bb9920a606cd1850",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "waifu2x.py/WAIFU2X",
+        "Original Line": 20,
+        "Updated Line": 20,
+        "Description": [
+            "The parameters [ method ] are added to the method __init__ from the module waifu2x.py in class WAIFU2X"
+        ],
+        "Commit": "15780d535595013157ec6167ad86deb81d7ff20b",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "upscale",
+        "Updated": "upscale",
+        "Location": "bin/waifu2x_caffe.py/Waifu2xCaffe",
+        "Original Line": 36,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ threads_exceptions ] are added to the method upscale from the module bin/waifu2x_caffe.py in class Waifu2xCaffe"
+        ],
+        "Commit": "1d57c6652e0d90e2c94f41b9290b6642558e385d",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "upscale",
+        "Updated": "upscale",
+        "Location": "bin/waifu2x_converter.py/Waifu2xConverter",
+        "Original Line": 31,
+        "Updated Line": 31,
+        "Description": [
+            "The parameters [ threads_exceptions ] are added to the method upscale from the module bin/waifu2x_converter.py in class Waifu2xConverter"
+        ],
+        "Commit": "1d57c6652e0d90e2c94f41b9290b6642558e385d",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "video2x/video2x.py/Video2X",
+        "Original Line": 109,
+        "Updated Line": 109,
+        "Description": [
+            "The parameters [ progress_callback ] are added to the method __init__ from the module video2x/video2x.py in class Video2X"
+        ],
+        "Commit": "22993028b4221b88e1f49cb054df9f2435986e04",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "ffmpeg.py/Ffmpeg",
+        "Original Line": 25,
+        "Updated Line": 25,
+        "Description": [
+            "The parameters [ ffmpeg_arguments ] are added to the method __init__ from the module ffmpeg.py in class Ffmpeg"
+        ],
+        "Commit": "24e523afd3f592f6abc74b4e536deb463a6d05a6",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "main",
+        "Updated": "video2x",
+        "Location": "video2x.py",
+        "Original Line": 85,
+        "Updated Line": 98,
+        "Description": [
+            "The method main from the module video2x.py is renamed to video2x"
+        ],
+        "Commit": "254c76154670fda6b0ec7f1cd4021d2b876d8981",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "run",
+        "Updated": "_print_output",
+        "Location": "video2x/pipe_printer.py/PipePrinter",
+        "Original Method Line": "(42,47)",
+        "Extracted/Inlined Method Line": 42,
+        "Extracted/Inlined Lines": [
+            49.0,
+            51.0
+        ],
+        "Description": " The method _print_output from the module video2x/pipe_printer.py in class PipePrinter is extracted from method run from the module video2x/pipe_printer.py in class PipePrinter ",
+        "Commit": "2bfcb139765338d88a1f2b32dd970fad00807dbb",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "upscale",
+        "Updated": "start",
+        "Location": "src/video2x_gui.py/Video2XMainWindow",
+        "Original Line": 500,
+        "Updated Line": 553,
+        "Description": [
+            "The method upscale from the module src/video2x_gui.py in class Video2XMainWindow is renamed to start"
+        ],
+        "Commit": "3168737fd4346b6a9f9af17ca7bb596658032f02",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "start_progress_bar",
+        "Updated": "start_progress_bar",
+        "Location": "src/video2x_gui.py/Video2XMainWindow",
+        "Original Line": 485,
+        "Updated Line": 509,
+        "Description": [
+            "The parameters [ progress_callback ] are added to the method start_progress_bar from the module src/video2x_gui.py in class Video2XMainWindow"
+        ],
+        "Commit": "3168737fd4346b6a9f9af17ca7bb596658032f02",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "Worker",
+        "Updated": "UpscalerWorker",
+        "Location": "src/video2x_gui.py",
+        "Description": " class Worker was renamed to class UpscalerWorker ",
+        "Commit": "3168737fd4346b6a9f9af17ca7bb596658032f02",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "UpscalerSignals",
+        "Updated": "WorkerSignals",
+        "Location": "src/video2x_gui.py",
+        "Description": " class UpscalerSignals was renamed to class WorkerSignals ",
+        "Commit": "3168737fd4346b6a9f9af17ca7bb596658032f02",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "bin/upscaler.py/Upscaler",
+        "Original Line": 35,
+        "Updated Line": 40,
+        "Description": [
+            "The parameters [ model_type ] of the method __init__ from the module bin/upscaler.py in class Upscaler are changed/renamed to [model_dir]"
+        ],
+        "Commit": "31aa3a630d22ac65fb94671c38d408217a668d14",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "bin/upscaler.py/Upscaler",
+        "Original Line": 33,
+        "Updated Line": 35,
+        "Description": [
+            "The parameters [ ratio ] are added to the method __init__ from the module bin/upscaler.py in class Upscaler"
+        ],
+        "Commit": "374d3b5b1d5ee78813a87daac2c1dab2fcf7daca",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "bin/video2x_setup.py/Video2xSetup",
+        "Original Line": 44,
+        "Updated Line": 58,
+        "Description": [
+            "The parameters [ driver ] are added to the method __init__ from the module bin/video2x_setup.py in class Video2xSetup"
+        ],
+        "Commit": "37dcf5185f5e6c1d24ef7a310e38837e22b07260",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "bin/upscaler.py/Upscaler",
+        "Original Line": 33,
+        "Updated Line": 35,
+        "Description": [
+            "The parameters [ upscaled_frames ] of the method __init__ from the module bin/upscaler.py in class Upscaler is/are removed"
+        ],
+        "Commit": "406b87cc706ce94f6417e2170209b6354c7a961d",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "__del__",
+        "Updated": "cleanup",
+        "Location": "bin/upscaler.py/Upscaler",
+        "Original Line": 72,
+        "Updated Line": 73,
+        "Description": [
+            "The method __del__ from the module bin/upscaler.py in class Upscaler is renamed to cleanup"
+        ],
+        "Commit": "406b87cc706ce94f6417e2170209b6354c7a961d",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "convert_video",
+        "Updated": "assemble_video",
+        "Location": "src/wrappers/ffmpeg.py/Ffmpeg",
+        "Original Line": 136,
+        "Updated Line": 139,
+        "Description": [
+            "The method convert_video from the module src/wrappers/ffmpeg.py in class Ffmpeg is renamed to assemble_video"
+        ],
+        "Commit": "4c48af4fa460a7bebaeb6919bed181fe45ad682f",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "migrate_audio_tracks_subtitles",
+        "Updated": "migrate_streams",
+        "Location": "src/wrappers/ffmpeg.py/Ffmpeg",
+        "Original Line": 185,
+        "Updated Line": 188,
+        "Description": [
+            "The method migrate_audio_tracks_subtitles from the module src/wrappers/ffmpeg.py in class Ffmpeg is renamed to migrate_streams"
+        ],
+        "Commit": "4c48af4fa460a7bebaeb6919bed181fe45ad682f",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "to_vid",
+        "Updated": "convert_video",
+        "Location": "ffmpeg.py/FFMPEG",
+        "Original Line": 57,
+        "Updated Line": 57,
+        "Description": [
+            "The method to_vid from the module ffmpeg.py in class FFMPEG is renamed to convert_video"
+        ],
+        "Commit": "52fd096826d0324f186528caa96c06763f743a24",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "processArguments",
+        "Updated": "process_arguments",
+        "Location": "video2x.py",
+        "Original Line": 53,
+        "Updated Line": 53,
+        "Description": [
+            "The method processArguments from the module video2x.py is renamed to process_arguments"
+        ],
+        "Commit": "52fd096826d0324f186528caa96c06763f743a24",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "_stop",
+        "Updated": "_stop",
+        "Location": "video2x/interpolator.py/Interpolator",
+        "Original Line": 104,
+        "Updated Line": 104,
+        "Description": [
+            "The parameters [ signal_number frame ] of the method _stop from the module video2x/interpolator.py in class Interpolator are changed/renamed to [_signal_number _frame]"
+        ],
+        "Commit": "535681f3cd499424f25ce934656068e46cf03b75",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "upscale",
+        "Updated": "upscale",
+        "Location": "waifu2x.py/WAIFU2X",
+        "Original Line": 33,
+        "Updated Line": 33,
+        "Description": [
+            "The parameters [ model_type ] are added to the method upscale from the module waifu2x.py in class WAIFU2X"
+        ],
+        "Commit": "56f654632e3946f0404bfb3bb70a01c8e66450d4",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "upscale",
+        "Updated": "upscale",
+        "Location": "src/waifu2x_caffe.py/Waifu2xCaffe",
+        "Original Line": 41,
+        "Updated Line": 43,
+        "Description": [
+            "The parameters [ upscaler_exceptions ] of the method upscale from the module src/waifu2x_caffe.py in class Waifu2xCaffe is/are removed"
+        ],
+        "Commit": "6a100b1526f2438f417a0b7180e8265390ed8814",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "upscale",
+        "Updated": "upscale",
+        "Location": "src/waifu2x_converter.py/Waifu2xConverter",
+        "Original Line": 36,
+        "Updated Line": 38,
+        "Description": [
+            "The parameters [ upscaler_exceptions ] of the method upscale from the module src/waifu2x_converter.py in class Waifu2xConverter is/are removed"
+        ],
+        "Commit": "6a100b1526f2438f417a0b7180e8265390ed8814",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "upscale",
+        "Updated": "upscale",
+        "Location": "src/waifu2x_ncnn_vulkan.py/Waifu2xNcnnVulkan",
+        "Original Line": 45,
+        "Updated Line": 46,
+        "Description": [
+            "The parameters [ upscaler_exceptions ] of the method upscale from the module src/waifu2x_ncnn_vulkan.py in class Waifu2xNcnnVulkan is/are removed"
+        ],
+        "Commit": "6a100b1526f2438f417a0b7180e8265390ed8814",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "src/upscaler.py/Upscaler",
+        "Original Line": 76,
+        "Updated Line": 83,
+        "Description": [
+            "The parameters [ scale_width scale_height ] are added to the method __init__ from the module src/upscaler.py in class Upscaler"
+        ],
+        "Commit": "7059852586b4db497155588f968cf2cb1f40b1be",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_upscale_frames",
+        "Updated": "_upscale_frames",
+        "Location": "src/upscaler.py/Upscaler",
+        "Original Line": 270,
+        "Updated Line": 266,
+        "Description": [
+            "The parameters [ input_directory output_directory ] are added to the method _upscale_frames from the module src/upscaler.py in class Upscaler"
+        ],
+        "Commit": "7059852586b4db497155588f968cf2cb1f40b1be",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "upscale",
+        "Updated": "upscale",
+        "Location": "bin/waifu2x_caffe.py/Waifu2xCaffe",
+        "Original Line": 36,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ threads_exceptions ] of the method upscale from the module bin/waifu2x_caffe.py in class Waifu2xCaffe are changed/renamed to [upscaler_exceptions]"
+        ],
+        "Commit": "714790a65345d5cb314abc750a46163cfe241281",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "upscale",
+        "Updated": "upscale",
+        "Location": "bin/waifu2x_converter.py/Waifu2xConverter",
+        "Original Line": 31,
+        "Updated Line": 31,
+        "Description": [
+            "The parameters [ threads_exceptions ] of the method upscale from the module bin/waifu2x_converter.py in class Waifu2xConverter are changed/renamed to [upscaler_exceptions]"
+        ],
+        "Commit": "714790a65345d5cb314abc750a46163cfe241281",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "src/anime4k.py/Anime4k",
+        "Original Line": 30,
+        "Updated Line": 30,
+        "Description": [
+            "The parameters [ waifu2x_settings ] of the method __init__ from the module src/anime4k.py in class Anime4k are changed/renamed to [driver_settings]"
+        ],
+        "Commit": "732288f075aee71a8a2205f7e28b6ac47473e9e8",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "src/upscaler.py/Upscaler",
+        "Original Line": 54,
+        "Updated Line": 54,
+        "Description": [
+            "The parameters [ waifu2x_settings ] of the method __init__ from the module src/upscaler.py in class Upscaler are changed/renamed to [driver_settings]"
+        ],
+        "Commit": "732288f075aee71a8a2205f7e28b6ac47473e9e8",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "src/waifu2x_caffe.py/Waifu2xCaffe",
+        "Original Line": 30,
+        "Updated Line": 30,
+        "Description": [
+            "The parameters [ waifu2x_settings ] of the method __init__ from the module src/waifu2x_caffe.py in class Waifu2xCaffe are changed/renamed to [driver_settings]"
+        ],
+        "Commit": "732288f075aee71a8a2205f7e28b6ac47473e9e8",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "src/waifu2x_converter.py/Waifu2xConverter",
+        "Original Line": 31,
+        "Updated Line": 31,
+        "Description": [
+            "The parameters [ waifu2x_settings ] of the method __init__ from the module src/waifu2x_converter.py in class Waifu2xConverter are changed/renamed to [driver_settings]"
+        ],
+        "Commit": "732288f075aee71a8a2205f7e28b6ac47473e9e8",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "src/waifu2x_ncnn_vulkan.py/Waifu2xNcnnVulkan",
+        "Original Line": 33,
+        "Updated Line": 33,
+        "Description": [
+            "The parameters [ waifu2x_settings ] of the method __init__ from the module src/waifu2x_ncnn_vulkan.py in class Waifu2xNcnnVulkan are changed/renamed to [driver_settings]"
+        ],
+        "Commit": "732288f075aee71a8a2205f7e28b6ac47473e9e8",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "bin/upscaler.py/Upscaler",
+        "Original Line": 40,
+        "Updated Line": 40,
+        "Description": [
+            "The parameters [ waifu2x_driver scale_width scale_height scale_ratio model_dir threads video2x_cache_folder preserve_frames ] of the method __init__ from the module bin/upscaler.py in class Upscaler is/are removed"
+        ],
+        "Commit": "78ae2e7ed255cd5fdc69d13e0bea744ef5b85f35",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "upscale",
+        "Updated": "upscale",
+        "Location": "bin/waifu2x_caffe.py/Waifu2xCaffe",
+        "Original Line": 36,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ image_format ] are added to the method upscale from the module bin/waifu2x_caffe.py in class Waifu2xCaffe"
+        ],
+        "Commit": "78ae2e7ed255cd5fdc69d13e0bea744ef5b85f35",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "upscale",
+        "Updated": "upscale",
+        "Location": "bin/waifu2x_converter.py/Waifu2xConverter",
+        "Original Line": 31,
+        "Updated Line": 31,
+        "Description": [
+            "The parameters [ image_format ] are added to the method upscale from the module bin/waifu2x_converter.py in class Waifu2xConverter"
+        ],
+        "Commit": "78ae2e7ed255cd5fdc69d13e0bea744ef5b85f35",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "FFMPEG",
+        "Updated": "Ffmpeg",
+        "Location": "ffmpeg.py",
+        "Description": " class FFMPEG was renamed to class Ffmpeg ",
+        "Commit": "7cd10a85f3d9db8d54cf68ce9f30f61d2fb0460f",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "get_vid_info",
+        "Updated": "get_video_info",
+        "Location": "video2x.py",
+        "Original Line": 87,
+        "Updated Line": 92,
+        "Description": [
+            "The method get_vid_info from the module video2x.py is renamed to get_video_info"
+        ],
+        "Commit": "7f634231d1a0df472249e5f1b8df0192e67e2722",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "video2x",
+        "Updated": "upscale_frames",
+        "Location": "video2x.py",
+        "Original Method Line": "(118,178)",
+        "Extracted/Inlined Method Line": 123,
+        "Extracted/Inlined Lines": [
+            159.0,
+            160.0,
+            164.0,
+            165.0,
+            169.0,
+            170.0,
+            171.0,
+            174.0,
+            175.0,
+            176.0,
+            179.0,
+            180.0,
+            181.0,
+            186.0,
+            187.0,
+            190.0,
+            193.0,
+            194.0,
+            198.0
+        ],
+        "Description": " The method upscale_frames from the module video2x.py is extracted from method video2x from the module video2x.py ",
+        "Commit": "7f634231d1a0df472249e5f1b8df0192e67e2722",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "_get_video_info",
+        "Updated": "_get_video_info",
+        "Location": "video2x/video2x.py/Video2X",
+        "Original Line": 136,
+        "Updated Line": 135,
+        "Description": [
+            "The parameters [ self ] of the method _get_video_info from the module video2x/video2x.py in class Video2X is/are removed"
+        ],
+        "Commit": "865e3bd193f290d87e9ceeb1c16f8d9cb72cf622",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "src/upscaler.py/Upscaler",
+        "Original Line": 53,
+        "Updated Line": 54,
+        "Description": [
+            "The parameters [ method ] of the method __init__ from the module src/upscaler.py in class Upscaler is/are removed"
+        ],
+        "Commit": "88299d404ac08ac39d12b76a994105c079087b34",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "Anime4kCpp",
+        "Updated": "WrapperMain",
+        "Location": "src/wrappers/anime4kcpp.py",
+        "Description": " class Anime4kCpp was renamed to class WrapperMain ",
+        "Commit": "89860f22cbb628d6c87e1ac6e75332ef392d4f2e",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "SrmdNcnnVulkan",
+        "Updated": "WrapperMain",
+        "Location": "src/wrappers/srmd_ncnn_vulkan.py",
+        "Description": " class SrmdNcnnVulkan was renamed to class WrapperMain ",
+        "Commit": "89860f22cbb628d6c87e1ac6e75332ef392d4f2e",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "Waifu2xCaffe",
+        "Updated": "WrapperMain",
+        "Location": "src/wrappers/waifu2x_caffe.py",
+        "Description": " class Waifu2xCaffe was renamed to class WrapperMain ",
+        "Commit": "89860f22cbb628d6c87e1ac6e75332ef392d4f2e",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "Waifu2xConverterCpp",
+        "Updated": "WrapperMain",
+        "Location": "src/wrappers/waifu2x_converter_cpp.py",
+        "Description": " class Waifu2xConverterCpp was renamed to class WrapperMain ",
+        "Commit": "89860f22cbb628d6c87e1ac6e75332ef392d4f2e",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "Waifu2xNcnnVulkan",
+        "Updated": "WrapperMain",
+        "Location": "src/wrappers/waifu2x_ncnn_vulkan.py",
+        "Description": " class Waifu2xNcnnVulkan was renamed to class WrapperMain ",
+        "Commit": "89860f22cbb628d6c87e1ac6e75332ef392d4f2e",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "video2x/decoder.py/VideoDecoder",
+        "Original Line": 53,
+        "Updated Line": 55,
+        "Description": [
+            "The parameters [ pause ] are added to the method __init__ from the module video2x/decoder.py in class VideoDecoder"
+        ],
+        "Commit": "8ba56e58c257b1e5aede9e0824fb8c0e429deff8",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "video2x/encoder.py/VideoEncoder",
+        "Original Line": 53,
+        "Updated Line": 52,
+        "Description": [
+            "The parameters [ pause ] are added to the method __init__ from the module video2x/encoder.py in class VideoEncoder"
+        ],
+        "Commit": "8ba56e58c257b1e5aede9e0824fb8c0e429deff8",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "video2x/interpolator.py/Interpolator",
+        "Original Line": 40,
+        "Updated Line": 40,
+        "Description": [
+            "The parameters [ pause ] are added to the method __init__ from the module video2x/interpolator.py in class Interpolator"
+        ],
+        "Commit": "8ba56e58c257b1e5aede9e0824fb8c0e429deff8",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "video2x/upscaler.py/Upscaler",
+        "Original Line": 58,
+        "Updated Line": 58,
+        "Description": [
+            "The parameters [ pause ] are added to the method __init__ from the module video2x/upscaler.py in class Upscaler"
+        ],
+        "Commit": "8ba56e58c257b1e5aede9e0824fb8c0e429deff8",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "_upscale_frames",
+        "Updated": "_upscale_frames",
+        "Location": "bin/upscaler.py/Upscaler",
+        "Original Line": 129,
+        "Updated Line": 130,
+        "Description": [
+            "The parameters [ w2 ] of the method _upscale_frames from the module bin/upscaler.py in class Upscaler is/are removed"
+        ],
+        "Commit": "8e85d6a6d37796f70938fa81c81e3e0962ad6bbc",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "upscale",
+        "Updated": "upscale",
+        "Location": "src/wrappers/anime4kcpp.py/WrapperMain",
+        "Original Line": 61,
+        "Updated Line": 72,
+        "Description": [
+            "The parameters [ zoom_factor threads ] of the method upscale from the module src/wrappers/anime4kcpp.py in class WrapperMain is/are removed"
+        ],
+        "Commit": "91401977da372594cf0ca6b6c3f917b9160c6ab6",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "upscale",
+        "Updated": "upscale",
+        "Location": "src/wrappers/srmd_ncnn_vulkan.py/WrapperMain",
+        "Original Line": 56,
+        "Updated Line": 60,
+        "Description": [
+            "The parameters [ scale_ratio threads ] of the method upscale from the module src/wrappers/srmd_ncnn_vulkan.py in class WrapperMain is/are removed"
+        ],
+        "Commit": "91401977da372594cf0ca6b6c3f917b9160c6ab6",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "upscale",
+        "Updated": "upscale",
+        "Location": "src/wrappers/waifu2x_caffe.py/WrapperMain",
+        "Original Line": 63,
+        "Updated Line": 72,
+        "Description": [
+            "The parameters [ scale_ratio scale_width scale_height image_format bit_depth ] of the method upscale from the module src/wrappers/waifu2x_caffe.py in class WrapperMain is/are removed"
+        ],
+        "Commit": "91401977da372594cf0ca6b6c3f917b9160c6ab6",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "upscale",
+        "Updated": "upscale",
+        "Location": "src/wrappers/waifu2x_converter_cpp.py/WrapperMain",
+        "Original Line": 69,
+        "Updated Line": 74,
+        "Description": [
+            "The parameters [ scale_ratio jobs image_format ] of the method upscale from the module src/wrappers/waifu2x_converter_cpp.py in class WrapperMain is/are removed"
+        ],
+        "Commit": "91401977da372594cf0ca6b6c3f917b9160c6ab6",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "upscale",
+        "Updated": "upscale",
+        "Location": "src/wrappers/waifu2x_ncnn_vulkan.py/WrapperMain",
+        "Original Line": 59,
+        "Updated Line": 63,
+        "Description": [
+            "The parameters [ scale_ratio threads ] of the method upscale from the module src/wrappers/waifu2x_ncnn_vulkan.py in class WrapperMain is/are removed"
+        ],
+        "Commit": "91401977da372594cf0ca6b6c3f917b9160c6ab6",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "bin/waifu2x_converter.py/Waifu2xConverter",
+        "Original Line": 26,
+        "Updated Line": 26,
+        "Description": [
+            "The parameters [ waifu2x_path ] of the method __init__ from the module bin/waifu2x_converter.py in class Waifu2xConverter are changed/renamed to [waifu2x_settings]"
+        ],
+        "Commit": "9639b0b990cec80f06d5bbd36da3ebd9e713c1f0",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "upscale_completed",
+        "Updated": "upscale_successful",
+        "Location": "src/video2x_gui.py/Video2XMainWindow",
+        "Original Line": 608,
+        "Updated Line": 617,
+        "Description": [
+            "The method upscale_completed from the module src/video2x_gui.py in class Video2XMainWindow is renamed to upscale_successful"
+        ],
+        "Commit": "988600a76925d5738748e0868dd08f5eed48dde6",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "bin/video2x_setup.py/Video2xSetup",
+        "Original Line": 58,
+        "Updated Line": 59,
+        "Description": [
+            "The parameters [ download_python_modules ] are added to the method __init__ from the module bin/video2x_setup.py in class Video2xSetup"
+        ],
+        "Commit": "98e2cbdb04787e13bb4c9f5d6770792a547671ac",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "strip_frames",
+        "Updated": "extract_frames",
+        "Location": "ffmpeg.py/FFMPEG",
+        "Original Line": 24,
+        "Updated Line": 30,
+        "Description": [
+            "The method strip_frames from the module ffmpeg.py in class FFMPEG is renamed to extract_frames"
+        ],
+        "Commit": "994a542d5279bb201fe2bd8c3ace2780b73c632a",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "pressin_audio",
+        "Updated": "insert_audio_track",
+        "Location": "ffmpeg.py/FFMPEG",
+        "Original Line": 33,
+        "Updated Line": 70,
+        "Description": [
+            "The method pressin_audio from the module ffmpeg.py in class FFMPEG is renamed to insert_audio_track"
+        ],
+        "Commit": "994a542d5279bb201fe2bd8c3ace2780b73c632a",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "__del__",
+        "Updated": "join",
+        "Location": "video2x/decoder.py/VideoDecoder",
+        "Original Line": 120,
+        "Updated Line": 130,
+        "Description": [
+            "The method __del__ from the module video2x/decoder.py in class VideoDecoder is renamed to join"
+        ],
+        "Commit": "9a27960bf7d4cb8c84385942973a2057b2ec4ed6",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "video2x/encoder.py/VideoEncoder",
+        "Original Line": 54,
+        "Updated Line": 54,
+        "Description": [
+            "The parameters [ copy_audio copy_subtitle copy_data copy_attachments ] are added to the method __init__ from the module video2x/encoder.py in class VideoEncoder"
+        ],
+        "Commit": "9f73e75f17e3edb0c8746679ccf71ad8395cede6",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "process_arguments",
+        "Updated": "parse_arguments",
+        "Location": "src/video2x_setup.py",
+        "Original Line": 55,
+        "Updated Line": 53,
+        "Description": [
+            "The method process_arguments from the module src/video2x_setup.py is renamed to parse_arguments"
+        ],
+        "Commit": "a188f6ebdaf1231a3873f0f386a68652c142a86d",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "pip_install",
+        "Updated": "pip_install",
+        "Location": "bin/video2x_setup.py",
+        "Original Line": 204,
+        "Updated Line": 202,
+        "Description": [
+            "The parameters [ package ] of the method pip_install from the module bin/video2x_setup.py are changed/renamed to [file]"
+        ],
+        "Commit": "a1e1d98929be355b954349ab4247b26596d363d1",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "interpolate",
+        "Updated": "interpolate",
+        "Location": "video2x/video2x.py/Video2X",
+        "Original Line": 361,
+        "Updated Line": 359,
+        "Description": [
+            "The parameters [ driver ] of the method interpolate from the module video2x/video2x.py in class Video2X are changed/renamed to [algorithm]"
+        ],
+        "Commit": "a7f0f347511b4b3200a24802b2b14532bb580a32",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "upscale",
+        "Updated": "upscale",
+        "Location": "video2x/video2x.py/Video2X",
+        "Original Line": 313,
+        "Updated Line": 311,
+        "Description": [
+            "The parameters [ driver ] of the method upscale from the module video2x/video2x.py in class Video2X are changed/renamed to [algorithm]"
+        ],
+        "Commit": "a7f0f347511b4b3200a24802b2b14532bb580a32",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "show_about",
+        "Updated": "show_about",
+        "Location": "src/video2x_gui.py/Video2XMainWindow",
+        "Original Line": 936,
+        "Updated Line": 961,
+        "Description": [
+            "The parameters [ message ] of the method show_about from the module src/video2x_gui.py in class Video2XMainWindow is/are removed"
+        ],
+        "Commit": "ac2d44739180aac6dbf4990ad90fdc898439940c",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "_stop",
+        "Updated": "_stop",
+        "Location": "video2x/upscaler.py/Upscaler",
+        "Original Line": 177,
+        "Updated Line": 177,
+        "Description": [
+            "The parameters [ signal_number frame ] of the method _stop from the module video2x/upscaler.py in class Upscaler are changed/renamed to [_signal_number _frame]"
+        ],
+        "Commit": "ba336e9c75fbd0bc8df13e79880119c4b4db5c66",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "upscale",
+        "Updated": "upscale",
+        "Location": "src/wrappers/srmd_ncnn_vulkan.py/WrapperMain",
+        "Original Line": 56,
+        "Updated Line": 56,
+        "Description": [
+            "The parameters [ threads ] are added to the method upscale from the module src/wrappers/srmd_ncnn_vulkan.py in class WrapperMain"
+        ],
+        "Commit": "bcb54b6d2cef71d01191196b31d5c22c00e09e74",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "upscale",
+        "Updated": "upscale",
+        "Location": "src/wrappers/waifu2x_ncnn_vulkan.py/WrapperMain",
+        "Original Line": 59,
+        "Updated Line": 59,
+        "Description": [
+            "The parameters [ threads ] are added to the method upscale from the module src/wrappers/waifu2x_ncnn_vulkan.py in class WrapperMain"
+        ],
+        "Commit": "bcb54b6d2cef71d01191196b31d5c22c00e09e74",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "make_gif",
+        "Updated": "make_gif",
+        "Location": "src/wrappers/gifski.py/Gifski",
+        "Original Line": 25,
+        "Updated Line": 25,
+        "Description": [
+            "The parameters [ output_width output_height ] are added to the method make_gif from the module src/wrappers/gifski.py in class Gifski"
+        ],
+        "Commit": "bfdb05170502fcf8997176908347734ee2844bab",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "bin/image_cleaner.py/ImageCleaner",
+        "Original Line": 30,
+        "Updated Line": 30,
+        "Description": [
+            "The parameters [ input_folder output_folder num_threads ] of the method __init__ from the module bin/image_cleaner.py in class ImageCleaner are changed/renamed to [input_directory output_directory threads]"
+        ],
+        "Commit": "c7353c4bf2f5e1b0a96043994b55378329671416",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "_progress_bar",
+        "Updated": "_progress_bar",
+        "Location": "bin/upscaler.py/Upscaler",
+        "Original Line": 92,
+        "Updated Line": 92,
+        "Description": [
+            "The parameters [ extracted_frames_folders ] of the method _progress_bar from the module bin/upscaler.py in class Upscaler are changed/renamed to [extracted_frames_directories]"
+        ],
+        "Commit": "c7353c4bf2f5e1b0a96043994b55378329671416",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "cleanup",
+        "Updated": "cleanup_temp_directories",
+        "Location": "bin/upscaler.py/Upscaler",
+        "Original Line": 67,
+        "Updated Line": 67,
+        "Description": [
+            "The method cleanup from the module bin/upscaler.py in class Upscaler is renamed to cleanup_temp_directories"
+        ],
+        "Commit": "c7353c4bf2f5e1b0a96043994b55378329671416",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "create_temp_folders",
+        "Updated": "create_temp_directories",
+        "Location": "bin/upscaler.py/Upscaler",
+        "Original Line": 59,
+        "Updated Line": 59,
+        "Description": [
+            "The method create_temp_folders from the module bin/upscaler.py in class Upscaler is renamed to create_temp_directories"
+        ],
+        "Commit": "c7353c4bf2f5e1b0a96043994b55378329671416",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "upscale",
+        "Updated": "upscale",
+        "Location": "bin/waifu2x_caffe.py/Waifu2xCaffe",
+        "Original Line": 36,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ input_folder output_folder ] of the method upscale from the module bin/waifu2x_caffe.py in class Waifu2xCaffe are changed/renamed to [input_directory output_directory]"
+        ],
+        "Commit": "c7353c4bf2f5e1b0a96043994b55378329671416",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "upscale",
+        "Updated": "upscale",
+        "Location": "bin/waifu2x_converter.py/Waifu2xConverter",
+        "Original Line": 31,
+        "Updated Line": 31,
+        "Description": [
+            "The parameters [ input_folder output_folder ] of the method upscale from the module bin/waifu2x_converter.py in class Waifu2xConverter are changed/renamed to [input_directory output_directory]"
+        ],
+        "Commit": "c7353c4bf2f5e1b0a96043994b55378329671416",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "WAIFU2X",
+        "Updated": "Waifu2x",
+        "Location": "waifu2x.py",
+        "Description": " class WAIFU2X was renamed to class Waifu2x ",
+        "Commit": "c7fe16ecb9befbe2e7ebc70e2adf5ce9148a3bb5",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "bin/waifu2x_caffe.py/Waifu2xCaffe",
+        "Original Line": 28,
+        "Updated Line": 28,
+        "Description": [
+            "The parameters [ bit_depth ] are added to the method __init__ from the module bin/waifu2x_caffe.py in class Waifu2xCaffe"
+        ],
+        "Commit": "ca90c5be02e2fc1981be43eaef57bf7dfa3016dc",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Add Parameter"
+        ],
+        "Original": "_parse_settings",
+        "Updated": "__init__",
+        "Location": "bin/ffmpeg.py/Ffmpeg",
+        "Original Line": 29,
+        "Updated Line": 25,
+        "Description": [
+            "The method _parse_settings from the module bin/ffmpeg.py in class Ffmpeg is renamed to __init__",
+            "The parameters [ ffmpeg_settings image_format ] are added to the method _parse_settings from the module bin/ffmpeg.py in class Ffmpeg"
+        ],
+        "Commit": "d9a19d823e2a338a12273d3b3407b9c40b0092d8",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "get_number_of_frames",
+        "Updated": "get_number_of_frames",
+        "Location": "src/wrappers/ffmpeg.py/Ffmpeg",
+        "Original Line": 83,
+        "Updated Line": 83,
+        "Description": [
+            "The parameters [ video_stream_index ] of the method get_number_of_frames from the module src/wrappers/ffmpeg.py in class Ffmpeg is/are removed"
+        ],
+        "Commit": "dc51b8b04cb5655cecf8ad2c34ea377ad6b8747a",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "ffmpeg.py/Ffmpeg",
+        "Original Line": 25,
+        "Updated Line": 25,
+        "Description": [
+            "The parameters [ hardware_acc ] are added to the method __init__ from the module ffmpeg.py in class Ffmpeg"
+        ],
+        "Commit": "e28cdeac875d5030f2cb78baaef9d7dd47dc79ee",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "src/upscaler.py/Upscaler",
+        "Original Line": 70,
+        "Updated Line": 71,
+        "Description": [
+            "The parameters [ gifski_settings ] are added to the method __init__ from the module src/upscaler.py in class Upscaler"
+        ],
+        "Commit": "e305d0188ed063b200a3f025233f2f719d77c17e",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "assemble_video",
+        "Updated": "assemble_video",
+        "Location": "src/wrappers/ffmpeg.py/Ffmpeg",
+        "Original Line": 139,
+        "Updated Line": 134,
+        "Description": [
+            "The parameters [ resolution ] of the method assemble_video from the module src/wrappers/ffmpeg.py in class Ffmpeg is/are removed"
+        ],
+        "Commit": "e305d0188ed063b200a3f025233f2f719d77c17e",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "extract_frames",
+        "Updated": "extract_frames",
+        "Location": "src/wrappers/ffmpeg.py/Ffmpeg",
+        "Original Line": 111,
+        "Updated Line": 112,
+        "Description": [
+            "The parameters [ input_video ] of the method extract_frames from the module src/wrappers/ffmpeg.py in class Ffmpeg are changed/renamed to [input_file]"
+        ],
+        "Commit": "e305d0188ed063b200a3f025233f2f719d77c17e",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "get_video_info",
+        "Updated": "probe_file_info",
+        "Location": "src/wrappers/ffmpeg.py/Ffmpeg",
+        "Original Line": 77,
+        "Updated Line": 78,
+        "Description": [
+            "The method get_video_info from the module src/wrappers/ffmpeg.py in class Ffmpeg is renamed to probe_file_info"
+        ],
+        "Commit": "e305d0188ed063b200a3f025233f2f719d77c17e",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "src/upscaler.py/Upscaler",
+        "Original Line": 76,
+        "Updated Line": 76,
+        "Description": [
+            "The parameters [ output_file_name_format_string ] are added to the method __init__ from the module src/upscaler.py in class Upscaler"
+        ],
+        "Commit": "e44264bb6baa6d8777871714b374af52f62a996d",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "update_driver_constraints",
+        "Updated": "update_gui_for_driver",
+        "Location": "src/video2x_gui.py/Video2XMainWindow",
+        "Original Line": 402,
+        "Updated Line": 389,
+        "Description": [
+            "The method update_driver_constraints from the module src/video2x_gui.py in class Video2XMainWindow is renamed to update_gui_for_driver"
+        ],
+        "Commit": "e9c1c22788f7b185ffa85770a71a8905bdd9d339",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "select_input_file",
+        "Updated": "select_file",
+        "Location": "src/video2x_gui.py/Video2XMainWindow",
+        "Original Method Line": "(417,424)",
+        "Extracted/Inlined Method Line": 412,
+        "Extracted/Inlined Lines": [
+            419.0,
+            422.0
+        ],
+        "Description": " The method select_file from the module src/video2x_gui.py in class Video2XMainWindow is extracted from method select_input_file from the module src/video2x_gui.py in class Video2XMainWindow ",
+        "Commit": "e9c1c22788f7b185ffa85770a71a8905bdd9d339",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "select_input_folder",
+        "Updated": "select_folder",
+        "Location": "src/video2x_gui.py/Video2XMainWindow",
+        "Original Method Line": "(437,441)",
+        "Extracted/Inlined Method Line": 418,
+        "Extracted/Inlined Lines": [
+            439.0,
+            442.0
+        ],
+        "Description": " The method select_folder from the module src/video2x_gui.py in class Video2XMainWindow is extracted from method select_input_folder from the module src/video2x_gui.py in class Video2XMainWindow ",
+        "Commit": "e9c1c22788f7b185ffa85770a71a8905bdd9d339",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method",
+            "Remove Parameter"
+        ],
+        "Original": "generate_output_path",
+        "Updated": "update_output_path",
+        "Location": "src/video2x_gui.py/Video2XMainWindow",
+        "Original Line": 453,
+        "Updated Line": 545,
+        "Description": [
+            "The method generate_output_path from the module src/video2x_gui.py in class Video2XMainWindow is renamed to update_output_path",
+            "The parameters [ input_path ] of the method generate_output_path from the module src/video2x_gui.py in class Video2XMainWindow is/are removed"
+        ],
+        "Commit": "f2943802cb1b8ae1a459100785eb59c83a9a6e61",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "bin/waifu2x_converter.py/Waifu2xConverter",
+        "Original Line": 26,
+        "Updated Line": 26,
+        "Description": [
+            "The parameters [ model_dir ] are added to the method __init__ from the module bin/waifu2x_converter.py in class Waifu2xConverter"
+        ],
+        "Commit": "f51ce05066331805e69484dfc1db96e12f6c6f33",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "src/upscaler.py/Upscaler",
+        "Original Line": 76,
+        "Updated Line": 76,
+        "Description": [
+            "The parameters [ driver scale_ratio processes video2x_cache_directory extracted_frame_format image_output_extension video_output_extension preserve_frames ] are added to the method __init__ from the module src/upscaler.py in class Upscaler"
+        ],
+        "Commit": "f5eb6514e1838d42f10d7f5d098c6928c06e7f05",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "process_arguments",
+        "Updated": "parse_arguments",
+        "Location": "src/video2x.py",
+        "Original Line": 94,
+        "Updated Line": 94,
+        "Description": [
+            "The method process_arguments from the module src/video2x.py is renamed to parse_arguments"
+        ],
+        "Commit": "fd67dfca11444f08950bbb1591f389320dd1f238",
+        "GPT4 Component Graph": "Data Processing"
+    }
+]

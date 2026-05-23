@@ -1,0 +1,844 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "tex2pil",
+        "Updated": "tex2pil",
+        "Location": "pix2tex/dataset/latex2png.py",
+        "Original Line": 144,
+        "Updated Line": 146,
+        "Description": [
+            "The parameters [ error_index ] are added to the method tex2pil from the module pix2tex/dataset/latex2png.py"
+        ],
+        "Commit": "0f9764a361934871a0337458da7cf42ab58f1e72",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "call_model",
+        "Updated": "call_model",
+        "Location": "pix2tex.py",
+        "Original Line": 58,
+        "Updated Line": 69,
+        "Description": [
+            "The parameters [ img ] are added to the method call_model from the module pix2tex.py"
+        ],
+        "Commit": "121c6ed8ad858e208b364d9d5fb09e1a5130d22c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "initialize",
+        "Updated": "initialize",
+        "Location": "pix2tex.py",
+        "Original Line": 36,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ arguments ] of the method initialize from the module pix2tex.py is/are removed"
+        ],
+        "Commit": "121c6ed8ad858e208b364d9d5fb09e1a5130d22c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "extract",
+        "Updated": "extract",
+        "Location": "pix2tex/dataset/latex2png.py",
+        "Original Line": 148,
+        "Updated Line": 148,
+        "Description": [
+            "The parameters [ type ] of the method extract from the module pix2tex/dataset/latex2png.py is/are removed"
+        ],
+        "Commit": "1a9a922091217e17942b9835909367c241283e79",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "convert_file",
+        "Updated": "convert_file",
+        "Location": "dataset/latex2png.py/Latex",
+        "Original Line": 51,
+        "Updated Line": 51,
+        "Description": [
+            "The parameters [ return_bytes ] are added to the method convert_file from the module dataset/latex2png.py in class Latex"
+        ],
+        "Commit": "1ac35a887d70fd94c4324af8a3f3a6ef624e5878",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "write",
+        "Updated": "write",
+        "Location": "dataset/latex2png.py/Latex",
+        "Original Line": 30,
+        "Updated Line": 30,
+        "Description": [
+            "The parameters [ return_bytes ] are added to the method write from the module dataset/latex2png.py in class Latex"
+        ],
+        "Commit": "1ac35a887d70fd94c4324af8a3f3a6ef624e5878",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "dataset/dataset.py/Im2LatexDataset",
+        "Original Line": 64,
+        "Updated Line": 66,
+        "Description": [
+            "The parameters [ max_seq_len min_dimensions ] are added to the method __init__ from the module dataset/dataset.py in class Im2LatexDataset"
+        ],
+        "Commit": "1b921750e2cba690ab29ce56e46a6276b6dc0db8",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "find_math",
+        "Updated": "find_math",
+        "Location": "pix2tex/dataset/extract_latex.py",
+        "Original Line": 70,
+        "Updated Line": 74,
+        "Description": [
+            "The return type of method find_math from the module pix2tex/dataset/extract_latex.py is updated"
+        ],
+        "Commit": "1c1aa60f471cdf543e0abe6348934b3093aad8c0",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "recursive_search",
+        "Updated": "recursive_search",
+        "Location": "pix2tex/dataset/scraping.py",
+        "Original Line": 30,
+        "Updated Line": 31,
+        "Description": [
+            "The return type of method recursive_search from the module pix2tex/dataset/scraping.py is updated"
+        ],
+        "Commit": "1c1aa60f471cdf543e0abe6348934b3093aad8c0",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "prepare_data",
+        "Updated": "prepare_data",
+        "Location": "pix2tex/train_resizer.py",
+        "Original Line": 20,
+        "Updated Line": 21,
+        "Description": [
+            "The return type of method prepare_data from the module pix2tex/train_resizer.py is updated"
+        ],
+        "Commit": "1c1aa60f471cdf543e0abe6348934b3093aad8c0",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "main",
+        "Updated": "main",
+        "Location": "pix2tex/cli.py",
+        "Original Line": 153,
+        "Updated Line": 152,
+        "Description": [
+            "The parameters [ arguments ] are added to the method main from the module pix2tex/cli.py"
+        ],
+        "Commit": "2580a79aa70f1550921e200df8c7db4e25ab7e75",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "clean_matches",
+        "Updated": "clean_matches",
+        "Location": "extract_latex.py",
+        "Original Line": 8,
+        "Updated Line": 13,
+        "Description": [
+            "The parameters [ min_chars ] are added to the method clean_matches from the module extract_latex.py"
+        ],
+        "Commit": "37c16475f37e15ec635a28e530c14fcbc099dd41",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "find_math",
+        "Updated": "find_math",
+        "Location": "extract_latex.py",
+        "Original Line": 19,
+        "Updated Line": 28,
+        "Description": [
+            "The parameters [ html ] are added to the method find_math from the module extract_latex.py"
+        ],
+        "Commit": "37c16475f37e15ec635a28e530c14fcbc099dd41",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "initialize",
+        "Updated": "initialize",
+        "Location": "pix2tex.py",
+        "Original Line": 36,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ arguments ] are added to the method initialize from the module pix2tex.py"
+        ],
+        "Commit": "3fbcf5acdfb8aeb5b69c20ea2f7b01eea4b51e07",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "output_prediction",
+        "Updated": "output_prediction",
+        "Location": "pix2tex.py",
+        "Original Line": 101,
+        "Updated Line": 103,
+        "Description": [
+            "The parameters [ args ] are added to the method output_prediction from the module pix2tex.py"
+        ],
+        "Commit": "3fbcf5acdfb8aeb5b69c20ea2f7b01eea4b51e07",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "parse_arxiv",
+        "Updated": "parse_arxiv",
+        "Location": "pix2tex/dataset/arxiv.py",
+        "Original Line": 98,
+        "Updated Line": 89,
+        "Description": [
+            "The parameters [ demacro ] of the method parse_arxiv from the module pix2tex/dataset/arxiv.py is/are removed"
+        ],
+        "Commit": "59903b10d571deed49902d9ad5ff4da79a9b29c0",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "read_paper",
+        "Updated": "read_paper",
+        "Location": "pix2tex/dataset/arxiv.py",
+        "Original Line": 89,
+        "Updated Line": 80,
+        "Description": [
+            "The parameters [ demacro ] of the method read_paper from the module pix2tex/dataset/arxiv.py is/are removed"
+        ],
+        "Commit": "59903b10d571deed49902d9ad5ff4da79a9b29c0",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "read_tex_files",
+        "Updated": "read_tex_files",
+        "Location": "pix2tex/dataset/arxiv.py",
+        "Original Line": 53,
+        "Updated Line": 51,
+        "Description": [
+            "The parameters [ demacro ] of the method read_tex_files from the module pix2tex/dataset/arxiv.py is/are removed"
+        ],
+        "Commit": "59903b10d571deed49902d9ad5ff4da79a9b29c0",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "unfold",
+        "Updated": "undo_bracket_replace",
+        "Location": "pix2tex/dataset/demacro.py",
+        "Original Method Line": "(40,83)",
+        "Extracted/Inlined Method Line": 59,
+        "Extracted/Inlined Lines": [
+            59.0
+        ],
+        "Description": " The method undo_bracket_replace from the module pix2tex/dataset/demacro.py is extracted from method unfold from the module pix2tex/dataset/demacro.py ",
+        "Commit": "59903b10d571deed49902d9ad5ff4da79a9b29c0",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "unfold",
+        "Updated": "sweep",
+        "Location": "pix2tex/dataset/demacro.py",
+        "Original Method Line": "(40,83)",
+        "Extracted/Inlined Method Line": 63,
+        "Extracted/Inlined Lines": [
+            44.0,
+            45.0,
+            47.0,
+            49.0,
+            53.0,
+            54.0,
+            55.0,
+            56.0,
+            57.0,
+            58.0,
+            59.0
+        ],
+        "Description": " The method sweep from the module pix2tex/dataset/demacro.py is extracted from method unfold from the module pix2tex/dataset/demacro.py ",
+        "Commit": "59903b10d571deed49902d9ad5ff4da79a9b29c0",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "clean_matches",
+        "Updated": "remove_labels",
+        "Location": "pix2tex/dataset/extract_latex.py",
+        "Original Method Line": "(43,47)",
+        "Extracted/Inlined Method Line": 42,
+        "Extracted/Inlined Lines": [
+            51.0,
+            52.0
+        ],
+        "Description": " The method remove_labels from the module pix2tex/dataset/extract_latex.py is extracted from method clean_matches from the module pix2tex/dataset/extract_latex.py ",
+        "Commit": "59903b10d571deed49902d9ad5ff4da79a9b29c0",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "gui.py/App",
+        "Original Line": 20,
+        "Updated Line": 22,
+        "Description": [
+            "The parameters [ args ] are added to the method __init__ from the module gui.py in class App"
+        ],
+        "Commit": "61ae761612c42709f10888e683a3fc5b935fcdad",
+        "GPT4 Component Graph": "Visualization & UI"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "get_model",
+        "Updated": "get_model",
+        "Location": "models.py",
+        "Original Line": 110,
+        "Updated Line": 110,
+        "Description": [
+            "The parameters [ training ] are added to the method get_model from the module models.py"
+        ],
+        "Commit": "624d3237569eb388a6670a4922dae7e0a3b78707",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "get_encoder",
+        "Updated": "get_encoder",
+        "Location": "pix2tex/models/hybrid.py",
+        "Original Line": 108,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ training ] of the method get_encoder from the module pix2tex/models/hybrid.py is/are removed"
+        ],
+        "Commit": "6c531057f4232750cd6607ddd6cfcba5f5673f54",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "parse_arxiv",
+        "Updated": "parse_arxiv",
+        "Location": "pix2tex/dataset/arxiv.py",
+        "Original Line": 89,
+        "Updated Line": 93,
+        "Description": [
+            "The parameters [ save demacro ] are added to the method parse_arxiv from the module pix2tex/dataset/arxiv.py"
+        ],
+        "Commit": "7acd5eb298651e4dc38420b59ea0be47e6ab5da6",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "read_paper",
+        "Updated": "read_paper",
+        "Location": "pix2tex/dataset/arxiv.py",
+        "Original Line": 80,
+        "Updated Line": 84,
+        "Description": [
+            "The parameters [ demacro ] are added to the method read_paper from the module pix2tex/dataset/arxiv.py"
+        ],
+        "Commit": "7acd5eb298651e4dc38420b59ea0be47e6ab5da6",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "read_tex_files",
+        "Updated": "read_tex_files",
+        "Location": "pix2tex/dataset/arxiv.py",
+        "Original Line": 51,
+        "Updated Line": 50,
+        "Description": [
+            "The parameters [ demacro ] are added to the method read_tex_files from the module pix2tex/dataset/arxiv.py"
+        ],
+        "Commit": "7acd5eb298651e4dc38420b59ea0be47e6ab5da6",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "main",
+        "Updated": "pydemacro",
+        "Location": "pix2tex/dataset/demacro.py",
+        "Original Method Line": "(8,15)",
+        "Extracted/Inlined Method Line": 123,
+        "Extracted/Inlined Lines": [
+            12.0
+        ],
+        "Description": " The method pydemacro from the module pix2tex/dataset/demacro.py is extracted from method main from the module pix2tex/dataset/demacro.py ",
+        "Commit": "7acd5eb298651e4dc38420b59ea0be47e6ab5da6",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "evaluate",
+        "Updated": "evaluate",
+        "Location": "eval.py",
+        "Original Line": 30,
+        "Updated Line": 30,
+        "Description": [
+            "The parameters [ num_batches ] are added to the method evaluate from the module eval.py"
+        ],
+        "Commit": "8b9d3146bb119f516de9f966c8fc1bb4f22cad14",
+        "GPT4 Component Graph": "Evaluation"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "dataset/latex2png.py/Latex",
+        "Original Line": 24,
+        "Updated Line": 24,
+        "Description": [
+            "The parameters [ font ] are added to the method __init__ from the module dataset/latex2png.py in class Latex"
+        ],
+        "Commit": "8fbc826aa692fc6439374c409f65b99a1d56aed3",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "write",
+        "Updated": "write",
+        "Location": "dataset/latex2png.py/Latex",
+        "Original Line": 29,
+        "Updated Line": 30,
+        "Description": [
+            "The parameters [ font ] of the method write from the module dataset/latex2png.py in class Latex is/are removed"
+        ],
+        "Commit": "8fbc826aa692fc6439374c409f65b99a1d56aed3",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "recursive_wiki",
+        "Updated": "recursive_wiki",
+        "Location": "pix2tex/dataset/scraping.py",
+        "Original Line": 77,
+        "Updated Line": 90,
+        "Description": [
+            "The parameters [ base_url ] are added to the method recursive_wiki from the module pix2tex/dataset/scraping.py"
+        ],
+        "Commit": "95e4dbeee47c286c04048bdd2ccc0eb89aeb5482",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "parse_arxiv",
+        "Updated": "parse_arxiv",
+        "Location": "dataset/arxiv.py",
+        "Original Line": 90,
+        "Updated Line": 102,
+        "Description": [
+            "The parameters [ demacro ] are added to the method parse_arxiv from the module dataset/arxiv.py"
+        ],
+        "Commit": "97df469003d35553b53b408fe18d7ce676eb136c",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "read_tex_files",
+        "Updated": "read_tex_files",
+        "Location": "dataset/arxiv.py",
+        "Original Line": 52,
+        "Updated Line": 57,
+        "Description": [
+            "The parameters [ demacro ] are added to the method read_tex_files from the module dataset/arxiv.py"
+        ],
+        "Commit": "97df469003d35553b53b408fe18d7ce676eb136c",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "dataset/dataset.py/Im2LatexDataset",
+        "Original Line": 30,
+        "Updated Line": 73,
+        "Description": [
+            "The parameters [ pad test ] are added to the method __init__ from the module dataset/dataset.py in class Im2LatexDataset"
+        ],
+        "Commit": "97df469003d35553b53b408fe18d7ce676eb136c",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "gpu_memory_check",
+        "Updated": "gpu_memory_check",
+        "Old Location": "pix2tex/train.py",
+        "New Location": "pix2tex/utils/utils.py",
+        "Old Method Line": 18,
+        "New Method Line": 76,
+        "Description": " method gpu_memory_check from the module pix2tex/train.py was moved to module pix2tex/utils/utils.py ",
+        "Commit": "9f974c9c855535e1d1435236f7367cbefe6bbdda",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "__init__",
+        "Updated": "_get_size",
+        "Location": "dataset/dataset.py/Im2LatexDataset",
+        "Original Method Line": "(19,19)",
+        "Extracted/Inlined Method Line": 113,
+        "Extracted/Inlined Lines": [
+            54.0,
+            55.0,
+            56.0,
+            57.0
+        ],
+        "Description": " The method _get_size from the module dataset/dataset.py in class Im2LatexDataset is extracted from method __init__ from the module dataset/dataset.py in class Im2LatexDataset ",
+        "Commit": "a62cbe89d7631ff77ac5e7ee17be4a23e99ea719",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "recursive_search",
+        "Updated": "recursive_search",
+        "Location": "dataset/scraping.py",
+        "Original Line": 32,
+        "Updated Line": 31,
+        "Description": [
+            "The parameters [ start ] of the method recursive_search from the module dataset/scraping.py are changed/renamed to [seeds]"
+        ],
+        "Commit": "a91444ecfbcb2405eff521488a4e3ed525d08b9b",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "generate",
+        "Updated": "forward",
+        "Location": "models.py/CustomARWrapper",
+        "Original Line": 19,
+        "Updated Line": 20,
+        "Description": [
+            "The method generate from the module models.py in class CustomARWrapper is renamed to forward"
+        ],
+        "Commit": "b3069e32667fce0cb47aa58532a29e96c11a3611",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "models.py/CustomVisionTransformer",
+        "Original Line": 66,
+        "Updated Line": 66,
+        "Description": [
+            "The parameters [ patch_size ] are added to the method __init__ from the module models.py in class CustomVisionTransformer"
+        ],
+        "Commit": "b67dce190ff3aa1591354da79027aa250db87eb1",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "dataset/dataset.py/Im2LatexDataset",
+        "Original Line": 17,
+        "Updated Line": 18,
+        "Description": [
+            "The parameters [ max_dimensions ] are added to the method __init__ from the module dataset/dataset.py in class Im2LatexDataset"
+        ],
+        "Commit": "baf75bcd7c93825abd6ef5e01debc1c0ba17f3ba",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "generate",
+        "Updated": "generate",
+        "Location": "pix2tex/models/utils.py/Model",
+        "Original Line": 22,
+        "Updated Line": 35,
+        "Description": [
+            "The parameters [ temperature ] are added to the method generate from the module pix2tex/models/utils.py in class Model"
+        ],
+        "Commit": "bd666429500c002588161efdcd157d1067ee176e",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Move Method",
+        "Original": "data_parallel",
+        "Updated": "data_parallel",
+        "Old Location": "pix2tex/train.py",
+        "New Location": "pix2tex/models/utils.py/Model",
+        "Old Method Line": 18,
+        "New Method Line": 16,
+        "Description": " method data_parallel from the module pix2tex/train.py was moved to class Model of module pix2tex/models/utils.py ",
+        "Commit": "bd666429500c002588161efdcd157d1067ee176e",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "forward",
+        "Updated": "generate",
+        "Location": "models.py/CustomARWrapper",
+        "Original Line": 20,
+        "Updated Line": 20,
+        "Description": [
+            "The method forward from the module models.py in class CustomARWrapper is renamed to generate"
+        ],
+        "Commit": "c3bb1255b9168608814e383679f45c1b96d00959",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "render_dataset",
+        "Updated": "render_dataset",
+        "Location": "pix2tex/dataset/render.py",
+        "Original Line": 32,
+        "Updated Line": 31,
+        "Description": [
+            "The parameters [ unrenders ] of the method render_dataset from the module pix2tex/dataset/render.py are changed/renamed to [unrendered]"
+        ],
+        "Commit": "c469cec890367b89dac70d4c8b842aa37a0de404",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "call_model",
+        "Updated": "call_model",
+        "Location": "pix2tex.py",
+        "Original Line": 38,
+        "Updated Line": 55,
+        "Description": [
+            "The parameters [ image_resizer ] are added to the method call_model from the module pix2tex.py"
+        ],
+        "Commit": "c610cca3a213d95e8135e1f16f18843e54529852",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "call_model",
+        "Updated": "minmax_size",
+        "Location": "pix2tex.py",
+        "Original Method Line": "(38,55)",
+        "Extracted/Inlined Method Line": 25,
+        "Extracted/Inlined Lines": [
+            44.0,
+            45.0,
+            46.0,
+            47.0
+        ],
+        "Description": " The method minmax_size from the module pix2tex.py is extracted from method call_model from the module pix2tex.py ",
+        "Commit": "c610cca3a213d95e8135e1f16f18843e54529852",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "dataset/dataset.py/Im2LatexDataset",
+        "Original Line": 19,
+        "Updated Line": 30,
+        "Description": [
+            "The parameters [ keep_smaller_batches ] are added to the method __init__ from the module dataset/dataset.py in class Im2LatexDataset"
+        ],
+        "Commit": "d52e43388fd9c01f33b5e03bcccbba0a0c8e51b5",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "parse_url",
+        "Updated": "parse_url",
+        "Location": "dataset/scraping.py",
+        "Original Line": 21,
+        "Updated Line": 21,
+        "Description": [
+            "The parameters [ encoding ] are added to the method parse_url from the module dataset/scraping.py"
+        ],
+        "Commit": "d52e43388fd9c01f33b5e03bcccbba0a0c8e51b5",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "recursive_wiki",
+        "Updated": "recursive_search",
+        "Location": "dataset/scraping.py",
+        "Original Method Line": "(26,61)",
+        "Extracted/Inlined Method Line": 32,
+        "Extracted/Inlined Lines": [
+            31.0,
+            32.0,
+            33.0,
+            34.0,
+            35.0,
+            37.0,
+            40.0,
+            42.0,
+            43.0,
+            44.0
+        ],
+        "Description": " The method recursive_search from the module dataset/scraping.py is extracted from method recursive_wiki from the module dataset/scraping.py ",
+        "Commit": "d902f3b1400e33c2535eadcf7be546315180eac5",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "save_models",
+        "Updated": "save_models",
+        "Location": "pix2tex/train.py",
+        "Original Line": 33,
+        "Updated Line": 35,
+        "Description": [
+            "The parameters [ step ] are added to the method save_models from the module pix2tex/train.py"
+        ],
+        "Commit": "dffa9f9ebc2f630491f3c272599444f48c9c2bac",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "tex2pil",
+        "Updated": "tex2pil",
+        "Location": "pix2tex/dataset/latex2png.py",
+        "Original Line": 146,
+        "Updated Line": 146,
+        "Description": [
+            "The parameters [ error_index ] of the method tex2pil from the module pix2tex/dataset/latex2png.py are changed/renamed to [return_error_index]"
+        ],
+        "Commit": "e0d76ae065bc12c3163177263555b2474c583742",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "forward",
+        "Updated": "generate",
+        "Location": "pix2tex/models/utils.py/Model",
+        "Original Line": 16,
+        "Updated Line": 22,
+        "Description": [
+            "The method forward from the module pix2tex/models/utils.py in class Model is renamed to generate"
+        ],
+        "Commit": "e2b55fb4715f3ab5792f7a1accd07b737c744f96",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "data_parallel",
+        "Updated": "data_parallel",
+        "Location": "pix2tex/train.py",
+        "Original Line": 18,
+        "Updated Line": 18,
+        "Description": [
+            "The parameters [ inputs ] of the method data_parallel from the module pix2tex/train.py are changed/renamed to [x]"
+        ],
+        "Commit": "e2b55fb4715f3ab5792f7a1accd07b737c744f96",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "main",
+        "Updated": "predict",
+        "Location": "pix2tex/cli.py",
+        "Original Method Line": "(180,197)",
+        "Extracted/Inlined Method Line": 180,
+        "Extracted/Inlined Lines": [
+            244.0,
+            245.0,
+            248.0,
+            249.0,
+            252.0,
+            253.0
+        ],
+        "Description": " The method predict from the module pix2tex/cli.py is extracted from method main from the module pix2tex/cli.py ",
+        "Commit": "e7ae9c31f14f330b24abb64ab4bc5e6b38ced1ea",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

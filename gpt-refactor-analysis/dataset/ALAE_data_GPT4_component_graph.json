@@ -1,0 +1,1170 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "save_sample",
+        "Updated": "save_sample",
+        "Location": "VAE.py",
+        "Original Line": 44,
+        "Updated Line": 44,
+        "Description": [
+            "The parameters [ samplez ] are added to the method save_sample from the module VAE.py"
+        ],
+        "Commit": "045bd810b886d925156053e1c918dc9d9048b519",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "net.py/EncodeBlock",
+        "Original Line": 51,
+        "Updated Line": 45,
+        "Description": [
+            "The parameters [ last ] are added to the method __init__ from the module net.py in class EncodeBlock"
+        ],
+        "Commit": "0f8fb8aacc7ec1d1802074c0d6304acd5a1b2892",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "net.py/DecodeBlock",
+        "Original Line": 87,
+        "Updated Line": 82,
+        "Description": [
+            "The parameters [ latent_size has_first_conv ] are added to the method __init__ from the module net.py in class DecodeBlock"
+        ],
+        "Commit": "0f8fb8aacc7ec1d1802074c0d6304acd5a1b2892",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "net.py/Discriminator",
+        "Original Line": 342,
+        "Updated Line": 351,
+        "Description": [
+            "The parameters [ zsize ] of the method __init__ from the module net.py in class Discriminator are changed/renamed to [startf]"
+        ],
+        "Commit": "0f8fb8aacc7ec1d1802074c0d6304acd5a1b2892",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "VAE",
+        "Updated": "Autoencoder",
+        "Location": "net.py",
+        "Description": " class VAE was renamed to class Autoencoder ",
+        "Commit": "0f8fb8aacc7ec1d1802074c0d6304acd5a1b2892",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "decode",
+        "Updated": "decode",
+        "Location": "net.py/VAE",
+        "Original Line": 147,
+        "Updated Line": 163,
+        "Description": [
+            "The parameters [ lod ] are added to the method decode from the module net.py in class VAE"
+        ],
+        "Commit": "16b1a9a3fae73baeb3ba9dc2bc09d140481be9b2",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "encode",
+        "Updated": "encode",
+        "Location": "net.py/VAE",
+        "Original Line": 128,
+        "Updated Line": 144,
+        "Description": [
+            "The parameters [ lod ] are added to the method encode from the module net.py in class VAE"
+        ],
+        "Commit": "16b1a9a3fae73baeb3ba9dc2bc09d140481be9b2",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "forward",
+        "Updated": "forward",
+        "Location": "net.py/VAE",
+        "Original Line": 158,
+        "Updated Line": 174,
+        "Description": [
+            "The parameters [ lod ] are added to the method forward from the module net.py in class VAE"
+        ],
+        "Commit": "16b1a9a3fae73baeb3ba9dc2bc09d140481be9b2",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "make_part",
+        "Updated": "make_part",
+        "Location": "make_recon_figure.py",
+        "Original Line": 199,
+        "Updated Line": 235,
+        "Description": [
+            "The parameters [ src rec ] are added to the method make_part from the module make_recon_figure.py"
+        ],
+        "Commit": "187b478666d56212647f4846b9e94b04aad086df",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "sample",
+        "Updated": "make",
+        "Location": "make_recon_figure.py",
+        "Original Method Line": "(82,83)",
+        "Extracted/Inlined Method Line": 161,
+        "Extracted/Inlined Lines": [
+            154.0,
+            155.0,
+            156.0,
+            157.0,
+            158.0,
+            159.0,
+            160.0,
+            161.0,
+            162.0,
+            163.0
+        ],
+        "Description": " The method make from the module make_recon_figure.py is extracted from method sample from the module make_recon_figure.py ",
+        "Commit": "187b478666d56212647f4846b9e94b04aad086df",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "prepare_celeba",
+        "Updated": "prepare_celeba",
+        "Location": "prepare_celeba_tfrecords.py",
+        "Original Line": 20,
+        "Updated Line": 22,
+        "Description": [
+            "The parameters [ train ] are added to the method prepare_celeba from the module prepare_celeba_tfrecords.py"
+        ],
+        "Commit": "18dbb388939957b57e1e9b98c1ec6ed60c5cf5bc",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "model_z_gan.py/Model",
+        "Original Line": 31,
+        "Updated Line": 30,
+        "Description": [
+            "The parameters [ generator encoder ] are added to the method __init__ from the module model_z_gan.py in class Model"
+        ],
+        "Commit": "1a17bfb198f2951a1821867efbf382f016ff7545",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "VAEMappingToLatent",
+        "Updated": "EncoderFC",
+        "Location": "net.py",
+        "Description": " class VAEMappingToLatent was renamed to class EncoderFC ",
+        "Commit": "1a17bfb198f2951a1821867efbf382f016ff7545",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "forward",
+        "Updated": "_forward",
+        "Location": "net.py/VAE",
+        "Original Line": 240,
+        "Updated Line": 253,
+        "Description": [
+            "The method forward from the module net.py in class VAE is renamed to _forward"
+        ],
+        "Commit": "300fba488708255d06800e29a9f0fe3e80291c7f",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "encode2",
+        "Updated": "encode2",
+        "Location": "net.py/Discriminator",
+        "Original Line": 336,
+        "Updated Line": 391,
+        "Description": [
+            "The parameters [ x_prev ] of the method encode2 from the module net.py in class Discriminator is/are removed"
+        ],
+        "Commit": "300fba488708255d06800e29a9f0fe3e80291c7f",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "forward",
+        "Updated": "forward",
+        "Location": "net.py/Discriminator",
+        "Original Line": 361,
+        "Updated Line": 419,
+        "Description": [
+            "The parameters [ x_prev ] of the method forward from the module net.py in class Discriminator is/are removed"
+        ],
+        "Commit": "300fba488708255d06800e29a9f0fe3e80291c7f",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "dataloader.py/TFRecordsDatasetImageNet",
+        "Original Line": 158,
+        "Updated Line": 159,
+        "Description": [
+            "The parameters [ train needs_labels ] are added to the method __init__ from the module dataloader.py in class TFRecordsDatasetImageNet"
+        ],
+        "Commit": "3b544b410fe64e25fe0c79c669dfc31ebd662e45",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "make_imagenet_dataloader",
+        "Updated": "make_imagenet_dataloader",
+        "Location": "dataloader.py",
+        "Original Line": 219,
+        "Updated Line": 241,
+        "Description": [
+            "The parameters [ do_random_crops ] are added to the method make_imagenet_dataloader from the module dataloader.py"
+        ],
+        "Commit": "3b544b410fe64e25fe0c79c669dfc31ebd662e45",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "forward",
+        "Updated": "forward",
+        "Location": "net.py/DecodeBlock",
+        "Original Line": 90,
+        "Updated Line": 90,
+        "Description": [
+            "The parameters [ noise ] are added to the method forward from the module net.py in class DecodeBlock"
+        ],
+        "Commit": "3bf3b1bbf66b95b2c300a747c84026d66125425e",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "decode",
+        "Updated": "decode",
+        "Location": "net.py/VAE",
+        "Original Line": 207,
+        "Updated Line": 209,
+        "Description": [
+            "The parameters [ noise ] are added to the method decode from the module net.py in class VAE"
+        ],
+        "Commit": "3bf3b1bbf66b95b2c300a747c84026d66125425e",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "decode2",
+        "Updated": "decode2",
+        "Location": "net.py/VAE",
+        "Original Line": 218,
+        "Updated Line": 220,
+        "Description": [
+            "The parameters [ noise ] are added to the method decode2 from the module net.py in class VAE"
+        ],
+        "Commit": "3bf3b1bbf66b95b2c300a747c84026d66125425e",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "dataloader.py/TFRecordsDataset",
+        "Original Line": 36,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ channels ] are added to the method __init__ from the module dataloader.py in class TFRecordsDataset"
+        ],
+        "Commit": "3e84da55251f32f1c12e74f5abe6eddacbc71e1f",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "prepare_celeba",
+        "Updated": "prepare_celeba",
+        "Location": "prepare_celeba_hq_tfrecords.py",
+        "Original Line": 21,
+        "Updated Line": 22,
+        "Description": [
+            "The parameters [ train ] are added to the method prepare_celeba from the module prepare_celeba_hq_tfrecords.py"
+        ],
+        "Commit": "41151049715e909980c27efed273385282180188",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "evaluate",
+        "Updated": "evaluate",
+        "Location": "metrics/fid.py/FID",
+        "Original Line": 43,
+        "Updated Line": 43,
+        "Description": [
+            "The parameters [ model ] are added to the method evaluate from the module metrics/fid.py in class FID"
+        ],
+        "Commit": "42ffaca93dffb7ad0b2ccdca22a9052f373384bd",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Evaluation"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "evaluate",
+        "Updated": "evaluate",
+        "Location": "ppl.py/PPL",
+        "Original Line": 63,
+        "Updated Line": 58,
+        "Description": [
+            "The parameters [ ffhq_style ] of the method evaluate from the module ppl.py in class PPL are changed/renamed to [celeba_style]"
+        ],
+        "Commit": "4e6cdcde50f74b36f029f9f875b6c17a2300a978",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "sample",
+        "Updated": "sample_",
+        "Location": "stylemix.py",
+        "Original Method Line": "(80,80)",
+        "Extracted/Inlined Method Line": 85,
+        "Extracted/Inlined Lines": [
+            81.0,
+            82.0,
+            93.0,
+            94.0,
+            95.0,
+            97.0,
+            98.0,
+            99.0,
+            100.0,
+            101.0,
+            103.0,
+            104.0,
+            106.0,
+            107.0,
+            109.0,
+            110.0,
+            112.0,
+            120.0,
+            126.0,
+            128.0,
+            130.0,
+            146.0,
+            147.0,
+            149.0,
+            178.0,
+            179.0,
+            180.0,
+            182.0,
+            183.0,
+            184.0,
+            185.0,
+            186.0,
+            187.0,
+            188.0,
+            189.0,
+            190.0,
+            191.0,
+            192.0,
+            193.0,
+            198.0,
+            199.0,
+            201.0,
+            202.0,
+            204.0,
+            205.0,
+            207.0,
+            209.0,
+            212.0,
+            213.0,
+            215.0,
+            218.0,
+            219.0,
+            221.0,
+            223.0,
+            224.0,
+            225.0,
+            226.0,
+            228.0,
+            229.0,
+            230.0,
+            231.0,
+            232.0,
+            234.0,
+            268.0
+        ],
+        "Description": " The method sample_ from the module stylemix.py is extracted from method sample from the module stylemix.py ",
+        "Commit": "4f6bdd0be60a8ef6e8acf9affe4ab5c49eb0ae30",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "Encoder_new",
+        "Updated": "EncoderWithFC",
+        "Location": "net.py",
+        "Description": " class Encoder_new was renamed to class EncoderWithFC ",
+        "Commit": "5cb36365a66effd5ed071d5ce4dd31abc5f8f879",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "net.py/EncodeBlock",
+        "Original Line": 46,
+        "Updated Line": 46,
+        "Description": [
+            "The parameters [ latent_size ] are added to the method __init__ from the module net.py in class EncodeBlock"
+        ],
+        "Commit": "6130383751fdc33fc17c69122c8c845004b3fc2b",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "forward",
+        "Updated": "forward",
+        "Location": "net.py/EncodeBlock",
+        "Original Line": 55,
+        "Updated Line": 62,
+        "Description": [
+            "The parameters [ styles ] of the method forward from the module net.py in class EncodeBlock is/are removed"
+        ],
+        "Commit": "6130383751fdc33fc17c69122c8c845004b3fc2b",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "net.py/FromRGB",
+        "Original Line": 130,
+        "Updated Line": 140,
+        "Description": [
+            "The parameters [ latent_size ] are added to the method __init__ from the module net.py in class FromRGB"
+        ],
+        "Commit": "6130383751fdc33fc17c69122c8c845004b3fc2b",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "forward",
+        "Updated": "forward",
+        "Location": "net.py/FromRGB",
+        "Original Line": 135,
+        "Updated Line": 150,
+        "Description": [
+            "The parameters [ styles ] of the method forward from the module net.py in class FromRGB is/are removed"
+        ],
+        "Commit": "6130383751fdc33fc17c69122c8c845004b3fc2b",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "net.py/ToRGB",
+        "Original Line": 146,
+        "Updated Line": 162,
+        "Description": [
+            "The parameters [ latent_size ] are added to the method __init__ from the module net.py in class ToRGB"
+        ],
+        "Commit": "6130383751fdc33fc17c69122c8c845004b3fc2b",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "Discriminator",
+        "Updated": "Encoder",
+        "Location": "net.py",
+        "Description": " class Discriminator was renamed to class Encoder ",
+        "Commit": "665a942f87b9282e49f4bdd6df6e46e3f344c767",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "Autoencoder",
+        "Updated": "Decoder",
+        "Location": "net.py",
+        "Description": " class Autoencoder was renamed to class Decoder ",
+        "Commit": "665a942f87b9282e49f4bdd6df6e46e3f344c767",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "forward",
+        "Updated": "forward",
+        "Location": "model.py/Model",
+        "Original Line": 113,
+        "Updated Line": 113,
+        "Description": [
+            "The parameters [ alt ] of the method forward from the module model.py in class Model is/are removed"
+        ],
+        "Commit": "66d57771bf18396a79dcfeadc515ac894d4d4692",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "net.py/EncodeBlock",
+        "Original Line": 46,
+        "Updated Line": 81,
+        "Description": [
+            "The parameters [ fused_scale ] are added to the method __init__ from the module net.py in class EncodeBlock"
+        ],
+        "Commit": "6ab4cec65e3c01cec78d6fb676af4f5ccd3653a9",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "net.py/DecodeBlock",
+        "Original Line": 90,
+        "Updated Line": 175,
+        "Description": [
+            "The parameters [ fused_scale ] are added to the method __init__ from the module net.py in class DecodeBlock"
+        ],
+        "Commit": "6ab4cec65e3c01cec78d6fb676af4f5ccd3653a9",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "net.py/FromRGB",
+        "Original Line": 140,
+        "Updated Line": 239,
+        "Description": [
+            "The parameters [ latent_size ] of the method __init__ from the module net.py in class FromRGB is/are removed"
+        ],
+        "Commit": "6ab4cec65e3c01cec78d6fb676af4f5ccd3653a9",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "net.py/ToRGB",
+        "Original Line": 162,
+        "Updated Line": 251,
+        "Description": [
+            "The parameters [ latent_size ] of the method __init__ from the module net.py in class ToRGB is/are removed"
+        ],
+        "Commit": "6ab4cec65e3c01cec78d6fb676af4f5ccd3653a9",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "forward",
+        "Updated": "forward",
+        "Location": "net.py/ToRGB",
+        "Original Line": 173,
+        "Updated Line": 257,
+        "Description": [
+            "The parameters [ style ] of the method forward from the module net.py in class ToRGB is/are removed"
+        ],
+        "Commit": "6ab4cec65e3c01cec78d6fb676af4f5ccd3653a9",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "Decoder",
+        "Updated": "Generator",
+        "Location": "net.py",
+        "Description": " class Decoder was renamed to class Generator ",
+        "Commit": "6ab4cec65e3c01cec78d6fb676af4f5ccd3653a9",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "__lshift__",
+        "Updated": "__iadd__",
+        "Location": "tracker.py/RunningMean",
+        "Original Line": 11,
+        "Updated Line": 29,
+        "Description": [
+            "The method __lshift__ from the module tracker.py in class RunningMean is renamed to __iadd__"
+        ],
+        "Commit": "6ab4cec65e3c01cec78d6fb676af4f5ccd3653a9",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "tracker.py/LossTracker",
+        "Original Line": 17,
+        "Updated Line": 60,
+        "Description": [
+            "The parameters [ output_folder ] are added to the method __init__ from the module tracker.py in class LossTracker"
+        ],
+        "Commit": "6ab4cec65e3c01cec78d6fb676af4f5ccd3653a9",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "add",
+        "Updated": "add",
+        "Location": "tracker.py/LossTracker",
+        "Original Line": 22,
+        "Updated Line": 72,
+        "Description": [
+            "The parameters [ pytorch ] are added to the method add from the module tracker.py in class LossTracker"
+        ],
+        "Commit": "6ab4cec65e3c01cec78d6fb676af4f5ccd3653a9",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "dataloader.py/TFRecordsDataset",
+        "Original Line": 36,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ seed ] are added to the method __init__ from the module dataloader.py in class TFRecordsDataset"
+        ],
+        "Commit": "70f067771bbeee21da775f9481266a75fac9b8e2",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "scheduler.py/ComboMultiStepLR",
+        "Original Line": 49,
+        "Updated Line": 84,
+        "Description": [
+            "The parameters [ base_lr ] are added to the method __init__ from the module scheduler.py in class ComboMultiStepLR"
+        ],
+        "Commit": "7258f824814d48ca60fc5f13fb31b2b16662aac2",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "set_batch_size",
+        "Updated": "set_batch_size",
+        "Location": "scheduler.py/ComboMultiStepLR",
+        "Original Line": 59,
+        "Updated Line": 94,
+        "Description": [
+            "The parameters [ lod ] are added to the method set_batch_size from the module scheduler.py in class ComboMultiStepLR"
+        ],
+        "Commit": "7258f824814d48ca60fc5f13fb31b2b16662aac2",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "principal_directions/generate_images.py/ImageGenerator",
+        "Original Line": 34,
+        "Updated Line": 29,
+        "Description": [
+            "The parameters [ num_keep attrib_indices ] of the method __init__ from the module principal_directions/generate_images.py in class ImageGenerator is/are removed"
+        ],
+        "Commit": "74d0388a544d73c8323d74f1e6b8da73595eed5e",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "do_attribute_traversal",
+        "Updated": "do_attribute_traversal",
+        "Location": "make_figures/make_traversarls.py",
+        "Original Line": 97,
+        "Updated Line": 99,
+        "Description": [
+            "The parameters [ inc ] of the method do_attribute_traversal from the module make_figures/make_traversarls.py are changed/renamed to [end]"
+        ],
+        "Commit": "752b3bade551193c03f8ec2fe9fbb1f5a23a907b",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "net.py/DiscriminatorBlock",
+        "Original Line": 152,
+        "Updated Line": 152,
+        "Description": [
+            "The parameters [ dense ] are added to the method __init__ from the module net.py in class DiscriminatorBlock"
+        ],
+        "Commit": "79d2796d2b01a130ce366fcb4a7c09b49b22ae9b",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "process_fold",
+        "Updated": "process_fold",
+        "Location": "ImageNetUtils.py",
+        "Original Line": 21,
+        "Updated Line": 21,
+        "Description": [
+            "The parameters [ fixed ] are added to the method process_fold from the module ImageNetUtils.py"
+        ],
+        "Commit": "88421f783aad375e85bd0cb249e739ae5396ae62",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "model_z_gan.py/Model",
+        "Original Line": 30,
+        "Updated Line": 30,
+        "Description": [
+            "The parameters [ z_regression ] are added to the method __init__ from the module model_z_gan.py in class Model"
+        ],
+        "Commit": "94c2b9b7fc38bd16f189c0c0a7dc62008074886d",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "make_dataloader",
+        "Updated": "make_dataloader",
+        "Location": "dataloader.py",
+        "Original Line": 118,
+        "Updated Line": 118,
+        "Description": [
+            "The parameters [ numpy ] are added to the method make_dataloader from the module dataloader.py"
+        ],
+        "Commit": "a9f794bdf9f12ba9844b0169b3b6e5310336c52a",
+        "Category": "General",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "compute_for_reals",
+        "Updated": "compute_for_reals",
+        "Location": "fid.py/FID",
+        "Original Line": 61,
+        "Updated Line": 61,
+        "Description": [
+            "The parameters [ lod ] are added to the method compute_for_reals from the module fid.py in class FID"
+        ],
+        "Commit": "ac71f266dae9879a5e06066874f0893715d8385b",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "compute_for_reals",
+        "Updated": "compute_for_reals_pad32",
+        "Location": "fid_rec.py/FID",
+        "Original Line": 62,
+        "Updated Line": 63,
+        "Description": [
+            "The method compute_for_reals from the module fid_rec.py in class FID is renamed to compute_for_reals_pad32"
+        ],
+        "Commit": "ac71f266dae9879a5e06066874f0893715d8385b",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "main",
+        "Updated": "main",
+        "Location": "Sample.py",
+        "Original Line": 48,
+        "Updated Line": 49,
+        "Description": [
+            "The parameters [ model_filename ] are added to the method main from the module Sample.py"
+        ],
+        "Commit": "afc3d08a3feb73b57b3474b890c3a818a92724b3",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "net.py/VAE",
+        "Original Line": 25,
+        "Updated Line": 25,
+        "Description": [
+            "The parameters [ maxf ] are added to the method __init__ from the module net.py in class VAE"
+        ],
+        "Commit": "afc3d08a3feb73b57b3474b890c3a818a92724b3",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "lreq.py/Linear",
+        "Original Line": 37,
+        "Updated Line": 40,
+        "Description": [
+            "The parameters [ lrmul implicit_lreq ] are added to the method __init__ from the module lreq.py in class Linear"
+        ],
+        "Commit": "b94c1e75dcf5714f8065552b6ecf3510d8aad3ca",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "lreq.py/Conv2d",
+        "Original Line": 61,
+        "Updated Line": 79,
+        "Description": [
+            "The parameters [ transform_kernel lrmul implicit_lreq ] are added to the method __init__ from the module lreq.py in class Conv2d"
+        ],
+        "Commit": "b94c1e75dcf5714f8065552b6ecf3510d8aad3ca",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "lreq.py/ConvTranspose2d",
+        "Original Line": 107,
+        "Updated Line": 160,
+        "Description": [
+            "The parameters [ transform_kernel lrmul implicit_lreq ] are added to the method __init__ from the module lreq.py in class ConvTranspose2d"
+        ],
+        "Commit": "b94c1e75dcf5714f8065552b6ecf3510d8aad3ca",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "dataloader.py/TFRecordsDataset",
+        "Original Line": 36,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ train needs_labels ] are added to the method __init__ from the module dataloader.py in class TFRecordsDataset"
+        ],
+        "Commit": "be5d9ea41be186b49f68a7861ca0a871b4c2e86c",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "prepare_mnist",
+        "Updated": "prepare_mnist",
+        "Location": "prepare_mnist_tfrecords.py",
+        "Original Line": 20,
+        "Updated Line": 21,
+        "Description": [
+            "The parameters [ mnist_images mnist_labels train ] are added to the method prepare_mnist from the module prepare_mnist_tfrecords.py"
+        ],
+        "Commit": "be5d9ea41be186b49f68a7861ca0a871b4c2e86c",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "evaluate",
+        "Updated": "evaluate",
+        "Location": "ppl.py/PPL",
+        "Original Line": 61,
+        "Updated Line": 63,
+        "Description": [
+            "The parameters [ ffhq_style ] are added to the method evaluate from the module ppl.py in class PPL"
+        ],
+        "Commit": "cfc2bb3b4f445ec7d7185db5c61dcd8cd5a8c535",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "sample_",
+        "Updated": "_main",
+        "Location": "stylemix.py",
+        "Original Line": 85,
+        "Updated Line": 47,
+        "Description": [
+            "The method sample_ from the module stylemix.py is renamed to _main"
+        ],
+        "Commit": "d01f2f50e3eaeb9e77e50a886b1ab24961739221",
+        "Category": "General",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "Encoder_old",
+        "Updated": "EncoderDefault",
+        "Location": "net.py",
+        "Description": " class Encoder_old was renamed to class EncoderDefault ",
+        "Commit": "d43e06174b9823701d20d39a31538fac79828f7b",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "VAEMappingToLatentNoStyle",
+        "Updated": "MappingDNoStyle",
+        "Location": "net.py",
+        "Description": " class VAEMappingToLatentNoStyle was renamed to class MappingDNoStyle ",
+        "Commit": "d43e06174b9823701d20d39a31538fac79828f7b",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "VAEMappingFromLatent",
+        "Updated": "MappingF",
+        "Location": "net.py",
+        "Description": " class VAEMappingFromLatent was renamed to class MappingF ",
+        "Commit": "d43e06174b9823701d20d39a31538fac79828f7b",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "save_sample",
+        "Updated": "save_sample",
+        "Location": "train_alae.py",
+        "Original Line": 36,
+        "Updated Line": 36,
+        "Description": [
+            "The parameters [ cmodel ] are added to the method save_sample from the module train_alae.py"
+        ],
+        "Commit": "d43e06174b9823701d20d39a31538fac79828f7b",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "generate",
+        "Updated": "generate",
+        "Location": "model_ae_gan.py/Model",
+        "Original Line": 75,
+        "Updated Line": 75,
+        "Description": [
+            "The parameters [ noise no_truncation ] are added to the method generate from the module model_ae_gan.py in class Model"
+        ],
+        "Commit": "e9833b3145da3a4f34dc1548215dfe99b01c5f3d",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "net.py/DecodeBlock",
+        "Original Line": 175,
+        "Updated Line": 191,
+        "Description": [
+            "The parameters [ layer ] are added to the method __init__ from the module net.py in class DecodeBlock"
+        ],
+        "Commit": "e9833b3145da3a4f34dc1548215dfe99b01c5f3d",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "forward",
+        "Updated": "forward",
+        "Location": "net.py/DecodeBlock",
+        "Original Line": 205,
+        "Updated Line": 223,
+        "Description": [
+            "The parameters [ noise ] are added to the method forward from the module net.py in class DecodeBlock"
+        ],
+        "Commit": "e9833b3145da3a4f34dc1548215dfe99b01c5f3d",
+        "Category": "ML-Specific",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "main",
+        "Updated": "main",
+        "Location": "VAE.py",
+        "Original Line": 52,
+        "Updated Line": 58,
+        "Description": [
+            "The parameters [ folding_id total_classes inliner_classes folds ] of the method main from the module VAE.py is/are removed"
+        ],
+        "Commit": "f587c03dbde53040230e365e92cec8ab90235837",
+        "Category": "General",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

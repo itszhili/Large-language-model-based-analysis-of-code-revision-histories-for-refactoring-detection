@@ -1,0 +1,68 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "clevercsv/detect_type.py/TypeDetector",
+        "Original Line": 248,
+        "Updated Line": 23,
+        "Description": [
+            "The parameters [ patterns ] are added to the method __init__ from the module clevercsv/detect_type.py in class TypeDetector"
+        ],
+        "Commit": "82f84402d35556e09bad8e433550d5b5c53621b4",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "Dialect",
+        "Updated": "SimpleDialect",
+        "Location": "ccsv/dialect.py",
+        "Description": " class Dialect was renamed to class SimpleDialect ",
+        "Commit": "a06e5cd9dfa8686cb13e4153ec3820d0ff7f4982",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "_build_file",
+        "Updated": "_build_file",
+        "Location": "tests/test_unit/test_console.py/ConsoleTestCase",
+        "Original Line": 22,
+        "Updated Line": 22,
+        "Description": [
+            "The parameters [ newline ] are added to the method _build_file from the module tests/test_unit/test_console.py in class ConsoleTestCase"
+        ],
+        "Commit": "b3d6bf300407f4bb992fafa0ee299ca6006307d5",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "WaitForTravis",
+        "Updated": "WaitForCI",
+        "Location": "make_release.py",
+        "Description": " class WaitForTravis was renamed to class WaitForCI ",
+        "Commit": "d52167a637546133248ffaa07e64fa8fc431949b",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "DeactivateVenv",
+        "Updated": "RemoveVenv",
+        "Location": "make_release.py",
+        "Description": " class DeactivateVenv was renamed to class RemoveVenv ",
+        "Commit": "d52167a637546133248ffaa07e64fa8fc431949b",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": "Rename Class",
+        "Original": "MakeDist",
+        "Updated": "UpdateReadme",
+        "Location": "make_release.py",
+        "Description": " class MakeDist was renamed to class UpdateReadme ",
+        "Commit": "d52167a637546133248ffaa07e64fa8fc431949b",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

@@ -1,0 +1,61 @@
+[
+    {
+        "Refactoring Type": "Extract Method",
+        "Original": "stochastic_encode",
+        "Updated": "ratio_to_time",
+        "Location": "example_v2/stable-diffusion/ldm/models/diffusion/dpm_solver/sampler.py/DPMSolverSampler",
+        "Original Method Line": "(92,92)",
+        "Extracted/Inlined Method Line": 152,
+        "Extracted/Inlined Lines": [
+            94.0
+        ],
+        "Description": " The method ratio_to_time from the module example_v2/stable-diffusion/ldm/models/diffusion/dpm_solver/sampler.py in class DPMSolverSampler is extracted from method stochastic_encode from the module example_v2/stable-diffusion/ldm/models/diffusion/dpm_solver/sampler.py in class DPMSolverSampler ",
+        "Commit": "449a192092f5f22587c5310cdedd9b0f59f123c2",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "add_noise",
+        "Updated": "add_noise",
+        "Location": "dpm_solver_pytorch.py/DPM_Solver",
+        "Original Line": 1020,
+        "Updated Line": 1020,
+        "Description": [
+            "The parameters [ noise ] are added to the method add_noise from the module dpm_solver_pytorch.py in class DPM_Solver"
+        ],
+        "Commit": "9c9d1afab83b220427222a915d359b019c9418b5",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "add_noise",
+        "Updated": "add_noise",
+        "Location": "example_v2/score_sde_pytorch/dpm_solver.py/DPM_Solver",
+        "Original Line": 1020,
+        "Updated Line": 1020,
+        "Description": [
+            "The parameters [ noise ] are added to the method add_noise from the module example_v2/score_sde_pytorch/dpm_solver.py in class DPM_Solver"
+        ],
+        "Commit": "9c9d1afab83b220427222a915d359b019c9418b5",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "add_noise",
+        "Updated": "add_noise",
+        "Location": "example_v2/stable-diffusion/ldm/models/diffusion/dpm_solver/dpm_solver.py/DPM_Solver",
+        "Original Line": 1020,
+        "Updated Line": 1020,
+        "Description": [
+            "The parameters [ noise ] are added to the method add_noise from the module example_v2/stable-diffusion/ldm/models/diffusion/dpm_solver/dpm_solver.py in class DPM_Solver"
+        ],
+        "Commit": "9c9d1afab83b220427222a915d359b019c9418b5",
+        "GPT4 Component Graph": "Model Development"
+    }
+]

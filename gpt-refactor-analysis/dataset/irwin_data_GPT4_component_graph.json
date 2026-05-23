@@ -1,0 +1,361 @@
+[
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "report",
+        "Updated": "report",
+        "Location": "modules/irwin/Irwin.py/Irwin",
+        "Original Line": 71,
+        "Updated Line": 71,
+        "Description": [
+            "The parameters [ owner ] are added to the method report from the module modules/irwin/Irwin.py in class Irwin"
+        ],
+        "Commit": "1ca6caf6425c81791e77c61c3bb746ba68c6afa1",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "assessMove",
+        "Updated": "assessMove",
+        "Location": "modules/irwin/Irwin.py/Irwin",
+        "Original Line": 27,
+        "Updated Line": 27,
+        "Description": [
+            "The parameters [ gameAnalysis ] are added to the method assessMove from the module modules/irwin/Irwin.py in class Irwin"
+        ],
+        "Commit": "2e9b5e1046a99aada34e0466a13c8f1b088b238b",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": "Inline Method",
+        "Original": "activation",
+        "Updated": "activationWeight",
+        "Location": "modules/irwin/Irwin.py/Irwin",
+        "Original Method Line": "(117,117)",
+        "Extracted/Inlined Method Line": 125,
+        "Extracted/Inlined Lines": [
+            124.0
+        ],
+        "Description": " The method activationWeight from the module modules/irwin/Irwin.py in class Irwin is inlined into method activation from the module modules/irwin/Irwin.py in class Irwin ",
+        "Commit": "3de806c1da139a16b1e235a88771d6958baf9f5b",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "modules/irwin/Irwin.py/Irwin",
+        "Original Line": 20,
+        "Updated Line": 20,
+        "Description": [
+            "The parameters [ config ] of the method __init__ from the module modules/irwin/Irwin.py in class Irwin is/are removed"
+        ],
+        "Commit": "465fde869e2bf153b5a41e077810df3c11bbe742",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "byId",
+        "Updated": "byId",
+        "Location": "modules/game/Player.py/PlayerDB",
+        "Original Line": 48,
+        "Updated Line": 40,
+        "Description": [
+            "The parameters [ _id ] of the method byId from the module modules/game/Player.py in class PlayerDB are changed/renamed to [userId]"
+        ],
+        "Commit": "490319fcee67e14dc211dd1a53ef383b6c8a9e9b",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "wordTensor",
+        "Updated": "wordTensor",
+        "Location": "modules/irwin/PlayerModel.py/PlayerModel",
+        "Original Line": 161,
+        "Updated Line": 158,
+        "Description": [
+            "The parameters [ pgas ] of the method wordTensor from the module modules/irwin/PlayerModel.py in class PlayerModel are changed/renamed to [pga]"
+        ],
+        "Commit": "539d5c5ff3c2b85c53a1d25694cb255bef7fbbe1",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "allAmbiguous",
+        "Updated": "ambiguous",
+        "Location": "modules/core/AnalysedMove.py/AnalysedMove",
+        "Original Line": 25,
+        "Updated Line": 25,
+        "Description": [
+            "The method allAmbiguous from the module modules/core/AnalysedMove.py in class AnalysedMove is renamed to ambiguous"
+        ],
+        "Commit": "583b8c1189b893bcfbce774ea65b3eaf92f403ab",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "new",
+        "Updated": "new",
+        "Location": "modules/queue/ModReport.py/ModReport",
+        "Original Line": 8,
+        "Updated Line": 8,
+        "Description": [
+            "The parameters [ score ] are added to the method new from the module modules/queue/ModReport.py in class ModReport"
+        ],
+        "Commit": "6c7cc46727c189bf53851f10b0ff976ae46695df",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "modules/irwin/Irwin.py/TrainAndEvaluate",
+        "Original Line": 176,
+        "Updated Line": 176,
+        "Description": [
+            "The parameters [ falsePositivesDB ] of the method __init__ from the module modules/irwin/Irwin.py in class TrainAndEvaluate are changed/renamed to [falseReportsDB]"
+        ],
+        "Commit": "6e115edadb7d398d129997ee6c9f559486b8574b",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "avgGameActivation",
+        "Updated": "avgAnalysedGameActivation",
+        "Location": "modules/irwin/PlayerGameActivations.py/PlayerGameActivations",
+        "Original Line": 18,
+        "Updated Line": 18,
+        "Description": [
+            "The method avgGameActivation from the module modules/irwin/PlayerGameActivations.py in class PlayerGameActivations is renamed to avgAnalysedGameActivation"
+        ],
+        "Commit": "6f7ef60043a36a889af93d87e2218c244cc24a38",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "winningChancesLossPercent",
+        "Updated": "winningChancesLossPercent",
+        "Location": "modules/game/GameAnalysis.py/GameAnalysis",
+        "Original Line": 43,
+        "Updated Line": 43,
+        "Description": [
+            "The parameters [ usePV ] are added to the method winningChancesLossPercent from the module modules/game/GameAnalysis.py in class GameAnalysis"
+        ],
+        "Commit": "7897e13af5f410081241ff142926f0b3f6a172f0",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "gamesbyIds",
+        "Updated": "gamesByIds",
+        "Location": "modules/game/Api.py/Api",
+        "Original Line": 40,
+        "Updated Line": 40,
+        "Description": [
+            "The method gamesbyIds from the module modules/game/Api.py in class Api is renamed to gamesByIds"
+        ],
+        "Commit": "8b20b65ca253e602ab379b1110f2f122709d833b",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "allOpen",
+        "Updated": "allOpen",
+        "Location": "modules/queue/ModReport.py/ModReportDB",
+        "Original Line": 51,
+        "Updated Line": 51,
+        "Description": [
+            "The parameters [ limit ] are added to the method allOpen from the module modules/queue/ModReport.py in class ModReportDB"
+        ],
+        "Commit": "bc5e771c13ca1e9e9dcb72c7b9debbf586d9944c",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "__init__",
+        "Updated": "__init__",
+        "Location": "modules/client/Env.py/Env",
+        "Original Line": 8,
+        "Updated Line": 8,
+        "Description": [
+            "The parameters [ token ] are added to the method __init__ from the module modules/client/Env.py in class Env"
+        ],
+        "Commit": "c1d7936c5012defbd927ba308fa2091a2b8dd87c",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "reads",
+        "Updated": "reads",
+        "Location": "modules/irwin/IrwinReport.py/IrwinReportBSONHandler",
+        "Original Line": 7,
+        "Updated Line": 13,
+        "Description": [
+            "The parameters [ bson ] of the method reads from the module modules/irwin/IrwinReport.py in class IrwinReportBSONHandler are changed/renamed to [activation]"
+        ],
+        "Commit": "dbcf231f8fda126c94972f5bfec7af6874491715",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "complete",
+        "Updated": "__complete__",
+        "Location": "modules/queue/DeepPlayerQueue.py/DeepPlayerQueue",
+        "Original Line": 39,
+        "Updated Line": 41,
+        "Description": [
+            "The method complete from the module modules/queue/DeepPlayerQueue.py in class DeepPlayerQueue is renamed to __complete__"
+        ],
+        "Commit": "e0bc0bd8d079b588b89e56572bc0c82cd7454c75",
+        "GPT4 Component Graph": "Model Development"
+    },
+    {
+        "Refactoring Type": [
+            "Add Parameter"
+        ],
+        "Original": "gameActivation",
+        "Updated": "gameActivation",
+        "Location": "modules/irwin/Irwin.py/Irwin",
+        "Original Line": 55,
+        "Updated Line": 55,
+        "Description": [
+            "The parameters [ gameLength ] are added to the method gameActivation from the module modules/irwin/Irwin.py in class Irwin"
+        ],
+        "Commit": "e1de50a57e50fd5c0e19d7dcf872296d82b0aab7",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "createReport",
+        "Updated": "createReport",
+        "Location": "modules/irwin/Irwin.py/Irwin",
+        "Original Line": 31,
+        "Updated Line": 31,
+        "Description": [
+            "The parameters [ analysedGames ] of the method createReport from the module modules/irwin/Irwin.py in class Irwin are changed/renamed to [gameAnalysedGames]"
+        ],
+        "Commit": "e7aefee253981843fc0171d43662a9988a6b2907",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change Return Type"
+        ],
+        "Original": "nextEngineAnalysis",
+        "Updated": "nextEngineAnalysis",
+        "Location": "modules/queue/Queue.py/Queue",
+        "Original Line": 10,
+        "Updated Line": 10,
+        "Description": [
+            "The return type of method nextEngineAnalysis from the module modules/queue/Queue.py in class Queue is updated"
+        ],
+        "Commit": "e7aefee253981843fc0171d43662a9988a6b2907",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Rename Method"
+        ],
+        "Original": "queue",
+        "Updated": "analysisQueue",
+        "Location": "webapp.py",
+        "Original Line": 20,
+        "Updated Line": 20,
+        "Description": [
+            "The method queue from the module webapp.py is renamed to analysisQueue"
+        ],
+        "Commit": "ef256ca6a07e9f43978e7d6a1d0ab59d989df13d",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Change/Rename Parameter"
+        ],
+        "Original": "getKey",
+        "Updated": "getKey",
+        "Location": "modules/core/PlayerAssessment.py",
+        "Original Line": 22,
+        "Updated Line": 52,
+        "Description": [
+            "The parameters [ json ] of the method getKey from the module modules/core/PlayerAssessment.py are changed/renamed to [bson]"
+        ],
+        "Commit": "f1968555a74927d5692e5874a7d75de8d234d027",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "tensorInputChunks",
+        "Updated": "tensorInputChunks",
+        "Location": "modules/core/GameAnalyses.py/GameAnalyses",
+        "Original Line": 28,
+        "Updated Line": 28,
+        "Description": [
+            "The parameters [ titled ] of the method tensorInputChunks from the module modules/core/GameAnalyses.py in class GameAnalyses is/are removed"
+        ],
+        "Commit": "fbd736444d8c6b0472d4bf98a6a8e015047eb71c",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "tensorInputMoves",
+        "Updated": "tensorInputMoves",
+        "Location": "modules/core/GameAnalyses.py/GameAnalyses",
+        "Original Line": 23,
+        "Updated Line": 23,
+        "Description": [
+            "The parameters [ titled ] of the method tensorInputMoves from the module modules/core/GameAnalyses.py in class GameAnalyses is/are removed"
+        ],
+        "Commit": "fbd736444d8c6b0472d4bf98a6a8e015047eb71c",
+        "GPT4 Component Graph": "Data Processing"
+    },
+    {
+        "Refactoring Type": [
+            "Remove Parameter"
+        ],
+        "Original": "new",
+        "Updated": "new",
+        "Location": "modules/queue/ModReport.py/ModReport",
+        "Original Line": 8,
+        "Updated Line": 8,
+        "Description": [
+            "The parameters [ score ] of the method new from the module modules/queue/ModReport.py in class ModReport is/are removed"
+        ],
+        "Commit": "ff14c517984ab0c19cc373e27213012ad48d4679",
+        "GPT4 Component Graph": "Data Processing"
+    }
+]
